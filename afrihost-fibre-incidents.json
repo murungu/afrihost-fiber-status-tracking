@@ -452,6 +452,69 @@
           "suburbs": []
         },
         {
+          "id": 7105,
+          "title": "Vumatel Reach Outage | Naidooville and Umkomaas",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Naidooville and Umkomaas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-23 07:58:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7105,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7105,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 147,
+              "name": "Craigieburn",
+              "slug": "craigieburn",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7105,
+                "city_id": 147
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 7103,
           "title": "Netstream Outage | The Pinnacle, Il Villaggio and Northern View",
           "description": "Netstream has informed us of a network outage affecting The Pinnacle, Il Villaggio and Northern View, affected clients will experience limited to no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
@@ -969,16 +1032,16 @@
           "suburbs": []
         },
         {
-          "id": 7105,
-          "title": "Vumatel Reach Outage | Naidooville and Umkomaas",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Naidooville and Umkomaas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7106,
+          "title": "Vumatel Reach Outage | Pimville",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Pimville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-07-23 07:58:34",
+          "created_at": "2022-07-23 08:53:24",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1000,7 +1063,7 @@
               "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7105,
+                "notice_id": 7106,
                 "category_id": 24
               }
             }
@@ -1008,28 +1071,39 @@
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 7105,
-                "province_id": 2
+                "notice_id": 7106,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 147,
-              "name": "Craigieburn",
-              "slug": "craigieburn",
-              "province_id": 2,
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 7105,
-                "city_id": 147
+                "notice_id": 7106,
+                "city_id": 17
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 2017,
+              "name": "Pimville",
+              "slug": "pimville",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 7106,
+                "suburb_id": 2017
+              }
+            }
+          ]
         },
         {
           "id": 7078,
@@ -1328,16 +1402,16 @@
           ]
         },
         {
-          "id": 7083,
-          "title": "Century City Connect Maintenance | Clara Anna Fontein",
-          "description": "Century City Connect is conducting maintenance in Clara Anna Fontein from 2022-07-30 03:00 to 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 7084,
+          "title": "Century City Connect Maintenance | Cape Gate Crescent",
+          "description": "Century City Connect is conducting maintenance in Cape Gate Crescent from 2022-07-30 03:00 to 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-07-21 11:44:34",
+          "created_at": "2022-07-21 11:53:35",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1359,7 +1433,7 @@
               "slug": "century-city-connect",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7083,
+                "notice_id": 7084,
                 "category_id": 3
               }
             }
@@ -1371,106 +1445,32 @@
               "name": "Western Cape",
               "slug": "western-cape",
               "pivot": {
-                "notice_id": 7083,
+                "notice_id": 7084,
                 "province_id": 3
               }
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
+              "id": 189,
+              "name": "Brackenfell",
+              "slug": "brackenfell",
               "province_id": 3,
               "pivot": {
-                "notice_id": 7083,
-                "city_id": 240
+                "notice_id": 7084,
+                "city_id": 189
               }
             }
           ],
           "suburbs": [
             {
-              "id": 3350,
-              "name": "Cape Farms",
-              "slug": "cape-farms",
-              "city_id": 240,
+              "id": 1967,
+              "name": "Kleinbron",
+              "slug": "kleinbron",
+              "city_id": 189,
               "pivot": {
-                "notice_id": 7083,
-                "suburb_id": 3350
-              }
-            }
-          ]
-        },
-        {
-          "id": 7085,
-          "title": "Metrofibre Maintenance | Linmeyer",
-          "description": "Metrofibre is conducting maintenance in Linmeyer from 2022-07-26 09:00 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-07-21 13:08:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7085,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7085,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7085,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 394,
-              "name": "Linmeyer",
-              "slug": "linmeyer",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 7085,
-                "suburb_id": 394
+                "notice_id": 7084,
+                "suburb_id": 1967
               }
             }
           ]
@@ -1545,6 +1545,80 @@
               "pivot": {
                 "notice_id": 7086,
                 "suburb_id": 852
+              }
+            }
+          ]
+        },
+        {
+          "id": 7083,
+          "title": "Century City Connect Maintenance | Clara Anna Fontein",
+          "description": "Century City Connect is conducting maintenance in Clara Anna Fontein from 2022-07-30 03:00 to 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-21 11:44:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 3,
+              "name": "Century City Connect",
+              "slug": "century-city-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7083,
+                "category_id": 3
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7083,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7083,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3350,
+              "name": "Cape Farms",
+              "slug": "cape-farms",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7083,
+                "suburb_id": 3350
               }
             }
           ]
@@ -1739,16 +1813,16 @@
           ]
         },
         {
-          "id": 7084,
-          "title": "Century City Connect Maintenance | Cape Gate Crescent",
-          "description": "Century City Connect is conducting maintenance in Cape Gate Crescent from 2022-07-30 03:00 to 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 7085,
+          "title": "Metrofibre Maintenance | Linmeyer",
+          "description": "Metrofibre is conducting maintenance in Linmeyer from 2022-07-26 09:00 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-07-21 11:53:35",
+          "created_at": "2022-07-21 13:08:43",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1765,49 +1839,49 @@
           },
           "categories": [
             {
-              "id": 3,
-              "name": "Century City Connect",
-              "slug": "century-city-connect",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7084,
-                "category_id": 3
+                "notice_id": 7085,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 7084,
-                "province_id": 3
+                "notice_id": 7085,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 189,
-              "name": "Brackenfell",
-              "slug": "brackenfell",
-              "province_id": 3,
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 7084,
-                "city_id": 189
+                "notice_id": 7085,
+                "city_id": 8
               }
             }
           ],
           "suburbs": [
             {
-              "id": 1967,
-              "name": "Kleinbron",
-              "slug": "kleinbron",
-              "city_id": 189,
+              "id": 394,
+              "name": "Linmeyer",
+              "slug": "linmeyer",
+              "city_id": 8,
               "pivot": {
-                "notice_id": 7084,
-                "suburb_id": 1967
+                "notice_id": 7085,
+                "suburb_id": 394
               }
             }
           ]
