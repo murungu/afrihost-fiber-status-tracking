@@ -400,16 +400,16 @@
           "suburbs": []
         },
         {
-          "id": 7094,
-          "title": "Vumatel Reach Outage | Eersterust",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Eersterust, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7066,
+          "title": "Vumatel Reach Notice | Gauteng",
+          "description": "We are investigating reports of issues connecting to DSTV, Netflix, Youtube and other services affecting client on the Vumatel Reach Network in Gauteng. We are working on identifying the cause and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-07-21 16:39:09",
+          "created_at": "2022-07-19 16:02:23",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -431,7 +431,7 @@
               "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7094,
+                "notice_id": 7066,
                 "category_id": 24
               }
             }
@@ -443,35 +443,13 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 7094,
+                "notice_id": 7066,
                 "province_id": 1
               }
             }
           ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7094,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1342,
-              "name": "Eersterust",
-              "slug": "eersterust",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 7094,
-                "suburb_id": 1342
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 7117,
@@ -1339,6 +1317,80 @@
           ]
         },
         {
+          "id": 7094,
+          "title": "Vumatel Reach Outage | Eersterust",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Eersterust, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-21 16:39:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7094,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7094,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7094,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1342,
+              "name": "Eersterust",
+              "slug": "eersterust",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 7094,
+                "suburb_id": 1342
+              }
+            }
+          ]
+        },
+        {
           "id": 7091,
           "title": "Vumatel Villages Outage | Overbaakens",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Overbaakens, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1411,58 +1463,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 7066,
-          "title": "Vumatel Reach Notice | Gauteng",
-          "description": "We are investigating reports of issues connecting to DSTV, Netflix, Youtube and other services affecting client on the Vumatel Reach Network in Gauteng. We are working on identifying the cause and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-07-19 16:02:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7066,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7066,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         },
         {
           "id": 7089,
@@ -1819,6 +1819,80 @@
               "pivot": {
                 "notice_id": 7069,
                 "suburb_id": 483
+              }
+            }
+          ]
+        },
+        {
+          "id": 7119,
+          "title": "Frogfoot Outage | St Kitts",
+          "description": "Frogfoot has informed us of a network outage affecting St Kitts, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-25 11:27:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7119,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7119,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7119,
+                "city_id": 2
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 111,
+              "name": "Rynfield",
+              "slug": "rynfield",
+              "city_id": 2,
+              "pivot": {
+                "notice_id": 7119,
+                "suburb_id": 111
               }
             }
           ]
