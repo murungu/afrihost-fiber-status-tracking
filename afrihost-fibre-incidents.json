@@ -400,16 +400,16 @@
           "suburbs": []
         },
         {
-          "id": 7098,
-          "title": "Vumatel Outage | Maroeladal",
-          "description": "Vumatel has informed us of a network outage affecting Maroeladal, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7066,
+          "title": "Vumatel Reach Notice | Gauteng",
+          "description": "We are investigating reports of issues connecting to DSTV, Netflix, Youtube and other services affecting client on the Vumatel Reach Network in Gauteng. We are working on identifying the cause and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-07-22 11:27:16",
+          "created_at": "2022-07-19 16:02:23",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -431,18 +431,8 @@
               "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7098,
+                "notice_id": 7066,
                 "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7098,
-                "category_id": 18
               }
             }
           ],
@@ -453,35 +443,13 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 7098,
+                "notice_id": 7066,
                 "province_id": 1
               }
             }
           ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7098,
-                "city_id": 53
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1371,
-              "name": "Maroeladal",
-              "slug": "maroeladal",
-              "city_id": 53,
-              "pivot": {
-                "notice_id": 7098,
-                "suburb_id": 1371
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 7119,
@@ -553,80 +521,6 @@
               "pivot": {
                 "notice_id": 7119,
                 "suburb_id": 111
-              }
-            }
-          ]
-        },
-        {
-          "id": 7117,
-          "title": "Metrofibre Outage | Shamroc",
-          "description": "Metrofibre has informed us of a network outage affecting Shamroc, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-07-25 09:15:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7117,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7117,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7117,
-                "city_id": 50
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 391,
-              "name": "Vorna Valley",
-              "slug": "vorna-valley",
-              "city_id": 50,
-              "pivot": {
-                "notice_id": 7117,
-                "suburb_id": 391
               }
             }
           ]
@@ -1339,6 +1233,90 @@
           ]
         },
         {
+          "id": 7098,
+          "title": "Vumatel Outage | Maroeladal",
+          "description": "Vumatel has informed us of a network outage affecting Maroeladal, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-22 11:27:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7098,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7098,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7098,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7098,
+                "city_id": 53
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1371,
+              "name": "Maroeladal",
+              "slug": "maroeladal",
+              "city_id": 53,
+              "pivot": {
+                "notice_id": 7098,
+                "suburb_id": 1371
+              }
+            }
+          ]
+        },
+        {
           "id": 7094,
           "title": "Vumatel Reach Outage | Eersterust",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Eersterust, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1411,58 +1389,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 7066,
-          "title": "Vumatel Reach Notice | Gauteng",
-          "description": "We are investigating reports of issues connecting to DSTV, Netflix, Youtube and other services affecting client on the Vumatel Reach Network in Gauteng. We are working on identifying the cause and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-07-19 16:02:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7066,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7066,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         },
         {
           "id": 7091,
@@ -2593,80 +2519,6 @@
       ],
       "closed": [
         {
-          "id": 7096,
-          "title": "Vumatel Reach Outage | Windmill Park",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Windmill Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-07-23 06:57:03",
-          "should_notify": 0,
-          "created_at": "2022-07-22 08:23:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7096,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7096,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7096,
-                "city_id": 22
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1113,
-              "name": "Windmill Park",
-              "slug": "windmill-park",
-              "city_id": 22,
-              "pivot": {
-                "notice_id": 7096,
-                "suburb_id": 1113
-              }
-            }
-          ]
-        },
-        {
           "id": 7097,
           "title": "Vumatel Outage | Honeydew Manor",
           "description": "Vumatel has informed us of a network outage affecting Honeydew Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3287,6 +3139,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7117,
+          "title": "Metrofibre Outage | Shamroc",
+          "description": "Metrofibre has informed us of a network outage affecting Shamroc, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-07-25 12:33:36",
+          "should_notify": 0,
+          "created_at": "2022-07-25 09:15:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7117,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7117,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7117,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 391,
+              "name": "Vorna Valley",
+              "slug": "vorna-valley",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 7117,
+                "suburb_id": 391
+              }
+            }
+          ]
         }
       ]
     },
