@@ -6,6 +6,58 @@
     "notices": {
       "open": [
         {
+          "id": 7165,
+          "title": "Metrofibre Degraded Services | Pietermaritzburg and KwaZulu-Natal",
+          "description": "Metrofibre has informed us of a network outage affecting  Pietermaritzburg and KwaZulu-Natal, affected clients will experience limited connectivity and degraded services. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-29 10:58:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7165,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7165,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 7052,
           "title": "International latency",
           "description": "Please note users on the Afrihost network may experience increased latency to international sites and services.  Our engineers are investigating the cause. We apologise for any inconvenience caused.",
@@ -2478,16 +2530,16 @@
           ]
         },
         {
-          "id": 7163,
-          "title": "Vumatel Outage | Northriding",
-          "description": "Vumatel has informed us of a network outage affecting Northriding, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7164,
+          "title": "Vumatel Villages Outage | Thornhill Estate",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Thornhill Estate, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-07-29 10:07:25",
+          "created_at": "2022-07-29 10:55:35",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2509,18 +2561,8 @@
               "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7163,
+                "notice_id": 7164,
                 "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7163,
-                "category_id": 18
               }
             }
           ],
@@ -2531,35 +2573,24 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 7163,
+                "notice_id": 7164,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
               "province_id": 1,
               "pivot": {
-                "notice_id": 7163,
-                "city_id": 53
+                "notice_id": 7164,
+                "city_id": 49
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 80,
-              "name": "North Riding",
-              "slug": "north-riding",
-              "city_id": 53,
-              "pivot": {
-                "notice_id": 7163,
-                "suburb_id": 80
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 7083,
@@ -3080,69 +3111,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 7121,
-          "title": "Metrofibre Outage | Akasia",
-          "description": "Metrofibre has informed us of a network outage affecting Akasia, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-07-29 07:19:05",
-          "should_notify": 0,
-          "created_at": "2022-07-25 14:18:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7121,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7121,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7121,
-                "city_id": 1
-              }
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 7122,
           "title": "Frogfoot Outage | George North",
@@ -3792,15 +3760,99 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7163,
+          "title": "Vumatel Outage | Northriding",
+          "description": "Vumatel has informed us of a network outage affecting Northriding, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-07-29 10:53:30",
+          "should_notify": 0,
+          "created_at": "2022-07-29 10:07:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7163,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7163,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7163,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7163,
+                "city_id": 53
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 80,
+              "name": "North Riding",
+              "slug": "north-riding",
+              "city_id": 53,
+              "pivot": {
+                "notice_id": 7163,
+                "suburb_id": 80
+              }
+            }
+          ]
         }
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
