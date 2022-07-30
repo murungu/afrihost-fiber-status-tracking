@@ -58,66 +58,6 @@
           "suburbs": []
         },
         {
-          "id": 7170,
-          "title": "Vodacom Fibre outage | KwaZulu-Natal",
-          "description": "Vodacom Fibre has informed us of a network outage affecting KwaZulu-Natal, affected clients will experience no connectivity. Vodacom Fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-07-29 20:44:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 31,
-              "name": "Vodacom",
-              "slug": "vodacom",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7170,
-                "category_id": 31
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 506,
-              "notice_id": 7170,
-              "content": "Vodacom have advised that their engineers are on-site and are still working on resolving the outage as soon as possible. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2022-07-30 11:27:44"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 7170,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 7052,
           "title": "International latency",
           "description": "Please note users on the Afrihost network may experience increased latency to international sites and services.  Our engineers are investigating the cause. We apologise for any inconvenience caused.",
@@ -2515,6 +2455,143 @@
           ]
         },
         {
+          "id": 7174,
+          "title": "Metrofibre Outage | Riverside View 2",
+          "description": "Metrofibre has informed us of a network outage affecting Riverside View 2, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-30 14:22:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7174,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7174,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7174,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3882,
+              "name": "Diepsloot",
+              "slug": "diepsloot",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 7174,
+                "suburb_id": 3882
+              }
+            }
+          ]
+        },
+        {
+          "id": 7175,
+          "title": "Vumatel Outage | Trim Park",
+          "description": "Vumatel has informed us of a network outage affecting Trim Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-07-30 14:29:04",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7175,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 7175,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 360,
+              "name": "Mokopane",
+              "slug": "mokopane",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 7175,
+                "city_id": 360
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 7126,
           "title": "Vumatel Maintenance | Fairland",
           "description": "Vumatel is conducting maintenance in Fairland from 25 July 2022 at 08:00 to 23 September 2022 at 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2960,16 +3037,16 @@
       ],
       "closed": [
         {
-          "id": 7133,
-          "title": "Octotel Outage | Blouberg and Kensington",
-          "description": "Octotel has informed us of a network outage affecting Blouberg and Kensington, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7170,
+          "title": "Vodacom Fibre outage | KwaZulu-Natal",
+          "description": "Vodacom Fibre has informed us of a network outage affecting KwaZulu-Natal, affected clients will experience no connectivity. Vodacom Fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2022-07-28 15:45:12",
+          "resolved_at": "2022-07-30 13:49:17",
           "should_notify": 0,
-          "created_at": "2022-07-27 11:38:07",
+          "created_at": "2022-07-29 20:44:32",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2978,70 +3055,46 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 31,
+              "name": "Vodacom",
+              "slug": "vodacom",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7133,
-                "category_id": 12
+                "notice_id": 7170,
+                "category_id": 31
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 506,
+              "notice_id": 7170,
+              "content": "Vodacom have advised that their engineers are on-site and are still working on resolving the outage as soon as possible. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2022-07-30 11:27:44"
+            }
+          ],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 7133,
-                "province_id": 3
+                "notice_id": 7170,
+                "province_id": 2
               }
             }
           ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7133,
-                "city_id": 240
-              }
-            },
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7133,
-                "city_id": 236
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2059,
-              "name": "Kensington",
-              "slug": "kensington-1",
-              "city_id": 240,
-              "pivot": {
-                "notice_id": 7133,
-                "suburb_id": 2059
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 7135,
