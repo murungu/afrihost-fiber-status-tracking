@@ -2802,69 +2802,6 @@
           "suburbs": []
         },
         {
-          "id": 7149,
-          "title": "Vumatel Outage | Durbanville and Kenridge",
-          "description": "Vumatel has informed us of a network outage affecting Durbanville and Kenridge, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-07-28 16:43:21",
-          "should_notify": 0,
-          "created_at": "2022-07-28 14:31:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7149,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7149,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 195,
-              "name": "Durbanville",
-              "slug": "durbanville",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7149,
-                "city_id": 195
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7151,
           "title": "Vumatel Villages Outage | Brackenhurst",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Brackenhurst, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3453,6 +3390,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7176,
+          "title": "Vumatel Reach Outage | Kwa-thema",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Kwa-thema, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-07-31 08:21:59",
+          "should_notify": 0,
+          "created_at": "2022-07-31 08:05:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7176,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7176,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7176,
+                "city_id": 37
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1618,
+              "name": "Kwa Thema",
+              "slug": "kwa-thema",
+              "city_id": 37,
+              "pivot": {
+                "notice_id": 7176,
+                "suburb_id": 1618
+              }
+            }
+          ]
         }
       ]
     },
