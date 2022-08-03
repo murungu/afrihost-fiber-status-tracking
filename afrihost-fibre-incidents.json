@@ -856,16 +856,16 @@
           "suburbs": []
         },
         {
-          "id": 7195,
-          "title": "Frogfoot Outage | Amanzimtoti",
-          "description": "Frogfoot has informed us of a network outage affecting Amanzimtoti, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7196,
+          "title": "Link Layer Outage | New Germany, Fields Hill & Pinetown",
+          "description": "Link Layer has informed us of a network outage affecting New Germany, Fields Hill & Pinetown, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-08-03 09:11:35",
+          "created_at": "2022-08-03 10:16:30",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -882,13 +882,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7195,
-                "category_id": 7
+                "notice_id": 7196,
+                "category_id": 30
               }
             }
           ],
@@ -899,24 +899,98 @@
               "name": "KwaZulu-Natal",
               "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 7195,
+                "notice_id": 7196,
                 "province_id": 2
               }
             }
           ],
           "cities": [
             {
-              "id": 101,
-              "name": "Amanzimtoti",
-              "slug": "amanzimtoti",
+              "id": 128,
+              "name": "Pinetown",
+              "slug": "pinetown",
               "province_id": 2,
               "pivot": {
-                "notice_id": 7195,
-                "city_id": 101
+                "notice_id": 7196,
+                "city_id": 128
               }
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7197,
+          "title": "Metrofibre Outage | Prestbury",
+          "description": "Please note users on the Metrofibre network in Prestbury will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-03 10:30:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7197,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7197,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 87,
+              "name": "Pietermaritzburg",
+              "slug": "pietermaritzburg",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7197,
+                "city_id": 87
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1236,
+              "name": "Prestbury",
+              "slug": "prestbury",
+              "city_id": 87,
+              "pivot": {
+                "notice_id": 7197,
+                "suburb_id": 1236
+              }
+            }
+          ]
         },
         {
           "id": 7142,
@@ -1131,80 +1205,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 7178,
-          "title": "Vumatel Outage | Bryanston East",
-          "description": "Vumatel has informed us of a network outage affecting Bryanston East, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-08-02 16:06:27",
-          "should_notify": 0,
-          "created_at": "2022-07-31 11:23:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7178,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7178,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7178,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 4,
-              "name": "Bryanston",
-              "slug": "bryanston",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 7178,
-                "suburb_id": 4
-              }
-            }
-          ]
-        },
         {
           "id": 7179,
           "title": "Frogfoot Outage | Waterbessie",
@@ -1856,6 +1856,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 7195,
+          "title": "Frogfoot Outage | Amanzimtoti",
+          "description": "Frogfoot has informed us of a network outage affecting Amanzimtoti, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-08-03 10:25:46",
+          "should_notify": 0,
+          "created_at": "2022-08-03 09:11:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7195,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7195,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 101,
+              "name": "Amanzimtoti",
+              "slug": "amanzimtoti",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7195,
+                "city_id": 101
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
