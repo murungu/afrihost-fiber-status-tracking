@@ -1215,7 +1215,7 @@
         {
           "id": 7208,
           "title": "VumaReach Outage | Phoenix",
-          "description": "VumaReach has informed us of a network outage affecting Phoenix, affected clients will experience no connectivity.Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "description": "VumaReach has informed us of a network outage affecting Phoenix, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
@@ -1421,6 +1421,143 @@
               }
             }
           ]
+        },
+        {
+          "id": 7209,
+          "title": "Octotel maintenance | Athlone",
+          "description": "Octotel is conducting maintenance in Athlone from 10/08/2022 03:00  to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-04 16:01:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7209,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7209,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7209,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1439,
+              "name": "Athlone",
+              "slug": "athlone",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7209,
+                "suburb_id": 1439
+              }
+            }
+          ]
+        },
+        {
+          "id": 7210,
+          "title": "Octotel Maintenance | Strand",
+          "description": "Octotel is conducting maintenance in Strand from 11/08/2022 03:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-04 16:03:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7210,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7210,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 320,
+              "name": "Strand",
+              "slug": "strand",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7210,
+                "city_id": 320
+              }
+            }
+          ],
+          "suburbs": []
         }
       ],
       "closed": [
