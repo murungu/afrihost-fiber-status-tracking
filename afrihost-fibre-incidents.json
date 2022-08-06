@@ -1232,80 +1232,6 @@
           ]
         },
         {
-          "id": 7225,
-          "title": "Vumatel Outage | Carlswald North",
-          "description": "Vumatel has informed us of a network outage affecting Carlswald North, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-08-05 23:24:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7225,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7225,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7225,
-                "city_id": 50
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 708,
-              "name": "Carlswald",
-              "slug": "carlswald",
-              "city_id": 50,
-              "pivot": {
-                "notice_id": 7225,
-                "suburb_id": 708
-              }
-            }
-          ]
-        },
-        {
           "id": 7226,
           "title": "Evotel Outage | Ladysmith",
           "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1664,79 +1590,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 7203,
-          "title": "Frogfoot Outage | Durban & Margate",
-          "description": "Frogfoot has informed us of a network outage affecting Durban & Margate, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-08-04 16:41:17",
-          "should_notify": 0,
-          "created_at": "2022-08-03 15:12:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7203,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 7203,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 81,
-              "name": "Margate",
-              "slug": "margate",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 7203,
-                "city_id": 81
-              }
-            },
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 7203,
-                "city_id": 68
-              }
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 7205,
           "title": "FibreSuburb High Latency | Kindlewood",
@@ -2402,6 +2255,80 @@
               "pivot": {
                 "notice_id": 7224,
                 "suburb_id": 231
+              }
+            }
+          ]
+        },
+        {
+          "id": 7225,
+          "title": "Vumatel Outage | Carlswald North",
+          "description": "Vumatel has informed us of a network outage affecting Carlswald North, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-08-06 22:44:51",
+          "should_notify": 0,
+          "created_at": "2022-08-05 23:24:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7225,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7225,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7225,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 708,
+              "name": "Carlswald",
+              "slug": "carlswald",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 7225,
+                "suburb_id": 708
               }
             }
           ]
