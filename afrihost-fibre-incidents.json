@@ -1452,6 +1452,69 @@
           "suburbs": []
         },
         {
+          "id": 7230,
+          "title": "Vumatel Outage | Northern Paarl",
+          "description": "Vumatel has informed us of a network outage affecting Northern Paarl, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-06 23:52:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7230,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7230,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 264,
+              "name": "Paarl",
+              "slug": "paarl",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7230,
+                "city_id": 264
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 7209,
           "title": "Octotel maintenance | Athlone",
           "description": "Octotel is conducting maintenance in Athlone from 10/08/2022 03:00  to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
