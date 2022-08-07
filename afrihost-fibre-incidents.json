@@ -1515,80 +1515,6 @@
           "suburbs": []
         },
         {
-          "id": 7231,
-          "title": "Clear Access outage | Pomona, Kempton Park",
-          "description": "Clear Access has informed us of a network outage affecting Pomona, Kempton Park, affected clients will experience no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-08-07 09:15:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 4,
-              "name": "Clear Access",
-              "slug": "clear-access",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7231,
-                "category_id": 4
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7231,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7231,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 193,
-              "name": "Pomona",
-              "slug": "pomona",
-              "city_id": 48,
-              "pivot": {
-                "notice_id": 7231,
-                "suburb_id": 193
-              }
-            }
-          ]
-        },
-        {
           "id": 7209,
           "title": "Octotel maintenance | Athlone",
           "description": "Octotel is conducting maintenance in Athlone from 10/08/2022 03:00  to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1727,69 +1653,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 7205,
-          "title": "FibreSuburb High Latency | Kindlewood",
-          "description": "FibreSuburb has informed us of a network outage affecting Kindlewood, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-08-04 05:23:52",
-          "should_notify": 0,
-          "created_at": "2022-08-03 16:48:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7205,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 7205,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 83,
-              "name": "Mount Edgecombe",
-              "slug": "mount-edgecombe",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 7205,
-                "city_id": 83
-              }
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 7207,
           "title": "Vumatel Outage | Plumstead",
@@ -2540,6 +2403,80 @@
               "pivot": {
                 "notice_id": 7229,
                 "suburb_id": 483
+              }
+            }
+          ]
+        },
+        {
+          "id": 7231,
+          "title": "Clear Access outage | Pomona, Kempton Park",
+          "description": "Clear Access has informed us of a network outage affecting Pomona, Kempton Park, affected clients will experience no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-08-07 10:13:28",
+          "should_notify": 0,
+          "created_at": "2022-08-07 09:15:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 4,
+              "name": "Clear Access",
+              "slug": "clear-access",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7231,
+                "category_id": 4
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7231,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7231,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 193,
+              "name": "Pomona",
+              "slug": "pomona",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 7231,
+                "suburb_id": 193
               }
             }
           ]
