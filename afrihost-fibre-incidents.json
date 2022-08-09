@@ -1926,6 +1926,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7266,
+          "title": "FibreSuburb maintenance | South Hills",
+          "description": "FibreSuburb is conducting maintenance in South Hills on the 18th of August from 21:00 to 03:00 on the 19th of August users affected will experience limited to no connectivity during the maintenance window. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-09 13:29:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7266,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7266,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7266,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1277,
+              "name": "South Hills",
+              "slug": "south-hills",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 7266,
+                "suburb_id": 1277
+              }
+            }
+          ]
         }
       ],
       "closed": [
