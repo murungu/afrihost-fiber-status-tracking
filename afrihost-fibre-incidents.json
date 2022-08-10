@@ -1296,6 +1296,90 @@
           ]
         },
         {
+          "id": 7279,
+          "title": "VumaReach Outage | Senaoane",
+          "description": "Vumatel has informed us of a network outage affecting Senaoane, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-10 15:44:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7279,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7279,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7279,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7279,
+                "city_id": 17
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5642,
+              "name": "Senoane",
+              "slug": "senoane",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 7279,
+                "suburb_id": 5642
+              }
+            }
+          ]
+        },
+        {
           "id": 7271,
           "title": "Metrofibre Outage | Chelmsford Heights",
           "description": "Metrofibre has informed us of a network outage affecting Chelmsford Heights, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
