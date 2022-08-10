@@ -645,80 +645,6 @@
           "suburbs": []
         },
         {
-          "id": 7272,
-          "title": "Metrofibre Outage | Wolmer",
-          "description": "Metrofibre has informed us of a network outage affecting Wolmer, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-08-10 06:48:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7272,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7272,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7272,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 13,
-              "name": "Pretoria North",
-              "slug": "pretoria-north",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 7272,
-                "suburb_id": 13
-              }
-            }
-          ]
-        },
-        {
           "id": 7273,
           "title": "Vumatel Outage | Observatory",
           "description": "Vumatel has informed us of a network outage affecting Observatory, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1315,6 +1241,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 7280,
+          "title": "Metrofibreh Outage | Bulwer",
+          "description": "Metrofibre has informed us of a network outage affecting Bulwer, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-10 17:31:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7280,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7280,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 144,
+              "name": "Bulwer",
+              "slug": "bulwer",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7280,
+                "city_id": 144
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 7271,
@@ -2251,20 +2240,18 @@
               }
             }
           ]
-        }
-      ],
-      "closed": [
+        },
         {
-          "id": 7254,
-          "title": "Vumatel outage | Discovery, Roodepoort",
-          "description": "Vumatel has informed us of a network outage affecting Discovery, Roodepoort, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7281,
+          "title": "VumaReach maintenance | National",
+          "description": "Vumatel is conducting maintenance on the 11th of August from 22:00 to 00:00 on the 11th of August users affected will experience limited to no connectivity during the maintenance window. We apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 1,
           "expires_at": null,
-          "resolved_at": "2022-08-08 19:43:55",
+          "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-08-08 17:30:25",
+          "created_at": "2022-08-10 17:34:34",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2273,20 +2260,30 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
           },
           "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7281,
+                "category_id": 24
+              }
+            },
             {
               "id": 18,
               "name": "Vumatel",
               "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7254,
+                "notice_id": 7281,
                 "category_id": 18
               }
             }
@@ -2294,40 +2291,92 @@
           "updates": [],
           "provinces": [
             {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 7281,
+                "province_id": 6
+              }
+            },
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
+              "pivot": {
+                "notice_id": 7281,
+                "province_id": 7
+              }
+            },
+            {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 7254,
+                "notice_id": 7281,
                 "province_id": 1
               }
-            }
-          ],
-          "cities": [
+            },
             {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 7254,
-                "city_id": 35
+                "notice_id": 7281,
+                "province_id": 2
+              }
+            },
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 7281,
+                "province_id": 4
+              }
+            },
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga",
+              "pivot": {
+                "notice_id": 7281,
+                "province_id": 9
+              }
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
+              "pivot": {
+                "notice_id": 7281,
+                "province_id": 8
+              }
+            },
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape",
+              "pivot": {
+                "notice_id": 7281,
+                "province_id": 5
+              }
+            },
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7281,
+                "province_id": 3
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 872,
-              "name": "Discovery",
-              "slug": "discovery",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 7254,
-                "suburb_id": 872
-              }
-            }
-          ]
-        },
+          "cities": [],
+          "suburbs": []
+        }
+      ],
+      "closed": [
         {
           "id": 7256,
           "title": "Vumatel Reach Outage | Pomona",
@@ -2914,6 +2963,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7272,
+          "title": "Metrofibre Outage | Wolmer",
+          "description": "Metrofibre has informed us of a network outage affecting Wolmer, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-08-10 17:31:55",
+          "should_notify": 0,
+          "created_at": "2022-08-10 06:48:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7272,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7272,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7272,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 13,
+              "name": "Pretoria North",
+              "slug": "pretoria-north",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 7272,
+                "suburb_id": 13
+              }
+            }
+          ]
         },
         {
           "id": 7258,
