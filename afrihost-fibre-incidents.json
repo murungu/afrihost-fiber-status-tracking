@@ -1885,6 +1885,80 @@
           ]
         },
         {
+          "id": 7329,
+          "title": "DNATel outage | Ngodwana",
+          "description": "DNATel has informed us of a network outage affecting Ngodwana, affected clients will experience no connectivity. DNATel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-14 07:53:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 34,
+              "name": "DNATel",
+              "slug": "dnatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7329,
+                "category_id": 34
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga",
+              "pivot": {
+                "notice_id": 7329,
+                "province_id": 9
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 674,
+              "name": "Nelspruit",
+              "slug": "nelspruit",
+              "province_id": 9,
+              "pivot": {
+                "notice_id": 7329,
+                "city_id": 674
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4485,
+              "name": "Ngodwana",
+              "slug": "ngodwana",
+              "city_id": 674,
+              "pivot": {
+                "notice_id": 7329,
+                "suburb_id": 4485
+              }
+            }
+          ]
+        },
+        {
           "id": 7306,
           "title": "Vumareach Outage | Bonteheuwel",
           "description": "Vumatel has informed us of a network outage affecting Bonteheuwel, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
