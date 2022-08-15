@@ -2371,6 +2371,80 @@
           "suburbs": []
         },
         {
+          "id": 7344,
+          "title": "Metrofibre Outage | Doornpoort",
+          "description": "Metrofibre has informed us of a network outage affecting Doornpoort, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-15 22:03:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7344,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7344,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7344,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 14,
+              "name": "Doornpoort",
+              "slug": "doornpoort",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 7344,
+                "suburb_id": 14
+              }
+            }
+          ]
+        },
+        {
           "id": 7306,
           "title": "Vumareach Outage | Bonteheuwel",
           "description": "Vumatel has informed us of a network outage affecting Bonteheuwel, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
