@@ -1037,6 +1037,80 @@
           "suburbs": []
         },
         {
+          "id": 7389,
+          "title": "Frogfoot Outage | Umtentweni",
+          "description": "Please note users on the Frogfoot network in Umtentweni will experience limited to no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-20 10:51:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7389,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7389,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 129,
+              "name": "Port Shepstone",
+              "slug": "port-shepstone",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7389,
+                "city_id": 129
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 42,
+              "name": "Umtentweni",
+              "slug": "umtentweni",
+              "city_id": 129,
+              "pivot": {
+                "notice_id": 7389,
+                "suburb_id": 42
+              }
+            }
+          ]
+        },
+        {
           "id": 7350,
           "title": "Openserve maintenance | Linton Grange, Port Elizabeth",
           "description": "Openserve is conducting maintenance in Linton Grange, Port Elizabeth on the 20th of August from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
