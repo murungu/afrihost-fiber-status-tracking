@@ -900,69 +900,6 @@
           ]
         },
         {
-          "id": 7388,
-          "title": "Metrofibre Outage | Red Ivory Lane",
-          "description": "Please note users on the Metrofibre network in Red Ivory Lane will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-08-19 17:14:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7388,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7388,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 31,
-              "name": "Modderfontein",
-              "slug": "modderfontein",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7388,
-                "city_id": 31
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7390,
           "title": "Metrofibre Outage | Northriding Equestrian Estate",
           "description": "Please note users on the Metrofibre network in Northriding Equestrian Estate will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -1315,7 +1252,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 516,
+              "notice_id": 7395,
+              "content": "Vumatel technicians are on-site and localising the fault.",
+              "created_by_id": 25,
+              "created_at": "2022-08-22 11:48:03"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -1871,89 +1816,6 @@
       ],
       "closed": [
         {
-          "id": 7369,
-          "title": "Frogfoot Outage | Gordons Bay East",
-          "description": "Frogfoot has informed us of a network outage affecting Blouberg & Somerset West, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-08-19 08:09:55",
-          "should_notify": 0,
-          "created_at": "2022-08-17 21:27:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7369,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7369,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 199,
-              "name": "Gordons Bay",
-              "slug": "gordons-bay",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7369,
-                "city_id": 199
-              }
-            },
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7369,
-                "city_id": 236
-              }
-            },
-            {
-              "id": 222,
-              "name": "Somerset West",
-              "slug": "somerset-west",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7369,
-                "city_id": 222
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7373,
           "title": "Evotel Outage | Dawnpark",
           "description": "Please note users on the Evotel network in Dawnpark will experience limited to no connectivity due to an outage. Evotel engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -2311,6 +2173,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 7388,
+          "title": "Metrofibre Outage | Red Ivory Lane",
+          "description": "Please note users on the Metrofibre network in Red Ivory Lane will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-08-22 11:47:06",
+          "should_notify": 0,
+          "created_at": "2022-08-19 17:14:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7388,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7388,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 31,
+              "name": "Modderfontein",
+              "slug": "modderfontein",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7388,
+                "city_id": 31
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 7389,
