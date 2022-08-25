@@ -44,6 +44,13 @@
           ],
           "updates": [
             {
+              "id": 523,
+              "notice_id": 7424,
+              "content": "Afrihost and Vumatel engineers are still working on resolving the issue. We apologise for any inconvenience caused.",
+              "created_by_id": 30,
+              "created_at": "2022-08-25 08:38:12"
+            },
+            {
               "id": 519,
               "notice_id": 7424,
               "content": "Afrihost and Vumatel engineers are investigating the issue to find a resolution as soon as possible. We apologize for the inconvenience caused.",
@@ -103,6 +110,13 @@
             }
           ],
           "updates": [
+            {
+              "id": 522,
+              "notice_id": 7444,
+              "content": "Vumatel and their partners are working on restoring services as soon as possible. Apologies for the inconvenience caused.",
+              "created_by_id": 30,
+              "created_at": "2022-08-25 08:35:52"
+            },
             {
               "id": 521,
               "notice_id": 7444,
@@ -2338,6 +2352,79 @@
               "pivot": {
                 "notice_id": 7446,
                 "city_id": 653
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 7447,
+          "title": "Vuma Reach outage | Phoenix Zone 04",
+          "description": "Vumatel has informed us of a network outage affecting Phoenix Zone 04, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-25 08:25:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7447,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7447,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7447,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 168,
+              "name": "Phoenix",
+              "slug": "phoenix",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7447,
+                "city_id": 168
               }
             }
           ],
