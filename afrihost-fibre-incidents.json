@@ -1312,6 +1312,80 @@
           ]
         },
         {
+          "id": 7512,
+          "title": "Metrofibre outage | Eco Park East",
+          "description": "Metrofibre has informed us of a network outage affecting Eco Park East, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-31 10:45:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7512,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7512,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7512,
+                "city_id": 43
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1693,
+              "name": "Eco Park Estate",
+              "slug": "eco-park-estate",
+              "city_id": 43,
+              "pivot": {
+                "notice_id": 7512,
+                "suburb_id": 1693
+              }
+            }
+          ]
+        },
+        {
           "id": 7399,
           "title": "Vumatel Maintenance | Greenstone Hill",
           "description": "Vumatel is conducting maintenance in Greenstone Hill from 2022-08-22 08:00 to 2022-09-02 17:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2036,6 +2110,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7511,
+          "title": "Vumatel Villages Maintenance | Beverley",
+          "description": "Vumatel is conducting maintenance in Beverley from 2022-08-31 11:30 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-08-31 10:44:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7511,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7511,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7511,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 310,
+              "name": "Beverley",
+              "slug": "beverley",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 7511,
+                "suburb_id": 310
+              }
+            }
+          ]
         }
       ],
       "closed": [
