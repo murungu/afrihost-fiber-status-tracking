@@ -2059,6 +2059,80 @@
           "suburbs": []
         },
         {
+          "id": 7535,
+          "title": "Octotel outage | Athlone and surrounding areas",
+          "description": "Octotel has informed us of a network outage affecting Athlone and surrounding areas, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-01 15:57:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7535,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7535,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7535,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1439,
+              "name": "Athlone",
+              "slug": "athlone",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7535,
+                "suburb_id": 1439
+              }
+            }
+          ]
+        },
+        {
           "id": 7399,
           "title": "Vumatel Maintenance | Greenstone Hill",
           "description": "Vumatel is conducting maintenance in Greenstone Hill from 2022-08-22 08:00 to 2022-09-02 17:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
