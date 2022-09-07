@@ -1121,80 +1121,6 @@
           "suburbs": []
         },
         {
-          "id": 7582,
-          "title": "Vumatel outage | Randhart",
-          "description": "Vumatel has informed us of a network outage affecting Randhart, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-09-07 09:12:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7582,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7582,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7582,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 185,
-              "name": "Randhart",
-              "slug": "randhart",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 7582,
-                "suburb_id": 185
-              }
-            }
-          ]
-        },
-        {
           "id": 7546,
           "title": "Octotel Maintenance | Sea Point",
           "description": "Octotel is conducting maintenance in Sea Point from Wednesday, 7th September 2022 00:00 to 06:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1456,20 +1382,18 @@
             }
           ],
           "suburbs": []
-        }
-      ],
-      "closed": [
+        },
         {
-          "id": 7555,
-          "title": "Vumatel outage | Fourways Gardens & Dainfern",
-          "description": "Vumatel has informed us of a network outage affecting Fourways Gardens & Dainfern, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7583,
+          "title": "MetroFibre maintenance | Ballito and La Mercy",
+          "description": "MetroFibre is conducting maintenance in Ballito and La Mercy on the 9th of September from 07:00 to the 10th of September 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 1,
           "expires_at": null,
-          "resolved_at": "2022-09-05 07:09:17",
+          "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-09-04 09:20:38",
+          "created_at": "2022-09-07 09:42:26",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1478,71 +1402,62 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
           },
           "categories": [
             {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7555,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7555,
-                "category_id": 18
+                "notice_id": 7583,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 7555,
-                "province_id": 1
+                "notice_id": 7583,
+                "province_id": 2
               }
             }
           ],
           "cities": [
             {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
+              "province_id": 2,
               "pivot": {
-                "notice_id": 7555,
-                "city_id": 16
+                "notice_id": 7583,
+                "city_id": 102
+              }
+            },
+            {
+              "id": 120,
+              "name": "La Mercy",
+              "slug": "la-mercy",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7583,
+                "city_id": 120
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 389,
-              "name": "Fourways Gardens",
-              "slug": "fourways-gardens",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 7555,
-                "suburb_id": 389
-              }
-            }
-          ]
-        },
+          "suburbs": []
+        }
+      ],
+      "closed": [
         {
           "id": 7556,
           "title": "Octotel Outage | Western Cape",
@@ -2201,6 +2116,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7582,
+          "title": "Vumatel outage | Randhart",
+          "description": "Vumatel has informed us of a network outage affecting Randhart, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-09-07 09:24:11",
+          "should_notify": 0,
+          "created_at": "2022-09-07 09:12:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7582,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7582,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7582,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 185,
+              "name": "Randhart",
+              "slug": "randhart",
+              "city_id": 21,
+              "pivot": {
+                "notice_id": 7582,
+                "suburb_id": 185
+              }
+            }
+          ]
         }
       ]
     },
