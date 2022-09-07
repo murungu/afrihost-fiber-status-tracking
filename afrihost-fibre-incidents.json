@@ -610,7 +610,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 533,
+              "notice_id": 7573,
+              "content": "Afrihost and Link Layer is still actively investigating and troubleshooting to find the root cause for the outage. We sincerely apologise for the inconvenience caused.",
+              "created_by_id": 30,
+              "created_at": "2022-09-07 14:24:14"
+            }
+          ],
           "provinces": [
             {
               "id": 2,
@@ -1339,6 +1347,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7587,
+          "title": "MetroFibre outage | Wolmer, Pretoria",
+          "description": "MetroFibre has informed us of a network outage affecting Wolmer, Pretoria, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-07 14:37:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7587,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7587,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7587,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 371,
+              "name": "Wolmer",
+              "slug": "wolmer",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 7587,
+                "suburb_id": 371
+              }
+            }
+          ]
         },
         {
           "id": 7546,
