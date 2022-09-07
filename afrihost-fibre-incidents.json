@@ -1184,6 +1184,100 @@
           "suburbs": []
         },
         {
+          "id": 7585,
+          "title": "Vumatel Reach Outage | Eldorado Park",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Eldorado Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-07 10:56:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7585,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7585,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7585,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7585,
+                "city_id": 17
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1307,
+              "name": "Eldorado Park",
+              "slug": "eldorado-park",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 7585,
+                "suburb_id": 1307
+              }
+            },
+            {
+              "id": 3374,
+              "name": "Eldorado Park Ext 4",
+              "slug": "eldorado-park-ext-4",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 7585,
+                "suburb_id": 3374
+              }
+            }
+          ]
+        },
+        {
           "id": 7546,
           "title": "Octotel Maintenance | Sea Point",
           "description": "Octotel is conducting maintenance in Sea Point from Wednesday, 7th September 2022 00:00 to 06:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
