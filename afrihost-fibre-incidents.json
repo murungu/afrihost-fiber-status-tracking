@@ -1359,6 +1359,80 @@
           "suburbs": []
         },
         {
+          "id": 7599,
+          "title": "Vuma Village outage | Beyers Park",
+          "description": "Vuma has informed us of a network outage affecting Beyers Park, affected clients will experience limited to no connectivity. Vuma engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-08 09:51:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7599,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7599,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7599,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 449,
+              "name": "Beyerspark",
+              "slug": "beyerspark",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 7599,
+                "suburb_id": 449
+              }
+            }
+          ]
+        },
+        {
           "id": 7548,
           "title": "Frogfoot Maintenance | Cape Town",
           "description": "Frogfoot is conducting maintenance in Cape Town from 2022-09-14 23:00 to 2022-09-15 07:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2172,6 +2246,132 @@
               "pivot": {
                 "notice_id": 7597,
                 "city_id": 8
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 7598,
+          "title": "Openserve maintenance | Grahamstown",
+          "description": "Openserve is conducting maintenance in Grahamstown on the 14th of September from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-08 09:48:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7598,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 7598,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 443,
+              "name": "Grahamstown",
+              "slug": "grahamstown",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 7598,
+                "city_id": 443
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 7600,
+          "title": "Openserve maintenance | Durban",
+          "description": "Openserve is conducting maintenance in Durban on the 14th of September from 00:00 to 03:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-08 09:52:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7600,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7600,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7600,
+                "city_id": 68
               }
             }
           ],
