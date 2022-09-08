@@ -634,79 +634,6 @@
           "suburbs": []
         },
         {
-          "id": 7574,
-          "title": "Vumatel outage | Pietermaritzburg",
-          "description": "We are investigating reports of no connectivity for clients on the Vumatel network in Pietermaritzburg. Our engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-09-06 11:44:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7574,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7574,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 7574,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 7574,
-                "city_id": 87
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7575,
           "title": "Vumatel outage | Benoni",
           "description": "Vumatel has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2454,90 +2381,6 @@
       ],
       "closed": [
         {
-          "id": 7565,
-          "title": "Vumatel outage | Lakefield",
-          "description": "Vumatel has informed us of a network outage affecting Lakefield, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-09-07 08:44:28",
-          "should_notify": 0,
-          "created_at": "2022-09-05 14:25:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7565,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7565,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7565,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7565,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 281,
-              "name": "Lakefield",
-              "slug": "lakefield",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 7565,
-                "suburb_id": 281
-              }
-            }
-          ]
-        },
-        {
           "id": 7566,
           "title": "MetroFibre outage | Wolmer",
           "description": "MetroFibre has informed us of a network outage affecting Wolmer, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2610,6 +2453,79 @@
               }
             }
           ]
+        },
+        {
+          "id": 7574,
+          "title": "Vumatel outage | Pietermaritzburg",
+          "description": "We are investigating reports of no connectivity for clients on the Vumatel network in Pietermaritzburg. Our engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Services are restored and we continue to monitor services for stability.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-09-08 15:08:01",
+          "should_notify": 0,
+          "created_at": "2022-09-06 11:44:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7574,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7574,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7574,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 87,
+              "name": "Pietermaritzburg",
+              "slug": "pietermaritzburg",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7574,
+                "city_id": 87
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 7581,
