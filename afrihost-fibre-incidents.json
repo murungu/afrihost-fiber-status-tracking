@@ -794,16 +794,16 @@
           "suburbs": []
         },
         {
-          "id": 7654,
-          "title": "Vumatel outage | Bothasig, Cape Town",
-          "description": "Vumatel has informed us of a network outage affecting Bothasig, Cape Town, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 7655,
+          "title": "Linklayer outage | Ballito and Saltrock",
+          "description": "Linklayer has informed us of a network outage affecting Ballito, affected clients will experience no connectivity. Linklayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-09-15 05:53:38",
+          "created_at": "2022-09-15 07:48:40",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -825,7 +825,7 @@
               "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7654,
+                "notice_id": 7655,
                 "category_id": 18
               }
             }
@@ -833,39 +833,28 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 7654,
-                "province_id": 3
+                "notice_id": 7655,
+                "province_id": 2
               }
             }
           ],
           "cities": [
             {
-              "id": 260,
-              "name": "Milnerton",
-              "slug": "milnerton",
-              "province_id": 3,
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
+              "province_id": 2,
               "pivot": {
-                "notice_id": 7654,
-                "city_id": 260
+                "notice_id": 7655,
+                "city_id": 102
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 1058,
-              "name": "Bothasig",
-              "slug": "bothasig",
-              "city_id": 260,
-              "pivot": {
-                "notice_id": 7654,
-                "suburb_id": 1058
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 7548,
@@ -1912,69 +1901,6 @@
           "suburbs": []
         },
         {
-          "id": 7636,
-          "title": "FrogFoot outage | Simondstown",
-          "description": "FrogFoot has informed us of a network outage affecting Simondstown, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-09-12 23:56:54",
-          "should_notify": 0,
-          "created_at": "2022-09-12 23:21:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7636,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7636,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 318,
-              "name": "Simons Town",
-              "slug": "simons-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7636,
-                "city_id": 318
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7637,
           "title": "FrogFoot outage | Gqeberha (Port Elizabeth)",
           "description": "FrogFoot has informed us of a network outage affecting Port Elizabeth, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2658,6 +2584,80 @@
               "pivot": {
                 "notice_id": 7650,
                 "suburb_id": 312
+              }
+            }
+          ]
+        },
+        {
+          "id": 7654,
+          "title": "Vumatel outage | Bothasig, Cape Town",
+          "description": "Vumatel has informed us of a network outage affecting Bothasig, Cape Town, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-09-15 07:03:09",
+          "should_notify": 0,
+          "created_at": "2022-09-15 05:53:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7654,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7654,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 260,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7654,
+                "city_id": 260
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1058,
+              "name": "Bothasig",
+              "slug": "bothasig",
+              "city_id": 260,
+              "pivot": {
+                "notice_id": 7654,
+                "suburb_id": 1058
               }
             }
           ]
