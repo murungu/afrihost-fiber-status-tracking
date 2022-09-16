@@ -646,6 +646,80 @@
           "suburbs": []
         },
         {
+          "id": 7675,
+          "title": "Vumatel outage | Weltevreden Park",
+          "description": "Vumatel has informed us of a network outage affecting Weltevreden Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-16 16:47:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7675,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7675,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7675,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 216,
+              "name": "Weltevredenpark",
+              "slug": "weltevredenpark",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 7675,
+                "suburb_id": 216
+              }
+            }
+          ]
+        },
+        {
           "id": 7605,
           "title": "Vumatel Maintenance | Randhart",
           "description": "Vumatel is conducting maintenance in Randhart from 2022-09-16 09:00 to 18:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
