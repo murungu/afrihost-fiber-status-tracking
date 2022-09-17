@@ -710,69 +710,6 @@
           ]
         },
         {
-          "id": 7682,
-          "title": "FrogFoot outage | Bloemfontein",
-          "description": "FrogFoot has informed us of a network outage affecting Bloemfontein, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-09-17 16:08:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7682,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 7682,
-                "province_id": 7
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 570,
-              "name": "Bloemfontein",
-              "slug": "bloemfontein",
-              "province_id": 7,
-              "pivot": {
-                "notice_id": 7682,
-                "city_id": 570
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7683,
           "title": "MetroFibre outage | Bellair, Durban",
           "description": "MetroFibre has informed us of a network outage affecting Bellair, Durban, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1759,90 +1696,6 @@
           "suburbs": []
         },
         {
-          "id": 7658,
-          "title": "Vumatel outage | Sonland Park, Vereeniging",
-          "description": "Vumatel has informed us of a network outage affecting Vereeniging, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-09-16 07:31:38",
-          "should_notify": 0,
-          "created_at": "2022-09-15 11:12:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7658,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7658,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7658,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 59,
-              "name": "Vereeniging",
-              "slug": "vereeniging",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7658,
-                "city_id": 59
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 240,
-              "name": "Sonlandpark",
-              "slug": "sonlandpark",
-              "city_id": 59,
-              "pivot": {
-                "notice_id": 7658,
-                "suburb_id": 240
-              }
-            }
-          ]
-        },
-        {
           "id": 7660,
           "title": "Century City Connect Outage | Western Cape",
           "description": "Century City Connect has informed us of a network outage affecting Western Cape, affected clients will experience limited connectivity. Century City Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2403,6 +2256,69 @@
               "pivot": {
                 "notice_id": 7679,
                 "city_id": 50
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 7682,
+          "title": "FrogFoot outage | Bloemfontein",
+          "description": "FrogFoot has informed us of a network outage affecting Bloemfontein, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-09-17 17:29:56",
+          "should_notify": 0,
+          "created_at": "2022-09-17 16:08:59",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7682,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
+              "pivot": {
+                "notice_id": 7682,
+                "province_id": 7
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 570,
+              "name": "Bloemfontein",
+              "slug": "bloemfontein",
+              "province_id": 7,
+              "pivot": {
+                "notice_id": 7682,
+                "city_id": 570
               }
             }
           ],
