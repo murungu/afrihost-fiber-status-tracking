@@ -1414,16 +1414,16 @@
           "suburbs": []
         },
         {
-          "id": 7709,
-          "title": "FrogFoot Outage | Atlantis & Yzerfontein",
-          "description": "FrogFoot has informed us of a network outage affecting Atlantis & Yzerfontein, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 7710,
+          "title": "FrogFoot Outage | Lynnwood Glen",
+          "description": "FrogFoot has informed us of a network outage affecting Lynnwood Glen, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-09-19 17:49:20",
+          "created_at": "2022-09-19 19:58:30",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1445,7 +1445,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7709,
+                "notice_id": 7710,
                 "category_id": 7
               }
             }
@@ -1453,38 +1453,39 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 7709,
-                "province_id": 3
+                "notice_id": 7710,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 231,
-              "name": "Yzerfontein",
-              "slug": "yzerfontein",
-              "province_id": 3,
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 7709,
-                "city_id": 231
-              }
-            },
-            {
-              "id": 233,
-              "name": "Atlantis",
-              "slug": "atlantis",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7709,
-                "city_id": 233
+                "notice_id": 7710,
+                "city_id": 33
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 698,
+              "name": "Lynnwood Glen",
+              "slug": "lynnwood-glen",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 7710,
+                "suburb_id": 698
+              }
+            }
+          ]
         },
         {
           "id": 7642,
@@ -2097,80 +2098,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 7680,
-          "title": "Frogfoot Outage | Rynfield",
-          "description": "Frogfoot has informed us of a network outage affecting Rynfield, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-09-19 09:28:24",
-          "should_notify": 0,
-          "created_at": "2022-09-16 19:52:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7680,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7680,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7680,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 7680,
-                "suburb_id": 111
-              }
-            }
-          ]
-        },
         {
           "id": 7681,
           "title": "Vumatel Outage | Van Riebeeck Park",
@@ -2817,6 +2744,79 @@
               "pivot": {
                 "notice_id": 7707,
                 "city_id": 211
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 7709,
+          "title": "FrogFoot Outage | Atlantis & Yzerfontein",
+          "description": "FrogFoot has informed us of a network outage affecting Atlantis & Yzerfontein, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-09-19 19:57:41",
+          "should_notify": 0,
+          "created_at": "2022-09-19 17:49:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7709,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7709,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 231,
+              "name": "Yzerfontein",
+              "slug": "yzerfontein",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7709,
+                "city_id": 231
+              }
+            },
+            {
+              "id": 233,
+              "name": "Atlantis",
+              "slug": "atlantis",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7709,
+                "city_id": 233
               }
             }
           ],
