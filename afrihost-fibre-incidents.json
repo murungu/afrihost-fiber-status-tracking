@@ -1195,6 +1195,80 @@
           "suburbs": []
         },
         {
+          "id": 7694,
+          "title": "Vumatel Outage | Westdene",
+          "description": "Please note users on the Vumatel network in Westdene will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-19 07:44:42",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7694,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7694,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7694,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 868,
+              "name": "Westdene",
+              "slug": "westdene-1",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 7694,
+                "suburb_id": 868
+              }
+            }
+          ]
+        },
+        {
           "id": 7605,
           "title": "Vumatel Maintenance | Randhart",
           "description": "Vumatel is conducting maintenance in Randhart from 2022-09-16 09:00 to 18:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
