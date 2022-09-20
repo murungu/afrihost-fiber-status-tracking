@@ -2013,6 +2013,80 @@
           "suburbs": []
         },
         {
+          "id": 7721,
+          "title": "Octotel Outage | Zonnebloem",
+          "description": "Octotel has informed us of a network outage affecting Zonnebloem, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-20 21:45:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7721,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7721,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7721,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1279,
+              "name": "Zonnebloem",
+              "slug": "zonnebloem",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7721,
+                "suburb_id": 1279
+              }
+            }
+          ]
+        },
+        {
           "id": 7642,
           "title": "Openserve maintenance | Welgemoed, Cape Town",
           "description": "Openserve is conducting maintenance in Welgemoed, Cape Town on the 20th of September from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
