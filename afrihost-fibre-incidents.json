@@ -2835,80 +2835,6 @@
       ],
       "closed": [
         {
-          "id": 7687,
-          "title": "Vumatel Outage | Sonstraal Heights",
-          "description": "Vumatel has informed us of a network outage affecting Sonstraal Heights, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-09-17 23:15:43",
-          "should_notify": 0,
-          "created_at": "2022-09-17 21:29:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7687,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7687,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 195,
-              "name": "Durbanville",
-              "slug": "durbanville",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7687,
-                "city_id": 195
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1076,
-              "name": "Sonstraal Heights",
-              "slug": "sonstraal-heights",
-              "city_id": 195,
-              "pivot": {
-                "notice_id": 7687,
-                "suburb_id": 1076
-              }
-            }
-          ]
-        },
-        {
           "id": 7688,
           "title": "Frogfoot Outage | Blouberg",
           "description": "Frogfoot has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3575,6 +3501,80 @@
               "pivot": {
                 "notice_id": 7711,
                 "suburb_id": 57
+              }
+            }
+          ]
+        },
+        {
+          "id": 7724,
+          "title": "Octotel Outage | Athlone",
+          "description": "Please note users on the Octotel network in Athlone will experience limited to no connectivity due to an outage. Octotel engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": "Connectivity has been restored. Please reboot ONT and Router if you still have no connection",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-09-21 08:42:35",
+          "should_notify": 0,
+          "created_at": "2022-09-21 08:17:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7724,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7724,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7724,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1439,
+              "name": "Athlone",
+              "slug": "athlone",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7724,
+                "suburb_id": 1439
               }
             }
           ]
