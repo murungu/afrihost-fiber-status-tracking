@@ -1028,6 +1028,80 @@
           "suburbs": []
         },
         {
+          "id": 7778,
+          "title": "Openserve Outage | Monument Park",
+          "description": "Please note users on the Openserve network in Monument Park will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-09-26 19:41:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7778,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7778,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7778,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 407,
+              "name": "Monument Park",
+              "slug": "monument-park",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 7778,
+                "suburb_id": 407
+              }
+            }
+          ]
+        },
+        {
           "id": 7676,
           "title": "Vumatel maintenance | Randpark Ridge",
           "description": "Vumatel is conducting maintenance in Randpark Ridge on the 19th of September from 08:00 to the 30th of September at 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
