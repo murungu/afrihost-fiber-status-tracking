@@ -69,69 +69,6 @@
           "suburbs": []
         },
         {
-          "id": 7825,
-          "title": "Frogfoot Outage | Mossel Bay",
-          "description": "Frogfoot has informed us of a network outage affecting Mossel Bay, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-01 10:47:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7825,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7825,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 213,
-              "name": "Mossel Bay",
-              "slug": "mossel-bay",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7825,
-                "city_id": 213
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7824,
           "title": "FibreSuburb Networks Outage | Amber Ridge Estates and Amber Valley",
           "description": "FibreSuburb Networks has informed us of a network outage affecting Amber Ridge Estates and Amber Valley, affected clients will experience limited to no connectivity. FibreSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1889,80 +1826,6 @@
       ],
       "closed": [
         {
-          "id": 7794,
-          "title": "Openserve Outage | Douglasdale",
-          "description": "Openserve has informed us of a network outage affecting Douglasdale and surrounding areas, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-01 06:14:26",
-          "should_notify": 0,
-          "created_at": "2022-09-28 14:05:34",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7794,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7794,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7794,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 166,
-              "name": "Douglasdale",
-              "slug": "douglasdale",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 7794,
-                "suburb_id": 166
-              }
-            }
-          ]
-        },
-        {
           "id": 7802,
           "title": "Vumatel Outage | Kuils River South",
           "description": "Vumatel has informed us of a network outage affecting Vumatel clients in Kuils River South, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2377,6 +2240,69 @@
               "pivot": {
                 "notice_id": 7820,
                 "city_id": 41
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 7825,
+          "title": "Frogfoot Outage | Mossel Bay",
+          "description": "Frogfoot has informed us of a network outage affecting Mossel Bay, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-02 07:00:13",
+          "should_notify": 0,
+          "created_at": "2022-10-01 10:47:42",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7825,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7825,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 213,
+              "name": "Mossel Bay",
+              "slug": "mossel-bay",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7825,
+                "city_id": 213
               }
             }
           ],
