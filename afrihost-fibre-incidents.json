@@ -69,69 +69,6 @@
           "suburbs": []
         },
         {
-          "id": 7833,
-          "title": "Frogfoot Outage | Richards Bay",
-          "description": "Frogfoot has informed us of a network outage affecting Richards Bay, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-02 14:28:34",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7833,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 7833,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 7833,
-                "city_id": 130
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7832,
           "title": "Metrofibre Outage | The Kanyin",
           "description": "Metrofibre has informed us of a network outage affecting The Kanyin, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2026,80 +1963,6 @@
       ],
       "closed": [
         {
-          "id": 7805,
-          "title": "Vumatel Outage | Parkhill Gardens",
-          "description": "Vumatel has informed us of a network outage affecting Parkhill Gardens, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-09-30 14:04:22",
-          "should_notify": 0,
-          "created_at": "2022-09-30 10:29:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7805,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7805,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7805,
-                "city_id": 46
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2071,
-              "name": "Parkhill Gardens",
-              "slug": "parkhill-gardens",
-              "city_id": 46,
-              "pivot": {
-                "notice_id": 7805,
-                "suburb_id": 2071
-              }
-            }
-          ]
-        },
-        {
           "id": 7806,
           "title": "Octotel Outage | Eagle Canyon",
           "description": "Octotel has informed us of a network outage affecting Eagle Canyon, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2760,6 +2623,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 7833,
+          "title": "Frogfoot Outage | Richards Bay",
+          "description": "Frogfoot has informed us of a network outage affecting Richards Bay, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-02 22:23:21",
+          "should_notify": 0,
+          "created_at": "2022-10-02 14:28:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7833,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7833,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 130,
+              "name": "Richards Bay",
+              "slug": "richards-bay",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7833,
+                "city_id": 130
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
