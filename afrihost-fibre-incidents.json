@@ -6,6 +6,153 @@
     "notices": {
       "open": [
         {
+          "id": 7851,
+          "title": "Vumatel Outage | Vereeniging",
+          "description": "Vumtel has informed us of a network outage affecting Vereeniging, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-04 23:37:42",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7851,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7851,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7851,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7851,
+                "city_id": 59
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 7850,
+          "title": "Frogfoot Outage | Walmer",
+          "description": "Frogfoot has informed us of a network outage affecting Walmer, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-04 23:30:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7850,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 7850,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 7850,
+                "city_id": 458
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 172,
+              "name": "Walmer",
+              "slug": "walmer",
+              "city_id": 458,
+              "pivot": {
+                "notice_id": 7850,
+                "suburb_id": 172
+              }
+            }
+          ]
+        },
+        {
           "id": 7849,
           "title": "Vumatel Outage | Croydon",
           "description": "Please note users on the Vumatel network in Croydon will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
@@ -559,80 +706,6 @@
               "pivot": {
                 "notice_id": 7842,
                 "suburb_id": 742
-              }
-            }
-          ]
-        },
-        {
-          "id": 7841,
-          "title": "Frogfoot Outage | Arboretum",
-          "description": "Frogfoot has informed us of a network outage affecting Arboretum, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-03 15:12:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7841,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 7841,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 7841,
-                "city_id": 130
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 79,
-              "name": "Arboretum",
-              "slug": "arboretum",
-              "city_id": 130,
-              "pivot": {
-                "notice_id": 7841,
-                "suburb_id": 79
               }
             }
           ]
@@ -1947,90 +2020,6 @@
       ],
       "closed": [
         {
-          "id": 7826,
-          "title": "Vumatel Outage | Sandown",
-          "description": "Vumatel has informed us of a network outage affecting Sandown, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-01 16:04:44",
-          "should_notify": 0,
-          "created_at": "2022-10-01 11:47:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7826,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7826,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7826,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7826,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 58,
-              "name": "Sandown",
-              "slug": "sandown",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 7826,
-                "suburb_id": 58
-              }
-            }
-          ]
-        },
-        {
           "id": 7827,
           "title": "Evotel Outage | Rustenburg",
           "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2671,6 +2660,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7841,
+          "title": "Frogfoot Outage | Arboretum",
+          "description": "Frogfoot has informed us of a network outage affecting Arboretum, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-04 23:29:20",
+          "should_notify": 0,
+          "created_at": "2022-10-03 15:12:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7841,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7841,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 130,
+              "name": "Richards Bay",
+              "slug": "richards-bay",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7841,
+                "city_id": 130
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 79,
+              "name": "Arboretum",
+              "slug": "arboretum",
+              "city_id": 130,
+              "pivot": {
+                "notice_id": 7841,
+                "suburb_id": 79
+              }
+            }
+          ]
         }
       ]
     },
