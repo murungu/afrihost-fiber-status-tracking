@@ -6,6 +6,90 @@
     "notices": {
       "open": [
         {
+          "id": 7849,
+          "title": "Vumatel Outage | Croydon",
+          "description": "Please note users on the Vumatel network in Croydon will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-04 20:49:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7849,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7849,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7849,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7849,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 776,
+              "name": "Croydon",
+              "slug": "croydon",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 7849,
+                "suburb_id": 776
+              }
+            }
+          ]
+        },
+        {
           "id": 7848,
           "title": "Vumatel Outage | Brakpan",
           "description": "Please note users on the Vumatel network in Brakpan will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologize for any inconvenience caused.",
