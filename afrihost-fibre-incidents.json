@@ -6,6 +6,79 @@
     "notices": {
       "open": [
         {
+          "id": 7865,
+          "title": "Vumatel Outage | Polokwane",
+          "description": "Vumatel has informed us of a network outage affecting Polokwane, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-05 20:32:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7865,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7865,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 7865,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 7865,
+                "city_id": 350
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 7864,
           "title": "Evotel Outage | Lenasia South and Ennerdale",
           "description": "Evotel has informed us of a network outage affecting Lenasia South and Ennerdale, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -570,7 +643,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 540,
+              "notice_id": 7857,
+              "content": "MetroFibre Engineers are still working to restore services in Pretoria East. Fault deferred till morning due to safety . We will keep you updated",
+              "created_by_id": 30,
+              "created_at": "2022-10-05 20:30:33"
+            }
+          ],
           "provinces": [
             {
               "id": 2,
@@ -810,7 +891,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 539,
+              "notice_id": 7854,
+              "content": "MetroFibre Engineers are still working to restore services in Pretoria East. Fault deferred till morning due to safety . We will keep you updated",
+              "created_by_id": 30,
+              "created_at": "2022-10-05 20:30:12"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
