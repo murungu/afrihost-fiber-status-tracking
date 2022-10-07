@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 7880,
+          "title": "Netstream Outage | Vanderbijlpark",
+          "description": "Please note users on the Netstream network in Vanderbijlpark will experience limited to no connectivity due to an outage. Netstream engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-07 12:31:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 11,
+              "name": "Netstream",
+              "slug": "netstream",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7880,
+                "category_id": 11
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7880,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 39,
+              "name": "Vanderbijlpark",
+              "slug": "vanderbijlpark",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7880,
+                "city_id": 39
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 7878,
           "title": "Metrofibre Outage | Montana",
           "description": "Please note users on the Metrofibre network in Montana will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -1222,6 +1285,80 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 7879,
+          "title": "Octotel Maintenance | Sea Point, Vredehoek & Blouberg",
+          "description": "Octotel is conducting maintenance in Sea Point, Vredehoek & Blouberg on the 11th October 2022 from 00:00am - 06:00am, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-07 12:29:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7879,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7879,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7879,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 90,
+              "name": "Sea Point",
+              "slug": "sea-point",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7879,
+                "suburb_id": 90
+              }
+            }
+          ]
         },
         {
           "id": 7811,
