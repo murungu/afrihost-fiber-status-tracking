@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 7874,
-          "title": "Metrofibre Outage | Lotus Park",
-          "description": "Please note users on the Metrofibre network in Lotus Park will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "id": 7875,
+          "title": "Metrofibre Outage | Sunninghill",
+          "description": "Please note users on the Metrofibre network in Sunninghill will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-10-07 08:39:18",
+          "created_at": "2022-10-07 10:25:44",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -37,7 +37,7 @@
               "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 7874,
+                "notice_id": 7875,
                 "category_id": 9
               }
             }
@@ -45,36 +45,36 @@
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 7874,
-                "province_id": 2
+                "notice_id": 7875,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 158,
-              "name": "Isipingo",
-              "slug": "isipingo",
-              "province_id": 2,
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 7874,
-                "city_id": 158
+                "notice_id": 7875,
+                "city_id": 16
               }
             }
           ],
           "suburbs": [
             {
-              "id": 1928,
-              "name": "Lotus Park",
-              "slug": "lotus-park",
-              "city_id": 158,
+              "id": 69,
+              "name": "Sunninghill",
+              "slug": "sunninghill",
+              "city_id": 16,
               "pivot": {
-                "notice_id": 7874,
-                "suburb_id": 1928
+                "notice_id": 7875,
+                "suburb_id": 69
               }
             }
           ]
@@ -1199,69 +1199,6 @@
           "suburbs": []
         },
         {
-          "id": 7853,
-          "title": "Frogfoot Outage | Monte Christo",
-          "description": "Please note users on the Frogfoot network in Monte Christo will experience limited to no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-05 08:20:50",
-          "should_notify": 0,
-          "created_at": "2022-10-05 06:32:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7853,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7853,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 213,
-              "name": "Mossel Bay",
-              "slug": "mossel-bay",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7853,
-                "city_id": 213
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7855,
           "title": "Metrofibre Outage | Durban",
           "description": "Metrofibre has informed us of a network outage affecting Durban, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1878,6 +1815,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 7874,
+          "title": "Metrofibre Outage | Lotus Park",
+          "description": "Please note users on the Metrofibre network in Lotus Park will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-07 10:24:12",
+          "should_notify": 0,
+          "created_at": "2022-10-07 08:39:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7874,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7874,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 158,
+              "name": "Isipingo",
+              "slug": "isipingo",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7874,
+                "city_id": 158
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1928,
+              "name": "Lotus Park",
+              "slug": "lotus-park",
+              "city_id": 158,
+              "pivot": {
+                "notice_id": 7874,
+                "suburb_id": 1928
+              }
+            }
+          ]
         }
       ]
     },
