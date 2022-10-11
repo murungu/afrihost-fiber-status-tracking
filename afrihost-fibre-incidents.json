@@ -6,6 +6,100 @@
     "notices": {
       "open": [
         {
+          "id": 7923,
+          "title": "Octotel outage | Lakeside and Retreat",
+          "description": "Octotel has informed us of a network outage affecting Lakeside and Retreat, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-11 16:38:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7923,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7923,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7923,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1421,
+              "name": "Retreat",
+              "slug": "retreat",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7923,
+                "suburb_id": 1421
+              }
+            },
+            {
+              "id": 1595,
+              "name": "Lakeside",
+              "slug": "lakeside-1",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7923,
+                "suburb_id": 1595
+              }
+            },
+            {
+              "id": 1460,
+              "name": "Westlake",
+              "slug": "westlake-1",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 7923,
+                "suburb_id": 1460
+              }
+            }
+          ]
+        },
+        {
           "id": 7920,
           "title": "FrogFoot outage | Margate",
           "description": "FrogFoot has informed us of a network outage affecting Margate, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1909,6 +2003,80 @@
               "pivot": {
                 "notice_id": 7847,
                 "suburb_id": 11
+              }
+            }
+          ]
+        },
+        {
+          "id": 7924,
+          "title": "FrogFoot maintenance | Century City",
+          "description": "FrogFoot is conducting maintenance in Century City on the 12th of October from 04:00 to 06:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-11 16:53:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7924,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 7924,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 260,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 7924,
+                "city_id": 260
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 91,
+              "name": "Century City",
+              "slug": "century-city",
+              "city_id": 260,
+              "pivot": {
+                "notice_id": 7924,
+                "suburb_id": 91
               }
             }
           ]
