@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 7938,
+          "title": "Metrofibre Outage | Barcelona",
+          "description": "Please note users on the Metrofibre network in Barcelona will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-13 10:28:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7938,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7938,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7938,
+                "city_id": 43
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 192,
+              "name": "The Reeds",
+              "slug": "the-reeds",
+              "city_id": 43,
+              "pivot": {
+                "notice_id": 7938,
+                "suburb_id": 192
+              }
+            }
+          ]
+        },
+        {
           "id": 7937,
           "title": "Evotel Outage | Welkom",
           "description": "Evotel has informed us of a network outage affecting Welkom, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -67,98 +141,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 7935,
-          "title": "Vumatel Outage | Radiokop",
-          "description": "Vumatel has informed us of a network outage affecting Radiokop, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-12 18:54:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7935,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7935,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 543,
-              "notice_id": 7935,
-              "content": "Vumatel Engineers are currently investigating",
-              "created_by_id": 30,
-              "created_at": "2022-10-12 23:23:49"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 7935,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 7935,
-                "city_id": 35
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 539,
-              "name": "Radiokop",
-              "slug": "radiokop",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 7935,
-                "suburb_id": 539
-              }
-            }
-          ]
         },
         {
           "id": 7934,
@@ -1628,89 +1610,6 @@
       ],
       "closed": [
         {
-          "id": 7913,
-          "title": "Frogfoot Outage | Montague Gardens, Blouberg and Stellenbosch",
-          "description": "Frogfoot has informed us of a network outage affecting Montague Gardens, Blouberg and Stellenbosch, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-11 09:17:17",
-          "should_notify": 0,
-          "created_at": "2022-10-11 04:29:31",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7913,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7913,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 223,
-              "name": "Stellenbosch",
-              "slug": "stellenbosch",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7913,
-                "city_id": 223
-              }
-            },
-            {
-              "id": 212,
-              "name": "Montagu",
-              "slug": "montagu",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7913,
-                "city_id": 212
-              }
-            },
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7913,
-                "city_id": 236
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 7917,
           "title": "FrogFoot outage | Port Elizabeth",
           "description": "FrogFoot has informed us of a network outage affecting Port Elizabeth, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2084,6 +1983,98 @@
               "pivot": {
                 "notice_id": 7923,
                 "suburb_id": 1460
+              }
+            }
+          ]
+        },
+        {
+          "id": 7935,
+          "title": "Vumatel Outage | Radiokop",
+          "description": "Vumatel has informed us of a network outage affecting Radiokop, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Service restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-13 10:29:42",
+          "should_notify": 0,
+          "created_at": "2022-10-12 18:54:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7935,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7935,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 543,
+              "notice_id": 7935,
+              "content": "Vumatel Engineers are currently investigating",
+              "created_by_id": 30,
+              "created_at": "2022-10-12 23:23:49"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7935,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7935,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 539,
+              "name": "Radiokop",
+              "slug": "radiokop",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 7935,
+                "suburb_id": 539
               }
             }
           ]
