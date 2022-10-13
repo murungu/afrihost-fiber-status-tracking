@@ -6,6 +6,109 @@
     "notices": {
       "open": [
         {
+          "id": 7941,
+          "title": "TT Connect Intermittency | Bedfordview, Benoni, Boksburg, Edenvale & Germiston",
+          "description": "We are investigating reports of Intermittency affecting client on the TT Connect Network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-13 15:25:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7941,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 7941,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7941,
+                "city_id": 46
+              }
+            },
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7941,
+                "city_id": 25
+              }
+            },
+            {
+              "id": 41,
+              "name": "Bedfordview",
+              "slug": "bedfordview",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7941,
+                "city_id": 41
+              }
+            },
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7941,
+                "city_id": 2
+              }
+            },
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 7941,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 7939,
           "title": "Frogfoot Outage | Beaconbay",
           "description": "Please note users on the Frogfoot network in Beaconbay will experience limited to no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -716,69 +819,6 @@
               "province_id": 3,
               "pivot": {
                 "notice_id": 7908,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 7907,
-          "title": "Frogfoot Outage | Cape Town",
-          "description": "We are investigating reports of limited to no connectivity affecting clients on the Frogfoot network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-10 15:16:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 7907,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 7907,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 7907,
                 "city_id": 240
               }
             }
