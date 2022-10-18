@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 7990,
+          "title": "MetroFibre outage | Lotus Park",
+          "description": "MetroFibre has informed us of a network outage affecting Lotus Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-18 11:55:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 7990,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 7990,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 158,
+              "name": "Isipingo",
+              "slug": "isipingo",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 7990,
+                "city_id": 158
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1928,
+              "name": "Lotus Park",
+              "slug": "lotus-park",
+              "city_id": 158,
+              "pivot": {
+                "notice_id": 7990,
+                "suburb_id": 1928
+              }
+            }
+          ]
+        },
+        {
           "id": 7987,
           "title": "Evotel outage | Postmasburg",
           "description": "Evotel has informed us of a network outage affecting Postmasburg, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
