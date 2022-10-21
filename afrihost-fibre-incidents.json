@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8036,
+          "title": "TTConnect Outage | Germiston",
+          "description": "TTConnect has informed us of a network outage affecting Germiston, affected clients will experience no connectivity. TTConnect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-21 08:27:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8036,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8036,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8036,
+                "city_id": 46
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8035,
           "title": "Vumatel Outage | Edleen",
           "description": "Vumatel has informed us of a network outage affecting Edleen, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -247,8 +310,8 @@
         },
         {
           "id": 8032,
-          "title": "Metrofibre Outage | Despatch",
-          "description": "Please note users on the Metrofibre network in Despatch will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "title": "Metrofibre Outage | Port Elizabeth",
+          "description": "Please note users on the Metrofibre network in Port Elizabeth will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
