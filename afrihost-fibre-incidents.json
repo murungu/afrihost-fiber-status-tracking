@@ -543,77 +543,6 @@
           ]
         },
         {
-          "id": 8047,
-          "title": "Metrofibre Outage | Howick",
-          "description": "Please note users on the Metrofibre network in Howick will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-22 08:06:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8047,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 550,
-              "notice_id": 8047,
-              "content": "MetroFibre engineers are still working to restore services in Howick. ETR of repairs is 8 hours.",
-              "created_by_id": 30,
-              "created_at": "2022-10-22 11:48:53"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8047,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 76,
-              "name": "Howick",
-              "slug": "howick",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8047,
-                "city_id": 76
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8046,
           "title": "Evotel Outage | Kathu",
           "description": "Evotel has informed us of a network outage affecting Kathu, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1986,90 +1915,6 @@
       ],
       "closed": [
         {
-          "id": 8024,
-          "title": "Vuma Reach Outage | Soshanguve Zone 3",
-          "description": "Vumatel has informed us of a network outage affecting Soshanguve Zone 3, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-21 07:10:34",
-          "should_notify": 0,
-          "created_at": "2022-10-20 11:12:34",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8024,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8024,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8024,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8024,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 29,
-              "name": "Soshanguve",
-              "slug": "soshanguve",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8024,
-                "suburb_id": 29
-              }
-            }
-          ]
-        },
-        {
           "id": 8025,
           "title": "Vuma Reach Outage | Seshego",
           "description": "Vumatel has informed us of a network outage affecting Seshego, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2745,6 +2590,77 @@
               }
             }
           ]
+        },
+        {
+          "id": 8047,
+          "title": "Metrofibre Outage | Howick",
+          "description": "Please note users on the Metrofibre network in Howick will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": "Services restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-22 17:53:39",
+          "should_notify": 0,
+          "created_at": "2022-10-22 08:06:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8047,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 550,
+              "notice_id": 8047,
+              "content": "MetroFibre engineers are still working to restore services in Howick. ETR of repairs is 8 hours.",
+              "created_by_id": 30,
+              "created_at": "2022-10-22 11:48:53"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8047,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 76,
+              "name": "Howick",
+              "slug": "howick",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8047,
+                "city_id": 76
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
