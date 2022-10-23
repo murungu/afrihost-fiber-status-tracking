@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8058,
-          "title": "Frogfoot Outage | Parklands",
-          "description": "Please note users on the Frogfoot network in Parklands and surrounding areas will experience no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "id": 8059,
+          "title": "Balwin Outage | The Fynbos",
+          "description": "Balwin has informed us of a network outage affecting The Fynbos, affected clients will experience no connectivity. Balwin engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-10-23 09:12:51",
+          "created_at": "2022-10-23 09:45:18",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8058,
-                "category_id": 7
+                "notice_id": 8059,
+                "category_id": 1
               }
             }
           ],
@@ -49,45 +49,24 @@
               "name": "Western Cape",
               "slug": "western-cape",
               "pivot": {
-                "notice_id": 8058,
+                "notice_id": 8059,
                 "province_id": 3
               }
             }
           ],
           "cities": [
             {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
               "province_id": 3,
               "pivot": {
-                "notice_id": 8058,
-                "city_id": 236
+                "notice_id": 8059,
+                "city_id": 240
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 66,
-              "name": "Parklands",
-              "slug": "parklands",
-              "city_id": 236,
-              "pivot": {
-                "notice_id": 8058,
-                "suburb_id": 66
-              }
-            },
-            {
-              "id": 128,
-              "name": "Parklands North",
-              "slug": "parklands-north",
-              "city_id": 236,
-              "pivot": {
-                "notice_id": 8058,
-                "suburb_id": 128
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 8057,
@@ -2136,98 +2115,6 @@
       ],
       "closed": [
         {
-          "id": 8025,
-          "title": "Vuma Reach Outage | Seshego",
-          "description": "Vumatel has informed us of a network outage affecting Seshego, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-22 06:38:11",
-          "should_notify": 0,
-          "created_at": "2022-10-20 11:13:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8025,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8025,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 545,
-              "notice_id": 8025,
-              "content": "The outage is ongoing and Vumatel engineers are working on restoring connectivity.",
-              "created_by_id": 30,
-              "created_at": "2022-10-21 07:13:52"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
-              "pivot": {
-                "notice_id": 8025,
-                "province_id": 4
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4,
-              "pivot": {
-                "notice_id": 8025,
-                "city_id": 350
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 409,
-              "name": "Seshego",
-              "slug": "seshego",
-              "city_id": 350,
-              "pivot": {
-                "notice_id": 8025,
-                "suburb_id": 409
-              }
-            }
-          ]
-        },
-        {
           "id": 8026,
           "title": "Metrofibre Outage | Kyalami Hills and surrounding areas",
           "description": "Metrofibre has informed us of a network outage affecting Kyalami Hills and surrounding areas, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2882,6 +2769,98 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8058,
+          "title": "Frogfoot Outage | Parklands",
+          "description": "Please note users on the Frogfoot network in Parklands and surrounding areas will experience no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-23 09:51:29",
+          "should_notify": 0,
+          "created_at": "2022-10-23 09:12:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8058,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 551,
+              "notice_id": 8058,
+              "content": "-- Technicians are at the Node\n-- Technicians restored main power to the node to restore services.",
+              "created_by_id": 30,
+              "created_at": "2022-10-23 09:49:30"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8058,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8058,
+                "city_id": 236
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 66,
+              "name": "Parklands",
+              "slug": "parklands",
+              "city_id": 236,
+              "pivot": {
+                "notice_id": 8058,
+                "suburb_id": 66
+              }
+            },
+            {
+              "id": 128,
+              "name": "Parklands North",
+              "slug": "parklands-north",
+              "city_id": 236,
+              "pivot": {
+                "notice_id": 8058,
+                "suburb_id": 128
+              }
+            }
+          ]
         }
       ]
     },
