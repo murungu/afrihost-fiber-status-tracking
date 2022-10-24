@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8076,
-          "title": "Vumatel Outage | Van Riebeeck Park",
-          "description": "Vumatel has informed us of a network outage affecting Van Riebeeck Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8077,
+          "title": "FibreSuburb Networks Outage | Willow Creek",
+          "description": "FibreSuburb Networks has informed us of a network outage affecting Willow Creek, affected clients will experience limited to no connectivity. FibreSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-10-24 13:24:14",
+          "created_at": "2022-10-24 14:02:39",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8076,
-                "category_id": 18
+                "notice_id": 8077,
+                "category_id": 36
               }
             }
           ],
@@ -49,32 +49,32 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8076,
+                "notice_id": 8077,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8076,
-                "city_id": 48
+                "notice_id": 8077,
+                "city_id": 35
               }
             }
           ],
           "suburbs": [
             {
-              "id": 176,
-              "name": "Van Riebeeck Park",
-              "slug": "van-riebeeck-park",
-              "city_id": 48,
+              "id": 483,
+              "name": "Little Falls",
+              "slug": "little-falls",
+              "city_id": 35,
               "pivot": {
-                "notice_id": 8076,
-                "suburb_id": 176
+                "notice_id": 8077,
+                "suburb_id": 483
               }
             }
           ]
@@ -445,80 +445,6 @@
               "pivot": {
                 "notice_id": 8070,
                 "suburb_id": 568
-              }
-            }
-          ]
-        },
-        {
-          "id": 8069,
-          "title": "Vumatel Outage | Meadway Mews",
-          "description": "Vumatel has informed us of a network outage affecting Meadway Mews, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-24 11:26:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8069,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8069,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8069,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 857,
-              "name": "Kelvin",
-              "slug": "kelvin",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8069,
-                "suburb_id": 857
               }
             }
           ]
@@ -1938,6 +1864,80 @@
           "suburbs": []
         },
         {
+          "id": 8078,
+          "title": "Frogfoot Maintenance | Century City",
+          "description": "Frogfoot is conducting maintenance in Century City from 2022-10-24 16:00 to 19:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-24 14:19:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8078,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8078,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 260,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8078,
+                "city_id": 260
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 91,
+              "name": "Century City",
+              "slug": "century-city",
+              "city_id": 260,
+              "pivot": {
+                "notice_id": 8078,
+                "suburb_id": 91
+              }
+            }
+          ]
+        },
+        {
           "id": 8072,
           "title": "Link Layer Maintenance | Ballito and Salt Rock",
           "description": "Link Layer is conducting maintenance in Ballito and Salt Rock from 2022-10-25 22:00 to 2022-10-26 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2272,151 +2272,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 8047,
-          "title": "Metrofibre Outage | Howick",
-          "description": "Please note users on the Metrofibre network in Howick will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": "Services restored",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-22 17:53:39",
-          "should_notify": 0,
-          "created_at": "2022-10-22 08:06:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8047,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 550,
-              "notice_id": 8047,
-              "content": "MetroFibre engineers are still working to restore services in Howick. ETR of repairs is 8 hours.",
-              "created_by_id": 30,
-              "created_at": "2022-10-22 11:48:53"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8047,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 76,
-              "name": "Howick",
-              "slug": "howick",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8047,
-                "city_id": 76
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8049,
-          "title": "Metrofibre Outage | Sunninghill",
-          "description": "Please note users on the Metrofibre network in Sunninghill will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-24 09:09:37",
-          "should_notify": 0,
-          "created_at": "2022-10-22 08:30:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8049,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8049,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8049,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 69,
-              "name": "Sunninghill",
-              "slug": "sunninghill",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8049,
-                "suburb_id": 69
-              }
-            }
-          ]
-        },
         {
           "id": 8052,
           "title": "Vuma Reach Outage | Seshego",
@@ -3021,6 +2876,154 @@
               "pivot": {
                 "notice_id": 8067,
                 "suburb_id": 737
+              }
+            }
+          ]
+        },
+        {
+          "id": 8069,
+          "title": "Vumatel Outage | Meadway Mews",
+          "description": "Vumatel has informed us of a network outage affecting Meadway Mews, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-24 13:53:52",
+          "should_notify": 0,
+          "created_at": "2022-10-24 11:26:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8069,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8069,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8069,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 857,
+              "name": "Kelvin",
+              "slug": "kelvin",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8069,
+                "suburb_id": 857
+              }
+            }
+          ]
+        },
+        {
+          "id": 8076,
+          "title": "Vumatel Outage | Van Riebeeck Park",
+          "description": "Vumatel has informed us of a network outage affecting Van Riebeeck Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-24 13:53:59",
+          "should_notify": 0,
+          "created_at": "2022-10-24 13:24:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8076,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8076,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8076,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 176,
+              "name": "Van Riebeeck Park",
+              "slug": "van-riebeeck-park",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 8076,
+                "suburb_id": 176
               }
             }
           ]
