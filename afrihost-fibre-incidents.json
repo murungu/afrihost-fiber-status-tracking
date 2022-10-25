@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8097,
+          "title": "Frogfoot Outage | Tudor Village",
+          "description": "Frogfoot has informed us of a network outage affecting Tudor Village, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-25 15:15:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8097,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8097,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8097,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 149,
+              "name": "Norkem Park",
+              "slug": "norkem-park",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 8097,
+                "suburb_id": 149
+              }
+            }
+          ]
+        },
+        {
           "id": 8096,
           "title": "Vumatel Outage | Hyde Park, Athol, Bryanston West Sector 2, Ferndale, Norwood and Savoy Waverley",
           "description": "Vumatel has informed us of a network outage affecting clients in Hyde Park, Athol, Bryanston West Sector 2, Ferndale, Norwood and Savoy Waverley, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
