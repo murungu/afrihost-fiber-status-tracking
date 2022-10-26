@@ -217,69 +217,6 @@
           "suburbs": []
         },
         {
-          "id": 8119,
-          "title": "Frogfoot Outage | Grahamstown",
-          "description": "Frogfoot has informed us of a network outage affecting Grahamstown, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-26 12:44:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8119,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 8119,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 443,
-              "name": "Grahamstown",
-              "slug": "grahamstown",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 8119,
-                "city_id": 443
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8118,
           "title": "Metrofibre Outage | Florentia",
           "description": "Metrofibre has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1471,6 +1408,80 @@
           ]
         },
         {
+          "id": 8126,
+          "title": "Frogfoot Maintenance | Silverpines Estate",
+          "description": "Frogfoot is conducting maintenance in Silverpines Estate from 2022-10-27 14:00 to 18:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-26 16:55:59",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8126,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8126,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8126,
+                "city_id": 2
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 111,
+              "name": "Rynfield",
+              "slug": "rynfield",
+              "city_id": 2,
+              "pivot": {
+                "notice_id": 8126,
+                "suburb_id": 111
+              }
+            }
+          ]
+        },
+        {
           "id": 8124,
           "title": "Frogfoot Maintenance | Lorraine",
           "description": "Frogfoot is conducting maintenance in Lorraine from 2022-11-07 23:00 to 2022-11-08 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2152,80 +2163,6 @@
       ],
       "closed": [
         {
-          "id": 8094,
-          "title": "Frogfoot Outage | Rondebosch",
-          "description": "Frogfoot has informed us of a network outage affecting Rondebosch, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-10-25 14:09:47",
-          "should_notify": 0,
-          "created_at": "2022-10-25 14:06:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8094,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8094,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8094,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 516,
-              "name": "Rondebosch",
-              "slug": "rondebosch",
-              "city_id": 240,
-              "pivot": {
-                "notice_id": 8094,
-                "suburb_id": 516
-              }
-            }
-          ]
-        },
-        {
           "id": 8097,
           "title": "Frogfoot Outage | Tudor Village",
           "description": "Frogfoot has informed us of a network outage affecting Tudor Village, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2814,6 +2751,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8119,
+          "title": "Frogfoot Outage | Grahamstown",
+          "description": "Frogfoot has informed us of a network outage affecting Grahamstown, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-10-26 17:19:21",
+          "should_notify": 0,
+          "created_at": "2022-10-26 12:44:59",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8119,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8119,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 443,
+              "name": "Grahamstown",
+              "slug": "grahamstown",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8119,
+                "city_id": 443
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 8121,
