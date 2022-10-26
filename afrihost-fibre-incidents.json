@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8112,
+          "title": "Metrofibre Outage | Tongaat",
+          "description": "Metrofibre has informed us of a network outage affecting Tongaat, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-10-26 10:41:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8112,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8112,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 175,
+              "name": "Tongaat",
+              "slug": "tongaat",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8112,
+                "city_id": 175
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8111,
           "title": "Frogfoot Outage | Ravenswood",
           "description": "Frogfoot has informed us of a network outage affecting Ravenswood, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
