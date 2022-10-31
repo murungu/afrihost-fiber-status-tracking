@@ -6,58 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 8172,
-          "title": "Vumatel Outage | KwaZulu Natal | Degraded Services",
-          "description": "Vumatel has informed us of a network outage affecting KwaZulu Natal, affected clients will experience slow speeds and intermittent connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-10-31 13:46:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8172,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8172,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 8170,
           "title": "VumaReach Outage Degraded | Blue Downs Zone 2",
           "description": "Vumatel has informed us of a network outage affecting Blue Downs Zone 2, affected clients will experience slow speed and intermittent connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -3884,16 +3832,16 @@
       ],
       "closed": [
         {
-          "id": 8150,
-          "title": "VumaReach Outage | Motherwell Port Elizabeth",
-          "description": "Vumatel has informed us of a network outage affecting Motherwell Port Elizabeth, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
+          "id": 8172,
+          "title": "Vumatel Outage | KwaZulu Natal | Degraded Services",
+          "description": "Vumatel has informed us of a network outage affecting KwaZulu Natal, affected clients will experience slow speeds and intermittent connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Issue is resolved",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2022-10-29 15:39:07",
+          "resolved_at": "2022-10-31 13:58:00",
           "should_notify": 0,
-          "created_at": "2022-10-28 10:08:05",
+          "created_at": "2022-10-31 13:46:36",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -3902,60 +3850,38 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8150,
-                "category_id": 18
+                "notice_id": 8172,
+                "category_id": 24
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 8150,
-                "province_id": 6
+                "notice_id": 8172,
+                "province_id": 2
               }
             }
           ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 8150,
-                "city_id": 458
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1223,
-              "name": "Motherwell",
-              "slug": "motherwell",
-              "city_id": 458,
-              "pivot": {
-                "notice_id": 8150,
-                "suburb_id": 1223
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 8151,
@@ -4631,11 +4557,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
