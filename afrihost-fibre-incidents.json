@@ -6,91 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 8206,
-          "title": "FrogFoot degraded service",
-          "description": "We are aware that FrogFoot clients are currently experiencing degraded service on their connections. Engineers are investigating what may be causing the problem and hope to have it resolved soon. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-03 10:02:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8206,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 563,
-              "notice_id": 8206,
-              "content": "A fix has been applied and we are monitoring the situation. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2022-11-03 11:39:03"
-            },
-            {
-              "id": 562,
-              "notice_id": 8206,
-              "content": "Our engineers are working with Frogfoot to resolve the issue as soon as possible. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2022-11-03 11:09:53"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8206,
-                "province_id": 1
-              }
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 8206,
-                "province_id": 7
-              }
-            },
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 8206,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 8196,
           "title": "Vumatel Degraded Services | National",
           "description": "Vumatel has informed us of a network outage affecting clients on their network, affected clients will experience degraded speeds. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -212,6 +127,69 @@
             }
           ],
           "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 8216,
+          "title": "Metrofibre Outage | La Mercy",
+          "description": "Metrofibre has informed us of a network outage affecting La Mercy, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-03 16:14:42",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8216,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8216,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 120,
+              "name": "La Mercy",
+              "slug": "la-mercy",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8216,
+                "city_id": 120
+              }
+            }
+          ],
           "suburbs": []
         },
         {
@@ -350,80 +328,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 8213,
-          "title": "Vumatel outage | Montana",
-          "description": "Vumatel has informed us of a network outage affecting Montana, affected clients will experience limited or no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-03 13:43:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8213,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8213,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8213,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 11,
-              "name": "Montana",
-              "slug": "montana",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8213,
-                "suburb_id": 11
-              }
-            }
-          ]
         },
         {
           "id": 8211,
@@ -4777,16 +4681,16 @@
           "suburbs": []
         },
         {
-          "id": 8189,
-          "title": "Metrofibre Outage | Bushwillow Estate",
-          "description": "Metrofibre has informed us of a network outage affecting Bushwillow Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8206,
+          "title": "FrogFoot degraded service",
+          "description": "We are aware that FrogFoot clients are currently experiencing degraded service on their connections. Engineers are investigating what may be causing the problem and hope to have it resolved soon. We apologize for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2022-11-03 10:29:14",
+          "resolved_at": "2022-11-03 16:15:26",
           "should_notify": 0,
-          "created_at": "2022-11-01 15:02:47",
+          "created_at": "2022-11-03 10:02:15",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -4795,134 +4699,71 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8189,
-                "category_id": 9
+                "notice_id": 8206,
+                "category_id": 7
               }
             }
           ],
-          "updates": [],
-          "provinces": [
+          "updates": [
             {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga",
-              "pivot": {
-                "notice_id": 8189,
-                "province_id": 9
-              }
+              "id": 563,
+              "notice_id": 8206,
+              "content": "A fix has been applied and we are monitoring the situation. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2022-11-03 11:39:03"
+            },
+            {
+              "id": 562,
+              "notice_id": 8206,
+              "content": "Our engineers are working with Frogfoot to resolve the issue as soon as possible. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2022-11-03 11:09:53"
             }
           ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9,
-              "pivot": {
-                "notice_id": 8189,
-                "city_id": 679
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2352,
-              "name": "Emalahleni",
-              "slug": "emalahleni",
-              "city_id": 679,
-              "pivot": {
-                "notice_id": 8189,
-                "suburb_id": 2352
-              }
-            }
-          ]
-        },
-        {
-          "id": 8192,
-          "title": "Vumatel outage | Brackenhurst",
-          "description": "Vumatel has informed us of a network outage affecting Brackenhurst, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-03 11:24:52",
-          "should_notify": 0,
-          "created_at": "2022-11-02 11:23:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8192,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
           "provinces": [
             {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8192,
+                "notice_id": 8206,
                 "province_id": 1
               }
-            }
-          ],
-          "cities": [
+            },
             {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
               "pivot": {
-                "notice_id": 8192,
-                "city_id": 21
+                "notice_id": 8206,
+                "province_id": 7
+              }
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8206,
+                "province_id": 6
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 35,
-              "name": "Brackenhurst",
-              "slug": "brackenhurst",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 8192,
-                "suburb_id": 35
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 8193,
@@ -5507,6 +5348,80 @@
               "pivot": {
                 "notice_id": 8212,
                 "suburb_id": 208
+              }
+            }
+          ]
+        },
+        {
+          "id": 8213,
+          "title": "Vumatel outage | Montana",
+          "description": "Vumatel has informed us of a network outage affecting Montana, affected clients will experience limited or no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-03 16:25:56",
+          "should_notify": 0,
+          "created_at": "2022-11-03 13:43:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8213,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8213,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8213,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 11,
+              "name": "Montana",
+              "slug": "montana",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8213,
+                "suburb_id": 11
               }
             }
           ]
