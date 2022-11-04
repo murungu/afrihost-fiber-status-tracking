@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8245,
+          "title": "Vumatel Villages Outage | Estera",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Estera, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-04 13:23:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8245,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8245,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8245,
+                "city_id": 46
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2763,
+              "name": "Estera",
+              "slug": "estera",
+              "city_id": 46,
+              "pivot": {
+                "notice_id": 8245,
+                "suburb_id": 2763
+              }
+            }
+          ]
+        },
+        {
           "id": 8244,
           "title": "Metrofibre Outage | Fortress Dyke and Hawks Nest",
           "description": "Metrofibre has informed us of a network outage affecting Fortress Dyke and Hawks Nest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
