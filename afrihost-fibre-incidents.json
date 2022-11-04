@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8222,
-          "title": "Vumatel Reach Outage | Soshanguve",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Soshanguve, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8225,
+          "title": "Metrofibre Outage | The Hills",
+          "description": "Metrofibre has informed us of a network outage affecting The Hills, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-11-04 08:05:11",
+          "created_at": "2022-11-04 09:02:53",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8222,
-                "category_id": 24
+                "notice_id": 8225,
+                "category_id": 9
               }
             }
           ],
@@ -49,32 +49,32 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8222,
+                "notice_id": 8225,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8222,
-                "city_id": 33
+                "notice_id": 8225,
+                "city_id": 8
               }
             }
           ],
           "suburbs": [
             {
-              "id": 29,
-              "name": "Soshanguve",
-              "slug": "soshanguve",
-              "city_id": 33,
+              "id": 464,
+              "name": "Rosettenville",
+              "slug": "rosettenville",
+              "city_id": 8,
               "pivot": {
-                "notice_id": 8222,
-                "suburb_id": 29
+                "notice_id": 8225,
+                "suburb_id": 464
               }
             }
           ]
@@ -1220,80 +1220,6 @@
       ],
       "closed": [
         {
-          "id": 8209,
-          "title": "Vumatel outage | Glen Marais",
-          "description": "Vumatel has informed us of a network outage affecting Glen Marais, affected clients will experience limited or no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-04 06:36:06",
-          "should_notify": 0,
-          "created_at": "2022-11-03 12:28:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8209,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8209,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8209,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 28,
-              "name": "Glen Marais",
-              "slug": "glen-marais",
-              "city_id": 48,
-              "pivot": {
-                "notice_id": 8209,
-                "suburb_id": 28
-              }
-            }
-          ]
-        },
-        {
           "id": 8210,
           "title": "Metrofibre Outage | Sunset Village",
           "description": "Metrofibre has informed us of a network outage affecting Sunset Village, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1932,6 +1858,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8222,
+          "title": "Vumatel Reach Outage | Soshanguve",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Soshanguve, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-04 09:04:11",
+          "should_notify": 0,
+          "created_at": "2022-11-04 08:05:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8222,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8222,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8222,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 29,
+              "name": "Soshanguve",
+              "slug": "soshanguve",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8222,
+                "suburb_id": 29
+              }
+            }
+          ]
         },
         {
           "id": 8218,
