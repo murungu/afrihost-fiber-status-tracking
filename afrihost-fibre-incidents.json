@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8229,
+          "title": "Frogfoot Outage | Wellington",
+          "description": "Frogfoot has informed us of a network outage affecting Wellington, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-04 11:34:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8229,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8229,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 229,
+              "name": "Wellington",
+              "slug": "wellington",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8229,
+                "city_id": 229
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8228,
           "title": "Frogfoot Outage | Rynfield",
           "description": "Frogfoot has informed us of a network outage affecting Rynfield, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
