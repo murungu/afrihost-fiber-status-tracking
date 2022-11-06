@@ -6,6 +6,58 @@
     "notices": {
       "open": [
         {
+          "id": 8267,
+          "title": "Metrofibre Outage | Gauteng",
+          "description": "We are investigating reports of degraded performance. Afrihost and Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-06 20:16:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8267,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8267,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 8266,
           "title": "Metrofibre Outage | Rockview Close",
           "description": "Please note users on the Metrofibre network in Rockview Close will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -2351,11 +2403,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
