@@ -238,16 +238,16 @@
           ]
         },
         {
-          "id": 8266,
-          "title": "Metrofibre Outage | Rockview Close",
-          "description": "Please note users on the Metrofibre network in Rockview Close will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "id": 8274,
+          "title": "Openserve maintenance | Blancheville",
+          "description": "Openserve is conducting maintenance in Blancheville on the 12th of November from 07:00 to 16:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-11-06 16:01:17",
+          "created_at": "2022-11-07 08:31:25",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -256,21 +256,95 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8266,
-                "category_id": 9
+                "notice_id": 8274,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga",
+              "pivot": {
+                "notice_id": 8274,
+                "province_id": 9
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9,
+              "pivot": {
+                "notice_id": 8274,
+                "city_id": 679
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 518,
+              "name": "Blancheville",
+              "slug": "blancheville",
+              "city_id": 679,
+              "pivot": {
+                "notice_id": 8274,
+                "suburb_id": 518
+              }
+            }
+          ]
+        },
+        {
+          "id": 8273,
+          "title": "Openserve maintenance | Erasmusrand",
+          "description": "Openserve is conducting maintenance in Erasmusrand on the 12th of November from 00:00 to 09:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-07 08:24:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8273,
+                "category_id": 14
               }
             }
           ],
@@ -281,32 +355,180 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8266,
+                "notice_id": 8273,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8266,
-                "city_id": 16
+                "notice_id": 8273,
+                "city_id": 33
               }
             }
           ],
           "suburbs": [
             {
-              "id": 60,
-              "name": "Lonehill",
-              "slug": "lonehill",
-              "city_id": 16,
+              "id": 1324,
+              "name": "Erasmusrand",
+              "slug": "erasmusrand",
+              "city_id": 33,
               "pivot": {
-                "notice_id": 8266,
-                "suburb_id": 60
+                "notice_id": 8273,
+                "suburb_id": 1324
+              }
+            }
+          ]
+        },
+        {
+          "id": 8272,
+          "title": "Openserve maintenance | Wannenburg",
+          "description": "Openserve is conducting maintenance in Wannenburg on the 11th of November from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-07 08:22:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8272,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8272,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8272,
+                "city_id": 46
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3803,
+              "name": "Wannenburg",
+              "slug": "wannenburg",
+              "city_id": 46,
+              "pivot": {
+                "notice_id": 8272,
+                "suburb_id": 3803
+              }
+            }
+          ]
+        },
+        {
+          "id": 8271,
+          "title": "Openserve maintenance | Protea",
+          "description": "Openserve is conducting maintenance in Protea on the 11th of November from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-07 08:19:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8271,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8271,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8271,
+                "city_id": 17
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 562,
+              "name": "Protea",
+              "slug": "protea",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 8271,
+                "suburb_id": 562
               }
             }
           ]
@@ -1800,80 +2022,6 @@
           "suburbs": []
         },
         {
-          "id": 8255,
-          "title": "Metrofibre Outage | The Matrix",
-          "description": "Metrofibre has informed us of a network outage affecting The Matrix, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-06 18:57:35",
-          "should_notify": 0,
-          "created_at": "2022-11-04 21:07:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8255,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8255,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8255,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 133,
-              "name": "Paulshof",
-              "slug": "paulshof",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8255,
-                "suburb_id": 133
-              }
-            }
-          ]
-        },
-        {
           "id": 8256,
           "title": "Openserve Outage | Centurion",
           "description": "Please note users on the Openserve network in Centurion will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -2404,6 +2552,80 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 8266,
+          "title": "Metrofibre Outage | Rockview Close",
+          "description": "Please note users on the Metrofibre network in Rockview Close will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-07 07:59:25",
+          "should_notify": 0,
+          "created_at": "2022-11-06 16:01:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8266,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8266,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8266,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 60,
+              "name": "Lonehill",
+              "slug": "lonehill",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8266,
+                "suburb_id": 60
+              }
+            }
+          ]
         }
       ]
     },
