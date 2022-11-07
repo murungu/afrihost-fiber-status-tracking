@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8291,
+          "title": "Vumatel Aerial Outage | Escombe Queensburgh",
+          "description": "Please note users on the Vumatel network in Escombe will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-07 18:34:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8291,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8291,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 89,
+              "name": "Queensburgh",
+              "slug": "queensburgh",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8291,
+                "city_id": 89
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1217,
+              "name": "Escombe",
+              "slug": "escombe",
+              "city_id": 89,
+              "pivot": {
+                "notice_id": 8291,
+                "suburb_id": 1217
+              }
+            }
+          ]
+        },
+        {
           "id": 8284,
           "title": "Vumatel Aerial Outage | Alrode | Brackendowns",
           "description": "Please note users on the Vumatel network in Alrode will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
@@ -379,6 +453,80 @@
               "pivot": {
                 "notice_id": 8270,
                 "suburb_id": 47
+              }
+            }
+          ]
+        },
+        {
+          "id": 8290,
+          "title": "Vumatel Mainteance | La Rochelle",
+          "description": "Vumatel is conducting maintenance in La Rochelle on the 22 November 2022 @ 00h01 till 22 November 2022 @ 01h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-07 17:52:01",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8290,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8290,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 186,
+              "name": "Bellville",
+              "slug": "bellville",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8290,
+                "city_id": 186
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3076,
+              "name": "La Rochelle",
+              "slug": "la-rochelle-1",
+              "city_id": 186,
+              "pivot": {
+                "notice_id": 8290,
+                "suburb_id": 3076
               }
             }
           ]
