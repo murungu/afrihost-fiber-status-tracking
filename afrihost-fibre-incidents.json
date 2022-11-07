@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8278,
-          "title": "Vumatel outage | Soshanguve",
-          "description": "Vumatel has informed us of a network outage affecting Soshanguve, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8279,
+          "title": "Evotel outage | Ladysmith",
+          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-11-07 09:01:26",
+          "created_at": "2022-11-07 10:44:07",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,52 +32,41 @@
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8278,
-                "category_id": 18
+                "notice_id": 8279,
+                "category_id": 6
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 8278,
-                "province_id": 1
+                "notice_id": 8279,
+                "province_id": 2
               }
             }
           ],
           "cities": [
             {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2,
               "pivot": {
-                "notice_id": 8278,
-                "city_id": 33
+                "notice_id": 8279,
+                "city_id": 161
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 29,
-              "name": "Soshanguve",
-              "slug": "soshanguve",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8278,
-                "suburb_id": 29
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 8270,
@@ -2285,69 +2274,6 @@
           "suburbs": []
         },
         {
-          "id": 8256,
-          "title": "Openserve Outage | Centurion",
-          "description": "Please note users on the Openserve network in Centurion will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-05 17:43:14",
-          "should_notify": 0,
-          "created_at": "2022-11-05 12:53:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8256,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8256,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8256,
-                "city_id": 43
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8257,
           "title": "Vumatel Aerial Outage | Kew",
           "description": "Please note users on the Vumatel network in Kew will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -2886,6 +2812,80 @@
               "pivot": {
                 "notice_id": 8266,
                 "suburb_id": 60
+              }
+            }
+          ]
+        },
+        {
+          "id": 8278,
+          "title": "Vumatel outage | Soshanguve",
+          "description": "Vumatel has informed us of a network outage affecting Soshanguve, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-07 10:49:20",
+          "should_notify": 0,
+          "created_at": "2022-11-07 09:01:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8278,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8278,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8278,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 29,
+              "name": "Soshanguve",
+              "slug": "soshanguve",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8278,
+                "suburb_id": 29
               }
             }
           ]
