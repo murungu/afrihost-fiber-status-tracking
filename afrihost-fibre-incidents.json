@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8269,
+          "title": "MetroFibre outage | Buccleuch",
+          "description": "MetroFibre has informed us of a network outage affecting Buccleuch, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-07 05:56:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8269,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8269,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8269,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 495,
+              "name": "Buccleuch",
+              "slug": "buccleuch",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8269,
+                "suburb_id": 495
+              }
+            }
+          ]
+        },
+        {
           "id": 8268,
           "title": "Vumatel Aerial Outage | Alrode | Brackendowns",
           "description": "Please note users on the Vumatel network in Alrode will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
