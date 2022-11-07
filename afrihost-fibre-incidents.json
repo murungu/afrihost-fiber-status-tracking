@@ -395,69 +395,6 @@
           "suburbs": []
         },
         {
-          "id": 8279,
-          "title": "Evotel outage | Ladysmith",
-          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-07 10:44:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8279,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8279,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8279,
-                "city_id": 161
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8270,
           "title": "MetroFibre outage | Wilkoppies, Klerksdorp",
           "description": "MetroFibre has informed us of a network outage affecting Wilkoppies, Klerksdorp, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3135,90 +3072,6 @@
           "suburbs": []
         },
         {
-          "id": 8259,
-          "title": "Vumatel Aerial Outage | Florida Lake",
-          "description": "Please note users on the Vumatel network in Florida Lake will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-06 18:27:38",
-          "should_notify": 0,
-          "created_at": "2022-11-05 17:43:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8259,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8259,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8259,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8259,
-                "city_id": 35
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1138,
-              "name": "Florida Lake",
-              "slug": "florida-lake",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 8259,
-                "suburb_id": 1138
-              }
-            }
-          ]
-        },
-        {
           "id": 8260,
           "title": "Vumatel Aerial Outage | Polokwane",
           "description": "Please note users on the Vumatel network in Polokwane will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
@@ -3771,6 +3624,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8279,
+          "title": "Evotel outage | Ladysmith",
+          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-07 20:45:02",
+          "should_notify": 0,
+          "created_at": "2022-11-07 10:44:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8279,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8279,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8279,
+                "city_id": 161
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
