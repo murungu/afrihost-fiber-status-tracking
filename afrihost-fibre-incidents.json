@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8270,
+          "title": "MetroFibre outage | Wilkoppies, Klerksdorp",
+          "description": "MetroFibre has informed us of a network outage affecting Wilkoppies, Klerksdorp, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-07 06:28:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8270,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
+              "pivot": {
+                "notice_id": 8270,
+                "province_id": 8
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 653,
+              "name": "Klerksdorp",
+              "slug": "klerksdorp",
+              "province_id": 8,
+              "pivot": {
+                "notice_id": 8270,
+                "city_id": 653
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 47,
+              "name": "Wilkoppies",
+              "slug": "wilkoppies",
+              "city_id": 653,
+              "pivot": {
+                "notice_id": 8270,
+                "suburb_id": 47
+              }
+            }
+          ]
+        },
+        {
           "id": 8269,
           "title": "MetroFibre outage | Buccleuch",
           "description": "MetroFibre has informed us of a network outage affecting Buccleuch, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
