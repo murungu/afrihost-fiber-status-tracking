@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8314,
-          "title": "Vuma Villages Outage | Gauteng",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel Villages network. We are working on identifying and resolving this issue as quickly as possible. We apologise for any inconvenience that this may be causing.",
+          "id": 8315,
+          "title": "Frogfoot Outage | Heldervue",
+          "description": "Frogfoot has informed us of a network outage affecting Heldervue, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-11-09 19:13:58",
+          "created_at": "2022-11-09 19:40:03",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -24,38 +24,60 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8314,
-                "category_id": 24
+                "notice_id": 8315,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
               "pivot": {
-                "notice_id": 8314,
-                "province_id": 1
+                "notice_id": 8315,
+                "province_id": 3
               }
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 222,
+              "name": "Somerset West",
+              "slug": "somerset-west",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8315,
+                "city_id": 222
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1014,
+              "name": "Heldervue",
+              "slug": "heldervue",
+              "city_id": 222,
+              "pivot": {
+                "notice_id": 8315,
+                "suburb_id": 1014
+              }
+            }
+          ]
         },
         {
           "id": 8313,
@@ -2811,16 +2833,16 @@
           "suburbs": []
         },
         {
-          "id": 8297,
-          "title": "Vumatel outage | Glenhazel",
-          "description": "Vumatel has informed us of a network outage affecting Marlboro, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Service has been restored.",
+          "id": 8314,
+          "title": "Vuma Villages Outage | Gauteng",
+          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel Villages network. We are working on identifying and resolving this issue as quickly as possible. We apologise for any inconvenience that this may be causing.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2022-11-08 13:48:16",
+          "resolved_at": "2022-11-09 19:38:54",
           "should_notify": 0,
-          "created_at": "2022-11-08 08:56:21",
+          "created_at": "2022-11-09 19:13:58",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2829,30 +2851,20 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8297,
-                "category_id": 18
-              }
-            },
             {
               "id": 24,
               "name": "Vumatel Aerial",
               "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8297,
+                "notice_id": 8314,
                 "category_id": 24
               }
             }
@@ -2864,35 +2876,13 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8297,
+                "notice_id": 8314,
                 "province_id": 1
               }
             }
           ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8297,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1004,
-              "name": "Glenhazel",
-              "slug": "glenhazel",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 8297,
-                "suburb_id": 1004
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 8298,
@@ -3497,11 +3487,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
