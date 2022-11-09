@@ -58,16 +58,16 @@
           "suburbs": []
         },
         {
-          "id": 8316,
-          "title": "Frogfoot Outage | Verulam",
-          "description": "Frogfoot has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8318,
+          "title": "Frogfoot Outage | Fichardt park",
+          "description": "Frogfoot has informed us of a network outage affecting Fichardt park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-11-09 20:55:30",
+          "created_at": "2022-11-10 00:25:27",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -89,7 +89,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8316,
+                "notice_id": 8318,
                 "category_id": 7
               }
             }
@@ -97,28 +97,39 @@
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
               "pivot": {
-                "notice_id": 8316,
-                "province_id": 2
+                "notice_id": 8318,
+                "province_id": 7
               }
             }
           ],
           "cities": [
             {
-              "id": 98,
-              "name": "Verulam",
-              "slug": "verulam",
-              "province_id": 2,
+              "id": 570,
+              "name": "Bloemfontein",
+              "slug": "bloemfontein",
+              "province_id": 7,
               "pivot": {
-                "notice_id": 8316,
-                "city_id": 98
+                "notice_id": 8318,
+                "city_id": 570
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 502,
+              "name": "Fichardt Park",
+              "slug": "fichardt-park",
+              "city_id": 570,
+              "pivot": {
+                "notice_id": 8318,
+                "suburb_id": 502
+              }
+            }
+          ]
         },
         {
           "id": 8313,
@@ -2926,69 +2937,6 @@
           "suburbs": []
         },
         {
-          "id": 8299,
-          "title": "Openserve outage | Parow",
-          "description": "Openserve has informed us of a network outage affecting Parow, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-08 20:20:14",
-          "should_notify": 0,
-          "created_at": "2022-11-08 11:44:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8299,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8299,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 312,
-              "name": "Parow",
-              "slug": "parow",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8299,
-                "city_id": 312
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8301,
           "title": "Octotel Outage | Eagle Canyon",
           "description": "Please note users on the Octotel network in Eagle Canyon will experience limited to no connectivity due to an outage. Octotel engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -3524,6 +3472,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8316,
+          "title": "Frogfoot Outage | Verulam",
+          "description": "Frogfoot has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-10 00:25:56",
+          "should_notify": 0,
+          "created_at": "2022-11-09 20:55:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8316,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8316,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 98,
+              "name": "Verulam",
+              "slug": "verulam",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8316,
+                "city_id": 98
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
