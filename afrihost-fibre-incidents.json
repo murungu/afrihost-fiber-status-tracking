@@ -727,6 +727,80 @@
           "suburbs": []
         },
         {
+          "id": 8331,
+          "title": "Clear Access Outage | Malachite Mews",
+          "description": "Clear Access is conducting maintenance in Malachite Mews from Sunday 13th of Nov 2022 21:00 to Monday 14th of Nov 2022 07:00  users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-11 07:18:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 4,
+              "name": "Clear Access",
+              "slug": "clear-access",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8331,
+                "category_id": 4
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8331,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8331,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 810,
+              "name": "Van Dyk Park",
+              "slug": "van-dyk-park",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 8331,
+                "suburb_id": 810
+              }
+            }
+          ]
+        },
+        {
           "id": 8320,
           "title": "Frogfoot Maintance | Benoni",
           "description": "Frogfoot is conducting maintenance in Benoni from 2022-11-15 08:00 to 2022-11-17 19:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
