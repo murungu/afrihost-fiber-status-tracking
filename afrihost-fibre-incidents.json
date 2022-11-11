@@ -66,6 +66,80 @@
           "suburbs": []
         },
         {
+          "id": 8334,
+          "title": "Frogfoot Outage | Langenhoven",
+          "description": "Frogfoot has informed us of a network outage affecting Langenhoven, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-11 10:35:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8334,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
+              "pivot": {
+                "notice_id": 8334,
+                "province_id": 7
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 570,
+              "name": "Bloemfontein",
+              "slug": "bloemfontein",
+              "province_id": 7,
+              "pivot": {
+                "notice_id": 8334,
+                "city_id": 570
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 70,
+              "name": "Langenhovenpark",
+              "slug": "langenhovenpark",
+              "city_id": 570,
+              "pivot": {
+                "notice_id": 8334,
+                "suburb_id": 70
+              }
+            }
+          ]
+        },
+        {
           "id": 8333,
           "title": "Metrofibre Outage | Glenferness AH",
           "description": "Metrofibre has informed us of a network outage affecting Glenferness AH, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
