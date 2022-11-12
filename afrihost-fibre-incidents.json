@@ -140,69 +140,6 @@
           ]
         },
         {
-          "id": 8354,
-          "title": "Frogfoot Outage | Verulam",
-          "description": "Frogfoot has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-12 17:50:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8354,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8354,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 98,
-              "name": "Verulam",
-              "slug": "verulam",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8354,
-                "city_id": 98
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8350,
           "title": "Openserve Outage | Bethelsdorp",
           "description": "Openservehas informed us of a network outage affecting Bethelsdorp, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2215,90 +2152,6 @@
           "suburbs": []
         },
         {
-          "id": 8335,
-          "title": "Vuma Village Outage | Hayfields",
-          "description": "Vumatel has informed us of a network outage affecting Hayfields, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-12 21:48:54",
-          "should_notify": 0,
-          "created_at": "2022-11-11 14:22:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8335,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8335,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8335,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8335,
-                "city_id": 87
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1328,
-              "name": "Hayfields",
-              "slug": "hayfields",
-              "city_id": 87,
-              "pivot": {
-                "notice_id": 8335,
-                "suburb_id": 1328
-              }
-            }
-          ]
-        },
-        {
           "id": 8340,
           "title": "Frogfoot Outage | Queenswood",
           "description": "Frogfoot has informed us of a network outage affecting Queenswood, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2778,6 +2631,69 @@
               "pivot": {
                 "notice_id": 8352,
                 "city_id": 68
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8354,
+          "title": "Frogfoot Outage | Verulam",
+          "description": "Frogfoot has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-13 00:30:07",
+          "should_notify": 0,
+          "created_at": "2022-11-12 17:50:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8354,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8354,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 98,
+              "name": "Verulam",
+              "slug": "verulam",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8354,
+                "city_id": 98
               }
             }
           ],
