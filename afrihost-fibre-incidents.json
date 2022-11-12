@@ -2973,80 +2973,6 @@
           "suburbs": []
         },
         {
-          "id": 8318,
-          "title": "Frogfoot Outage | Fichardt park",
-          "description": "Frogfoot has informed us of a network outage affecting Fichardt park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-10 04:59:38",
-          "should_notify": 0,
-          "created_at": "2022-11-10 00:25:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8318,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 8318,
-                "province_id": 7
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 570,
-              "name": "Bloemfontein",
-              "slug": "bloemfontein",
-              "province_id": 7,
-              "pivot": {
-                "notice_id": 8318,
-                "city_id": 570
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 502,
-              "name": "Fichardt Park",
-              "slug": "fichardt-park",
-              "city_id": 570,
-              "pivot": {
-                "notice_id": 8318,
-                "suburb_id": 502
-              }
-            }
-          ]
-        },
-        {
           "id": 8319,
           "title": "FrogFoot outage | Kempton Park",
           "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3612,6 +3538,80 @@
               "pivot": {
                 "notice_id": 8333,
                 "suburb_id": 1326
+              }
+            }
+          ]
+        },
+        {
+          "id": 8348,
+          "title": "Octotel Outage | Eagle Canyon",
+          "description": "Octotel has informed us of a network outage affecting Eagle Canyon, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-12 05:54:54",
+          "should_notify": 0,
+          "created_at": "2022-11-12 05:49:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8348,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8348,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8348,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 556,
+              "name": "Eagle Canyon Golf Estate",
+              "slug": "eagle-canyon-golf-estate",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 8348,
+                "suburb_id": 556
               }
             }
           ]
