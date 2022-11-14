@@ -87,16 +87,16 @@
           "suburbs": []
         },
         {
-          "id": 8360,
-          "title": "Vumatel Aerial Outage | Meyerton",
-          "description": "Please note users on the Vumatel Aerial network in Meyerton will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "id": 8364,
+          "title": "Metrofibre Outage | Pebblestone Creek River Estate",
+          "description": "Please note users on the Metrofibre network in Pebblestone Creek River Estate will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-11-13 14:13:34",
+          "created_at": "2022-11-14 07:41:13",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -113,13 +113,13 @@
           },
           "categories": [
             {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8360,
-                "category_id": 24
+                "notice_id": 8364,
+                "category_id": 9
               }
             }
           ],
@@ -130,32 +130,106 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8360,
+                "notice_id": 8364,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 59,
-              "name": "Vereeniging",
-              "slug": "vereeniging",
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8360,
-                "city_id": 59
+                "notice_id": 8364,
+                "city_id": 16
               }
             }
           ],
           "suburbs": [
             {
-              "id": 3450,
-              "name": "Meyerton & Extension",
-              "slug": "meyerton-extension",
-              "city_id": 59,
+              "id": 495,
+              "name": "Buccleuch",
+              "slug": "buccleuch",
+              "city_id": 16,
               "pivot": {
-                "notice_id": 8360,
-                "suburb_id": 3450
+                "notice_id": 8364,
+                "suburb_id": 495
+              }
+            }
+          ]
+        },
+        {
+          "id": 8363,
+          "title": "Metrofibre Outage | Florentia",
+          "description": "Please note users on the Metrofibre network in Florentia will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-14 07:37:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8363,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8363,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8363,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 584,
+              "name": "Florentia",
+              "slug": "florentia",
+              "city_id": 21,
+              "pivot": {
+                "notice_id": 8363,
+                "suburb_id": 584
               }
             }
           ]
@@ -1563,80 +1637,6 @@
           "suburbs": []
         },
         {
-          "id": 8345,
-          "title": "Frogfoot Outage | Scottsville",
-          "description": "Frogfoot has informed us of a network outage affecting Scottsville, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-13 21:41:57",
-          "should_notify": 0,
-          "created_at": "2022-11-12 00:11:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8345,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8345,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8345,
-                "city_id": 87
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 907,
-              "name": "Scottsville",
-              "slug": "scottsville",
-              "city_id": 87,
-              "pivot": {
-                "notice_id": 8345,
-                "suburb_id": 907
-              }
-            }
-          ]
-        },
-        {
           "id": 8346,
           "title": "Vumatel Outage | Allandale",
           "description": "Vumatel has informed us of a network outage affecting Allandale, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2106,6 +2106,80 @@
               "pivot": {
                 "notice_id": 8355,
                 "suburb_id": 737
+              }
+            }
+          ]
+        },
+        {
+          "id": 8360,
+          "title": "Vumatel Aerial Outage | Meyerton",
+          "description": "Please note users on the Vumatel Aerial network in Meyerton will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-14 07:41:33",
+          "should_notify": 0,
+          "created_at": "2022-11-13 14:13:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8360,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8360,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8360,
+                "city_id": 59
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3450,
+              "name": "Meyerton & Extension",
+              "slug": "meyerton-extension",
+              "city_id": 59,
+              "pivot": {
+                "notice_id": 8360,
+                "suburb_id": 3450
               }
             }
           ]
