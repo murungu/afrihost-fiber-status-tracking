@@ -309,7 +309,7 @@
         },
         {
           "id": 8377,
-          "title": "Vuma outage | Johannesburg North",
+          "title": "Vumatel outage | Johannesburg North",
           "description": "Vumatel has informed us of a network outage affecting Johannesburg North, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. This outage is part of a scheduled cut-over that will be completed on the 18th of November 2022 We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
@@ -2516,16 +2516,16 @@
           "suburbs": []
         },
         {
-          "id": 8348,
-          "title": "Octotel Outage | Eagle Canyon",
-          "description": "Octotel has informed us of a network outage affecting Eagle Canyon, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8381,
+          "title": "MetroFibre outage | Gauteng",
+          "description": "MetroFibre has informed us of a network outage affecting Gauteng, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2022-11-12 05:54:54",
+          "resolved_at": "2022-11-14 20:29:44",
           "should_notify": 0,
-          "created_at": "2022-11-12 05:49:11",
+          "created_at": "2022-11-14 20:10:00",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2534,60 +2534,46 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8348,
-                "category_id": 12
+                "notice_id": 8381,
+                "category_id": 9
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 580,
+              "notice_id": 8381,
+              "content": "The emergency change was completed and services have been restored",
+              "created_by_id": 30,
+              "created_at": "2022-11-14 20:29:39"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8348,
+                "notice_id": 8381,
                 "province_id": 1
               }
             }
           ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8348,
-                "city_id": 35
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 556,
-              "name": "Eagle Canyon Golf Estate",
-              "slug": "eagle-canyon-golf-estate",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 8348,
-                "suburb_id": 556
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 8350,
