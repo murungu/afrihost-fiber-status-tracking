@@ -87,6 +87,80 @@
           "suburbs": []
         },
         {
+          "id": 8380,
+          "title": "Evotel outage | Ennerdale",
+          "description": "Evotel has informed us of a network outage affecting Ennerdale, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-14 19:30:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8380,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8380,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8380,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 873,
+              "name": "Ennerdale",
+              "slug": "ennerdale",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 8380,
+                "suburb_id": 873
+              }
+            }
+          ]
+        },
+        {
           "id": 8379,
           "title": "VumaReach outage | Phoenix Zone 05",
           "description": "Vumatel has informed us of a network outage affecting Phoenix Zone 05, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -788,7 +862,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 579,
+              "notice_id": 8358,
+              "content": "Repairs will continue tomorrow (15/11/2022)",
+              "created_by_id": 30,
+              "created_at": "2022-11-14 19:33:47"
+            }
+          ],
           "provinces": [
             {
               "id": 2,
