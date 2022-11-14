@@ -87,16 +87,16 @@
           "suburbs": []
         },
         {
-          "id": 8364,
-          "title": "Metrofibre Outage | Pebblestone Creek River Estate",
-          "description": "Please note users on the Metrofibre network in Pebblestone Creek River Estate will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "id": 8365,
+          "title": "FibreSuburb outage | South Hills",
+          "description": "FibreSuburb has informed us of a network outage affecting South Hills, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-11-14 07:41:13",
+          "created_at": "2022-11-14 10:04:43",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -113,13 +113,13 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8364,
-                "category_id": 9
+                "notice_id": 8365,
+                "category_id": 36
               }
             }
           ],
@@ -130,32 +130,32 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8364,
+                "notice_id": 8365,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8364,
-                "city_id": 16
+                "notice_id": 8365,
+                "city_id": 8
               }
             }
           ],
           "suburbs": [
             {
-              "id": 495,
-              "name": "Buccleuch",
-              "slug": "buccleuch",
-              "city_id": 16,
+              "id": 1277,
+              "name": "South Hills",
+              "slug": "south-hills",
+              "city_id": 8,
               "pivot": {
-                "notice_id": 8364,
-                "suburb_id": 495
+                "notice_id": 8365,
+                "suburb_id": 1277
               }
             }
           ]
@@ -1637,80 +1637,6 @@
           "suburbs": []
         },
         {
-          "id": 8346,
-          "title": "Vumatel Outage | Allandale",
-          "description": "Vumatel has informed us of a network outage affecting Allandale, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-12 17:44:05",
-          "should_notify": 0,
-          "created_at": "2022-11-12 01:29:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8346,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8346,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8346,
-                "city_id": 87
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3327,
-              "name": "Allandale",
-              "slug": "allandale-1",
-              "city_id": 87,
-              "pivot": {
-                "notice_id": 8346,
-                "suburb_id": 3327
-              }
-            }
-          ]
-        },
-        {
           "id": 8347,
           "title": "Vumatel Outage | Cleland & The Meadows",
           "description": "Vumatel has informed us of a network outage affecting Cleland & The Meadows, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2246,6 +2172,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8364,
+          "title": "Metrofibre Outage | Pebblestone Creek River Estate",
+          "description": "Please note users on the Metrofibre network in Pebblestone Creek River Estate will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-14 10:04:56",
+          "should_notify": 0,
+          "created_at": "2022-11-14 07:41:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8364,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8364,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8364,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 495,
+              "name": "Buccleuch",
+              "slug": "buccleuch",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8364,
+                "suburb_id": 495
+              }
+            }
+          ]
         }
       ]
     },
