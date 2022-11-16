@@ -108,6 +108,80 @@
           "suburbs": []
         },
         {
+          "id": 8396,
+          "title": "MetroFibre outage | Kenville",
+          "description": "MetroFibre has informed us of a network outage affecting Kenville, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-16 14:02:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8396,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8396,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8396,
+                "city_id": 68
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1966,
+              "name": "Kenville",
+              "slug": "kenville",
+              "city_id": 68,
+              "pivot": {
+                "notice_id": 8396,
+                "suburb_id": 1966
+              }
+            }
+          ]
+        },
+        {
           "id": 8395,
           "title": "MetroFibre outage | Theresapark, Akasia",
           "description": "MetroFibre has informed us of a network outage affecting Theresapark, Akasia, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
