@@ -115,6 +115,80 @@
           "suburbs": []
         },
         {
+          "id": 8405,
+          "title": "Vuma Village outage | Noordwyk, Midrand",
+          "description": "Vumatel has informed us of a network outage affecting Noordwyk, Midrand, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-17 09:03:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8405,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8405,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8405,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 210,
+              "name": "Noordwyk",
+              "slug": "noordwyk",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 8405,
+                "suburb_id": 210
+              }
+            }
+          ]
+        },
+        {
           "id": 8404,
           "title": "MetroFibre outage | Carlswald North Lifestyle Estate",
           "description": "MetroFibre has informed us of a network outage affecting Carlswald North Lifestyle Estate, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2341,80 +2415,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 8241,
-          "title": "Frogfoot Maintenance | Lorraine",
-          "description": "Frogfoot is conducting maintenance in Thabazimbi from 2022-11-16 23:00 to 2022-11-17 07:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-04 12:56:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8241,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 8241,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 8241,
-                "city_id": 458
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 512,
-              "name": "Lorraine",
-              "slug": "lorraine",
-              "city_id": 458,
-              "pivot": {
-                "notice_id": 8241,
-                "suburb_id": 512
-              }
-            }
-          ]
         },
         {
           "id": 8237,
