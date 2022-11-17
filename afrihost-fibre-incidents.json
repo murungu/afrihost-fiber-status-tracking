@@ -115,6 +115,80 @@
           "suburbs": []
         },
         {
+          "id": 8406,
+          "title": "MetroFibre outage | Kwa-Thema",
+          "description": "MetroFibre has informed us of a network outage affecting Kwa-Thema, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-17 10:30:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8406,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8406,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8406,
+                "city_id": 37
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1618,
+              "name": "Kwa Thema",
+              "slug": "kwa-thema",
+              "city_id": 37,
+              "pivot": {
+                "notice_id": 8406,
+                "suburb_id": 1618
+              }
+            }
+          ]
+        },
+        {
           "id": 8405,
           "title": "Vuma Village outage | Noordwyk, Midrand",
           "description": "Vumatel has informed us of a network outage affecting Noordwyk, Midrand, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
