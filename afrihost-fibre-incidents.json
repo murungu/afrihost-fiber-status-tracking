@@ -122,6 +122,79 @@
           "suburbs": []
         },
         {
+          "id": 8432,
+          "title": "Frogfoot Outage | Port Elizabeth, Uitenhage",
+          "description": "Frogfoot has informed us of a network outage affecting Port Elizabeth, Uitenhage, affected clients will experience no connectivity. Port Elizabeth engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-18 13:48:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8432,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8432,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8432,
+                "city_id": 458
+              }
+            },
+            {
+              "id": 502,
+              "name": "Uitenhage",
+              "slug": "uitenhage",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8432,
+                "city_id": 502
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8431,
           "title": "MetroFibre Outage | Eden Park",
           "description": "MetroFibre has informed us of a network outage affecting Eden Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
