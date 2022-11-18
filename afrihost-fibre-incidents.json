@@ -122,6 +122,80 @@
           "suburbs": []
         },
         {
+          "id": 8431,
+          "title": "MetroFibre Outage | Eden Park",
+          "description": "MetroFibre has informed us of a network outage affecting Eden Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-18 13:26:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8431,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8431,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8431,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 61,
+              "name": "Wonderboom",
+              "slug": "wonderboom",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8431,
+                "suburb_id": 61
+              }
+            }
+          ]
+        },
+        {
           "id": 8427,
           "title": "MetroFibre Outage | Red Ivory Lane",
           "description": "MetroFibre has informed us of a network outage affecting Red Ivory Lane, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1827,6 +1901,108 @@
               }
             }
           ]
+        },
+        {
+          "id": 8430,
+          "title": "Vumatel Maintenance | Mitchells Plain, Strandfontein & Vosloorus",
+          "description": "Vumatel is conducting maintenance in Mitchells Plain, Strandfontein & Vosloorus from 22 November 2022 at 02h00 to 22 November 2022 at 04h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-18 13:21:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Mitchells Fibre",
+              "slug": "mitchells-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8430,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8430,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8430,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8430,
+                "province_id": 3
+              }
+            },
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8430,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 308,
+              "name": "Mitchells Plain",
+              "slug": "mitchells-plain",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8430,
+                "city_id": 308
+              }
+            },
+            {
+              "id": 224,
+              "name": "Strandfontein",
+              "slug": "strandfontein",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8430,
+                "city_id": 224
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 8429,
