@@ -122,9 +122,83 @@
           "suburbs": []
         },
         {
+          "id": 8437,
+          "title": "Metrofibre Outage | Shimbali Sands",
+          "description": "Metrofibre has informed us of a network outage affecting Shimbali Sands, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-18 18:15:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8437,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8437,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8437,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 69,
+              "name": "Sunninghill",
+              "slug": "sunninghill",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8437,
+                "suburb_id": 69
+              }
+            }
+          ]
+        },
+        {
           "id": 8435,
           "title": "Vumatel Outage | Quellerina",
-          "description": "Vumatel has informed us of a network outage affecting Quellerina, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "description": "Vumatel has informed us of a network outage affecting Quellerina and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
@@ -194,79 +268,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 8432,
-          "title": "Frogfoot Outage | Port Elizabeth, Uitenhage & Lorraine",
-          "description": "Frogfoot has informed us of a network outage affecting Port Elizabeth, Uitenhage & Lorraine affected clients will experience no connectivity. Port Elizabeth engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-18 13:48:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8432,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 8432,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 8432,
-                "city_id": 458
-              }
-            },
-            {
-              "id": 502,
-              "name": "Uitenhage",
-              "slug": "uitenhage",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 8432,
-                "city_id": 502
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 8431,
@@ -2050,6 +2051,80 @@
           ]
         },
         {
+          "id": 8436,
+          "title": "Vumatel Maintenance | Bassonia",
+          "description": "Vumatel is conducting maintenance in Bassonia from 2022-11-23 09:00 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-18 18:10:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8436,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8436,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8436,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 144,
+              "name": "Bassonia",
+              "slug": "bassonia",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 8436,
+                "suburb_id": 144
+              }
+            }
+          ]
+        },
+        {
           "id": 8433,
           "title": "FrogFoot Maintenance | Johannesburg",
           "description": "Frogfoot is conducting maintenance in Johannesburg from 18 November 08:00 to 18:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -3248,80 +3323,6 @@
       ],
       "closed": [
         {
-          "id": 8395,
-          "title": "MetroFibre outage | Theresapark, Akasia",
-          "description": "MetroFibre has informed us of a network outage affecting Theresapark, Akasia, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-16 17:55:41",
-          "should_notify": 0,
-          "created_at": "2022-11-16 13:47:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8395,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8395,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8395,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1054,
-              "name": "Theresapark Ext",
-              "slug": "theresapark-ext",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8395,
-                "suburb_id": 1054
-              }
-            }
-          ]
-        },
-        {
           "id": 8397,
           "title": "Vumatel outage | Marlboro and Alexandra",
           "description": "Vumatel has informed us of a network outage affecting Vuma Village and Vuma Reach clients in Marlboro and Alexandra, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3898,6 +3899,79 @@
               }
             }
           ]
+        },
+        {
+          "id": 8432,
+          "title": "Frogfoot Outage | Port Elizabeth, Uitenhage & Lorraine",
+          "description": "Frogfoot has informed us of a network outage affecting Port Elizabeth, Uitenhage & Lorraine affected clients will experience no connectivity. Port Elizabeth engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-18 18:27:35",
+          "should_notify": 0,
+          "created_at": "2022-11-18 13:48:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8432,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8432,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8432,
+                "city_id": 458
+              }
+            },
+            {
+              "id": 502,
+              "name": "Uitenhage",
+              "slug": "uitenhage",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8432,
+                "city_id": 502
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 8434,
