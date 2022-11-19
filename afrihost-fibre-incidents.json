@@ -122,6 +122,69 @@
           "suburbs": []
         },
         {
+          "id": 8443,
+          "title": "Metrofibre Outage | La Mercy",
+          "description": "Metrofibre has informed us of a network outage affecting La Mercy, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-19 18:02:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8443,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8443,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 120,
+              "name": "La Mercy",
+              "slug": "la-mercy",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8443,
+                "city_id": 120
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8441,
           "title": "Frogfoot Outage | Rynfield",
           "description": "Frogfoot has informed us of a network outage affecting Rynfield affected clients will experience no connectivity. Port Elizabeth engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -936,80 +999,6 @@
               "pivot": {
                 "notice_id": 8417,
                 "suburb_id": 1521
-              }
-            }
-          ]
-        },
-        {
-          "id": 8416,
-          "title": "Vumatel Outage | Hayfields",
-          "description": "Vumatel has informed us of a network outage affecting Hayfields, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-17 19:34:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8416,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8416,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8416,
-                "city_id": 87
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1328,
-              "name": "Hayfields",
-              "slug": "hayfields",
-              "city_id": 87,
-              "pivot": {
-                "notice_id": 8416,
-                "suburb_id": 1328
               }
             }
           ]
@@ -2887,153 +2876,6 @@
           ]
         },
         {
-          "id": 8424,
-          "title": "Vumatel Maintenance | Vorna Valley",
-          "description": "Vumatel is conducting maintenance in Vorna Valley from 19 November 2022 08h00 to 19 November 2022 12h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-18 12:07:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8424,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8424,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8424,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8424,
-                "city_id": 50
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 391,
-              "name": "Vorna Valley",
-              "slug": "vorna-valley",
-              "city_id": 50,
-              "pivot": {
-                "notice_id": 8424,
-                "suburb_id": 391
-              }
-            }
-          ]
-        },
-        {
-          "id": 8398,
-          "title": "Evotel maintenance | Postmasburg",
-          "description": "Evotel is conducting maintenance in Postmasburg on the 18th of November from 00:00 to 04:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-16 15:38:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8398,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape",
-              "pivot": {
-                "notice_id": 8398,
-                "province_id": 5
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 381,
-              "name": "Postmasburg",
-              "slug": "postmasburg",
-              "province_id": 5,
-              "pivot": {
-                "notice_id": 8398,
-                "city_id": 381
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8374,
           "title": "FrogFoot maintenance | Cape Town",
           "description": "FrogFoot is conducting maintenance in Cape Town on the 22nd of November from 23:00 to the 23rd of November at 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -3394,143 +3236,6 @@
       ],
       "closed": [
         {
-          "id": 8413,
-          "title": "Frogfoot Outage | Parklands",
-          "description": "Frogfoot has informed us of a network outage affecting Parklands, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-17 19:25:15",
-          "should_notify": 0,
-          "created_at": "2022-11-17 15:27:54",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8413,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8413,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8413,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8414,
-          "title": "Frogfoot Outage | Scottsville",
-          "description": "Frogfoot has informed us of a network outage affecting Scottsville, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-18 00:58:58",
-          "should_notify": 0,
-          "created_at": "2022-11-17 15:33:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8414,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8414,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8414,
-                "city_id": 87
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 907,
-              "name": "Scottsville",
-              "slug": "scottsville",
-              "city_id": 87,
-              "pivot": {
-                "notice_id": 8414,
-                "suburb_id": 907
-              }
-            }
-          ]
-        },
-        {
           "id": 8415,
           "title": "Vumatel Outage | Savoy Waverley",
           "description": "Vumatel has informed us of a network outage affecting Savoy Waverley, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3610,6 +3315,80 @@
               "pivot": {
                 "notice_id": 8415,
                 "suburb_id": 988
+              }
+            }
+          ]
+        },
+        {
+          "id": 8416,
+          "title": "Vumatel Outage | Hayfields",
+          "description": "Vumatel has informed us of a network outage affecting Hayfields, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-19 18:02:55",
+          "should_notify": 0,
+          "created_at": "2022-11-17 19:34:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8416,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8416,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 87,
+              "name": "Pietermaritzburg",
+              "slug": "pietermaritzburg",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8416,
+                "city_id": 87
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1328,
+              "name": "Hayfields",
+              "slug": "hayfields",
+              "city_id": 87,
+              "pivot": {
+                "notice_id": 8416,
+                "suburb_id": 1328
               }
             }
           ]
@@ -4023,6 +3802,90 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 8424,
+          "title": "Vumatel Maintenance | Vorna Valley",
+          "description": "Vumatel is conducting maintenance in Vorna Valley from 19 November 2022 08h00 to 19 November 2022 12h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2022-11-19 18:03:59",
+          "should_notify": 0,
+          "created_at": "2022-11-18 12:07:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8424,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8424,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8424,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8424,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 391,
+              "name": "Vorna Valley",
+              "slug": "vorna-valley",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 8424,
+                "suburb_id": 391
+              }
+            }
+          ]
         },
         {
           "id": 8433,
