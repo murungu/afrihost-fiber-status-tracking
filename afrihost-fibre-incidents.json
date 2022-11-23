@@ -143,6 +143,90 @@
           "suburbs": []
         },
         {
+          "id": 8463,
+          "title": "Octotel outage | Brooklyn, Cape Town",
+          "description": "We have been made aware of a network outage affecting Octotel clients in Brooklyn, Cape Town, affected clients will experience no connectivity. Engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-23 10:30:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8463,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8463,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8463,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1383,
+              "name": "Brooklyn",
+              "slug": "brooklyn-1",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 8463,
+                "suburb_id": 1383
+              }
+            },
+            {
+              "id": 2059,
+              "name": "Kensington",
+              "slug": "kensington-1",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 8463,
+                "suburb_id": 2059
+              }
+            }
+          ]
+        },
+        {
           "id": 8462,
           "title": "Vuma Village outage | Naturena",
           "description": "Vumatel has informed us of a network outage affecting Naturena, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -215,6 +299,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8464,
+          "title": "Openserve maintenance | Kempton Park",
+          "description": "Openserve is conducting maintenance in Kempton Park on the 26th of November from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-23 10:39:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8464,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8464,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8464,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 8442,
