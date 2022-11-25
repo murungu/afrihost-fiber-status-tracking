@@ -66,6 +66,80 @@
           "suburbs": []
         },
         {
+          "id": 8497,
+          "title": "Metrofibre Outage | Modelpark",
+          "description": "Metrofibre has informed us of a network outage affecting Modelpark, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-25 14:07:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8497,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga",
+              "pivot": {
+                "notice_id": 8497,
+                "province_id": 9
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9,
+              "pivot": {
+                "notice_id": 8497,
+                "city_id": 679
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 68,
+              "name": "Model Park",
+              "slug": "model-park",
+              "city_id": 679,
+              "pivot": {
+                "notice_id": 8497,
+                "suburb_id": 68
+              }
+            }
+          ]
+        },
+        {
           "id": 8496,
           "title": "Metrofibre Outage | Guenevere",
           "description": "Metrofibre has informed us of a network outage affecting Guenevere, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -209,80 +283,6 @@
               "pivot": {
                 "notice_id": 8495,
                 "suburb_id": 355
-              }
-            }
-          ]
-        },
-        {
-          "id": 8492,
-          "title": "Vumatel Villages Outage | Greenstone Park",
-          "description": "Vumatel has informed us of a network outage affecting Greenstone Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-25 11:56:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8492,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8492,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 49,
-              "name": "Lethabong",
-              "slug": "lethabong",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8492,
-                "city_id": 49
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5918,
-              "name": "Greenstone Hill",
-              "slug": "greenstone-hill",
-              "city_id": 49,
-              "pivot": {
-                "notice_id": 8492,
-                "suburb_id": 5918
               }
             }
           ]
@@ -2288,69 +2288,6 @@
           "suburbs": []
         },
         {
-          "id": 8455,
-          "title": "Vuma Village outage | Benoni",
-          "description": "Vumatel has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-23 01:05:02",
-          "should_notify": 0,
-          "created_at": "2022-11-21 20:12:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8455,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8455,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8455,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8460,
           "title": "DNAtel outage | Ngodwana",
           "description": "DNAtel has informed us of a network outage affecting Ngodwana, affected clients will experience no connectivity. DNAtel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2704,6 +2641,80 @@
               "pivot": {
                 "notice_id": 8465,
                 "suburb_id": 995
+              }
+            }
+          ]
+        },
+        {
+          "id": 8492,
+          "title": "Vumatel Villages Outage | Greenstone Park",
+          "description": "Vumatel has informed us of a network outage affecting Greenstone Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-11-25 13:50:20",
+          "should_notify": 0,
+          "created_at": "2022-11-25 11:56:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8492,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8492,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8492,
+                "city_id": 49
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5918,
+              "name": "Greenstone Hill",
+              "slug": "greenstone-hill",
+              "city_id": 49,
+              "pivot": {
+                "notice_id": 8492,
+                "suburb_id": 5918
               }
             }
           ]
