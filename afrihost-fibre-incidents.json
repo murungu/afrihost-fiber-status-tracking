@@ -66,6 +66,80 @@
           "suburbs": []
         },
         {
+          "id": 8509,
+          "title": "Metrofibre Outage | Summerstrand",
+          "description": "Metrofibre has informed us of a network outage affecting Summerstrand, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-26 12:05:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8509,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8509,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8509,
+                "city_id": 458
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 196,
+              "name": "Summerstrand",
+              "slug": "summerstrand",
+              "city_id": 458,
+              "pivot": {
+                "notice_id": 8509,
+                "suburb_id": 196
+              }
+            }
+          ]
+        },
+        {
           "id": 8508,
           "title": "Metrofibre Outage | Soho Lofts",
           "description": "Metrofibre has informed us of a network outage affecting Soho Lofts, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1126,7 +1200,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 600,
+              "notice_id": 8483,
+              "content": "Please note the outage is on-going, Metrofibre engineers are working to restore services as soon as possible. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2022-11-26 12:11:20"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
