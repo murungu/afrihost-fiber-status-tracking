@@ -1597,6 +1597,69 @@
           ]
         },
         {
+          "id": 8523,
+          "title": "FrogFoot maintenance | Stellenbosch",
+          "description": "FrogFoot is conducting maintenance in Stellenbosch on the 8th of December from 07:30 to 14:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-28 14:54:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8523,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8523,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8523,
+                "city_id": 223
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8522,
           "title": "FrogFoot maintenance | Oudtshoorn",
           "description": "FrogFoot is conducting maintenance in Oudtshoorn on the 11th of December from 07:00 to 14:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1654,69 +1717,6 @@
               "pivot": {
                 "notice_id": 8522,
                 "city_id": 215
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8521,
-          "title": "FrogFoot maintenance | Stellenbosch",
-          "description": "FrogFoot is conducting maintenance in Stellenbosch on the 8th of December from 23:00 to the 9th of December at  06:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-28 14:35:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8521,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8521,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 223,
-              "name": "Stellenbosch",
-              "slug": "stellenbosch",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8521,
-                "city_id": 223
               }
             }
           ],
@@ -2453,80 +2453,6 @@
       ],
       "closed": [
         {
-          "id": 8500,
-          "title": "Metrofibre Outage | Pretoria North",
-          "description": "Metrofibre has informed us of a network outage affecting Pretoria North, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-28 08:21:09",
-          "should_notify": 0,
-          "created_at": "2022-11-25 17:29:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8500,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8500,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8500,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 13,
-              "name": "Pretoria North",
-              "slug": "pretoria-north",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8500,
-                "suburb_id": 13
-              }
-            }
-          ]
-        },
-        {
           "id": 8501,
           "title": "Metrofibre Outage | The Matrix",
           "description": "Metrofibre has informed us of a network outage affecting The Matrix, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3210,6 +3136,77 @@
               }
             }
           ]
+        },
+        {
+          "id": 8521,
+          "title": "FrogFoot maintenance | Stellenbosch",
+          "description": "FrogFoot is conducting maintenance in Stellenbosch on the 8th of December from 23:00 to the 9th of December at  06:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2022-11-28 14:47:46",
+          "should_notify": 0,
+          "created_at": "2022-11-28 14:35:33",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8521,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 601,
+              "notice_id": 8521,
+              "content": "Maintenance is being rescheduled for a different time.",
+              "created_by_id": 11,
+              "created_at": "2022-11-28 14:47:34"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8521,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8521,
+                "city_id": 223
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
