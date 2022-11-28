@@ -66,6 +66,80 @@
           "suburbs": []
         },
         {
+          "id": 8516,
+          "title": "Vuma Reach outage | Madadeni, Newcastle",
+          "description": "Vumatel has informed us of a network outage affecting Madadeni, Newcastle, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-28 10:19:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8516,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8516,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 166,
+              "name": "Newcastle",
+              "slug": "newcastle",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8516,
+                "city_id": 166
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2456,
+              "name": "Madadeni",
+              "slug": "madadeni",
+              "city_id": 166,
+              "pivot": {
+                "notice_id": 8516,
+                "suburb_id": 2456
+              }
+            }
+          ]
+        },
+        {
           "id": 8515,
           "title": "Metrofibre Outage | Orient Hills",
           "description": "Metrofibre has informed us of a network outage affecting Orient Hills, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1151,88 +1225,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 8483,
-          "title": "MetroFibre outage | Wolmer",
-          "description": "MetroFibre has informed us of a network outage affecting Akasia, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-24 19:19:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8483,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 600,
-              "notice_id": 8483,
-              "content": "Please note the outage is on-going, Metrofibre engineers are working to restore services as soon as possible. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2022-11-26 12:11:20"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8483,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8483,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 371,
-              "name": "Wolmer",
-              "slug": "wolmer",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8483,
-                "suburb_id": 371
-              }
-            }
-          ]
         },
         {
           "id": 8481,
