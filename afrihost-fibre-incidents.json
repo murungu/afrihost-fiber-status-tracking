@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8540,
+          "title": "Netstream outage | Alberton",
+          "description": "Netstream has informed us of a network outage affecting Alberton, affected clients will experience no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-30 16:10:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 11,
+              "name": "Netstream",
+              "slug": "netstream",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8540,
+                "category_id": 11
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8540,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8540,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8538,
           "title": "MetroFibre outage | Verwoerdpark, Alberton",
           "description": "MetroFibre has informed us of a network outage affecting Verwoerdpark, Alberton, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -757,6 +820,69 @@
               "pivot": {
                 "notice_id": 8524,
                 "city_id": 46
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8539,
+          "title": "FrogFoot maintenance | Port Elizabeth",
+          "description": "FrogFoot is conducting maintenance in Port Elizabeth on the 12th of December from 23:00 to the 13th of December at 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-11-30 15:59:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8539,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8539,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8539,
+                "city_id": 458
               }
             }
           ],
