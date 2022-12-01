@@ -6,6 +6,132 @@
     "notices": {
       "open": [
         {
+          "id": 8550,
+          "title": "Metrofibre Outage | La mercy",
+          "description": "Please note users on the Metrofibre network in La mercy will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-01 12:50:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8550,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8550,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 120,
+              "name": "La Mercy",
+              "slug": "la-mercy",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8550,
+                "city_id": 120
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8549,
+          "title": "Vumatel outage | Marlboro",
+          "description": "Vumatel has informed us of a network outage affecting Marlboro and surrounding areas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-01 12:48:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8549,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8549,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8549,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8548,
           "title": "Vumatel outage | Witbank",
           "description": "Vumatel has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -496,80 +622,6 @@
               "pivot": {
                 "notice_id": 8538,
                 "suburb_id": 190
-              }
-            }
-          ]
-        },
-        {
-          "id": 8534,
-          "title": "MetroFibre outage | Sinoville",
-          "description": "MetroFibre has informed us of a network outage affecting Sinoville, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-29 20:31:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8534,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8534,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8534,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 21,
-              "name": "Sinoville",
-              "slug": "sinoville",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8534,
-                "suburb_id": 21
               }
             }
           ]
@@ -1096,69 +1148,6 @@
           "suburbs": []
         },
         {
-          "id": 8529,
-          "title": "Vumatel Outage | Northern Paarl",
-          "description": "Vumatel has informed us of a network outage affecting Northern Paarl, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-01 09:19:02",
-          "should_notify": 0,
-          "created_at": "2022-11-29 11:27:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8529,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8529,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 264,
-              "name": "Paarl",
-              "slug": "paarl",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8529,
-                "city_id": 264
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8530,
           "title": "Vumatel Outage | Richards Bay, Esikhawani and Mthunzini",
           "description": "Vumatel has informed us of a network outage affecting Richards Bay, Esikhawani and Mthunzini, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1377,6 +1366,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8534,
+          "title": "MetroFibre outage | Sinoville",
+          "description": "MetroFibre has informed us of a network outage affecting Sinoville, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-01 12:50:55",
+          "should_notify": 0,
+          "created_at": "2022-11-29 20:31:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8534,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8534,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8534,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 21,
+              "name": "Sinoville",
+              "slug": "sinoville",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8534,
+                "suburb_id": 21
+              }
+            }
+          ]
         },
         {
           "id": 8535,
