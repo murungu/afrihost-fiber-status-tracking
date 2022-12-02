@@ -80,6 +80,100 @@
           "suburbs": []
         },
         {
+          "id": 8553,
+          "title": "Vumatel Aerial Outage | Marlboro & Alex",
+          "description": "Please note users on the  network in Marlboro & Alex will experience limited to no connectivity due to an outage. Vumatel Aerial engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-02 02:27:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8553,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8553,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8553,
+                "city_id": 8
+              }
+            },
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8553,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3326,
+              "name": "Alexandra",
+              "slug": "alexandra",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 8553,
+                "suburb_id": 3326
+              }
+            },
+            {
+              "id": 1813,
+              "name": "Marlboro",
+              "slug": "marlboro",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8553,
+                "suburb_id": 1813
+              }
+            }
+          ]
+        },
+        {
           "id": 8552,
           "title": "Vumatel outage | Florida Lake",
           "description": "Vumatel has informed us of a network outage affecting Florida Lake areas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
