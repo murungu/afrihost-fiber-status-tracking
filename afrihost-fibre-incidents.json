@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8557,
+          "title": "Vumatel outage | Malvern",
+          "description": "Vumatel has informed us of a network outage affecting Malvern, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-02 14:07:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8557,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8557,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 89,
+              "name": "Queensburgh",
+              "slug": "queensburgh",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8557,
+                "city_id": 89
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 615,
+              "name": "Malvern",
+              "slug": "malvern",
+              "city_id": 89,
+              "pivot": {
+                "notice_id": 8557,
+                "suburb_id": 615
+              }
+            }
+          ]
+        },
+        {
           "id": 8556,
           "title": "Metrofibre Outage | Essenword, Berea",
           "description": "Please note users on the Metrofibre network in Essenword, Berea will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -204,108 +278,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 8553,
-          "title": "Vumatel Aerial Outage | Marlboro & Alex",
-          "description": "Please note users on the  network in Marlboro & Alex will experience limited to no connectivity due to an outage. Vumatel Aerial engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-02 02:27:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8553,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 606,
-              "notice_id": 8553,
-              "content": "Vumatel Engineers are still busy with repairs",
-              "created_by_id": 28,
-              "created_at": "2022-12-02 05:13:22"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8553,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8553,
-                "city_id": 8
-              }
-            },
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8553,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3326,
-              "name": "Alexandra",
-              "slug": "alexandra",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 8553,
-                "suburb_id": 3326
-              }
-            },
-            {
-              "id": 1813,
-              "name": "Marlboro",
-              "slug": "marlboro",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8553,
-                "suburb_id": 1813
-              }
-            }
-          ]
         },
         {
           "id": 8552,
@@ -740,80 +712,6 @@
           ]
         },
         {
-          "id": 8538,
-          "title": "MetroFibre outage | Verwoerdpark, Alberton",
-          "description": "MetroFibre has informed us of a network outage affecting Verwoerdpark, Alberton, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-30 14:56:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8538,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8538,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8538,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 190,
-              "name": "Verwoerdpark",
-              "slug": "verwoerdpark",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 8538,
-                "suburb_id": 190
-              }
-            }
-          ]
-        },
-        {
           "id": 8539,
           "title": "FrogFoot maintenance | Port Elizabeth",
           "description": "FrogFoot is conducting maintenance in Port Elizabeth on the 12th of December from 23:00 to the 13th of December at 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1169,109 +1067,6 @@
       ],
       "closed": [
         {
-          "id": 8536,
-          "title": "FrogFoot outage | Gauteng",
-          "description": "FrogFoot has informed us of a network outage affecting multiple areas in Gauteng, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2022-11-30 13:40:50",
-          "should_notify": 0,
-          "created_at": "2022-11-30 13:33:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8536,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8536,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8536,
-                "city_id": 48
-              }
-            },
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8536,
-                "city_id": 33
-              }
-            },
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8536,
-                "city_id": 50
-              }
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8536,
-                "city_id": 8
-              }
-            },
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8536,
-                "city_id": 43
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8551,
           "title": "Vuma Villages Outage | Gauteng",
           "description": "Vumatel has informed us of a network outage affecting Gauteng, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1353,80 +1148,6 @@
           "suburbs": []
         },
         {
-          "id": 8535,
-          "title": "Frogfoot Outage | Garsfontein",
-          "description": "Frogfoot has informed us of a network outage affecting Garsfontein, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-11-30 06:20:36",
-          "should_notify": 0,
-          "created_at": "2022-11-30 04:15:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8535,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8535,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8535,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 152,
-              "name": "Garsfontein",
-              "slug": "garsfontein",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8535,
-                "suburb_id": 152
-              }
-            }
-          ]
-        },
-        {
           "id": 8537,
           "title": "FrogFoot outage | Kempton Park",
           "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1488,6 +1209,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8538,
+          "title": "MetroFibre outage | Verwoerdpark, Alberton",
+          "description": "MetroFibre has informed us of a network outage affecting Verwoerdpark, Alberton, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-02 14:04:35",
+          "should_notify": 0,
+          "created_at": "2022-11-30 14:56:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8538,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8538,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8538,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 190,
+              "name": "Verwoerdpark",
+              "slug": "verwoerdpark",
+              "city_id": 21,
+              "pivot": {
+                "notice_id": 8538,
+                "suburb_id": 190
+              }
+            }
+          ]
         },
         {
           "id": 8540,
@@ -1876,6 +1671,108 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8553,
+          "title": "Vumatel Aerial Outage | Marlboro & Alex",
+          "description": "Please note users on the  network in Marlboro & Alex will experience limited to no connectivity due to an outage. Vumatel Aerial engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-02 14:04:23",
+          "should_notify": 0,
+          "created_at": "2022-12-02 02:27:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8553,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 606,
+              "notice_id": 8553,
+              "content": "Vumatel Engineers are still busy with repairs",
+              "created_by_id": 28,
+              "created_at": "2022-12-02 05:13:22"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8553,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8553,
+                "city_id": 8
+              }
+            },
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8553,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3326,
+              "name": "Alexandra",
+              "slug": "alexandra",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 8553,
+                "suburb_id": 3326
+              }
+            },
+            {
+              "id": 1813,
+              "name": "Marlboro",
+              "slug": "marlboro",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8553,
+                "suburb_id": 1813
+              }
+            }
+          ]
         }
       ]
     },
