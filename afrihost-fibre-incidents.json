@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8581,
-          "title": "Frogfoot Outage | Thabazimbi",
-          "description": "Frogfoot has informed us of a network outage affecting Thabazimbi, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8582,
+          "title": "Vumatel Outage | Meyerton",
+          "description": "Vumatel has informed us of a network outage affecting Meyerton, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-04 22:39:40",
+          "created_at": "2022-12-05 00:09:25",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,41 +32,62 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8581,
-                "category_id": 7
+                "notice_id": 8582,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8582,
+                "category_id": 18
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 8581,
-                "province_id": 4
+                "notice_id": 8582,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 351,
-              "name": "Thabazimbi",
-              "slug": "thabazimbi",
-              "province_id": 4,
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 8581,
-                "city_id": 351
+                "notice_id": 8582,
+                "city_id": 59
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 3450,
+              "name": "Meyerton & Extension",
+              "slug": "meyerton-extension",
+              "city_id": 59,
+              "pivot": {
+                "notice_id": 8582,
+                "suburb_id": 3450
+              }
+            }
+          ]
         },
         {
           "id": 8580,
@@ -141,79 +162,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 8579,
-          "title": "Vumatel Outage | Alberton",
-          "description": "Vumatel has informed us of a network outage affecting Alberton, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-04 18:18:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8579,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8579,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8579,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8579,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 8578,
@@ -2130,171 +2078,6 @@
       ],
       "closed": [
         {
-          "id": 8553,
-          "title": "Vumatel Aerial Outage | Marlboro & Alex",
-          "description": "Please note users on the  network in Marlboro & Alex will experience limited to no connectivity due to an outage. Vumatel Aerial engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-02 14:04:23",
-          "should_notify": 0,
-          "created_at": "2022-12-02 02:27:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8553,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 606,
-              "notice_id": 8553,
-              "content": "Vumatel Engineers are still busy with repairs",
-              "created_by_id": 28,
-              "created_at": "2022-12-02 05:13:22"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8553,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8553,
-                "city_id": 8
-              }
-            },
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8553,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3326,
-              "name": "Alexandra",
-              "slug": "alexandra",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 8553,
-                "suburb_id": 3326
-              }
-            },
-            {
-              "id": 1813,
-              "name": "Marlboro",
-              "slug": "marlboro",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8553,
-                "suburb_id": 1813
-              }
-            }
-          ]
-        },
-        {
-          "id": 8554,
-          "title": "Vumatel outage | Louis Trichardt",
-          "description": "Vumatel has informed us of a network outage affecting Louis Trichardt areas, affected clients will experience intermittent connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-03 16:51:47",
-          "should_notify": 0,
-          "created_at": "2022-12-02 05:42:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8554,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
-              "pivot": {
-                "notice_id": 8554,
-                "province_id": 4
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 358,
-              "name": "Louis Trichardt",
-              "slug": "louis-trichardt",
-              "province_id": 4,
-              "pivot": {
-                "notice_id": 8554,
-                "city_id": 358
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8559,
           "title": "Vumatel outage | Brackenhurst",
           "description": "Vumatel has informed us of a network outage affecting Brackenhurst, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2863,6 +2646,142 @@
               }
             }
           ]
+        },
+        {
+          "id": 8579,
+          "title": "Vumatel Outage | Alberton",
+          "description": "Vumatel has informed us of a network outage affecting Alberton, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-05 00:09:50",
+          "should_notify": 0,
+          "created_at": "2022-12-04 18:18:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8579,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8579,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8579,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8579,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8581,
+          "title": "Frogfoot Outage | Thabazimbi",
+          "description": "Frogfoot has informed us of a network outage affecting Thabazimbi, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-05 00:09:38",
+          "should_notify": 0,
+          "created_at": "2022-12-04 22:39:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8581,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 8581,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 351,
+              "name": "Thabazimbi",
+              "slug": "thabazimbi",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 8581,
+                "city_id": 351
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
