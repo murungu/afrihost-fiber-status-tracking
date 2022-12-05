@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8602,
+          "title": "Vumatel Outage | Atholl",
+          "description": "Vumatel has informed us of a network outage affecting Atholl, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-05 16:50:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8602,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8602,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8602,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 228,
+              "name": "Atholl",
+              "slug": "atholl",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8602,
+                "suburb_id": 228
+              }
+            }
+          ]
+        },
+        {
           "id": 8601,
           "title": "Vumatel Outage | Sandown",
           "description": "Vumatel has informed us of a network outage affecting Sandown, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -75,80 +149,6 @@
               "pivot": {
                 "notice_id": 8601,
                 "suburb_id": 58
-              }
-            }
-          ]
-        },
-        {
-          "id": 8600,
-          "title": "Vumatel Villages Outage | Brackendowns",
-          "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-05 15:25:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8600,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8600,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8600,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 53,
-              "name": "Brackendowns",
-              "slug": "brackendowns",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 8600,
-                "suburb_id": 53
               }
             }
           ]
@@ -411,69 +411,6 @@
               "pivot": {
                 "notice_id": 8593,
                 "city_id": 690
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8589,
-          "title": "Vumatel Outage | Leopards Rest",
-          "description": "Vumatel has informed us of a network outage affecting Leopards Rest, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-05 11:32:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8589,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8589,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8589,
-                "city_id": 21
               }
             }
           ],
@@ -1085,7 +1022,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 608,
+              "notice_id": 8570,
+              "content": "Please note the outage is on-going, Metrofibre engineers are working on resolving the issue as soon as possible. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2022-12-05 17:11:54"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -2661,154 +2606,6 @@
       ],
       "closed": [
         {
-          "id": 8571,
-          "title": "Vumatel Villages Outage | Glen Marais",
-          "description": "Vumatel has informed us of a network outage affecting Glen Marais, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-04 13:43:02",
-          "should_notify": 0,
-          "created_at": "2022-12-04 12:05:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8571,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8571,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8571,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 28,
-              "name": "Glen Marais",
-              "slug": "glen-marais",
-              "city_id": 48,
-              "pivot": {
-                "notice_id": 8571,
-                "suburb_id": 28
-              }
-            }
-          ]
-        },
-        {
-          "id": 8574,
-          "title": "Vumatel Outage | Ferndale",
-          "description": "Vumatel has informed us of a network outage affecting Ferndale, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-04 17:22:39",
-          "should_notify": 0,
-          "created_at": "2022-12-04 14:39:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8574,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8574,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8574,
-                "city_id": 53
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 102,
-              "name": "Ferndale",
-              "slug": "ferndale",
-              "city_id": 53,
-              "pivot": {
-                "notice_id": 8574,
-                "suburb_id": 102
-              }
-            }
-          ]
-        },
-        {
           "id": 8575,
           "title": "Vumatel Villages Outage | Ormonde",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Ormonde, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3383,6 +3180,143 @@
               "pivot": {
                 "notice_id": 8588,
                 "suburb_id": 322
+              }
+            }
+          ]
+        },
+        {
+          "id": 8589,
+          "title": "Vumatel Outage | Leopards Rest",
+          "description": "Vumatel has informed us of a network outage affecting Leopards Rest, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-05 16:51:59",
+          "should_notify": 0,
+          "created_at": "2022-12-05 11:32:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8589,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8589,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8589,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8600,
+          "title": "Vumatel Villages Outage | Brackendowns",
+          "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-05 16:51:55",
+          "should_notify": 0,
+          "created_at": "2022-12-05 15:25:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8600,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8600,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8600,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 53,
+              "name": "Brackendowns",
+              "slug": "brackendowns",
+              "city_id": 21,
+              "pivot": {
+                "notice_id": 8600,
+                "suburb_id": 53
               }
             }
           ]
