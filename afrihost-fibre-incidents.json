@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8606,
-          "title": "Frogfoot Outage | Newton Park",
-          "description": "Frogfoot has informed us of a network outage affecting Newton Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8607,
+          "title": "Metrofibre Outage | Riversands",
+          "description": "Metrofibre has informed us of a network outage affecting Riversands, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-06 04:30:13",
+          "created_at": "2022-12-06 06:42:20",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,52 +32,41 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8606,
-                "category_id": 7
+                "notice_id": 8607,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 8606,
-                "province_id": 6
+                "notice_id": 8607,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6,
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 8606,
-                "city_id": 458
+                "notice_id": 8607,
+                "city_id": 50
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 233,
-              "name": "Newton Park",
-              "slug": "newton-park",
-              "city_id": 458,
-              "pivot": {
-                "notice_id": 8606,
-                "suburb_id": 233
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 8605,
@@ -2540,80 +2529,6 @@
       ],
       "closed": [
         {
-          "id": 8575,
-          "title": "Vumatel Villages Outage | Ormonde",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Ormonde, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-05 12:47:38",
-          "should_notify": 0,
-          "created_at": "2022-12-04 14:41:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8575,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8575,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8575,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 386,
-              "name": "Ormonde",
-              "slug": "ormonde",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 8575,
-                "suburb_id": 386
-              }
-            }
-          ]
-        },
-        {
           "id": 8578,
           "title": "Metrofibre Outage | Lombardy East",
           "description": "Metrofibre has informed us of a network outage affecting Lombardy East, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3251,6 +3166,80 @@
               "pivot": {
                 "notice_id": 8600,
                 "suburb_id": 53
+              }
+            }
+          ]
+        },
+        {
+          "id": 8606,
+          "title": "Frogfoot Outage | Newton Park",
+          "description": "Frogfoot has informed us of a network outage affecting Newton Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-06 06:42:32",
+          "should_notify": 0,
+          "created_at": "2022-12-06 04:30:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8606,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8606,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8606,
+                "city_id": 458
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 233,
+              "name": "Newton Park",
+              "slug": "newton-park",
+              "city_id": 458,
+              "pivot": {
+                "notice_id": 8606,
+                "suburb_id": 233
               }
             }
           ]
