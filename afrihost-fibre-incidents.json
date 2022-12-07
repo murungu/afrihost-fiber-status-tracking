@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8624,
+          "title": "Frogfoot Outage | Vincent, East London",
+          "description": "Frogfoot has informed us of a network outage affecting Vincent, East London, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-07 12:34:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8624,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8624,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8624,
+                "city_id": 477
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 322,
+              "name": "Vincent",
+              "slug": "vincent",
+              "city_id": 477,
+              "pivot": {
+                "notice_id": 8624,
+                "suburb_id": 322
+              }
+            }
+          ]
+        },
+        {
           "id": 8623,
           "title": "Vumatel outage | Cape Town",
           "description": "Vumatel has informed us of a network outage affecting Cape Town, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1577,88 +1651,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 8542,
-          "title": "Metrofibre Outage | Sinoville",
-          "description": "Please note users on the Metrofibre network in Sinoville will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-11-30 18:55:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8542,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 609,
-              "notice_id": 8542,
-              "content": "Metrofibre engineers are still conducting repairs and are working to restore services as soon as possible. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2022-12-06 06:23:58"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8542,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8542,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 21,
-              "name": "Sinoville",
-              "slug": "sinoville",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8542,
-                "suburb_id": 21
-              }
-            }
-          ]
         },
         {
           "id": 8618,
