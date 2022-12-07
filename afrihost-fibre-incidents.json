@@ -80,98 +80,6 @@
           ]
         },
         {
-          "id": 8623,
-          "title": "Vumatel outage | Cape Town",
-          "description": "Vumatel has informed us of a network outage affecting Cape Town, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-07 11:48:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8623,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 611,
-              "notice_id": 8623,
-              "content": "Vumatel has confirm that the following areas are being affected by the outage:\n\nTableview North\nTableview South\nTygerdal\nSummergreens\nBothasig\nRichmond Estate\nParow North\nEdgemead\nPanorama",
-              "created_by_id": 11,
-              "created_at": "2022-12-07 12:06:37"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8623,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 260,
-              "name": "Milnerton",
-              "slug": "milnerton",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8623,
-                "city_id": 260
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 328,
-              "name": "Milnerton",
-              "slug": "milnerton",
-              "city_id": 260,
-              "pivot": {
-                "notice_id": 8623,
-                "suburb_id": 328
-              }
-            },
-            {
-              "id": 1058,
-              "name": "Bothasig",
-              "slug": "bothasig",
-              "city_id": 260,
-              "pivot": {
-                "notice_id": 8623,
-                "suburb_id": 1058
-              }
-            }
-          ]
-        },
-        {
           "id": 8622,
           "title": "Vumareach Outage | Chesterville",
           "description": "Vumatel has informed us of a network outage affecting Chesterville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -460,6 +368,69 @@
               "pivot": {
                 "notice_id": 8619,
                 "city_id": 8
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8618,
+          "title": "Openserve speed problems | Benoni",
+          "description": "Openserve has informed us of a network problem affecting Benoni, affected clients will experience slow speeds. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-07 09:15:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8618,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8618,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8618,
+                "city_id": 2
               }
             }
           ],
@@ -1245,69 +1216,6 @@
           ]
         },
         {
-          "id": 8618,
-          "title": "Openserve speed problems | Benoni",
-          "description": "Openserve has informed us of a network problem affecting Benoni, affected clients will experience slow speeds. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-07 09:15:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8618,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8618,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8618,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8599,
           "title": "Frogfoot Maintenance | Westdene",
           "description": "Frogfoot is conducting maintenance in Westdene from 2022-12-08 08:00 to 2022-12-09 17:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1878,69 +1786,6 @@
               "pivot": {
                 "notice_id": 8608,
                 "city_id": 308
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8594,
-          "title": "Vumatel Outage | Johannesburg North",
-          "description": "Vumatel has informed us of a network outage affecting Johannesburg North, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-06 07:32:27",
-          "should_notify": 0,
-          "created_at": "2022-12-05 13:50:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8594,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8594,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8594,
-                "city_id": 8
               }
             }
           ],
@@ -2523,6 +2368,98 @@
               "pivot": {
                 "notice_id": 8611,
                 "suburb_id": 394
+              }
+            }
+          ]
+        },
+        {
+          "id": 8623,
+          "title": "Vumatel outage | Cape Town",
+          "description": "Vumatel has informed us of a network outage affecting Cape Town, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Outage has been resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-07 14:43:04",
+          "should_notify": 0,
+          "created_at": "2022-12-07 11:48:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8623,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 611,
+              "notice_id": 8623,
+              "content": "Vumatel has confirm that the following areas are being affected by the outage:\n\nTableview North\nTableview South\nTygerdal\nSummergreens\nBothasig\nRichmond Estate\nParow North\nEdgemead\nPanorama",
+              "created_by_id": 11,
+              "created_at": "2022-12-07 12:06:37"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8623,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 260,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8623,
+                "city_id": 260
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 328,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "city_id": 260,
+              "pivot": {
+                "notice_id": 8623,
+                "suburb_id": 328
+              }
+            },
+            {
+              "id": 1058,
+              "name": "Bothasig",
+              "slug": "bothasig",
+              "city_id": 260,
+              "pivot": {
+                "notice_id": 8623,
+                "suburb_id": 1058
               }
             }
           ]
