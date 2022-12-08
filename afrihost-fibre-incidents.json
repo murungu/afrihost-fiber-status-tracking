@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8632,
-          "title": "Vodacom Fibre outage | Gauteng",
-          "description": "We are aware of a connectivity problem in Johannesburg South, Alberton, Springs  and Germiston affecting Vodacom Fibre clients. Affected clients have no internet connectivity. Engineers are working on the problem and hope to have it resolved soon. We apologize for any inconvenience that this may be causing.",
+          "id": 8649,
+          "title": "Vuma Villages Outage | Brackendowns",
+          "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-08 08:02:06",
+          "created_at": "2022-12-08 14:39:17",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -24,21 +24,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 31,
-              "name": "Vodacom",
-              "slug": "vodacom",
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8632,
-                "category_id": 31
+                "notice_id": 8649,
+                "category_id": 15
               }
             }
           ],
@@ -49,7 +49,7 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8632,
+                "notice_id": 8649,
                 "province_id": 1
               }
             }
@@ -61,42 +61,97 @@
               "slug": "alberton",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8632,
+                "notice_id": 8649,
                 "city_id": 21
-              }
-            },
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8632,
-                "city_id": 46
-              }
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8632,
-                "city_id": 8
-              }
-            },
-            {
-              "id": 37,
-              "name": "Springs",
-              "slug": "springs",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8632,
-                "city_id": 37
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 53,
+              "name": "Brackendowns",
+              "slug": "brackendowns",
+              "city_id": 21,
+              "pivot": {
+                "notice_id": 8649,
+                "suburb_id": 53
+              }
+            }
+          ]
+        },
+        {
+          "id": 8648,
+          "title": "Vumatel Outage | Honeydew Manor",
+          "description": "Vumatel has informed us of a network outage affecting Honeydew Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-08 14:37:04",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8648,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8648,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8648,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 814,
+              "name": "Honeydew Manor",
+              "slug": "honeydew-manor",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 8648,
+                "suburb_id": 814
+              }
+            }
+          ]
         },
         {
           "id": 8646,
@@ -2165,69 +2220,6 @@
       ],
       "closed": [
         {
-          "id": 8619,
-          "title": "Evotel Outage | Westonaria",
-          "description": "Evotel has informed us of a network outage affecting Westonaria, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": "Service has been restored",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-07 23:08:00",
-          "should_notify": 0,
-          "created_at": "2022-12-07 09:18:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8619,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8619,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8619,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8621,
           "title": "Vumareach Outage | Danville Zone 1",
           "description": "Vumatel has informed us of a network outage affecting Danville Zone 1, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2907,15 +2899,108 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8632,
+          "title": "Vodacom Fibre outage | Gauteng",
+          "description": "We are aware of a connectivity problem in Johannesburg South, Alberton, Springs  and Germiston affecting Vodacom Fibre clients. Affected clients have no internet connectivity. Engineers are working on the problem and hope to have it resolved soon. We apologize for any inconvenience that this may be causing.",
+          "resolution": "Outage resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-08 14:38:04",
+          "should_notify": 0,
+          "created_at": "2022-12-08 08:02:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 31,
+              "name": "Vodacom",
+              "slug": "vodacom",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8632,
+                "category_id": 31
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8632,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 21
+              }
+            },
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 46
+              }
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 8
+              }
+            },
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 37
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
