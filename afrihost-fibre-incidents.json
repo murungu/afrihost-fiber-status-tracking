@@ -151,80 +151,6 @@
           "suburbs": []
         },
         {
-          "id": 8656,
-          "title": "Octotel Outage | Eagle Canyon",
-          "description": "Please note users on the Octotel network in Eagle Canyon will experience limited to no connectivity due to an outage. Octotel engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-08 21:20:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8656,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8656,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8656,
-                "city_id": 35
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 556,
-              "name": "Eagle Canyon Golf Estate",
-              "slug": "eagle-canyon-golf-estate",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 8656,
-                "suburb_id": 556
-              }
-            }
-          ]
-        },
-        {
           "id": 8655,
           "title": "Link Layer Outage | Tongaat",
           "description": "Please note users on the Link Layer network in Tongaat will experience limited to no connectivity due to an outage. Link Layer engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -2859,90 +2785,6 @@
       ],
       "closed": [
         {
-          "id": 8621,
-          "title": "Vumareach Outage | Danville Zone 1",
-          "description": "Vumatel has informed us of a network outage affecting Danville Zone 1, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-08 10:48:41",
-          "should_notify": 0,
-          "created_at": "2022-12-07 11:32:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8621,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8621,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8621,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8621,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 124,
-              "name": "Danville",
-              "slug": "danville",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8621,
-                "suburb_id": 124
-              }
-            }
-          ]
-        },
-        {
           "id": 8622,
           "title": "Vumareach Outage | Chesterville",
           "description": "Vumatel has informed us of a network outage affecting Chesterville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -3631,6 +3473,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8656,
+          "title": "Octotel Outage | Eagle Canyon",
+          "description": "Please note users on the Octotel network in Eagle Canyon will experience limited to no connectivity due to an outage. Octotel engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-08 23:24:43",
+          "should_notify": 0,
+          "created_at": "2022-12-08 21:20:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8656,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8656,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8656,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 556,
+              "name": "Eagle Canyon Golf Estate",
+              "slug": "eagle-canyon-golf-estate",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 8656,
+                "suburb_id": 556
+              }
+            }
+          ]
         }
       ]
     },
