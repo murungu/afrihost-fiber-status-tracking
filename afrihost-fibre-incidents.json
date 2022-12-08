@@ -6,6 +6,99 @@
     "notices": {
       "open": [
         {
+          "id": 8632,
+          "title": "Vodacom Fibre outage | Gauteng",
+          "description": "We are aware of a connectivity problem in Johannesburg South, Alberton, Springs  and Germiston affecting Vodacom Fibre clients. Affected clients have no internet connectivity. Engineers are working on the problem and hope to have it resolved soon. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-08 08:02:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 31,
+              "name": "Vodacom",
+              "slug": "vodacom",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8632,
+                "category_id": 31
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8632,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 21
+              }
+            },
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 46
+              }
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 8
+              }
+            },
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8632,
+                "city_id": 37
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8630,
           "title": "Metrofibre Outage | Glenmore",
           "description": "Please note users on the Metrofibre network in Glenmore will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -2724,11 +2817,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
