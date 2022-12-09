@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8669,
+          "title": "Frogfoot Outage | Rondebosch",
+          "description": "Please note users on the Frogfoot network in Rondebosch will experience no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-09 17:40:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8669,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8669,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8669,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 516,
+              "name": "Rondebosch",
+              "slug": "rondebosch",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 8669,
+                "suburb_id": 516
+              }
+            }
+          ]
+        },
+        {
           "id": 8668,
           "title": "Metrofibre Outage | Rietvalleirand",
           "description": "Metrofibre has informed us of a network outage affecting Rietvalleirand, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -149,80 +223,6 @@
               "pivot": {
                 "notice_id": 8667,
                 "suburb_id": 3893
-              }
-            }
-          ]
-        },
-        {
-          "id": 8666,
-          "title": "Frogfoot Outage | Ponoma",
-          "description": "Please note users on the Frogfoot network in Ponoma will experience no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-09 12:11:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8666,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8666,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8666,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 193,
-              "name": "Pomona",
-              "slug": "pomona",
-              "city_id": 48,
-              "pivot": {
-                "notice_id": 8666,
-                "suburb_id": 193
               }
             }
           ]
@@ -2248,99 +2248,6 @@
       ],
       "closed": [
         {
-          "id": 8632,
-          "title": "Vodacom Fibre outage | Gauteng",
-          "description": "We are aware of a connectivity problem in Johannesburg South, Alberton, Springs  and Germiston affecting Vodacom Fibre clients. Affected clients have no internet connectivity. Engineers are working on the problem and hope to have it resolved soon. We apologize for any inconvenience that this may be causing.",
-          "resolution": "Outage resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-08 14:38:04",
-          "should_notify": 0,
-          "created_at": "2022-12-08 08:02:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 31,
-              "name": "Vodacom",
-              "slug": "vodacom",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8632,
-                "category_id": 31
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8632,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8632,
-                "city_id": 21
-              }
-            },
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8632,
-                "city_id": 46
-              }
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8632,
-                "city_id": 8
-              }
-            },
-            {
-              "id": 37,
-              "name": "Springs",
-              "slug": "springs",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8632,
-                "city_id": 37
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8634,
           "title": "Openserve outage | George",
           "description": "Please note users on the Openserve network in George will experience no connectivity due to an outage. Openserve engineers are attending to the fault. We apologise for any inconvenience caused.",
@@ -2978,6 +2885,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8666,
+          "title": "Frogfoot Outage | Ponoma",
+          "description": "Please note users on the Frogfoot network in Ponoma will experience no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-09 17:40:14",
+          "should_notify": 0,
+          "created_at": "2022-12-09 12:11:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8666,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8666,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8666,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 193,
+              "name": "Pomona",
+              "slug": "pomona",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 8666,
+                "suburb_id": 193
+              }
+            }
+          ]
         }
       ]
     },
