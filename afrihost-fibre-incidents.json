@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8672,
+          "title": "Openserve outage | George",
+          "description": "Please note users on the Openserve network in George will experience no connectivity due to an outage. Openserve engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-11 08:31:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8672,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8672,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8672,
+                "city_id": 247
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8671,
           "title": "Vumareach Outage | Belhar Zone 1",
           "description": "Vumatel has informed us of a network outage affecting Belhar Zone 1, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
