@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8690,
-          "title": "Vumatel Outage | Brackendowns",
-          "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8691,
+          "title": "Frogfoot Outage | Margate",
+          "description": "Frogfoot has informed us of a network outage affecting Margate, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-12 21:47:40",
+          "created_at": "2022-12-12 23:34:17",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,52 +32,41 @@
           },
           "categories": [
             {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8690,
-                "category_id": 24
+                "notice_id": 8691,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 8690,
-                "province_id": 1
+                "notice_id": 8691,
+                "province_id": 2
               }
             }
           ],
           "cities": [
             {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
+              "id": 81,
+              "name": "Margate",
+              "slug": "margate",
+              "province_id": 2,
               "pivot": {
-                "notice_id": 8690,
-                "city_id": 21
+                "notice_id": 8691,
+                "city_id": 81
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 53,
-              "name": "Brackendowns",
-              "slug": "brackendowns",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 8690,
-                "suburb_id": 53
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 8689,
@@ -2851,69 +2840,6 @@
           "suburbs": []
         },
         {
-          "id": 8660,
-          "title": "Frogfoot Outage | Kempton Park",
-          "description": "Please note users on the Frogfoot network in Kempton Park will experience limited to no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-09 08:13:19",
-          "should_notify": 0,
-          "created_at": "2022-12-09 04:34:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8660,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8660,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8660,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8666,
           "title": "Frogfoot Outage | Ponoma",
           "description": "Please note users on the Frogfoot network in Ponoma will experience no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologise for any inconvenience caused.",
@@ -3499,6 +3425,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8690,
+          "title": "Vumatel Outage | Brackendowns",
+          "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-12 23:44:38",
+          "should_notify": 0,
+          "created_at": "2022-12-12 21:47:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8690,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8690,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8690,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 53,
+              "name": "Brackendowns",
+              "slug": "brackendowns",
+              "city_id": 21,
+              "pivot": {
+                "notice_id": 8690,
+                "suburb_id": 53
+              }
+            }
+          ]
         }
       ]
     },
