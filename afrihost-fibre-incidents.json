@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8673,
-          "title": "Evotel Outage | National",
-          "description": "Evotel has informed us of a network outage affecting all clients, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8678,
+          "title": "Vumatel Outage | Vereeniging",
+          "description": "Vumatel has informed us of a network outage affecting Vereeniging, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-11 18:11:08",
+          "created_at": "2022-12-12 09:32:03",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -24,21 +24,31 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8673,
-                "category_id": 6
+                "notice_id": 8678,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8678,
+                "category_id": 24
               }
             }
           ],
@@ -49,57 +59,23 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8673,
+                "notice_id": 8678,
                 "province_id": 1
-              }
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west",
-              "pivot": {
-                "notice_id": 8673,
-                "province_id": 8
-              }
-            },
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape",
-              "pivot": {
-                "notice_id": 8673,
-                "province_id": 5
-              }
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8673,
-                "province_id": 2
-              }
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga",
-              "pivot": {
-                "notice_id": 8673,
-                "province_id": 9
-              }
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 8673,
-                "province_id": 7
               }
             }
           ],
-          "cities": [],
+          "cities": [
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8678,
+                "city_id": 59
+              }
+            }
+          ],
           "suburbs": []
         },
         {
@@ -238,69 +214,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 8672,
-          "title": "Openserve outage | George",
-          "description": "Please note users on the Openserve network in George will experience no connectivity due to an outage. Openserve engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-11 08:31:34",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8672,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8672,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8672,
-                "city_id": 247
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 8671,
@@ -2230,16 +2143,16 @@
       ],
       "closed": [
         {
-          "id": 8655,
-          "title": "Link Layer Outage | Tongaat",
-          "description": "Please note users on the Link Layer network in Tongaat will experience limited to no connectivity due to an outage. Link Layer engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "id": 8673,
+          "title": "Evotel Outage | National",
+          "description": "Evotel has informed us of a network outage affecting all clients, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2022-12-09 08:14:18",
+          "resolved_at": "2022-12-12 09:32:14",
           "should_notify": 0,
-          "created_at": "2022-12-08 20:21:48",
+          "created_at": "2022-12-11 18:11:08",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2248,84 +2161,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8655,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8655,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 175,
-              "name": "Tongaat",
-              "slug": "tongaat",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8655,
-                "city_id": 175
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8656,
-          "title": "Octotel Outage | Eagle Canyon",
-          "description": "Please note users on the Octotel network in Eagle Canyon will experience limited to no connectivity due to an outage. Octotel engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-08 23:24:43",
-          "should_notify": 0,
-          "created_at": "2022-12-08 21:20:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8656,
-                "category_id": 12
+                "notice_id": 8673,
+                "category_id": 6
               }
             }
           ],
@@ -2336,35 +2186,58 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8656,
+                "notice_id": 8673,
                 "province_id": 1
               }
-            }
-          ],
-          "cities": [
+            },
             {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
               "pivot": {
-                "notice_id": 8656,
-                "city_id": 35
+                "notice_id": 8673,
+                "province_id": 8
+              }
+            },
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape",
+              "pivot": {
+                "notice_id": 8673,
+                "province_id": 5
+              }
+            },
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8673,
+                "province_id": 2
+              }
+            },
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga",
+              "pivot": {
+                "notice_id": 8673,
+                "province_id": 9
+              }
+            },
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
+              "pivot": {
+                "notice_id": 8673,
+                "province_id": 7
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 556,
-              "name": "Eagle Canyon Golf Estate",
-              "slug": "eagle-canyon-golf-estate",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 8656,
-                "suburb_id": 556
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 8657,
@@ -2796,6 +2669,69 @@
           ]
         },
         {
+          "id": 8672,
+          "title": "Openserve outage | George",
+          "description": "Please note users on the Openserve network in George will experience no connectivity due to an outage. Openserve engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-12 09:32:19",
+          "should_notify": 0,
+          "created_at": "2022-12-11 08:31:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8672,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 8672,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 8672,
+                "city_id": 247
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8674,
           "title": "Vumatel Outage | Northcliff Zone 1",
           "description": "Vumatel has informed us of a network outage affecting Northcliff Zone 1, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2935,11 +2871,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
