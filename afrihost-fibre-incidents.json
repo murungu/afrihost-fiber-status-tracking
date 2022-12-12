@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8689,
+          "title": "Vumatel Reach Outage | Windmill Park",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel reach clients in Windmill Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-12 18:57:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8689,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8689,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8689,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1113,
+              "name": "Windmill Park",
+              "slug": "windmill-park",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 8689,
+                "suburb_id": 1113
+              }
+            }
+          ]
+        },
+        {
           "id": 8688,
           "title": "Octotel Outage | Kleinbrak, George, Knysna, Sedgefield and Plettenberg Bay",
           "description": "Octotel has informed us of a network outage affecting Area, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -492,69 +566,6 @@
               "pivot": {
                 "notice_id": 8681,
                 "city_id": 98
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8679,
-          "title": "FibreSuburb Network Outage | Kindlewood",
-          "description": "FibreSuburb has informed us of a network outage affecting Kindlewood, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-12 10:06:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8679,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8679,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 83,
-              "name": "Mount Edgecombe",
-              "slug": "mount-edgecombe",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8679,
-                "city_id": 83
               }
             }
           ],
@@ -2869,69 +2880,6 @@
           "suburbs": []
         },
         {
-          "id": 8658,
-          "title": "Evotel Outage | Kathu",
-          "description": "Please note users on the Evotel network in Kathu will experience limited to no connectivity due to an outage. Evotel engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-10 12:44:47",
-          "should_notify": 0,
-          "created_at": "2022-12-08 23:00:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8658,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape",
-              "pivot": {
-                "notice_id": 8658,
-                "province_id": 5
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 374,
-              "name": "Kathu",
-              "slug": "kathu",
-              "province_id": 5,
-              "pivot": {
-                "notice_id": 8658,
-                "city_id": 374
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8659,
           "title": "Octotel Outage | Strand & Grabouw",
           "description": "Please note users on the Octotel network in Strand & Grabouw will experience limited to no connectivity due to an outage. Octotel engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -3483,6 +3431,69 @@
               "pivot": {
                 "notice_id": 8678,
                 "city_id": 59
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8679,
+          "title": "FibreSuburb Network Outage | Kindlewood",
+          "description": "FibreSuburb has informed us of a network outage affecting Kindlewood, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-12 19:03:01",
+          "should_notify": 0,
+          "created_at": "2022-12-12 10:06:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8679,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8679,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 83,
+              "name": "Mount Edgecombe",
+              "slug": "mount-edgecombe",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8679,
+                "city_id": 83
               }
             }
           ],
