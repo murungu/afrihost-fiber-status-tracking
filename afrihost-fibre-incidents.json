@@ -6,69 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 8730,
-          "title": "Frogfoot Outage | Port Elizabeth and Uitenhage",
-          "description": "Frogfoot has informed us of a network outage affecting Port Elizabeth and Uitenhage, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-15 01:07:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8730,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 8730,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 8730,
-                "city_id": 458
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8729,
           "title": "Frogfoot Outage | Tenor",
           "description": "Frogfoot has informed us of a network outage affecting Tenor, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1353,80 +1290,6 @@
       ],
       "closed": [
         {
-          "id": 8710,
-          "title": "Vumatel Outage | Noordheuwel",
-          "description": "Vumatel has informed us of a network outage affecting Noordheuwel, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-14 00:08:23",
-          "should_notify": 0,
-          "created_at": "2022-12-13 19:29:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8710,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8710,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 9,
-              "name": "Krugersdorp",
-              "slug": "krugersdorp",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8710,
-                "city_id": 9
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 89,
-              "name": "Noordheuwel",
-              "slug": "noordheuwel",
-              "city_id": 9,
-              "pivot": {
-                "notice_id": 8710,
-                "suburb_id": 89
-              }
-            }
-          ]
-        },
-        {
           "id": 8711,
           "title": "Vumatel Outage | Brackendowns",
           "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2089,6 +1952,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8730,
+          "title": "Frogfoot Outage | Port Elizabeth and Uitenhage",
+          "description": "Frogfoot has informed us of a network outage affecting Port Elizabeth and Uitenhage, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-15 01:25:03",
+          "should_notify": 0,
+          "created_at": "2022-12-15 01:07:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8730,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8730,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8730,
+                "city_id": 458
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
