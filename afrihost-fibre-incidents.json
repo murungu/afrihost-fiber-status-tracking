@@ -6,6 +6,58 @@
     "notices": {
       "open": [
         {
+          "id": 8737,
+          "title": "Frogfoot Outage | Gauteng",
+          "description": "We are investigating reports of no connectivity on Frogfoot in Gauteng. We apologise for the inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-15 23:20:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8737,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8737,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 8736,
           "title": "Vumatel Outage | Discovery",
           "description": "Vumatel has informed us of a network outage affecting Discovery, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2303,11 +2355,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
