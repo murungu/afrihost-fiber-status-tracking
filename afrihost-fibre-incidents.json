@@ -66,6 +66,80 @@
           "suburbs": []
         },
         {
+          "id": 8738,
+          "title": "Metrofibre Outage | Hestea Park",
+          "description": "Please note users on the Metrofibre network in Hestea Park will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-16 09:21:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8738,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8738,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 1,
+              "name": "Akasia",
+              "slug": "akasia",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8738,
+                "city_id": 1
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 334,
+              "name": "Hesteapark",
+              "slug": "hesteapark",
+              "city_id": 1,
+              "pivot": {
+                "notice_id": 8738,
+                "suburb_id": 334
+              }
+            }
+          ]
+        },
+        {
           "id": 8736,
           "title": "Vumatel Outage | Discovery",
           "description": "Vumatel has informed us of a network outage affecting Discovery, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
