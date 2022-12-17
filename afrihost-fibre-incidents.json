@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8749,
-          "title": "Openserve Outage | Centurion",
-          "description": "Please note users on the Openserve network in Centurion will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "id": 8750,
+          "title": "Vumatel Outage | Polokwane",
+          "description": "Vumatel has informed us of a network outage affecting Polokwane, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-17 13:44:16",
+          "created_at": "2022-12-17 19:52:18",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,37 +32,47 @@
           },
           "categories": [
             {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8749,
-                "category_id": 14
+                "notice_id": 8750,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8750,
+                "category_id": 18
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
               "pivot": {
-                "notice_id": 8749,
-                "province_id": 1
+                "notice_id": 8750,
+                "province_id": 4
               }
             }
           ],
           "cities": [
             {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1,
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4,
               "pivot": {
-                "notice_id": 8749,
-                "city_id": 43
+                "notice_id": 8750,
+                "city_id": 350
               }
             }
           ],
@@ -217,291 +227,6 @@
           ]
         },
         {
-          "id": 8745,
-          "title": "Vumatel Reach Outage | Orlando West",
-          "description": "Please note users on the Vumatel Reach network in Orlando West will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-16 18:27:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8745,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8745,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8745,
-                "city_id": 17
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2570,
-              "name": "Orlando",
-              "slug": "orlando",
-              "city_id": 17,
-              "pivot": {
-                "notice_id": 8745,
-                "suburb_id": 2570
-              }
-            }
-          ]
-        },
-        {
-          "id": 8744,
-          "title": "Evotel Outage | Ladysmith",
-          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-16 18:01:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8744,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8744,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8744,
-                "city_id": 161
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8743,
-          "title": "Metrofibre Outage | Pretoria North",
-          "description": "Please note users on the Metrofibre network in Pretoria North will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-16 17:53:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8743,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8743,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8743,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 13,
-              "name": "Pretoria North",
-              "slug": "pretoria-north",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8743,
-                "suburb_id": 13
-              }
-            }
-          ]
-        },
-        {
-          "id": 8742,
-          "title": "Vumatel Outage | Ladysmith",
-          "description": "Vumatel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-16 17:52:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8742,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8742,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8742,
-                "city_id": 161
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1740,
-              "name": "Hyde Park",
-              "slug": "hyde-park-1",
-              "city_id": 161,
-              "pivot": {
-                "notice_id": 8742,
-                "suburb_id": 1740
-              }
-            }
-          ]
-        },
-        {
           "id": 8741,
           "title": "Vuma Villages Outage | Brackendowns",
           "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -576,80 +301,6 @@
           ]
         },
         {
-          "id": 8725,
-          "title": "Vumatel Outage | Bedford Gardens",
-          "description": "Vumatel has informed us of a network outage affecting Bedford Gardens, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-14 17:58:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8725,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8725,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 41,
-              "name": "Bedfordview",
-              "slug": "bedfordview",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8725,
-                "city_id": 41
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 178,
-              "name": "Bedford Gardens",
-              "slug": "bedford-gardens",
-              "city_id": 41,
-              "pivot": {
-                "notice_id": 8725,
-                "suburb_id": 178
-              }
-            }
-          ]
-        },
-        {
           "id": 8705,
           "title": "Octotel Maintenance |  Plettenberg Bay",
           "description": "Octotel is conducting maintenance in  Plettenberg Bay from 19/12/2022 10:00  to 12:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -699,69 +350,6 @@
             }
           ],
           "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 8704,
-          "title": "Octotel Maintenance | Knysna",
-          "description": "Octotel is conducting maintenance in Knysna from 17/12/2022 08:30 to 09:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-13 17:15:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8704,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8704,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8704,
-                "city_id": 302
-              }
-            }
-          ],
           "suburbs": []
         }
       ],
@@ -832,364 +420,6 @@
           ],
           "cities": [],
           "suburbs": []
-        },
-        {
-          "id": 8732,
-          "title": "Vumatel Reach Outage | Phoenix",
-          "description": "Please note users on the Vumatel Reach network in Phoenix will experience limited to no connectivity due to an outage. Vumatel Reach engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-16 17:49:22",
-          "should_notify": 0,
-          "created_at": "2022-12-15 11:11:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8732,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8732,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 168,
-              "name": "Phoenix",
-              "slug": "phoenix",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8732,
-                "city_id": 168
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8733,
-          "title": "Vumatel Outage | Craighall Park",
-          "description": "Vumatel has informed us of a network outage affecting Craighall Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-16 17:49:16",
-          "should_notify": 0,
-          "created_at": "2022-12-15 18:32:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8733,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8733,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8733,
-                "city_id": 53
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 670,
-              "name": "Craighall Park",
-              "slug": "craighall-park",
-              "city_id": 53,
-              "pivot": {
-                "notice_id": 8733,
-                "suburb_id": 670
-              }
-            }
-          ]
-        },
-        {
-          "id": 8734,
-          "title": "VumaVillages Outage | De Velde, Somerset West",
-          "description": "Vumatel has informed us of a network outage affecting De Velde, Somerset West, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-16 17:49:11",
-          "should_notify": 0,
-          "created_at": "2022-12-15 18:34:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8734,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8734,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 222,
-              "name": "Somerset West",
-              "slug": "somerset-west",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8734,
-                "city_id": 222
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8735,
-          "title": "VumaVillages Outage | Beyers Park",
-          "description": "Vumatel has informed us of a network outage affecting Beyers Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-16 17:49:06",
-          "should_notify": 0,
-          "created_at": "2022-12-15 19:26:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8735,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8735,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8735,
-                "city_id": 22
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 449,
-              "name": "Beyerspark",
-              "slug": "beyerspark",
-              "city_id": 22,
-              "pivot": {
-                "notice_id": 8735,
-                "suburb_id": 449
-              }
-            }
-          ]
-        },
-        {
-          "id": 8736,
-          "title": "Vumatel Outage | Discovery",
-          "description": "Vumatel has informed us of a network outage affecting Discovery, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-16 17:48:46",
-          "should_notify": 0,
-          "created_at": "2022-12-15 19:27:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8736,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8736,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8736,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8736,
-                "city_id": 35
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 872,
-              "name": "Discovery",
-              "slug": "discovery",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 8736,
-                "suburb_id": 872
-              }
-            }
-          ]
         },
         {
           "id": 8738,
@@ -1424,6 +654,291 @@
           ]
         },
         {
+          "id": 8742,
+          "title": "Vumatel Outage | Ladysmith",
+          "description": "Vumatel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-17 19:53:30",
+          "should_notify": 0,
+          "created_at": "2022-12-16 17:52:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8742,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8742,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8742,
+                "city_id": 161
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1740,
+              "name": "Hyde Park",
+              "slug": "hyde-park-1",
+              "city_id": 161,
+              "pivot": {
+                "notice_id": 8742,
+                "suburb_id": 1740
+              }
+            }
+          ]
+        },
+        {
+          "id": 8743,
+          "title": "Metrofibre Outage | Pretoria North",
+          "description": "Please note users on the Metrofibre network in Pretoria North will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-17 19:54:05",
+          "should_notify": 0,
+          "created_at": "2022-12-16 17:53:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8743,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8743,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8743,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 13,
+              "name": "Pretoria North",
+              "slug": "pretoria-north",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8743,
+                "suburb_id": 13
+              }
+            }
+          ]
+        },
+        {
+          "id": 8744,
+          "title": "Evotel Outage | Ladysmith",
+          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-17 19:53:23",
+          "should_notify": 0,
+          "created_at": "2022-12-16 18:01:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8744,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8744,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8744,
+                "city_id": 161
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8745,
+          "title": "Vumatel Reach Outage | Orlando West",
+          "description": "Please note users on the Vumatel Reach network in Orlando West will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-17 19:53:17",
+          "should_notify": 0,
+          "created_at": "2022-12-16 18:27:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8745,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8745,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8745,
+                "city_id": 17
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2570,
+              "name": "Orlando",
+              "slug": "orlando",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 8745,
+                "suburb_id": 2570
+              }
+            }
+          ]
+        },
+        {
           "id": 8748,
           "title": "Openserve Outage | Amberfield Manor",
           "description": "Please note users on the Openserve network in Amberfield Manor will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -1496,6 +1011,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8749,
+          "title": "Openserve Outage | Centurion",
+          "description": "Please note users on the Openserve network in Centurion will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-17 19:53:56",
+          "should_notify": 0,
+          "created_at": "2022-12-17 13:44:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8749,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8749,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8749,
+                "city_id": 43
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
