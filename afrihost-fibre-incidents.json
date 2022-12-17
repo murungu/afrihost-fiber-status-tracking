@@ -6,79 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 8750,
-          "title": "Vumatel Outage | Polokwane",
-          "description": "Vumatel has informed us of a network outage affecting Polokwane, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-17 19:52:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8750,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8750,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
-              "pivot": {
-                "notice_id": 8750,
-                "province_id": 4
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4,
-              "pivot": {
-                "notice_id": 8750,
-                "city_id": 350
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8747,
           "title": "Metrofibre Outage | Pebblestone Creek River Estate",
           "description": "Please note users on the Metrofibre network in Pebblestone Creek River Estate will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -354,73 +281,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 8737,
-          "title": "Frogfoot Outage | Gauteng & Bloemfontein",
-          "description": "We are investigating reports of no connectivity on Frogfoot in Gauteng and Bloemfontein. We apologise for the inconvenience caused.",
-          "resolution": "Outage resolved. Please contact support@afrihost.com if you are still experiencing connection issues.",
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2022-12-16 17:45:29",
-          "should_notify": 0,
-          "created_at": "2022-12-15 23:20:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8737,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 614,
-              "notice_id": 8737,
-              "content": "Affected clients connections have been restored and we are monitoring for any changes",
-              "created_by_id": 28,
-              "created_at": "2022-12-16 13:33:10"
-            },
-            {
-              "id": 613,
-              "notice_id": 8737,
-              "content": "Frogfoot and Afrihost are working to find a permanent solution to restore service to affected clients",
-              "created_by_id": 28,
-              "created_at": "2022-12-16 08:42:41"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8737,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
         {
           "id": 8738,
           "title": "Metrofibre Outage | Bellapark, Kareesig Estate, Platinum Heights Estate, Hestea Park",
@@ -1070,6 +930,79 @@
               "pivot": {
                 "notice_id": 8749,
                 "city_id": 43
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8750,
+          "title": "Vumatel Outage | Polokwane",
+          "description": "Vumatel has informed us of a network outage affecting Polokwane, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-17 21:44:11",
+          "should_notify": 0,
+          "created_at": "2022-12-17 19:52:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8750,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8750,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 8750,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 8750,
+                "city_id": 350
               }
             }
           ],
