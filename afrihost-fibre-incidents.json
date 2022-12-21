@@ -291,69 +291,6 @@
           "suburbs": []
         },
         {
-          "id": 8761,
-          "title": "Evotel Outage | Kathu",
-          "description": "Evotel has informed us of a network outage affecting Kathu, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-21 12:15:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8761,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape",
-              "pivot": {
-                "notice_id": 8761,
-                "province_id": 5
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 374,
-              "name": "Kathu",
-              "slug": "kathu",
-              "province_id": 5,
-              "pivot": {
-                "notice_id": 8761,
-                "city_id": 374
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8760,
           "title": "Vuma Villages Outage | Kelvin",
           "description": "Vumatel has informed us of a network outage affecting Kelvin, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -860,80 +797,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 8745,
-          "title": "Vumatel Reach Outage | Orlando West",
-          "description": "Please note users on the Vumatel Reach network in Orlando West will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-17 19:53:17",
-          "should_notify": 0,
-          "created_at": "2022-12-16 18:27:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8745,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8745,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8745,
-                "city_id": 17
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2570,
-              "name": "Orlando",
-              "slug": "orlando",
-              "city_id": 17,
-              "pivot": {
-                "notice_id": 8745,
-                "suburb_id": 2570
-              }
-            }
-          ]
-        },
         {
           "id": 8748,
           "title": "Openserve Outage | Amberfield Manor",
@@ -1489,6 +1352,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8761,
+          "title": "Evotel Outage | Kathu",
+          "description": "Evotel has informed us of a network outage affecting Kathu, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-21 15:09:33",
+          "should_notify": 0,
+          "created_at": "2022-12-21 12:15:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8761,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape",
+              "pivot": {
+                "notice_id": 8761,
+                "province_id": 5
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 374,
+              "name": "Kathu",
+              "slug": "kathu",
+              "province_id": 5,
+              "pivot": {
+                "notice_id": 8761,
+                "city_id": 374
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 8758,
