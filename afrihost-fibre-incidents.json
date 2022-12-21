@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8761,
+          "title": "Evotel Outage | Kathu",
+          "description": "Evotel has informed us of a network outage affecting Kathu, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-21 12:15:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8761,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape",
+              "pivot": {
+                "notice_id": 8761,
+                "province_id": 5
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 374,
+              "name": "Kathu",
+              "slug": "kathu",
+              "province_id": 5,
+              "pivot": {
+                "notice_id": 8761,
+                "city_id": 374
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8760,
           "title": "Vuma Villages Outage | Kelvin",
           "description": "Vumatel has informed us of a network outage affecting Kelvin, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -509,58 +572,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 8705,
-          "title": "Octotel Maintenance |  Plettenberg Bay",
-          "description": "Octotel is conducting maintenance in  Plettenberg Bay from 20/12/2022 23:00  to 21/12/2022 01:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-13 17:19:54",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8705,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8705,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         }
       ],
       "closed": [
