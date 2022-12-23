@@ -6,6 +6,79 @@
     "notices": {
       "open": [
         {
+          "id": 8784,
+          "title": "Vumatel Reach Outage | Haven Hills",
+          "description": "Please note users on the Vumatel Reach network in Haven Hills will experience limited to no connectivity due to an outage. Vumatel Reach engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-23 19:27:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8784,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8784,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 8784,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 435,
+              "name": "Buffalo City",
+              "slug": "buffalo-city",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 8784,
+                "city_id": 435
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8783,
           "title": "Metrofibre Outage | Durban South",
           "description": "Please note users on the Metrofibre network in Durban South will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -857,154 +930,6 @@
           ]
         },
         {
-          "id": 8763,
-          "title": "Metrofibre Outage | Westwood Way",
-          "description": "Metrofibre has informed us of a network outage affecting Westwood Way, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-21 13:04:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8763,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8763,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8763,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 133,
-              "name": "Paulshof",
-              "slug": "paulshof",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8763,
-                "suburb_id": 133
-              }
-            }
-          ]
-        },
-        {
-          "id": 8741,
-          "title": "Vuma Villages Outage | Brackendowns",
-          "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-16 17:51:01",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8741,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8741,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8741,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 53,
-              "name": "Brackendowns",
-              "slug": "brackendowns",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 8741,
-                "suburb_id": 53
-              }
-            }
-          ]
-        },
-        {
           "id": 8778,
           "title": "Vumatel Villages Maintenance | Randhart and Albemarle",
           "description": "Vumatel Villages is conducting maintenance in Randhart and Albemarle from 2022-12-22 21:00 to 2022-12-23 07:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1100,80 +1025,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 8760,
-          "title": "Vuma Villages Outage | Kelvin",
-          "description": "Vumatel has informed us of a network outage affecting Kelvin, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-21 22:26:51",
-          "should_notify": 0,
-          "created_at": "2022-12-21 08:25:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8760,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8760,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8760,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 857,
-              "name": "Kelvin",
-              "slug": "kelvin",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8760,
-                "suburb_id": 857
-              }
-            }
-          ]
-        },
         {
           "id": 8761,
           "title": "Evotel Outage | Kathu",
@@ -1299,6 +1150,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8763,
+          "title": "Metrofibre Outage | Westwood Way",
+          "description": "Metrofibre has informed us of a network outage affecting Westwood Way, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-23 19:28:49",
+          "should_notify": 0,
+          "created_at": "2022-12-21 13:04:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8763,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8763,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8763,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 133,
+              "name": "Paulshof",
+              "slug": "paulshof",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8763,
+                "suburb_id": 133
+              }
+            }
+          ]
         },
         {
           "id": 8764,
