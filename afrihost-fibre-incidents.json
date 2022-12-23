@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8781,
-          "title": "Frogfoot Outage | Lephalale",
-          "description": "Please note users on the Frogfoot network in Lephalale will experience limited to no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "id": 8782,
+          "title": "Vumatel Reach Outage | Atteridgeville",
+          "description": "Please note users on the Vumatel Reach network in Atteridgeville will experience limited to no connectivity due to an outage. Vumatel Reach engineers are attending to the fault. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-23 14:56:51",
+          "created_at": "2022-12-23 15:26:24",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,41 +32,52 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8781,
-                "category_id": 7
+                "notice_id": 8782,
+                "category_id": 24
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 8781,
-                "province_id": 4
+                "notice_id": 8782,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 332,
-              "name": "Lephalale",
-              "slug": "lephalale",
-              "province_id": 4,
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 8781,
-                "city_id": 332
+                "notice_id": 8782,
+                "city_id": 33
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 972,
+              "name": "Atteridgeville",
+              "slug": "atteridgeville",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8782,
+                "suburb_id": 972
+              }
+            }
+          ]
         },
         {
           "id": 8780,
@@ -1019,100 +1030,6 @@
       ],
       "closed": [
         {
-          "id": 8759,
-          "title": "Frogfoot Outage | Ravenswood, Kempton Park & Centurion",
-          "description": "Frogfoot has informed us of a network outage affecting Ravenswood, Kempton Park & Centurion, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-21 10:49:10",
-          "should_notify": 0,
-          "created_at": "2022-12-21 07:47:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8759,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8759,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8759,
-                "city_id": 48
-              }
-            },
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8759,
-                "city_id": 43
-              }
-            },
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8759,
-                "city_id": 22
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 543,
-              "name": "Ravenswood",
-              "slug": "ravenswood",
-              "city_id": 22,
-              "pivot": {
-                "notice_id": 8759,
-                "suburb_id": 543
-              }
-            }
-          ]
-        },
-        {
           "id": 8760,
           "title": "Vuma Villages Outage | Kelvin",
           "description": "Vumatel has informed us of a network outage affecting Kelvin, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1744,6 +1661,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 8781,
+          "title": "Frogfoot Outage | Lephalale",
+          "description": "Please note users on the Frogfoot network in Lephalale will experience limited to no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-23 15:27:32",
+          "should_notify": 0,
+          "created_at": "2022-12-23 14:56:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8781,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 8781,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 332,
+              "name": "Lephalale",
+              "slug": "lephalale",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 8781,
+                "city_id": 332
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
