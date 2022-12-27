@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8791,
+          "title": "Openserve Outage | Ballito",
+          "description": "Openserve has informed us of a network outage affecting Ballito, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-27 07:49:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8791,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 8791,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 8791,
+                "city_id": 102
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8790,
           "title": "Balwin Fibre Outage | GreenPark",
           "description": "Balwin Fibre has informed us of a network outage affecting GreenPark, affected clients will experience limited to no connectivity. Balwin Fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
