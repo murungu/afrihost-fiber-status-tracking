@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8790,
+          "title": "Balwin Fibre Outage | GreenPark",
+          "description": "Balwin Fibre has informed us of a network outage affecting GreenPark, affected clients will experience limited to no connectivity. Balwin Fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-27 05:53:04",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8790,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8790,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8790,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 354,
+              "name": "Witfield",
+              "slug": "witfield",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 8790,
+                "suburb_id": 354
+              }
+            }
+          ]
+        },
+        {
           "id": 8789,
           "title": "Vumatel Villages Outage | Ravenswood",
           "description": "Please note users on the Vumatel Villages network in Ravenswood will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
