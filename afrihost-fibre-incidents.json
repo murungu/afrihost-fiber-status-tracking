@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 8802,
-          "title": "Balwin Outage | Malakite",
-          "description": "Balwin has informed us of a network outage affecting Malakite, affected clients will experience no connectivity. Balwin engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8803,
+          "title": "Frogfoot Outage | Hibiscus",
+          "description": "Frogfoot has informed us of a network outage affecting Hibiscus, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-28 20:25:57",
+          "created_at": "2022-12-28 21:52:30",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 1,
-              "name": "Balwin Fibre",
-              "slug": "balwin-fibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8802,
-                "category_id": 1
+                "notice_id": 8803,
+                "category_id": 7
               }
             }
           ],
@@ -49,32 +49,32 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8802,
+                "notice_id": 8803,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 49,
-              "name": "Lethabong",
-              "slug": "lethabong",
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8802,
-                "city_id": 49
+                "notice_id": 8803,
+                "city_id": 22
               }
             }
           ],
           "suburbs": [
             {
-              "id": 5917,
-              "name": "Modderfontein",
-              "slug": "modderfontein",
-              "city_id": 49,
+              "id": 543,
+              "name": "Ravenswood",
+              "slug": "ravenswood",
+              "city_id": 22,
               "pivot": {
-                "notice_id": 8802,
-                "suburb_id": 5917
+                "notice_id": 8803,
+                "suburb_id": 543
               }
             }
           ]
@@ -585,80 +585,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 8785,
-          "title": "Metrofibre Outage | Linmeyer",
-          "description": "Please note users on the Metrofibre network in Linmeyer will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-26 17:36:52",
-          "should_notify": 0,
-          "created_at": "2022-12-24 16:52:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8785,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8785,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8785,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 394,
-              "name": "Linmeyer",
-              "slug": "linmeyer",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 8785,
-                "suburb_id": 394
-              }
-            }
-          ]
-        },
         {
           "id": 8786,
           "title": "Evotel Outage | Witbank",
@@ -1299,6 +1225,80 @@
               "pivot": {
                 "notice_id": 8798,
                 "suburb_id": 111
+              }
+            }
+          ]
+        },
+        {
+          "id": 8802,
+          "title": "Balwin Outage | Malakite",
+          "description": "Balwin has informed us of a network outage affecting Malakite, affected clients will experience no connectivity. Balwin engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-28 21:51:15",
+          "should_notify": 0,
+          "created_at": "2022-12-28 20:25:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8802,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8802,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8802,
+                "city_id": 49
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5917,
+              "name": "Modderfontein",
+              "slug": "modderfontein",
+              "city_id": 49,
+              "pivot": {
+                "notice_id": 8802,
+                "suburb_id": 5917
               }
             }
           ]
