@@ -143,80 +143,6 @@
           ]
         },
         {
-          "id": 8793,
-          "title": "Frogfoot Outage | Ravenswood",
-          "description": "Frogfoot has informed us of a network outage affecting Ravenswood, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2022-12-27 11:36:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8793,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8793,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8793,
-                "city_id": 22
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 543,
-              "name": "Ravenswood",
-              "slug": "ravenswood",
-              "city_id": 22,
-              "pivot": {
-                "notice_id": 8793,
-                "suburb_id": 543
-              }
-            }
-          ]
-        },
-        {
           "id": 8792,
           "title": "Metrofibre Outage | Fillan Park and The Grange",
           "description": "Metrofibre has informed us of a network outage affecting Fillan Park and The Grange, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -429,88 +355,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 8782,
-          "title": "Vumatel Reach Outage | Atteridgeville",
-          "description": "Please note users on the Vumatel Reach network in Atteridgeville will experience limited to no connectivity due to an outage. Vumatel Reach engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-23 20:29:20",
-          "should_notify": 0,
-          "created_at": "2022-12-23 15:26:24",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8782,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 615,
-              "notice_id": 8782,
-              "content": "Outage updated including the below areas\n\n- Danville\n- Rosslyn\n- Soshanguve",
-              "created_by_id": 30,
-              "created_at": "2022-12-23 17:35:29"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8782,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8782,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 972,
-              "name": "Atteridgeville",
-              "slug": "atteridgeville",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 8782,
-                "suburb_id": 972
-              }
-            }
-          ]
-        },
         {
           "id": 8783,
           "title": "Metrofibre Outage | Durban South",
@@ -1001,6 +845,80 @@
               "city_id": 22,
               "pivot": {
                 "notice_id": 8789,
+                "suburb_id": 543
+              }
+            }
+          ]
+        },
+        {
+          "id": 8793,
+          "title": "Frogfoot Outage | Ravenswood",
+          "description": "Frogfoot has informed us of a network outage affecting Ravenswood, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2022-12-28 06:33:11",
+          "should_notify": 0,
+          "created_at": "2022-12-27 11:36:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8793,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8793,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8793,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 543,
+              "name": "Ravenswood",
+              "slug": "ravenswood",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 8793,
                 "suburb_id": 543
               }
             }
