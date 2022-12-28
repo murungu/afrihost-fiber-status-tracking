@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8799,
+          "title": "Vumatel Outage | Rietfontein 61-IR",
+          "description": "Vumatel has informed us of a network outage affecting Rietfontein 61-IR, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-28 10:56:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8799,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8799,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8799,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5574,
+              "name": "Rietfontein",
+              "slug": "rietfontein-7",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 8799,
+                "suburb_id": 5574
+              }
+            }
+          ]
+        },
+        {
           "id": 8797,
           "title": "Vumatel Reach Outage | Mitchells Plain Zone 19",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Mitchells Plain Zone 19, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -286,6 +360,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 8800,
+          "title": "Vumatel Maintenance | Parkrand and Randhart",
+          "description": "Vumatel is conducting maintenance in Parkrand and Randhart from 2022-12-28 10:30 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2022-12-28 10:58:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8800,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8800,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8800,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 395,
+              "name": "Parkrand",
+              "slug": "parkrand",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 8800,
+                "suburb_id": 395
+              }
+            }
+          ]
         }
       ],
       "closed": [
