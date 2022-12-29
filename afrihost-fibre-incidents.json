@@ -636,16 +636,16 @@
           "suburbs": []
         },
         {
-          "id": 8800,
-          "title": "Vumatel Maintenance | Parkrand and Randhart",
-          "description": "Vumatel is conducting maintenance in Parkrand and Randhart from 2022-12-28 10:30 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 8807,
+          "title": "Vumatel Maintenance | Wendywood",
+          "description": "Vumatel is conducting maintenance in Wendywood from 2022-12-30 22:00 to 23:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2022-12-28 10:58:37",
+          "created_at": "2022-12-29 12:11:54",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -667,7 +667,7 @@
               "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8800,
+                "notice_id": 8807,
                 "category_id": 18
               }
             }
@@ -679,112 +679,38 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 8800,
+                "notice_id": 8807,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
               "province_id": 1,
               "pivot": {
-                "notice_id": 8800,
-                "city_id": 22
+                "notice_id": 8807,
+                "city_id": 16
               }
             }
           ],
           "suburbs": [
             {
-              "id": 395,
-              "name": "Parkrand",
-              "slug": "parkrand",
-              "city_id": 22,
+              "id": 652,
+              "name": "Wendywood",
+              "slug": "wendywood",
+              "city_id": 16,
               "pivot": {
-                "notice_id": 8800,
-                "suburb_id": 395
+                "notice_id": 8807,
+                "suburb_id": 652
               }
             }
           ]
         }
       ],
       "closed": [
-        {
-          "id": 8787,
-          "title": "Vumatel Villages Outage | Birdswood, Richards Bay",
-          "description": "Please note users on the Vumatel Villages network in Birdswood, Richards Bay will experience no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2022-12-26 17:36:45",
-          "should_notify": 0,
-          "created_at": "2022-12-25 17:34:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8787,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8787,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8787,
-                "city_id": 130
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 157,
-              "name": "Birdswood",
-              "slug": "birdswood",
-              "city_id": 130,
-              "pivot": {
-                "notice_id": 8787,
-                "suburb_id": 157
-              }
-            }
-          ]
-        },
         {
           "id": 8788,
           "title": "Vumatel Villages Outage | Brackenhurst",
@@ -1436,6 +1362,80 @@
               "pivot": {
                 "notice_id": 8802,
                 "suburb_id": 5917
+              }
+            }
+          ]
+        },
+        {
+          "id": 8800,
+          "title": "Vumatel Maintenance | Parkrand and Randhart",
+          "description": "Vumatel is conducting maintenance in Parkrand and Randhart from 2022-12-28 10:30 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2022-12-29 12:11:13",
+          "should_notify": 0,
+          "created_at": "2022-12-28 10:58:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8800,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8800,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8800,
+                "city_id": 22
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 395,
+              "name": "Parkrand",
+              "slug": "parkrand",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 8800,
+                "suburb_id": 395
               }
             }
           ]
