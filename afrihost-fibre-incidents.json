@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8828,
+          "title": "Metrofibre Outage | Blancheville, Emalahleni",
+          "description": "Metrofibre has informed us of a network outage affecting Blancheville, Emalahleni, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-03 07:34:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8828,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga",
+              "pivot": {
+                "notice_id": 8828,
+                "province_id": 9
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9,
+              "pivot": {
+                "notice_id": 8828,
+                "city_id": 679
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 518,
+              "name": "Blancheville",
+              "slug": "blancheville",
+              "city_id": 679,
+              "pivot": {
+                "notice_id": 8828,
+                "suburb_id": 518
+              }
+            }
+          ]
+        },
+        {
           "id": 8826,
           "title": "Vumatel Villages Outage | Ormonde View Estates",
           "description": "Please note users on the Vumatel Villages network in Ormonde View Estates will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologise for any inconvenience caused.",
