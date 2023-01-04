@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8841,
+          "title": "Vumatel Outage | Bryanston East",
+          "description": "Vumatel has informed us of a network outage affecting Bryanston East, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-04 11:38:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8841,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8841,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8841,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4,
+              "name": "Bryanston",
+              "slug": "bryanston",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 8841,
+                "suburb_id": 4
+              }
+            }
+          ]
+        },
+        {
           "id": 8840,
           "title": "Vumatel Outage | The TyrWhitt",
           "description": "Vumatel has informed us of a network outage affecting The TyrWhitt, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
