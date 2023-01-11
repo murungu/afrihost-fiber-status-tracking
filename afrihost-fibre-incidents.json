@@ -130,6 +130,80 @@
           ]
         },
         {
+          "id": 8926,
+          "title": "Metrofibre Outage | Doornpoort",
+          "description": "Please note users on the Metrofibre network in Doornpoort will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-11 20:00:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8926,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8926,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8926,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 14,
+              "name": "Doornpoort",
+              "slug": "doornpoort",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8926,
+                "suburb_id": 14
+              }
+            }
+          ]
+        },
+        {
           "id": 8925,
           "title": "TT Connect outage | Edenvale",
           "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
