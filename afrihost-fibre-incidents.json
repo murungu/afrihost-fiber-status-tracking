@@ -130,68 +130,6 @@
           "suburbs": []
         },
         {
-          "id": 8935,
-          "title": "Vumatel Outage | Gauteng",
-          "description": "Vumatel has informed us of a network outage affecting Gauteng, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-12 15:55:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8935,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8935,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8935,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 8951,
           "title": "Frogfoot Outage | Forest Glen",
           "description": "Frogfoot has informed us of a network outage affecting Forest Glen, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2974,16 +2912,16 @@
       ],
       "closed": [
         {
-          "id": 8907,
-          "title": "FrogFoot outage | Cape Town",
-          "description": "FrogFoot has informed us of a network outage affecting Cape Town, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 8935,
+          "title": "Vumatel Outage | Gauteng",
+          "description": "Vumatel has informed us of a network outage affecting Gauteng, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2023-01-11 12:08:57",
+          "resolved_at": "2023-01-12 23:39:10",
           "should_notify": 0,
-          "created_at": "2023-01-10 15:58:59",
+          "created_at": "2023-01-12 15:55:05",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2992,100 +2930,48 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 8907,
-                "category_id": 7
+                "notice_id": 8935,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8935,
+                "category_id": 24
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 8907,
-                "province_id": 3
+                "notice_id": 8935,
+                "province_id": 1
               }
             }
           ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8907,
-                "city_id": 240
-              }
-            },
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8907,
-                "city_id": 236
-              }
-            },
-            {
-              "id": 212,
-              "name": "Montagu",
-              "slug": "montagu",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8907,
-                "city_id": 212
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3350,
-              "name": "Cape Farms",
-              "slug": "cape-farms",
-              "city_id": 240,
-              "pivot": {
-                "notice_id": 8907,
-                "suburb_id": 3350
-              }
-            },
-            {
-              "id": 258,
-              "name": "Table View",
-              "slug": "table-view",
-              "city_id": 236,
-              "pivot": {
-                "notice_id": 8907,
-                "suburb_id": 258
-              }
-            },
-            {
-              "id": 774,
-              "name": "Sunningdale",
-              "slug": "sunningdale",
-              "city_id": 236,
-              "pivot": {
-                "notice_id": 8907,
-                "suburb_id": 774
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 8908,
