@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 8974,
+          "title": "Evotel Outage | Kathu",
+          "description": "Evotel has informed us of a network outage affecting Kathu, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-15 12:17:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8974,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape",
+              "pivot": {
+                "notice_id": 8974,
+                "province_id": 5
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 374,
+              "name": "Kathu",
+              "slug": "kathu",
+              "province_id": 5,
+              "pivot": {
+                "notice_id": 8974,
+                "city_id": 374
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 8973,
           "title": "Metrofibre Outage | Elardus Park",
           "description": "Metrofibre has informed us of a network outage affecting Elardus Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -78,69 +141,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 8972,
-          "title": "Openserve outage | Pretoria",
-          "description": "Openserve has informed us of a network outage affecting Pretoria, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-15 10:04:31",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8972,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8972,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8972,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 8971,
@@ -2252,69 +2252,6 @@
       ],
       "closed": [
         {
-          "id": 8954,
-          "title": "Frogfoot Outage | Lephalale",
-          "description": "Frogfoot has informed us of a network outage affecting Lephalale, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-13 18:54:10",
-          "should_notify": 0,
-          "created_at": "2023-01-13 02:34:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8954,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
-              "pivot": {
-                "notice_id": 8954,
-                "province_id": 4
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 332,
-              "name": "Lephalale",
-              "slug": "lephalale",
-              "province_id": 4,
-              "pivot": {
-                "notice_id": 8954,
-                "city_id": 332
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 8955,
           "title": "Purple Forest Degraded Service",
           "description": "We are investigating reports of degraded service affecting clients on the Purple Forest network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
@@ -2953,6 +2890,69 @@
               "pivot": {
                 "notice_id": 8970,
                 "city_id": 332
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 8972,
+          "title": "Openserve outage | Pretoria",
+          "description": "Openserve has informed us of a network outage affecting Pretoria, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-15 12:16:10",
+          "should_notify": 0,
+          "created_at": "2023-01-15 10:04:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8972,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8972,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8972,
+                "city_id": 33
               }
             }
           ],
