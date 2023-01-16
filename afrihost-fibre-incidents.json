@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8982,
+          "title": "Openserve Outage | Celtisdal",
+          "description": "Please note users on the Openserve network in Celtisdal will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-16 08:29:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8982,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8982,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8982,
+                "city_id": 43
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 653,
+              "name": "Celtisdal",
+              "slug": "celtisdal",
+              "city_id": 43,
+              "pivot": {
+                "notice_id": 8982,
+                "suburb_id": 653
+              }
+            }
+          ]
+        },
+        {
           "id": 8981,
           "title": "Fibre Suburb Outage | Kindlewood Estate",
           "description": "Please note users on the Fibre Suburb network in Kindlewood Estate will experience no connectivity during load-shedding due to on going repairs of the backup power generator. We apologize for any inconvenience caused.",
