@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 8994,
+          "title": "Openserve outage | Sinoville",
+          "description": "Openserve has informed us of a network outage affecting Sinoville, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-17 18:23:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 8994,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 8994,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 8994,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 21,
+              "name": "Sinoville",
+              "slug": "sinoville",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 8994,
+                "suburb_id": 21
+              }
+            }
+          ]
+        },
+        {
           "id": 8993,
           "title": "Metrofibre Fibre Outage | Kyalami | Sunninghill",
           "description": "Please note users on the Metrofibre network in San Marino Complex, Kyalami Agricultural Holdings, Kyalami Glen & Indianapolis will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
