@@ -258,79 +258,6 @@
           "suburbs": []
         },
         {
-          "id": 9022,
-          "title": "Vumatel Outage | Vereeniging",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network in Vereeniging. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-20 08:44:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9022,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9022,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9022,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 59,
-              "name": "Vereeniging",
-              "slug": "vereeniging",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9022,
-                "city_id": 59
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9021,
           "title": "TT Connect outage | Edenvale",
           "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2792,6 +2719,80 @@
           ]
         },
         {
+          "id": 9027,
+          "title": "Vumatel Maintenance | Northwold",
+          "description": "Vumatel is conducting maintenance in Northwold from 02 February 2023 at 23:00 to 3 February 2023 at 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-20 15:26:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9027,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9027,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9027,
+                "city_id": 53
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 628,
+              "name": "Northwold",
+              "slug": "northwold",
+              "city_id": 53,
+              "pivot": {
+                "notice_id": 9027,
+                "suburb_id": 628
+              }
+            }
+          ]
+        },
+        {
           "id": 8944,
           "title": "Vumatel Villages Maintenance | Aquila Oakdene, Ormonde Crescent, Ormonde Gardens and Ormonde View",
           "description": "Vumatel is conducting maintenance affecting Aquila Oakdene, Ormonde Crescent, Ormonde Gardens and Ormonde View from 2022-01-23 21:00 to 2022-01-24 07:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -3202,69 +3203,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 8988,
-          "title": "FrogFoot outage | Hartenbos",
-          "description": "FrogFoot has informed us of a network outage affecting Hartenbos, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-17 03:45:36",
-          "should_notify": 0,
-          "created_at": "2023-01-16 18:46:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8988,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 8988,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 201,
-              "name": "Hartenbos",
-              "slug": "hartenbos",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 8988,
-                "city_id": 201
-              }
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 8991,
           "title": "Evotel outage | Kathu",
@@ -3890,6 +3828,79 @@
               "pivot": {
                 "notice_id": 9019,
                 "city_id": 81
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9022,
+          "title": "Vumatel Outage | Vereeniging",
+          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network in Vereeniging. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-20 15:27:06",
+          "should_notify": 0,
+          "created_at": "2023-01-20 08:44:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9022,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9022,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9022,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9022,
+                "city_id": 59
               }
             }
           ],
