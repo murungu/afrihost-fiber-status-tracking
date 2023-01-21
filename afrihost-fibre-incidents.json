@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9046,
+          "title": "Vumatel Outage | Chase Valley",
+          "description": "Vumatel has informed us of a network outage affecting Chase Valley, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-21 18:49:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9046,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9046,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 87,
+              "name": "Pietermaritzburg",
+              "slug": "pietermaritzburg",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9046,
+                "city_id": 87
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1191,
+              "name": "Chase Valley",
+              "slug": "chase-valley",
+              "city_id": 87,
+              "pivot": {
+                "notice_id": 9046,
+                "suburb_id": 1191
+              }
+            }
+          ]
+        },
+        {
           "id": 9045,
           "title": "Metrofibre Outage | Northern cape and western cape",
           "description": "Metrofibre has informed us of a network outage affecting the Northern cape and western cape, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -580,80 +654,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 9011,
-          "title": "Vumatel Aerial Outage | Sandown & Morningside",
-          "description": "Please note users on the Vumatel Aerial network in Sandown & Morningside will experience limited to no connectivity due to an outage. Vumatel engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-19 12:29:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9011,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9011,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9011,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 58,
-              "name": "Sandown",
-              "slug": "sandown",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9011,
-                "suburb_id": 58
-              }
-            }
-          ]
         },
         {
           "id": 9009,
