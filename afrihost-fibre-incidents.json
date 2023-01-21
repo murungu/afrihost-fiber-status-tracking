@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9039,
+          "title": "FrogFoot outage | Bayswater",
+          "description": "FrogFoot has informed us of a network outage affecting Bayswater, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-21 08:31:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9039,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
+              "pivot": {
+                "notice_id": 9039,
+                "province_id": 7
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 570,
+              "name": "Bloemfontein",
+              "slug": "bloemfontein",
+              "province_id": 7,
+              "pivot": {
+                "notice_id": 9039,
+                "city_id": 570
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 317,
+              "name": "Bayswater",
+              "slug": "bayswater",
+              "city_id": 570,
+              "pivot": {
+                "notice_id": 9039,
+                "suburb_id": 317
+              }
+            }
+          ]
+        },
+        {
           "id": 9037,
           "title": "Metrofibre Outage | Durban North",
           "description": "Metrofibre has informed us of a network outage affecting Durban North including Kenville, Greenwood Park, The Octagon, The Cube and Shanva Hills, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
