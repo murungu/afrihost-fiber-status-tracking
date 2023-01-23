@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9071,
+          "title": "Metrofibre Outage | The Hill",
+          "description": "Metrofibre has informed us of a network outage affecting The Hill, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-23 19:13:15",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9071,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9071,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9071,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 852,
+              "name": "The Hill",
+              "slug": "the-hill",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 9071,
+                "suburb_id": 852
+              }
+            }
+          ]
+        },
+        {
           "id": 9069,
           "title": "Vumatel Outage | Van Riebeeck Park",
           "description": "Vumatel has informed us of a network outage affecting Van Riebeeck Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1015,16 +1089,16 @@
           "suburbs": []
         },
         {
-          "id": 9037,
-          "title": "Metrofibre Outage | Durban North",
-          "description": "Metrofibre has informed us of a network outage affecting Durban North including Kenville, Greenwood Park, The Octagon, The Cube and Shanva Hills, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 9070,
+          "title": "Link Layer Maintenance | Salt Rock",
+          "description": "Link Layer is conducting maintenance in Salt Rock affecting Foxhill Lane, Sheffield Gardens, Litchi Orchard, Ezulwini, Grey Goose Farm and Tiffanys Centre from 2022-01-23 23:00 to 2022-01-24 08:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-01-20 19:27:26",
+          "created_at": "2023-01-23 19:07:04",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1033,21 +1107,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9037,
-                "category_id": 9
+                "notice_id": 9070,
+                "category_id": 30
               }
             }
           ],
@@ -1058,498 +1132,35 @@
               "name": "KwaZulu-Natal",
               "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 9037,
+                "notice_id": 9070,
                 "province_id": 2
               }
             }
           ],
           "cities": [
             {
-              "id": 109,
-              "name": "Durban North",
-              "slug": "durban-north",
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
               "province_id": 2,
               "pivot": {
-                "notice_id": 9037,
-                "city_id": 109
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9021,
-          "title": "TT Connect outage | Edenvale",
-          "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-19 22:28:31",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9021,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9021,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9021,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9017,
-          "title": "MetroFibre outage | Avoca, KwaZulu Natal",
-          "description": "MetroFibre has informed us of a network outage affecting Avoca, KwaZulu Natal, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-19 19:01:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9017,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9017,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9017,
-                "city_id": 68
+                "notice_id": 9070,
+                "city_id": 102
               }
             }
           ],
           "suburbs": [
             {
-              "id": 1521,
-              "name": "Avoca",
-              "slug": "avoca",
-              "city_id": 68,
+              "id": 147,
+              "name": "Salt Rock",
+              "slug": "salt-rock",
+              "city_id": 102,
               "pivot": {
-                "notice_id": 9017,
-                "suburb_id": 1521
+                "notice_id": 9070,
+                "suburb_id": 147
               }
             }
           ]
-        },
-        {
-          "id": 9016,
-          "title": "ThinkSpeed Outage | Port Edward",
-          "description": "Please note users on the ThinkSpeed network in Port Edward will experience limited to no connectivity due to an outage. ThinkSpeed engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-19 15:06:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 38,
-              "name": "Thinkspeed",
-              "slug": "thinkspeed",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9016,
-                "category_id": 38
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9016,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 88,
-              "name": "Port Edward",
-              "slug": "port-edward",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9016,
-                "city_id": 88
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9009,
-          "title": "Netstream Outage | Meyersdal",
-          "description": "Please note users on the Netstream network in Meyersdal will experience limited to no connectivity due to an outage. Netstream engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-19 09:25:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 11,
-              "name": "Netstream",
-              "slug": "netstream",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9009,
-                "category_id": 11
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9009,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9009,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 73,
-              "name": "Meyersdal",
-              "slug": "meyersdal",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 9009,
-                "suburb_id": 73
-              }
-            }
-          ]
-        },
-        {
-          "id": 9008,
-          "title": "Openserve Outage | Centurion",
-          "description": "Please note users on the Openserve network in Centurion will experience limited to no connectivity due to an outage. Openserve engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-19 08:02:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9008,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9008,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9008,
-                "city_id": 43
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 8996,
-          "title": "MetroFibre outage | Sunninghill",
-          "description": "MetroFibre has informed us of a network outage affecting Sunninghill, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-17 18:53:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8996,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 8996,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 8996,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 69,
-              "name": "Sunninghill",
-              "slug": "sunninghill",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 8996,
-                "suburb_id": 69
-              }
-            }
-          ]
-        },
-        {
-          "id": 8985,
-          "title": "Metrofibre Outage | Bluff",
-          "description": "Please note users on the Metrofibre network in Bluff will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-16 11:07:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 8985,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 8985,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 62,
-              "name": "Bluff",
-              "slug": "bluff",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 8985,
-                "city_id": 62
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 9038,
