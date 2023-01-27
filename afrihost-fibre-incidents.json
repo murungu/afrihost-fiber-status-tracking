@@ -6,6 +6,88 @@
     "notices": {
       "open": [
         {
+          "id": 9110,
+          "title": "Vumatel Reach Outage | Mdantsane",
+          "description": "Please note users on the Vumatel Reach network in Mdantsane will experience limited to no connectivity due to an outage. Vumatel Reach engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-27 17:22:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9110,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 618,
+              "notice_id": 9110,
+              "content": "Vumatel Teams are busy with the repairs",
+              "created_by_id": 28,
+              "created_at": "2023-01-27 17:22:40"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9110,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 9110,
+                "city_id": 477
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 705,
+              "name": "Mdantsane",
+              "slug": "mdantsane",
+              "city_id": 477,
+              "pivot": {
+                "notice_id": 9110,
+                "suburb_id": 705
+              }
+            }
+          ]
+        },
+        {
           "id": 9109,
           "title": "Frogfoot Outage | Franschhoek",
           "description": "Please note users on the Frogfoot network in Franschhoek will experience limited to no connectivity due to an outage. Frogfoot engineers are attending to the fault. We apologize for any inconvenience caused.",
