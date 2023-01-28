@@ -6,69 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 9117,
-          "title": "Vumatel Outage | Nigel",
-          "description": "Vumatel has informed us of a network outage affecting Nigel, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-28 11:24:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9117,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9117,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 32,
-              "name": "Nigel",
-              "slug": "nigel",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9117,
-                "city_id": 32
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9116,
           "title": "FibreSuburb Outage | The Wrens",
           "description": "FibreSuburb has informed us of a network outage affecting The Wrens, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1553,80 +1490,6 @@
       ],
       "closed": [
         {
-          "id": 9096,
-          "title": "MetroFibre outage | Dorandia, Pretoria",
-          "description": "MetroFibre has informed us of a network outage affecting Dorandia, Pretoria, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-28 07:53:11",
-          "should_notify": 0,
-          "created_at": "2023-01-25 20:06:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9096,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9096,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9096,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 175,
-              "name": "Dorandia",
-              "slug": "dorandia",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9096,
-                "suburb_id": 175
-              }
-            }
-          ]
-        },
-        {
           "id": 9098,
           "title": "TT Connect outage | Edenvale",
           "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2300,6 +2163,69 @@
               "pivot": {
                 "notice_id": 9113,
                 "city_id": 246
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9117,
+          "title": "Vumatel Outage | Nigel",
+          "description": "Vumatel has informed us of a network outage affecting Nigel, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-28 13:43:28",
+          "should_notify": 0,
+          "created_at": "2023-01-28 11:24:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9117,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9117,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 32,
+              "name": "Nigel",
+              "slug": "nigel",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9117,
+                "city_id": 32
               }
             }
           ],
