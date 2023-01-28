@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9122,
-          "title": "Frogfoot Outage | Franschhoek",
-          "description": "Frogfoot has informed us of a network outage affecting Franschhoek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 9123,
+          "title": "TT Connect Outage | Edenglen",
+          "description": "Please note users on the TT Connect network in Edenglen will experience limited to no connectivity due to an outage. TT Connect engineers are attending to the fault. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-01-28 17:33:13",
+          "created_at": "2023-01-29 01:46:49",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,112 +32,49 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9122,
-                "category_id": 7
+                "notice_id": 9123,
+                "category_id": 17
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 9122,
-                "province_id": 3
+                "notice_id": 9123,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 246,
-              "name": "Franschhoek",
-              "slug": "franschhoek",
-              "province_id": 3,
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 9122,
-                "city_id": 246
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9121,
-          "title": "Vumatel Outage | Protea Heights East",
-          "description": "Vumatel has informed us of a network outage affecting Protea Heights East, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-28 16:24:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9121,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9121,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 189,
-              "name": "Brackenfell",
-              "slug": "brackenfell",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9121,
-                "city_id": 189
+                "notice_id": 9123,
+                "city_id": 25
               }
             }
           ],
           "suburbs": [
             {
-              "id": 572,
-              "name": "Protea Heights",
-              "slug": "protea-heights",
-              "city_id": 189,
+              "id": 78,
+              "name": "Eden Glen",
+              "slug": "eden-glen",
+              "city_id": 25,
               "pivot": {
-                "notice_id": 9121,
-                "suburb_id": 572
+                "notice_id": 9123,
+                "suburb_id": 78
               }
             }
           ]
@@ -1838,143 +1775,6 @@
       ],
       "closed": [
         {
-          "id": 9098,
-          "title": "TT Connect outage | Edenvale",
-          "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-28 07:43:46",
-          "should_notify": 0,
-          "created_at": "2023-01-26 04:36:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9098,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9098,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9098,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9101,
-          "title": "Metrofibre Outage | Mount Michael",
-          "description": "Please note users on the Metrofibre network in Mount Michael will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-28 07:53:27",
-          "should_notify": 0,
-          "created_at": "2023-01-26 17:36:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9101,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9101,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9101,
-                "city_id": 87
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 4032,
-              "name": "Mount Michael",
-              "slug": "mount-michael",
-              "city_id": 87,
-              "pivot": {
-                "notice_id": 9101,
-                "suburb_id": 4032
-              }
-            }
-          ]
-        },
-        {
           "id": 9102,
           "title": "MetroFibre outage | Greenwood Park, Umhlanga",
           "description": "MetroFibre has informed us of a network outage affecting Greenwood Park, Umhlanga, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2574,6 +2374,143 @@
               "pivot": {
                 "notice_id": 9117,
                 "city_id": 32
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9121,
+          "title": "Vumatel Outage | Protea Heights East",
+          "description": "Vumatel has informed us of a network outage affecting Protea Heights East, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-29 01:44:11",
+          "should_notify": 0,
+          "created_at": "2023-01-28 16:24:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9121,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9121,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 189,
+              "name": "Brackenfell",
+              "slug": "brackenfell",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9121,
+                "city_id": 189
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 572,
+              "name": "Protea Heights",
+              "slug": "protea-heights",
+              "city_id": 189,
+              "pivot": {
+                "notice_id": 9121,
+                "suburb_id": 572
+              }
+            }
+          ]
+        },
+        {
+          "id": 9122,
+          "title": "Frogfoot Outage | Franschhoek",
+          "description": "Frogfoot has informed us of a network outage affecting Franschhoek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-29 01:44:03",
+          "should_notify": 0,
+          "created_at": "2023-01-28 17:33:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9122,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9122,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 246,
+              "name": "Franschhoek",
+              "slug": "franschhoek",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9122,
+                "city_id": 246
               }
             }
           ],
