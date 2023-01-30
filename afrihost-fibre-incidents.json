@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9156,
+          "title": "Vumatel Outage | Seaward Estate",
+          "description": "Vumatel has informed us of a network outage affecting Seaward Estate, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-30 15:24:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9156,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9156,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9156,
+                "city_id": 102
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 527,
+              "name": "Seaward Estate",
+              "slug": "seaward-estate",
+              "city_id": 102,
+              "pivot": {
+                "notice_id": 9156,
+                "suburb_id": 527
+              }
+            }
+          ]
+        },
+        {
           "id": 9148,
           "title": "Vumatel Villages Outage | Glendower Place",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Glendower Place, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
