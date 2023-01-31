@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9184,
+          "title": "Frogfoot Outage | Forest Glen",
+          "description": "Frogfoot has informed us of a network outage affecting Forest Glen, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-31 21:32:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9184,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9184,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9184,
+                "city_id": 2
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 111,
+              "name": "Rynfield",
+              "slug": "rynfield",
+              "city_id": 2,
+              "pivot": {
+                "notice_id": 9184,
+                "suburb_id": 111
+              }
+            }
+          ]
+        },
+        {
           "id": 9183,
           "title": "TT Connect Outage | Farrarmere",
           "description": "TT Connect has informed us of a network outage affecting Farrarmere, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1191,69 +1265,6 @@
               "pivot": {
                 "notice_id": 9157,
                 "city_id": 166
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9144,
-          "title": "Evotel Outage | Ladysmith",
-          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-30 12:22:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9144,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9144,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9144,
-                "city_id": 161
               }
             }
           ],
