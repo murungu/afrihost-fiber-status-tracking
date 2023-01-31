@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9165,
+          "title": "Vumatel Outage | Honeydew Manor",
+          "description": "Vumatel has informed us of a network outage affecting Honeydew Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-31 10:45:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9165,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9165,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9165,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 814,
+              "name": "Honeydew Manor",
+              "slug": "honeydew-manor",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 9165,
+                "suburb_id": 814
+              }
+            }
+          ]
+        },
+        {
           "id": 9164,
           "title": "Metrofibre Outage | Ballito",
           "description": "Metrofibre has informed us of a network outage affecting Ballito, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1061,80 +1135,6 @@
           "suburbs": []
         },
         {
-          "id": 9131,
-          "title": "Vumatel Outage | Rosebank",
-          "description": "Vumatel has informed us of a network outage affecting Rosebank, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-29 12:44:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9131,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9131,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9131,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 198,
-              "name": "Rosebank",
-              "slug": "rosebank",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9131,
-                "suburb_id": 198
-              }
-            }
-          ]
-        },
-        {
           "id": 9128,
           "title": "Metrofibre Outage | Bluff",
           "description": "Metrofibre has informed us of a network outage affecting Bluff, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1571,6 +1571,90 @@
               "pivot": {
                 "notice_id": 9079,
                 "suburb_id": 25
+              }
+            }
+          ]
+        },
+        {
+          "id": 9166,
+          "title": "Vumatel Maintenance | Buffalo City",
+          "description": "Vumatel is conducting maintenance in Buffalo City from 2023-01-31 12:00 to 14:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-31 10:47:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9166,
+                "category_id": 15
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9166,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9166,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 9166,
+                "city_id": 477
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2344,
+              "name": "Buffalo",
+              "slug": "buffalo",
+              "city_id": 477,
+              "pivot": {
+                "notice_id": 9166,
+                "suburb_id": 2344
               }
             }
           ]
@@ -2359,89 +2443,6 @@
       ],
       "closed": [
         {
-          "id": 9129,
-          "title": "Metrofibre Outage | La Mercy and Tongaat",
-          "description": "Metrofibre has informed us of a network outage affecting La Mercy and Tongaat, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "An updated notice has been added to reflect all areas affected by the outage. Metrofibre engineers are working on resolving the issue as soon as possible. We apologize for the inconvenience caused.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-31 07:51:42",
-          "should_notify": 0,
-          "created_at": "2023-01-29 11:07:54",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9129,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9129,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 109,
-              "name": "Durban North",
-              "slug": "durban-north",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9129,
-                "city_id": 109
-              }
-            },
-            {
-              "id": 175,
-              "name": "Tongaat",
-              "slug": "tongaat",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9129,
-                "city_id": 175
-              }
-            },
-            {
-              "id": 120,
-              "name": "La Mercy",
-              "slug": "la-mercy",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9129,
-                "city_id": 120
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9130,
           "title": "Frogfoot Outage | Franschhoek",
           "description": "Frogfoot has informed us of a network outage affecting Franschhoek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2503,6 +2504,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9131,
+          "title": "Vumatel Outage | Rosebank",
+          "description": "Vumatel has informed us of a network outage affecting Rosebank, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-31 10:47:54",
+          "should_notify": 0,
+          "created_at": "2023-01-29 12:44:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9131,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9131,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9131,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 198,
+              "name": "Rosebank",
+              "slug": "rosebank",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 9131,
+                "suburb_id": 198
+              }
+            }
+          ]
         },
         {
           "id": 9132,
