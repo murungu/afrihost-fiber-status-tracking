@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9177,
-          "title": "Frogfoot Outage | Forest Glen",
-          "description": "Frogfoot has informed us of a network outage affecting Forest Glen, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 9180,
+          "title": "Vumatel Outage | Savoy Waverley",
+          "description": "Vumatel has informed us of a network outage affecting Savoy Waverley, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-01-31 14:11:45",
+          "created_at": "2023-01-31 15:23:28",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9177,
-                "category_id": 7
+                "notice_id": 9180,
+                "category_id": 24
               }
             }
           ],
@@ -49,35 +49,150 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 9177,
+                "notice_id": 9180,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
               "province_id": 1,
               "pivot": {
-                "notice_id": 9177,
-                "city_id": 2
+                "notice_id": 9180,
+                "city_id": 8
               }
             }
           ],
-          "suburbs": [
+          "suburbs": []
+        },
+        {
+          "id": 9179,
+          "title": "Vumatel Villages Outage | Greenstone Park",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Greenstone Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-31 15:08:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
             {
-              "id": 634,
-              "name": "Morehill",
-              "slug": "morehill",
-              "city_id": 2,
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
               "pivot": {
-                "notice_id": 9177,
-                "suburb_id": 634
+                "notice_id": 9179,
+                "category_id": 15
               }
             }
-          ]
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9179,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9179,
+                "city_id": 49
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9178,
+          "title": "Vumatel Villages Outage | Edenvale",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Edenvale, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-01-31 15:07:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9178,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9178,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9178,
+                "city_id": 25
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 9175,
@@ -984,154 +1099,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 9146,
-          "title": "Vumatel Villages Outage | Brackendowns",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-30 13:27:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9146,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9146,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9146,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 53,
-              "name": "Brackendowns",
-              "slug": "brackendowns",
-              "city_id": 21,
-              "pivot": {
-                "notice_id": 9146,
-                "suburb_id": 53
-              }
-            }
-          ]
-        },
-        {
-          "id": 9145,
-          "title": "Vumatel Villages Outage | Moreleta Park",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Moreleta Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-01-30 13:26:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9145,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9145,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9145,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 33,
-              "name": "Moreletapark",
-              "slug": "moreletapark",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9145,
-                "suburb_id": 33
-              }
-            }
-          ]
         },
         {
           "id": 9144,
@@ -2771,132 +2738,6 @@
       ],
       "closed": [
         {
-          "id": 9134,
-          "title": "Vumatel Outage | Thornhill Estate",
-          "description": "Vumatel has informed us of a network outage affecting Thornhill Estate, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-30 06:04:58",
-          "should_notify": 0,
-          "created_at": "2023-01-29 16:29:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9134,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9134,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 49,
-              "name": "Lethabong",
-              "slug": "lethabong",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9134,
-                "city_id": 49
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9135,
-          "title": "Metrofibre Outage | Ballito",
-          "description": "Metrofibre has informed us of a network outage affecting Ballito, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "An updated notice has been added to reflect all areas affected by the outage. Metrofibre engineers are working on resolving the issue as soon as possible. We apologize for the inconvenience caused.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-31 07:51:37",
-          "should_notify": 0,
-          "created_at": "2023-01-30 06:53:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9135,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9135,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 102,
-              "name": "Ballito",
-              "slug": "ballito",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9135,
-                "city_id": 102
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9138,
           "title": "Metrofibre Outage | Lotus Park",
           "description": "Metrofibre has informed us of a network outage affecting Lotus Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3040,6 +2881,154 @@
               "pivot": {
                 "notice_id": 9141,
                 "suburb_id": 1736
+              }
+            }
+          ]
+        },
+        {
+          "id": 9145,
+          "title": "Vumatel Villages Outage | Moreleta Park",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Moreleta Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-31 15:13:08",
+          "should_notify": 0,
+          "created_at": "2023-01-30 13:26:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9145,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9145,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9145,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 33,
+              "name": "Moreletapark",
+              "slug": "moreletapark",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9145,
+                "suburb_id": 33
+              }
+            }
+          ]
+        },
+        {
+          "id": 9146,
+          "title": "Vumatel Villages Outage | Brackendowns",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-01-31 15:13:12",
+          "should_notify": 0,
+          "created_at": "2023-01-30 13:27:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9146,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9146,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9146,
+                "city_id": 21
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 53,
+              "name": "Brackendowns",
+              "slug": "brackendowns",
+              "city_id": 21,
+              "pivot": {
+                "notice_id": 9146,
+                "suburb_id": 53
               }
             }
           ]
@@ -3413,16 +3402,16 @@
           "suburbs": []
         },
         {
-          "id": 9136,
-          "title": "Vumatel Maintenance | Eden Park",
-          "description": "Vumatel is conducting maintenance in Eden Park from 2023-01-30 08:00 to 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 9177,
+          "title": "Frogfoot Outage | Forest Glen",
+          "description": "Frogfoot has informed us of a network outage affecting Forest Glen, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 1,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2023-01-31 10:49:20",
+          "resolved_at": "2023-01-31 15:17:14",
           "should_notify": 0,
-          "created_at": "2023-01-30 07:09:38",
+          "created_at": "2023-01-31 14:11:45",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -3431,57 +3420,57 @@
             "has_location": 1
           },
           "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9136,
-                "category_id": 18
+                "notice_id": 9177,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 9136,
-                "province_id": 3
+                "notice_id": 9177,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 189,
-              "name": "Brackenfell",
-              "slug": "brackenfell",
-              "province_id": 3,
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 9136,
-                "city_id": 189
+                "notice_id": 9177,
+                "city_id": 2
               }
             }
           ],
           "suburbs": [
             {
-              "id": 4302,
-              "name": "Eden Park",
-              "slug": "eden-park-1",
-              "city_id": 189,
+              "id": 634,
+              "name": "Morehill",
+              "slug": "morehill",
+              "city_id": 2,
               "pivot": {
-                "notice_id": 9136,
-                "suburb_id": 4302
+                "notice_id": 9177,
+                "suburb_id": 634
               }
             }
           ]
