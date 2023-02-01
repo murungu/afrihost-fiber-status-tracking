@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9193,
+          "title": "MetroFibre outage | Rosewood Terraces, Broadacres",
+          "description": "MetroFibre has informed us of a network outage affecting Rosewood Terraces, Broadacres, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-01 15:39:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9193,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9193,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9193,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 9193,
+                "suburb_id": 81
+              }
+            }
+          ]
+        },
+        {
           "id": 9188,
           "title": "TT Connect outage | Boksburg",
           "description": "TT Connect has informed us of a network outage affecting Boksburg, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2134,6 +2208,79 @@
               }
             }
           ]
+        },
+        {
+          "id": 9192,
+          "title": "FrogFoot maintenance | Margate",
+          "description": "FrogFoot is conducting maintenance in Margate on the 13th of February from 23:00 to the 14th of February at 06:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-01 15:35:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9192,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9192,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 81,
+              "name": "Margate",
+              "slug": "margate",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9192,
+                "city_id": 81
+              }
+            },
+            {
+              "id": 129,
+              "name": "Port Shepstone",
+              "slug": "port-shepstone",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9192,
+                "city_id": 129
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 9191,
