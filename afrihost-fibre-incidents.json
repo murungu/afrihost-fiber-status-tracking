@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9195,
-          "title": "Frogfoot Outage | Milpark",
-          "description": "Frogfoot has informed us of a network outage affecting Milpark, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 9197,
+          "title": "MetroFibre outage | Bluff, Durban",
+          "description": "MetroFibre has informed us of a network outage affecting Bluff, Durban, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-02-01 22:34:40",
+          "created_at": "2023-02-02 11:38:49",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,37 +32,37 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9195,
-                "category_id": 7
+                "notice_id": 9197,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
               "pivot": {
-                "notice_id": 9195,
-                "province_id": 3
+                "notice_id": 9197,
+                "province_id": 2
               }
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
+              "id": 62,
+              "name": "Bluff",
+              "slug": "bluff",
+              "province_id": 2,
               "pivot": {
-                "notice_id": 9195,
-                "city_id": 240
+                "notice_id": 9197,
+                "city_id": 62
               }
             }
           ],
@@ -1820,69 +1820,6 @@
       ],
       "closed": [
         {
-          "id": 9170,
-          "title": "TT Connect Partial Outage | Benoni",
-          "description": "TT Connect has informed us of a network outage affecting parts of Benoni, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-31 14:57:35",
-          "should_notify": 0,
-          "created_at": "2023-01-31 13:22:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9170,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9170,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9170,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9171,
           "title": "Vumatel Reach Outage | Katlehong Zone 6",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Katlehong Zone 6, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2429,6 +2366,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 9195,
+          "title": "Frogfoot Outage | Milpark",
+          "description": "Frogfoot has informed us of a network outage affecting Milpark, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-02 11:42:01",
+          "should_notify": 0,
+          "created_at": "2023-02-01 22:34:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9195,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9195,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9195,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 9196,
