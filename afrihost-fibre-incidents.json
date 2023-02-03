@@ -6,69 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 9206,
-          "title": "Evotel outage | Virginia",
-          "description": "Evotel has informed us of a network outage affecting Virginia, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-03 07:26:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9206,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 9206,
-                "province_id": 7
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 565,
-              "name": "Virginia",
-              "slug": "virginia",
-              "province_id": 7,
-              "pivot": {
-                "notice_id": 9206,
-                "city_id": 565
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9205,
           "title": "MetroFibre outage | Klerksdorp",
           "description": "MetroFibre has informed us of a network outage affecting Klerksdorp, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1468,80 +1405,6 @@
       ],
       "closed": [
         {
-          "id": 9185,
-          "title": "MetroFibre outage | Lotus Park",
-          "description": "MetroFibre has informed us of a network outage affecting Lotus Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-02 18:34:42",
-          "should_notify": 0,
-          "created_at": "2023-02-01 08:19:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9185,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9185,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 158,
-              "name": "Isipingo",
-              "slug": "isipingo",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9185,
-                "city_id": 158
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1928,
-              "name": "Lotus Park",
-              "slug": "lotus-park",
-              "city_id": 158,
-              "pivot": {
-                "notice_id": 9185,
-                "suburb_id": 1928
-              }
-            }
-          ]
-        },
-        {
           "id": 9186,
           "title": "TT Connect outage | Edenvale and Germiston",
           "description": "TT Connect has informed us of a network outage affecting Edenvale and Germiston, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2009,6 +1872,69 @@
               "pivot": {
                 "notice_id": 9204,
                 "city_id": 435
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9206,
+          "title": "Evotel outage | Virginia",
+          "description": "Evotel has informed us of a network outage affecting Virginia, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-03 08:24:24",
+          "should_notify": 0,
+          "created_at": "2023-02-03 07:26:15",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9206,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
+              "pivot": {
+                "notice_id": 9206,
+                "province_id": 7
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 565,
+              "name": "Virginia",
+              "slug": "virginia",
+              "province_id": 7,
+              "pivot": {
+                "notice_id": 9206,
+                "city_id": 565
               }
             }
           ],
