@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9205,
+          "title": "MetroFibre outage | Klerksdorp",
+          "description": "MetroFibre has informed us of a network outage affecting Klerksdorp, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-03 05:00:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9205,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
+              "pivot": {
+                "notice_id": 9205,
+                "province_id": 8
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 653,
+              "name": "Klerksdorp",
+              "slug": "klerksdorp",
+              "province_id": 8,
+              "pivot": {
+                "notice_id": 9205,
+                "city_id": 653
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9204,
           "title": "VumaReach Emergency Change | Buffalo Flats and Mdantsane",
           "description": "Vumatel has informed us of an emergency network change affecting Buffalo Flats and Mdantsane, affected clients will experience no connectivity from 2nd February 2023 23:00 to 3rd February 2023 05:00. We sincerely apologize for any inconvenience caused.",
