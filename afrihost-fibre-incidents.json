@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9206,
+          "title": "Evotel outage | Virginia",
+          "description": "Evotel has informed us of a network outage affecting Virginia, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-03 07:26:15",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9206,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
+              "pivot": {
+                "notice_id": 9206,
+                "province_id": 7
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 565,
+              "name": "Virginia",
+              "slug": "virginia",
+              "province_id": 7,
+              "pivot": {
+                "notice_id": 9206,
+                "city_id": 565
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9205,
           "title": "MetroFibre outage | Klerksdorp",
           "description": "MetroFibre has informed us of a network outage affecting Klerksdorp, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -63,69 +126,6 @@
               "pivot": {
                 "notice_id": 9205,
                 "city_id": 653
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9204,
-          "title": "VumaReach Emergency Change | Buffalo Flats and Mdantsane",
-          "description": "Vumatel has informed us of an emergency network change affecting Buffalo Flats and Mdantsane, affected clients will experience no connectivity from 2nd February 2023 23:00 to 3rd February 2023 05:00. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-02 22:09:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9204,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9204,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 435,
-              "name": "Buffalo City",
-              "slug": "buffalo-city",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 9204,
-                "city_id": 435
               }
             }
           ],
@@ -1468,80 +1468,6 @@
       ],
       "closed": [
         {
-          "id": 9184,
-          "title": "Frogfoot Outage | Forest Glen",
-          "description": "Frogfoot has informed us of a network outage affecting Forest Glen, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-01-31 22:08:52",
-          "should_notify": 0,
-          "created_at": "2023-01-31 21:32:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9184,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9184,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9184,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 9184,
-                "suburb_id": 111
-              }
-            }
-          ]
-        },
-        {
           "id": 9185,
           "title": "MetroFibre outage | Lotus Park",
           "description": "MetroFibre has informed us of a network outage affecting Lotus Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2020,6 +1946,69 @@
               "pivot": {
                 "notice_id": 9201,
                 "city_id": 565
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9204,
+          "title": "VumaReach Emergency Change | Buffalo Flats and Mdantsane",
+          "description": "Vumatel has informed us of an emergency network change affecting Buffalo Flats and Mdantsane, affected clients will experience no connectivity from 2nd February 2023 23:00 to 3rd February 2023 05:00. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-03 07:28:51",
+          "should_notify": 0,
+          "created_at": "2023-02-02 22:09:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9204,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9204,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 435,
+              "name": "Buffalo City",
+              "slug": "buffalo-city",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 9204,
+                "city_id": 435
               }
             }
           ],
