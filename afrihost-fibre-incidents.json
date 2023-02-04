@@ -6,6 +6,100 @@
     "notices": {
       "open": [
         {
+          "id": 9214,
+          "title": "Openserve outage | Pretoria",
+          "description": "Openserve has informed us of a network outage affecting Pretoria, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-04 08:44:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9214,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9214,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9214,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 259,
+              "name": "Mooikloof Ridge",
+              "slug": "mooikloof-ridge",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9214,
+                "suburb_id": 259
+              }
+            },
+            {
+              "id": 324,
+              "name": "Mooikloof",
+              "slug": "mooikloof",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9214,
+                "suburb_id": 324
+              }
+            },
+            {
+              "id": 33,
+              "name": "Moreletapark",
+              "slug": "moreletapark",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9214,
+                "suburb_id": 33
+              }
+            }
+          ]
+        },
+        {
           "id": 9213,
           "title": "Frogfoot Outage | Lorraine",
           "description": "Frogfoot has informed us of a network outage affecting Lorraine, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
