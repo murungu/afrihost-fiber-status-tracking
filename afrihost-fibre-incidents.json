@@ -6,6 +6,90 @@
     "notices": {
       "open": [
         {
+          "id": 9229,
+          "title": "Vodacom Outage | Hartebeesport, Ifafi & Meerhof",
+          "description": "Please note users on the Vodacom network in Hartebeesport, Ifafi & Meerhof will experience limited to no connectivity due to an outage. Vodacom engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-06 12:51:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 31,
+              "name": "Vodacom",
+              "slug": "vodacom",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9229,
+                "category_id": 31
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
+              "pivot": {
+                "notice_id": 9229,
+                "province_id": 8
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 626,
+              "name": "Hartbeespoort",
+              "slug": "hartbeespoort",
+              "province_id": 8,
+              "pivot": {
+                "notice_id": 9229,
+                "city_id": 626
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 119,
+              "name": "Ifafi",
+              "slug": "ifafi",
+              "city_id": 626,
+              "pivot": {
+                "notice_id": 9229,
+                "suburb_id": 119
+              }
+            },
+            {
+              "id": 266,
+              "name": "Meerhof",
+              "slug": "meerhof",
+              "city_id": 626,
+              "pivot": {
+                "notice_id": 9229,
+                "suburb_id": 266
+              }
+            }
+          ]
+        },
+        {
           "id": 9228,
           "title": "TT Connect Partial Outage | Bedfordview",
           "description": "TT Connect has informed us of a network outage affecting parts of Bedfordview, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -970,6 +1054,100 @@
               "pivot": {
                 "notice_id": 9193,
                 "suburb_id": 81
+              }
+            }
+          ]
+        },
+        {
+          "id": 9230,
+          "title": "Vumatel Reach Maintenance | Buffalo Flats, Gonubie & Mdantsane",
+          "description": "Vumatel Reach is conducting maintenance in Buffalo Flats, Gonubie & Mdantsane on the 06 February 2023 @ 23h00 to 07 February 2023 @ 05h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-06 12:58:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9230,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9230,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 9230,
+                "city_id": 477
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 705,
+              "name": "Mdantsane",
+              "slug": "mdantsane",
+              "city_id": 477,
+              "pivot": {
+                "notice_id": 9230,
+                "suburb_id": 705
+              }
+            },
+            {
+              "id": 75,
+              "name": "Gonubie",
+              "slug": "gonubie",
+              "city_id": 477,
+              "pivot": {
+                "notice_id": 9230,
+                "suburb_id": 75
+              }
+            },
+            {
+              "id": 2344,
+              "name": "Buffalo",
+              "slug": "buffalo",
+              "city_id": 477,
+              "pivot": {
+                "notice_id": 9230,
+                "suburb_id": 2344
               }
             }
           ]
