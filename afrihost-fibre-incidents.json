@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9240,
+          "title": "Vumatel Outage | Glen Marais",
+          "description": "Vumatel has informed us of a network outage affecting Glen Marais, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-06 21:03:59",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9240,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9240,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9240,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 28,
+              "name": "Glen Marais",
+              "slug": "glen-marais",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 9240,
+                "suburb_id": 28
+              }
+            }
+          ]
+        },
+        {
           "id": 9239,
           "title": "Vumatel Outage | Kelvin",
           "description": "Vumatel has informed us of a network outage affecting Kelvin, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2057,69 +2131,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 9190,
-          "title": "Openserve maintenance | Wilderness",
-          "description": "Openserve is conducting maintenance in Wilderness on the 6th of February from 07:00 to 16:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-01 15:14:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9190,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9190,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 278,
-              "name": "Wilderness",
-              "slug": "wilderness",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9190,
-                "city_id": 278
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 9189,
