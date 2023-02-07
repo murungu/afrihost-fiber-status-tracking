@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9260,
+          "title": "Vumatel Outage | Khyber Rock",
+          "description": "Vumatel has informed us of a network outage affecting Khyber Rock, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-07 18:29:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9260,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9260,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9260,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 231,
+              "name": "Woodmead",
+              "slug": "woodmead",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 9260,
+                "suburb_id": 231
+              }
+            }
+          ]
+        },
+        {
           "id": 9259,
           "title": "Vumatel Villages Outage | Allandale",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Allandale, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2088,80 +2162,6 @@
           "suburbs": []
         },
         {
-          "id": 9193,
-          "title": "MetroFibre outage | Rosewood Terraces, Broadacres",
-          "description": "MetroFibre has informed us of a network outage affecting Rosewood Terraces, Broadacres, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-01 15:39:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9193,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9193,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9193,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 81,
-              "name": "Broadacres",
-              "slug": "broadacres",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9193,
-                "suburb_id": 81
-              }
-            }
-          ]
-        },
-        {
           "id": 9241,
           "title": "Vumatel Maintenance | Vorna Valley",
           "description": "Vumatel is conducting maintenance in Vorna Valley from 2022-02-07 08:00 to 2022-02-17 18:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2234,237 +2234,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 9236,
-          "title": "TT Connect Maintenance | Edenglen",
-          "description": "TT Connect is conducting maintenance in Edenglen on the 06.02.2023 at 11:00 PM to 07.02.2023 at 05:00 AM users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-06 17:25:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9236,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9236,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9236,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 78,
-              "name": "Eden Glen",
-              "slug": "eden-glen",
-              "city_id": 25,
-              "pivot": {
-                "notice_id": 9236,
-                "suburb_id": 78
-              }
-            }
-          ]
-        },
-        {
-          "id": 9230,
-          "title": "Vumatel Reach Maintenance | Buffalo Flats, Gonubie & Mdantsane",
-          "description": "Vumatel Reach is conducting maintenance in Buffalo Flats, Gonubie & Mdantsane on the 06 February 2023 @ 23h00 to 07 February 2023 @ 05h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-06 12:58:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9230,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9230,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 477,
-              "name": "East London",
-              "slug": "east-london",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 9230,
-                "city_id": 477
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 705,
-              "name": "Mdantsane",
-              "slug": "mdantsane",
-              "city_id": 477,
-              "pivot": {
-                "notice_id": 9230,
-                "suburb_id": 705
-              }
-            },
-            {
-              "id": 75,
-              "name": "Gonubie",
-              "slug": "gonubie",
-              "city_id": 477,
-              "pivot": {
-                "notice_id": 9230,
-                "suburb_id": 75
-              }
-            },
-            {
-              "id": 2344,
-              "name": "Buffalo",
-              "slug": "buffalo",
-              "city_id": 477,
-              "pivot": {
-                "notice_id": 9230,
-                "suburb_id": 2344
-              }
-            }
-          ]
-        },
-        {
-          "id": 9220,
-          "title": "Vuma Villages maintenance | Kempton Park",
-          "description": "Vuma Villages is conducting maintenance in Kempton Park on the 6th of February from 09:00 to 17:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-04 12:47:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9220,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9220,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9220,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 9219,
@@ -2602,80 +2371,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 9217,
-          "title": "Vumatel maintenance | WeltevredenPark",
-          "description": "Vumatel is conducting maintenance in WeltevredenPark on the 5th of February from 23:00 to the 6th of February at 07:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-04 12:37:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9217,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9217,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9217,
-                "city_id": 35
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 216,
-              "name": "Weltevredenpark",
-              "slug": "weltevredenpark",
-              "city_id": 35,
-              "pivot": {
-                "notice_id": 9217,
-                "suburb_id": 216
-              }
-            }
-          ]
         },
         {
           "id": 9216,
@@ -2819,143 +2514,6 @@
               "pivot": {
                 "notice_id": 9192,
                 "city_id": 129
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9191,
-          "title": "Openserve maintenance | Moreletapark",
-          "description": "Openserve is conducting maintenance in Moreletapark on the 7th of February from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-01 15:16:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9191,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9191,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9191,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 33,
-              "name": "Moreletapark",
-              "slug": "moreletapark",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9191,
-                "suburb_id": 33
-              }
-            }
-          ]
-        },
-        {
-          "id": 9189,
-          "title": "Openserve maintenance | Brackenfell",
-          "description": "Openserve is conducting maintenance in Brackenfell on the 6th of February from 00:00 to the 7th of February at 08:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-01 15:12:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9189,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9189,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 189,
-              "name": "Brackenfell",
-              "slug": "brackenfell",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9189,
-                "city_id": 189
               }
             }
           ],
@@ -3759,90 +3317,6 @@
           "suburbs": []
         },
         {
-          "id": 9231,
-          "title": "Octotel Outage | Blouberg & Parklands",
-          "description": "Please note users on the Octotel network in Blouberg & Parklands  will experience limited to no connectivity due to an outage. Octotel engineers are attending to the fault. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-06 18:55:41",
-          "should_notify": 0,
-          "created_at": "2023-02-06 13:37:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9231,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9231,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9231,
-                "city_id": 236
-              }
-            },
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9231,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 66,
-              "name": "Parklands",
-              "slug": "parklands",
-              "city_id": 236,
-              "pivot": {
-                "notice_id": 9231,
-                "suburb_id": 66
-              }
-            }
-          ]
-        },
-        {
           "id": 9234,
           "title": "Outage | Clear Access | Gauteng",
           "description": "Please note users on the Afrihost Clear Access network in Gauteng will experience limited to no connectivity due to an an issue at the Data Center. Afrihost engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -4417,6 +3891,80 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 9236,
+          "title": "TT Connect Maintenance | Edenglen",
+          "description": "TT Connect is conducting maintenance in Edenglen on the 06.02.2023 at 11:00 PM to 07.02.2023 at 05:00 AM users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-02-07 18:50:11",
+          "should_notify": 0,
+          "created_at": "2023-02-06 17:25:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9236,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9236,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9236,
+                "city_id": 25
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 78,
+              "name": "Eden Glen",
+              "slug": "eden-glen",
+              "city_id": 25,
+              "pivot": {
+                "notice_id": 9236,
+                "suburb_id": 78
+              }
+            }
+          ]
         }
       ]
     },
