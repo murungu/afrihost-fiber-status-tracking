@@ -2162,6 +2162,80 @@
           "suburbs": []
         },
         {
+          "id": 9261,
+          "title": "Vumatel Maintenance | Ormonde",
+          "description": "Vumatel is conducting maintenance in Ormonde from 2022-02-07 21:00 to 2022-02-08 07:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-07 19:04:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9261,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9261,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9261,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 386,
+              "name": "Ormonde",
+              "slug": "ormonde",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 9261,
+                "suburb_id": 386
+              }
+            }
+          ]
+        },
+        {
           "id": 9241,
           "title": "Vumatel Maintenance | Vorna Valley",
           "description": "Vumatel is conducting maintenance in Vorna Valley from 2022-02-07 08:00 to 2022-02-17 18:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
