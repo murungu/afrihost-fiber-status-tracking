@@ -6,6 +6,100 @@
     "notices": {
       "open": [
         {
+          "id": 9273,
+          "title": "Vumatel Villages Outage | Glen Marais, Norkem Park & Terenure",
+          "description": "Please note users on the Vumatel Villages network in Glen Marais, Norkem Park & Terenure will experience limited to no connectivity due to an outage. Vumatel Villages engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-08 16:04:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9273,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9273,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9273,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 149,
+              "name": "Norkem Park",
+              "slug": "norkem-park",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 9273,
+                "suburb_id": 149
+              }
+            },
+            {
+              "id": 112,
+              "name": "Terenure",
+              "slug": "terenure",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 9273,
+                "suburb_id": 112
+              }
+            },
+            {
+              "id": 28,
+              "name": "Glen Marais",
+              "slug": "glen-marais",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 9273,
+                "suburb_id": 28
+              }
+            }
+          ]
+        },
+        {
           "id": 9272,
           "title": "Metrofibre Outage | Florentia",
           "description": "Please note users on the Metrofibre network in Florentia will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
