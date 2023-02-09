@@ -7,11 +7,11 @@
       "open": [
         {
           "id": 9290,
-          "title": "FrogFoot outage | Cape Town",
-          "description": "FrogFoot has informed us of a network outage affecting Cape Town, affected clients will experience intermittent connection drops and slow speeds. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "title": "FrogFoot outage | Eastern and Western Cape",
+          "description": "FrogFoot has informed us of a network outage affecting Eastern and Western Cape, affected clients will experience intermittent connection drops and slow speeds. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
@@ -24,11 +24,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
@@ -42,7 +42,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 623,
+              "notice_id": 9290,
+              "content": "09/02/2023 | An emergency change has been scheduled for 23:00 to 05:00 to attend to the ongoing intermittent connection being experienced. We apologise for the inconvenience caused.",
+              "created_by_id": 30,
+              "created_at": "2023-02-09 18:44:35"
+            }
+          ],
           "provinces": [
             {
               "id": 3,
@@ -63,6 +71,77 @@
               "pivot": {
                 "notice_id": 9290,
                 "city_id": 240
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9274,
+          "title": "Frogfoot Degraded service | Benoni",
+          "description": "We are still investigating reports of limited to no connectivity affecting clients on the Afrihost and Frogfoot network in Benoni. We are working on identifying a solution to this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-08 17:27:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9274,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 622,
+              "notice_id": 9274,
+              "content": "We are still actively working on the issue with Frogfoot. We apologise for the issues experienced.",
+              "created_by_id": 30,
+              "created_at": "2023-02-09 18:39:23"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9274,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9274,
+                "city_id": 2
               }
             }
           ],
@@ -730,69 +809,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 9274,
-          "title": "Frogfoot Degraded service | Benoni",
-          "description": "We are still investigating reports of limited to no connectivity affecting clients on the Afrihost and Frogfoot network in Benoni. We are working on identifying a solution to this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-08 17:27:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9274,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9274,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9274,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 9273,
@@ -4104,11 +4120,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
