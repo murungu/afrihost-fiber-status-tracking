@@ -6,6 +6,90 @@
     "notices": {
       "open": [
         {
+          "id": 9324,
+          "title": "Vumatel Reach Outage | Grassy Park and Retreat Zone 3",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Grassy Park and Retreat Zone 3, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-13 12:43:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9324,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9324,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9324,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1917,
+              "name": "Grassy Park",
+              "slug": "grassy-park",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 9324,
+                "suburb_id": 1917
+              }
+            },
+            {
+              "id": 1421,
+              "name": "Retreat",
+              "slug": "retreat",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 9324,
+                "suburb_id": 1421
+              }
+            }
+          ]
+        },
+        {
           "id": 9323,
           "title": "Vumatel Villages Outage | Krugersdorp",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Krugersdorp, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
