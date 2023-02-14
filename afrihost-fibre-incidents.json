@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9339,
+          "title": "Metrofibre Outage | Port Elizabeth Central, Ridgewood, Manhattan, Richmond Hill and Walton Park Flats Retirement Village",
+          "description": "Metrofibre has informed us of a network outage affecting Port Elizabeth Central, Ridgewood, Manhattan, Richmond Hill and Walton Park Flats Retirement Village, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-14 08:59:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9339,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9339,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 9339,
+                "city_id": 458
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 430,
+              "name": "Port Elizabeth Central",
+              "slug": "port-elizabeth-central",
+              "city_id": 458,
+              "pivot": {
+                "notice_id": 9339,
+                "suburb_id": 430
+              }
+            }
+          ]
+        },
+        {
           "id": 9335,
           "title": "Vumatel Reach Outage | Thohoyandou",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Thohoyandou, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -781,90 +855,6 @@
               "pivot": {
                 "notice_id": 9315,
                 "suburb_id": 491
-              }
-            }
-          ]
-        },
-        {
-          "id": 9312,
-          "title": "Vumatel Outage | Vaalpark & Sasolburg",
-          "description": "Vumatel has informed us of a network outage affecting Vaalpark & Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-13 07:22:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9312,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9312,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 9312,
-                "province_id": 7
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 614,
-              "name": "Sasolburg",
-              "slug": "sasolburg",
-              "province_id": 7,
-              "pivot": {
-                "notice_id": 9312,
-                "city_id": 614
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 30,
-              "name": "Vaalpark",
-              "slug": "vaalpark",
-              "city_id": 614,
-              "pivot": {
-                "notice_id": 9312,
-                "suburb_id": 30
               }
             }
           ]
@@ -1649,16 +1639,16 @@
       ],
       "closed": [
         {
-          "id": 9311,
-          "title": "Vumatel outage | Parow North",
-          "description": "Vumatel has informed us of a network outage affecting Parow North, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 9312,
+          "title": "Vumatel Outage | Vaalpark & Sasolburg",
+          "description": "Vumatel has informed us of a network outage affecting Vaalpark & Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2023-02-14 08:12:50",
+          "resolved_at": "2023-02-14 08:51:05",
           "should_notify": 0,
-          "created_at": "2023-02-13 05:08:55",
+          "created_at": "2023-02-13 07:22:47",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1675,12 +1665,22 @@
           },
           "categories": [
             {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9312,
+                "category_id": 18
+              }
+            },
+            {
               "id": 24,
               "name": "Vumatel Aerial",
               "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9311,
+                "notice_id": 9312,
                 "category_id": 24
               }
             }
@@ -1688,36 +1688,36 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state",
               "pivot": {
-                "notice_id": 9311,
-                "province_id": 3
+                "notice_id": 9312,
+                "province_id": 7
               }
             }
           ],
           "cities": [
             {
-              "id": 312,
-              "name": "Parow",
-              "slug": "parow",
-              "province_id": 3,
+              "id": 614,
+              "name": "Sasolburg",
+              "slug": "sasolburg",
+              "province_id": 7,
               "pivot": {
-                "notice_id": 9311,
-                "city_id": 312
+                "notice_id": 9312,
+                "city_id": 614
               }
             }
           ],
           "suburbs": [
             {
-              "id": 2470,
-              "name": "Parow North",
-              "slug": "parow-north",
-              "city_id": 312,
+              "id": 30,
+              "name": "Vaalpark",
+              "slug": "vaalpark",
+              "city_id": 614,
               "pivot": {
-                "notice_id": 9311,
-                "suburb_id": 2470
+                "notice_id": 9312,
+                "suburb_id": 30
               }
             }
           ]
