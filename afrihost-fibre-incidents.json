@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9349,
-          "title": "Vumatel Outage | Bothasig",
-          "description": "Vumatel has informed us of a network outage affecting Bothasig, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 9350,
+          "title": "Vumatel Villages Degraded Service | Rivonia, Rustenburg and Sandton",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Rivonia, Rustenburg and Sandton, affected clients will experience limited connectivity and degraded services. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-02-15 10:08:22",
+          "created_at": "2023-02-15 10:45:06",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,52 +32,60 @@
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9349,
-                "category_id": 18
+                "notice_id": 9350,
+                "category_id": 15
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 9349,
-                "province_id": 3
+                "notice_id": 9350,
+                "province_id": 1
+              }
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
+              "pivot": {
+                "notice_id": 9350,
+                "province_id": 8
               }
             }
           ],
           "cities": [
             {
-              "id": 260,
-              "name": "Milnerton",
-              "slug": "milnerton",
-              "province_id": 3,
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 9349,
-                "city_id": 260
+                "notice_id": 9350,
+                "city_id": 16
+              }
+            },
+            {
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8,
+              "pivot": {
+                "notice_id": 9350,
+                "city_id": 632
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 1058,
-              "name": "Bothasig",
-              "slug": "bothasig",
-              "city_id": 260,
-              "pivot": {
-                "notice_id": 9349,
-                "suburb_id": 1058
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 9348,
@@ -2261,79 +2269,6 @@
       ],
       "closed": [
         {
-          "id": 9313,
-          "title": "Vumatel Outage | Parys",
-          "description": "Vumatel has informed us of a network outage affecting Parys, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": "An updated notice has been added to reflect further impacts caused due to the outage. We apologize for the inconvenience caused.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-13 16:44:59",
-          "should_notify": 0,
-          "created_at": "2023-02-13 08:02:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9313,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9313,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 9313,
-                "province_id": 7
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 556,
-              "name": "Parys",
-              "slug": "parys",
-              "province_id": 7,
-              "pivot": {
-                "notice_id": 9313,
-                "city_id": 556
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9314,
           "title": "MetroFibre outage | Tongaat",
           "description": "MetroFibre has informed us of a network outage affecting Tongaat, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3015,6 +2950,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9349,
+          "title": "Vumatel Outage | Bothasig",
+          "description": "Vumatel has informed us of a network outage affecting Bothasig, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-15 10:46:48",
+          "should_notify": 0,
+          "created_at": "2023-02-15 10:08:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9349,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9349,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 260,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9349,
+                "city_id": 260
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1058,
+              "name": "Bothasig",
+              "slug": "bothasig",
+              "city_id": 260,
+              "pivot": {
+                "notice_id": 9349,
+                "suburb_id": 1058
+              }
+            }
+          ]
         },
         {
           "id": 9325,
