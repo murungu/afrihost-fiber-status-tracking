@@ -6,6 +6,88 @@
     "notices": {
       "open": [
         {
+          "id": 9361,
+          "title": "Vumatel Reach Outage | Soshanguve and Mabopane",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Soshanguve and Mabopane, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-15 15:56:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9361,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9361,
+                "province_id": 1
+              }
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
+              "pivot": {
+                "notice_id": 9361,
+                "province_id": 8
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9361,
+                "city_id": 33
+              }
+            },
+            {
+              "id": 628,
+              "name": "Mabopane",
+              "slug": "mabopane",
+              "province_id": 8,
+              "pivot": {
+                "notice_id": 9361,
+                "city_id": 628
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9360,
           "title": "Metrofibre Outage | Kyalami Glen",
           "description": "Metrofibre has informed us of a network outage affecting Kyalami Glen, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -582,80 +664,6 @@
               "pivot": {
                 "notice_id": 9352,
                 "suburb_id": 474
-              }
-            }
-          ]
-        },
-        {
-          "id": 9351,
-          "title": "Vumatel Reach Outage | Soshanguve",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Soshanguve, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-15 10:54:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9351,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9351,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9351,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 29,
-              "name": "Soshanguve",
-              "slug": "soshanguve",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9351,
-                "suburb_id": 29
               }
             }
           ]
@@ -2788,80 +2796,6 @@
       ],
       "closed": [
         {
-          "id": 9321,
-          "title": "Vumatel Villages Outage | Kensington",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Kensington, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-13 15:11:10",
-          "should_notify": 0,
-          "created_at": "2023-02-13 12:06:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9321,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9321,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9321,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 39,
-              "name": "Kensington",
-              "slug": "kensington",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 9321,
-                "suburb_id": 39
-              }
-            }
-          ]
-        },
-        {
           "id": 9323,
           "title": "Vumatel Villages Outage | Krugersdorp",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Krugersdorp, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3466,6 +3400,80 @@
               "pivot": {
                 "notice_id": 9349,
                 "suburb_id": 1058
+              }
+            }
+          ]
+        },
+        {
+          "id": 9351,
+          "title": "Vumatel Reach Outage | Soshanguve",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Soshanguve, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "An updated notice has been added to reflect further impacts caused by the outage. We apologize for the inconvenience caused.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-15 15:57:57",
+          "should_notify": 0,
+          "created_at": "2023-02-15 10:54:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9351,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9351,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9351,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 29,
+              "name": "Soshanguve",
+              "slug": "soshanguve",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9351,
+                "suburb_id": 29
               }
             }
           ]
