@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9349,
+          "title": "Vumatel Outage | Bothasig",
+          "description": "Vumatel has informed us of a network outage affecting Bothasig, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-15 10:08:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9349,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9349,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 260,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9349,
+                "city_id": 260
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1058,
+              "name": "Bothasig",
+              "slug": "bothasig",
+              "city_id": 260,
+              "pivot": {
+                "notice_id": 9349,
+                "suburb_id": 1058
+              }
+            }
+          ]
+        },
+        {
           "id": 9348,
           "title": "Thinkspeed Outage | Cape Town",
           "description": "We are investigating reports of no connectivity affecting clients on the Thinkspeed network in Cape Town. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
