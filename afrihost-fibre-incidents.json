@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9353,
+          "title": "MetroFibre outage | Motalabad",
+          "description": "MetroFibre has informed us of a network outage affecting Motalabad, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-15 11:31:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9353,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9353,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 78,
+              "name": "Kloof",
+              "slug": "kloof",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9353,
+                "city_id": 78
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2240,
+              "name": "Motalabad",
+              "slug": "motalabad",
+              "city_id": 78,
+              "pivot": {
+                "notice_id": 9353,
+                "suburb_id": 2240
+              }
+            }
+          ]
+        },
+        {
           "id": 9352,
           "title": "FibreSuburb Networks Outage | Houghton Estate",
           "description": "FibreSuburb Networks has informed us of a network outage affecting Houghton Estate, affected clients will experience limited to no connectivity. FibreSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
