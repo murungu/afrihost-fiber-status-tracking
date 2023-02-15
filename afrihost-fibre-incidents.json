@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9357,
+          "title": "Vumatel Villages Outage | Pretoriuspark",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Pretoriuspark, affected clients will experience limited connectivity and degraded services. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-15 12:24:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9357,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9357,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9357,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 789,
+              "name": "Pretoriuspark",
+              "slug": "pretoriuspark",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9357,
+                "suburb_id": 789
+              }
+            }
+          ]
+        },
+        {
           "id": 9356,
           "title": "Vumatel Villages Outage | Moreleta Park",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Moreleta Park, affected clients will experience limited connectivity and degraded services. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
