@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9368,
+          "title": "Vumatel Outage | Richmond Estate",
+          "description": "Vumatel has informed us of a network outage affecting Richmond Estate and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-16 09:10:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9368,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9368,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 295,
+              "name": "Goodwood",
+              "slug": "goodwood",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9368,
+                "city_id": 295
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2381,
+              "name": "Richmond",
+              "slug": "richmond-1",
+              "city_id": 295,
+              "pivot": {
+                "notice_id": 9368,
+                "suburb_id": 2381
+              }
+            }
+          ]
+        },
+        {
           "id": 9367,
           "title": "Evotel Outage | Dawn Park",
           "description": "Evotel has informed us of a network outage affecting Dawn Park, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1016,69 +1090,6 @@
           "suburbs": []
         },
         {
-          "id": 9347,
-          "title": "Netstream Outage | Alberton",
-          "description": "Netstream has informed us of a network outage affecting Alberton, affected clients will experience no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-15 09:03:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 11,
-              "name": "Netstream",
-              "slug": "netstream",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9347,
-                "category_id": 11
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9347,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9347,
-                "city_id": 21
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9345,
           "title": "MetroFibre outage | Sheffield Manor Estate",
           "description": "MetroFibre has informed us of a network outage affecting Sheffield Manor Estate, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1274,80 +1285,6 @@
               "pivot": {
                 "notice_id": 9342,
                 "suburb_id": 243
-              }
-            }
-          ]
-        },
-        {
-          "id": 9340,
-          "title": "MetroFibre outage | Montana Park",
-          "description": "MetroFibre has informed us of a network outage affecting Montana Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-14 11:10:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9340,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9340,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9340,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 18,
-              "name": "Montana Park",
-              "slug": "montana-park",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9340,
-                "suburb_id": 18
               }
             }
           ]
@@ -1870,80 +1807,6 @@
       ],
       "closed": [
         {
-          "id": 9339,
-          "title": "Metrofibre Outage | Port Elizabeth Central, Ridgewood, Manhattan, Richmond Hill and Walton Park Flats Retirement Village",
-          "description": "Metrofibre has informed us of a network outage affecting Port Elizabeth Central, Ridgewood, Manhattan, Richmond Hill and Walton Park Flats Retirement Village, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-16 08:27:13",
-          "should_notify": 0,
-          "created_at": "2023-02-14 08:59:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9339,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9339,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 9339,
-                "city_id": 458
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 430,
-              "name": "Port Elizabeth Central",
-              "slug": "port-elizabeth-central",
-              "city_id": 458,
-              "pivot": {
-                "notice_id": 9339,
-                "suburb_id": 430
-              }
-            }
-          ]
-        },
-        {
           "id": 9341,
           "title": "Openserve Outage | Reservoir Hills",
           "description": "Openserve has informed us of a network outage affecting Reservoir Hills, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2149,6 +2012,69 @@
               "pivot": {
                 "notice_id": 9346,
                 "city_id": 50
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9347,
+          "title": "Netstream Outage | Alberton",
+          "description": "Netstream has informed us of a network outage affecting Alberton, affected clients will experience no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-16 09:04:25",
+          "should_notify": 0,
+          "created_at": "2023-02-15 09:03:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 11,
+              "name": "Netstream",
+              "slug": "netstream",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9347,
+                "category_id": 11
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9347,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9347,
+                "city_id": 21
               }
             }
           ],
