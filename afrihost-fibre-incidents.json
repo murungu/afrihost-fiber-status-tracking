@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9369,
+          "title": "Vumatel Outage | Mokopane",
+          "description": "Vumatel has informed us of a network outage affecting Mokopane, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-16 11:47:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9369,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 9369,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 360,
+              "name": "Mokopane",
+              "slug": "mokopane",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 9369,
+                "city_id": 360
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9367,
           "title": "Evotel Outage | Dawn Park",
           "description": "Evotel has informed us of a network outage affecting Dawn Park, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
