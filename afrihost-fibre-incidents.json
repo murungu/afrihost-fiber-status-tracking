@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9419,
-          "title": "TT Connect Outage | Parts of Benoni",
-          "description": "TT Connect has informed us of a network outage affecting parts of Benoni, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 9420,
+          "title": "Vumatel Reach Outage | Danville",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Danville, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-02-20 10:20:00",
+          "created_at": "2023-02-20 10:58:33",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9419,
-                "category_id": 17
+                "notice_id": 9420,
+                "category_id": 18
               }
             }
           ],
@@ -49,24 +49,35 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 9419,
+                "notice_id": 9420,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
               "province_id": 1,
               "pivot": {
-                "notice_id": 9419,
-                "city_id": 2
+                "notice_id": 9420,
+                "city_id": 33
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 124,
+              "name": "Danville",
+              "slug": "danville",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9420,
+                "suburb_id": 124
+              }
+            }
+          ]
         },
         {
           "id": 9418,
@@ -212,80 +223,6 @@
               "pivot": {
                 "notice_id": 9417,
                 "suburb_id": 295
-              }
-            }
-          ]
-        },
-        {
-          "id": 9411,
-          "title": "TT Connect Outage | Parts of Elmapark",
-          "description": "TT Connect has informed us of a network outage affecting parts of Elmapark & Eastleigh, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-19 08:46:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9411,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9411,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9411,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1669,
-              "name": "Elma Park",
-              "slug": "elma-park",
-              "city_id": 25,
-              "pivot": {
-                "notice_id": 9411,
-                "suburb_id": 1669
               }
             }
           ]
@@ -797,76 +734,6 @@
       ],
       "closed": [
         {
-          "id": 9402,
-          "title": "Outage | Western and Eastern Cape",
-          "description": "We are investigating reports of no connectivity for clients on various fibre networks in Western and Eastern Cape. Afrihost Network Engineers are working on resolving the issues as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": "Outage resolved",
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2023-02-18 09:46:28",
-          "should_notify": 0,
-          "created_at": "2023-02-18 08:30:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9402,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 27,
-              "name": "Mitchells Fibre",
-              "slug": "mitchells-fibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9402,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 626,
-              "notice_id": 9402,
-              "content": "Afrihost engineers have applied a fix to mitigate the impact.",
-              "created_by_id": 30,
-              "created_at": "2023-02-18 08:52:04"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9402,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 9410,
           "title": "Vumatel outage | Richmond Estate",
           "description": "Vumatel has informed us of a network outage affecting Richmond Estate, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1004,80 +871,6 @@
           ]
         },
         {
-          "id": 9401,
-          "title": "Vumatel outage | Lone Hill",
-          "description": "Vumatel has informed us of a network outage affecting Lone Hill, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-19 09:43:59",
-          "should_notify": 0,
-          "created_at": "2023-02-18 07:09:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9401,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9401,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9401,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 60,
-              "name": "Lonehill",
-              "slug": "lonehill",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9401,
-                "suburb_id": 60
-              }
-            }
-          ]
-        },
-        {
           "id": 9405,
           "title": "Vumatel Reach Outage | Mabopane",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Mabopane, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1191,6 +984,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9411,
+          "title": "TT Connect Outage | Parts of Elmapark",
+          "description": "TT Connect has informed us of a network outage affecting parts of Elmapark & Eastleigh, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-20 10:56:47",
+          "should_notify": 0,
+          "created_at": "2023-02-19 08:46:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9411,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9411,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9411,
+                "city_id": 25
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1669,
+              "name": "Elma Park",
+              "slug": "elma-park",
+              "city_id": 25,
+              "pivot": {
+                "notice_id": 9411,
+                "suburb_id": 1669
+              }
+            }
+          ]
         },
         {
           "id": 9413,
@@ -1454,6 +1321,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 9419,
+          "title": "TT Connect Outage | Parts of Benoni",
+          "description": "TT Connect has informed us of a network outage affecting parts of Benoni, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-20 10:56:43",
+          "should_notify": 0,
+          "created_at": "2023-02-20 10:20:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9419,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9419,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9419,
+                "city_id": 2
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
