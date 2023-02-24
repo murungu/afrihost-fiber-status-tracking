@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9468,
-          "title": "Octotel Maintenance | Lakeside",
-          "description": "Octotel is conducting maintenance in Lakeside from 28th February 2023 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 9470,
+          "title": "FibreSuburb Outage | Willow Creek",
+          "description": "FibreSuburb has informed us of a network outage affecting Willow Creek, affected clients will experience no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-02-24 12:40:31",
+          "created_at": "2023-02-24 15:45:24",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,52 +32,104 @@
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9468,
-                "category_id": 12
+                "notice_id": 9470,
+                "category_id": 36
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 9468,
-                "province_id": 3
+                "notice_id": 9470,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 9468,
-                "city_id": 240
+                "notice_id": 9470,
+                "city_id": 35
               }
             }
           ],
-          "suburbs": [
+          "suburbs": []
+        },
+        {
+          "id": 9469,
+          "title": "TT Connect Outage | Edenvale",
+          "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-24 15:42:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
             {
-              "id": 1595,
-              "name": "Lakeside",
-              "slug": "lakeside-1",
-              "city_id": 240,
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
               "pivot": {
-                "notice_id": 9468,
-                "suburb_id": 1595
+                "notice_id": 9469,
+                "category_id": 17
               }
             }
-          ]
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9469,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9469,
+                "city_id": 25
+              }
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 9465,
@@ -411,69 +463,6 @@
               "pivot": {
                 "notice_id": 9461,
                 "city_id": 31
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9460,
-          "title": "TT Connect outage | Highway Gardens",
-          "description": "TT Connect has informed us of a network outage affecting Highway Gardens, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-23 11:52:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9460,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9460,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9460,
-                "city_id": 25
               }
             }
           ],
@@ -2329,6 +2318,80 @@
           ]
         },
         {
+          "id": 9468,
+          "title": "Octotel Maintenance | Lakeside",
+          "description": "Octotel is conducting maintenance in Lakeside from 28th February 2023 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-24 12:40:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9468,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9468,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9468,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1595,
+              "name": "Lakeside",
+              "slug": "lakeside-1",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 9468,
+                "suburb_id": 1595
+              }
+            }
+          ]
+        },
+        {
           "id": 9467,
           "title": "Octotel Maintenance | Vredehoek",
           "description": "Octotel is conducting maintenance in Vredehoek from Tuesday, 28th February 2023 to Thursday, 2nd March 2023 between 00:00 and 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2671,79 +2734,6 @@
               "pivot": {
                 "notice_id": 9452,
                 "city_id": 240
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9434,
-          "title": "TT Connect outage | Bedfordview & Germiston",
-          "description": "TT Connect has informed us of a network outage affecting Bedfordview & Germiston, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-21 08:50:41",
-          "should_notify": 0,
-          "created_at": "2023-02-21 06:33:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9434,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9434,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 41,
-              "name": "Bedfordview",
-              "slug": "bedfordview",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9434,
-                "city_id": 41
-              }
-            },
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9434,
-                "city_id": 46
               }
             }
           ],
@@ -3218,6 +3208,69 @@
               "pivot": {
                 "notice_id": 9457,
                 "city_id": 41
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9460,
+          "title": "TT Connect outage | Highway Gardens",
+          "description": "TT Connect has informed us of a network outage affecting Highway Gardens, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-24 15:41:24",
+          "should_notify": 0,
+          "created_at": "2023-02-23 11:52:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9460,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9460,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9460,
+                "city_id": 25
               }
             }
           ],
