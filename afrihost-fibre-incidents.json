@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9468,
+          "title": "Octotel Maintenance | Lakeside",
+          "description": "Octotel is conducting maintenance in Lakeside from 28th February 2023 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-24 12:40:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9468,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9468,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9468,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1595,
+              "name": "Lakeside",
+              "slug": "lakeside-1",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 9468,
+                "suburb_id": 1595
+              }
+            }
+          ]
+        },
+        {
           "id": 9465,
           "title": "TT Connect Outage | Parts of Germiston",
           "description": "TT Connect has informed us of a network outage affecting parts of Germiston, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2181,69 +2255,6 @@
           ]
         },
         {
-          "id": 9423,
-          "title": "Openserve outage | Bloemfontein",
-          "description": "Openserve has informed us of a network outage affecting Bloemfontein, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-20 13:36:02",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9423,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state",
-              "pivot": {
-                "notice_id": 9423,
-                "province_id": 7
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 570,
-              "name": "Bloemfontein",
-              "slug": "bloemfontein",
-              "province_id": 7,
-              "pivot": {
-                "notice_id": 9423,
-                "city_id": 570
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9408,
           "title": "Vodacom Fibre outage | Olifantsvlei 327-IQ",
           "description": "Vodacom has informed us of a network outage affecting Olifantsvlei 327-IQ, affected clients will experience limited to no connectivity. Vodacom Fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2313,6 +2324,80 @@
               "pivot": {
                 "notice_id": 9408,
                 "suburb_id": 3731
+              }
+            }
+          ]
+        },
+        {
+          "id": 9467,
+          "title": "Octotel Maintenance | Vredehoek",
+          "description": "Octotel is conducting maintenance in Vredehoek from Tuesday, 28th February 2023 to Thursday, 2nd March 2023 between 00:00 and 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-24 12:37:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9467,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9467,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9467,
+                "city_id": 240
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 828,
+              "name": "Vredehoek",
+              "slug": "vredehoek",
+              "city_id": 240,
+              "pivot": {
+                "notice_id": 9467,
+                "suburb_id": 828
               }
             }
           ]
