@@ -6,6 +6,121 @@
     "notices": {
       "open": [
         {
+          "id": 9477,
+          "title": "Metrofibre Outage | Olympus",
+          "description": "Please note users on the Metrofibre network in Olympus will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-25 07:32:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9477,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9477,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 9476,
+          "title": "TT Connect Outage | Parts of Edenvale",
+          "description": "TT Connect has informed us of a network outage affecting parts of Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-25 07:31:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9476,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9476,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9476,
+                "city_id": 25
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9475,
           "title": "Metrofibre Outage | Rietvalleirand and surrounding areas",
           "description": "Please note users on the Metrofibre network in Rietvalleirand and surrounding areas will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
@@ -162,132 +277,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 9470,
-          "title": "FibreSuburb Outage | Willow Creek",
-          "description": "FibreSuburb has informed us of a network outage affecting Willow Creek, affected clients will experience no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-24 15:45:24",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9470,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9470,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9470,
-                "city_id": 35
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9469,
-          "title": "TT Connect Outage | Edenvale",
-          "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-24 15:42:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9469,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9469,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9469,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 9465,
@@ -564,227 +553,6 @@
           "suburbs": []
         },
         {
-          "id": 9461,
-          "title": "TT Connect outage | Modderfontein",
-          "description": "TT Connect has informed us of a network outage affecting Modderfontein, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-23 14:44:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9461,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9461,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 31,
-              "name": "Modderfontein",
-              "slug": "modderfontein",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9461,
-                "city_id": 31
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9459,
-          "title": "Metrofibre Outage | Sunninghill",
-          "description": "Metrofibre has informed us of a network outage affecting Sunninghill, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-23 10:49:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9459,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9459,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9459,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 69,
-              "name": "Sunninghill",
-              "slug": "sunninghill",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9459,
-                "suburb_id": 69
-              }
-            }
-          ]
-        },
-        {
-          "id": 9456,
-          "title": "Openserve Outage | Pretoria",
-          "description": "Openserve has informed us of a network outage affecting Pretoria, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-22 15:41:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9456,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9456,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9456,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 534,
-              "name": "Erasmuskloof",
-              "slug": "erasmuskloof",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9456,
-                "suburb_id": 534
-              }
-            },
-            {
-              "id": 180,
-              "name": "Waterkloof",
-              "slug": "waterkloof",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9456,
-                "suburb_id": 180
-              }
-            }
-          ]
-        },
-        {
           "id": 9468,
           "title": "Octotel Maintenance | Lakeside",
           "description": "Octotel is conducting maintenance in Lakeside from 28th February 2023 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1007,69 +775,6 @@
           ]
         },
         {
-          "id": 9458,
-          "title": "TT Connect Maintenance | Germiston",
-          "description": "TT Connect is conducting maintenance in Germiston from 23.02.2023 22:00 to 24.02.2023 08:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-23 09:17:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9458,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9458,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9458,
-                "city_id": 46
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9332,
           "title": "Frogfoot Maintenance | White River",
           "description": "Frogfoot is conducting maintenance in White River from 2023-02-25 14:00 to 21:30 as well as from 2023-02-26 07:00 to 17:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1134,78 +839,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 9452,
-          "title": "Openserve Outage | KwaZulu-Natal",
-          "description": "Openserve has informed us of a network outage affecting KwaZulu-Natal, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2023-02-23 11:41:47",
-          "should_notify": 0,
-          "created_at": "2023-02-22 07:35:37",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9452,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9452,
-                "province_id": 3
-              }
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9452,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9452,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 9473,
           "title": "Fibre Outage | KwaZulu-Natal",
@@ -1559,269 +1192,6 @@
           "suburbs": []
         },
         {
-          "id": 9451,
-          "title": "Openserve Outage | Somerset West",
-          "description": "Openserve has informed us of a network outage affecting Somerset West, affected clients will experience intermittent to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-25 07:29:20",
-          "should_notify": 0,
-          "created_at": "2023-02-22 07:08:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9451,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9451,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 222,
-              "name": "Somerset West",
-              "slug": "somerset-west",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9451,
-                "city_id": 222
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9453,
-          "title": "TT Connect Outage | Parts of Bedfordview",
-          "description": "TT Connect has informed us of a network outage affecting parts of Bedfordview, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-25 07:29:24",
-          "should_notify": 0,
-          "created_at": "2023-02-22 08:15:54",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9453,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9453,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 41,
-              "name": "Bedfordview",
-              "slug": "bedfordview",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9453,
-                "city_id": 41
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9454,
-          "title": "Octotel Outage | Cape Gate and Brackenfell",
-          "description": "Octotel has informed us of a network outage affecting Cape Gate and Brackenfell, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-25 07:29:33",
-          "should_notify": 0,
-          "created_at": "2023-02-22 10:05:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9454,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9454,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9454,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9455,
-          "title": "Metrofibre Outage | Chianti Lifestyle Centre",
-          "description": "Metrofibre has informed us of a network outage affecting Mount Michael, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-25 07:29:39",
-          "should_notify": 0,
-          "created_at": "2023-02-22 10:12:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9455,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9455,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9455,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 69,
-              "name": "Sunninghill",
-              "slug": "sunninghill",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9455,
-                "suburb_id": 69
-              }
-            }
-          ]
-        },
-        {
           "id": 9457,
           "title": "TT Connect Outage | Bedfordview",
           "description": "Please note users on the TT Connect network in Bedfordview will experience limited to no connectivity due to an outage. TT Connect engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -1885,6 +1255,80 @@
           "suburbs": []
         },
         {
+          "id": 9459,
+          "title": "Metrofibre Outage | Sunninghill",
+          "description": "Metrofibre has informed us of a network outage affecting Sunninghill, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-25 07:29:51",
+          "should_notify": 0,
+          "created_at": "2023-02-23 10:49:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9459,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9459,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9459,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 69,
+              "name": "Sunninghill",
+              "slug": "sunninghill",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 9459,
+                "suburb_id": 69
+              }
+            }
+          ]
+        },
+        {
           "id": 9460,
           "title": "TT Connect outage | Highway Gardens",
           "description": "TT Connect has informed us of a network outage affecting Highway Gardens, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1942,6 +1386,195 @@
               "pivot": {
                 "notice_id": 9460,
                 "city_id": 25
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9461,
+          "title": "TT Connect outage | Modderfontein",
+          "description": "TT Connect has informed us of a network outage affecting Modderfontein, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-25 07:29:57",
+          "should_notify": 0,
+          "created_at": "2023-02-23 14:44:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9461,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9461,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 31,
+              "name": "Modderfontein",
+              "slug": "modderfontein",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9461,
+                "city_id": 31
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9469,
+          "title": "TT Connect Outage | Edenvale",
+          "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-25 07:31:21",
+          "should_notify": 0,
+          "created_at": "2023-02-24 15:42:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9469,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9469,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9469,
+                "city_id": 25
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9470,
+          "title": "FibreSuburb Outage | Willow Creek",
+          "description": "FibreSuburb has informed us of a network outage affecting Willow Creek, affected clients will experience no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-25 07:31:25",
+          "should_notify": 0,
+          "created_at": "2023-02-24 15:45:24",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9470,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9470,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9470,
+                "city_id": 35
               }
             }
           ],
@@ -2049,6 +1682,69 @@
             }
           ],
           "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 9458,
+          "title": "TT Connect Maintenance | Germiston",
+          "description": "TT Connect is conducting maintenance in Germiston from 23.02.2023 22:00 to 24.02.2023 08:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-02-25 07:30:07",
+          "should_notify": 0,
+          "created_at": "2023-02-23 09:17:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9458,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9458,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9458,
+                "city_id": 46
+              }
+            }
+          ],
           "suburbs": []
         }
       ]
