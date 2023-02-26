@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9489,
+          "title": "Vumatel Reach Outage | Blue Downs Zone 1",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Blue Downs Zone 1, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-26 14:04:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9489,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9489,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 284,
+              "name": "Blue Downs",
+              "slug": "blue-downs",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9489,
+                "city_id": 284
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9488,
           "title": "TT Connect Outage | Parts of Edenvale and Dowerglen",
           "description": "TT Connect has informed us of a network outage affecting parts of Edenvale and Dowerglen, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -75,90 +138,6 @@
               "pivot": {
                 "notice_id": 9488,
                 "suburb_id": 331
-              }
-            }
-          ]
-        },
-        {
-          "id": 9487,
-          "title": "FibreSuburb Outage | Thatchfield",
-          "description": "FibreSuburb Networks has informed us of a network outage affecting FibreSuburb Networks clients in Thatchfield, affected clients will experience no connectivity. FibreSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-26 12:12:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9487,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9487,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9487,
-                "city_id": 43
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 251,
-              "name": "Thatchfield",
-              "slug": "thatchfield",
-              "city_id": 43,
-              "pivot": {
-                "notice_id": 9487,
-                "suburb_id": 251
-              }
-            },
-            {
-              "id": 1633,
-              "name": "Thatchfield Estate",
-              "slug": "thatchfield-estate",
-              "city_id": 43,
-              "pivot": {
-                "notice_id": 9487,
-                "suburb_id": 1633
               }
             }
           ]
@@ -524,90 +503,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 9475,
-          "title": "Metrofibre Outage | Rietvalleirand and surrounding areas",
-          "description": "Please note users on the Metrofibre network in Rietvalleirand and surrounding areas will experience no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-25 12:36:28",
-          "should_notify": 0,
-          "created_at": "2023-02-25 07:27:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9475,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9475,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9475,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 412,
-              "name": "Rietvalleirand",
-              "slug": "rietvalleirand",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9475,
-                "suburb_id": 412
-              }
-            },
-            {
-              "id": 417,
-              "name": "Elarduspark",
-              "slug": "elarduspark",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9475,
-                "suburb_id": 417
-              }
-            }
-          ]
-        },
         {
           "id": 9476,
           "title": "TT Connect Outage | Parts of Edenvale",
@@ -1202,6 +1097,90 @@
               "pivot": {
                 "notice_id": 9485,
                 "suburb_id": 817
+              }
+            }
+          ]
+        },
+        {
+          "id": 9487,
+          "title": "FibreSuburb Outage | Thatchfield",
+          "description": "FibreSuburb Networks has informed us of a network outage affecting FibreSuburb Networks clients in Thatchfield, affected clients will experience no connectivity. FibreSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-26 14:33:49",
+          "should_notify": 0,
+          "created_at": "2023-02-26 12:12:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9487,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9487,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9487,
+                "city_id": 43
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 251,
+              "name": "Thatchfield",
+              "slug": "thatchfield",
+              "city_id": 43,
+              "pivot": {
+                "notice_id": 9487,
+                "suburb_id": 251
+              }
+            },
+            {
+              "id": 1633,
+              "name": "Thatchfield Estate",
+              "slug": "thatchfield-estate",
+              "city_id": 43,
+              "pivot": {
+                "notice_id": 9487,
+                "suburb_id": 1633
               }
             }
           ]
