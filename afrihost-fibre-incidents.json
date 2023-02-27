@@ -66,6 +66,69 @@
           "suburbs": []
         },
         {
+          "id": 9501,
+          "title": "Openserve Outage | Die Wilgers",
+          "description": "Openserve has informed us of a network outage affecting Die Wilgers, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-27 11:29:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9501,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9501,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 56,
+              "name": "Silver Lakes",
+              "slug": "silver-lakes",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9501,
+                "city_id": 56
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9500,
           "title": "TT Connect Outage | Parts of Kempton Park",
           "description": "TT Connect has informed us of a network outage affecting parts of Kempton Park, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
