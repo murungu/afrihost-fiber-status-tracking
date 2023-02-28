@@ -8,7 +8,7 @@
         {
           "id": 9513,
           "title": "Evotel outage | Gauteng",
-          "description": "We are investigating a possible outage affecting Evotel clients in Gauteng, affected clients will experience no connectivity. We sincerely apologise for any inconvenience caused.",
+          "description": "Evotel has informed us of a network outage affecting Gauteng, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 4,
@@ -60,7 +60,7 @@
         {
           "id": 9512,
           "title": "Vumatel outage | Gauteng",
-          "description": "We are investigating a possible outage affecting Vuma Aerial clients in Gauteng, affected clients will experience no connectivity. We sincerely apologise for any inconvenience caused.",
+          "description": "Vumatel has informed us of a network outage affecting Gauteng, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 4,
@@ -167,6 +167,69 @@
               "pivot": {
                 "notice_id": 9498,
                 "city_id": 8
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9514,
+          "title": "TT Connect outage | Bedfordview",
+          "description": "TT Connect has informed us of a network outage affecting Bedfordview, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-02-28 07:18:59",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9514,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9514,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 41,
+              "name": "Bedfordview",
+              "slug": "bedfordview",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9514,
+                "city_id": 41
               }
             }
           ],
@@ -468,80 +531,6 @@
           ]
         },
         {
-          "id": 9503,
-          "title": "Vumatel outage | Kelvin",
-          "description": "Vumatel has informed us of a network outage affecting Kelvin, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-27 13:20:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9503,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9503,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9503,
-                "city_id": 16
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 857,
-              "name": "Kelvin",
-              "slug": "kelvin",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9503,
-                "suburb_id": 857
-              }
-            }
-          ]
-        },
-        {
           "id": 9502,
           "title": "Vumatel outage | Honeydew Manor",
           "description": "Vumatel has informed us of a network outage affecting Honeydew Manor, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -700,80 +689,6 @@
           ]
         },
         {
-          "id": 9495,
-          "title": "Vumatel outage | Randpark Ridge",
-          "description": "Vumatel has informed us of a network outage affecting Randpark Ridge, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-27 06:31:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9495,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9495,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9495,
-                "city_id": 53
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 320,
-              "name": "Randpark Ridge",
-              "slug": "randpark-ridge",
-              "city_id": 53,
-              "pivot": {
-                "notice_id": 9495,
-                "suburb_id": 320
-              }
-            }
-          ]
-        },
-        {
           "id": 9492,
           "title": "Vumatel outage | Brackendowns",
           "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -848,69 +763,6 @@
           ]
         },
         {
-          "id": 9490,
-          "title": "Vumatel Reach Outage | Mitchells Zone 20",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Mitchells Zone 20, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-26 14:59:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9490,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9490,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 308,
-              "name": "Mitchells Plain",
-              "slug": "mitchells-plain",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9490,
-                "city_id": 308
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9483,
           "title": "Vumatel outage | Brackenhurst",
           "description": "Vumatel has informed us of a network outage affecting Brackenhurst, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -980,80 +832,6 @@
               "pivot": {
                 "notice_id": 9483,
                 "suburb_id": 35
-              }
-            }
-          ]
-        },
-        {
-          "id": 9468,
-          "title": "Octotel Maintenance | Lakeside",
-          "description": "Octotel is conducting maintenance in Lakeside from 28th February 2023 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-24 12:40:31",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9468,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9468,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9468,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1595,
-              "name": "Lakeside",
-              "slug": "lakeside-1",
-              "city_id": 240,
-              "pivot": {
-                "notice_id": 9468,
-                "suburb_id": 1595
               }
             }
           ]
@@ -1332,121 +1110,6 @@
           "suburbs": []
         },
         {
-          "id": 9491,
-          "title": "Vumatel Reach Outage | Grassy Park & Retreat Zone 6",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Grassy Park & Retreat Zone 6, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-27 06:29:45",
-          "should_notify": 0,
-          "created_at": "2023-02-26 15:11:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9491,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9491,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 9493,
-          "title": "Vumatel outage | Kempton Park",
-          "description": "Vumatel has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-02-27 06:30:18",
-          "should_notify": 0,
-          "created_at": "2023-02-26 16:11:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9493,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9493,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9493,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9494,
           "title": "Frogfoot Outage | Bloemfontein",
           "description": "Frogfoot has informed us of a network outage affecting Bloemfontein, affected clients will experience degraded connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1510,6 +1173,80 @@
           "suburbs": []
         },
         {
+          "id": 9495,
+          "title": "Vumatel outage | Randpark Ridge",
+          "description": "Vumatel has informed us of a network outage affecting Randpark Ridge, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-28 07:07:47",
+          "should_notify": 0,
+          "created_at": "2023-02-27 06:31:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9495,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9495,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9495,
+                "city_id": 53
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 320,
+              "name": "Randpark Ridge",
+              "slug": "randpark-ridge",
+              "city_id": 53,
+              "pivot": {
+                "notice_id": 9495,
+                "suburb_id": 320
+              }
+            }
+          ]
+        },
+        {
           "id": 9500,
           "title": "TT Connect Outage | Parts of Kempton Park",
           "description": "TT Connect has informed us of a network outage affecting parts of Kempton Park, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1571,6 +1308,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9503,
+          "title": "Vumatel outage | Kelvin",
+          "description": "Vumatel has informed us of a network outage affecting Kelvin, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-02-28 07:08:17",
+          "should_notify": 0,
+          "created_at": "2023-02-27 13:20:42",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9503,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9503,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9503,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 857,
+              "name": "Kelvin",
+              "slug": "kelvin",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 9503,
+                "suburb_id": 857
+              }
+            }
+          ]
         },
         {
           "id": 9505,
