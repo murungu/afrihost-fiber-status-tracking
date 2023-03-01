@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9529,
+          "title": "Netstream Outage | Summit View Estate",
+          "description": "We are investigating reports of no connectivity affecting client on the Netstream network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-01 12:04:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 11,
+              "name": "Netstream",
+              "slug": "netstream",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9529,
+                "category_id": 11
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9529,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9529,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2882,
+              "name": "Bridle Park A H",
+              "slug": "bridle-park-a-h",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 9529,
+                "suburb_id": 2882
+              }
+            }
+          ]
+        },
+        {
           "id": 9528,
           "title": "Link Layer Outage | Ballito",
           "description": "Please note users on the Link Layer network in Ballito will experience limited to no connectivity due to an outage. Link Layer engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -984,69 +1058,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 9498,
-          "title": "Netstream | Gauteng",
-          "description": "We are investigating reports of no connectivity affecting Netstream clients in Johannesburg, affected clients will experience no connectivity. We are working with Netstream and partners to resolve the issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-02-27 10:18:37",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 11,
-              "name": "Netstream",
-              "slug": "netstream",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9498,
-                "category_id": 11
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9498,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9498,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 9496,
