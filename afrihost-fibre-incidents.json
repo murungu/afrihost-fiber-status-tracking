@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9532,
+          "title": "Metrofibre Outage | Serengeti Sands",
+          "description": "Please note users on the Metrofibre network in Serengeti Sands will experience limited to no connectivity due to an outage. Metrofibre engineers are attending to the fault. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-02 10:11:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9532,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9532,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9532,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 69,
+              "name": "Sunninghill",
+              "slug": "sunninghill",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 9532,
+                "suburb_id": 69
+              }
+            }
+          ]
+        },
+        {
           "id": 9530,
           "title": "Vumatel Aerial Outage | Vereeniging",
           "description": "Please note users on the Vumatel Aerial  network in Vereeniging will experience limited to no connectivity due to an outage. Vumatel Aerial  engineers are attending to the fault. We apologize for any inconvenience caused.",
