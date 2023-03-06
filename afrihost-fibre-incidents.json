@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9563,
+          "title": "Purple Forest Outage | Waterval City",
+          "description": "Purple Forest has informed us of a network outage affecting Waterval City, affected clients will experience no connectivity. Purple Forest engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-06 11:59:01",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 25,
+              "name": "Purple Forest",
+              "slug": "purple-forest",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9563,
+                "category_id": 25
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9563,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9563,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9561,
           "title": "MetroFibre outage | Germiston",
           "description": "MetroFibre has informed us of a network outage affecting Germiston, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1108,79 +1171,6 @@
       ],
       "closed": [
         {
-          "id": 9543,
-          "title": "TT Connect Outage | Parts of Bedfordview and Germiston",
-          "description": "TT Connect has informed us of a network outage affecting parts of Bedfordview and Germiston, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-03 19:57:30",
-          "should_notify": 0,
-          "created_at": "2023-03-03 19:14:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9543,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9543,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9543,
-                "city_id": 46
-              }
-            },
-            {
-              "id": 41,
-              "name": "Bedfordview",
-              "slug": "bedfordview",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9543,
-                "city_id": 41
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9544,
           "title": "TT Connect Outage | Bedfordview",
           "description": "Please note users on the TT Connect network in Bedfordview will experience limited to no connectivity due to an outage. TT Connect engineers are attending to the fault. We apologize for any inconvenience caused.",
@@ -1801,6 +1791,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 9564,
+          "title": "Purple Forest outage | Waterval City, Midrand",
+          "description": "Purple Forest has informed us of a network outage affecting Waterval City, Midrand, affected clients will experience no connectivity. Purple Forest engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-06 11:59:45",
+          "should_notify": 0,
+          "created_at": "2023-03-06 11:59:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 25,
+              "name": "Purple Forest",
+              "slug": "purple-forest",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9564,
+                "category_id": 25
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9564,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9564,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
