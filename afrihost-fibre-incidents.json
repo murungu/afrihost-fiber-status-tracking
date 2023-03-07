@@ -6,6 +6,153 @@
     "notices": {
       "open": [
         {
+          "id": 9574,
+          "title": "Frogfoot Outage | Swellendam",
+          "description": "Frogfoot has informed us of a network outage affecting Swellendam, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-07 19:02:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9574,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9574,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 225,
+              "name": "Swellendam",
+              "slug": "swellendam",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9574,
+                "city_id": 225
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9573,
+          "title": "Vumatel outage | Florida",
+          "description": "Vumatel has informed us of a network outage affecting Florida, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-07 19:01:15",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9573,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9573,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9573,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 164,
+              "name": "Florida",
+              "slug": "florida",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 9573,
+                "suburb_id": 164
+              }
+            },
+            {
+              "id": 1069,
+              "name": "Florida Park",
+              "slug": "florida-park",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 9573,
+                "suburb_id": 1069
+              }
+            }
+          ]
+        },
+        {
           "id": 9570,
           "title": "MetroFibre outage | Carlswald AH",
           "description": "MetroFibre has informed us of a network outage affecting Carlswald AH, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -211,87 +358,6 @@
               "pivot": {
                 "notice_id": 9567,
                 "city_id": 41
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9566,
-          "title": "Vumatel Outage | Limpopo",
-          "description": "Vumatel has informed us of a network outage affecting Polokwane, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-06 23:47:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9566,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9566,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 634,
-              "notice_id": 9566,
-              "content": "A further impact has been detected in the following areas.\n\n-Polokwane\n-Aqua Park\n-Louis Trichardt\n-Mankweng A\n\nVumatel engineers are working on restoring services in these areas as soon as possible.",
-              "created_by_id": 30,
-              "created_at": "2023-03-07 04:25:26"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
-              "pivot": {
-                "notice_id": 9566,
-                "province_id": 4
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4,
-              "pivot": {
-                "notice_id": 9566,
-                "city_id": 350
               }
             }
           ],
@@ -1252,80 +1318,6 @@
       ],
       "closed": [
         {
-          "id": 9549,
-          "title": "Frogfoot Outage | St Kitts",
-          "description": "Frogfoot has informed us of a network outage affecting St Kitts, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-06 00:43:11",
-          "should_notify": 0,
-          "created_at": "2023-03-05 00:29:03",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9549,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9549,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9549,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 9549,
-                "suburb_id": 111
-              }
-            }
-          ]
-        },
-        {
           "id": 9550,
           "title": "TT Connect outage | Bedfordview",
           "description": "TT Connect has informed us of a network outage affecting Bedfordview, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1846,6 +1838,87 @@
               "pivot": {
                 "notice_id": 9564,
                 "city_id": 50
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9566,
+          "title": "Vumatel Outage | Limpopo",
+          "description": "Vumatel has informed us of a network outage affecting Polokwane, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-07 19:00:06",
+          "should_notify": 0,
+          "created_at": "2023-03-06 23:47:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9566,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9566,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 634,
+              "notice_id": 9566,
+              "content": "A further impact has been detected in the following areas.\n\n-Polokwane\n-Aqua Park\n-Louis Trichardt\n-Mankweng A\n\nVumatel engineers are working on restoring services in these areas as soon as possible.",
+              "created_by_id": 30,
+              "created_at": "2023-03-07 04:25:26"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 9566,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 9566,
+                "city_id": 350
               }
             }
           ],
