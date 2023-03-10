@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9604,
-          "title": "Vumatel Villages Outage | Glen Marais",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Glen Marais, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 9605,
+          "title": "Vumatel Outage | Pomona",
+          "description": "Vumatel has informed us of a network outage affecting Pomona, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-03-10 23:28:21",
+          "created_at": "2023-03-11 01:13:46",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,23 @@
           },
           "categories": [
             {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9604,
-                "category_id": 15
+                "notice_id": 9605,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9605,
+                "category_id": 24
               }
             }
           ],
@@ -49,7 +59,7 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 9604,
+                "notice_id": 9605,
                 "province_id": 1
               }
             }
@@ -61,20 +71,20 @@
               "slug": "kempton-park",
               "province_id": 1,
               "pivot": {
-                "notice_id": 9604,
+                "notice_id": 9605,
                 "city_id": 48
               }
             }
           ],
           "suburbs": [
             {
-              "id": 28,
-              "name": "Glen Marais",
-              "slug": "glen-marais",
+              "id": 193,
+              "name": "Pomona",
+              "slug": "pomona",
               "city_id": 48,
               "pivot": {
-                "notice_id": 9604,
-                "suburb_id": 28
+                "notice_id": 9605,
+                "suburb_id": 193
               }
             }
           ]
@@ -1628,69 +1638,6 @@
       ],
       "closed": [
         {
-          "id": 9576,
-          "title": "TT Connect outage | Kempton Park",
-          "description": "TT Connect has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-08 08:20:43",
-          "should_notify": 0,
-          "created_at": "2023-03-08 08:20:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9576,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9576,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9576,
-                "city_id": 48
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9578,
           "title": "Vuma Villages outage | Castleview, Germiston",
           "description": "Vuma Villages has informed us of a network outage affecting Castleview, Germiston, affected clients will experience no connectivity. Vuma Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2202,6 +2149,80 @@
               "pivot": {
                 "notice_id": 9601,
                 "suburb_id": 227
+              }
+            }
+          ]
+        },
+        {
+          "id": 9604,
+          "title": "Vumatel Villages Outage | Glen Marais",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Glen Marais, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-11 00:59:24",
+          "should_notify": 0,
+          "created_at": "2023-03-10 23:28:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9604,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9604,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9604,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 28,
+              "name": "Glen Marais",
+              "slug": "glen-marais",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 9604,
+                "suburb_id": 28
               }
             }
           ]
