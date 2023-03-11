@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9612,
+          "title": "Frogfoot Outage | Carletonville",
+          "description": "Frogfoot has informed us of a network outage affecting Carletonville, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-11 18:24:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9612,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9612,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 23,
+              "name": "Carletonville",
+              "slug": "carletonville",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9612,
+                "city_id": 23
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9611,
           "title": "Frogfoot Outage | Lephalale",
           "description": "Frogfoot has informed us of a network outage affecting Lephalale, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -67,80 +130,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 9610,
-          "title": "Frogfoot Outage | Bendor Park",
-          "description": "Frogfoot has informed us of a network outage affecting Bendor Park, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-11 12:44:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9610,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
-              "pivot": {
-                "notice_id": 9610,
-                "province_id": 4
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4,
-              "pivot": {
-                "notice_id": 9610,
-                "city_id": 350
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2,
-              "name": "Bendor",
-              "slug": "bendor",
-              "city_id": 350,
-              "pivot": {
-                "notice_id": 9610,
-                "suburb_id": 2
-              }
-            }
-          ]
         },
         {
           "id": 9609,
@@ -1891,69 +1880,6 @@
       ],
       "closed": [
         {
-          "id": 9582,
-          "title": "Vumatel outage | Vereeniging",
-          "description": "Vumatel has informed us of a network outage affecting Vereeniging, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-08 18:31:28",
-          "should_notify": 0,
-          "created_at": "2023-03-08 13:36:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9582,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9582,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 59,
-              "name": "Vereeniging",
-              "slug": "vereeniging",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9582,
-                "city_id": 59
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9583,
           "title": "FrogFoot outage | Kempton Park",
           "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2570,6 +2496,80 @@
               "pivot": {
                 "notice_id": 9606,
                 "suburb_id": 193
+              }
+            }
+          ]
+        },
+        {
+          "id": 9610,
+          "title": "Frogfoot Outage | Bendor Park",
+          "description": "Frogfoot has informed us of a network outage affecting Bendor Park, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-11 18:23:52",
+          "should_notify": 0,
+          "created_at": "2023-03-11 12:44:33",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9610,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo",
+              "pivot": {
+                "notice_id": 9610,
+                "province_id": 4
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4,
+              "pivot": {
+                "notice_id": 9610,
+                "city_id": 350
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2,
+              "name": "Bendor",
+              "slug": "bendor",
+              "city_id": 350,
+              "pivot": {
+                "notice_id": 9610,
+                "suburb_id": 2
               }
             }
           ]
