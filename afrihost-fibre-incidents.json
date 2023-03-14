@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9643,
+          "title": "Vumatel Reach Outage | Bram Fischerville",
+          "description": "Vumatel has informed us of a network outage affecting Vuma Reach clients in Bram Fischerville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-14 09:49:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9643,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9643,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9643,
+                "city_id": 17
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1840,
+              "name": "Bram Fischerville",
+              "slug": "bram-fischerville",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 9643,
+                "suburb_id": 1840
+              }
+            }
+          ]
+        },
+        {
           "id": 9642,
           "title": "FibreSuburb Degraded Service | Ambers",
           "description": "FibreSuburb has informed us of a network outage affecting Ambers, affected clients will experience degraded service. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
