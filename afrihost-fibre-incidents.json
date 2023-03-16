@@ -6,89 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 9667,
-          "title": "MetroFibre outage | Centurion and surrounding areas",
-          "description": "We are investigating reports of slow speeds and high latency affecting clients in Centurion and surrounding areas on the MetroFibre network. We are working on identifying and resolving this issue as quickly as possible. We apologise for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-16 19:11:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9667,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9667,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9667,
-                "city_id": 43
-              }
-            },
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9667,
-                "city_id": 50
-              }
-            },
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9667,
-                "city_id": 33
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9668,
           "title": "Vumatel Village Outage | Brackendowns",
           "description": "Vumatel has informed us of a network outage affecting Vuma Village clients in Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1650,16 +1567,16 @@
       ],
       "closed": [
         {
-          "id": 9642,
-          "title": "FibreSuburb Degraded Service | Ambers",
-          "description": "FibreSuburb has informed us of a network outage affecting Ambers, affected clients will experience degraded service. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 9667,
+          "title": "MetroFibre outage | Centurion and surrounding areas",
+          "description": "We are investigating reports of slow speeds and high latency affecting clients in Centurion and surrounding areas on the MetroFibre network. We are working on identifying and resolving this issue as quickly as possible. We apologise for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2023-03-14 20:54:11",
+          "resolved_at": "2023-03-16 22:08:26",
           "should_notify": 0,
-          "created_at": "2023-03-14 09:34:27",
+          "created_at": "2023-03-16 19:11:55",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1668,21 +1585,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9642,
-                "category_id": 36
+                "notice_id": 9667,
+                "category_id": 9
               }
             }
           ],
@@ -1693,35 +1610,44 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 9642,
+                "notice_id": 9667,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
               "province_id": 1,
               "pivot": {
-                "notice_id": 9642,
-                "city_id": 16
+                "notice_id": 9667,
+                "city_id": 43
+              }
+            },
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9667,
+                "city_id": 50
+              }
+            },
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9667,
+                "city_id": 33
               }
             }
           ],
-          "suburbs": [
-            {
-              "id": 63,
-              "name": "Rivonia",
-              "slug": "rivonia",
-              "city_id": 16,
-              "pivot": {
-                "notice_id": 9642,
-                "suburb_id": 63
-              }
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 9643,
@@ -2369,11 +2295,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
