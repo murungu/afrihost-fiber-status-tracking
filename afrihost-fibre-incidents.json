@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9688,
-          "title": "Frogfoot Outage | Tudor Village",
-          "description": "Frogfoot has informed us of a network outage affecting Tudor Village, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 9689,
+          "title": "Vumatel Outage | Bryanston South",
+          "description": "Vumatel has informed us of a network outage affecting Bryanston South, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-03-18 09:12:35",
+          "created_at": "2023-03-18 11:31:52",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9688,
-                "category_id": 7
+                "notice_id": 9689,
+                "category_id": 24
               }
             }
           ],
@@ -49,32 +49,32 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 9688,
+                "notice_id": 9689,
                 "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
               "province_id": 1,
               "pivot": {
-                "notice_id": 9688,
-                "city_id": 48
+                "notice_id": 9689,
+                "city_id": 16
               }
             }
           ],
           "suburbs": [
             {
-              "id": 605,
-              "name": "Allen Grove",
-              "slug": "allen-grove",
-              "city_id": 48,
+              "id": 4,
+              "name": "Bryanston",
+              "slug": "bryanston",
+              "city_id": 16,
               "pivot": {
-                "notice_id": 9688,
-                "suburb_id": 605
+                "notice_id": 9689,
+                "suburb_id": 4
               }
             }
           ]
@@ -2673,16 +2673,16 @@
           ]
         },
         {
-          "id": 9663,
-          "title": "Octotel Maintenance |  Bredasdorp & Atlantis",
-          "description": "Octotel is conducting maintenance in Bredasdorp & Atlantis from 17/03/2023 00:00 to 17/03/2023 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 9688,
+          "title": "Frogfoot Outage | Tudor Village",
+          "description": "Frogfoot has informed us of a network outage affecting Tudor Village, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 1,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2023-03-18 06:19:31",
+          "resolved_at": "2023-03-18 11:28:43",
           "should_notify": 0,
-          "created_at": "2023-03-16 13:06:17",
+          "created_at": "2023-03-18 09:12:35",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -2691,59 +2691,60 @@
             "has_location": 1
           },
           "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9663,
-                "category_id": 12
+                "notice_id": 9688,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 9663,
-                "province_id": 3
+                "notice_id": 9688,
+                "province_id": 1
               }
             }
           ],
           "cities": [
             {
-              "id": 233,
-              "name": "Atlantis",
-              "slug": "atlantis",
-              "province_id": 3,
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
               "pivot": {
-                "notice_id": 9663,
-                "city_id": 233
-              }
-            },
-            {
-              "id": 286,
-              "name": "Bredasdorp",
-              "slug": "bredasdorp",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9663,
-                "city_id": 286
+                "notice_id": 9688,
+                "city_id": 48
               }
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 605,
+              "name": "Allen Grove",
+              "slug": "allen-grove",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 9688,
+                "suburb_id": 605
+              }
+            }
+          ]
         },
         {
           "id": 9671,
