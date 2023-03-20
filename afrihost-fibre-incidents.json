@@ -6,6 +6,154 @@
     "notices": {
       "open": [
         {
+          "id": 9715,
+          "title": "Metrofibre Outage | Rabie Ridge",
+          "description": "Metrofibre has informed us of a network outage affecting Rabie Ridge, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-20 14:08:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9715,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9715,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9715,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2686,
+              "name": "Rabie Ridge",
+              "slug": "rabie-ridge",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 9715,
+                "suburb_id": 2686
+              }
+            }
+          ]
+        },
+        {
+          "id": 9714,
+          "title": "Vumatel Villages Outage | De velde",
+          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in De velde, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-20 14:07:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9714,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9714,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 222,
+              "name": "Somerset West",
+              "slug": "somerset-west",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9714,
+                "city_id": 222
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2770,
+              "name": "Firgrove",
+              "slug": "firgrove",
+              "city_id": 222,
+              "pivot": {
+                "notice_id": 9714,
+                "suburb_id": 2770
+              }
+            }
+          ]
+        },
+        {
           "id": 9713,
           "title": "Vumatel Reach Outage | Thohoyandou",
           "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Thohoyandou, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1467,6 +1615,13 @@
             }
           ],
           "updates": [
+            {
+              "id": 637,
+              "notice_id": 9662,
+              "content": "Metrofibre Engineers are reprovisioning affected clients to restore services. We apologize for the inconvenience caused by the outage.",
+              "created_by_id": 25,
+              "created_at": "2023-03-20 14:11:38"
+            },
             {
               "id": 636,
               "notice_id": 9662,
