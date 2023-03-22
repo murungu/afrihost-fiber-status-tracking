@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 9730,
-          "title": "Emergency Maintenance | Western Cape",
-          "description": "Afrihost is conducting emergency maintenance on our network equipment in Cape Town. Clients in the Western Cape might experience some intermittent connection. The maintenance will be completed by 05:00am on the 23rd of March 2023. We sincerely apologise for any inconvenience caused.",
+          "id": 9731,
+          "title": "Metrofibre Outage | Claremont",
+          "description": "Metrofibre has informed us of a network outage affecting Claremont, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-03-22 14:36:39",
+          "created_at": "2023-03-22 14:57:18",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -24,148 +24,70 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 15
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 27
-              }
-            },
-            {
-              "id": 38,
-              "name": "Thinkspeed",
-              "slug": "thinkspeed",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 38
-              }
-            },
-            {
-              "id": 32,
-              "name": "Zoom Fibre",
-              "slug": "zoom-fibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 32
-              }
-            },
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 7
-              }
-            },
-            {
-              "id": 1,
-              "name": "Balwin Fibre",
-              "slug": "balwin-fibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 1
-              }
-            },
-            {
-              "id": 3,
-              "name": "Century City Connect",
-              "slug": "century-city-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 3
-              }
-            },
             {
               "id": 9,
               "name": "MetroFibre",
               "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9730,
+                "notice_id": 9731,
                 "category_id": 9
-              }
-            },
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 12
-              }
-            },
-            {
-              "id": 37,
-              "name": "Comtel",
-              "slug": "comtel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9730,
-                "category_id": 37
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
               "pivot": {
-                "notice_id": 9730,
-                "province_id": 3
+                "notice_id": 9731,
+                "province_id": 1
               }
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9731,
+                "city_id": 33
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 302,
+              "name": "Claremont",
+              "slug": "claremont-1",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9731,
+                "suburb_id": 302
+              }
+            },
+            {
+              "id": 4256,
+              "name": "Claremont & Ext",
+              "slug": "claremont-ext",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9731,
+                "suburb_id": 4256
+              }
+            }
+          ]
         },
         {
           "id": 9728,
@@ -398,58 +320,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 9725,
-          "title": "Vumatel Villages Outage | Gauteng",
-          "description": "We are investigating reports of intermittent connectivity affecting Vumatel Villages clients in Gauteng. We are working on identifying and resolving this issue as quickly as possible. We apologise for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-22 09:10:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9725,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9725,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         },
         {
           "id": 9724,
@@ -1395,16 +1265,16 @@
       ],
       "closed": [
         {
-          "id": 9713,
-          "title": "Vumatel Reach Outage | Thohoyandou",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Reach clients in Thohoyandou, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 9730,
+          "title": "Emergency Maintenance | Western Cape",
+          "description": "Afrihost is conducting emergency maintenance on our network equipment in Cape Town. Clients in the Western Cape might experience some intermittent connection. The maintenance will be completed by 05:00am on the 23rd of March 2023. We sincerely apologise for any inconvenience caused.",
+          "resolution": "outage resolved",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2023-03-21 07:54:08",
+          "resolved_at": "2023-03-22 14:55:14",
           "should_notify": 0,
-          "created_at": "2023-03-20 13:03:49",
+          "created_at": "2023-03-22 14:36:39",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1413,84 +1283,131 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9713,
-                "category_id": 27
+                "notice_id": 9730,
+                "category_id": 18
               }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo",
-              "pivot": {
-                "notice_id": 9713,
-                "province_id": 4
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 364,
-              "name": "Thohoyandou",
-              "slug": "thohoyandou",
-              "province_id": 4,
-              "pivot": {
-                "notice_id": 9713,
-                "city_id": 364
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9714,
-          "title": "Vumatel Villages Outage | De velde",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in De velde, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-20 16:41:01",
-          "should_notify": 0,
-          "created_at": "2023-03-20 14:07:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
+            },
             {
               "id": 15,
               "name": "Vuma Villages",
               "slug": "vuma-villages",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9714,
+                "notice_id": 9730,
                 "category_id": 15
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 38,
+              "name": "Thinkspeed",
+              "slug": "thinkspeed",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 38
+              }
+            },
+            {
+              "id": 32,
+              "name": "Zoom Fibre",
+              "slug": "zoom-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 32
+              }
+            },
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 7
+              }
+            },
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 1
+              }
+            },
+            {
+              "id": 3,
+              "name": "Century City Connect",
+              "slug": "century-city-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 3
+              }
+            },
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 9
+              }
+            },
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 12
+              }
+            },
+            {
+              "id": 37,
+              "name": "Comtel",
+              "slug": "comtel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9730,
+                "category_id": 37
               }
             }
           ],
@@ -1501,35 +1418,13 @@
               "name": "Western Cape",
               "slug": "western-cape",
               "pivot": {
-                "notice_id": 9714,
+                "notice_id": 9730,
                 "province_id": 3
               }
             }
           ],
-          "cities": [
-            {
-              "id": 222,
-              "name": "Somerset West",
-              "slug": "somerset-west",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9714,
-                "city_id": 222
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2770,
-              "name": "Firgrove",
-              "slug": "firgrove",
-              "city_id": 222,
-              "pivot": {
-                "notice_id": 9714,
-                "suburb_id": 2770
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 9715,
@@ -2100,15 +1995,67 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9725,
+          "title": "Vumatel Villages Outage | Gauteng",
+          "description": "We are investigating reports of intermittent connectivity affecting Vumatel Villages clients in Gauteng. We are working on identifying and resolving this issue as quickly as possible. We apologise for any inconvenience that this may be causing.",
+          "resolution": "resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-22 14:56:07",
+          "should_notify": 0,
+          "created_at": "2023-03-22 09:10:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9725,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9725,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
         }
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
