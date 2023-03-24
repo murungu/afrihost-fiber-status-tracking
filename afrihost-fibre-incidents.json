@@ -6,6 +6,90 @@
     "notices": {
       "open": [
         {
+          "id": 9767,
+          "title": "FrogFoot outage | Port Shepstone",
+          "description": "FrogFoot has informed us of a network outage affecting Port Shepstone, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-24 18:02:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9767,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9767,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 129,
+              "name": "Port Shepstone",
+              "slug": "port-shepstone",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9767,
+                "city_id": 129
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 305,
+              "name": "Sea Park",
+              "slug": "sea-park",
+              "city_id": 129,
+              "pivot": {
+                "notice_id": 9767,
+                "suburb_id": 305
+              }
+            },
+            {
+              "id": 42,
+              "name": "Umtentweni",
+              "slug": "umtentweni",
+              "city_id": 129,
+              "pivot": {
+                "notice_id": 9767,
+                "suburb_id": 42
+              }
+            }
+          ]
+        },
+        {
           "id": 9766,
           "title": "FrogFoot outage | Gauteng | Intermittent Connection",
           "description": "FrogFoot has informed us of a network outage affecting Gauteng, affected clients will experience intermittent connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -258,77 +342,6 @@
           "suburbs": []
         },
         {
-          "id": 9760,
-          "title": "Metrofibre Outage | Edenvale",
-          "description": "Metrofibre has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-24 09:15:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9760,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 642,
-              "notice_id": 9760,
-              "content": "Metrofibre technicians are still working to restore services as soon as possible.",
-              "created_by_id": 30,
-              "created_at": "2023-03-24 14:28:49"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9760,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9760,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9757,
           "title": "Metrofibre Outage | Montana",
           "description": "Metrofibre has informed us of a network outage affecting Montana, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -398,100 +411,6 @@
               "pivot": {
                 "notice_id": 9757,
                 "suburb_id": 11
-              }
-            }
-          ]
-        },
-        {
-          "id": 9754,
-          "title": "FrogFoot outage | Benoni",
-          "description": "FrogFoot has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-23 20:42:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9754,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9754,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9754,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1807,
-              "name": "Goedeburg",
-              "slug": "goedeburg",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 9754,
-                "suburb_id": 1807
-              }
-            },
-            {
-              "id": 2914,
-              "name": "Kleinfontein",
-              "slug": "kleinfontein",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 9754,
-                "suburb_id": 2914
-              }
-            },
-            {
-              "id": 359,
-              "name": "Brentwood",
-              "slug": "brentwood",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 9754,
-                "suburb_id": 359
               }
             }
           ]
@@ -1109,143 +1028,6 @@
       ],
       "closed": [
         {
-          "id": 9745,
-          "title": "Metrofibre Outage | Edenvale",
-          "description": "Metrofibre has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-24 06:21:51",
-          "should_notify": 0,
-          "created_at": "2023-03-23 15:25:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9745,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9745,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9745,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 9746,
-          "title": "Frogfoot Outage | Summerstrand",
-          "description": "Frogfoot has informed us of a network outage affecting Summerstrand, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-24 06:21:47",
-          "should_notify": 0,
-          "created_at": "2023-03-23 15:26:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9746,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9746,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 9746,
-                "city_id": 458
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 196,
-              "name": "Summerstrand",
-              "slug": "summerstrand",
-              "city_id": 458,
-              "pivot": {
-                "notice_id": 9746,
-                "suburb_id": 196
-              }
-            }
-          ]
-        },
-        {
           "id": 9747,
           "title": "Metrofibre Outage | Kyalami Agricultural and surrounding areas",
           "description": "Metrofibre has informed us of a network outage affecting Kyalami Agricultural and surrounding areas, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1455,6 +1237,100 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9754,
+          "title": "FrogFoot outage | Benoni",
+          "description": "FrogFoot has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-24 18:11:24",
+          "should_notify": 0,
+          "created_at": "2023-03-23 20:42:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9754,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9754,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9754,
+                "city_id": 2
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1807,
+              "name": "Goedeburg",
+              "slug": "goedeburg",
+              "city_id": 2,
+              "pivot": {
+                "notice_id": 9754,
+                "suburb_id": 1807
+              }
+            },
+            {
+              "id": 2914,
+              "name": "Kleinfontein",
+              "slug": "kleinfontein",
+              "city_id": 2,
+              "pivot": {
+                "notice_id": 9754,
+                "suburb_id": 2914
+              }
+            },
+            {
+              "id": 359,
+              "name": "Brentwood",
+              "slug": "brentwood",
+              "city_id": 2,
+              "pivot": {
+                "notice_id": 9754,
+                "suburb_id": 359
+              }
+            }
+          ]
         },
         {
           "id": 9755,
@@ -1717,6 +1593,77 @@
             }
           ],
           "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 9760,
+          "title": "Metrofibre Outage | Edenvale",
+          "description": "Metrofibre has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-24 18:12:06",
+          "should_notify": 0,
+          "created_at": "2023-03-24 09:15:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9760,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 642,
+              "notice_id": 9760,
+              "content": "Metrofibre technicians are still working to restore services as soon as possible.",
+              "created_by_id": 30,
+              "created_at": "2023-03-24 14:28:49"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9760,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9760,
+                "city_id": 25
+              }
+            }
+          ],
           "suburbs": []
         },
         {
