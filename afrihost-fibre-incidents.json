@@ -6,6 +6,132 @@
     "notices": {
       "open": [
         {
+          "id": 9759,
+          "title": "Metrofibre Outage | KZN",
+          "description": "Metrofibre has informed us of a network outage affecting KwaZulu Natal, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-24 08:37:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9759,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9759,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 9758,
+          "title": "Metrofibre Outage | Kyalami",
+          "description": "Metrofibre has informed us of a network outage affecting Kyalami, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-24 08:36:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9758,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9758,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9758,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 243,
+              "name": "Kyalami",
+              "slug": "kyalami",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 9758,
+                "suburb_id": 243
+              }
+            }
+          ]
+        },
+        {
           "id": 9757,
           "title": "Metrofibre Outage | Montana",
           "description": "Metrofibre has informed us of a network outage affecting Montana, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -75,80 +201,6 @@
               "pivot": {
                 "notice_id": 9757,
                 "suburb_id": 11
-              }
-            }
-          ]
-        },
-        {
-          "id": 9756,
-          "title": "FrogFoot outage | George",
-          "description": "FrogFoot has informed us of a network outage affecting George, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-24 03:20:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9756,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9756,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9756,
-                "city_id": 247
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 526,
-              "name": "Pacaltsdorp",
-              "slug": "pacaltsdorp",
-              "city_id": 247,
-              "pivot": {
-                "notice_id": 9756,
-                "suburb_id": 526
               }
             }
           ]
@@ -920,80 +972,6 @@
       ],
       "closed": [
         {
-          "id": 9740,
-          "title": "Vumatel Outage | Northmead",
-          "description": "Vumatel has informed us of a network outage affecting Northmead, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-24 06:17:06",
-          "should_notify": 0,
-          "created_at": "2023-03-23 08:28:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9740,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9740,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9740,
-                "city_id": 2
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 390,
-              "name": "Northmead",
-              "slug": "northmead",
-              "city_id": 2,
-              "pivot": {
-                "notice_id": 9740,
-                "suburb_id": 390
-              }
-            }
-          ]
-        },
-        {
           "id": 9741,
           "title": "TT Connect outage |  Parts of Benoni",
           "description": "TT Connect has informed us of a network outage affecting parts of Benoni, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1603,15 +1581,89 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9756,
+          "title": "FrogFoot outage | George",
+          "description": "FrogFoot has informed us of a network outage affecting George, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-24 08:36:20",
+          "should_notify": 0,
+          "created_at": "2023-03-24 03:20:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9756,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9756,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9756,
+                "city_id": 247
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 526,
+              "name": "Pacaltsdorp",
+              "slug": "pacaltsdorp",
+              "city_id": 247,
+              "pivot": {
+                "notice_id": 9756,
+                "suburb_id": 526
+              }
+            }
+          ]
         }
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
