@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9770,
+          "title": "Octotel outage | Eagle Canyon Golf Estate",
+          "description": "Octotel has informed us of a network outage affecting Eagle Canyon Golf Estate, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-25 05:06:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9770,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9770,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9770,
+                "city_id": 35
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 556,
+              "name": "Eagle Canyon Golf Estate",
+              "slug": "eagle-canyon-golf-estate",
+              "city_id": 35,
+              "pivot": {
+                "notice_id": 9770,
+                "suburb_id": 556
+              }
+            }
+          ]
+        },
+        {
           "id": 9769,
           "title": "FrogFoot outage | Benoni",
           "description": "FrogFoot has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
