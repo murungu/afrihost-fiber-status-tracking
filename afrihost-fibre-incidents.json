@@ -365,80 +365,6 @@
           ]
         },
         {
-          "id": 9786,
-          "title": "Vumatel Villages Outage | Beacon Bay and Surrounding Areas",
-          "description": "Vumatel Villages has informed us of a network outage affecting Beacon Bay and surrounding areas, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-26 09:21:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9786,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9786,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 477,
-              "name": "East London",
-              "slug": "east-london",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 9786,
-                "city_id": 477
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 101,
-              "name": "Beacon Bay",
-              "slug": "beacon-bay",
-              "city_id": 477,
-              "pivot": {
-                "notice_id": 9786,
-                "suburb_id": 101
-              }
-            }
-          ]
-        },
-        {
           "id": 9785,
           "title": "Metrofibre Outage | The Habitat",
           "description": "Metrofibre has informed us of a network outage affecting The Habitat, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2212,77 +2138,6 @@
       ],
       "closed": [
         {
-          "id": 9760,
-          "title": "Metrofibre Outage | Edenvale",
-          "description": "Metrofibre has informed us of a network outage affecting Edenvale, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-24 18:12:06",
-          "should_notify": 0,
-          "created_at": "2023-03-24 09:15:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9760,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 642,
-              "notice_id": 9760,
-              "content": "Metrofibre technicians are still working to restore services as soon as possible.",
-              "created_by_id": 30,
-              "created_at": "2023-03-24 14:28:49"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9760,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9760,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9761,
           "title": "FrogFoot outage | Richards Bay",
           "description": "FrogFoot has informed us of a network outage affecting Richards Bay, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2890,6 +2745,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9786,
+          "title": "Vumatel Villages Outage | Beacon Bay and Surrounding Areas",
+          "description": "Vumatel Villages has informed us of a network outage affecting Beacon Bay and surrounding areas, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-26 16:37:28",
+          "should_notify": 0,
+          "created_at": "2023-03-26 09:21:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9786,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9786,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 9786,
+                "city_id": 477
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 101,
+              "name": "Beacon Bay",
+              "slug": "beacon-bay",
+              "city_id": 477,
+              "pivot": {
+                "notice_id": 9786,
+                "suburb_id": 101
+              }
+            }
+          ]
         }
       ]
     },
