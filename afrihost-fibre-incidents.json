@@ -58,6 +58,80 @@
           "suburbs": []
         },
         {
+          "id": 9804,
+          "title": "Vumatel Villages Outage | Barbeque AH",
+          "description": "Vumatel Villages has informed us of a network outage affecting Barbeque AH, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-27 11:03:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9804,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9804,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9804,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4770,
+              "name": "Barbeque A H",
+              "slug": "barbeque-a-h",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 9804,
+                "suburb_id": 4770
+              }
+            }
+          ]
+        },
+        {
           "id": 9803,
           "title": "Evotel Outage | Lenasia South",
           "description": "Evotel has informed us of a network outage affecting Lenasia South, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1568,90 +1642,6 @@
           "suburbs": []
         },
         {
-          "id": 9767,
-          "title": "FrogFoot outage | Port Shepstone",
-          "description": "FrogFoot has informed us of a network outage affecting Port Shepstone, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-24 18:02:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9767,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9767,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 129,
-              "name": "Port Shepstone",
-              "slug": "port-shepstone",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9767,
-                "city_id": 129
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 305,
-              "name": "Sea Park",
-              "slug": "sea-park",
-              "city_id": 129,
-              "pivot": {
-                "notice_id": 9767,
-                "suburb_id": 305
-              }
-            },
-            {
-              "id": 42,
-              "name": "Umtentweni",
-              "slug": "umtentweni",
-              "city_id": 129,
-              "pivot": {
-                "notice_id": 9767,
-                "suburb_id": 42
-              }
-            }
-          ]
-        },
-        {
           "id": 9765,
           "title": "Openserve Outage | Hillcrest",
           "description": "Openserve has informed us of a network outage affecting Openserve clients in Hillcrest, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2093,89 +2083,6 @@
           ]
         },
         {
-          "id": 9793,
-          "title": "Thinkspeed Maintenance | Zinkwazi, Durban and Greytown",
-          "description": "Thinkspeed is conducting maintenance in Zinkwazi, Durban and Greytown from 2023-03-27 06:00 to 08:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-27 06:56:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 38,
-              "name": "Thinkspeed",
-              "slug": "thinkspeed",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9793,
-                "category_id": 38
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9793,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9793,
-                "city_id": 68
-              }
-            },
-            {
-              "id": 73,
-              "name": "Greytown",
-              "slug": "greytown",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9793,
-                "city_id": 73
-              }
-            },
-            {
-              "id": 141,
-              "name": "Zinkwazi",
-              "slug": "zinkwazi",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9793,
-                "city_id": 141
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9779,
           "title": "Vumatel Maintenance | Sandown",
           "description": "Vumatel is conducting maintenance in Sandown from 2023-03-29 08:00 to 2023-03-31 18:00, users affected might experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2578,132 +2485,6 @@
       ],
       "closed": [
         {
-          "id": 9763,
-          "title": "FrogFoot outage | Gauteng | Intermittent Connection",
-          "description": "FrogFoot has informed us of a network outage affecting Gauteng, affected clients will experience intermittent connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-24 14:34:41",
-          "should_notify": 0,
-          "created_at": "2023-03-24 12:00:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9763,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9763,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 9764,
-          "title": "Vumatel Villages Outage | Ormonde",
-          "description": "Vumatel has informed us of a network outage affecting Vumatel Villages clients in Ormonde, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-25 15:43:32",
-          "should_notify": 0,
-          "created_at": "2023-03-24 14:32:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9764,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9764,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9764,
-                "city_id": 8
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 386,
-              "name": "Ormonde",
-              "slug": "ormonde",
-              "city_id": 8,
-              "pivot": {
-                "notice_id": 9764,
-                "suburb_id": 386
-              }
-            }
-          ]
-        },
-        {
           "id": 9766,
           "title": "FrogFoot outage | Gauteng | Intermittent Connection",
           "description": "FrogFoot has informed us of a network outage affecting Gauteng, affected clients will experience intermittent connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2754,6 +2535,90 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 9767,
+          "title": "FrogFoot outage | Port Shepstone",
+          "description": "FrogFoot has informed us of a network outage affecting Port Shepstone, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-27 11:17:23",
+          "should_notify": 0,
+          "created_at": "2023-03-24 18:02:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9767,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9767,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 129,
+              "name": "Port Shepstone",
+              "slug": "port-shepstone",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9767,
+                "city_id": 129
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 305,
+              "name": "Sea Park",
+              "slug": "sea-park",
+              "city_id": 129,
+              "pivot": {
+                "notice_id": 9767,
+                "suburb_id": 305
+              }
+            },
+            {
+              "id": 42,
+              "name": "Umtentweni",
+              "slug": "umtentweni",
+              "city_id": 129,
+              "pivot": {
+                "notice_id": 9767,
+                "suburb_id": 42
+              }
+            }
+          ]
         },
         {
           "id": 9769,
@@ -3270,6 +3135,89 @@
               }
             }
           ]
+        },
+        {
+          "id": 9793,
+          "title": "Thinkspeed Maintenance | Zinkwazi, Durban and Greytown",
+          "description": "Thinkspeed is conducting maintenance in Zinkwazi, Durban and Greytown from 2023-03-27 06:00 to 08:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-03-27 11:02:36",
+          "should_notify": 0,
+          "created_at": "2023-03-27 06:56:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 38,
+              "name": "Thinkspeed",
+              "slug": "thinkspeed",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9793,
+                "category_id": 38
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9793,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9793,
+                "city_id": 68
+              }
+            },
+            {
+              "id": 73,
+              "name": "Greytown",
+              "slug": "greytown",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9793,
+                "city_id": 73
+              }
+            },
+            {
+              "id": 141,
+              "name": "Zinkwazi",
+              "slug": "zinkwazi",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9793,
+                "city_id": 141
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
