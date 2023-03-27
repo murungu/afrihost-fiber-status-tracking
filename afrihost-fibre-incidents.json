@@ -6,9 +6,72 @@
     "notices": {
       "open": [
         {
+          "id": 9799,
+          "title": "Metrofibre Outage | Waterways Residential Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Waterways Residential Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-27 09:14:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9799,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9799,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 130,
+              "name": "Richards Bay",
+              "slug": "richards-bay",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9799,
+                "city_id": 130
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9794,
-          "title": "Vumatel Villages Outage | Elsburg",
-          "description": "Vumatel Villages has informed us of a network outage affecting Elsburg, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "title": "Vumatel Villages Outage | Germiston",
+          "description": "Vumatel Villages has informed us of a network outage affecting Germiston, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
@@ -582,80 +645,6 @@
               "pivot": {
                 "notice_id": 9785,
                 "suburb_id": 63
-              }
-            }
-          ]
-        },
-        {
-          "id": 9784,
-          "title": "Metrofibre Outage | Kyalami Glen",
-          "description": "Metrofibre has informed us of a network outage affecting Kyalami Glen, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-26 09:06:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9784,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9784,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9784,
-                "city_id": 50
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 243,
-              "name": "Kyalami",
-              "slug": "kyalami",
-              "city_id": 50,
-              "pivot": {
-                "notice_id": 9784,
-                "suburb_id": 243
               }
             }
           ]
@@ -1534,6 +1523,302 @@
           ]
         },
         {
+          "id": 9798,
+          "title": "Balwin Fibre Maintenance | Malakite",
+          "description": "Balwin Fibre is conducting maintenance in Malakite on the 3rd of April from 13:00 to 16:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-27 09:02:04",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9798,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9798,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9798,
+                "city_id": 49
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5917,
+              "name": "Modderfontein",
+              "slug": "modderfontein",
+              "city_id": 49,
+              "pivot": {
+                "notice_id": 9798,
+                "suburb_id": 5917
+              }
+            }
+          ]
+        },
+        {
+          "id": 9797,
+          "title": "Balwin Fibre Maintenance | The Huntsman",
+          "description": "Balwin Fibre is conducting maintenance in The Huntsman on the 3rd of April from 09:00 to 12:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-27 09:00:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9797,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9797,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 222,
+              "name": "Somerset West",
+              "slug": "somerset-west",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9797,
+                "city_id": 222
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1732,
+              "name": "Croydon",
+              "slug": "croydon-1",
+              "city_id": 222,
+              "pivot": {
+                "notice_id": 9797,
+                "suburb_id": 1732
+              }
+            }
+          ]
+        },
+        {
+          "id": 9796,
+          "title": "Balwin Fibre Maintenance | The Reid",
+          "description": "Balwin Fibre is conducting maintenance in The Reid on the 3rd of April from 09:00 to 12:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-27 08:59:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9796,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9796,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9796,
+                "city_id": 16
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 296,
+              "name": "Linbro Park",
+              "slug": "linbro-park",
+              "city_id": 16,
+              "pivot": {
+                "notice_id": 9796,
+                "suburb_id": 296
+              }
+            }
+          ]
+        },
+        {
+          "id": 9795,
+          "title": "Balwin Fibre maintenance | Westlake Eco-Estate",
+          "description": "Balwin Fibre is conducting maintenance in Westlake Eco-Estate on the 3rd of April from 09:00 to 12:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-27 08:58:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9795,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9795,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9795,
+                "city_id": 49
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5917,
+              "name": "Modderfontein",
+              "slug": "modderfontein",
+              "city_id": 49,
+              "pivot": {
+                "notice_id": 9795,
+                "suburb_id": 5917
+              }
+            }
+          ]
+        },
+        {
           "id": 9793,
           "title": "Thinkspeed Maintenance | Zinkwazi, Durban and Greytown",
           "description": "Thinkspeed is conducting maintenance in Zinkwazi, Durban and Greytown from 2023-03-27 06:00 to 08:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2018,69 +2303,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 9761,
-          "title": "FrogFoot outage | Richards Bay",
-          "description": "FrogFoot has informed us of a network outage affecting Richards Bay, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-24 22:53:33",
-          "should_notify": 0,
-          "created_at": "2023-03-24 09:32:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9761,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9761,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9761,
-                "city_id": 130
-              }
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 9763,
           "title": "FrogFoot outage | Gauteng | Intermittent Connection",
@@ -2626,6 +2848,80 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 9784,
+          "title": "Metrofibre Outage | Kyalami Glen",
+          "description": "Metrofibre has informed us of a network outage affecting Kyalami Glen, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-27 08:49:27",
+          "should_notify": 0,
+          "created_at": "2023-03-26 09:06:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9784,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9784,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9784,
+                "city_id": 50
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 243,
+              "name": "Kyalami",
+              "slug": "kyalami",
+              "city_id": 50,
+              "pivot": {
+                "notice_id": 9784,
+                "suburb_id": 243
+              }
+            }
+          ]
         },
         {
           "id": 9786,
