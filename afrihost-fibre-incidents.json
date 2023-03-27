@@ -58,6 +58,80 @@
           "suburbs": []
         },
         {
+          "id": 9810,
+          "title": "Vumatel Villages Outage | Sonneveld",
+          "description": "Vumatel Villages has informed us of a network outage affecting Sonneveld, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-27 13:44:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9810,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9810,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 42,
+              "name": "Brakpan",
+              "slug": "brakpan",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9810,
+                "city_id": 42
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 186,
+              "name": "Sonneveld",
+              "slug": "sonneveld",
+              "city_id": 42,
+              "pivot": {
+                "notice_id": 9810,
+                "suburb_id": 186
+              }
+            }
+          ]
+        },
+        {
           "id": 9809,
           "title": "Metrofibre Outage | Isipingo Beach",
           "description": "Metrofibre has informed us of a network outage affecting Isipingo Beach, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -351,58 +425,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 9805,
-          "title": "Vumatel Villages Outage | Eastern Cape",
-          "description": "We are investigating reports of intermittent or no connectivity affecting clients on the Vumatel Villages network in Eastern Cape. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-27 11:24:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9805,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9805,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         },
         {
           "id": 9804,
@@ -2832,58 +2854,6 @@
       ],
       "closed": [
         {
-          "id": 9766,
-          "title": "FrogFoot outage | Gauteng | Intermittent Connection",
-          "description": "FrogFoot has informed us of a network outage affecting Gauteng, affected clients will experience intermittent connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-24 19:26:54",
-          "should_notify": 0,
-          "created_at": "2023-03-24 17:13:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9766,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9766,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 9767,
           "title": "FrogFoot outage | Port Shepstone",
           "description": "FrogFoot has informed us of a network outage affecting Port Shepstone, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3482,6 +3452,58 @@
               }
             }
           ]
+        },
+        {
+          "id": 9805,
+          "title": "Vumatel Villages Outage | Eastern Cape",
+          "description": "We are investigating reports of intermittent or no connectivity affecting clients on the Vumatel Villages network in Eastern Cape. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-27 13:42:41",
+          "should_notify": 0,
+          "created_at": "2023-03-27 11:24:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9805,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9805,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 9793,
