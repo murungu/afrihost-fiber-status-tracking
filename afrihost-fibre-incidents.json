@@ -6,6 +6,80 @@
     "notices": {
       "open": [
         {
+          "id": 9861,
+          "title": "MetroFibre outage | Chantelle, Akasia",
+          "description": "MetroFibre has informed us of a network outage affecting Chantelle, Akasia, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-03-30 19:11:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9861,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9861,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 1,
+              "name": "Akasia",
+              "slug": "akasia",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9861,
+                "city_id": 1
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 197,
+              "name": "Chantelle",
+              "slug": "chantelle",
+              "city_id": 1,
+              "pivot": {
+                "notice_id": 9861,
+                "suburb_id": 197
+              }
+            }
+          ]
+        },
+        {
           "id": 9859,
           "title": "Metrofibre Outage | Durban North",
           "description": "We are investigating reports of degraded and no connectivity for clients in Durban North. We are working with MetroFibre on identifying the issue. We apologise for the inconvenience caused.",
