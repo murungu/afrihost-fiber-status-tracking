@@ -11,7 +11,7 @@
           "description": "We are investigating reports of degraded and no connectivity for clients in Durban North. We are working with MetroFibre on identifying the issue. We apologise for the inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
@@ -24,11 +24,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
@@ -81,58 +81,6 @@
               }
             }
           ],
-          "suburbs": []
-        },
-        {
-          "id": 9860,
-          "title": "Octotel Outage | Stilbaai",
-          "description": "Octotel has informed us of a network outage affecting Stilbaai, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-03-30 15:34:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9860,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9860,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [],
           "suburbs": []
         },
         {
@@ -1935,80 +1883,6 @@
           "suburbs": []
         },
         {
-          "id": 9834,
-          "title": "Vumatel Reach Outage | Lotus River",
-          "description": "Vumatel Reach has informed us of a network outage affecting Lotus River, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-03-30 12:46:07",
-          "should_notify": 0,
-          "created_at": "2023-03-28 14:25:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9834,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9834,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9834,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3440,
-              "name": "Lotus River",
-              "slug": "lotus-river",
-              "city_id": 240,
-              "pivot": {
-                "notice_id": 9834,
-                "suburb_id": 3440
-              }
-            }
-          ]
-        },
-        {
           "id": 9835,
           "title": "Vumatel Villages Outage | Beverley",
           "description": "Vumatel Villages has informed us of a network outage affecting Beverley, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2494,6 +2368,58 @@
           "suburbs": []
         },
         {
+          "id": 9860,
+          "title": "Octotel Outage | Stilbaai",
+          "description": "Octotel has informed us of a network outage affecting Stilbaai, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-03-30 17:17:54",
+          "should_notify": 0,
+          "created_at": "2023-03-30 15:34:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9860,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9860,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 9841,
           "title": "TT Connect Maintenance | Thornhill Estate",
           "description": "TT Connect is conducting maintenance in Thornhill Estate from 2023-03-28 23:00 to 2023-03-29 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2570,11 +2496,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
