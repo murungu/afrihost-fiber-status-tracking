@@ -6,69 +6,6 @@
     "notices": {
       "open": [
         {
-          "id": 9880,
-          "title": "TT Connect Partial Outage | Edenvale",
-          "description": "TT Connect has informed us of a network outage affecting parts of Edenvale, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-02 19:17:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9880,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9880,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9880,
-                "city_id": 25
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9879,
           "title": "Balwin Fibre Outage | The Blyde",
           "description": "Balwin has informed us of a network outage affecting The Blyde, affected clients will experience no connectivity. Balwin engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1313,84 +1250,6 @@
       ],
       "closed": [
         {
-          "id": 9859,
-          "title": "Metrofibre Outage | Durban North",
-          "description": "We are investigating reports of degraded and no connectivity for clients in Durban North. We are working with MetroFibre on identifying the issue. We apologise for the inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-01 07:25:42",
-          "should_notify": 0,
-          "created_at": "2023-03-30 14:40:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9859,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 645,
-              "notice_id": 9859,
-              "content": "A fix was implemented to restore services. We continue to monitor services for stability.",
-              "created_by_id": 30,
-              "created_at": "2023-03-30 16:11:34"
-            },
-            {
-              "id": 644,
-              "notice_id": 9859,
-              "content": "We are noting additional impact to clients in Durban North on MetroFibre. We are working with MetroFibre to resolve the ongoing issues in Durban North. We apologise for the inconvenience caused.",
-              "created_by_id": 30,
-              "created_at": "2023-03-30 14:41:44"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal",
-              "pivot": {
-                "notice_id": 9859,
-                "province_id": 2
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 109,
-              "name": "Durban North",
-              "slug": "durban-north",
-              "province_id": 2,
-              "pivot": {
-                "notice_id": 9859,
-                "city_id": 109
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9860,
           "title": "Octotel Outage | Stilbaai",
           "description": "Octotel has informed us of a network outage affecting Stilbaai, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2086,6 +1945,69 @@
               "pivot": {
                 "notice_id": 9871,
                 "city_id": 161
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9880,
+          "title": "TT Connect Partial Outage | Edenvale",
+          "description": "TT Connect has informed us of a network outage affecting parts of Edenvale, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-02 19:43:27",
+          "should_notify": 0,
+          "created_at": "2023-04-02 19:17:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9880,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9880,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9880,
+                "city_id": 25
               }
             }
           ],
