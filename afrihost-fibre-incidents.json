@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9890,
+          "title": "Vumatel Reach Outage | Phoenix Zone 16",
+          "description": "Vumatel Reach has informed us of a network outage affecting Phoenix Zone 16, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-03 17:45:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9890,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal",
+              "pivot": {
+                "notice_id": 9890,
+                "province_id": 2
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 168,
+              "name": "Phoenix",
+              "slug": "phoenix",
+              "province_id": 2,
+              "pivot": {
+                "notice_id": 9890,
+                "city_id": 168
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9889,
           "title": "Metrofibre Outage | Douglasdale Retirement Village",
           "description": "Metrofibre has informed us of a network outage affecting Douglasdale Retirement Village, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -922,69 +985,6 @@
           "suburbs": []
         },
         {
-          "id": 9874,
-          "title": "Vumatel Outage | Richmond Estate",
-          "description": "Vumatel has informed us of a network outage affecting Richmond Estate, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-01 10:36:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9874,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape",
-              "pivot": {
-                "notice_id": 9874,
-                "province_id": 3
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3,
-              "pivot": {
-                "notice_id": 9874,
-                "city_id": 240
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9873,
           "title": "Vumatel Villages Outage | East London Partial",
           "description": "Vumatel has informed us of a network outage affecting parts of East London, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1829,80 +1829,6 @@
       ],
       "closed": [
         {
-          "id": 9861,
-          "title": "MetroFibre outage | Chantelle, Akasia",
-          "description": "MetroFibre has informed us of a network outage affecting Chantelle, Akasia, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-01 07:25:49",
-          "should_notify": 0,
-          "created_at": "2023-03-30 19:11:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9861,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9861,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9861,
-                "city_id": 1
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 197,
-              "name": "Chantelle",
-              "slug": "chantelle",
-              "city_id": 1,
-              "pivot": {
-                "notice_id": 9861,
-                "suburb_id": 197
-              }
-            }
-          ]
-        },
-        {
           "id": 9862,
           "title": "MetroFibre outage | Durban",
           "description": "MetroFibre has informed us of a network outage affecting Durban, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2472,6 +2398,69 @@
               "pivot": {
                 "notice_id": 9871,
                 "city_id": 161
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9874,
+          "title": "Vumatel Outage | Richmond Estate",
+          "description": "Vumatel has informed us of a network outage affecting Richmond Estate, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-03 17:44:40",
+          "should_notify": 0,
+          "created_at": "2023-04-01 10:36:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9874,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9874,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9874,
+                "city_id": 240
               }
             }
           ],
