@@ -1270,69 +1270,6 @@
           "suburbs": []
         },
         {
-          "id": 9873,
-          "title": "Vumatel Villages Outage | East London Partial",
-          "description": "Vumatel has informed us of a network outage affecting parts of East London, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-01 09:19:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9873,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9873,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 477,
-              "name": "East London",
-              "slug": "east-london",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 9873,
-                "city_id": 477
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9872,
           "title": "Openserve outage | Faerie Glen",
           "description": "Openserve has informed us of a network outage affecting Faerie Glen, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2477,90 +2414,6 @@
       ],
       "closed": [
         {
-          "id": 9864,
-          "title": "TT Connect outage | Lethabong",
-          "description": "TT Connect has informed us of a network outage affecting Lethabong, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-01 07:26:04",
-          "should_notify": 0,
-          "created_at": "2023-03-31 05:40:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9864,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 9864,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 49,
-              "name": "Lethabong",
-              "slug": "lethabong",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9864,
-                "city_id": 49
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5918,
-              "name": "Greenstone Hill",
-              "slug": "greenstone-hill",
-              "city_id": 49,
-              "pivot": {
-                "notice_id": 9864,
-                "suburb_id": 5918
-              }
-            },
-            {
-              "id": 5917,
-              "name": "Modderfontein",
-              "slug": "modderfontein",
-              "city_id": 49,
-              "pivot": {
-                "notice_id": 9864,
-                "suburb_id": 5917
-              }
-            }
-          ]
-        },
-        {
           "id": 9865,
           "title": "MetroFibre outage | Thembisa",
           "description": "MetroFibre has informed us of a network outage affecting Thembisa, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2868,6 +2721,69 @@
               "pivot": {
                 "notice_id": 9871,
                 "city_id": 161
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 9873,
+          "title": "Vumatel Villages Outage | East London Partial",
+          "description": "Vumatel has informed us of a network outage affecting parts of East London, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-04 01:03:00",
+          "should_notify": 0,
+          "created_at": "2023-04-01 09:19:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9873,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape",
+              "pivot": {
+                "notice_id": 9873,
+                "province_id": 6
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6,
+              "pivot": {
+                "notice_id": 9873,
+                "city_id": 477
               }
             }
           ],
