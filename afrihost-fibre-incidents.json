@@ -6,6 +6,69 @@
     "notices": {
       "open": [
         {
+          "id": 9907,
+          "title": "Vumatel Reach Outage | Khayelitsha",
+          "description": "Vumatel Reach has informed us of a network outage affecting Khayelitsha, affected clients will experience no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-04 17:32:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9907,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape",
+              "pivot": {
+                "notice_id": 9907,
+                "province_id": 3
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 204,
+              "name": "Khayelitsha",
+              "slug": "khayelitsha",
+              "province_id": 3,
+              "pivot": {
+                "notice_id": 9907,
+                "city_id": 204
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9905,
           "title": "Metrofibre Outage | Clayville Mega City",
           "description": "Metrofibre has informed us of a network outage affecting Clayville Mega City, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1860,16 +1923,16 @@
           ]
         },
         {
-          "id": 9895,
-          "title": "Vumatel Villages Maintenance | Edleen, Montana, Monument Park, Orlando, Pretoria CBD, Ravenswood, Rosslyn, Rustenburg, Samcor, Senderwood and Westbury",
-          "description": "Vumatel Villages is conducting maintenance in Edleen, Montana, Monument Park, Orlando, Pretoria CBD, Ravenswood, Rosslyn, Rustenburg, Samcor, Senderwood and Westbury from 2023-04-04 01:00 to 03:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 9908,
+          "title": "Netstream Maintenance | Alberante, SE8, The Boulevards, Riverspray, Woodpecker Mews, Palm Springs & Miami Garden",
+          "description": "Netstream is conducting maintenance in Alberante, SE8, The Boulevards, Riverspray, Woodpecker Mews, Palm Springs & Miami Garden on the 2023/04/05 from 04:00am – 05:30am users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-04-03 18:46:50",
+          "created_at": "2023-04-04 17:38:11",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -1886,13 +1949,13 @@
           },
           "categories": [
             {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
+              "id": 11,
+              "name": "Netstream",
+              "slug": "netstream",
               "product_id": 2,
               "pivot": {
-                "notice_id": 9895,
-                "category_id": 15
+                "notice_id": 9908,
+                "category_id": 11
               }
             }
           ],
@@ -1903,174 +1966,13 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 9895,
+                "notice_id": 9908,
                 "province_id": 1
               }
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west",
-              "pivot": {
-                "notice_id": 9895,
-                "province_id": 8
-              }
             }
           ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 33
-              }
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 8
-              }
-            },
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 48
-              }
-            },
-            {
-              "id": 41,
-              "name": "Bedfordview",
-              "slug": "bedfordview",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 41
-              }
-            },
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 17
-              }
-            },
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 22
-              }
-            },
-            {
-              "id": 55,
-              "name": "Rosslyn",
-              "slug": "rosslyn",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 55
-              }
-            },
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8,
-              "pivot": {
-                "notice_id": 9895,
-                "city_id": 632
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 303,
-              "name": "Edleen",
-              "slug": "edleen",
-              "city_id": 48,
-              "pivot": {
-                "notice_id": 9895,
-                "suburb_id": 303
-              }
-            },
-            {
-              "id": 11,
-              "name": "Montana",
-              "slug": "montana",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9895,
-                "suburb_id": 11
-              }
-            },
-            {
-              "id": 407,
-              "name": "Monument Park",
-              "slug": "monument-park",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9895,
-                "suburb_id": 407
-              }
-            },
-            {
-              "id": 2570,
-              "name": "Orlando",
-              "slug": "orlando",
-              "city_id": 17,
-              "pivot": {
-                "notice_id": 9895,
-                "suburb_id": 2570
-              }
-            },
-            {
-              "id": 208,
-              "name": "Pretoria Central",
-              "slug": "pretoria-central",
-              "city_id": 33,
-              "pivot": {
-                "notice_id": 9895,
-                "suburb_id": 208
-              }
-            },
-            {
-              "id": 543,
-              "name": "Ravenswood",
-              "slug": "ravenswood",
-              "city_id": 22,
-              "pivot": {
-                "notice_id": 9895,
-                "suburb_id": 543
-              }
-            },
-            {
-              "id": 1130,
-              "name": "Senderwood",
-              "slug": "senderwood",
-              "city_id": 41,
-              "pivot": {
-                "notice_id": 9895,
-                "suburb_id": 1130
-              }
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 9894,
@@ -2699,69 +2601,6 @@
       ],
       "closed": [
         {
-          "id": 9873,
-          "title": "Vumatel Villages Outage | East London Partial",
-          "description": "Vumatel has informed us of a network outage affecting parts of East London, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-04 01:03:00",
-          "should_notify": 0,
-          "created_at": "2023-04-01 09:19:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9873,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape",
-              "pivot": {
-                "notice_id": 9873,
-                "province_id": 6
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 477,
-              "name": "East London",
-              "slug": "east-london",
-              "province_id": 6,
-              "pivot": {
-                "notice_id": 9873,
-                "city_id": 477
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 9874,
           "title": "Vumatel Outage | Richmond Estate",
           "description": "Vumatel has informed us of a network outage affecting Richmond Estate, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -3368,6 +3207,219 @@
               "pivot": {
                 "notice_id": 9906,
                 "suburb_id": 193
+              }
+            }
+          ]
+        },
+        {
+          "id": 9895,
+          "title": "Vumatel Villages Maintenance | Edleen, Montana, Monument Park, Orlando, Pretoria CBD, Ravenswood, Rosslyn, Rustenburg, Samcor, Senderwood and Westbury",
+          "description": "Vumatel Villages is conducting maintenance in Edleen, Montana, Monument Park, Orlando, Pretoria CBD, Ravenswood, Rosslyn, Rustenburg, Samcor, Senderwood and Westbury from 2023-04-04 01:00 to 03:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-04-04 17:48:39",
+          "should_notify": 0,
+          "created_at": "2023-04-03 18:46:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9895,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9895,
+                "province_id": 1
+              }
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west",
+              "pivot": {
+                "notice_id": 9895,
+                "province_id": 8
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 33
+              }
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 8
+              }
+            },
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 48
+              }
+            },
+            {
+              "id": 41,
+              "name": "Bedfordview",
+              "slug": "bedfordview",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 41
+              }
+            },
+            {
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 17
+              }
+            },
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 22
+              }
+            },
+            {
+              "id": 55,
+              "name": "Rosslyn",
+              "slug": "rosslyn",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 55
+              }
+            },
+            {
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8,
+              "pivot": {
+                "notice_id": 9895,
+                "city_id": 632
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 303,
+              "name": "Edleen",
+              "slug": "edleen",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 9895,
+                "suburb_id": 303
+              }
+            },
+            {
+              "id": 11,
+              "name": "Montana",
+              "slug": "montana",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9895,
+                "suburb_id": 11
+              }
+            },
+            {
+              "id": 407,
+              "name": "Monument Park",
+              "slug": "monument-park",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9895,
+                "suburb_id": 407
+              }
+            },
+            {
+              "id": 2570,
+              "name": "Orlando",
+              "slug": "orlando",
+              "city_id": 17,
+              "pivot": {
+                "notice_id": 9895,
+                "suburb_id": 2570
+              }
+            },
+            {
+              "id": 208,
+              "name": "Pretoria Central",
+              "slug": "pretoria-central",
+              "city_id": 33,
+              "pivot": {
+                "notice_id": 9895,
+                "suburb_id": 208
+              }
+            },
+            {
+              "id": 543,
+              "name": "Ravenswood",
+              "slug": "ravenswood",
+              "city_id": 22,
+              "pivot": {
+                "notice_id": 9895,
+                "suburb_id": 543
+              }
+            },
+            {
+              "id": 1130,
+              "name": "Senderwood",
+              "slug": "senderwood",
+              "city_id": 41,
+              "pivot": {
+                "notice_id": 9895,
+                "suburb_id": 1130
               }
             }
           ]
