@@ -6,6 +6,79 @@
     "notices": {
       "open": [
         {
+          "id": 9945,
+          "title": "Vuma Villages outage | Brakpan and Springs",
+          "description": "Vuma Villages has informed us of a connectivity problem affecting Brakpan and Springs, affected clients will experience no connectivity. City engineers are working on replacing the electrical cable that has been stolen, connectivity will be restored as soon as the electrical cable has been replaced. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-06 10:51:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 9945,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 9945,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 42,
+              "name": "Brakpan",
+              "slug": "brakpan",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9945,
+                "city_id": 42
+              }
+            },
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 9945,
+                "city_id": 37
+              }
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 9944,
           "title": "Octotel outage | Struisbaai",
           "description": "Octotel has informed us of a network outage affecting Struisbaai, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
