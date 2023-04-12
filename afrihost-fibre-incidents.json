@@ -6,16 +6,16 @@
     "notices": {
       "open": [
         {
-          "id": 10023,
-          "title": "Frogfoot Outage | Gauteng",
-          "description": "Frogfoot has informed us of a network outage affecting Gauteng, affected clients will experience intermittent connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 10024,
+          "title": "Vumatel Outage | Observatory",
+          "description": "Vumatel has informed us of a network outage affecting Observatory, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-04-12 12:52:23",
+          "created_at": "2023-04-12 14:18:56",
           "product": {
             "id": 2,
             "name": "Fibre Broadband",
@@ -32,13 +32,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 10023,
-                "category_id": 7
+                "notice_id": 10024,
+                "category_id": 18
               }
             }
           ],
@@ -49,13 +49,35 @@
               "name": "Gauteng",
               "slug": "gauteng",
               "pivot": {
-                "notice_id": 10023,
+                "notice_id": 10024,
                 "province_id": 1
               }
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 10024,
+                "city_id": 8
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 664,
+              "name": "Observatory",
+              "slug": "observatory-1",
+              "city_id": 8,
+              "pivot": {
+                "notice_id": 10024,
+                "suburb_id": 664
+              }
+            }
+          ]
         },
         {
           "id": 10022,
@@ -1673,80 +1695,6 @@
       ],
       "closed": [
         {
-          "id": 9994,
-          "title": "Vumatel Reach Outage | Emalahleni Phase 1",
-          "description": "Vumatel Reach has informed us of a network outage affecting Emalahleni Phase 1, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-12 00:03:27",
-          "should_notify": 0,
-          "created_at": "2023-04-11 04:03:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 9994,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga",
-              "pivot": {
-                "notice_id": 9994,
-                "province_id": 9
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9,
-              "pivot": {
-                "notice_id": 9994,
-                "city_id": 679
-              }
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2352,
-              "name": "Emalahleni",
-              "slug": "emalahleni",
-              "city_id": 679,
-              "pivot": {
-                "notice_id": 9994,
-                "suburb_id": 2352
-              }
-            }
-          ]
-        },
-        {
           "id": 9995,
           "title": "Vumatel Outage | Kroonstad",
           "description": "Vumatel has informed us of a network outage affecting Kroonstad, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2392,6 +2340,58 @@
               }
             }
           ],
+          "suburbs": []
+        },
+        {
+          "id": 10023,
+          "title": "Frogfoot Outage | Gauteng",
+          "description": "Frogfoot has informed us of a network outage affecting Gauteng, affected clients will experience intermittent connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-12 14:19:08",
+          "should_notify": 0,
+          "created_at": "2023-04-12 12:52:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10023,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 10023,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [],
           "suburbs": []
         }
       ]
