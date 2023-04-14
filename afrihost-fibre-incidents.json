@@ -6,6 +6,164 @@
     "notices": {
       "open": [
         {
+          "id": 10057,
+          "title": "MetroFibre outage | Tasbet Park",
+          "description": "MetroFibre has informed us of a network outage affecting Tasbet Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-14 14:55:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10057,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga",
+              "pivot": {
+                "notice_id": 10057,
+                "province_id": 9
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9,
+              "pivot": {
+                "notice_id": 10057,
+                "city_id": 679
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 26,
+              "name": "Tasbet Park",
+              "slug": "tasbet-park",
+              "city_id": 679,
+              "pivot": {
+                "notice_id": 10057,
+                "suburb_id": 26
+              }
+            }
+          ]
+        },
+        {
+          "id": 10056,
+          "title": "FrogFoot outage | Pomona and Glen Marais",
+          "description": "FrogFoot has informed us of a network outage affecting Pomona and Glen Marais, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-14 14:36:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10056,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 10056,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 10056,
+                "city_id": 48
+              }
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 193,
+              "name": "Pomona",
+              "slug": "pomona",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 10056,
+                "suburb_id": 193
+              }
+            },
+            {
+              "id": 28,
+              "name": "Glen Marais",
+              "slug": "glen-marais",
+              "city_id": 48,
+              "pivot": {
+                "notice_id": 10056,
+                "suburb_id": 28
+              }
+            }
+          ]
+        },
+        {
           "id": 10054,
           "title": "TT Connect outage | Bedfordview",
           "description": "TT Connect has informed us of a network outage affecting Bedfordview, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -63,69 +221,6 @@
               "pivot": {
                 "notice_id": 10054,
                 "city_id": 41
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 10052,
-          "title": "TT Connect outage | Edenvale",
-          "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connection. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-14 14:03:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10052,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 10052,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 10052,
-                "city_id": 25
               }
             }
           ],
@@ -2188,69 +2283,6 @@
       ],
       "closed": [
         {
-          "id": 10027,
-          "title": "Vuma Villages Outage | Germiston",
-          "description": "Vumatel has informed us of a network outage affecting Germiston, affected clients will experience limited to no connectivity. Vuma Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-13 04:36:38",
-          "should_notify": 0,
-          "created_at": "2023-04-12 17:22:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10027,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 10027,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 10027,
-                "city_id": 46
-              }
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10028,
           "title": "FibreSuburb Outage | South hills",
           "description": "FibreSuburb has informed us of a network outage affecting South hills, affected clients will experience no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2925,6 +2957,69 @@
               }
             }
           ]
+        },
+        {
+          "id": 10052,
+          "title": "TT Connect outage | Edenvale",
+          "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience no connection. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-14 14:49:55",
+          "should_notify": 0,
+          "created_at": "2023-04-14 14:03:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre Broadband",
+            "slug": "fibre-broadband",
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10052,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng",
+              "pivot": {
+                "notice_id": 10052,
+                "province_id": 1
+              }
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1,
+              "pivot": {
+                "notice_id": 10052,
+                "city_id": 25
+              }
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
