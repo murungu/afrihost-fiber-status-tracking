@@ -7,8 +7,8 @@
       "open": [
         {
           "id": 10080,
-          "title": "FrogFoot degraded service | Cape Town",
-          "description": "We are aware of a connectivity problem on the FrogFoot network, that is cause limited to no connectivity in Cape Town. Engineers are looking into the problem. We hope to have it resolved as soon as possible. We apologize for any inconvenience that this may be causing.",
+          "title": "FrogFoot outage | Cape Town",
+          "description": "FrogFoot has informed us of a network outage affecting Cape Town, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
@@ -42,7 +42,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 655,
+              "notice_id": 10080,
+              "content": "Here are the areas affected by the outage:\n\nRondebosch\nRynfield\nMontague Gardens\nSunnydale\nWynberg\nNoordhoek\nFish Hoek\nHout Bay\nBlouberg\nStellenbosch",
+              "created_by_id": 11,
+              "created_at": "2023-04-17 12:38:44"
+            }
+          ],
           "provinces": [
             {
               "id": 3,
@@ -2112,69 +2120,6 @@
               }
             }
           ]
-        },
-        {
-          "id": 10036,
-          "title": "Metrofibre Outage | Akasia",
-          "description": "Metrofibre has informed us of a network outage affecting Akasia, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-13 14:51:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre Broadband",
-            "slug": "fibre-broadband",
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10036,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng",
-              "pivot": {
-                "notice_id": 10036,
-                "province_id": 1
-              }
-            }
-          ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1,
-              "pivot": {
-                "notice_id": 10036,
-                "city_id": 1
-              }
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 10025,
