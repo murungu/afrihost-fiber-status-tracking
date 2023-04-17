@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 10085,
+          "title": "MetroFibre outage | Six Fountains Estate",
+          "description": "MetroFibre has informed us of a network outage affecting Six Fountains Estate, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-17 16:16:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10085,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 56,
+              "name": "Silver Lakes",
+              "slug": "silver-lakes",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 10084,
           "title": "TT Connect outage | Marais Steyn Park, Edenvale",
           "description": "TT Connect has informed us of a network outage affecting Marais Steyn Park, Edenvale, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2479,7 +2535,7 @@
         {
           "id": 10055,
           "title": "Octotel maintenance | Lakeside",
-          "description": "Octotel is conducting maintenance in Lakeside on the 18th, 19th and 20th of April from 00:00 to 06:00 each day. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "description": "Octotel is conducting maintenance in Lakeside on the 18th of April from 00:00 to 06:00 each day. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
