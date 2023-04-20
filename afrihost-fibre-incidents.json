@@ -7,6 +7,85 @@
     "notices": {
       "open": [
         {
+          "id": 10124,
+          "title": "Frogfoot Outage | Rosslyn, Germiston, Klerksdorp, Atteridgeville, Nigel, Samcor Park, Monument Park, Vereeniging, Springs, Faerie Glen and Wadeville",
+          "description": "Frogfoot has informed us of a network outage affecting Rosslyn, Germiston, Klerksdorp, Atteridgeville, Nigel, Samcor Park, Monument Park, Vereeniging, Springs, Faerie Glen and Wadeville, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-20 19:59:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10124,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            },
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            },
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            },
+            {
+              "id": 55,
+              "name": "Rosslyn",
+              "slug": "rosslyn",
+              "province_id": 1
+            },
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 10123,
           "title": "Metrofibre Outage | Avoca",
           "description": "Metrofibre has informed us of a network outage affecting KAvoca, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -486,62 +565,6 @@
               "city_id": 22
             }
           ]
-        },
-        {
-          "id": 10114,
-          "title": "Frogfoot Outage | Tembisa",
-          "description": "Frogfoot has informed us of a network outage affecting Tembisa, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-19 23:41:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10114,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 10112,
@@ -1168,62 +1191,6 @@
       ],
       "closed": [
         {
-          "id": 10100,
-          "title": "Evotel Outage | Middelburg",
-          "description": "Evotel has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-19 18:22:29",
-          "should_notify": 0,
-          "created_at": "2023-04-18 18:41:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10100,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 690,
-              "name": "Middelburg",
-              "slug": "middelburg-1",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10101,
           "title": "Vumatel Villages Outage | Richmond Park",
           "description": "Vumatel has informed us of a network outage affecting Richmond Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1720,6 +1687,62 @@
               "city_id": 50
             }
           ]
+        },
+        {
+          "id": 10114,
+          "title": "Frogfoot Outage | Tembisa",
+          "description": "Frogfoot has informed us of a network outage affecting Tembisa, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-20 20:22:26",
+          "should_notify": 0,
+          "created_at": "2023-04-19 23:41:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10114,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 10115,
