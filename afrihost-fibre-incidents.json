@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10133,
+          "title": "Openserve Outage | Monument Park",
+          "description": "Openserve has informed us of a network outage affecting Monument Park, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-21 08:18:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10133,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 407,
+              "name": "Monument Park",
+              "slug": "monument-park",
+              "city_id": 33
+            }
+          ]
+        },
+        {
           "id": 10132,
           "title": "Vumatel Outage | Glenvista",
           "description": "Vumatel has informed us of a network outage affecting Glenvista, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -590,62 +653,6 @@
               "name": "Richards Bay",
               "slug": "richards-bay",
               "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 10119,
-          "title": "Vumatel Villages Outage | Germiston",
-          "description": "Vumatel Villages has informed us of a network outage affecting Germiston, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-20 07:43:02",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10119,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
             }
           ],
           "suburbs": []
@@ -1476,69 +1483,6 @@
       ],
       "closed": [
         {
-          "id": 10106,
-          "title": "Vumatel Outage | Gallo Manor",
-          "description": "Vumatel has informed us of a network outage affecting Gallo Manor, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-19 17:42:53",
-          "should_notify": 0,
-          "created_at": "2023-04-19 12:19:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10106,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 659,
-              "name": "Gallo Manor",
-              "slug": "gallo-manor",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 10109,
           "title": "Metrofibre Outage | Mthembu Village",
           "description": "Metrofibre has informed us of a network outage affecting Mthembu Village, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1909,6 +1853,62 @@
               "city_id": 46
             }
           ]
+        },
+        {
+          "id": 10119,
+          "title": "Vumatel Villages Outage | Germiston",
+          "description": "Vumatel Villages has informed us of a network outage affecting Germiston, affected clients will experience limited to no connectivity. Vumatel Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-21 07:59:16",
+          "should_notify": 0,
+          "created_at": "2023-04-20 07:43:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10119,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 10124,
