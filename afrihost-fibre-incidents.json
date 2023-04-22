@@ -7,6 +7,77 @@
     "notices": {
       "open": [
         {
+          "id": 10148,
+          "title": "MetroFibre outage | Broadacres",
+          "description": "MetroFibre has informed us of a network outage affecting Broadacres, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-22 08:54:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10148,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 658,
+              "notice_id": 10148,
+              "content": "Affected sites include:\n\nThe Homestead, Lombardy Road, Broadacres\n\nKengies Gate, Frederick Road, Broadacres\n\nAranmore Estate, Syringa Avenue, Broadacres",
+              "created_by_id": 11,
+              "created_at": "2023-04-22 08:55:25"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 10144,
           "title": "Vumatel Villages Outage | Andeon",
           "description": "Vumatel has informed us of a network outage affecting Andeon, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
