@@ -255,69 +255,6 @@
           "suburbs": []
         },
         {
-          "id": 10190,
-          "title": "Vumatel outage | Vorna valley",
-          "description": "Vumatel has informed us of a network outage affecting Vorna valley, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-26 16:28:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10190,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 391,
-              "name": "Vorna Valley",
-              "slug": "vorna-valley",
-              "city_id": 50
-            }
-          ]
-        },
-        {
           "id": 10189,
           "title": "MetroFibre outage | Bluff",
           "description": "MetroFibre has informed us of a network outage affecting Bluff, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2397,74 +2334,6 @@
       ],
       "closed": [
         {
-          "id": 10166,
-          "title": "Octotel outage | Struisbaai, Stilbaai and Bredasdorp",
-          "description": "Octotel has informed us of a network outage affecting Struisbaai, Stilbaai and Bredasdorp, affected clients will experience intermittent connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-25 12:35:07",
-          "should_notify": 0,
-          "created_at": "2023-04-24 10:22:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10166,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 273,
-              "name": "Struisbaai",
-              "slug": "struisbaai",
-              "province_id": 3
-            },
-            {
-              "id": 286,
-              "name": "Bredasdorp",
-              "slug": "bredasdorp",
-              "province_id": 3
-            },
-            {
-              "id": 272,
-              "name": "Stilbaai",
-              "slug": "stilbaai",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10171,
           "title": "MetroFibre outage | Kyalami",
           "description": "MetroFibre has informed us of a network outage affecting Kyalami, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2836,6 +2705,69 @@
               "name": "Mitchells Plain Central",
               "slug": "mitchells-plain-central",
               "city_id": 308
+            }
+          ]
+        },
+        {
+          "id": 10190,
+          "title": "Vumatel outage | Vorna valley",
+          "description": "Vumatel has informed us of a network outage affecting Vorna valley, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-26 21:02:59",
+          "should_notify": 0,
+          "created_at": "2023-04-26 16:28:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10190,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 391,
+              "name": "Vorna Valley",
+              "slug": "vorna-valley",
+              "city_id": 50
             }
           ]
         },
