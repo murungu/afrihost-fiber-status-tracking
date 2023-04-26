@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10198,
+          "title": "Metrofibre Outage | Waterford View Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Waterford View Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-26 21:48:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10198,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 638,
+              "name": "Bloubosrand",
+              "slug": "bloubosrand",
+              "city_id": 53
+            }
+          ]
+        },
+        {
           "id": 10197,
           "title": "Vumatel Villages Outage | Sonneveld",
           "description": "Vumatel has informed us of a network outage affecting Sonneveld, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -124,69 +187,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 10195,
-          "title": "Vumatel Outage | Alan Manor",
-          "description": "Vumatel has informed us of a network outage affecting Alan Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-26 18:27:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10195,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1114,
-              "name": "Alan Manor",
-              "slug": "alan-manor",
-              "city_id": 8
-            }
-          ]
         },
         {
           "id": 10191,
@@ -2334,69 +2334,6 @@
       ],
       "closed": [
         {
-          "id": 10171,
-          "title": "MetroFibre outage | Kyalami",
-          "description": "MetroFibre has informed us of a network outage affecting Kyalami, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-25 08:33:24",
-          "should_notify": 0,
-          "created_at": "2023-04-24 13:11:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10171,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 917,
-              "name": "Kyalami Hills",
-              "slug": "kyalami-hills",
-              "city_id": 50
-            }
-          ]
-        },
-        {
           "id": 10172,
           "title": "Vumatel outage | Mokopane",
           "description": "Vumatel has informed us of a network outage affecting Mokopane, affected clients will experience {no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2768,6 +2705,69 @@
               "name": "Vorna Valley",
               "slug": "vorna-valley",
               "city_id": 50
+            }
+          ]
+        },
+        {
+          "id": 10195,
+          "title": "Vumatel Outage | Alan Manor",
+          "description": "Vumatel has informed us of a network outage affecting Alan Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-26 21:49:59",
+          "should_notify": 0,
+          "created_at": "2023-04-26 18:27:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10195,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1114,
+              "name": "Alan Manor",
+              "slug": "alan-manor",
+              "city_id": 8
             }
           ]
         },
