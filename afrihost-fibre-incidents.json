@@ -7,6 +7,84 @@
     "notices": {
       "open": [
         {
+          "id": 10211,
+          "title": "Evotel Degraded Service | Kathu, Middelburg & Rustenburg",
+          "description": "Evotel has informed us of a network outage affecting Kathu, Middelburg & Rustenburg, affected clients will experience intermittent connectivity and degraded service. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-04-28 17:44:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10211,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            },
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            },
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8
+            },
+            {
+              "id": 374,
+              "name": "Kathu",
+              "slug": "kathu",
+              "province_id": 5
+            },
+            {
+              "id": 690,
+              "name": "Middelburg",
+              "slug": "middelburg-1",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 10209,
           "title": "Vumatel Outage | Newcastle",
           "description": "Vumatel has informed us of a network outage affecting Newcastle, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -134,62 +212,6 @@
               "city_id": 8
             }
           ]
-        },
-        {
-          "id": 10207,
-          "title": "Evotel Degraded Services | Rustenburg",
-          "description": "We are investigating reports of degraded service affecting clients on the Evotel network in Rustenburg. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-27 22:41:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10207,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 10205,
@@ -899,62 +921,6 @@
           ]
         },
         {
-          "id": 10183,
-          "title": "Evotel outage | Middelburg",
-          "description": "Evotel has informed us of a network outage affecting Middelburg, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-25 16:42:14",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10183,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 690,
-              "name": "Middelburg",
-              "slug": "middelburg-1",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10178,
           "title": "MetroFibre outage | Carlswald",
           "description": "MetroFibre has informed us of a network outage affecting Carlswald, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1223,139 +1189,6 @@
               "city_id": 50
             }
           ]
-        },
-        {
-          "id": 10206,
-          "title": "Vumatel Maintenance | Polokwane, Atteridgeville, Marlboro, Eersterust, Meyerton, Tembisa, Soshanguve, Tzaneen, Wattville, Danville, Dawn Park, Wadeville, Mabopane, Germiston, Vereeniging, Springs, Minnebron and Casseldale",
-          "description": "Vumatel is conducting emergency maintenance affecting Polokwane, Atteridgeville, Marlboro, Eersterust, Meyerton, Tembisa, Soshanguve, Tzaneen, Wattville, Danville, Dawn Park, Wadeville, Mabopane, Germiston, Vereeniging, Springs, Minnebron and Casseldale from 2023-04-28 00:01 to 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-04-27 21:18:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10206,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10206,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10206,
-                "category_id": 27
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10206,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            },
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            },
-            {
-              "id": 38,
-              "name": "Tembisa",
-              "slug": "tembisa",
-              "province_id": 1
-            },
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            },
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
-            },
-            {
-              "id": 352,
-              "name": "Tzaneen",
-              "slug": "tzaneen",
-              "province_id": 4
-            },
-            {
-              "id": 59,
-              "name": "Vereeniging",
-              "slug": "vereeniging",
-              "province_id": 1
-            },
-            {
-              "id": 30,
-              "name": "Meyerton",
-              "slug": "meyerton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 10194,
@@ -1711,68 +1544,6 @@
             }
           ],
           "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 10182,
-          "title": "LinkLayer outage | Pinetown",
-          "description": "LinkLayer has informed us of a network outage affecting Pinetown, affected clients will experience no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-04-25 17:19:28",
-          "should_notify": 0,
-          "created_at": "2023-04-25 13:34:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10182,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 128,
-              "name": "Pinetown",
-              "slug": "pinetown",
-              "province_id": 2
-            },
-            {
-              "id": 180,
-              "name": "Waterfall",
-              "slug": "waterfall",
-              "province_id": 2
-            }
-          ],
           "suburbs": []
         },
         {
@@ -2162,6 +1933,62 @@
           "suburbs": []
         },
         {
+          "id": 10207,
+          "title": "Evotel Degraded Services | Rustenburg",
+          "description": "We are investigating reports of degraded service affecting clients on the Evotel network in Rustenburg. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": "An updated notice has been added, Evotel is investigating the issue.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-04-28 17:44:39",
+          "should_notify": 0,
+          "created_at": "2023-04-27 22:41:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10207,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            }
+          ],
+          "cities": [
+            {
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 10210,
           "title": "FrogFoot outage | Sunnydale",
           "description": "FrogFoot has informed us of a network outage affecting Sunnydale, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2211,16 +2038,16 @@
           "suburbs": []
         },
         {
-          "id": 10181,
-          "title": "LinkLayer maintenance | Ballito",
-          "description": "LinkLayer is conducting maintenance in Ballito on the 25th of April from 22:00 to the 26th of April at 04:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 10206,
+          "title": "Vumatel Maintenance | Polokwane, Atteridgeville, Marlboro, Eersterust, Meyerton, Tembisa, Soshanguve, Tzaneen, Wattville, Danville, Dawn Park, Wadeville, Mabopane, Germiston, Vereeniging, Springs, Minnebron and Casseldale",
+          "description": "Vumatel is conducting emergency maintenance affecting Polokwane, Atteridgeville, Marlboro, Eersterust, Meyerton, Tembisa, Soshanguve, Tzaneen, Wattville, Danville, Dawn Park, Wadeville, Mabopane, Germiston, Vereeniging, Springs, Minnebron and Casseldale from 2023-04-28 00:01 to 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
-          "resolved_at": "2023-04-26 18:22:35",
+          "resolved_at": "2023-04-28 17:34:55",
           "should_notify": 0,
-          "created_at": "2023-04-25 13:09:32",
+          "created_at": "2023-04-27 21:18:45",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -2238,30 +2065,107 @@
           },
           "categories": [
             {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 10181,
-                "category_id": 30
+                "notice_id": 10206,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10206,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10206,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10206,
+                "category_id": 15
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            },
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 102,
-              "name": "Ballito",
-              "slug": "ballito",
-              "province_id": 2
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            },
+            {
+              "id": 38,
+              "name": "Tembisa",
+              "slug": "tembisa",
+              "province_id": 1
+            },
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            },
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            },
+            {
+              "id": 352,
+              "name": "Tzaneen",
+              "slug": "tzaneen",
+              "province_id": 4
+            },
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1
+            },
+            {
+              "id": 30,
+              "name": "Meyerton",
+              "slug": "meyerton",
+              "province_id": 1
             }
           ],
           "suburbs": []
