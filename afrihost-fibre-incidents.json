@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 10304,
-          "title": "Octotel outage | Struisbaai and Bredasdorp",
-          "description": "Octotel has informed us of a network outage affecting Struisbaai and Bredasdorp, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 10306,
+          "title": "MetroFibre outage | Westridge, Berea",
+          "description": "MetroFibre has informed us of a network outage affecting Westridge, Berea, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-05-08 11:37:38",
+          "created_at": "2023-05-08 12:48:08",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,39 +34,103 @@
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 10304,
-                "category_id": 12
+                "notice_id": 10306,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 273,
-              "name": "Struisbaai",
-              "slug": "struisbaai",
-              "province_id": 3
-            },
-            {
-              "id": 286,
-              "name": "Bredasdorp",
-              "slug": "bredasdorp",
-              "province_id": 3
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 1831,
+              "name": "Westridge",
+              "slug": "westridge",
+              "city_id": 68
+            }
+          ]
+        },
+        {
+          "id": 10305,
+          "title": "TT Connect outage | Greenstone Hill",
+          "description": "TT Connect has informed us of a network outage affecting Greenstone Hill, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-08 12:44:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10305,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5918,
+              "name": "Greenstone Hill",
+              "slug": "greenstone-hill",
+              "city_id": 49
+            }
+          ]
         },
         {
           "id": 10303,
@@ -2277,55 +2341,6 @@
       ],
       "closed": [
         {
-          "id": 10282,
-          "title": "Vumatel Reach Outage | Mpumalanga Zone 3",
-          "description": "Vumatel has informed us of a network outage affecting Mpumalanga Zone 3, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-05-07 07:57:06",
-          "should_notify": 0,
-          "created_at": "2023-05-06 12:47:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10282,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 10283,
           "title": "Vumatel Villages Outage | Oakdene",
           "description": "Vumatel has informed us of a network outage affecting Oakdene, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2877,6 +2892,68 @@
               "city_id": 284
             }
           ]
+        },
+        {
+          "id": 10304,
+          "title": "Octotel outage | Struisbaai and Bredasdorp",
+          "description": "Octotel has informed us of a network outage affecting Struisbaai and Bredasdorp, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-05-08 12:34:24",
+          "should_notify": 0,
+          "created_at": "2023-05-08 11:37:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10304,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 273,
+              "name": "Struisbaai",
+              "slug": "struisbaai",
+              "province_id": 3
+            },
+            {
+              "id": 286,
+              "name": "Bredasdorp",
+              "slug": "bredasdorp",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
