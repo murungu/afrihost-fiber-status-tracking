@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 10347,
-          "title": "FrogFoot outage | Ermelo",
-          "description": "FrogFoot has informed us of a network outage affecting Ermelo, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 10348,
+          "title": "Vumatel outage | Vorna Valley",
+          "description": "Vumatel has informed us of a network outage affecting Vorna Valley, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-05-11 08:31:19",
+          "created_at": "2023-05-11 08:57:10",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,33 +34,40 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 10347,
-                "category_id": 7
+                "notice_id": 10348,
+                "category_id": 18
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 684,
-              "name": "Ermelo",
-              "slug": "ermelo",
-              "province_id": 9
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 391,
+              "name": "Vorna Valley",
+              "slug": "vorna-valley",
+              "city_id": 50
+            }
+          ]
         },
         {
           "id": 10346,
@@ -3940,85 +3947,6 @@
           ]
         },
         {
-          "id": 10259,
-          "title": "Vumatel Maintenance | Kenridge and Durbanville Hills",
-          "description": "Vumatel is conducting maintenance affecting Kenridge and Durbanville Hills from 2023-05-09 23:00 to 2023-05-10 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-04 17:10:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10259,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10259,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 195,
-              "name": "Durbanville",
-              "slug": "durbanville",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2651,
-              "name": "Kenridge",
-              "slug": "kenridge",
-              "city_id": 195
-            },
-            {
-              "id": 1801,
-              "name": "Durbanville Hills",
-              "slug": "durbanville-hills",
-              "city_id": 195
-            }
-          ]
-        },
-        {
           "id": 10238,
           "title": "Openserve maintenance | George",
           "description": "Openserve is conducting maintenance in George on the 9th of May from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -4073,135 +4001,9 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 10237,
-          "title": "Openserve maintenance | Meyerspark, Pretoria",
-          "description": "Openserve is conducting maintenance in Meyerspark, Pretoria on the 9th of May from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-03 15:20:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10237,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 846,
-              "name": "Meyerspark",
-              "slug": "meyerspark",
-              "city_id": 33
-            }
-          ]
         }
       ],
       "closed": [
-        {
-          "id": 10299,
-          "title": "Metrofibre Outage | Avoca",
-          "description": "Metrofibre has informed us of a network outage affecting Avoca, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-05-09 10:35:04",
-          "should_notify": 0,
-          "created_at": "2023-05-07 14:22:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10299,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1521,
-              "name": "Avoca",
-              "slug": "avoca",
-              "city_id": 68
-            }
-          ]
-        },
         {
           "id": 10302,
           "title": "Vuma Reach Outage | Bluedowns",
@@ -4745,6 +4547,62 @@
               "city_id": 2
             }
           ]
+        },
+        {
+          "id": 10347,
+          "title": "FrogFoot outage | Ermelo",
+          "description": "FrogFoot has informed us of a network outage affecting Ermelo, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-05-11 08:52:12",
+          "should_notify": 0,
+          "created_at": "2023-05-11 08:31:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10347,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 684,
+              "name": "Ermelo",
+              "slug": "ermelo",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
