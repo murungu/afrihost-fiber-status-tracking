@@ -56,6 +56,69 @@
           "suburbs": []
         },
         {
+          "id": 10366,
+          "title": "Frogfoot Outage | Constantia Village",
+          "description": "Frogfoot has informed us of a network outage affecting Constantia Village, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-12 09:25:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10366,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 165,
+              "name": "Constantia",
+              "slug": "constantia",
+              "city_id": 240
+            }
+          ]
+        },
+        {
           "id": 10365,
           "title": "Metrofibre Outage | Via Firenza",
           "description": "Metrofibre has informed us of a network outage affecting Via Firenza, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -173,69 +236,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 10362,
-          "title": "Vumatel Villages Outage | Greenstone Hill",
-          "description": "Vumatel has informed us of a network outage affecting Greenstone Hill, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-12 08:43:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10362,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 49,
-              "name": "Lethabong",
-              "slug": "lethabong",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5918,
-              "name": "Greenstone Hill",
-              "slug": "greenstone-hill",
-              "city_id": 49
-            }
-          ]
         },
         {
           "id": 10361,
@@ -2486,75 +2486,6 @@
       ],
       "closed": [
         {
-          "id": 10325,
-          "title": "Vumatel Outage | Rosebank and Mowbray",
-          "description": "Vumatel has informed us of a network outage affecting Rosebank and Mowbray, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-05-12 07:05:56",
-          "should_notify": 0,
-          "created_at": "2023-05-09 15:37:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10325,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2020,
-              "name": "Rosebank",
-              "slug": "rosebank-1",
-              "city_id": 240
-            },
-            {
-              "id": 1653,
-              "name": "Mowbray",
-              "slug": "mowbray",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 10327,
           "title": "Metrofibre Outage | Savuti Sands",
           "description": "Metrofibre has informed us of a network outage affecting Savuti Sands, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2977,6 +2908,69 @@
               "name": "Kenwyn",
               "slug": "kenwyn",
               "city_id": 240
+            }
+          ]
+        },
+        {
+          "id": 10362,
+          "title": "Vumatel Villages Outage | Greenstone Hill",
+          "description": "Vumatel has informed us of a network outage affecting Greenstone Hill, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-05-12 09:26:35",
+          "should_notify": 0,
+          "created_at": "2023-05-12 08:43:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10362,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5918,
+              "name": "Greenstone Hill",
+              "slug": "greenstone-hill",
+              "city_id": 49
             }
           ]
         },
