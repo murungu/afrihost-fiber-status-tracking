@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10398,
+          "title": "Vumatel Outage | Randhart",
+          "description": "Vumatel has informed us of a network outage affecting Randhart, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-13 16:43:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10398,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 185,
+              "name": "Randhart",
+              "slug": "randhart",
+              "city_id": 21
+            }
+          ]
+        },
+        {
           "id": 10397,
           "title": "Frogfoot Degraded Service | Bloemfontein",
           "description": "Frogfoot has informed us of a network outage affecting Bloemfontein, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -233,62 +296,6 @@
               "name": "Struisbaai",
               "slug": "struisbaai",
               "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 10391,
-          "title": "Frogfoot Outage | Port Shepstone",
-          "description": "Frogfoot has informed us of a network outage affecting Port Shepstone, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-13 08:28:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10391,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 129,
-              "name": "Port Shepstone",
-              "slug": "port-shepstone",
-              "province_id": 2
             }
           ],
           "suburbs": []
@@ -3111,69 +3118,6 @@
           "suburbs": []
         },
         {
-          "id": 10368,
-          "title": "Metrofibre Outage | Richmond Hill",
-          "description": "Metrofibre has informed us of a network outage affecting Richmond Hill, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-05-12 14:11:50",
-          "should_notify": 0,
-          "created_at": "2023-05-12 10:49:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10368,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 723,
-              "name": "Richmond Hill",
-              "slug": "richmond-hill",
-              "city_id": 458
-            }
-          ]
-        },
-        {
           "id": 10369,
           "title": "Vumatel Outage | Brakpan & Boksburg",
           "description": "Vumatel has informed us of a network outage affecting Brakpan & Boksburg, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -3715,6 +3659,62 @@
               "city_id": 33
             }
           ]
+        },
+        {
+          "id": 10391,
+          "title": "Frogfoot Outage | Port Shepstone",
+          "description": "Frogfoot has informed us of a network outage affecting Port Shepstone, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-05-13 16:37:36",
+          "should_notify": 0,
+          "created_at": "2023-05-13 08:28:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10391,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 129,
+              "name": "Port Shepstone",
+              "slug": "port-shepstone",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
