@@ -7,6 +7,93 @@
     "notices": {
       "open": [
         {
+          "id": 10436,
+          "title": "Clear Access outage | Pretoria East",
+          "description": "Clear Access has informed us of a network outage affecting Pretoria East, affected clients will experience limited to no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-16 09:18:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 4,
+              "name": "Clear Access",
+              "slug": "clear-access",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10436,
+                "category_id": 4
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1504,
+              "name": "Colbyn",
+              "slug": "colbyn",
+              "city_id": 33
+            },
+            {
+              "id": 152,
+              "name": "Garsfontein",
+              "slug": "garsfontein",
+              "city_id": 33
+            },
+            {
+              "id": 25,
+              "name": "Faerie Glen",
+              "slug": "faerie-glen",
+              "city_id": 33
+            },
+            {
+              "id": 1150,
+              "name": "Woodlands",
+              "slug": "woodlands-1",
+              "city_id": 33
+            },
+            {
+              "id": 132,
+              "name": "Woodhill",
+              "slug": "woodhill",
+              "city_id": 33
+            }
+          ]
+        },
+        {
           "id": 10433,
           "title": "Vuma Villages Outage | Naturena",
           "description": "Vumatel has informed us of a network outage affecting Naturena, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1414,62 +1501,6 @@
               "city_id": 37
             }
           ]
-        },
-        {
-          "id": 10357,
-          "title": "Metrofibre Outage | Jacobs",
-          "description": "Metrofibre has informed us of a network outage affecting Jacobs, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-11 16:42:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10357,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 62,
-              "name": "Bluff",
-              "slug": "bluff",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 10434,
