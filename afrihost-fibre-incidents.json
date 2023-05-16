@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10447,
+          "title": "MetroFibre Outage | Montana Park",
+          "description": "MetroFibre has informed us of a network outage affecting Montana Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-16 14:17:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10447,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 18,
+              "name": "Montana Park",
+              "slug": "montana-park",
+              "city_id": 33
+            }
+          ]
+        },
+        {
           "id": 10437,
           "title": "Vuma Reach outage | Roodepoort",
           "description": "Vuma Reach has informed us of a network outage affecting {Area}, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -367,62 +430,6 @@
               "city_id": 2
             }
           ]
-        },
-        {
-          "id": 10427,
-          "title": "TT Connect outage | Benoni",
-          "description": "TT Connect has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-15 14:15:31",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10427,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 10426,
@@ -1531,6 +1538,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 10446,
+          "title": "Openserve Outage | Roshnee",
+          "description": "Openserve has informed us of a network outage affecting Roshnee, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 2,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-16 14:05:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 2,
+            "name": "Low Impact",
+            "slug": "low-impact",
+            "description": "Minor problems",
+            "order": 1
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10446,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3760,
+              "name": "Roshnee",
+              "slug": "roshnee",
+              "city_id": 59
+            }
+          ]
         },
         {
           "id": 10443,
@@ -2678,195 +2748,6 @@
       ],
       "closed": [
         {
-          "id": 10414,
-          "title": "FibreSuburb Outage | Willow Creek",
-          "description": "FibreSuburb has informed us of a network outage affecting Willow Creek, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-05-16 08:53:47",
-          "should_notify": 0,
-          "created_at": "2023-05-14 14:44:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10414,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 483,
-              "name": "Little Falls",
-              "slug": "little-falls",
-              "city_id": 35
-            }
-          ]
-        },
-        {
-          "id": 10415,
-          "title": "Vumatel Villages Outage | Brackenhurst",
-          "description": "Vumatel has informed us of a network outage affecting Brackenhurst, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-05-15 05:53:39",
-          "should_notify": 0,
-          "created_at": "2023-05-14 15:04:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10415,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 35,
-              "name": "Brackenhurst",
-              "slug": "brackenhurst",
-              "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 10416,
-          "title": "Metrofibre Outage | Central Park Complex and Elandshaven",
-          "description": "Metrofibre has informed us of a network outage affecting Central Park Complex and Elandshaven, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-05-15 07:46:27",
-          "should_notify": 0,
-          "created_at": "2023-05-14 15:05:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10416,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1588,
-              "name": "Elandshaven",
-              "slug": "elandshaven",
-              "city_id": 21
-            }
-          ]
-        },
-        {
           "id": 10417,
           "title": "Frogfoot Outage | Protea Glen",
           "description": "Frogfoot has informed us of a network outage affecting Protea Glen, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3176,6 +3057,62 @@
           "suburbs": []
         },
         {
+          "id": 10427,
+          "title": "TT Connect outage | Benoni",
+          "description": "TT Connect has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-05-16 13:57:31",
+          "should_notify": 0,
+          "created_at": "2023-05-15 14:15:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10427,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 10429,
           "title": "Evotel outage | Krugersdorp",
           "description": "Evotel has informed us of a network outage affecting Krugersdorp, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3230,6 +3167,132 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 10445,
+          "title": "Openserve outage | Roshnee, Vereeniging",
+          "description": "Openserve has informed us of a network outage affecting Roshnee, Vereeniging, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-05-16 14:03:53",
+          "should_notify": 0,
+          "created_at": "2023-05-16 14:03:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10445,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3760,
+              "name": "Roshnee",
+              "slug": "roshnee",
+              "city_id": 59
+            }
+          ]
+        },
+        {
+          "id": 10444,
+          "title": "Openserve Outage | Roshnee",
+          "description": "Openserve has informed us of a network outage affecting Roshnee, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 2,
+          "expires_at": null,
+          "resolved_at": "2023-05-16 14:03:50",
+          "should_notify": 0,
+          "created_at": "2023-05-16 14:03:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 2,
+            "name": "Low Impact",
+            "slug": "low-impact",
+            "description": "Minor problems",
+            "order": 1
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10444,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 59,
+              "name": "Vereeniging",
+              "slug": "vereeniging",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3760,
+              "name": "Roshnee",
+              "slug": "roshnee",
+              "city_id": 59
+            }
+          ]
         },
         {
           "id": 10422,
