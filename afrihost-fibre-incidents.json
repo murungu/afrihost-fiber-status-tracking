@@ -7,6 +7,55 @@
     "notices": {
       "open": [
         {
+          "id": 10472,
+          "title": "MetroFibre Outage | Riverview",
+          "description": "Metrofibre has informed us of a network outage affecting Riverview, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-18 17:29:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10472,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 10471,
           "title": "MetroFibre Outage | Kyalami",
           "description": "Metrofibre has informed us of a network outage affecting Kyalami, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1377,6 +1426,77 @@
               "name": "Roshnee",
               "slug": "roshnee",
               "city_id": 59
+            }
+          ]
+        },
+        {
+          "id": 10473,
+          "title": "MetroFibre Maintenance |  Sunninghill",
+          "description": "MetroFibre is conducting maintenance in Sunninghill from Friday, 19th May 2023  to Saturday, 27th May 2023 between 22:00 and 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-18 17:32:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10473,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 667,
+              "notice_id": 10473,
+              "content": "Affected Areas:\nLa Garitta, Shambhala, Castle Rock, Hampton Court, Elli, Naivasha, Kalypso, Badger Park, Syringes Unit 1, Simbali Sands, Via Vercelli & \nSerengeti",
+              "created_by_id": 24,
+              "created_at": "2023-05-18 17:33:29"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 69,
+              "name": "Sunninghill",
+              "slug": "sunninghill",
+              "city_id": 16
             }
           ]
         },
