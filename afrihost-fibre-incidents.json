@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10491,
+          "title": "TT Connect Outage | Country View Partial",
+          "description": "TT Connect has informed us of a network outage affecting parts of Country View, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-20 09:30:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10491,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2427,
+              "name": "Country View",
+              "slug": "country-view",
+              "city_id": 2
+            }
+          ]
+        },
+        {
           "id": 10490,
           "title": "TT Connect Outage | Rynfield Partial",
           "description": "TT Connect has informed us of a network outage affecting parts of Rynfield, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -779,99 +842,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 10437,
-          "title": "Vuma Reach outage | Roodepoort",
-          "description": "Vuma Reach has informed us of a network outage affecting {Area}, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-16 10:52:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10437,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            },
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            },
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1645,
-              "name": "Delarey",
-              "slug": "delarey",
-              "city_id": 35
-            },
-            {
-              "id": 1349,
-              "name": "Newlands",
-              "slug": "newlands-3",
-              "city_id": 53
-            },
-            {
-              "id": 4459,
-              "name": "Montclair",
-              "slug": "montclair-3",
-              "city_id": 53
-            },
-            {
-              "id": 3589,
-              "name": "Claremont",
-              "slug": "claremont-2",
-              "city_id": 53
-            }
-          ]
         },
         {
           "id": 10436,
