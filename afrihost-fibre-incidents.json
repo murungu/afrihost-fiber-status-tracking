@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 10530,
+          "title": "MetroFibre outage | Isipingo",
+          "description": "MetroFibre has informed us of a network outage affecting Isipingo, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-05-23 11:09:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10530,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 158,
+              "name": "Isipingo",
+              "slug": "isipingo",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 10529,
           "title": "Vumatel outage | Port Elizabeth",
           "description": "Vumatel  has informed us of a network outage affecting Port Elizabeth, affected clients will experience no connectivity. Vumatel  engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1942,137 +1998,6 @@
           "suburbs": []
         },
         {
-          "id": 10482,
-          "title": "TT Connect Maintenance | Bedford Park",
-          "description": "TT Connect is conducting maintenance in Bedford Park from 22.05.2023\n08:00 to 22.05.2023 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-19 15:11:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10482,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 10478,
-          "title": "Vumatel Maintenance | Johannesburg North",
-          "description": "Vumatel is conducting maintenance in Bryanston, Marlboro, Rivonia, Sandton, and Senderwood from 22 May 2023 at 21:00 to 23 May 2023 at 07:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-19 09:29:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10478,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 4,
-              "name": "Bryanston",
-              "slug": "bryanston",
-              "city_id": 16
-            },
-            {
-              "id": 1813,
-              "name": "Marlboro",
-              "slug": "marlboro",
-              "city_id": 16
-            },
-            {
-              "id": 63,
-              "name": "Rivonia",
-              "slug": "rivonia",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 10477,
           "title": "Vumatel Maintenance | Cape Town",
           "description": "Vumatel is conducting maintenance in Landsdown Kenwyn, Oranjezicht, Ottery North, Plumstead South, Rondebosch East, Tamboerskloof, and Wynberg from 23 May 2023 at 23:00 to 24 May 2023 at 04:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2168,145 +2093,6 @@
               "name": "Wynberg",
               "slug": "wynberg",
               "city_id": 240
-            }
-          ]
-        },
-        {
-          "id": 10476,
-          "title": "Vumatel Maintenance | Multiple Sites",
-          "description": "Vumatel is conducting maintenance in Bloemfontein, Delft, East London, Foreshore, Goodwood, Macassar, Matroosfontein, Montagues Gardens, Mosselbay, Phahameng, Port Elizabeth, and Stellenbosch from 23 May 2023 at 00:01 to 23 May 2023 at 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-19 09:15:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10476,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            },
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 570,
-              "name": "Bloemfontein",
-              "slug": "bloemfontein",
-              "province_id": 7
-            },
-            {
-              "id": 291,
-              "name": "Delft",
-              "slug": "delft",
-              "province_id": 3
-            },
-            {
-              "id": 477,
-              "name": "East London",
-              "slug": "east-london",
-              "province_id": 6
-            },
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            },
-            {
-              "id": 295,
-              "name": "Goodwood",
-              "slug": "goodwood",
-              "province_id": 3
-            },
-            {
-              "id": 306,
-              "name": "Macassar",
-              "slug": "macassar",
-              "province_id": 3
-            },
-            {
-              "id": 259,
-              "name": "Matroosfontein",
-              "slug": "matroosfontein",
-              "province_id": 3
-            },
-            {
-              "id": 213,
-              "name": "Mossel Bay",
-              "slug": "mossel-bay",
-              "province_id": 3
-            },
-            {
-              "id": 608,
-              "name": "Mangaung",
-              "slug": "mangaung",
-              "province_id": 7
-            },
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            },
-            {
-              "id": 223,
-              "name": "Stellenbosch",
-              "slug": "stellenbosch",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 738,
-              "name": "Foreshore",
-              "slug": "foreshore",
-              "city_id": 240
-            },
-            {
-              "id": 4525,
-              "name": "Phahameng",
-              "slug": "phahameng-1",
-              "city_id": 570
             }
           ]
         },
@@ -2436,75 +2222,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 10343,
-          "title": "FrogFoot maintenance | Bloemfontein",
-          "description": "FrogFoot is conducting maintenance in Bloemfontein on the 22nd of May from 23:00 to the 23rd of May at 08:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-10 16:55:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10343,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 570,
-              "name": "Bloemfontein",
-              "slug": "bloemfontein",
-              "province_id": 7
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1267,
-              "name": "Hospitaalpark",
-              "slug": "hospitaalpark",
-              "city_id": 570
-            },
-            {
-              "id": 502,
-              "name": "Fichardt Park",
-              "slug": "fichardt-park",
-              "city_id": 570
-            }
-          ]
         }
       ],
       "closed": [
