@@ -1653,69 +1653,6 @@
           ]
         },
         {
-          "id": 10615,
-          "title": "MetroFibre outage | Sunninghill",
-          "description": "MetroFibre has informed us of a network outage affecting Sunninghill, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-29 18:39:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10615,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 69,
-              "name": "Sunninghill",
-              "slug": "sunninghill",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 10614,
           "title": "MetroFibre outage | Highveld",
           "description": "MetroFibre has informed us of a network outage affectin Highveld, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2142,6 +2079,125 @@
           ]
         },
         {
+          "id": 10687,
+          "title": "Octotel maintenance | Plettenberg Bay",
+          "description": "Octotel is conducting maintenance in Plettenberg Bay on the 8th of June from 09:00 to 16:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-06 09:14:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10687,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 217,
+              "name": "Plettenberg Bay",
+              "slug": "plettenberg-bay",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 10686,
+          "title": "Vuma Reach maintenance | Grassy Park, Cape Town",
+          "description": "Vuma Reach is conducting maintenance in Grassy Park, Cape Town on the 6th of June from 08:00 to the 7th of June at 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-06 09:12:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10686,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1917,
+              "name": "Grassy Park",
+              "slug": "grassy-park",
+              "city_id": 240
+            }
+          ]
+        },
+        {
           "id": 10685,
           "title": "Vumatel maintenance | Cape Town",
           "description": "Vumatel is conducting maintenance in Cape Town on the 8th of June from 23:00 to the 9th of June at 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2479,125 +2535,6 @@
             }
           ],
           "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 10670,
-          "title": "Openserve maintenance | Celtisdal, Centurion",
-          "description": "Openserve is conducting maintenance in Celtisdal, Centurion on the 6th of June from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-05 15:13:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10670,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 653,
-              "name": "Celtisdal",
-              "slug": "celtisdal",
-              "city_id": 43
-            }
-          ]
-        },
-        {
-          "id": 10669,
-          "title": "Openserve maintenance | Knysna",
-          "description": "Openserve is conducting maintenance in Knysna on the 6th of June from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-05 15:09:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10669,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            }
-          ],
           "suburbs": []
         },
         {
@@ -3119,191 +3056,9 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 10556,
-          "title": "FrogFoot maintenance | Protea Glen",
-          "description": "FrogFoot is conducting maintenance in Protea Glen on the 6th of June from 08:00 to 20:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-24 13:28:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10556,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 463,
-              "name": "Protea Glen",
-              "slug": "protea-glen",
-              "city_id": 17
-            }
-          ]
         }
       ],
       "closed": [
-        {
-          "id": 10648,
-          "title": "Openserve Outage | Doringkloof",
-          "description": "Openserve has informed us of a network outage affecting Doringkloof, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-06-02 04:18:19",
-          "should_notify": 0,
-          "created_at": "2023-06-01 18:32:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10648,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 537,
-              "name": "Doringkloof",
-              "slug": "doringkloof",
-              "city_id": 43
-            }
-          ]
-        },
-        {
-          "id": 10649,
-          "title": "Octotel Outage | Knysna",
-          "description": "Octotel has informed us of a network outage affecting Knysna, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-06-01 21:43:08",
-          "should_notify": 0,
-          "created_at": "2023-06-01 20:36:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10649,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 10651,
           "title": "Frogfoot Outage | Pietermaritzburg & Scottsville",
@@ -3798,6 +3553,125 @@
               "name": "Killarney",
               "slug": "killarney",
               "city_id": 8
+            }
+          ]
+        },
+        {
+          "id": 10669,
+          "title": "Openserve maintenance | Knysna",
+          "description": "Openserve is conducting maintenance in Knysna on the 6th of June from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-06-06 09:12:56",
+          "should_notify": 0,
+          "created_at": "2023-06-05 15:09:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10669,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 302,
+              "name": "Knysna",
+              "slug": "knysna",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 10670,
+          "title": "Openserve maintenance | Celtisdal, Centurion",
+          "description": "Openserve is conducting maintenance in Celtisdal, Centurion on the 6th of June from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-06-06 09:19:41",
+          "should_notify": 0,
+          "created_at": "2023-06-05 15:13:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10670,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 653,
+              "name": "Celtisdal",
+              "slug": "celtisdal",
+              "city_id": 43
             }
           ]
         }
