@@ -7,6 +7,75 @@
     "notices": {
       "open": [
         {
+          "id": 10689,
+          "title": "Vuma Villages outage | Barbeque Downs, Midrand",
+          "description": "Vuma Villages has informed us of a network outage affecting Barbeque Downs, Midrand, affected clients will experience no connectivity. Vuma Villages engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-06 10:49:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10689,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4770,
+              "name": "Barbeque A H",
+              "slug": "barbeque-a-h",
+              "city_id": 50
+            },
+            {
+              "id": 829,
+              "name": "Barbeque Downs",
+              "slug": "barbeque-downs",
+              "city_id": 50
+            }
+          ]
+        },
+        {
           "id": 10688,
           "title": "MetroFibre intermittent service | Sunninghill",
           "description": "We are investigating reports of intermittent service affecting MetroFibre clients in the Sunninghill area. Affected client are experiencing degraded / intermittent service during peak times. We apologize for any inconvenience caused.",
