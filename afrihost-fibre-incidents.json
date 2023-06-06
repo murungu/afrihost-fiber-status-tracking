@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10688,
+          "title": "MetroFibre intermittent service | Sunninghill",
+          "description": "We are investigating reports of intermittent service affecting MetroFibre clients in the Sunninghill area. Affected client are experiencing degraded / intermittent service during peak times. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-06 09:28:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10688,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 69,
+              "name": "Sunninghill",
+              "slug": "sunninghill",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 10680,
           "title": "Vumatel Outage | Bromhof",
           "description": "Vumatel has informed us of a network outage affecting Bromhof, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1527,69 +1590,6 @@
           ]
         },
         {
-          "id": 10633,
-          "title": "MetroFibre outage | Fernbrook Estate, Broadcres",
-          "description": "MetroFibre has informed us of a network outage affecting Fernbrook Estate, Broadcres, affected clients will experience {no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-30 14:32:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10633,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 81,
-              "name": "Broadacres",
-              "slug": "broadacres",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 10631,
           "title": "MetroFibre outage | Musgrave",
           "description": "MetroFibre has informed us of a network outage affecting Musgrave, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1714,62 +1714,6 @@
               "city_id": 43
             }
           ]
-        },
-        {
-          "id": 10613,
-          "title": "MetroFibre outage | Witbank",
-          "description": "MetroFibre has informed us of a network outage affectin Witbank, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-29 16:25:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10613,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 10611,
@@ -1897,62 +1841,6 @@
           "suburbs": []
         },
         {
-          "id": 10598,
-          "title": "Openserve Outage | Hillcrest",
-          "description": "Openserve has informed us of a network outage affecting Hillcrest, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-28 17:23:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10598,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 156,
-              "name": "Hillcrest",
-              "slug": "hillcrest",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10594,
           "title": "Metrofibre Outage | Kyalami Ridge and Beaulieu",
           "description": "Metrofibre has informed us of a network outage affecting Kyalami Ridge and Beaulieu, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2012,69 +1900,6 @@
               "name": "Kyalami",
               "slug": "kyalami",
               "city_id": 50
-            }
-          ]
-        },
-        {
-          "id": 10586,
-          "title": "Clear Access Outage | Helderwyk",
-          "description": "Clear Access has informed us of a network outage affecting Helderwyk, affected clients will experience no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-26 16:06:14",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 4,
-              "name": "Clear Access",
-              "slug": "clear-access",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10586,
-                "category_id": 4
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 42,
-              "name": "Brakpan",
-              "slug": "brakpan",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 926,
-              "name": "Helderwyk",
-              "slug": "helderwyk",
-              "city_id": 42
             }
           ]
         },
@@ -2937,125 +2762,6 @@
               "city_id": 240
             }
           ]
-        },
-        {
-          "id": 10605,
-          "title": "Octotel maintenance | Lakeside",
-          "description": "Octotel is conducting maintenance in Lakeside on the 6th of June from 04:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-29 15:27:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10605,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1595,
-              "name": "Lakeside",
-              "slug": "lakeside-1",
-              "city_id": 240
-            }
-          ]
-        },
-        {
-          "id": 10604,
-          "title": "Octotel maintenance |  Cape Gate",
-          "description": "Octotel is conducting maintenance in  Cape Gate on the 5th of June from 04:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-05-29 15:26:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10604,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         }
       ],
       "closed": [
