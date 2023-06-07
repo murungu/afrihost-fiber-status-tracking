@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10718,
+          "title": "Vumatel Villages Outage | Baysville",
+          "description": "Vumatel has informed us of a network outage affecting Baysville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-07 18:03:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10718,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1038,
+              "name": "Baysville",
+              "slug": "baysville",
+              "city_id": 477
+            }
+          ]
+        },
+        {
           "id": 10717,
           "title": "MetroFibre outage | Castleview, Germiston",
           "description": "MetroFibre has informed us of a network outage affecting Castleview, Germiston, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -255,69 +318,6 @@
               "name": "Brackendowns",
               "slug": "brackendowns",
               "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 10710,
-          "title": "Vumatel Villages Outage | Moreleta Park",
-          "description": "Vumatel has informed us of a network outage affecting Moreleta Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-07 05:25:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10710,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 33,
-              "name": "Moreletapark",
-              "slug": "moreletapark",
-              "city_id": 33
             }
           ]
         },
@@ -2911,69 +2911,6 @@
       ],
       "closed": [
         {
-          "id": 10677,
-          "title": "Vumatel Outage | Bromhof",
-          "description": "Vumatel has informed us of a network outage affecting Bromhof, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-06-05 23:42:38",
-          "should_notify": 0,
-          "created_at": "2023-06-05 22:00:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10677,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 757,
-              "name": "Bromhof",
-              "slug": "bromhof",
-              "city_id": 53
-            }
-          ]
-        },
-        {
           "id": 10679,
           "title": "Vumatel Outage | Richmond Estate",
           "description": "Vumatel has informed us of a network outage affecting Richmond Estate, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3411,6 +3348,69 @@
               "name": "Lincoln Meade",
               "slug": "lincoln-meade",
               "city_id": 87
+            }
+          ]
+        },
+        {
+          "id": 10710,
+          "title": "Vumatel Villages Outage | Moreleta Park",
+          "description": "Vumatel has informed us of a network outage affecting Moreleta Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-06-07 18:04:48",
+          "should_notify": 0,
+          "created_at": "2023-06-07 05:25:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10710,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 33,
+              "name": "Moreletapark",
+              "slug": "moreletapark",
+              "city_id": 33
             }
           ]
         },
