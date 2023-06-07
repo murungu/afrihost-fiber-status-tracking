@@ -7,68 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 10735,
-          "title": "Vumatel Reach Outage | Belhar and Mitchells Plain",
-          "description": "Vumatel has informed us of a network outage affecting Belhar and Mitchells Plain, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-07 23:44:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10735,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 308,
-              "name": "Mitchells Plain",
-              "slug": "mitchells-plain",
-              "province_id": 3
-            },
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10734,
           "title": "Vumatel Villages Maintenance | Highveld",
           "description": "Vumatel is conducting maintenance in Highveld from 2023-06-14 21:00 to 2023-06-15 07:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -3636,77 +3574,6 @@
       ],
       "closed": [
         {
-          "id": 10693,
-          "title": "MetroFibre outage | Tasbet Park",
-          "description": "MetroFibre has informed us of a network outage affecting Tasbet Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-06-07 22:48:07",
-          "should_notify": 0,
-          "created_at": "2023-06-06 12:52:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10693,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 681,
-              "notice_id": 10693,
-              "content": "Due to municipal damage, fibre repairs in Tasbet Park have been deferred till 07/06/2023.\n\nApologies for any inconvenience caused.",
-              "created_by_id": 11,
-              "created_at": "2023-06-06 17:26:17"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 26,
-              "name": "Tasbet Park",
-              "slug": "tasbet-park",
-              "city_id": 679
-            }
-          ]
-        },
-        {
           "id": 10694,
           "title": "MetroFibre outage | Lavender Lane, Paushof",
           "description": "MetroFibre has informed us of a network outage affecting Lavender Lane, Paushof, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -4170,6 +4037,68 @@
               "city_id": 35
             }
           ]
+        },
+        {
+          "id": 10735,
+          "title": "Vumatel Reach Outage | Belhar and Mitchells Plain",
+          "description": "Vumatel has informed us of a network outage affecting Belhar and Mitchells Plain, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-06-08 00:48:30",
+          "should_notify": 0,
+          "created_at": "2023-06-07 23:44:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10735,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 308,
+              "name": "Mitchells Plain",
+              "slug": "mitchells-plain",
+              "province_id": 3
+            },
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 10697,
