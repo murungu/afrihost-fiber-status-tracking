@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 10734,
-          "title": "Vumatel Villages Maintenance | Highveld",
-          "description": "Vumatel is conducting maintenance in Highveld from 2023-06-14 21:00 to 2023-06-15 07:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 10736,
+          "title": "Vumatel Villages Outage | Krugersdorp",
+          "description": "Vumatel has informed us of a network outage affecting Krugersdorp, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-06-07 21:04:36",
+          "created_at": "2023-06-08 01:54:13",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "vuma-villages",
               "product_id": 2,
               "pivot": {
-                "notice_id": 10734,
+                "notice_id": 10736,
                 "category_id": 15
               }
             }
@@ -54,20 +54,13 @@
           ],
           "cities": [
             {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
+              "id": 9,
+              "name": "Krugersdorp",
+              "slug": "krugersdorp",
               "province_id": 1
             }
           ],
-          "suburbs": [
-            {
-              "id": 236,
-              "name": "Highveld",
-              "slug": "highveld",
-              "city_id": 43
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 10733,
@@ -2047,6 +2040,69 @@
               "name": "Kyalami",
               "slug": "kyalami",
               "city_id": 50
+            }
+          ]
+        },
+        {
+          "id": 10734,
+          "title": "Vumatel Villages Maintenance | Highveld",
+          "description": "Vumatel is conducting maintenance in Highveld from 2023-06-14 21:00 to 2023-06-15 07:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-07 21:04:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10734,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 236,
+              "name": "Highveld",
+              "slug": "highveld",
+              "city_id": 43
             }
           ]
         },
