@@ -7,6 +7,74 @@
     "notices": {
       "open": [
         {
+          "id": 10808,
+          "title": "Vumatel outage | Dundee, Glencoe and Ladysmith",
+          "description": "Vumatel has informed us of a network outage affecting Dundee, Glencoe and Ladysmith, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-15 13:48:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10808,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2
+            },
+            {
+              "id": 154,
+              "name": "Glencoe",
+              "slug": "glencoe",
+              "province_id": 2
+            },
+            {
+              "id": 149,
+              "name": "Dundee",
+              "slug": "dundee",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 10807,
           "title": "MetroFibre outage | South Crest",
           "description": "MetroFibre has informed us of a network outage affecting South Crest, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -577,81 +645,6 @@
               "name": "Eldorado Park",
               "slug": "eldorado-park",
               "city_id": 17
-            }
-          ]
-        },
-        {
-          "id": 10790,
-          "title": "Vumatel outage | Marlboro and Alexandra",
-          "description": "Vumatel has informed us of a network outage affecting Marlboro and Alexandra, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-14 15:22:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10790,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1813,
-              "name": "Marlboro",
-              "slug": "marlboro",
-              "city_id": 16
-            },
-            {
-              "id": 3326,
-              "name": "Alexandra",
-              "slug": "alexandra",
-              "city_id": 8
             }
           ]
         },
@@ -3372,6 +3365,81 @@
           "suburbs": []
         },
         {
+          "id": 10790,
+          "title": "Vumatel outage | Marlboro and Alexandra",
+          "description": "Vumatel has informed us of a network outage affecting Marlboro and Alexandra, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-06-15 14:07:50",
+          "should_notify": 0,
+          "created_at": "2023-06-14 15:22:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10790,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1813,
+              "name": "Marlboro",
+              "slug": "marlboro",
+              "city_id": 16
+            },
+            {
+              "id": 3326,
+              "name": "Alexandra",
+              "slug": "alexandra",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 10795,
           "title": "TT Connect Outage | Bedfordview Partial",
           "description": "TT Connect has informed us of a network outage affecting parts of Bedfordview, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3608,62 +3676,6 @@
               "city_id": 16
             }
           ]
-        },
-        {
-          "id": 10781,
-          "title": "Evotel Maintenance | Postmasburg",
-          "description": "Evotel is conducting maintenance in Postmasburg from 2023-06-14 00:01 to 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": "2023-06-14 17:45:01",
-          "should_notify": 0,
-          "created_at": "2023-06-13 19:38:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10781,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 381,
-              "name": "Postmasburg",
-              "slug": "postmasburg",
-              "province_id": 5
-            }
-          ],
-          "suburbs": []
         }
       ]
     },
