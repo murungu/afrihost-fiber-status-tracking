@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10994,
+          "title": "Vumatel Outage | Birchleigh",
+          "description": "Vumatel has informed us of a network outage affecting Birchleigh, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-30 15:28:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10994,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 57,
+              "name": "Birchleigh",
+              "slug": "birchleigh",
+              "city_id": 48
+            }
+          ]
+        },
+        {
           "id": 10993,
           "title": "Vumatel Outage | Buccleuch Phase 2",
           "description": "Vumatel has informed us of a network outage affecting Buccleuch Phase 2, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -679,62 +742,6 @@
           ]
         },
         {
-          "id": 10960,
-          "title": "Metrofibre Outage | Isipingo Hills",
-          "description": "Metrofibre has informed us of a network outage affecting Isipingo Hills, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-29 14:47:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10960,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 158,
-              "name": "Isipingo",
-              "slug": "isipingo",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10959,
           "title": "Clear Access Outage | Randpark Ridge",
           "description": "Clear Access has informed us of a network outage affecting Randpark Ridge, affected clients will experience limited to no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -835,7 +842,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 710,
+              "notice_id": 10958,
+              "content": "Fibre outage caused due to municipal works, Evotel engineers are working on resolving the outage as soon as possible. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2023-06-30 15:13:51"
+            }
+          ],
           "provinces": [
             {
               "id": 9,
@@ -849,125 +864,6 @@
               "name": "Middelburg",
               "slug": "middelburg-1",
               "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 10957,
-          "title": "Vumatel Outage | Sharonlea",
-          "description": "Vumatel has informed us of a network outage affecting Sharonlea, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-29 13:44:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10957,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1226,
-              "name": "Sharonlea",
-              "slug": "sharonlea",
-              "city_id": 53
-            }
-          ]
-        },
-        {
-          "id": 10956,
-          "title": "Vumatel Outage | Pinetown",
-          "description": "Vumatel has informed us of a network outage affecting Pinetown, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-29 13:42:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10956,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 128,
-              "name": "Pinetown",
-              "slug": "pinetown",
-              "province_id": 2
             }
           ],
           "suburbs": []
@@ -2815,16 +2711,16 @@
       ],
       "closed": [
         {
-          "id": 10955,
-          "title": "Frogfoot Outage | Sea Park",
-          "description": "Frogfoot has informed us of a network outage affecting Sea Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 10960,
+          "title": "Metrofibre Outage | Isipingo Hills",
+          "description": "Metrofibre has informed us of a network outage affecting Isipingo Hills, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2023-06-29 18:49:47",
+          "resolved_at": "2023-06-30 15:14:11",
           "should_notify": 0,
-          "created_at": "2023-06-29 13:41:29",
+          "created_at": "2023-06-29 14:47:33",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -2842,13 +2738,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 10955,
-                "category_id": 7
+                "notice_id": 10960,
+                "category_id": 9
               }
             }
           ],
@@ -2862,20 +2758,13 @@
           ],
           "cities": [
             {
-              "id": 129,
-              "name": "Port Shepstone",
-              "slug": "port-shepstone",
+              "id": 158,
+              "name": "Isipingo",
+              "slug": "isipingo",
               "province_id": 2
             }
           ],
-          "suburbs": [
-            {
-              "id": 305,
-              "name": "Sea Park",
-              "slug": "sea-park",
-              "city_id": 129
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 10961,
