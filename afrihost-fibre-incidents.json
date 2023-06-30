@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 10991,
-          "title": "Vumatel Reach Outage | Soshanguve 3",
-          "description": "Vumatel has informed us of a network outage affecting Soshanguve 3, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 10992,
+          "title": "Vumatel Reach Outage | Soshanguve and Mabopane",
+          "description": "Vumatel has informed us of a network outage affecting Soshanguve and Mabopane, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-06-30 14:18:47",
+          "created_at": "2023-06-30 14:49:03",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "vuma-reach",
               "product_id": 2,
               "pivot": {
-                "notice_id": 10991,
+                "notice_id": 10992,
                 "category_id": 27
               }
             }
@@ -60,14 +60,7 @@
               "province_id": 1
             }
           ],
-          "suburbs": [
-            {
-              "id": 29,
-              "name": "Soshanguve",
-              "slug": "soshanguve",
-              "city_id": 33
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 10989,
@@ -3274,69 +3267,6 @@
       ],
       "closed": [
         {
-          "id": 10954,
-          "title": "Octotel Outage | Vredehoek",
-          "description": "Octotel has informed us of a network outage affecting Vredehoek, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-06-29 15:58:18",
-          "should_notify": 0,
-          "created_at": "2023-06-29 10:29:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10954,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 828,
-              "name": "Vredehoek",
-              "slug": "vredehoek",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 10955,
           "title": "Frogfoot Outage | Sea Park",
           "description": "Frogfoot has informed us of a network outage affecting Sea Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3851,6 +3781,77 @@
               "name": "Florentia",
               "slug": "florentia",
               "city_id": 21
+            }
+          ]
+        },
+        {
+          "id": 10991,
+          "title": "Vumatel Reach Outage | Soshanguve 3",
+          "description": "Vumatel has informed us of a network outage affecting Soshanguve 3, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "An updated notice has been added to reflect further areas affected.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-06-30 14:47:05",
+          "should_notify": 0,
+          "created_at": "2023-06-30 14:18:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10991,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 701,
+              "notice_id": 10991,
+              "content": "Further areas affected by the outage:\n\nSoshanguve 2\nMabopane",
+              "created_by_id": 25,
+              "created_at": "2023-06-30 14:46:17"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 29,
+              "name": "Soshanguve",
+              "slug": "soshanguve",
+              "city_id": 33
             }
           ]
         },
