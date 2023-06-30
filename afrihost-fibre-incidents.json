@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 10981,
+          "title": "Vumatel Outage | Ottery North, Cape Town",
+          "description": "Vumatel has informed us of a network outage affecting Ottery North, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-30 10:51:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10981,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1311,
+              "name": "Ottery",
+              "slug": "ottery",
+              "city_id": 240
+            }
+          ]
+        },
+        {
           "id": 10978,
           "title": "Metrofibre Outage | Claremont",
           "description": "Metrofibre has informed us of a network outage affecting Claremont, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2300,9 +2363,141 @@
           ]
         },
         {
+          "id": 10983,
+          "title": "Vumatel Maintenance | Weltevreden Park and Allen's Nek",
+          "description": "Vumatel is conducting maintenance in Weltevreden Park and Allen's Nek from 2023-07-03 08:00 to 2023-07-07 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-30 11:05:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10983,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 961,
+              "name": "Allens Nek",
+              "slug": "allens-nek",
+              "city_id": 35
+            },
+            {
+              "id": 216,
+              "name": "Weltevredenpark",
+              "slug": "weltevredenpark",
+              "city_id": 35
+            }
+          ]
+        },
+        {
+          "id": 10982,
+          "title": "Vumatel Maintenance | Blairgowrie",
+          "description": "Vumatel is conducting maintenance in Blairgowrie from 2023-07-03 08:00 to 2023-07-11 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-06-30 10:52:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10982,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 619,
+              "name": "Blairgowrie",
+              "slug": "blairgowrie",
+              "city_id": 53
+            }
+          ]
+        },
+        {
           "id": 10980,
           "title": "Metrofibre Maintenance | Albemarle, Dinwiddie, Verwoerdpark, South Crest, Gosforth park, Elandshaven, Elandspark, Florentia, Linmeyer and The Hills",
-          "description": "Metrofibre is conducting maintenance in Albemarle, Dinwiddie, Verwoerdpark, South Crest, Gosforth park, Elandshaven, Elandspark, Florentia, Linmeyer and The Hills from 2023-07-03 09:00 to 2023-07-07 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "description": "Metrofibre is conducting maintenance affecting Albemarle, Dinwiddie, Verwoerdpark, South Crest, Gosforth park, Elandshaven, Elandspark, Florentia, Linmeyer and The Hills from 2023-07-03 09:00 to 2023-07-07 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
