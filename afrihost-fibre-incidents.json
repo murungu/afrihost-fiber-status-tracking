@@ -7,6 +7,81 @@
     "notices": {
       "open": [
         {
+          "id": 11014,
+          "title": "Vumatel Outage | Norwood, Oaklands and Orchards",
+          "description": "Vumatel has informed us of a network outage affecting Norwood, Oaklands and Orchards, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-01 10:49:04",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11014,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 622,
+              "name": "Norwood",
+              "slug": "norwood",
+              "city_id": 8
+            },
+            {
+              "id": 1225,
+              "name": "Orchards",
+              "slug": "orchards",
+              "city_id": 8
+            },
+            {
+              "id": 876,
+              "name": "Oaklands",
+              "slug": "oaklands",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 11013,
           "title": "MetroFibre outage | Elandspark",
           "description": "MetroFibre has informed us of a network outage affecting Elandspark, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -183,62 +258,6 @@
               "name": "Khayelitsha",
               "slug": "khayelitsha",
               "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 11009,
-          "title": "Vumatel Outage | Mount Edgecombe",
-          "description": "Vumatel has informed us of a network outage affecting Mount Edgecombe, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-07-01 08:04:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11009,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 83,
-              "name": "Mount Edgecombe",
-              "slug": "mount-edgecombe",
-              "province_id": 2
             }
           ],
           "suburbs": []
@@ -690,69 +709,6 @@
               "name": "Belhar",
               "slug": "belhar",
               "city_id": 240
-            }
-          ]
-        },
-        {
-          "id": 10994,
-          "title": "Vumatel Outage | Birchleigh",
-          "description": "Vumatel has informed us of a network outage affecting Birchleigh, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-30 15:28:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10994,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 57,
-              "name": "Birchleigh",
-              "slug": "birchleigh",
-              "city_id": 48
             }
           ]
         },
@@ -3593,136 +3549,6 @@
       ],
       "closed": [
         {
-          "id": 10962,
-          "title": "Vumatel Outage | Kloof and Hillcrest",
-          "description": "Vumatel has informed us of a network outage affecting Kloof and Hillcrest, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-06-30 07:22:35",
-          "should_notify": 0,
-          "created_at": "2023-06-29 15:05:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10962,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 78,
-              "name": "Kloof",
-              "slug": "kloof",
-              "province_id": 2
-            },
-            {
-              "id": 156,
-              "name": "Hillcrest",
-              "slug": "hillcrest",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 10965,
-          "title": "Vumatel Outage | Ladysmith, Glencoe and Dundee",
-          "description": "Vumatel has informed us of a network outage affecting Ladysmith, Glencoe and Dundee, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-06-30 08:42:40",
-          "should_notify": 0,
-          "created_at": "2023-06-29 16:03:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10965,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
-            },
-            {
-              "id": 154,
-              "name": "Glencoe",
-              "slug": "glencoe",
-              "province_id": 2
-            },
-            {
-              "id": 149,
-              "name": "Dundee",
-              "slug": "dundee",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 10966,
           "title": "TT Connect Outage | Lethabong",
           "description": "We are investigating reports of no connectivity affecting clients on the TT Connect network in Lethabong. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
@@ -4177,6 +4003,125 @@
               "name": "Pretoria",
               "slug": "pretoria",
               "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 10994,
+          "title": "Vumatel Outage | Birchleigh",
+          "description": "Vumatel has informed us of a network outage affecting Birchleigh, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-01 10:50:15",
+          "should_notify": 0,
+          "created_at": "2023-06-30 15:28:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 10994,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 57,
+              "name": "Birchleigh",
+              "slug": "birchleigh",
+              "city_id": 48
+            }
+          ]
+        },
+        {
+          "id": 11009,
+          "title": "Vumatel Outage | Mount Edgecombe",
+          "description": "Vumatel has informed us of a network outage affecting Mount Edgecombe, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-01 10:50:21",
+          "should_notify": 0,
+          "created_at": "2023-07-01 08:04:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11009,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 83,
+              "name": "Mount Edgecombe",
+              "slug": "mount-edgecombe",
+              "province_id": 2
             }
           ],
           "suburbs": []
