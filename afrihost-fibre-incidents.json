@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 11021,
+          "title": "Netstream Outage | Alberton",
+          "description": "Netstream has informed us of a network outage affecting Alberton, affected clients will experience limited to no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-02 09:14:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 11,
+              "name": "Netstream",
+              "slug": "netstream",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11021,
+                "category_id": 11
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 715,
+              "notice_id": 11021,
+              "content": "Buildings affected include:\nWatsonia\nEco Villas\nMont Serrat\nMont Serrat 1\nMont Serrat 2\nMontagu 1\nMontagu 2\nPreston Place\nRose Gardens\nSaxon Hof",
+              "created_by_id": 25,
+              "created_at": "2023-07-02 09:15:22"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11020,
           "title": "TT Connect outage | Bedfordview",
           "description": "TT Connect has informed us of a network outage affecting Bedfordview, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
