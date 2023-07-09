@@ -7,6 +7,101 @@
     "notices": {
       "open": [
         {
+          "id": 11110,
+          "title": "MetroFibre Outage | Germiston Partial",
+          "description": "MetroFibre has informed us of a network outage affecting Germiston, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-09 17:22:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11110,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 720,
+              "notice_id": 11110,
+              "content": "Areas affected include:\n\nAegean Village Phase 1\nElandshaven\nSummer Place, Verwoerdpark\nUnion \nLinmeyer and Risana",
+              "created_by_id": 25,
+              "created_at": "2023-07-09 17:23:32"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1992,
+              "name": "Elandshaven",
+              "slug": "elandshaven-1",
+              "city_id": 46
+            },
+            {
+              "id": 394,
+              "name": "Linmeyer",
+              "slug": "linmeyer",
+              "city_id": 8
+            },
+            {
+              "id": 2073,
+              "name": "Risana",
+              "slug": "risana",
+              "city_id": 8
+            },
+            {
+              "id": 1721,
+              "name": "Union",
+              "slug": "union",
+              "city_id": 46
+            }
+          ]
+        },
+        {
           "id": 11109,
           "title": "TT Connect Outage | Edenvale Partial",
           "description": "TT Connect has informed us of a network outage affecting parts of Edenvale, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -180,75 +275,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 11106,
-          "title": "Metrofibre Outage | Linmeyer and Risana, Germiston",
-          "description": "Metrofibre has informed us of a network outage affecting Linmeyer and Risana, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-07-09 13:42:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11106,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 394,
-              "name": "Linmeyer",
-              "slug": "linmeyer",
-              "city_id": 8
-            },
-            {
-              "id": 2073,
-              "name": "Risana",
-              "slug": "risana",
-              "city_id": 8
-            }
-          ]
         },
         {
           "id": 11104,
@@ -2390,87 +2416,6 @@
       ],
       "closed": [
         {
-          "id": 11087,
-          "title": "Vumatel Reach Outage | Birchleigh, Clayville, Kaalfontein, Tembisa",
-          "description": "Vumatel Reach has informed us of a network outage affecting Birchleigh, Clayville, Kaalfontein & Tembisa, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-07-09 06:00:34",
-          "should_notify": 0,
-          "created_at": "2023-07-07 16:32:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11087,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 38,
-              "name": "Tembisa",
-              "slug": "tembisa",
-              "province_id": 1
-            },
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 57,
-              "name": "Birchleigh",
-              "slug": "birchleigh",
-              "city_id": 48
-            },
-            {
-              "id": 3947,
-              "name": "Hospital View",
-              "slug": "hospital-view-1",
-              "city_id": 38
-            },
-            {
-              "id": 3420,
-              "name": "Kaalfontein",
-              "slug": "kaalfontein-1",
-              "city_id": 48
-            }
-          ]
-        },
-        {
           "id": 11091,
           "title": "FrogFoot outage | Century City",
           "description": "FrogFoot has informed us of a network outage affecting Century City, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3046,6 +2991,75 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 11106,
+          "title": "Metrofibre Outage | Linmeyer and Risana, Germiston",
+          "description": "Metrofibre has informed us of a network outage affecting Linmeyer and Risana, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "An updated notice has been added to show further areas affected by the outage.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-09 17:24:07",
+          "should_notify": 0,
+          "created_at": "2023-07-09 13:42:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11106,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 394,
+              "name": "Linmeyer",
+              "slug": "linmeyer",
+              "city_id": 8
+            },
+            {
+              "id": 2073,
+              "name": "Risana",
+              "slug": "risana",
+              "city_id": 8
+            }
+          ]
         }
       ]
     },
