@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11119,
+          "title": "Openserve Outage | Secunda",
+          "description": "Openserve has informed us of a network outage affecting Secunda, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-10 08:40:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11119,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 676,
+              "name": "Secunda",
+              "slug": "secunda",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11118,
           "title": "MetroFibre Outage | Florentia",
           "description": "MetroFibre has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -71,8 +127,8 @@
         },
         {
           "id": 11117,
-          "title": "Vumatel Reach Outage | Khayelitsha",
-          "description": "Vumatel has informed us of a network outage affecting Khayelitsha, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "title": "Vumatel Reach Outage | Khayelitsha and surrounds",
+          "description": "Vumatel has informed us of a network outage affecting Khayelitsha and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
@@ -107,7 +163,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 721,
+              "notice_id": 11117,
+              "content": "Please note the Outage is affecting surrounding areas including Tafelsig. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2023-07-10 08:38:36"
+            }
+          ],
           "provinces": [
             {
               "id": 3,
