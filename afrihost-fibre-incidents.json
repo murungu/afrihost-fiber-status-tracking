@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11117,
+          "title": "Vumatel Reach Outage | Khayelitsha",
+          "description": "Vumatel has informed us of a network outage affecting Khayelitsha, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-10 07:25:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11117,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 204,
+              "name": "Khayelitsha",
+              "slug": "khayelitsha",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11113,
           "title": "Evotel outage | Newcastle",
           "description": "Evotel has informed us of a network outage affecting Newcastle, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -58,68 +114,6 @@
               "name": "Newcastle",
               "slug": "newcastle",
               "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 11112,
-          "title": "Evotel outage | Krugersdorp and Randfontein",
-          "description": "Evotel has informed us of a network outage affecting Krugersdorp and Randfontein, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-07-09 21:47:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11112,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 9,
-              "name": "Krugersdorp",
-              "slug": "krugersdorp",
-              "province_id": 1
-            },
-            {
-              "id": 14,
-              "name": "Randfontein",
-              "slug": "randfontein",
-              "province_id": 1
             }
           ],
           "suburbs": []
@@ -705,62 +699,6 @@
               "city_id": 50
             }
           ]
-        },
-        {
-          "id": 11093,
-          "title": "Balwin Degraded Service | The Fynbos",
-          "description": "Balwin has informed us of a network outage affecting The Fynbos, affected clients will experience limited to no connectivity. Balwin engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-07-08 08:56:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 1,
-              "name": "Balwin Fibre",
-              "slug": "balwin-fibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11093,
-                "category_id": 1
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 11090,
@@ -2464,84 +2402,6 @@
       ],
       "closed": [
         {
-          "id": 11095,
-          "title": "Vumatel Outage | Dundee, Glencoe and Ladysmith",
-          "description": "Vumatel has informed us of a network outage affecting Dundee, Glencoe and Ladysmith, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-07-08 17:02:24",
-          "should_notify": 0,
-          "created_at": "2023-07-08 09:46:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11095,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11095,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
-            },
-            {
-              "id": 149,
-              "name": "Dundee",
-              "slug": "dundee",
-              "province_id": 2
-            },
-            {
-              "id": 154,
-              "name": "Glencoe",
-              "slug": "glencoe",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11097,
           "title": "Vumatel Villages Outage | Moreleta Park",
           "description": "Vumatel has informed us of a network outage affecting Moreleta Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2966,6 +2826,68 @@
               "name": "Verulam",
               "slug": "verulam",
               "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 11112,
+          "title": "Evotel outage | Krugersdorp and Randfontein",
+          "description": "Evotel has informed us of a network outage affecting Krugersdorp and Randfontein, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-10 07:17:54",
+          "should_notify": 0,
+          "created_at": "2023-07-09 21:47:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11112,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 9,
+              "name": "Krugersdorp",
+              "slug": "krugersdorp",
+              "province_id": 1
+            },
+            {
+              "id": 14,
+              "name": "Randfontein",
+              "slug": "randfontein",
+              "province_id": 1
             }
           ],
           "suburbs": []
