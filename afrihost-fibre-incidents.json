@@ -206,70 +206,6 @@
           ]
         },
         {
-          "id": 11117,
-          "title": "Vumatel Reach Outage | Khayelitsha and surrounds",
-          "description": "Vumatel has informed us of a network outage affecting Khayelitsha and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-07-10 07:25:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11117,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 721,
-              "notice_id": 11117,
-              "content": "Please note the Outage is affecting surrounding areas including Tafelsig. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2023-07-10 08:38:36"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 204,
-              "name": "Khayelitsha",
-              "slug": "khayelitsha",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11113,
           "title": "Evotel outage | Newcastle",
           "description": "Evotel has informed us of a network outage affecting Newcastle, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -591,68 +527,6 @@
               "name": "Christiana",
               "slug": "christiana",
               "province_id": 8
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 11104,
-          "title": "Link Layer Outage | King Shaka Estate, Tongaat and Verulam",
-          "description": "Link Layer has informed us of a network outage affecting King Shaka Estate, Tongaat and Verulam, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-07-09 13:06:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11104,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 175,
-              "name": "Tongaat",
-              "slug": "tongaat",
-              "province_id": 2
-            },
-            {
-              "id": 98,
-              "name": "Verulam",
-              "slug": "verulam",
-              "province_id": 2
             }
           ],
           "suburbs": []
@@ -1222,6 +1096,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 11121,
+          "title": "Vumatel Maintenance | Allen's Nek, Weltevredenpark",
+          "description": "Vumatel is conducting maintenance in Allen's Nek, Weltevredenpark from 2023-07-10 08:00 to 2023-07-18 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-10 09:52:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11121,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 216,
+              "name": "Weltevredenpark",
+              "slug": "weltevredenpark",
+              "city_id": 35
+            }
+          ]
         },
         {
           "id": 11115,
@@ -2434,125 +2371,6 @@
       ],
       "closed": [
         {
-          "id": 11097,
-          "title": "Vumatel Villages Outage | Moreleta Park",
-          "description": "Vumatel has informed us of a network outage affecting Moreleta Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-07-09 09:07:00",
-          "should_notify": 0,
-          "created_at": "2023-07-08 12:23:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11097,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 33,
-              "name": "Moreletapark",
-              "slug": "moreletapark",
-              "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 11098,
-          "title": "Frogfoot Outage | Montclair and Woodlands, Durban",
-          "description": "Frogfoot has informed us of a network outage affecting Montclair and Woodlands, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-07-08 18:18:56",
-          "should_notify": 0,
-          "created_at": "2023-07-08 13:33:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11098,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11099,
           "title": "Vumatel Outage | Birdswood, Richards Bay",
           "description": "Vumatel has informed us of a network outage affecting Birdswood, Richards Bay, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2677,6 +2495,68 @@
               "name": "Randfontein",
               "slug": "randfontein",
               "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 11104,
+          "title": "Link Layer Outage | King Shaka Estate, Tongaat and Verulam",
+          "description": "Link Layer has informed us of a network outage affecting King Shaka Estate, Tongaat and Verulam, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-10 09:58:00",
+          "should_notify": 0,
+          "created_at": "2023-07-09 13:06:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11104,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 175,
+              "name": "Tongaat",
+              "slug": "tongaat",
+              "province_id": 2
+            },
+            {
+              "id": 98,
+              "name": "Verulam",
+              "slug": "verulam",
+              "province_id": 2
             }
           ],
           "suburbs": []
@@ -3039,6 +2919,70 @@
               "name": "Witbank",
               "slug": "witbank",
               "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 11117,
+          "title": "Vumatel Reach Outage | Khayelitsha and surrounds",
+          "description": "Vumatel has informed us of a network outage affecting Khayelitsha and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-10 09:58:24",
+          "should_notify": 0,
+          "created_at": "2023-07-10 07:25:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11117,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 721,
+              "notice_id": 11117,
+              "content": "Please note the Outage is affecting surrounding areas including Tafelsig. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2023-07-10 08:38:36"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 204,
+              "name": "Khayelitsha",
+              "slug": "khayelitsha",
+              "province_id": 3
             }
           ],
           "suburbs": []
