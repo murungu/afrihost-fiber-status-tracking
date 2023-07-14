@@ -7,7 +7,7 @@
     "notices": {
       "open": [
         {
-          "id": 11198,
+          "id": 11200,
           "title": "Openserve Outage | George",
           "description": "Openserve has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
@@ -16,7 +16,63 @@
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-07-14 18:28:23",
+          "created_at": "2023-07-14 18:38:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11200,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 11199,
+          "title": "Metrofibre Outage | Avoca, Manbod Gardens & Dookie Manors",
+          "description": "Metrofibre has informed us of a network outage affecting Avoca, Manbod Gardens & Dookie Manors, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-14 18:37:16",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +95,7 @@
               "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 11198,
+                "notice_id": 11199,
                 "category_id": 9
               }
             }
@@ -47,20 +103,27 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 1521,
+              "name": "Avoca",
+              "slug": "avoca",
+              "city_id": 68
+            }
+          ]
         },
         {
           "id": 11197,
@@ -2655,62 +2718,6 @@
       ],
       "closed": [
         {
-          "id": 11160,
-          "title": "TT Connect Outage | Modderfontein",
-          "description": "TT Connect has informed us of a network outage affecting Modderfontein, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-07-13 05:22:37",
-          "should_notify": 0,
-          "created_at": "2023-07-13 04:46:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11160,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 31,
-              "name": "Modderfontein",
-              "slug": "modderfontein",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11161,
           "title": "TT Connect Outage | Benoni",
           "description": "TT Connect has informed us of a network outage affecting Benoni, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3247,6 +3254,62 @@
               "city_id": 350
             }
           ]
+        },
+        {
+          "id": 11198,
+          "title": "Openserve Outage | George",
+          "description": "Openserve has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-14 18:37:42",
+          "should_notify": 0,
+          "created_at": "2023-07-14 18:28:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11198,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
