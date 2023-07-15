@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 11203,
+          "title": "Metrofibre Outage | Greenwood Park",
+          "description": "Metrofibre has informed us of a network outage affecting Greenwood Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-15 07:21:24",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11203,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 109,
+              "name": "Durban North",
+              "slug": "durban-north",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1591,
+              "name": "Greenwood Park",
+              "slug": "greenwood-park",
+              "city_id": 109
+            }
+          ]
+        },
+        {
           "id": 11201,
           "title": "Metrofibre Outage | Lotus Park",
           "description": "Metrofibre has informed us of a network outage affecting Lotus Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2018,6 +2081,69 @@
           "suburbs": []
         },
         {
+          "id": 11204,
+          "title": "Vumatel Villages Maintenance | Glen Marais",
+          "description": "Vumatel is conducting maintenance in Glen Marais from 2023-07-19 to  2023-07-20 between 10:00 and 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-15 07:25:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11204,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 28,
+              "name": "Glen Marais",
+              "slug": "glen-marais",
+              "city_id": 48
+            }
+          ]
+        },
+        {
           "id": 11193,
           "title": "Linteg Fibre Maintenance | Gauteng",
           "description": "Linteg Fibre is conducting maintenance in Gauteng from 14 July 2023 at 22:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2438,62 +2564,6 @@
           ]
         },
         {
-          "id": 11115,
-          "title": "MetroFibre maintenance | Umhlanga",
-          "description": "MetroFibre is conducting maintenance in Umhlanga on the 10th of July from 08:00 to the 14th of July at 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-07-09 23:14:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11115,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 95,
-              "name": "Umhlanga",
-              "slug": "umhlanga",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11085,
           "title": "Frogfoot Maintenance | Tembisa",
           "description": "Frogfoot is conducting maintenance in Tembisa from 2023-07-18 23:00 to 2023-07-19 07:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2702,79 +2772,6 @@
               "name": "Beyerspark",
               "slug": "beyerspark",
               "city_id": 22
-            }
-          ]
-        },
-        {
-          "id": 10976,
-          "title": "Vumatel Maintenance | Bryanston West",
-          "description": "Vumatel is conducting maintenance in Bryanston West from 2023-07-03 08:00 to 2023-07-14 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-06-30 09:38:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10976,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 10976,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 4,
-              "name": "Bryanston",
-              "slug": "bryanston",
-              "city_id": 16
             }
           ]
         }
