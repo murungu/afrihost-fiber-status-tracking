@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11240,
+          "title": "Linteg Outage | Glendower, West Ferry and Oaktree",
+          "description": "Linteg has informed us of a network outage affecting Glendower, West Ferry and Oaktree, affected clients will experience limited to no connectivity. Linteg engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-17 09:40:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 16,
+              "name": "Linteg Fibre",
+              "slug": "teralink",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11240,
+                "category_id": 16
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11238,
           "title": "Vumatel Villages Outage | Greenstone",
           "description": "Vumatel has informed us of a network outage affecting Greenstone, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1954,70 +2010,6 @@
       ],
       "closed": [
         {
-          "id": 11216,
-          "title": "Frogfoot Outage | Kempton Park Partial",
-          "description": "Frogfoot has informed us of a network outage affecting parts of Kempton Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-07-16 17:04:33",
-          "should_notify": 0,
-          "created_at": "2023-07-15 13:37:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11216,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 726,
-              "notice_id": 11216,
-              "content": "Areas affected include:\nPomona\nBrentwood Park\nSherwood Gardens\nBonaero Park\nNorton's Home Estates",
-              "created_by_id": 25,
-              "created_at": "2023-07-15 13:38:29"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11217,
           "title": "MetroFibre Outage | Montana",
           "description": "MetroFibre has informed us of a network outage affecting Montana, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2590,6 +2582,62 @@
               "city_id": 46
             }
           ]
+        },
+        {
+          "id": 11239,
+          "title": "Clear Access Outage | Glendower, West Ferry and Oaktree",
+          "description": "Clear Access has informed us of a network outage affecting Glendower, West Ferry and Oaktree, affected clients will experience limited to no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-07-17 09:38:39",
+          "should_notify": 0,
+          "created_at": "2023-07-17 09:37:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 4,
+              "name": "Clear Access",
+              "slug": "clear-access",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11239,
+                "category_id": 4
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
