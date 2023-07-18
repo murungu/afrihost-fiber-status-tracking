@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11284,
+          "title": "Vumatel Outage | Witbank",
+          "description": "Vumatel has informed us of a network outage affecting Witbank, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-18 15:08:01",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11284,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11282,
           "title": "Frogfoot Outage | Soweto, Bryanston, Kempton Park, Fairlands, Randfontein, Westbury, Senderwood, Johannesburg CBD, Rosebank, Marlboro, Randburg, Rivonia, Westgate, Orlando, Turffontein and Alberton",
           "description": "Frogfoot has informed us of a network outage affecting Soweto, Bryanston, Kempton Park, Fairlands, Randfontein, Westbury, Senderwood, Johannesburg CBD, Rosebank, Marlboro, Randburg, Rivonia, Westgate, Orlando, Turffontein, and Alberton, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1842,6 +1898,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 11283,
+          "title": "Openserve Maintenance | Sunward Park",
+          "description": "Openserve is conducting maintenance in Sunward Park from 2023-07-19 00:01 to 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-07-18 14:57:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11283,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 121,
+              "name": "Sunward Park",
+              "slug": "sunward-park",
+              "city_id": 22
+            }
+          ]
         },
         {
           "id": 11275,
