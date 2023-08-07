@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 11555,
-          "title": "Frogfoot Outage | Hartenbos & Monte Christo",
-          "description": "Frogfoot has informed us of a network outage affecting Hartenbos & Monte Christo, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 11558,
+          "title": "Frogfoot Outage | Constantia Place",
+          "description": "Frogfoot has informed us of a network outage affecting Constantia Place, affected clients will experience {Symptoms/impact}. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-08-07 10:12:45",
+          "created_at": "2023-08-07 10:56:23",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,8 +39,71 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 11555,
+                "notice_id": 11558,
                 "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 28,
+              "name": "Glen Marais",
+              "slug": "glen-marais",
+              "city_id": 48
+            }
+          ]
+        },
+        {
+          "id": 11556,
+          "title": "Vumatel Reach Outage | Macassar",
+          "description": "Vumatel Reach has informed us of a network outage affecting Macassar, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-07 10:51:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11556,
+                "category_id": 27
               }
             }
           ],
@@ -54,20 +117,13 @@
           ],
           "cities": [
             {
-              "id": 201,
-              "name": "Hartenbos",
-              "slug": "hartenbos",
+              "id": 306,
+              "name": "Macassar",
+              "slug": "macassar",
               "province_id": 3
             }
           ],
-          "suburbs": [
-            {
-              "id": 254,
-              "name": "Monte Christo",
-              "slug": "monte-christo",
-              "city_id": 201
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 11554,
@@ -1609,62 +1665,6 @@
           "suburbs": []
         },
         {
-          "id": 11531,
-          "title": "Frogfoot outage | Johannesburg",
-          "description": "Frogfoot has informed us of a network outage affecting Johannesburg, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-04 10:25:52",
-          "should_notify": 0,
-          "created_at": "2023-08-04 10:14:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11531,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11532,
           "title": "Frogfoot outage |  Germiston, Klerksdorp, Rustenburg, Samcor Park, Monument Park, Middelburg, Hendrina, Wadeville, Evaton, Vanderbijlpark, Faerie Glen, Orlando, Hammanskraal & Lynnwood",
           "description": "Frogfoot has informed us of a network outage affecting Germiston, Klerksdorp, Rustenburg, Samcor Park, Monument Park, Middelburg, Hendrina, Wadeville, Evaton, Vanderbijlpark, Faerie Glen, Orlando, Hammanskraal & Lynnwood, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2240,16 +2240,16 @@
           ]
         },
         {
-          "id": 11529,
-          "title": "FibreSuburb Network Outage | Thatchfield",
-          "description": "FibreSuburb Network has informed us of a network outage affecting Thatchfield, affected clients will experience no connectivity. FibreSuburb Network engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 11555,
+          "title": "Frogfoot Outage | Hartenbos & Monte Christo",
+          "description": "Frogfoot has informed us of a network outage affecting Hartenbos & Monte Christo, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2023-08-04 08:20:24",
+          "resolved_at": "2023-08-07 10:48:28",
           "should_notify": 0,
-          "created_at": "2023-08-04 07:58:21",
+          "created_at": "2023-08-07 10:12:45",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -2259,48 +2259,104 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 11529,
-                "category_id": 36
+                "notice_id": 11555,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
+              "id": 201,
+              "name": "Hartenbos",
+              "slug": "hartenbos",
+              "province_id": 3
             }
           ],
           "suburbs": [
             {
-              "id": 251,
-              "name": "Thatchfield",
-              "slug": "thatchfield",
-              "city_id": 43
+              "id": 254,
+              "name": "Monte Christo",
+              "slug": "monte-christo",
+              "city_id": 201
             }
           ]
+        },
+        {
+          "id": 11557,
+          "title": "Vuma Reach Outage | Macassar Zone 2",
+          "description": "Vuma Reach has informed us of a network outage affecting Macassar Zone 2, affected clients will experience no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-07 10:52:02",
+          "should_notify": 0,
+          "created_at": "2023-08-07 10:51:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11557,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
