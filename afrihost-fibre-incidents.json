@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 11615,
+          "title": "MetroFibre outage | New Germany",
+          "description": "MetroFibre has informed us of a network outage affecting New Germany, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-11 08:46:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11615,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 128,
+              "name": "Pinetown",
+              "slug": "pinetown",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 284,
+              "name": "New Germany",
+              "slug": "new-germany",
+              "city_id": 128
+            }
+          ]
+        },
+        {
           "id": 11614,
           "title": "FrogFoot outage | Elspark",
           "description": "FrogFoot has informed us of a network outage affecting Elspark, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2227,62 +2290,6 @@
           ]
         },
         {
-          "id": 11514,
-          "title": "Metrofibre Outage | Pietermaritzburg",
-          "description": "Metrofibre has informed us of a network outage affecting Pietermaritzburg, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-03 14:13:43",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11514,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11603,
           "title": "Openserve Maintenance | Pietersburg",
           "description": "Openserve is conducting maintenance in Pietersburg on the 2023-08-14 08:01 to 2023-08-14 16:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2405,69 +2412,6 @@
               "name": "Tyger Valley",
               "slug": "tyger-valley",
               "city_id": 186
-            }
-          ]
-        },
-        {
-          "id": 11600,
-          "title": "Openserve Maintenance | Fichardt Park",
-          "description": "Openserve is conducting maintenance in Fichardt Park on the 2023-08-11 00:01 to  2023-08-11 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-10 13:34:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11600,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 570,
-              "name": "Bloemfontein",
-              "slug": "bloemfontein",
-              "province_id": 7
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 502,
-              "name": "Fichardt Park",
-              "slug": "fichardt-park",
-              "city_id": 570
             }
           ]
         },
@@ -2703,69 +2647,6 @@
           "suburbs": []
         },
         {
-          "id": 11589,
-          "title": "Metrofibre Maintenance | Sun Valley",
-          "description": "Metrofibre is conducting maintenance in Sun Valley on Thursday, 10th August 2023 between 09:00 and 18:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-10 10:06:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11589,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2710,
-              "name": "Sun Valley",
-              "slug": "sun-valley",
-              "city_id": 50
-            }
-          ]
-        },
-        {
           "id": 11573,
           "title": "Balwin Fibre maintenance | Thaba Eco-Village",
           "description": "Balwin Fibre is conducting maintenance in Thaba Eco-Village on the 10th of August from 10:00 to 13:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2873,62 +2754,6 @@
               "name": "Isipingo",
               "slug": "isipingo",
               "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 11565,
-          "title": "Octotel maintenance | Struisbaai",
-          "description": "Octotel is conducting maintenance in Struisbaai on the 10th of August from 09:00 to 16:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-08 09:27:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11565,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 273,
-              "name": "Struisbaai",
-              "slug": "struisbaai",
-              "province_id": 3
             }
           ],
           "suburbs": []
@@ -3123,69 +2948,6 @@
           ]
         },
         {
-          "id": 11538,
-          "title": "Vuma Village Maintenance | Meyerton",
-          "description": "Vuma Village is conducting maintenance in Meyerton from 10 August 2023 22:00 to 11 August 2023 02:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-04 16:20:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11538,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 59,
-              "name": "Vereeniging",
-              "slug": "vereeniging",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3450,
-              "name": "Meyerton & Extension",
-              "slug": "meyerton-extension",
-              "city_id": 59
-            }
-          ]
-        },
-        {
           "id": 11535,
           "title": "Octotel Maintenance |  Plettenberg Bay",
           "description": "Octotel is conducting maintenance in  Plettenberg Bay from 10/08/2023 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -3240,81 +3002,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 11502,
-          "title": "Vumatel Maintenance | Valmary Park, Sonstraal and Vygeboom",
-          "description": "Vumatel is conducting maintenance in Valmary Park, Sonstraal and Vygeboom from 2023-08-08 22:00 to 2023-08-10 10:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-03 00:34:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11502,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 195,
-              "name": "Durbanville",
-              "slug": "durbanville",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1636,
-              "name": "Valmary Park",
-              "slug": "valmary-park",
-              "city_id": 195
-            },
-            {
-              "id": 1788,
-              "name": "Sonstraal",
-              "slug": "sonstraal",
-              "city_id": 195
-            },
-            {
-              "id": 1437,
-              "name": "Vygeboom",
-              "slug": "vygeboom",
-              "city_id": 195
-            }
-          ]
         },
         {
           "id": 11500,
@@ -3437,161 +3124,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 11578,
-          "title": "Vumatel Villages Outage | Brackendowns",
-          "description": "Vumatel has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-08 21:44:50",
-          "should_notify": 0,
-          "created_at": "2023-08-08 19:23:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11578,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 53,
-              "name": "Brackendowns",
-              "slug": "brackendowns",
-              "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 11582,
-          "title": "Octotel outage | Western Cape",
-          "description": "Octotel has informed us of a network outage affecting Western Cape, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-10 19:10:24",
-          "should_notify": 0,
-          "created_at": "2023-08-09 14:31:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11582,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            },
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 217,
-              "name": "Plettenberg Bay",
-              "slug": "plettenberg-bay",
-              "province_id": 3
-            },
-            {
-              "id": 301,
-              "name": "Klein Brak Rivier",
-              "slug": "klein-brak-rivier",
-              "province_id": 3
-            },
-            {
-              "id": 270,
-              "name": "Sedgefield",
-              "slug": "sedgefield",
-              "province_id": 3
-            },
-            {
-              "id": 200,
-              "name": "Grabouw",
-              "slug": "grabouw",
-              "province_id": 3
-            },
-            {
-              "id": 320,
-              "name": "Strand",
-              "slug": "strand",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 11587,
           "title": "Frogfoot outage | Nelspruit East",
@@ -4060,6 +3592,132 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 11589,
+          "title": "Metrofibre Maintenance | Sun Valley",
+          "description": "Metrofibre is conducting maintenance in Sun Valley on Thursday, 10th August 2023 between 09:00 and 18:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-08-11 08:31:27",
+          "should_notify": 0,
+          "created_at": "2023-08-10 10:06:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11589,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2710,
+              "name": "Sun Valley",
+              "slug": "sun-valley",
+              "city_id": 50
+            }
+          ]
+        },
+        {
+          "id": 11600,
+          "title": "Openserve Maintenance | Fichardt Park",
+          "description": "Openserve is conducting maintenance in Fichardt Park on the 2023-08-11 00:01 to  2023-08-11 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-08-11 08:30:49",
+          "should_notify": 0,
+          "created_at": "2023-08-10 13:34:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11600,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 570,
+              "name": "Bloemfontein",
+              "slug": "bloemfontein",
+              "province_id": 7
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 502,
+              "name": "Fichardt Park",
+              "slug": "fichardt-park",
+              "city_id": 570
+            }
+          ]
         }
       ]
     },
