@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 11629,
+          "title": "Vumatel Villages Outage | Waterberg Estate",
+          "description": "Vumatel has informed us of a network outage affecting Waterberg Estate, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-11 20:04:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11629,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 161,
+              "name": "Kosmosdal",
+              "slug": "kosmosdal",
+              "city_id": 43
+            }
+          ]
+        },
+        {
           "id": 11628,
           "title": "Vumatel Outage | Emmarentia",
           "description": "Vumatel has informed us of a network outage affecting Emmarentia, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -333,69 +396,6 @@
               "name": "New Germany",
               "slug": "new-germany",
               "city_id": 128
-            }
-          ]
-        },
-        {
-          "id": 11612,
-          "title": "Vumatel Outage | Firgrove Rural",
-          "description": "Vumatel has informed us of a network outage affecting Firgrove Rural, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-11 00:27:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11612,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 222,
-              "name": "Somerset West",
-              "slug": "somerset-west",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2770,
-              "name": "Firgrove",
-              "slug": "firgrove",
-              "city_id": 222
             }
           ]
         },
@@ -3756,69 +3756,6 @@
       ],
       "closed": [
         {
-          "id": 11591,
-          "title": "MetroFibre outage | Lonehill",
-          "description": "MetroFibre has informed us of a network outage affecting Lonehill, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-10 11:22:29",
-          "should_notify": 0,
-          "created_at": "2023-08-10 10:48:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11591,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 60,
-              "name": "Lonehill",
-              "slug": "lonehill",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 11592,
           "title": "Frogfoot Outage | Kariega, Despatch & Uitenhage",
           "description": "Frogfoot has informed us of a network outage affecting Kariega, Despatch & Uitenhage, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -4096,6 +4033,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 11612,
+          "title": "Vumatel Outage | Firgrove Rural",
+          "description": "Vumatel has informed us of a network outage affecting Firgrove Rural, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-11 19:47:51",
+          "should_notify": 0,
+          "created_at": "2023-08-11 00:27:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11612,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 222,
+              "name": "Somerset West",
+              "slug": "somerset-west",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2770,
+              "name": "Firgrove",
+              "slug": "firgrove",
+              "city_id": 222
+            }
+          ]
         },
         {
           "id": 11613,
