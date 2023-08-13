@@ -8,11 +8,11 @@
       "open": [
         {
           "id": 11640,
-          "title": "MetroFibre outage | Sandton",
+          "title": "MetroFibre outage | Sandton & Midrand",
           "description": "MetroFibre has informed us of a network outage affecting Sandton, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
@@ -26,11 +26,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
@@ -74,62 +74,6 @@
               "city_id": 16
             }
           ]
-        },
-        {
-          "id": 11637,
-          "title": "FrogFoot Outage | Kempton Park",
-          "description": "We are investigating reports of no connectivity affecting clients on the Frogfoot network in Kempton Park. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-13 08:45:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11637,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 11636,
@@ -186,69 +130,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 11634,
-          "title": "Frogfoot Outage | Villa Santika",
-          "description": "Frogfoot has informed us of a network outage affecting Constantia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-12 09:51:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11634,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2
-            }
-          ]
         },
         {
           "id": 11633,
@@ -764,77 +645,6 @@
           ]
         },
         {
-          "id": 11590,
-          "title": "Netstream outage | Fourways",
-          "description": "Netstream has informed us of a network outage affecting Fourways, affected clients will experience no connectivity. This outage is due to a blown transformer in the area, resulting in no power. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-10 10:21:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 11,
-              "name": "Netstream",
-              "slug": "netstream",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11590,
-                "category_id": 11
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 758,
-              "notice_id": 11590,
-              "content": "Affected sites listed below:\n\nThe Pinnacle\nIl Villaggio\nNorthern View",
-              "created_by_id": 11,
-              "created_at": "2023-08-10 10:21:50"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 40,
-              "name": "Fourways",
-              "slug": "fourways",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 11579,
           "title": "MetroFibre Outage | Sun Valley",
           "description": "MetroFibre has informed us of a network outage affecting Sun Valley, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -969,132 +779,6 @@
               "name": "Umhlali",
               "slug": "umhlali",
               "city_id": 102
-            }
-          ]
-        },
-        {
-          "id": 11530,
-          "title": "Metrofibre Outage | South Crest",
-          "description": "Metrofibre has informed us of a network outage affecting South Crest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-04 08:39:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11530,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 346,
-              "name": "South Crest",
-              "slug": "south-crest",
-              "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 11515,
-          "title": "Thinkspeed Outage | Cape Farms",
-          "description": "Thinkspeed has informed us of a network outage affecting Cape Farms, affected clients will experience limited to no connectivity. Thinkspeed engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-03 15:12:02",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 38,
-              "name": "Thinkspeed",
-              "slug": "thinkspeed",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11515,
-                "category_id": 38
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3350,
-              "name": "Cape Farms",
-              "slug": "cape-farms",
-              "city_id": 240
             }
           ]
         },
@@ -2116,126 +1800,6 @@
       ],
       "closed": [
         {
-          "id": 11613,
-          "title": "Vodacom Fibre outage | Gauteng",
-          "description": "Vodacom Fibre has informed us of a network outage affecting Gauteng, affected clients will experience no connectivity. Vodacom Fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-11 14:59:06",
-          "should_notify": 0,
-          "created_at": "2023-08-11 07:36:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 31,
-              "name": "Vodacom",
-              "slug": "vodacom",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11613,
-                "category_id": 31
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 759,
-              "notice_id": 11613,
-              "content": "Problem is also affecting the following areas:\n\nNorth West\nFree State\nMpumalanga\nLimpopo",
-              "created_by_id": 11,
-              "created_at": "2023-08-11 10:21:51"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 11614,
-          "title": "FrogFoot outage | Elspark",
-          "description": "FrogFoot has informed us of a network outage affecting Elspark, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-11 09:20:39",
-          "should_notify": 0,
-          "created_at": "2023-08-11 08:18:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11614,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 405,
-              "name": "Elspark",
-              "slug": "elspark",
-              "city_id": 46
-            }
-          ]
-        },
-        {
           "id": 11616,
           "title": "Vumatel outage | Ladysmith, Glencoe and Dundee",
           "description": "Vumatel has informed us of a network outage affecting Ladysmith, Glencoe and Dundee, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2562,6 +2126,69 @@
           ]
         },
         {
+          "id": 11634,
+          "title": "Frogfoot Outage | Villa Santika",
+          "description": "Frogfoot has informed us of a network outage affecting Constantia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-13 21:02:27",
+          "should_notify": 0,
+          "created_at": "2023-08-12 09:51:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11634,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 111,
+              "name": "Rynfield",
+              "slug": "rynfield",
+              "city_id": 2
+            }
+          ]
+        },
+        {
           "id": 11635,
           "title": "MetroFibre Outage | Pretoria North",
           "description": "MetroFibre has informed us of a network outage affecting Pretoria North, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2623,6 +2250,62 @@
               "city_id": 33
             }
           ]
+        },
+        {
+          "id": 11637,
+          "title": "FrogFoot Outage | Kempton Park",
+          "description": "We are investigating reports of no connectivity affecting clients on the Frogfoot network in Kempton Park. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-13 21:02:22",
+          "should_notify": 0,
+          "created_at": "2023-08-13 08:45:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11637,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 11638,
@@ -2739,11 +2422,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
