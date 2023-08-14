@@ -7,62 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 11643,
-          "title": "Metrofibre Outage | Sandton",
-          "description": "We are investigating reports of no connectivity affecting clients on the Metrofibre network in Sandton. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-14 08:54:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11643,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11642,
           "title": "Vodacom | Gauteng",
           "description": "Vodacom has informed us of a network outage affecting Gauteng, affected clients may experience intermittent connection . Vodacom engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1961,75 +1905,6 @@
           ]
         },
         {
-          "id": 11617,
-          "title": "Octotel outage | Rondebosch and Kenilworth",
-          "description": "Octotel has informed us of a network outage affecting Rondebosch and Kenilworth, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-11 23:17:02",
-          "should_notify": 0,
-          "created_at": "2023-08-11 11:21:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11617,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 676,
-              "name": "Kenilworth",
-              "slug": "kenilworth",
-              "city_id": 240
-            },
-            {
-              "id": 516,
-              "name": "Rondebosch",
-              "slug": "rondebosch",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 11630,
           "title": "Vumatel Outage | Witkoppen",
           "description": "Vumatel has informed us of a network outage affecting Witkoppen, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2508,6 +2383,62 @@
               "name": "Virginia",
               "slug": "virginia",
               "province_id": 7
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 11643,
+          "title": "Metrofibre Outage | Sandton",
+          "description": "We are investigating reports of no connectivity affecting clients on the Metrofibre network in Sandton. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": "Services have been restored. If you are still experiencing issues please reboot your Fibre Router to restore your connection.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-14 09:39:18",
+          "should_notify": 0,
+          "created_at": "2023-08-14 08:54:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11643,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
             }
           ],
           "suburbs": []
