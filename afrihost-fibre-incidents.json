@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 11737,
+          "title": "TT Connect Outage | Meadowbrook",
+          "description": "TT Connect has informed us of a network outage affecting Meadowbrook, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-20 04:46:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11737,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1537,
+              "name": "Meadowbrook",
+              "slug": "meadowbrook",
+              "city_id": 46
+            }
+          ]
+        },
+        {
           "id": 11736,
           "title": "Vumatel Villages Outage | Brackenhurst",
           "description": "Vumatel has informed us of a network outage affecting Brackenhurst, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -66,69 +129,6 @@
               "name": "Brackenhurst",
               "slug": "brackenhurst",
               "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 11735,
-          "title": "Vumatel Outage | The Crest",
-          "description": "Vumatel has informed us of a network outage affecting The Crest, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-19 23:55:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11735,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 195,
-              "name": "Durbanville",
-              "slug": "durbanville",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2976,
-              "name": "The Crest",
-              "slug": "the-crest",
-              "city_id": 195
             }
           ]
         },
@@ -1270,77 +1270,6 @@
           ]
         },
         {
-          "id": 11682,
-          "title": "TT Connect Outage | Meadowbrook",
-          "description": "TT Connect has informed us of a network outage affecting Meadowbrook, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-17 02:41:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11682,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 764,
-              "notice_id": 11682,
-              "content": "Please note the outage is on-going. TT Connect engineers are working on resolving the issue as soon as possible. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2023-08-18 01:21:21"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1537,
-              "name": "Meadowbrook",
-              "slug": "meadowbrook",
-              "city_id": 46
-            }
-          ]
-        },
-        {
           "id": 11677,
           "title": "Openserve Outage | Centurion partial",
           "description": "Openserve has informed us of a network outage affecting parts of Centurion, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2447,62 +2376,6 @@
       ],
       "closed": [
         {
-          "id": 11708,
-          "title": "Frogfoot Outage | The Oval",
-          "description": "Frogfoot has informed us of a network outage affecting The Oval, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-18 06:01:07",
-          "should_notify": 0,
-          "created_at": "2023-08-17 22:53:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11708,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11709,
           "title": "Frogfoot Outage | Bergvliet",
           "description": "Frogfoot has informed us of a network outage affecting Bergvliet, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3057,6 +2930,69 @@
               "name": "Eden Glen",
               "slug": "eden-glen",
               "city_id": 25
+            }
+          ]
+        },
+        {
+          "id": 11735,
+          "title": "Vumatel Outage | The Crest",
+          "description": "Vumatel has informed us of a network outage affecting The Crest, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-20 04:47:16",
+          "should_notify": 0,
+          "created_at": "2023-08-19 23:55:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11735,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 195,
+              "name": "Durbanville",
+              "slug": "durbanville",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2976,
+              "name": "The Crest",
+              "slug": "the-crest",
+              "city_id": 195
             }
           ]
         }
