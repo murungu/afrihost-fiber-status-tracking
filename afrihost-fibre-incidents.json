@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11775,
+          "title": "Vumatel Reach Outage | Phoenix",
+          "description": "Vumatel Reach has informed us of a network outage affecting  Phoenix, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-23 16:53:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11775,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 168,
+              "name": "Phoenix",
+              "slug": "phoenix",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11774,
           "title": "Openserve Outage | Pecanwood Estate",
           "description": "Openserve has informed us of a network outage affecting Pecanwood Estate, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -242,80 +298,6 @@
               "city_id": 33
             }
           ]
-        },
-        {
-          "id": 11770,
-          "title": "Octotel Outage | Knysna, George, Plettenberg Bay, & Kleinbrak",
-          "description": "Octotel has informed us of a network outage affecting Knysna, George, Plettenberg Bay, & Kleinbrak, affected clients will experience intermittent connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-23 10:26:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11770,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            },
-            {
-              "id": 217,
-              "name": "Plettenberg Bay",
-              "slug": "plettenberg-bay",
-              "province_id": 3
-            },
-            {
-              "id": 301,
-              "name": "Klein Brak Rivier",
-              "slug": "klein-brak-rivier",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 11769,
@@ -4026,76 +4008,6 @@
           "suburbs": []
         },
         {
-          "id": 11732,
-          "title": "TT Connect Outage | Boksburg and Rynfield",
-          "description": "TT Connect has informed us of a network outage affecting Boksburg and Rynfield, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-20 05:25:04",
-          "should_notify": 0,
-          "created_at": "2023-08-19 19:17:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11732,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 765,
-              "notice_id": 11732,
-              "content": "Rynfield has been restored, TT Connect engineers are continuing with repairs to restore Boksburg. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2023-08-19 20:37:49"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            },
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11733,
           "title": "Frogfoot Outage | Tudor Village",
           "description": "Frogfoot has informed us of a network outage affecting Tudor Village, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -4611,6 +4523,80 @@
               "city_id": 22
             }
           ]
+        },
+        {
+          "id": 11770,
+          "title": "Octotel Outage | Knysna, George, Plettenberg Bay, & Kleinbrak",
+          "description": "Octotel has informed us of a network outage affecting Knysna, George, Plettenberg Bay, & Kleinbrak, affected clients will experience intermittent connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-23 16:55:07",
+          "should_notify": 0,
+          "created_at": "2023-08-23 10:26:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11770,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            },
+            {
+              "id": 302,
+              "name": "Knysna",
+              "slug": "knysna",
+              "province_id": 3
+            },
+            {
+              "id": 217,
+              "name": "Plettenberg Bay",
+              "slug": "plettenberg-bay",
+              "province_id": 3
+            },
+            {
+              "id": 301,
+              "name": "Klein Brak Rivier",
+              "slug": "klein-brak-rivier",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
