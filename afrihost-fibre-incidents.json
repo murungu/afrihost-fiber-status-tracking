@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11811,
+          "title": "Frogfoot Outage | Kimberley",
+          "description": "Frogfoot has informed us of a network outage affecting Kimberley, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-25 18:14:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11811,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 375,
+              "name": "Kimberley",
+              "slug": "kimberley",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11805,
           "title": "FrogFoot outage | Glen Marais",
           "description": "FrogFoot has informed us of a network outage affecting Glen Marais, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2212,6 +2268,75 @@
               "name": "Lotus Park",
               "slug": "lotus-park",
               "city_id": 158
+            }
+          ]
+        },
+        {
+          "id": 11810,
+          "title": "Vumatel Maintenance | Weltevreden Park and Panorama",
+          "description": "Vumatel is conducting maintenance in Weltevreden Park and Panorama from 2023-08-30 08:00 to 2023-09-08 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-25 18:12:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11810,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 216,
+              "name": "Weltevredenpark",
+              "slug": "weltevredenpark",
+              "city_id": 35
+            },
+            {
+              "id": 5493,
+              "name": "Panorama A H",
+              "slug": "panorama-a-h",
+              "city_id": 35
             }
           ]
         },
