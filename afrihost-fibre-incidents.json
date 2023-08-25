@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 11812,
+          "title": "Vumatel Outage | Melville",
+          "description": "Vumatel has informed us of a network outage affecting Melville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-25 19:48:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11812,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 918,
+              "name": "Melville",
+              "slug": "melville-1",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 11811,
           "title": "Frogfoot Outage | Kimberley",
           "description": "Frogfoot has informed us of a network outage affecting Kimberley, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -274,62 +337,6 @@
               "city_id": 570
             }
           ]
-        },
-        {
-          "id": 11801,
-          "title": "TT Connect outage | Germiston",
-          "description": "TT Connect has informed us of a network outage affecting Germiston, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-25 08:58:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11801,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 11798,
@@ -3174,80 +3181,6 @@
       ],
       "closed": [
         {
-          "id": 11770,
-          "title": "Octotel Outage | Knysna, George, Plettenberg Bay, & Kleinbrak",
-          "description": "Octotel has informed us of a network outage affecting Knysna, George, Plettenberg Bay, & Kleinbrak, affected clients will experience intermittent connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-23 16:55:07",
-          "should_notify": 0,
-          "created_at": "2023-08-23 10:26:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11770,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            },
-            {
-              "id": 217,
-              "name": "Plettenberg Bay",
-              "slug": "plettenberg-bay",
-              "province_id": 3
-            },
-            {
-              "id": 301,
-              "name": "Klein Brak Rivier",
-              "slug": "klein-brak-rivier",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11772,
           "title": "Evotel Outage | Witbank & Klipfontein",
           "description": "Evotel has informed us of a network outage affecting Witbank & Klipfontein, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3895,6 +3828,62 @@
               "city_id": 42
             }
           ]
+        },
+        {
+          "id": 11801,
+          "title": "TT Connect outage | Germiston",
+          "description": "TT Connect has informed us of a network outage affecting Germiston, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-25 20:02:44",
+          "should_notify": 0,
+          "created_at": "2023-08-25 08:58:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11801,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
