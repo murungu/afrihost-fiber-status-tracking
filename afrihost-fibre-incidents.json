@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 11823,
+          "title": "Vumatel Reach Outage | Devland",
+          "description": "Vumatel Reach has informed us of a network outage affecting Devland, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-26 18:22:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11823,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2155,
+              "name": "Devland",
+              "slug": "devland",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 11822,
           "title": "Vumatel Villages Outage | Izinga",
           "description": "Vumatel has informed us of a network outage affecting Izinga, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -437,62 +500,6 @@
               "city_id": 8
             }
           ]
-        },
-        {
-          "id": 11811,
-          "title": "Frogfoot Outage | Kimberley",
-          "description": "Frogfoot has informed us of a network outage affecting Kimberley, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-25 18:14:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11811,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 375,
-              "name": "Kimberley",
-              "slug": "kimberley",
-              "province_id": 5
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 11805,
@@ -1571,69 +1578,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 11767,
-          "title": "Vumatel Reach Outage | Devland",
-          "description": "Vumatel Reach has informed us of a network outage affecting Devland, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-23 08:09:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11767,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2155,
-              "name": "Devland",
-              "slug": "devland",
-              "city_id": 8
-            }
-          ]
         },
         {
           "id": 11765,
@@ -3545,87 +3489,6 @@
       ],
       "closed": [
         {
-          "id": 11783,
-          "title": "FrogFoot outage | Boksburg",
-          "description": "FrogFoot has informed us of a network outage affecting Boksburg, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-24 11:46:01",
-          "should_notify": 0,
-          "created_at": "2023-08-24 11:31:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11783,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 911,
-              "name": "Bartletts",
-              "slug": "bartletts",
-              "city_id": 22
-            },
-            {
-              "id": 449,
-              "name": "Beyerspark",
-              "slug": "beyerspark",
-              "city_id": 22
-            },
-            {
-              "id": 1309,
-              "name": "Hughes",
-              "slug": "hughes",
-              "city_id": 22
-            },
-            {
-              "id": 1847,
-              "name": "Dayanglen",
-              "slug": "dayanglen",
-              "city_id": 22
-            }
-          ]
-        },
-        {
           "id": 11786,
           "title": "Vumatel Outage | Berea West",
           "description": "Vumatel has informed us of a network outage affecting Berea West, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -4089,6 +3952,62 @@
               "name": "Germiston",
               "slug": "germiston",
               "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 11811,
+          "title": "Frogfoot Outage | Kimberley",
+          "description": "Frogfoot has informed us of a network outage affecting Kimberley, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-26 18:10:04",
+          "should_notify": 0,
+          "created_at": "2023-08-25 18:14:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11811,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 375,
+              "name": "Kimberley",
+              "slug": "kimberley",
+              "province_id": 5
             }
           ],
           "suburbs": []
