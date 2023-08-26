@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11825,
+          "title": "Vumatel Reach Outage | Blue Downs Zone 7",
+          "description": "Vumatel Reach has informed us of a network outage affecting Blue Downs Zone 7, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-26 19:23:59",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11825,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 284,
+              "name": "Blue Downs",
+              "slug": "blue-downs",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11824,
           "title": "Metrofibre Outage | Lone hill",
           "description": "Metrofibre has informed us of a network outage affecting Lone hill, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -547,7 +603,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 773,
+              "notice_id": 11812,
+              "content": "Please note the outage is on-going, Vumatel engineers are working on restoring services as soon as possible. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2023-08-26 19:15:53"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -2420,62 +2484,6 @@
           "suburbs": []
         },
         {
-          "id": 11742,
-          "title": "Metrofibre Outage | Mount Michael",
-          "description": "Metrofibre has informed us of a network outage affecting Mount Michael, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-20 14:58:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11742,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 75,
-              "name": "Hilton",
-              "slug": "hilton",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11718,
           "title": "MetroFibre outage | Lotus Park",
           "description": "MetroFibre has informed us of a network outage affecting Lotus Park, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3420,62 +3428,6 @@
               "city_id": 8
             }
           ]
-        },
-        {
-          "id": 11695,
-          "title": "Vumatel Reach Maintenance | Mitchells Zone 02",
-          "description": "Vumatel is conducting maintenance in Mitchells Zone 02 from 2023-08-24 08:00 to 2023-08-25 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-17 20:17:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11695,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 308,
-              "name": "Mitchells Plain",
-              "slug": "mitchells-plain",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 11647,
