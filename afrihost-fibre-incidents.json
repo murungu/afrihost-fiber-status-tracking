@@ -7,6 +7,81 @@
     "notices": {
       "open": [
         {
+          "id": 11837,
+          "title": "Vumatel Outage | Norwood, Orchards and Oaklands",
+          "description": "Vumatel has informed us of a network outage affecting Norwood, Orchards and Oaklands, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-08-27 20:38:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11837,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 622,
+              "name": "Norwood",
+              "slug": "norwood",
+              "city_id": 8
+            },
+            {
+              "id": 1225,
+              "name": "Orchards",
+              "slug": "orchards",
+              "city_id": 8
+            },
+            {
+              "id": 876,
+              "name": "Oaklands",
+              "slug": "oaklands",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 11836,
           "title": "Evotel Outage | Postmasburg",
           "description": "Evotel has informed us of a network outage affecting Postmasburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -61,138 +136,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 11835,
-          "title": "Vumatel Reach Outage | Daveyton and Etwatwa",
-          "description": "Vumatel has informed us of a network outage affecting Daveyton and Etwatwa, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-27 19:22:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11835,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1193,
-              "name": "Daveyton",
-              "slug": "daveyton",
-              "city_id": 2
-            },
-            {
-              "id": 1558,
-              "name": "Etwatwa",
-              "slug": "etwatwa",
-              "city_id": 2
-            }
-          ]
-        },
-        {
-          "id": 11834,
-          "title": "Vumatel Outage | Farrarmere and surrounding areas",
-          "description": "Vumatel has informed us of a network outage affecting Farrarmere and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-08-27 19:05:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11834,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 268,
-              "name": "Farrarmere",
-              "slug": "farrarmere",
-              "city_id": 2
-            }
-          ]
         },
         {
           "id": 11833,
@@ -2564,131 +2507,6 @@
       ],
       "closed": [
         {
-          "id": 11799,
-          "title": "FrogFoot outage | Brakpan",
-          "description": "FrogFoot has informed us of a network outage affecting Brakpan, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-25 09:28:32",
-          "should_notify": 0,
-          "created_at": "2023-08-25 06:30:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11799,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 42,
-              "name": "Brakpan",
-              "slug": "brakpan",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1131,
-              "name": "Sherwood Gardens",
-              "slug": "sherwood-gardens",
-              "city_id": 42
-            },
-            {
-              "id": 597,
-              "name": "Kenleaf",
-              "slug": "kenleaf",
-              "city_id": 42
-            }
-          ]
-        },
-        {
-          "id": 11801,
-          "title": "TT Connect outage | Germiston",
-          "description": "TT Connect has informed us of a network outage affecting Germiston, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-25 20:02:44",
-          "should_notify": 0,
-          "created_at": "2023-08-25 08:58:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11801,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11811,
           "title": "Frogfoot Outage | Kimberley",
           "description": "Frogfoot has informed us of a network outage affecting Kimberley, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3168,6 +2986,138 @@
               "name": "Mowbray",
               "slug": "mowbray",
               "city_id": 240
+            }
+          ]
+        },
+        {
+          "id": 11834,
+          "title": "Vumatel Outage | Farrarmere and surrounding areas",
+          "description": "Vumatel has informed us of a network outage affecting Farrarmere and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-27 20:37:13",
+          "should_notify": 0,
+          "created_at": "2023-08-27 19:05:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11834,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 268,
+              "name": "Farrarmere",
+              "slug": "farrarmere",
+              "city_id": 2
+            }
+          ]
+        },
+        {
+          "id": 11835,
+          "title": "Vumatel Reach Outage | Daveyton and Etwatwa",
+          "description": "Vumatel has informed us of a network outage affecting Daveyton and Etwatwa, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-08-27 20:37:10",
+          "should_notify": 0,
+          "created_at": "2023-08-27 19:22:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11835,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1193,
+              "name": "Daveyton",
+              "slug": "daveyton",
+              "city_id": 2
+            },
+            {
+              "id": 1558,
+              "name": "Etwatwa",
+              "slug": "etwatwa",
+              "city_id": 2
             }
           ]
         }
