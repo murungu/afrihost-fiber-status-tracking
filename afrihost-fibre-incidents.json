@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 11898,
+          "title": "Vumatel Villages Outage | Benoni North",
+          "description": "Vumatel has informed us of a network outage affecting Benoni North, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-09-01 13:52:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11898,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 11897,
           "title": "Metrofibre Outage | Sun Valley",
           "description": "Metrofibre has informed us of a network outage affecting Sun Valley, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -68,62 +124,6 @@
               "city_id": 50
             }
           ]
-        },
-        {
-          "id": 11896,
-          "title": "Vumatel Reach Outage | Potchefstroom",
-          "description": "Vumatel has informed us of a network outage affecting Potchefstroom, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-01 12:44:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11896,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 658,
-              "name": "Potchefstroom",
-              "slug": "potchefstroom",
-              "province_id": 8
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 11893,
@@ -265,75 +265,6 @@
               "name": "Schoongezicht",
               "slug": "schoongezicht-2",
               "city_id": 195
-            }
-          ]
-        },
-        {
-          "id": 11890,
-          "title": "Metrofibre Outage | Linmeyer and Risana",
-          "description": "Metrofibre has informed us of a network outage affecting Linmeyer and Risana, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-01 11:49:37",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11890,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 394,
-              "name": "Linmeyer",
-              "slug": "linmeyer",
-              "city_id": 8
-            },
-            {
-              "id": 2073,
-              "name": "Risana",
-              "slug": "risana",
-              "city_id": 8
             }
           ]
         },
@@ -3397,205 +3328,6 @@
       ],
       "closed": [
         {
-          "id": 11855,
-          "title": "Vumatel Outage | Kempton Park and surrounding areas",
-          "description": "Vumatel has informed us of a network outage affecting Kempton Park and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-29 15:06:55",
-          "should_notify": 0,
-          "created_at": "2023-08-29 15:00:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11855,
-                "category_id": 27
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11855,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11855,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            },
-            {
-              "id": 38,
-              "name": "Tembisa",
-              "slug": "tembisa",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 167,
-              "name": "Birch Acres",
-              "slug": "birch-acres",
-              "city_id": 48
-            },
-            {
-              "id": 303,
-              "name": "Edleen",
-              "slug": "edleen",
-              "city_id": 48
-            },
-            {
-              "id": 57,
-              "name": "Birchleigh",
-              "slug": "birchleigh",
-              "city_id": 48
-            },
-            {
-              "id": 176,
-              "name": "Van Riebeeck Park",
-              "slug": "van-riebeeck-park",
-              "city_id": 48
-            },
-            {
-              "id": 842,
-              "name": "Aston Manor",
-              "slug": "aston-manor",
-              "city_id": 48
-            },
-            {
-              "id": 149,
-              "name": "Norkem Park",
-              "slug": "norkem-park",
-              "city_id": 48
-            },
-            {
-              "id": 112,
-              "name": "Terenure",
-              "slug": "terenure",
-              "city_id": 48
-            },
-            {
-              "id": 193,
-              "name": "Pomona",
-              "slug": "pomona",
-              "city_id": 48
-            },
-            {
-              "id": 3947,
-              "name": "Hospital View",
-              "slug": "hospital-view-1",
-              "city_id": 38
-            },
-            {
-              "id": 790,
-              "name": "Serengeti Lifestyle Estate",
-              "slug": "serengeti-lifestyle-estate",
-              "city_id": 48
-            }
-          ]
-        },
-        {
-          "id": 11856,
-          "title": "Vumatel Outage | Cape Town",
-          "description": "Vumatel has informed us of a network outage affecting Bothasig,Edgemead, Monte Vista, Panorama, Parow North, Richmond Estate, Summergreens, Tableview South, Tableview North & Tygerdal, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-08-29 16:41:32",
-          "should_notify": 0,
-          "created_at": "2023-08-29 16:32:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11856,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11860,
           "title": "Vuma Reach Outage | Voorbrug & Kuils River",
           "description": "Vuma Reach has informed us of a network outage affecting Voorbrug & Kuils River, affected clients will experience no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -4050,6 +3782,131 @@
               "city_id": 16
             }
           ]
+        },
+        {
+          "id": 11890,
+          "title": "Metrofibre Outage | Linmeyer and Risana",
+          "description": "Metrofibre has informed us of a network outage affecting Linmeyer and Risana, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-01 13:54:22",
+          "should_notify": 0,
+          "created_at": "2023-09-01 11:49:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11890,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 394,
+              "name": "Linmeyer",
+              "slug": "linmeyer",
+              "city_id": 8
+            },
+            {
+              "id": 2073,
+              "name": "Risana",
+              "slug": "risana",
+              "city_id": 8
+            }
+          ]
+        },
+        {
+          "id": 11896,
+          "title": "Vumatel Reach Outage | Potchefstroom",
+          "description": "Vumatel has informed us of a network outage affecting Potchefstroom, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-01 13:53:59",
+          "should_notify": 0,
+          "created_at": "2023-09-01 12:44:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11896,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            }
+          ],
+          "cities": [
+            {
+              "id": 658,
+              "name": "Potchefstroom",
+              "slug": "potchefstroom",
+              "province_id": 8
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 11877,
