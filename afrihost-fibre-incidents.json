@@ -7,6 +7,81 @@
     "notices": {
       "open": [
         {
+          "id": 11935,
+          "title": "Vumatel Outage | La Rochelle, Vredenberg and Vosfontein",
+          "description": "Vumatel has informed us of a network outage affecting La Rochelle, Vredennberg and Vosfontein, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-09-03 14:07:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11935,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 186,
+              "name": "Bellville",
+              "slug": "bellville",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3076,
+              "name": "La Rochelle",
+              "slug": "la-rochelle-1",
+              "city_id": 186
+            },
+            {
+              "id": 4158,
+              "name": "Vredenberg",
+              "slug": "vredenberg",
+              "city_id": 186
+            },
+            {
+              "id": 5812,
+              "name": "Vosfontein",
+              "slug": "vosfontein",
+              "city_id": 186
+            }
+          ]
+        },
+        {
           "id": 11934,
           "title": "Metrofibre Outage | Bluff",
           "description": "Metrofibre has informed us of a network outage affecting Bluff, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -367,75 +442,6 @@
               "name": "Brentwood",
               "slug": "brentwood",
               "city_id": 2
-            }
-          ]
-        },
-        {
-          "id": 11927,
-          "title": "Evotel Outage | Lenasia South & Ennerdale",
-          "description": "Evotel has informed us of a network outage affecting Lenasia South & Ennerdale, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-03 10:42:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11927,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 248,
-              "name": "Lenasia South",
-              "slug": "lenasia-south",
-              "city_id": 8
-            },
-            {
-              "id": 873,
-              "name": "Ennerdale",
-              "slug": "ennerdale",
-              "city_id": 8
             }
           ]
         },
@@ -2439,65 +2445,6 @@
       ],
       "closed": [
         {
-          "id": 11907,
-          "title": "Vumatel Outage | Mpumalanga",
-          "description": "Vumatel has informed us of a network outage affecting Mpumalanga, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "An updated notice has been added to reflect changes to the outage.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-02 13:06:36",
-          "should_notify": 0,
-          "created_at": "2023-09-02 13:03:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11907,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11907,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 11909,
           "title": "Evotel Outage | Vryheid",
           "description": "Evotel has informed us of a network outage affecting Vryheid, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2979,6 +2926,75 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 11927,
+          "title": "Evotel Outage | Lenasia South & Ennerdale",
+          "description": "Evotel has informed us of a network outage affecting Lenasia South & Ennerdale, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-03 13:58:06",
+          "should_notify": 0,
+          "created_at": "2023-09-03 10:42:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 11927,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 248,
+              "name": "Lenasia South",
+              "slug": "lenasia-south",
+              "city_id": 8
+            },
+            {
+              "id": 873,
+              "name": "Ennerdale",
+              "slug": "ennerdale",
+              "city_id": 8
+            }
+          ]
         },
         {
           "id": 11931,
