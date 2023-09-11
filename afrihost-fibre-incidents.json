@@ -7,6 +7,75 @@
     "notices": {
       "open": [
         {
+          "id": 12032,
+          "title": "Frogfoot Outage | Broadacres",
+          "description": "Frogfoot has informed us of a network outage affecting Broadacres, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-09-11 14:15:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12032,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16
+            },
+            {
+              "id": 1842,
+              "name": "Broadacres A H",
+              "slug": "broadacres-a-h",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 12028,
           "title": "Vumatel Villages Outage | Die Wilgers",
           "description": "Vumatel has informed us of a network outage affecting Die Wilgers, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1010,62 +1079,6 @@
               "city_id": 53
             }
           ]
-        },
-        {
-          "id": 12006,
-          "title": "Vumatel Reach Outage | Mitchells Plain Zone 20 and Tafelsig",
-          "description": "Vumatel has informed us of a network outage affecting Mitchells Plain Zone 20 and Tafelsig, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-10 10:24:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12006,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 308,
-              "name": "Mitchells Plain",
-              "slug": "mitchells-plain",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 12005,
@@ -2367,177 +2380,9 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 11894,
-          "title": "Frogfoot Maintenance | Polokwane",
-          "description": "Frogfoot is conducting maintenance in Polokwane from 2023-09-10 08:00 to 14:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-01 12:30:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11894,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 11891,
-          "title": "Frogfoot Maintenance | Century City",
-          "description": "Frogfoot is conducting maintenance in Century City from 2023-09-07 17:30 to 23:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-01 12:00:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11891,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         }
       ],
       "closed": [
-        {
-          "id": 11998,
-          "title": "Metrofibre Outage | Umhlanga Rocks",
-          "description": "Metrofibre has informed us of a network outage affecting Umhlanga Rocks, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-11 13:30:33",
-          "should_notify": 0,
-          "created_at": "2023-09-09 12:32:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11998,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 95,
-              "name": "Umhlanga",
-              "slug": "umhlanga",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 12001,
           "title": "Linteg Outage | Eligwa",
@@ -2719,6 +2564,62 @@
               "city_id": 46
             }
           ]
+        },
+        {
+          "id": 12006,
+          "title": "Vumatel Reach Outage | Mitchells Plain Zone 20 and Tafelsig",
+          "description": "Vumatel has informed us of a network outage affecting Mitchells Plain Zone 20 and Tafelsig, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-11 14:13:10",
+          "should_notify": 0,
+          "created_at": "2023-09-10 10:24:15",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12006,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 308,
+              "name": "Mitchells Plain",
+              "slug": "mitchells-plain",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 12012,
