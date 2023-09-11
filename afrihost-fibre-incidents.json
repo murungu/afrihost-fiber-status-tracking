@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 12012,
-          "title": "Frogfoot Outage | Ravenswood, Isando, Rynfield, Kempton Park, Springs and Surrounds",
-          "description": "Frogfoot has informed us of a network outage affecting Ravenswood, Isando, Rynfield, Kempton Park, Springs and Surrounding Areas, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 12013,
+          "title": "FrogFoot outage | Franschhoek",
+          "description": "FrogFoot has informed us of a network outage affecting Franschhoek, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-09-10 16:01:28",
+          "created_at": "2023-09-11 02:01:30",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12012,
+                "notice_id": 12013,
                 "category_id": 7
               }
             }
@@ -47,41 +47,17 @@
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            },
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            },
-            {
-              "id": 37,
-              "name": "Springs",
-              "slug": "springs",
-              "province_id": 1
-            },
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
+              "id": 246,
+              "name": "Franschhoek",
+              "slug": "franschhoek",
+              "province_id": 3
             }
           ],
           "suburbs": []
@@ -2454,72 +2430,6 @@
           "suburbs": []
         },
         {
-          "id": 11977,
-          "title": "Vumatel Outage | Polokwane Central",
-          "description": "Vumatel has informed us of a network outage affecting Polokwane Central, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-09 16:57:09",
-          "should_notify": 0,
-          "created_at": "2023-09-06 10:06:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11977,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 11977,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 11980,
           "title": "Evotel Outage | Rustenburg",
           "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2994,6 +2904,86 @@
               "city_id": 46
             }
           ]
+        },
+        {
+          "id": 12012,
+          "title": "Frogfoot Outage | Ravenswood, Isando, Rynfield, Kempton Park, Springs and Surrounds",
+          "description": "Frogfoot has informed us of a network outage affecting Ravenswood, Isando, Rynfield, Kempton Park, Springs and Surrounding Areas, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-11 02:01:47",
+          "should_notify": 0,
+          "created_at": "2023-09-10 16:01:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12012,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            },
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1
+            },
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
