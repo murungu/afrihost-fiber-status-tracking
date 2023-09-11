@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 12024,
+          "title": "MetroFibre Outage | Umhlanga Rocks",
+          "description": "MetroFibre has informed us of a network outage affecting Umhlanga Rocks, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-09-11 12:30:15",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12024,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 95,
+              "name": "Umhlanga",
+              "slug": "umhlanga",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 45,
+              "name": "Umhlanga Rocks",
+              "slug": "umhlanga-rocks",
+              "city_id": 95
+            }
+          ]
+        },
+        {
           "id": 12023,
           "title": "Vumatel Outage | Atholl",
           "description": "Vumatel has informed us of a network outage affecting Atholl, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
