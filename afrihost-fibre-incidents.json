@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 12083,
-          "title": "Frogfoot Outage | Noordhoek",
-          "description": "Frogfoot has informed us of a network outage affecting Noordhoek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 12084,
+          "title": "Vumatel Outage | Plumstead & surrounding areas",
+          "description": "We have observed an unconfirmed outage affecting clients on the Vumatel network in Plumstead & surrounding areas. We apologise for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-09-15 01:24:43",
+          "created_at": "2023-09-15 07:23:18",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,13 +34,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12083,
-                "category_id": 7
+                "notice_id": 12084,
+                "category_id": 18
               }
             }
           ],
@@ -54,13 +54,20 @@
           ],
           "cities": [
             {
-              "id": 263,
-              "name": "Noordhoek",
-              "slug": "noordhoek",
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
               "province_id": 3
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 817,
+              "name": "Plumstead",
+              "slug": "plumstead",
+              "city_id": 240
+            }
+          ]
         },
         {
           "id": 12082,
@@ -2164,95 +2171,6 @@
           "suburbs": []
         },
         {
-          "id": 12051,
-          "title": "Evotel Outage | National",
-          "description": "Evotel has informed us of a network outage affecting several networks, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-12 20:05:16",
-          "should_notify": 0,
-          "created_at": "2023-09-12 12:50:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12051,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            },
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 12054,
           "title": "Metrofibre outage | Pretoria North",
           "description": "Metrofibre has informed us of a network outage affecting Pretoria North, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2801,6 +2719,62 @@
               "city_id": 53
             }
           ]
+        },
+        {
+          "id": 12083,
+          "title": "Frogfoot Outage | Noordhoek",
+          "description": "Frogfoot has informed us of a network outage affecting Noordhoek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-15 07:18:59",
+          "should_notify": 0,
+          "created_at": "2023-09-15 01:24:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12083,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 263,
+              "name": "Noordhoek",
+              "slug": "noordhoek",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
