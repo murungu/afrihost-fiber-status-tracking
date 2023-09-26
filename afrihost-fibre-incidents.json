@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 12223,
+          "title": "Frogfoot Outage | Kirstenhof",
+          "description": "Frogfoot has informed us of a network outage affecting Kirstenhof, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-09-26 15:04:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12223,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1926,
+              "name": "Kirstenhof",
+              "slug": "kirstenhof",
+              "city_id": 240
+            }
+          ]
+        },
+        {
           "id": 12222,
           "title": "Vumatel Villages Outage | Macassar",
           "description": "Vumatel has informed us of a network outage affecting Macassar, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -243,69 +306,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 12206,
-          "title": "Vumatel Villages Outage | Lincoln Meade",
-          "description": "Vumatel has informed us of a network outage affecting Lincoln Meade, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 09:08:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12206,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1160,
-              "name": "Lincoln Meade",
-              "slug": "lincoln-meade",
-              "city_id": 87
-            }
-          ]
         },
         {
           "id": 12204,
@@ -2593,62 +2593,6 @@
           "suburbs": []
         },
         {
-          "id": 12185,
-          "title": "Metrofibre Outage | Edenvale",
-          "description": "Metrofibre has informed us of a network outage affecting Edenvale & surrounding areas, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-26 07:56:00",
-          "should_notify": 0,
-          "created_at": "2023-09-24 11:17:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12185,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12190,
           "title": "Frogfoot Outage | Caledon",
           "description": "Frogfoot has informed us of a network outage affecting Caledon, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3058,6 +3002,69 @@
               "name": "Douglasdale",
               "slug": "douglasdale",
               "city_id": 16
+            }
+          ]
+        },
+        {
+          "id": 12206,
+          "title": "Vumatel Villages Outage | Lincoln Meade",
+          "description": "Vumatel has informed us of a network outage affecting Lincoln Meade, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-26 15:05:20",
+          "should_notify": 0,
+          "created_at": "2023-09-26 09:08:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12206,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 87,
+              "name": "Pietermaritzburg",
+              "slug": "pietermaritzburg",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1160,
+              "name": "Lincoln Meade",
+              "slug": "lincoln-meade",
+              "city_id": 87
             }
           ]
         },
