@@ -7,62 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 12257,
-          "title": "Frogfoot Outage | Lephalale",
-          "description": "Frogfoot has informed us of a network outage affecting Lephalale, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-28 07:15:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12257,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 332,
-              "name": "Lephalale",
-              "slug": "lephalale",
-              "province_id": 4
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12256,
           "title": "FibreSuburb Networks Outage | Southdowns",
           "description": "FibreSuburb Networks has informed us of a network outage affecting Southdowns, affected clients will experience limited to no connectivity. FibreSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1954,70 +1898,6 @@
           ]
         },
         {
-          "id": 12182,
-          "title": "TT Connect Outage | Boksburg & Benoni",
-          "description": "TT Connect has informed us of a network outage affecting Boksburg & Benoni, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-23 02:10:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12182,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 788,
-              "notice_id": 12182,
-              "content": "The outage is on-going. TT Connect engineers are working on resolving the issue as soon as possible. We apologize for the inconvenience caused.",
-              "created_by_id": 25,
-              "created_at": "2023-09-25 06:56:41"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12181,
           "title": "Metrofibre Outage | Olympus",
           "description": "Metrofibre has informed us of a network outage affecting Olympus, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2077,6 +1957,69 @@
               "name": "Olympus",
               "slug": "olympus",
               "city_id": 33
+            }
+          ]
+        },
+        {
+          "id": 12258,
+          "title": "Octotel Maintenance | Rondebosch",
+          "description": "Octotel is conducting maintenance in Rondebosch from 2023-10-03 03:00 to 05:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-09-28 07:46:24",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12258,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 516,
+              "name": "Rondebosch",
+              "slug": "rondebosch",
+              "city_id": 240
             }
           ]
         },
@@ -2754,125 +2697,6 @@
           "suburbs": []
         },
         {
-          "id": 12221,
-          "title": "Vumatel Villages Maintenance | Naturena",
-          "description": "Vumatel is conducting maintenance in Naturena from 2023-09-28 00:30 to 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 12:02:24",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12221,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 600,
-              "name": "Naturena",
-              "slug": "naturena",
-              "city_id": 8
-            }
-          ]
-        },
-        {
-          "id": 12220,
-          "title": "Vumatel Reach Maintenance | Phoenix Zone 1",
-          "description": "Vumatel is conducting maintenance in Phoenix Zone 1 from 2023-09-28 02:00 to 03:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 12:01:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12220,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 168,
-              "name": "Phoenix",
-              "slug": "phoenix",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12218,
           "title": "MetroFibre Maintenance | Edison Crescent, Sunninghill",
           "description": "MetroFibre is conducting maintenance in Edison Crescent, Sunninghill from 2023-09-28 09:00 to 21:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2934,538 +2758,6 @@
               "city_id": 16
             }
           ]
-        },
-        {
-          "id": 12217,
-          "title": "Vumatel Villages Maintenance | Woodhaven",
-          "description": "Vumatel is conducting maintenance in Woodhaven from 2023-09-27 22:30 to 23:59, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 11:00:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12217,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1791,
-              "name": "Woodhaven",
-              "slug": "woodhaven",
-              "city_id": 68
-            }
-          ]
-        },
-        {
-          "id": 12216,
-          "title": "Vumatel Villages Maintenance | Umhlanga",
-          "description": "Vumatel is conducting maintenance in Umhlanga from 2023-09-27 02:30 to 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:58:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12216,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 95,
-              "name": "Umhlanga",
-              "slug": "umhlanga",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 12215,
-          "title": "Vumatel Villages Maintenance | Birdswood",
-          "description": "Vumatel is conducting maintenance in Birdswood from 2023-09-27 22:00 to 23:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:56:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12215,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 157,
-              "name": "Birdswood",
-              "slug": "birdswood",
-              "city_id": 130
-            }
-          ]
-        },
-        {
-          "id": 12214,
-          "title": "Vumatel Villages Maintenance | Mtunzini",
-          "description": "Vumatel is conducting maintenance in Mtunzini from 2023-09-27 00:30 to 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:55:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12214,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 165,
-              "name": "Mtunzini",
-              "slug": "mtunzini",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 12213,
-          "title": "Vumatel Villages Maintenance | Bulwer and Durban Central",
-          "description": "Vumatel is conducting maintenance in Bulwer and Durban Central from 2023-09-26 22:00 to 23:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:53:37",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12213,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 12212,
-          "title": "Vumatel Villages Maintenance | Shaka's Rock",
-          "description": "Vumatel is conducting maintenance in Shaka's Rock from 2023-09-27 02:00 to 03:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:52:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12212,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 102,
-              "name": "Ballito",
-              "slug": "ballito",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 221,
-              "name": "Shakas Rock",
-              "slug": "shakas-rock",
-              "city_id": 102
-            }
-          ]
-        },
-        {
-          "id": 12211,
-          "title": "Vumatel Villages Maintenance | Dawncliffe",
-          "description": "Vumatel is conducting maintenance in Dawncliffe from 2023-09-27 00:00 to 01:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:51:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12211,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 140,
-              "name": "Westville",
-              "slug": "westville",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 844,
-              "name": "Dawncliffe",
-              "slug": "dawncliffe",
-              "city_id": 140
-            }
-          ]
-        },
-        {
-          "id": 12210,
-          "title": "Vumatel Villages Maintenance | Assagay, Forest Hills and Highmead Country Estate",
-          "description": "Vumatel is conducting maintenance in Assagay, Forest Hills and Highmead Country Estate from 2023-09-26 22:30 to 23:59, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:49:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12210,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 167,
-              "name": "Outer West Durban",
-              "slug": "outer-west-durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 12205,
-          "title": "MetroFibre Maintenance | Tembisa",
-          "description": "MetroFibre is conducting maintenance in Tembisa from 2023-09-27 05:00 to 19:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-26 09:00:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12205,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 38,
-              "name": "Tembisa",
-              "slug": "tembisa",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 12158,
@@ -3732,91 +3024,6 @@
           ]
         },
         {
-          "id": 12151,
-          "title": "Vumatel Maintenance | Radiokop, Weltevredenpark and Allen's Nek",
-          "description": "Vumatel is conducting maintenance in Radiokop, Weltevredenpark and Allen's Nek from 2023-09-26 23:00 to 2023-09-27 00:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-20 12:25:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12151,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12151,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 539,
-              "name": "Radiokop",
-              "slug": "radiokop",
-              "city_id": 35
-            },
-            {
-              "id": 216,
-              "name": "Weltevredenpark",
-              "slug": "weltevredenpark",
-              "city_id": 35
-            },
-            {
-              "id": 961,
-              "name": "Allens Nek",
-              "slug": "allens-nek",
-              "city_id": 35
-            }
-          ]
-        },
-        {
           "id": 12150,
           "title": "Vumatel Maintenance | Melville",
           "description": "Vumatel is conducting maintenance in Melville from 2023-09-28 22:00 to 2023-09-29 01:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -4007,244 +3214,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 12201,
-          "title": "Openserve Outage | Kelderhof Country Village",
-          "description": "Openserve has informed us of a network outage affecting Kelderhof Country Village, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-26 11:06:09",
-          "should_notify": 0,
-          "created_at": "2023-09-26 07:33:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12201,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 12202,
-          "title": "Openserve Outage | Douglasdale and surrounds",
-          "description": "Openserve has informed us of a network outage affecting Douglasdale and surrounding areas, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-26 11:07:07",
-          "should_notify": 0,
-          "created_at": "2023-09-26 07:35:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12202,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 166,
-              "name": "Douglasdale",
-              "slug": "douglasdale",
-              "city_id": 16
-            }
-          ]
-        },
-        {
-          "id": 12206,
-          "title": "Vumatel Villages Outage | Lincoln Meade",
-          "description": "Vumatel has informed us of a network outage affecting Lincoln Meade, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-26 15:05:20",
-          "should_notify": 0,
-          "created_at": "2023-09-26 09:08:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12206,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1160,
-              "name": "Lincoln Meade",
-              "slug": "lincoln-meade",
-              "city_id": 87
-            }
-          ]
-        },
-        {
-          "id": 12208,
-          "title": "Link Layer Outage | King Shaka Estate",
-          "description": "Link Layer has informed us of a network outage affecting King Shaka Estate, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-09-26 14:26:30",
-          "should_notify": 0,
-          "created_at": "2023-09-26 10:10:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12208,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 12219,
           "title": "Vumatel Outage | Sundowner",
@@ -4613,6 +3582,244 @@
               "name": "Homestead",
               "slug": "homestead",
               "city_id": 46
+            }
+          ]
+        },
+        {
+          "id": 12257,
+          "title": "Frogfoot Outage | Lephalale",
+          "description": "Frogfoot has informed us of a network outage affecting Lephalale, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-09-28 07:45:09",
+          "should_notify": 0,
+          "created_at": "2023-09-28 07:15:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12257,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            }
+          ],
+          "cities": [
+            {
+              "id": 332,
+              "name": "Lephalale",
+              "slug": "lephalale",
+              "province_id": 4
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 12217,
+          "title": "Vumatel Villages Maintenance | Woodhaven",
+          "description": "Vumatel is conducting maintenance in Woodhaven from 2023-09-27 22:30 to 23:59, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-09-28 07:41:30",
+          "should_notify": 0,
+          "created_at": "2023-09-26 11:00:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12217,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1791,
+              "name": "Woodhaven",
+              "slug": "woodhaven",
+              "city_id": 68
+            }
+          ]
+        },
+        {
+          "id": 12220,
+          "title": "Vumatel Reach Maintenance | Phoenix Zone 1",
+          "description": "Vumatel is conducting maintenance in Phoenix Zone 1 from 2023-09-28 02:00 to 03:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-09-28 07:41:49",
+          "should_notify": 0,
+          "created_at": "2023-09-26 12:01:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12220,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 168,
+              "name": "Phoenix",
+              "slug": "phoenix",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 12221,
+          "title": "Vumatel Villages Maintenance | Naturena",
+          "description": "Vumatel is conducting maintenance in Naturena from 2023-09-28 00:30 to 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-09-28 07:42:04",
+          "should_notify": 0,
+          "created_at": "2023-09-26 12:02:24",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12221,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 600,
+              "name": "Naturena",
+              "slug": "naturena",
+              "city_id": 8
             }
           ]
         }
