@@ -7,70 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 12306,
-          "title": "Afrihost Outage | Gauteng",
-          "description": "Afrihost engineers are working on an outage affecting fibre clients in Gauteng, affected clients will experience limited to no connectivity. Afrihost engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-09-29 16:34:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12306,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 796,
-              "notice_id": 12306,
-              "content": "We are investigating reports of activation pages loading and clients being assigned natted IP addresses. Afrihost engineers are working on resolving the issue as soon as possible. We apologise for the inconvenience caused.",
-              "created_by_id": 30,
-              "created_at": "2023-09-30 07:59:14"
-            },
-            {
-              "id": 795,
-              "notice_id": 12306,
-              "content": "Afrihost engineers are working on resolving the issue as soon as possible.",
-              "created_by_id": 30,
-              "created_at": "2023-09-30 07:58:35"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 12307,
           "title": "Evotel Outage | Rustenburg",
           "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3843,16 +3779,16 @@
       ],
       "closed": [
         {
-          "id": 12257,
-          "title": "Frogfoot Outage | Lephalale",
-          "description": "Frogfoot has informed us of a network outage affecting Lephalale, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 12306,
+          "title": "Afrihost Outage | Gauteng",
+          "description": "Afrihost engineers are working on an outage affecting fibre clients in Gauteng, affected clients will experience limited to no connectivity. Afrihost engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "resolved",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2023-09-28 07:45:09",
+          "resolved_at": "2023-09-30 08:36:47",
           "should_notify": 0,
-          "created_at": "2023-09-28 07:15:13",
+          "created_at": "2023-09-29 16:34:20",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -3862,40 +3798,48 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12257,
-                "category_id": 7
+                "notice_id": 12306,
+                "category_id": 17
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 796,
+              "notice_id": 12306,
+              "content": "We are investigating reports of activation pages loading and clients being assigned natted IP addresses. Afrihost engineers are working on resolving the issue as soon as possible. We apologise for the inconvenience caused.",
+              "created_by_id": 30,
+              "created_at": "2023-09-30 07:59:14"
+            },
+            {
+              "id": 795,
+              "notice_id": 12306,
+              "content": "Afrihost engineers are working on resolving the issue as soon as possible.",
+              "created_by_id": 30,
+              "created_at": "2023-09-30 07:58:35"
+            }
+          ],
           "provinces": [
             {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
-          "cities": [
-            {
-              "id": 332,
-              "name": "Lephalale",
-              "slug": "lephalale",
-              "province_id": 4
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -4453,11 +4397,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
