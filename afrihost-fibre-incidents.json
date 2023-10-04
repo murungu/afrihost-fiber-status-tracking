@@ -85,6 +85,69 @@
           "suburbs": []
         },
         {
+          "id": 12326,
+          "title": "Metrofibre Outage | Sydenham",
+          "description": "Metrofibre has informed us of a network outage affecting Sydenham, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-04 08:49:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12326,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 930,
+              "name": "Sydenham",
+              "slug": "sydenham",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 12325,
           "title": "Metrofibre Outage | The Hill, Rosettenville and surrounding areas",
           "description": "Metrofibre has informed us of a network outage affecting the Hill, Rosettenville, and surrounding areas, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -617,7 +680,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 801,
+              "notice_id": 12316,
+              "content": "Openserve engineers are still working on restoring services.",
+              "created_by_id": 12,
+              "created_at": "2023-10-04 09:09:15"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
