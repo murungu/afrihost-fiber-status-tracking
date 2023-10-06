@@ -85,6 +85,85 @@
           "suburbs": []
         },
         {
+          "id": 12369,
+          "title": "Vumatel and Vuma Reach Outage | Mankweng, Polokwane and Seshego",
+          "description": "Vumatel has informed us of a network outage affecting Mankweng, Polokwane and Seshego, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-06 14:16:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12369,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12369,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            }
+          ],
+          "cities": [
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1535,
+              "name": "Mankweng",
+              "slug": "mankweng",
+              "city_id": 350
+            },
+            {
+              "id": 409,
+              "name": "Seshego",
+              "slug": "seshego",
+              "city_id": 350
+            }
+          ]
+        },
+        {
           "id": 12368,
           "title": "Linteg Outage | Helderberg Manor, The Diplomat and Verdeau",
           "description": "Fibonacci has informed us of a network outage affecting Helderberg Manor, The Diplomat and Verdeau, affected clients will experience limited to no connectivity. Fibonacci engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -395,62 +474,6 @@
               "city_id": 42
             }
           ]
-        },
-        {
-          "id": 12360,
-          "title": "Vumatel Outage | Sasolburg",
-          "description": "Vumatel has informed us of a network outage affecting Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-10-06 12:03:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12360,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 614,
-              "name": "Sasolburg",
-              "slug": "sasolburg",
-              "province_id": 7
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 12359,
@@ -3326,75 +3349,6 @@
       ],
       "closed": [
         {
-          "id": 12331,
-          "title": "Vumatel Outage | Amorosa and surrounds",
-          "description": "Vumatel has informed us of a network outage affecting Amorosa and surrounding areas, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-10-05 11:04:46",
-          "should_notify": 0,
-          "created_at": "2023-10-05 08:51:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12331,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1209,
-              "name": "Amorosa",
-              "slug": "amorosa",
-              "city_id": 35
-            },
-            {
-              "id": 366,
-              "name": "Willowbrook",
-              "slug": "willowbrook",
-              "city_id": 35
-            }
-          ]
-        },
-        {
           "id": 12334,
           "title": "Vumatel Villages Outage | Klippoortjie AH",
           "description": "Vumatel has informed us of a network outage affecting Klippoortjie AH, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3958,6 +3912,62 @@
               "city_id": 48
             }
           ]
+        },
+        {
+          "id": 12360,
+          "title": "Vumatel Outage | Sasolburg",
+          "description": "Vumatel has informed us of a network outage affecting Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-10-06 14:19:12",
+          "should_notify": 0,
+          "created_at": "2023-10-06 12:03:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12360,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 614,
+              "name": "Sasolburg",
+              "slug": "sasolburg",
+              "province_id": 7
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
