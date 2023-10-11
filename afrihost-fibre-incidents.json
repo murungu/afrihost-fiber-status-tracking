@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 12406,
+          "title": "MetroFibre Outage | Emalahleni",
+          "description": "MetroFibre has informed us of a network outage affecting Emalahleni, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-11 12:31:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12406,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2352,
+              "name": "Emalahleni",
+              "slug": "emalahleni",
+              "city_id": 679
+            }
+          ]
+        },
+        {
           "id": 12405,
           "title": "Openserve Outage | Equestria Partial",
           "description": "Openserve has informed us of a network outage affecting parts of Equestria, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -689,69 +752,6 @@
               "name": "Die Wilgers",
               "slug": "die-wilgers",
               "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 12392,
-          "title": "Octotel Outage | Lakeside",
-          "description": "We are investigating reports of no connectivity affecting clients on the Octotel network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-10-10 07:37:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12392,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1595,
-              "name": "Lakeside",
-              "slug": "lakeside-1",
-              "city_id": 240
             }
           ]
         },
@@ -3051,69 +3051,6 @@
       ],
       "closed": [
         {
-          "id": 12374,
-          "title": "Vumatel Reach Outage | Algoa Park",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network in Algoa Park. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-10-09 06:53:26",
-          "should_notify": 0,
-          "created_at": "2023-10-06 16:36:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12374,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1520,
-              "name": "Algoa Park",
-              "slug": "algoa-park",
-              "city_id": 458
-            }
-          ]
-        },
-        {
           "id": 12377,
           "title": "Frogfoot Outage | Montague Gardens, Knysna, Wynberg, George, Stellenbosch and Somerset West",
           "description": "Frogfoot has informed us of a network outage affecting Montague Gardens, Knysna, Wynberg, George, Stellenbosch and Somerset West, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3571,6 +3508,69 @@
               "id": 3350,
               "name": "Cape Farms",
               "slug": "cape-farms",
+              "city_id": 240
+            }
+          ]
+        },
+        {
+          "id": 12392,
+          "title": "Octotel Outage | Lakeside",
+          "description": "We are investigating reports of no connectivity affecting clients on the Octotel network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-10-11 12:30:55",
+          "should_notify": 0,
+          "created_at": "2023-10-10 07:37:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12392,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1595,
+              "name": "Lakeside",
+              "slug": "lakeside-1",
               "city_id": 240
             }
           ]
