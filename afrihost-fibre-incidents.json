@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 12412,
+          "title": "MetroFibre Outage | Kwa-Thema",
+          "description": "MetroFibre has informed us of a network outage affecting Kwa-Thema, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-12 08:38:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12412,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1618,
+              "name": "Kwa Thema",
+              "slug": "kwa-thema",
+              "city_id": 37
+            }
+          ]
+        },
+        {
           "id": 12411,
           "title": "Openserve Outage | Sunward Park, Boksburg",
           "description": "Openserve has informed us of a network outage affecting Sunward Park, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1187,7 +1250,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 804,
+              "notice_id": 12385,
+              "content": "Please note the outage is on-going, Metrofibre engineers are working on restoring services as soon as possible. We apologize for the inconvenience caused.",
+              "created_by_id": 25,
+              "created_at": "2023-10-12 08:36:44"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
