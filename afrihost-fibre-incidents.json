@@ -78,6 +78,73 @@
           "suburbs": []
         },
         {
+          "id": 12477,
+          "title": "Frogfoot Outage | Mossel Bay & Port Elizabeth",
+          "description": "Frogfoot has informed us of a network outage affecting Mossel Bay & Port Elizabeth, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-14 19:01:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12477,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            },
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            },
+            {
+              "id": 213,
+              "name": "Mossel Bay",
+              "slug": "mossel-bay",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 12476,
           "title": "Vumatel Villages Outage | Firgrove Rural",
           "description": "Vumatel has informed us of a network outage affecting Firgrove Rural, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -275,75 +342,6 @@
               "name": "Orchards",
               "slug": "orchards",
               "city_id": 8
-            }
-          ]
-        },
-        {
-          "id": 12473,
-          "title": "Frogfoot Outage | Retief and Botharus, Despatch",
-          "description": "Frogfoot has informed us of a network outage affecting Retief and Botharus, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-10-14 14:24:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12473,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 513,
-              "name": "Despatch",
-              "slug": "despatch",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2833,
-              "name": "Retief",
-              "slug": "retief",
-              "city_id": 513
-            },
-            {
-              "id": 2878,
-              "name": "Bothasrus",
-              "slug": "bothasrus",
-              "city_id": 513
             }
           ]
         },
@@ -2988,62 +2986,6 @@
       ],
       "closed": [
         {
-          "id": 12448,
-          "title": "Vumatel Villages Outage | Freeway Park",
-          "description": "Vumatel has informed us of a network outage affecting Freeway Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-10-14 06:01:18",
-          "should_notify": 0,
-          "created_at": "2023-10-13 10:04:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12448,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12450,
           "title": "Frogfoot Outage | Ravenswood",
           "description": "Frogfoot has informed us of a network outage affecting Ravenswood, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3525,6 +3467,75 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 12473,
+          "title": "Frogfoot Outage | Retief and Botharus, Despatch",
+          "description": "Frogfoot has informed us of a network outage affecting Retief and Botharus, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-10-14 18:59:49",
+          "should_notify": 0,
+          "created_at": "2023-10-14 14:24:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12473,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 513,
+              "name": "Despatch",
+              "slug": "despatch",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2833,
+              "name": "Retief",
+              "slug": "retief",
+              "city_id": 513
+            },
+            {
+              "id": 2878,
+              "name": "Bothasrus",
+              "slug": "bothasrus",
+              "city_id": 513
+            }
+          ]
         },
         {
           "id": 12456,
