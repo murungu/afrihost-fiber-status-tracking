@@ -3990,16 +3990,16 @@
       ],
       "closed": [
         {
-          "id": 12473,
-          "title": "Frogfoot Outage | Retief and Botharus, Despatch",
-          "description": "Frogfoot has informed us of a network outage affecting Retief and Botharus, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 12526,
+          "title": "Vumatel Outage | Bothasig, Edgemead, Monte Vista, Panorama, Parow North, Richmond Estate, Summergreens, Tableview South, Tableview North and Tygerdal",
+          "description": "Vumatel has informed us of a network outage affecting Bothasig, Edgemead, Monte Vista, Panorama, Parow North, Richmond Estate, Summergreens, Tableview South, Tableview North and Tygerdal, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Vumatel have restored services to the affected areas. We apologize for the inconvenience caused.",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2023-10-14 18:59:49",
+          "resolved_at": "2023-10-19 14:46:32",
           "should_notify": 0,
-          "created_at": "2023-10-14 14:24:28",
+          "created_at": "2023-10-19 14:40:48",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -4009,52 +4009,118 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12473,
-                "category_id": 7
+                "notice_id": 12526,
+                "category_id": 18
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 513,
-              "name": "Despatch",
-              "slug": "despatch",
-              "province_id": 6
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            },
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            },
+            {
+              "id": 260,
+              "name": "Milnerton",
+              "slug": "milnerton",
+              "province_id": 3
+            },
+            {
+              "id": 295,
+              "name": "Goodwood",
+              "slug": "goodwood",
+              "province_id": 3
+            },
+            {
+              "id": 312,
+              "name": "Parow",
+              "slug": "parow",
+              "province_id": 3
             }
           ],
           "suburbs": [
             {
-              "id": 2833,
-              "name": "Retief",
-              "slug": "retief",
-              "city_id": 513
+              "id": 1058,
+              "name": "Bothasig",
+              "slug": "bothasig",
+              "city_id": 260
             },
             {
-              "id": 2878,
-              "name": "Bothasrus",
-              "slug": "bothasrus",
-              "city_id": 513
+              "id": 1341,
+              "name": "Edgemead",
+              "slug": "edgemead",
+              "city_id": 295
+            },
+            {
+              "id": 1348,
+              "name": "Monte Vista",
+              "slug": "monte-vista",
+              "city_id": 295
+            },
+            {
+              "id": 1061,
+              "name": "Panorama",
+              "slug": "panorama-2",
+              "city_id": 312
+            },
+            {
+              "id": 2470,
+              "name": "Parow North",
+              "slug": "parow-north",
+              "city_id": 312
+            },
+            {
+              "id": 2381,
+              "name": "Richmond",
+              "slug": "richmond-1",
+              "city_id": 295
+            },
+            {
+              "id": 1828,
+              "name": "Summer Greens",
+              "slug": "summer-greens",
+              "city_id": 260
+            },
+            {
+              "id": 258,
+              "name": "Table View",
+              "slug": "table-view",
+              "city_id": 236
+            },
+            {
+              "id": 3525,
+              "name": "Tygerdal",
+              "slug": "tygerdal",
+              "city_id": 295
             }
           ]
         },
