@@ -85,6 +85,69 @@
           "suburbs": []
         },
         {
+          "id": 12567,
+          "title": "Vumatel Villages Outage | Pavilion heights",
+          "description": "Vumatel has informed us of a network outage affecting Pavilion heights, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-22 11:04:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12567,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 236,
+              "name": "Highveld",
+              "slug": "highveld",
+              "city_id": 43
+            }
+          ]
+        },
+        {
           "id": 12566,
           "title": "Vumatel Villages Outage | Ocean Ridge",
           "description": "Vumatel has informed us of a network outage affecting Ocean Ridge, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -321,69 +384,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 12560,
-          "title": "Vumatel Reach Outage | Algoa Park",
-          "description": "Vumatel has informed us of a network outage affecting Algoa Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-10-21 10:24:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12560,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1520,
-              "name": "Algoa Park",
-              "slug": "algoa-park",
-              "city_id": 458
-            }
-          ]
         },
         {
           "id": 12559,
@@ -2345,62 +2345,6 @@
       ],
       "closed": [
         {
-          "id": 12540,
-          "title": "Frogfoot Outage | Amanzimtoti",
-          "description": "Frogfoot has informed us of a network outage affecting Amanzimtoti, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-10-21 07:28:21",
-          "should_notify": 0,
-          "created_at": "2023-10-20 13:54:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12540,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 101,
-              "name": "Amanzimtoti",
-              "slug": "amanzimtoti",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12541,
           "title": "Vumatel Villages Outage | Die Hoewes",
           "description": "Vumatel has informed us of a network outage affecting Die Hoewes, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2839,6 +2783,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 12560,
+          "title": "Vumatel Reach Outage | Algoa Park",
+          "description": "Vumatel has informed us of a network outage affecting Algoa Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-10-22 11:05:02",
+          "should_notify": 0,
+          "created_at": "2023-10-21 10:24:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12560,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1520,
+              "name": "Algoa Park",
+              "slug": "algoa-park",
+              "city_id": 458
+            }
+          ]
         },
         {
           "id": 12561,
