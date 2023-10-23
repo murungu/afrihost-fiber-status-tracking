@@ -46,6 +46,13 @@
           ],
           "updates": [
             {
+              "id": 817,
+              "notice_id": 12441,
+              "content": "Afrihost network engineers are monitoring the network closely to spot any further impact. We apologise for the inconvenience experienced.",
+              "created_by_id": 30,
+              "created_at": "2023-10-23 20:51:41"
+            },
+            {
               "id": 810,
               "notice_id": 12441,
               "content": "Afrihost and TT Connect continue to investigate issues on the TT Connect network. We are working with our upstream providers to resolve the issue as soon as possible. We apologize for the inconvenience caused by this.",
@@ -82,6 +89,92 @@
             }
           ],
           "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 12581,
+          "title": "Vumatel Outage | Potchefstroom",
+          "description": "Vumatel has informed us of a network outage affecting Potchefstroom, affected clients will experience intermittent connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-23 20:50:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12581,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12581,
+                "category_id": 15
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12581,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12581,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            }
+          ],
+          "cities": [
+            {
+              "id": 658,
+              "name": "Potchefstroom",
+              "slug": "potchefstroom",
+              "province_id": 8
+            }
+          ],
           "suburbs": []
         },
         {
