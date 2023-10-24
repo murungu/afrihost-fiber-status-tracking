@@ -2829,62 +2829,6 @@
       ],
       "closed": [
         {
-          "id": 12558,
-          "title": "Frogfoot Outage | Nelspruit West",
-          "description": "Frogfoot has informed us of a network outage affecting Nelspruit West, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-10-21 12:53:44",
-          "should_notify": 0,
-          "created_at": "2023-10-21 09:46:34",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12558,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 674,
-              "name": "Nelspruit",
-              "slug": "nelspruit",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12560,
           "title": "Vumatel Reach Outage | Algoa Park",
           "description": "Vumatel has informed us of a network outage affecting Algoa Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3497,6 +3441,75 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 12582,
+          "title": "Vumatel Aerial Outage | Sasolburg, Parys & Vaalpark",
+          "description": "Vumatel Aerial has informed us of a network outage affecting Sasolburg, Parys & Vaalpark, affected clients will experience limited to no connectivity. Vumatel Aerial engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-10-24 09:05:07",
+          "should_notify": 0,
+          "created_at": "2023-10-24 09:03:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12582,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 614,
+              "name": "Sasolburg",
+              "slug": "sasolburg",
+              "province_id": 7
+            },
+            {
+              "id": 556,
+              "name": "Parys",
+              "slug": "parys",
+              "province_id": 7
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 30,
+              "name": "Vaalpark",
+              "slug": "vaalpark",
+              "city_id": 614
+            }
+          ]
         }
       ]
     },
