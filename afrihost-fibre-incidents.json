@@ -156,6 +156,62 @@
           "suburbs": []
         },
         {
+          "id": 12594,
+          "title": "BalwinFibre outage | Thaba Eco-Village",
+          "description": "BalwinFibre has informed us of a network outage affecting Thaba Eco-Village, affected clients will experience no connectivity. BalwinFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-25 07:32:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12594,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 12591,
           "title": "Thinkspeed outage | Axis Building, Century City",
           "description": "Thinkspeed has informed us of a network outage affecting Axis Building, Century City, affected clients will experience no connectivity. Thinkspeed engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3640,16 +3696,6 @@
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng"
@@ -3660,19 +3706,14 @@
               "slug": "kwazulu-natal"
             },
             {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
               "id": 4,
               "name": "Limpopo",
               "slug": "limpopo"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
             },
             {
               "id": 5,
@@ -3680,9 +3721,24 @@
               "slug": "northern-cape"
             },
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            },
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            },
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
             }
           ],
           "cities": [],
