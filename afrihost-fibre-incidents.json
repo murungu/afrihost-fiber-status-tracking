@@ -70,62 +70,6 @@
           ]
         },
         {
-          "id": 12606,
-          "title": "Vumatel Reach Outage | Bela-Bela",
-          "description": "Vumatel has informed us of a network outage affecting Bela-Bela, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-10-27 06:03:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12606,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 341,
-              "name": "Bela Bela",
-              "slug": "bela-bela",
-              "province_id": 4
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12602,
           "title": "Frogfoot Outage | Queenswood",
           "description": "We are investigating reports of on connectivity affecting clients on Frogfoot network in Queenswood. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
@@ -910,6 +854,69 @@
           ]
         },
         {
+          "id": 12609,
+          "title": "Frogfoot Maintenance | Abbotsford",
+          "description": "Frogfoot is conducting maintenance in Abbotsford from 2023-10-27 12:00 to 22:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-10-27 09:24:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12609,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1608,
+              "name": "Abbotsford",
+              "slug": "abbotsford",
+              "city_id": 477
+            }
+          ]
+        },
+        {
           "id": 12585,
           "title": "FibreSuburb Networks maintenance | Southdowns Estate",
           "description": "FibreSuburb Networks is conducting maintenance in Southdowns Estate on the 7th of November from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1469,74 +1476,6 @@
           "suburbs": []
         },
         {
-          "id": 12583,
-          "title": "Vuma Reach outage | Dundee, Glencoe and Ladysmith",
-          "description": "Vuma Reach has informed us of a network outage affecting Dundee, Glencoe and Ladysmith, affected clients will experience no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-10-24 12:57:10",
-          "should_notify": 0,
-          "created_at": "2023-10-24 09:45:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12583,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 154,
-              "name": "Glencoe",
-              "slug": "glencoe",
-              "province_id": 2
-            },
-            {
-              "id": 149,
-              "name": "Dundee",
-              "slug": "dundee",
-              "province_id": 2
-            },
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12584,
           "title": "MetroFibre outage | Montana",
           "description": "MetroFibre has informed us of a network outage affecting Montana, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1862,6 +1801,62 @@
               "city_id": 653
             }
           ]
+        },
+        {
+          "id": 12606,
+          "title": "Vumatel Reach Outage | Bela-Bela",
+          "description": "Vumatel has informed us of a network outage affecting Bela-Bela, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-10-27 09:14:12",
+          "should_notify": 0,
+          "created_at": "2023-10-27 06:03:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12606,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            }
+          ],
+          "cities": [
+            {
+              "id": 341,
+              "name": "Bela Bela",
+              "slug": "bela-bela",
+              "province_id": 4
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 12607,
