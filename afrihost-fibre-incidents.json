@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 12692,
+          "title": "Vumatel Outage | Kew",
+          "description": "Vumatel has informed us of a network outage affecting Kew, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-05 18:24:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12692,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 834,
+              "name": "Kew",
+              "slug": "kew",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 12691,
           "title": "Vumatel Outage | Moseley Park and Glen Park",
           "description": "Vumatel has informed us of a network outage affecting Moseley Park and Glen Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -880,6 +943,70 @@
               "city_id": 48
             }
           ]
+        },
+        {
+          "id": 12693,
+          "title": "Metrofibre Maintenance | Midrand",
+          "description": "Metrofibre is conducting maintenance in Midrand from 2023-11-07 22:00 to 2023-11-08 07:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-05 18:26:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12693,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 823,
+              "notice_id": 12693,
+              "content": "Premises affected by the maintenance includes:\nErand Gardens\nMidmanor Estate\nGlen Austin\nSummerset Village\nTerrace View\nParkland\nPhoenix Regent Hill Estate 2\nSimonsberg Estate\nPhoenix Regent Hill Estate 1\nPeriwinkle\nLaura’s Place\nGlen Acres\nTalalla Estate\nRiver Walk \nProtea Villas\nEssenwood\nStone Ridge Estate\nEmerald Gardens\nAnricke\nST George\nPhoenix View",
+              "created_by_id": 25,
+              "created_at": "2023-11-05 18:27:03"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 12622,
