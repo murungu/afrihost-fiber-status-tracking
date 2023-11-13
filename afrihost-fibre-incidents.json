@@ -7,55 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 12771,
-          "title": "Openserve Outage | KwaZulu-Natal",
-          "description": "We are investigating reports of no connectivity affecting clients on the Openserve network in KwaZulu-Natal. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-13 19:59:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12771,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 12728,
           "title": "MetroFibre degraded service | Eastern Cape",
           "description": "MetroFibre  has informed us of a network outage affecting Eastern Cape, affected clients will experience degraded service. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -103,6 +54,69 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 12772,
+          "title": "Vumatel Reach Outage | Chatsworth Zone 03",
+          "description": "Vumatel has informed us of a network outage affecting Chatsworth Zone 03, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-13 21:27:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12772,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 737,
+              "name": "Chatsworth",
+              "slug": "chatsworth",
+              "city_id": 68
+            }
+          ]
         },
         {
           "id": 12770,
@@ -1381,16 +1395,16 @@
       ],
       "closed": [
         {
-          "id": 12749,
-          "title": "Frogfoot Outage | Bergtuin",
-          "description": "Frogfoot has informed us of a network outage affecting Bergtuin, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 12771,
+          "title": "Openserve Outage | KwaZulu-Natal",
+          "description": "We are investigating reports of no connectivity affecting clients on the Openserve network in KwaZulu-Natal. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": "Openserve engineers have restored services.",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2023-11-11 17:20:55",
+          "resolved_at": "2023-11-13 21:46:55",
           "should_notify": 0,
-          "created_at": "2023-11-11 08:02:02",
+          "created_at": "2023-11-13 19:59:13",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1400,48 +1414,34 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12749,
-                "category_id": 7
+                "notice_id": 12771,
+                "category_id": 14
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2271,
-              "name": "Bergtuin",
-              "slug": "bergtuin",
-              "city_id": 33
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 12751,
