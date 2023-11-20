@@ -56,62 +56,6 @@
           "suburbs": []
         },
         {
-          "id": 12841,
-          "title": "Frogfoot Outage | Strand",
-          "description": "Frogfoot has informed us of a network outage affecting Strand, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-20 22:06:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12841,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 320,
-              "name": "Strand",
-              "slug": "strand",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12839,
           "title": "Vumatel Outage | Savoy Estate and Waverley",
           "description": "Vumatel has informed us of a network outage affecting Savoy Estate and Waverley, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2669,74 +2613,6 @@
       ],
       "closed": [
         {
-          "id": 12795,
-          "title": "Vuma Reach Outage | Dundee, Glencoe and Ladysmith",
-          "description": "Vumatel has informed us of a network outage affecting Dundee, Glencoe and Ladysmith, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-11-19 17:23:20",
-          "should_notify": 0,
-          "created_at": "2023-11-15 18:48:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12795,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
-            },
-            {
-              "id": 154,
-              "name": "Glencoe",
-              "slug": "glencoe",
-              "province_id": 2
-            },
-            {
-              "id": 149,
-              "name": "Dundee",
-              "slug": "dundee",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12796,
           "title": "Vuma Reach Outage | Phoenix Zone 08",
           "description": "Vumatel has informed us of a network outage affecting Phoenix Zone 08, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3246,6 +3122,62 @@
               "pivot": {
                 "notice_id": 12840,
                 "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 320,
+              "name": "Strand",
+              "slug": "strand",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 12841,
+          "title": "Frogfoot Outage | Strand",
+          "description": "Frogfoot has informed us of a network outage affecting Strand, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-11-20 22:16:20",
+          "should_notify": 0,
+          "created_at": "2023-11-20 22:06:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12841,
+                "category_id": 7
               }
             }
           ],
