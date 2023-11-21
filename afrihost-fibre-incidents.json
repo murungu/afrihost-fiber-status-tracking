@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 12728,
-          "title": "MetroFibre degraded service | Eastern Cape",
-          "description": "MetroFibre  has informed us of a network outage affecting Eastern Cape, affected clients will experience degraded service. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 12851,
+          "title": "Vumatel Outage | Leopards Rest",
+          "description": "Vumatel has informed us of a network outage affecting Leopards Rest, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-11-08 22:13:41",
+          "created_at": "2023-11-21 16:26:04",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,34 +26,104 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12728,
-                "category_id": 9
+                "notice_id": 12851,
+                "category_id": 15
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
-          "cities": [],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
           "suburbs": []
+        },
+        {
+          "id": 12850,
+          "title": "VumaReach Outage | Clayville Zone 1",
+          "description": "Vumatel has informed us of a network outage affecting Clayville Zone 1, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-21 16:25:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12850,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 13,
+              "name": "Olifantsfontein",
+              "slug": "olifantsfontein",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 612,
+              "name": "Clayville",
+              "slug": "clayville",
+              "city_id": 13
+            }
+          ]
         },
         {
           "id": 12849,
@@ -1756,62 +1826,6 @@
           "suburbs": []
         },
         {
-          "id": 12811,
-          "title": "Openserve Outage | Middelburg",
-          "description": "Openserve has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-16 11:34:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12811,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 690,
-              "name": "Middelburg",
-              "slug": "middelburg-1",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12810,
           "title": "Vumatel Outage | Lone Hill",
           "description": "Vumatel has informed us of a network outage affecting Lone Hill, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1936,181 +1950,6 @@
               "city_id": 16
             }
           ]
-        },
-        {
-          "id": 12787,
-          "title": "Openserve Outage | Springs & surrounding areas",
-          "description": "Openserve has informed us of a network outage affecting Springs & surrounding areas, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-15 09:35:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12787,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 37,
-              "name": "Springs",
-              "slug": "springs",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 12785,
-          "title": "Openserve Outage | Ennerdale",
-          "description": "Openserve has informed us of a network outage affecting Ennerdale, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-15 07:57:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12785,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 873,
-              "name": "Ennerdale",
-              "slug": "ennerdale",
-              "city_id": 8
-            }
-          ]
-        },
-        {
-          "id": 12784,
-          "title": "Openserve Outage | Lenasia",
-          "description": "Openserve has informed us of a network outage affecting Lenasia, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-15 07:49:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12784,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 12833,
@@ -2860,131 +2699,6 @@
           ]
         },
         {
-          "id": 12792,
-          "title": "Evotel Maintenance | Ennerdale and Lenasia South",
-          "description": "Evotel is conducting maintenance in Ennerdale and Lenasia South from 2023/11/16 00:00 to 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-15 18:14:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12792,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 248,
-              "name": "Lenasia South",
-              "slug": "lenasia-south",
-              "city_id": 8
-            },
-            {
-              "id": 873,
-              "name": "Ennerdale",
-              "slug": "ennerdale",
-              "city_id": 8
-            }
-          ]
-        },
-        {
-          "id": 12767,
-          "title": "Octotel Maintenance | Wellington",
-          "description": "Octotel is conducting maintenance in Wellington from 17/11/2023 01:00 to 17/11/2023 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-13 16:33:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12767,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 229,
-              "name": "Wellington",
-              "slug": "wellington",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12736,
           "title": "Vumatel Maintenance | Blairgowrie",
           "description": "Vumatel is conducting maintenance in Blairgowrie on Tue 14 Nov 2023 - 08:00 to Tue 21 Nov 2023 - 18:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -3049,69 +2763,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 12805,
-          "title": "TT Connect Outage | Greenstone Hill and Pebble Creek Estate",
-          "description": "TT Connect has informed us of a network outage affecting Greenstone Hill and Pebble Creek Estate, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-11-16 02:33:44",
-          "should_notify": 0,
-          "created_at": "2023-11-15 21:59:24",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12805,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 49,
-              "name": "Lethabong",
-              "slug": "lethabong",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5918,
-              "name": "Greenstone Hill",
-              "slug": "greenstone-hill",
-              "city_id": 49
-            }
-          ]
-        },
         {
           "id": 12807,
           "title": "Frogfoot Outage | Cape Farms, Parklands, Milnerton Rural and Tableview",
@@ -3267,6 +2918,62 @@
               "city_id": 477
             }
           ]
+        },
+        {
+          "id": 12811,
+          "title": "Openserve Outage | Middelburg",
+          "description": "Openserve has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-11-21 16:28:22",
+          "should_notify": 0,
+          "created_at": "2023-11-16 11:34:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12811,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 690,
+              "name": "Middelburg",
+              "slug": "middelburg-1",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 12820,
@@ -3702,11 +3409,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
