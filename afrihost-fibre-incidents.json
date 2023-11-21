@@ -1518,62 +1518,6 @@
           ]
         },
         {
-          "id": 12825,
-          "title": "Evotel Outage | Randfontein",
-          "description": "has informed us of a network outage affecting Randfontein, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-18 14:04:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12825,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 14,
-              "name": "Randfontein",
-              "slug": "randfontein",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12824,
           "title": "Metrofibre Outage | Avoca",
           "description": "Metrofibre has informed us of a network outage affecting Avoca, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2069,6 +2013,137 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 12858,
+          "title": "Evotel Maintenance | Kathu and Upington",
+          "description": "Evotel is conducting maintenance in Kathu and Upington from 2023-11-22 00:01 to 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-21 23:35:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12858,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 374,
+              "name": "Kathu",
+              "slug": "kathu",
+              "province_id": 5
+            },
+            {
+              "id": 406,
+              "name": "Upington",
+              "slug": "upington",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 12857,
+          "title": "Evotel Maintenance | Lenasia South and Ennerdale",
+          "description": "Evotel is conducting maintenance in Lenasia South and Ennerdale from 2023-11-22 00:01 to 03:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-21 23:34:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12857,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 873,
+              "name": "Ennerdale",
+              "slug": "ennerdale",
+              "city_id": 8
+            },
+            {
+              "id": 248,
+              "name": "Lenasia South",
+              "slug": "lenasia-south",
+              "city_id": 8
+            }
+          ]
         },
         {
           "id": 12818,
@@ -2827,69 +2902,6 @@
       ],
       "closed": [
         {
-          "id": 12810,
-          "title": "Vumatel Outage | Lone Hill",
-          "description": "Vumatel has informed us of a network outage affecting Lone Hill, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-11-21 18:03:56",
-          "should_notify": 0,
-          "created_at": "2023-11-16 11:02:24",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12810,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 60,
-              "name": "Lonehill",
-              "slug": "lonehill",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 12811,
           "title": "Openserve Outage | Middelburg",
           "description": "Openserve has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3200,6 +3212,62 @@
               "city_id": 2
             }
           ]
+        },
+        {
+          "id": 12825,
+          "title": "Evotel Outage | Randfontein",
+          "description": "has informed us of a network outage affecting Randfontein, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-11-21 23:35:41",
+          "should_notify": 0,
+          "created_at": "2023-11-18 14:04:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12825,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 14,
+              "name": "Randfontein",
+              "slug": "randfontein",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 12836,
