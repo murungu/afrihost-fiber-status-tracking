@@ -7,75 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 12862,
-          "title": "Vumatel Outage | Northern Region",
-          "description": "Vumatel has informed us of a network outage affecting Gauteng's northern region, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-22 13:17:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vumatel-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12862,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12862,
-                "category_id": 15
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12862,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 12861,
           "title": "Frogfoot Outage | Western Cape",
           "description": "Frogfoot has informed us of a network outage affecting Western Cape, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3114,16 +3045,16 @@
       ],
       "closed": [
         {
-          "id": 12820,
-          "title": "FrogFoot degraded service | George, Mossel Bay and Oudtshoorn",
-          "description": "FrogFoot has informed us of a network outage affecting George, Mossel Bay and Oudtshoorn, affected clients will experience degraded service. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 12862,
+          "title": "Vumatel Outage | Northern Region",
+          "description": "Vumatel has informed us of a network outage affecting Gauteng's northern region, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "outage resolved",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2023-11-17 23:54:22",
+          "resolved_at": "2023-11-22 14:02:16",
           "should_notify": 0,
-          "created_at": "2023-11-17 21:03:32",
+          "created_at": "2023-11-22 13:17:33",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -3133,52 +3064,53 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vumatel-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12820,
-                "category_id": 7
+                "notice_id": 12862,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12862,
+                "category_id": 15
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12862,
+                "category_id": 18
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 213,
-              "name": "Mossel Bay",
-              "slug": "mossel-bay",
-              "province_id": 3
-            },
-            {
-              "id": 215,
-              "name": "Oudtshoorn",
-              "slug": "oudtshoorn",
-              "province_id": 3
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -3741,11 +3673,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
