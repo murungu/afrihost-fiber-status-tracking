@@ -1952,68 +1952,6 @@
           "suburbs": []
         },
         {
-          "id": 12858,
-          "title": "Evotel Maintenance | Kathu and Upington",
-          "description": "Evotel is conducting maintenance in Kathu and Upington from 2023-11-22 00:01 to 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-21 23:35:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12858,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 374,
-              "name": "Kathu",
-              "slug": "kathu",
-              "province_id": 5
-            },
-            {
-              "id": 406,
-              "name": "Upington",
-              "slug": "upington",
-              "province_id": 5
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 12818,
           "title": "Vumatel Aerial Maintenance | Glenvista & Meyersdal",
           "description": "Vumatel Aerial is conducting maintenance in Glenvista & Meyersdal on the 21 November 2023 @ 08h00 to 21 November 2023 @ 17h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2770,69 +2708,6 @@
       ],
       "closed": [
         {
-          "id": 12813,
-          "title": "Vumatel Outage | Naturena",
-          "description": "Vumatel has informed us of a network outage affecting Naturena, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-11-21 18:04:26",
-          "should_notify": 0,
-          "created_at": "2023-11-16 14:22:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12813,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 600,
-              "name": "Naturena",
-              "slug": "naturena",
-              "city_id": 8
-            }
-          ]
-        },
-        {
           "id": 12820,
           "title": "FrogFoot degraded service | George, Mossel Bay and Oudtshoorn",
           "description": "FrogFoot has informed us of a network outage affecting George, Mossel Bay and Oudtshoorn, affected clients will experience degraded service. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3394,6 +3269,68 @@
               "city_id": 8
             }
           ]
+        },
+        {
+          "id": 12858,
+          "title": "Evotel Maintenance | Kathu and Upington",
+          "description": "Evotel is conducting maintenance in Kathu and Upington from 2023-11-22 00:01 to 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2023-11-22 04:11:45",
+          "should_notify": 0,
+          "created_at": "2023-11-21 23:35:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12858,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 374,
+              "name": "Kathu",
+              "slug": "kathu",
+              "province_id": 5
+            },
+            {
+              "id": 406,
+              "name": "Upington",
+              "slug": "upington",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
