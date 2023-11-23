@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 12876,
+          "title": "Openserve Outage | Table View",
+          "description": "Openserve has informed us of a network outage affecting Table View, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-23 18:41:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12876,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 258,
+              "name": "Table View",
+              "slug": "table-view",
+              "city_id": 236
+            }
+          ]
+        },
+        {
           "id": 12875,
           "title": "Vuma Reach Outage | Chatsworth Zone 08",
           "description": "Vumatel has informed us of a network outage affecting Chatsworth Zone 08, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1504,75 +1567,6 @@
           ]
         },
         {
-          "id": 12839,
-          "title": "Vumatel Outage | Savoy Estate and Waverley",
-          "description": "Vumatel has informed us of a network outage affecting Savoy Estate and Waverley, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2023-11-20 20:27:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 12839,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 988,
-              "name": "Waverley",
-              "slug": "waverley-2",
-              "city_id": 8
-            },
-            {
-              "id": 1976,
-              "name": "Savoy Estate",
-              "slug": "savoy-estate",
-              "city_id": 8
-            }
-          ]
-        },
-        {
           "id": 12834,
           "title": "Openserve Outage | Pretoria Central",
           "description": "Openserve has informed us of a network outage affecting Pretoria Central, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2657,16 +2651,16 @@
           "suburbs": []
         },
         {
-          "id": 12838,
-          "title": "Vuma Villages Outage | Douglasdale",
-          "description": "Vumatel has informed us of a network outage affecting Douglasdale, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 12839,
+          "title": "Vumatel Outage | Savoy Estate and Waverley",
+          "description": "Vumatel has informed us of a network outage affecting Savoy Estate and Waverley, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2023-11-23 18:30:56",
+          "resolved_at": "2023-11-23 18:31:10",
           "should_notify": 0,
-          "created_at": "2023-11-20 19:28:30",
+          "created_at": "2023-11-20 20:27:22",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -2684,13 +2678,13 @@
           },
           "categories": [
             {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 12838,
-                "category_id": 15
+                "notice_id": 12839,
+                "category_id": 18
               }
             }
           ],
@@ -2704,18 +2698,24 @@
           ],
           "cities": [
             {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
               "province_id": 1
             }
           ],
           "suburbs": [
             {
-              "id": 166,
-              "name": "Douglasdale",
-              "slug": "douglasdale",
-              "city_id": 16
+              "id": 988,
+              "name": "Waverley",
+              "slug": "waverley-2",
+              "city_id": 8
+            },
+            {
+              "id": 1976,
+              "name": "Savoy Estate",
+              "slug": "savoy-estate",
+              "city_id": 8
             }
           ]
         },
