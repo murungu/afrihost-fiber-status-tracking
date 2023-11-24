@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 12891,
+          "title": "Frogfoot Outage | Polokwane Central",
+          "description": "Frogfoot has informed us of a network outage affecting Polokwane Central, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-24 16:21:01",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12891,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            }
+          ],
+          "cities": [
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 12889,
           "title": "Metrofibre Outage | Edenvale",
           "description": "Metrofibre has informed us of a network outage affecting Edenvale, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2277,6 +2333,143 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 12893,
+          "title": "Vumatel Aerial Maintenance | Glenhazel",
+          "description": "Vumatel Aerial is conducting maintenance in Glenhazel on the 27 November 2023 @ 08h00 to 1 December 2023 @ 18h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-24 16:26:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12893,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1004,
+              "name": "Glenhazel",
+              "slug": "glenhazel",
+              "city_id": 8
+            }
+          ]
+        },
+        {
+          "id": 12892,
+          "title": "Vumatel Aerial Maintenance | Arcadia & Kwa-Nobuhle",
+          "description": "Vumatel Aerial is conducting maintenance in Arcadia & Kwa-Nobuhle on the 30 November 2023 @ 23h00 to 1 December 2023 @ 03h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-11-24 16:25:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12892,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            },
+            {
+              "id": 451,
+              "name": "Kwa Nobuhle",
+              "slug": "kwa-nobuhle",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 135,
+              "name": "Arcadia",
+              "slug": "arcadia",
+              "city_id": 33
+            }
+          ]
         },
         {
           "id": 12890,
