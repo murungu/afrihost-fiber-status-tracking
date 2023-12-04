@@ -7,6 +7,81 @@
     "notices": {
       "open": [
         {
+          "id": 12984,
+          "title": "Vumatel outage | Johannesburg",
+          "description": "Vumatel has informed us of a network outage affecting Johannesburg, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-12-04 07:28:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 12984,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            },
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 539,
+              "name": "Radiokop",
+              "slug": "radiokop",
+              "city_id": 35
+            },
+            {
+              "id": 320,
+              "name": "Randpark Ridge",
+              "slug": "randpark-ridge",
+              "city_id": 53
+            }
+          ]
+        },
+        {
           "id": 12981,
           "title": "MetroFibre outage | Charleston Crescent, Sunninghill",
           "description": "MetroFibre has informed us of a network outage affecting Charleston Crescent, Sunninghill, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
