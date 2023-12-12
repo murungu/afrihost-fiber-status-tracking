@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 13040,
+          "title": "MetroFibre outage | Kwa-Thema, Springs",
+          "description": "MetroFibre has informed us of a network outage affecting Kwa-Thema, Springs, affected clients will experience no connectivity. Due to increased violence in this area, our contractors are not able to freely access the area to work. All maintenance in this area will be on hold until further notice. The safety of our engineers remains our priority.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2023-12-12 16:37:33",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13040,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1618,
+              "name": "Kwa Thema",
+              "slug": "kwa-thema",
+              "city_id": 37
+            }
+          ]
+        },
+        {
           "id": 13039,
           "title": "FrogFoot outage | Kempton Park, Boksburg and Benoni",
           "description": "FrogFoot has informed us of a network outage affecting Kempton Park, Boksburg and Benoni, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
