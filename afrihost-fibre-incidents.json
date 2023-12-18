@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13056,
-          "title": "Evotel outage | Ennerdale",
-          "description": "Evotel has informed us of a network outage affecting Ennerdale, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13058,
+          "title": "MetroFibre outage | Kaalfontein",
+          "description": "MetroFibre has informed us of a network outage affecting Kaalfontein, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-12-16 10:07:18",
+          "created_at": "2023-12-18 07:51:31",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,25 +34,17 @@
           },
           "categories": [
             {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13056,
-                "category_id": 6
+                "notice_id": 13058,
+                "category_id": 9
               }
             }
           ],
-          "updates": [
-            {
-              "id": 829,
-              "notice_id": 13056,
-              "content": "Technicians are still on site investigating. \nApologies for the disruption to service.",
-              "created_by_id": 11,
-              "created_at": "2023-12-16 15:43:12"
-            }
-          ],
+          "updates": [],
           "provinces": [
             {
               "id": 1,
@@ -62,18 +54,18 @@
           ],
           "cities": [
             {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
               "province_id": 1
             }
           ],
           "suburbs": [
             {
-              "id": 873,
-              "name": "Ennerdale",
-              "slug": "ennerdale",
-              "city_id": 8
+              "id": 2448,
+              "name": "Kaalfontein",
+              "slug": "kaalfontein",
+              "city_id": 50
             }
           ]
         },
@@ -1489,75 +1481,6 @@
       ],
       "closed": [
         {
-          "id": 13030,
-          "title": "FrogFoot outage | Benoni",
-          "description": "FrogFoot has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-12-11 14:07:55",
-          "should_notify": 0,
-          "created_at": "2023-12-11 12:42:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13030,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2
-            },
-            {
-              "id": 1589,
-              "name": "Fairlead",
-              "slug": "fairlead",
-              "city_id": 2
-            }
-          ]
-        },
-        {
           "id": 13031,
           "title": "Evotel outage  | Rustenburg",
           "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2001,6 +1924,77 @@
               "name": "Pierre Van Ryneveld",
               "slug": "pierre-van-ryneveld",
               "city_id": 43
+            }
+          ]
+        },
+        {
+          "id": 13056,
+          "title": "Evotel outage | Ennerdale",
+          "description": "Evotel has informed us of a network outage affecting Ennerdale, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-12-18 07:58:25",
+          "should_notify": 0,
+          "created_at": "2023-12-16 10:07:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13056,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 829,
+              "notice_id": 13056,
+              "content": "Technicians are still on site investigating. \nApologies for the disruption to service.",
+              "created_by_id": 11,
+              "created_at": "2023-12-16 15:43:12"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 873,
+              "name": "Ennerdale",
+              "slug": "ennerdale",
+              "city_id": 8
             }
           ]
         },
