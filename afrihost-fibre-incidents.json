@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13058,
-          "title": "MetroFibre outage | Kaalfontein",
-          "description": "MetroFibre has informed us of a network outage affecting Kaalfontein, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13061,
+          "title": "FrogFoot outage | Kempton Park",
+          "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-12-18 07:51:31",
+          "created_at": "2023-12-18 16:08:53",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,13 +34,13 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13058,
-                "category_id": 9
+                "notice_id": 13061,
+                "category_id": 7
               }
             }
           ],
@@ -54,18 +54,30 @@
           ],
           "cities": [
             {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
               "province_id": 1
             }
           ],
           "suburbs": [
             {
-              "id": 2448,
-              "name": "Kaalfontein",
-              "slug": "kaalfontein",
-              "city_id": 50
+              "id": 193,
+              "name": "Pomona",
+              "slug": "pomona",
+              "city_id": 48
+            },
+            {
+              "id": 428,
+              "name": "Bonaero Park",
+              "slug": "bonaero-park",
+              "city_id": 48
+            },
+            {
+              "id": 4244,
+              "name": "Caro Nome A H",
+              "slug": "caro-nome-a-h",
+              "city_id": 48
             }
           ]
         },
@@ -1593,62 +1605,6 @@
       ],
       "closed": [
         {
-          "id": 13031,
-          "title": "Evotel outage  | Rustenburg",
-          "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-12-12 04:46:56",
-          "should_notify": 0,
-          "created_at": "2023-12-11 13:24:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13031,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13035,
           "title": "MetroFibre outage | Broadacres",
           "description": "MetroFibre has informed us of a network outage affecting Broadacres, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2165,6 +2121,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 13058,
+          "title": "MetroFibre outage | Kaalfontein",
+          "description": "MetroFibre has informed us of a network outage affecting Kaalfontein, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-12-18 15:51:42",
+          "should_notify": 0,
+          "created_at": "2023-12-18 07:51:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13058,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2448,
+              "name": "Kaalfontein",
+              "slug": "kaalfontein",
+              "city_id": 50
+            }
+          ]
         },
         {
           "id": 13045,
