@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13092,
-          "title": "FrogFoot outage | Uniepark, Stellenbosch",
-          "description": "FrogFoot has informed us of a network outage affecting Uniepark, Stellenbosch, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13093,
+          "title": "Vumatel outage | Ladysmith, Dundee & Glencoe",
+          "description": "Vumatel has informed us of a network outage affecting Ladysmith, Dundee & Glencoe, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2023-12-28 16:23:37",
+          "created_at": "2023-12-28 20:46:16",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,40 +34,75 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13092,
-                "category_id": 7
+                "notice_id": 13093,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13093,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13093,
+                "category_id": 15
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13093,
+                "category_id": 18
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 223,
-              "name": "Stellenbosch",
-              "slug": "stellenbosch",
-              "province_id": 3
+              "id": 154,
+              "name": "Glencoe",
+              "slug": "glencoe",
+              "province_id": 2
+            },
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2
+            },
+            {
+              "id": 149,
+              "name": "Dundee",
+              "slug": "dundee",
+              "province_id": 2
             }
           ],
-          "suburbs": [
-            {
-              "id": 3133,
-              "name": "Uniepark",
-              "slug": "uniepark",
-              "city_id": 223
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 13091,
@@ -1650,62 +1685,6 @@
           "suburbs": []
         },
         {
-          "id": 13072,
-          "title": "TT Connect Outage | Parts of Edenvale",
-          "description": "TT Connect has informed us of a network outage affecting parts of Edenvale, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2023-12-25 05:40:21",
-          "should_notify": 0,
-          "created_at": "2023-12-21 04:40:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13072,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13078,
           "title": "Openserve outage | Pretoria",
           "description": "Openserve has informed us of a network outage affecting Pretoria, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2278,6 +2257,69 @@
               "name": "Kirstenhof",
               "slug": "kirstenhof",
               "city_id": 240
+            }
+          ]
+        },
+        {
+          "id": 13092,
+          "title": "FrogFoot outage | Uniepark, Stellenbosch",
+          "description": "FrogFoot has informed us of a network outage affecting Uniepark, Stellenbosch, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2023-12-28 20:44:26",
+          "should_notify": 0,
+          "created_at": "2023-12-28 16:23:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13092,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3133,
+              "name": "Uniepark",
+              "slug": "uniepark",
+              "city_id": 223
             }
           ]
         }
