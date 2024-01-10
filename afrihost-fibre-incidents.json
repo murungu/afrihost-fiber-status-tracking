@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 13134,
+          "title": "Metro Fibre Outage | Bluff",
+          "description": "Metro fibre has informed us of a network outage affecting Bluff, affected clients will experience no connectivity. Metro fibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-01-10 15:05:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13134,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 62,
+              "name": "Bluff",
+              "slug": "bluff",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 13132,
           "title": "LinkLayer",
           "description": "LinkLayer has informed us of a network outage affecting Verulam, Tongaat, affected clients will experience no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -254,69 +310,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 13106,
-          "title": "Metro Fibre Outage | Madison Square",
-          "description": "Metro fibre has informed us of a network outage affecting Madison Square, Rivonia Road, Rivonia. affected clients will experience no connectivity. Metro fibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-02 10:26:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13106,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 63,
-              "name": "Rivonia",
-              "slug": "rivonia",
-              "city_id": 16
-            }
-          ]
         },
         {
           "id": 13098,
