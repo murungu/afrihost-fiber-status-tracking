@@ -357,62 +357,6 @@
           ]
         },
         {
-          "id": 13144,
-          "title": "Clearaccess Maintenance",
-          "description": "Clearaccess is conducting maintenance in Knysna, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-12 11:36:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 4,
-              "name": "Clear Access",
-              "slug": "clear-access",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13144,
-                "category_id": 4
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13038,
           "title": "Vumatel installation and maintenance problems | Khayelitsha",
           "description": "We would like to inform you about the challenges that we are currently experiencing with installation & maintenance activities in the Khayelitsha, Western Cape.\nDue to increased violence in this area, our contractor partners are not able to freely access the area to work.\nAll maintenance and installation activities in this area will be on hold until further notice. The safety of our contractor partners remains our priority.",
@@ -557,6 +501,69 @@
               "id": 799,
               "name": "Bardene",
               "slug": "bardene",
+              "city_id": 22
+            }
+          ]
+        },
+        {
+          "id": 13163,
+          "title": "Evotel Maintenance| Dawn Park",
+          "description": "Evotel is conducting maintenance in Dawn Park on 2024-01-18 from 21:00 to 2024-01-19 07:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-01-15 13:28:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13163,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 422,
+              "name": "Dawn Park",
+              "slug": "dawn-park",
               "city_id": 22
             }
           ]
@@ -748,16 +755,16 @@
           ]
         },
         {
-          "id": 13143,
-          "title": "Octotel outage | Cape Town",
-          "description": "Octotel has informed us of a network outage affecting Cape Town, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13144,
+          "title": "Clearaccess Maintenance",
+          "description": "Clearaccess is conducting maintenance in Knysna, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2024-01-14 18:34:24",
+          "resolved_at": "2024-01-15 13:46:04",
           "should_notify": 0,
-          "created_at": "2024-01-11 16:45:58",
+          "created_at": "2024-01-12 11:36:16",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -775,13 +782,13 @@
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 4,
+              "name": "Clear Access",
+              "slug": "clear-access",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13143,
-                "category_id": 12
+                "notice_id": 13144,
+                "category_id": 4
               }
             }
           ],
@@ -795,20 +802,13 @@
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
+              "id": 302,
+              "name": "Knysna",
+              "slug": "knysna",
               "province_id": 3
             }
           ],
-          "suburbs": [
-            {
-              "id": 20,
-              "name": "Cape Town City Centre",
-              "slug": "cape-town-city-centre",
-              "city_id": 240
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 13148,
