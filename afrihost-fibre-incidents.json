@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13171,
-          "title": "Frogfoot Outage | Westbrook",
-          "description": "Frogfoot has informed us of a network outage affecting Westbrook, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13172,
+          "title": "Frogfoot Outage | Garsfontein and Faerie glen",
+          "description": "Frogfoot has informed us of a network outage affecting Garsfontein and Faerie glen, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-01-16 15:15:21",
+          "created_at": "2024-01-16 17:00:54",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13171,
+                "notice_id": 13172,
                 "category_id": 7
               }
             }
@@ -47,25 +47,31 @@
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
             }
           ],
           "suburbs": [
             {
-              "id": 4689,
-              "name": "Westbrook",
-              "slug": "westbrook-1",
-              "city_id": 458
+              "id": 152,
+              "name": "Garsfontein",
+              "slug": "garsfontein",
+              "city_id": 33
+            },
+            {
+              "id": 25,
+              "name": "Faerie Glen",
+              "slug": "faerie-glen",
+              "city_id": 33
             }
           ]
         },
@@ -749,85 +755,6 @@
       ],
       "closed": [
         {
-          "id": 13154,
-          "title": "Vumatel Outage | Rondebosch & surrounding areas",
-          "description": "Vumatel has informed us of a network outage affecting Rondebosch & surrounding areas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2024-01-13 22:32:10",
-          "should_notify": 0,
-          "created_at": "2024-01-13 21:45:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13154,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13154,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 516,
-              "name": "Rondebosch",
-              "slug": "rondebosch",
-              "city_id": 240
-            },
-            {
-              "id": 2584,
-              "name": "Rondebosch East",
-              "slug": "rondebosch-east",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 13155,
           "title": "FrogFoot outage | Margate",
           "description": "FrogFoot has informed us of a network outage affecting Margate, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1250,6 +1177,69 @@
               "name": "Gardeniapark",
               "slug": "gardeniapark",
               "city_id": 570
+            }
+          ]
+        },
+        {
+          "id": 13171,
+          "title": "Frogfoot Outage | Westbrook",
+          "description": "Frogfoot has informed us of a network outage affecting Westbrook, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-01-16 17:01:44",
+          "should_notify": 0,
+          "created_at": "2024-01-16 15:15:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13171,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4689,
+              "name": "Westbrook",
+              "slug": "westbrook-1",
+              "city_id": 458
             }
           ]
         },
