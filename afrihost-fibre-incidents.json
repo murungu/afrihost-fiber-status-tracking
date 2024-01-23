@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13204,
-          "title": "FrogFoot Outage | Nelspruit East",
-          "description": "Frogfoot has informed us of a network outage affecting Nelspruit East, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13205,
+          "title": "Evotel Outage",
+          "description": "Evotel has informed us of a network outage affecting Gauteng, Free State, Mpumalanga, Kwa-Zulu Natal, Northern Cape & North West, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-01-23 08:47:34",
+          "created_at": "2024-01-23 11:26:58",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,32 +34,50 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13204,
-                "category_id": 7
+                "notice_id": 13205,
+                "category_id": 6
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            },
+            {
               "id": 9,
               "name": "Mpumalanga",
               "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
+            },
             {
-              "id": 674,
-              "name": "Nelspruit",
-              "slug": "nelspruit",
-              "province_id": 9
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            },
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            },
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            },
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
             }
           ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -809,62 +827,6 @@
       ],
       "closed": [
         {
-          "id": 13185,
-          "title": "Netstream| Alberton",
-          "description": "Netstream has informed us of a network outage affecting Alberton, affected clients will experience no connection. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-01-18 14:35:23",
-          "should_notify": 0,
-          "created_at": "2024-01-18 12:39:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 11,
-              "name": "Netstream",
-              "slug": "netstream",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13185,
-                "category_id": 11
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13187,
           "title": "Frogfoot| Lephalale",
           "description": "Frogfoot has informed us of a network outage affecting Lephalale, affected clients will experience no connection. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1417,6 +1379,62 @@
               "city_id": 33
             }
           ]
+        },
+        {
+          "id": 13204,
+          "title": "FrogFoot Outage | Nelspruit East",
+          "description": "Frogfoot has informed us of a network outage affecting Nelspruit East, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-01-23 11:27:19",
+          "should_notify": 0,
+          "created_at": "2024-01-23 08:47:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13204,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 674,
+              "name": "Nelspruit",
+              "slug": "nelspruit",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 13188,
