@@ -7,80 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 13205,
-          "title": "Evotel Outage",
-          "description": "Evotel has informed us of a network outage affecting Gauteng, Free State, Mpumalanga, Kwa-Zulu Natal, Northern Cape & North West, affected clients will experience intermittent. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-23 11:26:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13205,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            },
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 13203,
           "title": "Vuma Village Outage | Lonehill",
           "description": "Vumatel has informed us of a network outage affecting Lonehill, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -769,6 +695,124 @@
           ]
         },
         {
+          "id": 13212,
+          "title": "Octotel Maintenance | Atlantis & Mutual Heights",
+          "description": "Octotel is conducting maintenance in Atlantis & Mutual Heights from 07/02/2024 04:00 to 07/02/2024 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-01-24 09:08:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13212,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 233,
+              "name": "Atlantis",
+              "slug": "atlantis",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 13211,
+          "title": "Octotel Maintenance | Grabouw & Moorreesburg",
+          "description": "Octotel is conducting maintenance in Grabouw & Moorreesburg from 06/02/2024 04:00 to 06/02/2024 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-01-24 09:04:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13211,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 200,
+              "name": "Grabouw",
+              "slug": "grabouw",
+              "province_id": 3
+            },
+            {
+              "id": 261,
+              "name": "Moorreesburg",
+              "slug": "moorreesburg",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 13208,
           "title": "Octotel Maintenance | Bredasdorp & Struisbaai",
           "description": "Octotel is conducting maintenance in Bredasdorp & Struisbaai from 01/02/2024 04:00 to 01/02/2024 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1007,69 +1051,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 13190,
-          "title": "MetroFibre Outage | Avoca",
-          "description": "MetroFibre has informed us of a network outage affecting Avoca, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-01-18 16:24:08",
-          "should_notify": 0,
-          "created_at": "2024-01-18 15:31:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13190,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1521,
-              "name": "Avoca",
-              "slug": "avoca",
-              "city_id": 68
-            }
-          ]
-        },
         {
           "id": 13192,
           "title": "FrogFoot Outage | Nelspruit East",
@@ -1622,6 +1603,80 @@
               "province_id": 9
             }
           ],
+          "suburbs": []
+        },
+        {
+          "id": 13205,
+          "title": "Evotel Outage",
+          "description": "Evotel has informed us of a network outage affecting Gauteng, Free State, Mpumalanga, Kwa-Zulu Natal, Northern Cape & North West, affected clients will experience intermittent. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-01-24 09:06:01",
+          "should_notify": 0,
+          "created_at": "2024-01-23 11:26:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13205,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            },
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            },
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            },
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            },
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [],
           "suburbs": []
         },
         {
