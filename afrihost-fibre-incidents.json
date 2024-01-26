@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 13219,
+          "title": "Vuma Village Outage | Maroeladal",
+          "description": "Vumatel has informed us of a network outage affecting Maroeladal, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-01-26 09:48:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13219,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 13218,
           "title": "Vuma Reach Outage | Tembisa, Kaalfontein & Hospitalview",
           "description": "Vumatel has informed us of a network outage affecting Tembisa, Kaalfontein & Hospitalview, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1801,6 +1857,16 @@
               "slug": "gauteng"
             },
             {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            },
+            {
               "id": 2,
               "name": "KwaZulu-Natal",
               "slug": "kwazulu-natal"
@@ -1814,16 +1880,6 @@
               "id": 7,
               "name": "Free State",
               "slug": "free-state"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
             }
           ],
           "cities": [],
