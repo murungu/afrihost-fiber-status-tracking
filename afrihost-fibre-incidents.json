@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 13243,
+          "title": "Frogfoot Outage | St Kitts",
+          "description": "Frogfoot has informed us of a network outage affecting St Kitts, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-02-01 23:49:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13243,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 111,
+              "name": "Rynfield",
+              "slug": "rynfield",
+              "city_id": 2
+            }
+          ]
+        },
+        {
           "id": 13242,
           "title": "Metrofibre Outage | Pretoria North",
           "description": "Metrofibre has informed us of a network outage affecting Pretoria North, affected clients will experience limited no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -129,294 +192,6 @@
               "name": "Amberfield",
               "slug": "amberfield",
               "city_id": 43
-            }
-          ]
-        },
-        {
-          "id": 13240,
-          "title": "Frogfoot Degraded Service",
-          "description": "Frogfoot has informed us of a network outage affecting parts of Kwa-Zulu Natal, Gauteng, Western Cape, and Eastern Cape, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-31 21:37:03",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13240,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            },
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            },
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            },
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            },
-            {
-              "id": 213,
-              "name": "Mossel Bay",
-              "slug": "mossel-bay",
-              "province_id": 3
-            },
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 290,
-              "name": "Darling",
-              "slug": "darling",
-              "province_id": 3
-            },
-            {
-              "id": 263,
-              "name": "Noordhoek",
-              "slug": "noordhoek",
-              "province_id": 3
-            },
-            {
-              "id": 246,
-              "name": "Franschhoek",
-              "slug": "franschhoek",
-              "province_id": 3
-            },
-            {
-              "id": 197,
-              "name": "Fish Hoek",
-              "slug": "fish-hoek",
-              "province_id": 3
-            },
-            {
-              "id": 239,
-              "name": "Caledon",
-              "slug": "caledon",
-              "province_id": 3
-            },
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            },
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2
-            },
-            {
-              "id": 225,
-              "name": "Swellendam",
-              "slug": "swellendam",
-              "province_id": 3
-            },
-            {
-              "id": 215,
-              "name": "Oudtshoorn",
-              "slug": "oudtshoorn",
-              "province_id": 3
-            },
-            {
-              "id": 443,
-              "name": "Grahamstown",
-              "slug": "grahamstown",
-              "province_id": 6
-            },
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            },
-            {
-              "id": 231,
-              "name": "Yzerfontein",
-              "slug": "yzerfontein",
-              "province_id": 3
-            },
-            {
-              "id": 233,
-              "name": "Atlantis",
-              "slug": "atlantis",
-              "province_id": 3
-            },
-            {
-              "id": 497,
-              "name": "Somerset East",
-              "slug": "somerset-east",
-              "province_id": 6
-            },
-            {
-              "id": 223,
-              "name": "Stellenbosch",
-              "slug": "stellenbosch",
-              "province_id": 3
-            },
-            {
-              "id": 295,
-              "name": "Goodwood",
-              "slug": "goodwood",
-              "province_id": 3
-            },
-            {
-              "id": 291,
-              "name": "Delft",
-              "slug": "delft",
-              "province_id": 3
-            },
-            {
-              "id": 284,
-              "name": "Blue Downs",
-              "slug": "blue-downs",
-              "province_id": 3
-            },
-            {
-              "id": 203,
-              "name": "Hout Bay",
-              "slug": "hout-bay",
-              "province_id": 3
-            },
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3
-            },
-            {
-              "id": 259,
-              "name": "Matroosfontein",
-              "slug": "matroosfontein",
-              "province_id": 3
-            },
-            {
-              "id": 522,
-              "name": "King Williams Town",
-              "slug": "king-williams-town",
-              "province_id": 6
-            },
-            {
-              "id": 212,
-              "name": "Montagu",
-              "slug": "montagu",
-              "province_id": 3
-            },
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            },
-            {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
-              "province_id": 1
-            },
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            },
-            {
-              "id": 186,
-              "name": "Bellville",
-              "slug": "bellville",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 516,
-              "name": "Rondebosch",
-              "slug": "rondebosch",
-              "city_id": 240
-            },
-            {
-              "id": 225,
-              "name": "Lynnwood",
-              "slug": "lynnwood",
-              "city_id": 33
-            },
-            {
-              "id": 611,
-              "name": "Wynberg",
-              "slug": "wynberg",
-              "city_id": 240
-            },
-            {
-              "id": 2324,
-              "name": "Sunnydale",
-              "slug": "sunnydale",
-              "city_id": 263
-            },
-            {
-              "id": 743,
-              "name": "Pinelands",
-              "slug": "pinelands",
-              "city_id": 240
-            },
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2
             }
           ]
         },
@@ -1215,306 +990,6 @@
           "suburbs": []
         },
         {
-          "id": 13219,
-          "title": "Vuma Village Outage | Maroeladal",
-          "description": "Vumatel has informed us of a network outage affecting Maroeladal, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-26 09:48:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13219,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13215,
-          "title": "Openserve| George and Knysna",
-          "description": "Openserve has informed us of a network outage affecting George and Knysna affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-24 16:35:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13215,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13203,
-          "title": "Vuma Village Outage | Lonehill",
-          "description": "Vumatel has informed us of a network outage affecting Lonehill, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-23 08:38:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13203,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 60,
-              "name": "Lonehill",
-              "slug": "lonehill",
-              "city_id": 16
-            }
-          ]
-        },
-        {
-          "id": 13202,
-          "title": "Openserve| Hillcrest, Forest Hill",
-          "description": "Openserve has informed us of a network outage affecting Hillcrest and Forest Hill, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-23 07:49:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13202,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 156,
-              "name": "Hillcrest",
-              "slug": "hillcrest",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13186,
-          "title": "FibreSuburb| South Hills",
-          "description": "FibreSuburb has informed us of a network outage affecting South Hills, affected clients will experience no connection. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-18 12:55:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13186,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1277,
-              "name": "South Hills",
-              "slug": "south-hills",
-              "city_id": 8
-            }
-          ]
-        },
-        {
           "id": 13038,
           "title": "Vumatel installation and maintenance problems | Khayelitsha",
           "description": "We would like to inform you about the challenges that we are currently experiencing with installation & maintenance activities in the Khayelitsha, Western Cape.\nDue to increased violence in this area, our contractor partners are not able to freely access the area to work.\nAll maintenance and installation activities in this area will be on hold until further notice. The safety of our contractor partners remains our priority.",
@@ -1599,69 +1074,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 13191,
-          "title": "MetroFibre Outage | Villa Sao Pedro",
-          "description": "MetroFibre has informed us of a network outage affecting Villa Sao Pedro, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-18 15:33:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13191,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 133,
-              "name": "Paulshof",
-              "slug": "paulshof",
-              "city_id": 16
-            }
-          ]
         },
         {
           "id": 13221,
@@ -1899,309 +1311,9 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 13208,
-          "title": "Octotel Maintenance | Bredasdorp & Struisbaai",
-          "description": "Octotel is conducting maintenance in Bredasdorp & Struisbaai from 01/02/2024 04:00 to 01/02/2024 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-23 15:39:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13208,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 286,
-              "name": "Bredasdorp",
-              "slug": "bredasdorp",
-              "province_id": 3
-            },
-            {
-              "id": 273,
-              "name": "Struisbaai",
-              "slug": "struisbaai",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13207,
-          "title": "Octotel Maintenance | Melkbos & Bree",
-          "description": "Octotel is conducting maintenance in Melkbos & Bree from 31/01/2024 04:00 to 31/01/2024 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-23 15:37:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13207,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 211,
-              "name": "Melkbosstrand",
-              "slug": "melkbosstrand",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13206,
-          "title": "Octotel Maintenance | Eagle Canyon",
-          "description": "Octotel is conducting maintenance in Eagle Canyon from 30/01/2024 04:00 to 30/01/2024 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-01-23 15:35:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13206,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 556,
-              "name": "Eagle Canyon Golf Estate",
-              "slug": "eagle-canyon-golf-estate",
-              "city_id": 35
-            }
-          ]
         }
       ],
       "closed": [
-        {
-          "id": 13214,
-          "title": "Frogfoot| Franschhoek",
-          "description": "Frogfoot has informed us of a network outage affecting Franschhoek affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-01-25 05:05:56",
-          "should_notify": 0,
-          "created_at": "2024-01-24 16:32:37",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13214,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 246,
-              "name": "Franschhoek",
-              "slug": "franschhoek",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13216,
-          "title": "Vuma Village Outage | Birdwood",
-          "description": "Vumatel has informed us of a network outage affecting Birdwood, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-01-31 08:02:41",
-          "should_notify": 0,
-          "created_at": "2024-01-24 17:33:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13216,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 157,
-              "name": "Birdswood",
-              "slug": "birdswood",
-              "city_id": 130
-            }
-          ]
-        },
         {
           "id": 13217,
           "title": "DNATel Outage | Mbombela",
@@ -2332,6 +1444,62 @@
               "city_id": 38
             }
           ]
+        },
+        {
+          "id": 13219,
+          "title": "Vuma Village Outage | Maroeladal",
+          "description": "Vumatel has informed us of a network outage affecting Maroeladal, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-02-01 23:57:19",
+          "should_notify": 0,
+          "created_at": "2024-01-26 09:48:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13219,
+                "category_id": 15
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 13222,
@@ -2696,6 +1864,294 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 13240,
+          "title": "Frogfoot Degraded Service",
+          "description": "Frogfoot has informed us of a network outage affecting parts of Kwa-Zulu Natal, Gauteng, Western Cape, and Eastern Cape, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-02-01 23:54:24",
+          "should_notify": 0,
+          "created_at": "2024-01-31 21:37:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13240,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            },
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            },
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            },
+            {
+              "id": 302,
+              "name": "Knysna",
+              "slug": "knysna",
+              "province_id": 3
+            },
+            {
+              "id": 213,
+              "name": "Mossel Bay",
+              "slug": "mossel-bay",
+              "province_id": 3
+            },
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            },
+            {
+              "id": 290,
+              "name": "Darling",
+              "slug": "darling",
+              "province_id": 3
+            },
+            {
+              "id": 263,
+              "name": "Noordhoek",
+              "slug": "noordhoek",
+              "province_id": 3
+            },
+            {
+              "id": 246,
+              "name": "Franschhoek",
+              "slug": "franschhoek",
+              "province_id": 3
+            },
+            {
+              "id": 197,
+              "name": "Fish Hoek",
+              "slug": "fish-hoek",
+              "province_id": 3
+            },
+            {
+              "id": 239,
+              "name": "Caledon",
+              "slug": "caledon",
+              "province_id": 3
+            },
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            },
+            {
+              "id": 130,
+              "name": "Richards Bay",
+              "slug": "richards-bay",
+              "province_id": 2
+            },
+            {
+              "id": 225,
+              "name": "Swellendam",
+              "slug": "swellendam",
+              "province_id": 3
+            },
+            {
+              "id": 215,
+              "name": "Oudtshoorn",
+              "slug": "oudtshoorn",
+              "province_id": 3
+            },
+            {
+              "id": 443,
+              "name": "Grahamstown",
+              "slug": "grahamstown",
+              "province_id": 6
+            },
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            },
+            {
+              "id": 231,
+              "name": "Yzerfontein",
+              "slug": "yzerfontein",
+              "province_id": 3
+            },
+            {
+              "id": 233,
+              "name": "Atlantis",
+              "slug": "atlantis",
+              "province_id": 3
+            },
+            {
+              "id": 497,
+              "name": "Somerset East",
+              "slug": "somerset-east",
+              "province_id": 6
+            },
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3
+            },
+            {
+              "id": 295,
+              "name": "Goodwood",
+              "slug": "goodwood",
+              "province_id": 3
+            },
+            {
+              "id": 291,
+              "name": "Delft",
+              "slug": "delft",
+              "province_id": 3
+            },
+            {
+              "id": 284,
+              "name": "Blue Downs",
+              "slug": "blue-downs",
+              "province_id": 3
+            },
+            {
+              "id": 203,
+              "name": "Hout Bay",
+              "slug": "hout-bay",
+              "province_id": 3
+            },
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            },
+            {
+              "id": 259,
+              "name": "Matroosfontein",
+              "slug": "matroosfontein",
+              "province_id": 3
+            },
+            {
+              "id": 522,
+              "name": "King Williams Town",
+              "slug": "king-williams-town",
+              "province_id": 6
+            },
+            {
+              "id": 212,
+              "name": "Montagu",
+              "slug": "montagu",
+              "province_id": 3
+            },
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            },
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            },
+            {
+              "id": 186,
+              "name": "Bellville",
+              "slug": "bellville",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 516,
+              "name": "Rondebosch",
+              "slug": "rondebosch",
+              "city_id": 240
+            },
+            {
+              "id": 225,
+              "name": "Lynnwood",
+              "slug": "lynnwood",
+              "city_id": 33
+            },
+            {
+              "id": 611,
+              "name": "Wynberg",
+              "slug": "wynberg",
+              "city_id": 240
+            },
+            {
+              "id": 2324,
+              "name": "Sunnydale",
+              "slug": "sunnydale",
+              "city_id": 263
+            },
+            {
+              "id": 743,
+              "name": "Pinelands",
+              "slug": "pinelands",
+              "city_id": 240
+            },
+            {
+              "id": 111,
+              "name": "Rynfield",
+              "slug": "rynfield",
+              "city_id": 2
+            }
+          ]
         }
       ]
     },
