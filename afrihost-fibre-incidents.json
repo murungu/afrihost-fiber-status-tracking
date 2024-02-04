@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 13267,
+          "title": "Openserve outage | Pierre van Ryneveld",
+          "description": "Openserve has informed us of a network outage affecting Pierre van Ryneveld, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-02-04 19:07:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13267,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 742,
+              "name": "Pierre Van Ryneveld",
+              "slug": "pierre-van-ryneveld",
+              "city_id": 43
+            }
+          ]
+        },
+        {
           "id": 13266,
           "title": "Vumatel Outage | Summerstrand",
           "description": "Vumatel has informed us of a network outage affecting Summerstrand, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -66,69 +129,6 @@
               "name": "Summerstrand",
               "slug": "summerstrand",
               "city_id": 458
-            }
-          ]
-        },
-        {
-          "id": 13265,
-          "title": "Vumatel Outage | La Rochelle & surrounding areas",
-          "description": "Vumatel has informed us of a network outage affecting La Rochelle & surrounding areas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-02-04 13:54:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13265,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 186,
-              "name": "Bellville",
-              "slug": "bellville",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3076,
-              "name": "La Rochelle",
-              "slug": "la-rochelle-1",
-              "city_id": 186
             }
           ]
         },
@@ -2256,77 +2256,6 @@
       ],
       "closed": [
         {
-          "id": 13230,
-          "title": "FrogFoot outage | Norkem Park, Terenure, Kempton Park",
-          "description": "FrogFoot has informed us of a network outage affecting Norkem Park, Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Services have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-02-02 08:25:38",
-          "should_notify": 0,
-          "created_at": "2024-01-30 08:49:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13230,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 830,
-              "notice_id": 13230,
-              "content": "The area has been affected by a major fibre break due to vandalism. FrogFoot is working with their vendor technicians to get services restored as soon as possible. We apologise for the inconvenience.",
-              "created_by_id": 30,
-              "created_at": "2024-01-30 18:39:39"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 149,
-              "name": "Norkem Park",
-              "slug": "norkem-park",
-              "city_id": 48
-            }
-          ]
-        },
-        {
           "id": 13233,
           "title": "Evotel outage | Dawn Park",
           "description": "Evotel has informed us of a network outage affecting Dawn Park, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -3100,6 +3029,69 @@
               "name": "Rynfield",
               "slug": "rynfield",
               "city_id": 2
+            }
+          ]
+        },
+        {
+          "id": 13265,
+          "title": "Vumatel Outage | La Rochelle & surrounding areas",
+          "description": "Vumatel has informed us of a network outage affecting La Rochelle & surrounding areas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-02-04 14:36:25",
+          "should_notify": 0,
+          "created_at": "2024-02-04 13:54:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13265,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 186,
+              "name": "Bellville",
+              "slug": "bellville",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3076,
+              "name": "La Rochelle",
+              "slug": "la-rochelle-1",
+              "city_id": 186
             }
           ]
         }
