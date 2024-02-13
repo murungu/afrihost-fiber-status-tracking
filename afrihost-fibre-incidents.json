@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13321,
-          "title": "Octotel Outage | Gape Gate Node",
-          "description": "Octotel has informed us of a network outage affecting the Gape Gate node, affected clients will degraded connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 13322,
+          "title": "Openserve outage | Benoni",
+          "description": "Openserve has informed us of a network outage affecting Benoni, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-02-13 16:45:31",
+          "created_at": "2024-02-13 18:17:29",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,33 +26,40 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13321,
-                "category_id": 12
+                "notice_id": 13322,
+                "category_id": 14
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
-          "cities": [],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
           "suburbs": []
         },
         {
@@ -1573,16 +1580,16 @@
       ],
       "closed": [
         {
-          "id": 13296,
-          "title": "Frogfoot Outage | Franschhoek | Degraded Service",
-          "description": "Frogfoot has informed us of a network outage affecting Franschhoek, affected clients will experience degraded service. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Services restored to normal",
+          "id": 13321,
+          "title": "Octotel Outage | Gape Gate Node",
+          "description": "Octotel has informed us of a network outage affecting the Gape Gate node, affected clients will degraded connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2024-02-09 12:49:47",
+          "resolved_at": "2024-02-13 18:18:01",
           "should_notify": 0,
-          "created_at": "2024-02-09 09:35:27",
+          "created_at": "2024-02-13 16:45:31",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1592,21 +1599,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13296,
-                "category_id": 7
+                "notice_id": 13321,
+                "category_id": 12
               }
             }
           ],
@@ -1618,14 +1625,7 @@
               "slug": "western-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 246,
-              "name": "Franschhoek",
-              "slug": "franschhoek",
-              "province_id": 3
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -2176,11 +2176,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
