@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 13330,
+          "title": "Vumatel outage | Randhart",
+          "description": "Vumatel has informed us of a network outage affecting Randhart, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-02-14 17:37:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13330,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 185,
+              "name": "Randhart",
+              "slug": "randhart",
+              "city_id": 21
+            }
+          ]
+        },
+        {
           "id": 13329,
           "title": "Vumatel Outage | Motherwell Zone 1",
           "description": "Vumatel has informed us of a network outage affecting Motherwell Zone 1, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -846,68 +909,6 @@
           ]
         },
         {
-          "id": 13310,
-          "title": "Frogfoot Degraded Service | Nelspruit & White River",
-          "description": "FrogFoot has informed us of a network outage affecting Nelspruit & White River, affected clients will experience degraded service. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-02-12 00:06:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13310,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 674,
-              "name": "Nelspruit",
-              "slug": "nelspruit",
-              "province_id": 9
-            },
-            {
-              "id": 711,
-              "name": "White River",
-              "slug": "white-river",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13306,
           "title": "Openserve Outage |  HillCrest",
           "description": "Openserve has informed us of a network outage affecting HillCrest affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -955,75 +956,6 @@
           ],
           "cities": [],
           "suburbs": []
-        },
-        {
-          "id": 13277,
-          "title": "FrogFoot outage | Montclair and Woodlands",
-          "description": "FrogFoot has informed us of a network outage affecting Montclair and Woodlands, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-02-06 18:38:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13277,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 323,
-              "name": "Montclair",
-              "slug": "montclair",
-              "city_id": 68
-            },
-            {
-              "id": 1048,
-              "name": "Woodlands",
-              "slug": "woodlands",
-              "city_id": 68
-            }
-          ]
         },
         {
           "id": 13275,
@@ -1222,62 +1154,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 13302,
-          "title": "FibrSuburb Networks Outage | Verdeau Lifestyle Estate",
-          "description": "FibrSuburb Networks has informed us of a network outage affecting  Verdeau Lifestyle Estate, affected clients will experience no connectivity. FibrSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-02-10 18:59:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13302,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 229,
-              "name": "Wellington",
-              "slug": "wellington",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         }
       ],
       "closed": [
@@ -1395,75 +1271,6 @@
               "id": 5382,
               "name": "Moreletapark Ext 52",
               "slug": "moreletapark-ext-52",
-              "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 13304,
-          "title": "FrogFoot Outage | Faerie Glen",
-          "description": "FrogFoot has informed us of a network outage affecting Faerie Glen, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-02-11 19:09:49",
-          "should_notify": 0,
-          "created_at": "2024-02-10 23:36:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13304,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 25,
-              "name": "Faerie Glen",
-              "slug": "faerie-glen",
-              "city_id": 33
-            },
-            {
-              "id": 2405,
-              "name": "Wilgers",
-              "slug": "wilgers",
               "city_id": 33
             }
           ]
@@ -1719,6 +1526,68 @@
               "city_id": 458
             }
           ]
+        },
+        {
+          "id": 13310,
+          "title": "Frogfoot Degraded Service | Nelspruit & White River",
+          "description": "FrogFoot has informed us of a network outage affecting Nelspruit & White River, affected clients will experience degraded service. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-02-14 17:40:25",
+          "should_notify": 0,
+          "created_at": "2024-02-12 00:06:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13310,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 674,
+              "name": "Nelspruit",
+              "slug": "nelspruit",
+              "province_id": 9
+            },
+            {
+              "id": 711,
+              "name": "White River",
+              "slug": "white-river",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 13311,
