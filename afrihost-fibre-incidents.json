@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13376,
-          "title": "Openserve | Parts of Western Cape",
-          "description": "Openserve has informed us of a network outage affecting Parts of the Western Cape, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13377,
+          "title": "Openserve Outage | Woodside, Grayleigh & Westville",
+          "description": "Openserve has informed us of a network outage affecting Woodside, Grayleigh & Westville, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-02-24 18:47:40",
+          "created_at": "2024-02-24 20:21:30",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "openserve",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13376,
+                "notice_id": 13377,
                 "category_id": 14
               }
             }
@@ -47,13 +47,39 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 140,
+              "name": "Westville",
+              "slug": "westville",
+              "province_id": 2
+            },
+            {
+              "id": 128,
+              "name": "Pinetown",
+              "slug": "pinetown",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3053,
+              "name": "Grayleigh",
+              "slug": "grayleigh",
+              "city_id": 140
+            },
+            {
+              "id": 2336,
+              "name": "Woodside",
+              "slug": "woodside",
+              "city_id": 128
+            }
+          ]
         },
         {
           "id": 13374,
@@ -1150,75 +1176,6 @@
           "suburbs": []
         },
         {
-          "id": 13362,
-          "title": "Evotel| Bergsig & Protea Park",
-          "description": "Evotel has informed us of a network outage affecting Bergsig and Protea Park, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-02-23 12:15:34",
-          "should_notify": 0,
-          "created_at": "2024-02-22 12:55:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13362,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 140,
-              "name": "Protea Park",
-              "slug": "protea-park",
-              "city_id": 632
-            },
-            {
-              "id": 4791,
-              "name": "Bergsig",
-              "slug": "bergsig-8",
-              "city_id": 632
-            }
-          ]
-        },
-        {
           "id": 13363,
           "title": "Metrofibre| Durban North",
           "description": "Metrofibre has informed us of a network outage affecting Durban North, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1448,6 +1405,55 @@
               "city_id": 2
             }
           ]
+        },
+        {
+          "id": 13376,
+          "title": "Openserve | Parts of Western Cape",
+          "description": "Openserve has informed us of a network outage affecting Parts of the Western Cape, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-02-24 20:17:37",
+          "should_notify": 0,
+          "created_at": "2024-02-24 18:47:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13376,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
         }
       ]
     },
