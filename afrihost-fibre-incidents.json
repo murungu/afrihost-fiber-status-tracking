@@ -44,7 +44,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 832,
+              "notice_id": 13396,
+              "content": "Frogfoot tier 3 and core network engineers have mitigated the impact and are now monitoring for service stability. We apologise for the inconvenience this outage has caused.",
+              "created_by_id": 30,
+              "created_at": "2024-02-28 14:31:38"
+            }
+          ],
           "provinces": [
             {
               "id": 3,
@@ -2681,69 +2689,6 @@
           ]
         },
         {
-          "id": 13393,
-          "title": "Vumatel Maintenance | Ottery",
-          "description": "Vumatel is conducting maintenance in Ottery on the  27 February 2024 15h00  to 27 February 2024 18h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-02-27 14:34:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13393,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1311,
-              "name": "Ottery",
-              "slug": "ottery",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 13391,
           "title": "TT Connect Maintenance | Farrarmere",
           "description": "TT Connect is conducting maintenance in Farrarmere on the 01/03/2024 23:00 to 02/03/2024 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -3002,69 +2947,6 @@
           ],
           "cities": [],
           "suburbs": []
-        },
-        {
-          "id": 13371,
-          "title": "Openserve| Brackendowns",
-          "description": "Openserve has informed us of a network outage affecting Brackendowns, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-02-27 14:34:22",
-          "should_notify": 0,
-          "created_at": "2024-02-23 16:18:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13371,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 53,
-              "name": "Brackendowns",
-              "slug": "brackendowns",
-              "city_id": 21
-            }
-          ]
         },
         {
           "id": 13373,
@@ -3558,6 +3440,69 @@
               "name": "Highway Gardens",
               "slug": "highway-gardens",
               "city_id": 46
+            }
+          ]
+        },
+        {
+          "id": 13393,
+          "title": "Vumatel Maintenance | Ottery",
+          "description": "Vumatel is conducting maintenance in Ottery on the  27 February 2024 15h00  to 27 February 2024 18h00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2024-02-28 14:18:20",
+          "should_notify": 0,
+          "created_at": "2024-02-27 14:34:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13393,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1311,
+              "name": "Ottery",
+              "slug": "ottery",
+              "city_id": 240
             }
           ]
         }
