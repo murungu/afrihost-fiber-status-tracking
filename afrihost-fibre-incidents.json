@@ -7,6 +7,75 @@
     "notices": {
       "open": [
         {
+          "id": 13434,
+          "title": "Metrofibre| Castleview & Dinwiddie",
+          "description": "Metrofibre has informed us of a network outage affecting Castleview and Dinwiddie, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-03-06 20:15:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13434,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 845,
+              "name": "Dinwiddie",
+              "slug": "dinwiddie",
+              "city_id": 46
+            },
+            {
+              "id": 568,
+              "name": "Castleview",
+              "slug": "castleview",
+              "city_id": 46
+            }
+          ]
+        },
+        {
           "id": 13433,
           "title": "FrogFoot| Garsfontein",
           "description": "FrogFoot has informed us of a network outage affecting Garsfontein, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -129,89 +198,6 @@
               "name": "Montana",
               "slug": "montana",
               "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 13425,
-          "title": "Vumatel Reach Outage | Buffalo Flats, Haven Hills, John Dube Village & Scenery Park East",
-          "description": "Vumatel Reach has informed us of a network outage affecting Buffalo Flats, Haven Hills, John Dube Village & Scenery Park East, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-03-06 11:01:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13425,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 834,
-              "notice_id": 13425,
-              "content": "Vumatel Technicians are busy with repairs",
-              "created_by_id": 12,
-              "created_at": "2024-03-06 16:16:42"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 477,
-              "name": "East London",
-              "slug": "east-london",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2344,
-              "name": "Buffalo",
-              "slug": "buffalo",
-              "city_id": 477
-            },
-            {
-              "id": 1265,
-              "name": "Haven Hills",
-              "slug": "haven-hills",
-              "city_id": 477
-            },
-            {
-              "id": 2319,
-              "name": "Scenery Park",
-              "slug": "scenery-park",
-              "city_id": 477
             }
           ]
         },
@@ -1662,62 +1648,6 @@
       ],
       "closed": [
         {
-          "id": 13407,
-          "title": "Frogfoot Outage | Gordons Bay",
-          "description": "Frogfoot has informed us of a network outage affecting Gordons Bay, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-02-29 20:36:37",
-          "should_notify": 0,
-          "created_at": "2024-02-29 15:18:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13407,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 199,
-              "name": "Gordons Bay",
-              "slug": "gordons-bay",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13408,
           "title": "Frogfoot Outage | Parts of Mosselbay",
           "description": "Frogfoot has informed us of a network outage affecting parts of Mosselbay, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2281,6 +2211,89 @@
               "name": "Helderberg Park",
               "slug": "helderberg-park",
               "city_id": 320
+            }
+          ]
+        },
+        {
+          "id": 13425,
+          "title": "Vumatel Reach Outage | Buffalo Flats, Haven Hills, John Dube Village & Scenery Park East",
+          "description": "Vumatel Reach has informed us of a network outage affecting Buffalo Flats, Haven Hills, John Dube Village & Scenery Park East, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-03-06 20:18:52",
+          "should_notify": 0,
+          "created_at": "2024-03-06 11:01:04",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13425,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 834,
+              "notice_id": 13425,
+              "content": "Vumatel Technicians are busy with repairs",
+              "created_by_id": 12,
+              "created_at": "2024-03-06 16:16:42"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2344,
+              "name": "Buffalo",
+              "slug": "buffalo",
+              "city_id": 477
+            },
+            {
+              "id": 1265,
+              "name": "Haven Hills",
+              "slug": "haven-hills",
+              "city_id": 477
+            },
+            {
+              "id": 2319,
+              "name": "Scenery Park",
+              "slug": "scenery-park",
+              "city_id": 477
             }
           ]
         }
