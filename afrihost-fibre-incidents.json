@@ -7,62 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 13439,
-          "title": "Purple Forest outage | Midrand",
-          "description": "Afrihost is investigating reports of no connectivity for clients on Purple Forest, affected clients will experience no connectivity. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-03-07 22:17:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 25,
-              "name": "Purple Forest",
-              "slug": "purple-forest",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13439,
-                "category_id": 25
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13437,
           "title": "TT Connect outage | Germiston",
           "description": "TT Connect has informed us of a network outage affecting Germiston, affected clients will experience no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1709,16 +1653,16 @@
       ],
       "closed": [
         {
-          "id": 13418,
-          "title": "FrogFoot Outage | Villa De Mardi | Tudor Village",
-          "description": "FrogFoot has informed us of a network outage affecting Tudor Village, Villa De Mardi, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 13439,
+          "title": "Purple Forest outage | Midrand",
+          "description": "Afrihost is investigating reports of no connectivity for clients on Purple Forest, affected clients will experience no connectivity. We sincerely apologise for any inconvenience caused.",
+          "resolution": "services have restored",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2024-03-03 20:32:29",
+          "resolved_at": "2024-03-07 22:27:47",
           "should_notify": 0,
-          "created_at": "2024-03-03 16:02:14",
+          "created_at": "2024-03-07 22:17:13",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1728,21 +1672,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 25,
+              "name": "Purple Forest",
+              "slug": "purple-forest",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13418,
-                "category_id": 7
+                "notice_id": 13439,
+                "category_id": 25
               }
             }
           ],
@@ -1756,20 +1700,13 @@
           ],
           "cities": [
             {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
               "province_id": 1
             }
           ],
-          "suburbs": [
-            {
-              "id": 112,
-              "name": "Terenure",
-              "slug": "terenure",
-              "city_id": 48
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 13419,
@@ -2352,11 +2289,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
