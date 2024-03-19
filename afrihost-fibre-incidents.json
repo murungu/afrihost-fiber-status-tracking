@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13490,
-          "title": "Metrofibre Outage | Edenvale",
-          "description": "Metrofibre has informed us of a network outage affecting Edenvale, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13491,
+          "title": "Metrofibre Outage | Capital Park",
+          "description": "Metrofibre has informed us of a network outage affecting Capital Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-03-19 07:54:17",
+          "created_at": "2024-03-19 13:50:24",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13490,
+                "notice_id": 13491,
                 "category_id": 9
               }
             }
@@ -54,9 +54,9 @@
           ],
           "cities": [
             {
-              "id": 25,
-              "name": "Edenvale",
-              "slug": "edenvale",
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
               "province_id": 1
             }
           ],
@@ -1140,16 +1140,16 @@
           ]
         },
         {
-          "id": 13476,
-          "title": "Evotel| Witbank",
-          "description": "Evotel has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13490,
+          "title": "Metrofibre Outage | Edenvale",
+          "description": "Metrofibre has informed us of a network outage affecting Edenvale, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2024-03-15 14:11:45",
+          "resolved_at": "2024-03-19 13:50:37",
           "should_notify": 0,
-          "created_at": "2024-03-14 17:48:04",
+          "created_at": "2024-03-19 07:54:17",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1159,48 +1159,41 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13476,
-                "category_id": 6
+                "notice_id": 13490,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1
             }
           ],
-          "suburbs": [
-            {
-              "id": 1774,
-              "name": "Klipfontein",
-              "slug": "klipfontein",
-              "city_id": 679
-            }
-          ]
+          "suburbs": []
         }
       ]
     },
