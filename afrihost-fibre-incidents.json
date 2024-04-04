@@ -165,69 +165,6 @@
       ],
       "closed": [
         {
-          "id": 13537,
-          "title": "Metrofibre Outage | Waterfall Crest",
-          "description": "Metrofibre has informed us of a network outage affecting Waterfall Crest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-03-30 04:05:42",
-          "should_notify": 0,
-          "created_at": "2024-03-28 15:28:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13537,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 564,
-              "name": "Waterfall",
-              "slug": "waterfall",
-              "city_id": 50
-            }
-          ]
-        },
-        {
           "id": 13538,
           "title": "Metrofibre| Pretoria North & Akasia",
           "description": "Metrofibre has informed us of a network outage affecting Pretoria North & Akasia, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -805,6 +742,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 13548,
+          "title": "Vumatel| Constantia",
+          "description": "Vumatel is conducting maintenance in Constantia on the 2024/04/04, 10:00\n to 2024/04/04, 13:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2024-04-04 09:46:57",
+          "should_notify": 0,
+          "created_at": "2024-04-04 09:38:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13548,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 165,
+              "name": "Constantia",
+              "slug": "constantia",
+              "city_id": 240
+            }
+          ]
         }
       ]
     },
