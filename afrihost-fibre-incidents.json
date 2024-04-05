@@ -7,68 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 13546,
-          "title": "Frogfoot outage | Western & Eastern Cape",
-          "description": "Afrihost is investigating an outage in the Western & Eastern Cape. Affected clients will experience slow and intermittent connectivity. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-03 10:38:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13546,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 839,
-              "notice_id": 13546,
-              "content": "Frogfoot tier 3 engineers have mitigated the impact and we are monitoring the network for stability. We apologise for the inconvenience caused.",
-              "created_by_id": 30,
-              "created_at": "2024-04-03 15:45:14"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            },
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 13552,
           "title": "Metrofibre| Del Judor",
           "description": "Metrofibre has informed us of a network outage affecting Del Judor, affected clients will experience degraded service. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -347,16 +285,16 @@
       ],
       "closed": [
         {
-          "id": 13539,
-          "title": "Metrofibre| Wavecrest",
-          "description": "Metrofibre has informed us of a network outage affecting Wavecrest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13546,
+          "title": "Frogfoot outage | Western & Eastern Cape",
+          "description": "Afrihost is investigating an outage in the Western & Eastern Cape. Affected clients will experience slow and intermittent connectivity. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2024-03-30 04:04:33",
+          "resolved_at": "2024-04-05 07:11:47",
           "should_notify": 0,
-          "created_at": "2024-03-28 19:35:34",
+          "created_at": "2024-04-03 10:38:28",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -366,48 +304,47 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13539,
-                "category_id": 9
+                "notice_id": 13546,
+                "category_id": 7
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 839,
+              "notice_id": 13546,
+              "content": "Frogfoot tier 3 engineers have mitigated the impact and we are monitoring the network for stability. We apologise for the inconvenience caused.",
+              "created_by_id": 30,
+              "created_at": "2024-04-03 15:45:14"
+            }
+          ],
           "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
             {
               "id": 6,
               "name": "Eastern Cape",
               "slug": "eastern-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 483,
-              "name": "Jeffreys Bay",
-              "slug": "jeffreys-bay",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1,
-              "name": "Wavecrest",
-              "slug": "wavecrest",
-              "city_id": 483
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 13540,
@@ -992,11 +929,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
