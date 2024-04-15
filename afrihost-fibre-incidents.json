@@ -133,69 +133,6 @@
           ]
         },
         {
-          "id": 13604,
-          "title": "Frogfoot| Constantia",
-          "description": "Frogfoot has informed us of a network outage affecting Constantia affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-15 09:16:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13604,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 165,
-              "name": "Constantia",
-              "slug": "constantia",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 13598,
           "title": "Openserve| Hartebeespoort",
           "description": "Openserve has informed us of a network outage affecting Hartbeespoort affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -352,7 +289,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 842,
+              "notice_id": 13586,
+              "content": "Evotel technicians are still working to restore the final few affected clients. Thank you for your patience during this downtime. We sincerely apologize for any inconvenience caused.",
+              "created_by_id": 12,
+              "created_at": "2024-04-15 15:42:02"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -382,141 +327,6 @@
               "city_id": 53
             }
           ]
-        },
-        {
-          "id": 13583,
-          "title": "Vumatel outage | Norkem Park",
-          "description": "Vumatel has informed us of a network outage affecting Norkem Park, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-10 13:53:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13583,
-                "category_id": 15
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13583,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 149,
-              "name": "Norkem Park",
-              "slug": "norkem-park",
-              "city_id": 48
-            },
-            {
-              "id": 57,
-              "name": "Birchleigh",
-              "slug": "birchleigh",
-              "city_id": 48
-            }
-          ]
-        },
-        {
-          "id": 13578,
-          "title": "Vumatel outage | Thohoyandou",
-          "description": "Vumatel has informed us of a network outage affecting Thohoyandou, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-09 10:39:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13578,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 364,
-              "name": "Thohoyandou",
-              "slug": "thohoyandou",
-              "province_id": 4
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 13572,
@@ -1037,111 +847,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 13589,
-          "title": "FrogFoot outage | Kempton Park",
-          "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-04-12 13:42:17",
-          "should_notify": 0,
-          "created_at": "2024-04-12 05:28:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13589,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            },
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            },
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 193,
-              "name": "Pomona",
-              "slug": "pomona",
-              "city_id": 48
-            },
-            {
-              "id": 428,
-              "name": "Bonaero Park",
-              "slug": "bonaero-park",
-              "city_id": 48
-            },
-            {
-              "id": 4080,
-              "name": "Rietfontein",
-              "slug": "rietfontein-4",
-              "city_id": 2
-            },
-            {
-              "id": 1453,
-              "name": "Nortons Home Estate",
-              "slug": "nortons-home-estate",
-              "city_id": 2
-            },
-            {
-              "id": 359,
-              "name": "Brentwood",
-              "slug": "brentwood",
-              "city_id": 2
-            },
-            {
-              "id": 4877,
-              "name": "Caro Nome A H",
-              "slug": "caro-nome-a-h-1",
-              "city_id": 22
-            }
-          ]
         },
         {
           "id": 13594,
@@ -1686,6 +1391,69 @@
               "id": 20,
               "name": "Cape Town City Centre",
               "slug": "cape-town-city-centre",
+              "city_id": 240
+            }
+          ]
+        },
+        {
+          "id": 13604,
+          "title": "Frogfoot| Constantia",
+          "description": "Frogfoot has informed us of a network outage affecting Constantia affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Links restored. Outage resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-04-15 15:29:44",
+          "should_notify": 0,
+          "created_at": "2024-04-15 09:16:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13604,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 165,
+              "name": "Constantia",
+              "slug": "constantia",
               "city_id": 240
             }
           ]
