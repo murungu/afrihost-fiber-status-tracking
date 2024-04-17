@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13612,
-          "title": "FrogFoot outage | Westen and Eastern Cape",
-          "description": "FrogFoot has informed us of a network outage affecting the Westen and Eastern Cape, affected clients will experience no intermittent connectivity with high packet loss and slow speeds. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13610,
+          "title": "MetroFibre outage | Barbeque Downs, Sunninghill, Kyalami & surrounding areas",
+          "description": "MetroFibre has informed us of a network outage affecting Barbeque Downs, Sunninghill, Kyalami & surrounding areas, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 4,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-04-17 05:36:35",
+          "created_at": "2024-04-16 16:50:44",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,60 +34,6 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13612,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            },
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 13610,
-          "title": "MetroFibre outage | Barbeque Downs, Sunninghill, Kyalami & surrounding areas",
-          "description": "MetroFibre has informed us of a network outage affecting Barbeque Downs, Sunninghill, Kyalami & surrounding areas, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-16 16:50:44",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
               "id": 9,
               "name": "MetroFibre",
               "slug": "metrofibre",
@@ -98,7 +44,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 843,
+              "notice_id": 13610,
+              "content": "MetroFibre technicians are still working on resolving the outage. Repairs are taking longer than expected due to the extensive damage.",
+              "created_by_id": 30,
+              "created_at": "2024-04-17 09:18:16"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -1242,16 +1196,16 @@
           "suburbs": []
         },
         {
-          "id": 13596,
-          "title": "Metrofibre| Sandfields",
-          "description": "Metrofibre has informed us of a network outage affecting Sandfields affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Please note that the fibre services in Sandfields Free Standing Houses, Durban North have been restored.",
+          "id": 13612,
+          "title": "FrogFoot outage | Westen and Eastern Cape",
+          "description": "FrogFoot has informed us of a network outage affecting the Westen and Eastern Cape, affected clients will experience no intermittent connectivity with high packet loss and slow speeds. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Outage resolved",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2024-04-12 14:23:21",
+          "resolved_at": "2024-04-17 09:16:12",
           "should_notify": 0,
-          "created_at": "2024-04-12 13:34:35",
+          "created_at": "2024-04-17 05:36:35",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1261,48 +1215,39 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13596,
-                "category_id": 9
+                "notice_id": 13612,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 175,
-              "name": "Tongaat",
-              "slug": "tongaat",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2586,
-              "name": "Sandfield",
-              "slug": "sandfield",
-              "city_id": 175
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 13597,
