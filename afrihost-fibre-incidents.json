@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13611,
-          "title": "FrogFoot outage | Port Elizabeth and George",
-          "description": "FrogFoot has informed us of a network outage affecting Port Elizabeth and George, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13612,
+          "title": "FrogFoot outage | Westen and Eastern Cape",
+          "description": "FrogFoot has informed us of a network outage affecting the Westen and Eastern Cape, affected clients will experience no intermittent connectivity with high packet loss and slow speeds. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-04-16 20:25:06",
+          "created_at": "2024-04-17 05:36:35",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,11 +26,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
@@ -39,7 +39,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13611,
+                "notice_id": 13612,
                 "category_id": 7
               }
             }
@@ -57,20 +57,7 @@
               "slug": "eastern-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            },
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -1188,16 +1175,16 @@
           "suburbs": []
         },
         {
-          "id": 13595,
-          "title": "Metrofibre| Claremont",
-          "description": "Metrofibre has informed us of a network outage affecting Claremont affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Please note that the fibre services in Claremont Free Standing Houses, Claremont, The Moot, Pretoria have been restored.",
+          "id": 13611,
+          "title": "FrogFoot outage | Westen and Eastern Cape",
+          "description": "FrogFoot has informed us of a network outage affecting the Westen and Eastern Cape, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2024-04-12 14:02:42",
+          "resolved_at": "2024-04-17 05:31:37",
           "should_notify": 0,
-          "created_at": "2024-04-12 13:28:22",
+          "created_at": "2024-04-16 20:25:06",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1207,48 +1194,52 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13595,
-                "category_id": 9
+                "notice_id": 13611,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
           "cities": [
             {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            },
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
             }
           ],
-          "suburbs": [
-            {
-              "id": 302,
-              "name": "Claremont",
-              "slug": "claremont-1",
-              "city_id": 33
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 13596,
@@ -1732,11 +1723,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
