@@ -7,6 +7,60 @@
     "notices": {
       "open": [
         {
+          "id": 13622,
+          "title": "FrogFoot outage | Western and Eastern Cape",
+          "description": "Afrihost and Frogfoot engineers are working on a network outage affecting the Western and Eastern Cape, affected clients will experience no connectivity. Afrihost and FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-04-18 06:07:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13622,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 13620,
           "title": "MetroFibre outage | Clarendon",
           "description": "MetroFibre has informed us of a network outage affecting Clarendon, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -359,74 +413,6 @@
               "city_id": 53
             }
           ]
-        },
-        {
-          "id": 13621,
-          "title": "FrogFoot maintenance | Cape Town",
-          "description": "FrogFoot is conducting maintenance in Cape Town on the 17th of April from 22:00 to the 18th of April at 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-17 23:13:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13621,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            },
-            {
-              "id": 223,
-              "name": "Stellenbosch",
-              "slug": "stellenbosch",
-              "province_id": 3
-            },
-            {
-              "id": 199,
-              "name": "Gordons Bay",
-              "slug": "gordons-bay",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 13607,
@@ -1108,69 +1094,6 @@
           "suburbs": []
         },
         {
-          "id": 13609,
-          "title": "Vumatel outage | Birdswood",
-          "description": "Vumatel has informed us of a network outage affecting Birdswood, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-04-17 16:57:43",
-          "should_notify": 0,
-          "created_at": "2024-04-16 09:44:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13609,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 157,
-              "name": "Birdswood",
-              "slug": "birdswood",
-              "city_id": 130
-            }
-          ]
-        },
-        {
           "id": 13613,
           "title": "Vumatel outage | Umkomaas",
           "description": "Vumatel has informed us of a network outage affecting Umkomaas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1412,15 +1335,83 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 13621,
+          "title": "FrogFoot maintenance | Cape Town",
+          "description": "FrogFoot is conducting maintenance in Cape Town on the 17th of April from 22:00 to the 18th of April at 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2024-04-18 06:05:36",
+          "should_notify": 0,
+          "created_at": "2024-04-17 23:13:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13621,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            },
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3
+            },
+            {
+              "id": 199,
+              "name": "Gordons Bay",
+              "slug": "gordons-bay",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
