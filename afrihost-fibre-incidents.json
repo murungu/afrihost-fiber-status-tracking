@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 13673,
+          "title": "Evotel Outage | Upington",
+          "description": "Evotel has informed us of a network outage affecting Upington, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-05-02 17:18:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13673,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 406,
+              "name": "Upington",
+              "slug": "upington",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 13672,
           "title": "Metrofibre Outage |  Bellini Estate",
           "description": "Metrofibre has informed us of a network outage affecting  Bellini Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -619,163 +675,6 @@
           "suburbs": []
         },
         {
-          "id": 13644,
-          "title": "Evotel outage | Rustenburg",
-          "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-26 07:22:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13644,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 847,
-              "notice_id": 13644,
-              "content": "Evotel is Investigating the new break and further information will follow when available. All clients still offline will be attended to on a case-by-case basis",
-              "created_by_id": 12,
-              "created_at": "2024-04-28 08:23:11"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13643,
-          "title": "FrogFoot outage | Kempton Park",
-          "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-25 22:18:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13643,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            },
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 428,
-              "name": "Bonaero Park",
-              "slug": "bonaero-park",
-              "city_id": 48
-            },
-            {
-              "id": 359,
-              "name": "Brentwood",
-              "slug": "brentwood",
-              "city_id": 2
-            },
-            {
-              "id": 193,
-              "name": "Pomona",
-              "slug": "pomona",
-              "city_id": 48
-            },
-            {
-              "id": 4244,
-              "name": "Caro Nome A H",
-              "slug": "caro-nome-a-h",
-              "city_id": 48
-            },
-            {
-              "id": 1453,
-              "name": "Nortons Home Estate",
-              "slug": "nortons-home-estate",
-              "city_id": 2
-            }
-          ]
-        },
-        {
           "id": 13572,
           "title": "Vumatel installation and maintenance problems | Khayelitsha & Delft",
           "description": "We would like to inform you about the challenges that we are currently experiencing with installation & maintenance activities in the Khayelitsha and Delft areas, Western Cape. Due to increased violence in this area, our contractor partners are not able to freely access the area to work. All maintenance and installation activities in this area will be on hold until further notice. The safety of our contractor partners remains our priority.",
@@ -846,125 +745,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 13654,
-          "title": "FrogFoot| Kempton Park",
-          "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-29 14:18:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13654,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13648,
-          "title": "Vumareach| Chatsworth",
-          "description": "Vumareach has informed us of a network outage affecting Chatsworth Zone 02, affected clients will experience no connectivity. Vumareach engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-04-28 10:19:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13648,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 737,
-              "name": "Chatsworth",
-              "slug": "chatsworth",
-              "city_id": 68
-            }
-          ]
         },
         {
           "id": 13670,
@@ -1243,62 +1023,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 13647,
-          "title": "Evotel| Welkom",
-          "description": "Evotel has informed us of a network outage affecting Welkom, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": "Splicing has completed and all clients have been restored. Thank you.\nUpdated\nApril 28, 2024 5:30 PM GMT+2",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-04-28 17:31:54",
-          "should_notify": 0,
-          "created_at": "2024-04-28 09:12:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13647,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 594,
-              "name": "Welkom",
-              "slug": "welkom",
-              "province_id": 7
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 13650,
           "title": "Cape Town| FrogFoot",
@@ -1788,6 +1512,62 @@
               "name": "Ballito",
               "slug": "ballito",
               "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 13654,
+          "title": "FrogFoot| Kempton Park",
+          "description": "FrogFoot has informed us of a network outage affecting Kempton Park, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 2,
+          "expires_at": null,
+          "resolved_at": "2024-05-02 17:24:52",
+          "should_notify": 0,
+          "created_at": "2024-04-29 14:18:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 2,
+            "name": "Low Impact",
+            "slug": "low-impact",
+            "description": "Minor problems",
+            "order": 1
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13654,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
             }
           ],
           "suburbs": []
