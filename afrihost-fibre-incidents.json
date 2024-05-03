@@ -7,69 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 13675,
-          "title": "MetroFibre outage | Rhodesfield, Kempton Park",
-          "description": "MetroFibre has informed us of a network outage affecting Rhodesfield, Kempton Park, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-05-03 08:41:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13675,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 887,
-              "name": "Rhodesfield",
-              "slug": "rhodesfield",
-              "city_id": 48
-            }
-          ]
-        },
-        {
           "id": 13674,
           "title": "Vuma Aerial outage | Kensington",
           "description": "Vuma Aerial has informed us of a network outage affecting Kensington, affected clients will experience no connectivity. Vuma Aerial engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -823,6 +760,87 @@
           "suburbs": []
         },
         {
+          "id": 13676,
+          "title": "FrogFoot maintenance | Lynnwood",
+          "description": "FrogFoot is conducting maintenance in Lynnwood on the 3rd of May from 16:30 to the 4th of May at 08:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-05-03 16:26:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13676,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 225,
+              "name": "Lynnwood",
+              "slug": "lynnwood",
+              "city_id": 33
+            },
+            {
+              "id": 698,
+              "name": "Lynnwood Glen",
+              "slug": "lynnwood-glen",
+              "city_id": 33
+            },
+            {
+              "id": 959,
+              "name": "Lynnwood Manor",
+              "slug": "lynnwood-manor",
+              "city_id": 33
+            },
+            {
+              "id": 1235,
+              "name": "Lynnwood Ridge",
+              "slug": "lynnwood-ridge",
+              "city_id": 33
+            }
+          ]
+        },
+        {
           "id": 13670,
           "title": "Openserve maintenance | Sunnyside",
           "description": "Openserve is conducting maintenance in Sunnyside on the 7th of May from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1099,80 +1117,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 13650,
-          "title": "Cape Town| FrogFoot",
-          "description": "FrogFoot has informed us of a network outage affecting Cape Town, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": "Outage Resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-04-28 15:57:23",
-          "should_notify": 0,
-          "created_at": "2024-04-28 13:55:07",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13650,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            },
-            {
-              "id": 263,
-              "name": "Noordhoek",
-              "slug": "noordhoek",
-              "province_id": 3
-            },
-            {
-              "id": 197,
-              "name": "Fish Hoek",
-              "slug": "fish-hoek",
-              "province_id": 3
-            },
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 13651,
           "title": "Frogfoot Outage | Cape Town",
@@ -1589,6 +1533,69 @@
               "name": "Paulshof",
               "slug": "paulshof",
               "city_id": 16
+            }
+          ]
+        },
+        {
+          "id": 13675,
+          "title": "MetroFibre outage | Rhodesfield, Kempton Park",
+          "description": "MetroFibre has informed us of a network outage affecting Rhodesfield, Kempton Park, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-05-03 16:13:04",
+          "should_notify": 0,
+          "created_at": "2024-05-03 08:41:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13675,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 887,
+              "name": "Rhodesfield",
+              "slug": "rhodesfield",
+              "city_id": 48
             }
           ]
         },
