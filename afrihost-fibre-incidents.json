@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13762,
-          "title": "Octotel| Wynberg",
-          "description": "We are investigating reports of no connectivity affecting clients on the Octotel network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "id": 13763,
+          "title": "Octotel| Southern Suburbs",
+          "description": "Octotel has informed us of a network outage affecting Southern Suburbs affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-05-17 21:23:03",
+          "created_at": "2024-05-17 21:48:21",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "octotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13762,
+                "notice_id": 13763,
                 "category_id": 12
               }
             }
@@ -1010,62 +1010,6 @@
       ],
       "closed": [
         {
-          "id": 13745,
-          "title": "Octotel Outage | Blouberg",
-          "description": "Octotel has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-05-16 05:29:32",
-          "should_notify": 0,
-          "created_at": "2024-05-15 14:59:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13745,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13746,
           "title": "Metrofibre Outage | Broadacres",
           "description": "Metrofibre has informed us of a network outage affecting Broadacres, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1629,6 +1573,69 @@
               "name": "Walmer",
               "slug": "walmer",
               "city_id": 458
+            }
+          ]
+        },
+        {
+          "id": 13762,
+          "title": "Octotel| Wynberg",
+          "description": "We are investigating reports of no connectivity affecting clients on the Octotel network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-05-17 21:48:31",
+          "should_notify": 0,
+          "created_at": "2024-05-17 21:23:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13762,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 611,
+              "name": "Wynberg",
+              "slug": "wynberg",
+              "city_id": 240
             }
           ]
         }
