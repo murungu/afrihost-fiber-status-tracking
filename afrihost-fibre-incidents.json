@@ -825,62 +825,6 @@
       ],
       "closed": [
         {
-          "id": 13743,
-          "title": "Frogfoot Outage | Kimberley",
-          "description": "Frogfoot has informed us of a network outage affecting Kimberley, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-05-16 05:30:39",
-          "should_notify": 0,
-          "created_at": "2024-05-15 14:40:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13743,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 375,
-              "name": "Kimberley",
-              "slug": "kimberley",
-              "province_id": 5
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13744,
           "title": "Vuma Reach Outage | Dundee, Ladysmith & Glencoe",
           "description": "Vuma Reach has informed us of a network outage affecting Dundee, Ladysmith & Glencoe, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1432,6 +1376,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 13758,
+          "title": "Frogfoot Outage | Walmer",
+          "description": "Frogfoot has informed us of a network outage affecting Walmer, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-05-17 15:26:41",
+          "should_notify": 0,
+          "created_at": "2024-05-17 15:19:28",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13758,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 172,
+              "name": "Walmer",
+              "slug": "walmer",
+              "city_id": 458
+            }
+          ]
         }
       ]
     },
