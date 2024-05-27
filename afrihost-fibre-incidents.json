@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13818,
-          "title": "Frogfoot| Darling",
-          "description": "Frogfoot has informed us of a network outage affecting Darling, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13820,
+          "title": "Vuma Reach| Mitchells Zone 19",
+          "description": "Vuma Reach has informed us of a network outage affecting Mitchells Zone 19, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-05-27 12:21:48",
+          "created_at": "2024-05-27 12:58:48",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,13 +34,13 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13818,
-                "category_id": 7
+                "notice_id": 13820,
+                "category_id": 27
               }
             }
           ],
@@ -54,13 +54,76 @@
           ],
           "cities": [
             {
-              "id": 290,
-              "name": "Darling",
-              "slug": "darling",
+              "id": 308,
+              "name": "Mitchells Plain",
+              "slug": "mitchells-plain",
               "province_id": 3
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 13819,
+          "title": "Metrofibre",
+          "description": "Metrofibre has informed us of a network outage affecting Belvedere, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-05-27 12:54:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13819,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 175,
+              "name": "Tongaat",
+              "slug": "tongaat",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2207,
+              "name": "Belvedere",
+              "slug": "belvedere",
+              "city_id": 175
+            }
+          ]
         },
         {
           "id": 13817,
@@ -529,69 +592,6 @@
           ]
         },
         {
-          "id": 13803,
-          "title": "MetroFibre Outage | Sheffield Manor Estate",
-          "description": "Metrofibre has informed us of a network outage affecting Sheffield Manor Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-05-24 16:07:17",
-          "should_notify": 0,
-          "created_at": "2024-05-24 06:46:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13803,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 102,
-              "name": "Ballito",
-              "slug": "ballito",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1022,
-              "name": "Sheffield Manor Estate",
-              "slug": "sheffield-manor-estate",
-              "city_id": 102
-            }
-          ]
-        },
-        {
           "id": 13804,
           "title": "MetroFibre Outage | Avoca",
           "description": "Metrofibre has informed us of a network outage affecting Avoca, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1048,6 +1048,62 @@
               "id": 222,
               "name": "Somerset West",
               "slug": "somerset-west",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 13818,
+          "title": "Frogfoot| Darling",
+          "description": "Frogfoot has informed us of a network outage affecting Darling, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-05-27 12:54:58",
+          "should_notify": 0,
+          "created_at": "2024-05-27 12:21:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13818,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 290,
+              "name": "Darling",
+              "slug": "darling",
               "province_id": 3
             }
           ],
