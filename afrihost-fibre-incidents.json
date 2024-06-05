@@ -7,79 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 13847,
-          "title": "Metrofibre Outage | Sinoville",
-          "description": "Metrofibre has informed us of a network outage affecting Sinoville , affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 13848,
+          "title": "Vumatel Outage | Marlboro & Buccleuch",
+          "description": "Vumatel has informed us of a network outage affecting Marlboro & Buccleuch, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-06-03 12:36:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13847,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 21,
-              "name": "Sinoville",
-              "slug": "sinoville",
-              "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 13845,
-          "title": "Vumatel Outage | Umkomaas",
-          "description": "Vumatel has informed us of a network outage affecting Umkomaas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-06-03 12:10:50",
+          "created_at": "2024-06-05 09:35:59",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -102,64 +39,28 @@
               "slug": "vuma-reach",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13845,
+                "notice_id": 13848,
                 "category_id": 27
               }
-            }
-          ],
-          "updates": [],
-          "provinces": [
+            },
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 177,
-              "name": "Umkomaas",
-              "slug": "umkomaas",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13828,
-          "title": "Metrofibre Outage | Akasia",
-          "description": "Metrofibre has informed us of a network outage affecting Akasia, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-05-28 15:13:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13828,
-                "category_id": 9
+                "notice_id": 13848,
+                "category_id": 15
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13848,
+                "category_id": 18
               }
             }
           ],
@@ -173,13 +74,26 @@
           ],
           "cities": [
             {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
               "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 495,
+              "name": "Buccleuch",
+              "slug": "buccleuch",
+              "city_id": 16
+            },
+            {
+              "id": 1813,
+              "name": "Marlboro",
+              "slug": "marlboro",
+              "city_id": 16
+            }
+          ]
         },
         {
           "id": 13572,
@@ -254,65 +168,6 @@
           "suburbs": []
         },
         {
-          "id": 13846,
-          "title": "Network Maintenance Kwa-Zulu Natal",
-          "description": "Please note that Afrihost will be performing core network maintenance in the Kwa-Zulu Natal area that might affect your fibre service between 4am to 7am on the 5th of June 2024. We apologise for the inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-06-03 12:18:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13846,
-                "category_id": 30
-              }
-            },
-            {
-              "id": 32,
-              "name": "Zoom Fibre",
-              "slug": "zoom-fibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13846,
-                "category_id": 32
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 13842,
           "title": "Frogfoot| Cape Town",
           "description": "Frogfoot is conducting maintenance in Cape Town on the 2024-06-12 23:00 to 2024-06-13 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -367,197 +222,9 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 13826,
-          "title": "Octotel Maintenance | Greenpoint",
-          "description": "Octotel is conducting maintenance in Greenpoint on 4/06/2024 04:00 to 4/06/2024 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-05-28 12:24:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13826,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 168,
-              "name": "Green Point",
-              "slug": "green-point",
-              "city_id": 240
-            }
-          ]
         }
       ],
       "closed": [
-        {
-          "id": 13834,
-          "title": "Octotel| Struisbaai and Bredasdorp",
-          "description": "Octotel  has informed us of a network outage affecting Struisbaai and Bredasdorp affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-05-31 09:47:58",
-          "should_notify": 0,
-          "created_at": "2024-05-30 15:13:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13834,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 273,
-              "name": "Struisbaai",
-              "slug": "struisbaai",
-              "province_id": 3
-            },
-            {
-              "id": 286,
-              "name": "Bredasdorp",
-              "slug": "bredasdorp",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13835,
-          "title": "Metrofibre| Douglasdale",
-          "description": "Metrofibre has informed us of a network outage affecting Douglasdale affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-05-30 16:14:31",
-          "should_notify": 0,
-          "created_at": "2024-05-30 15:22:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13835,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 166,
-              "name": "Douglasdale",
-              "slug": "douglasdale",
-              "city_id": 16
-            }
-          ]
-        },
         {
           "id": 13837,
           "title": "Metrofibre |Bardia Avenue, Reservoir",
@@ -997,16 +664,135 @@
           ]
         },
         {
-          "id": 13836,
-          "title": "Vumatel maintenance | Gauteng",
-          "description": "Vumatel is conducting maintenance in Gauteng on the 31st of May from 05:00 to 05:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 13845,
+          "title": "Vumatel Outage | Umkomaas",
+          "description": "Vumatel has informed us of a network outage affecting Umkomaas, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-06-05 09:34:19",
+          "should_notify": 0,
+          "created_at": "2024-06-03 12:10:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13845,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 177,
+              "name": "Umkomaas",
+              "slug": "umkomaas",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 13847,
+          "title": "Metrofibre Outage | Sinoville",
+          "description": "Metrofibre has informed us of a network outage affecting Sinoville , affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-06-05 09:34:23",
+          "should_notify": 0,
+          "created_at": "2024-06-03 12:36:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13847,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 21,
+              "name": "Sinoville",
+              "slug": "sinoville",
+              "city_id": 33
+            }
+          ]
+        },
+        {
+          "id": 13846,
+          "title": "Network Maintenance Kwa-Zulu Natal",
+          "description": "Please note that Afrihost will be performing core network maintenance in the Kwa-Zulu Natal area that might affect your fibre service between 4am to 7am on the 5th of June 2024. We apologise for the inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
-          "resolved_at": "2024-06-03 04:39:26",
+          "resolved_at": "2024-06-05 09:34:15",
           "should_notify": 0,
-          "created_at": "2024-05-30 20:13:40",
+          "created_at": "2024-06-03 12:18:20",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1024,22 +810,32 @@
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13836,
-                "category_id": 18
+                "notice_id": 13846,
+                "category_id": 30
+              }
+            },
+            {
+              "id": 32,
+              "name": "Zoom Fibre",
+              "slug": "zoom-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13846,
+                "category_id": 32
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [],
