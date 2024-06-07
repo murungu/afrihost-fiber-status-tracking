@@ -7,62 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 13856,
-          "title": "Evotel outage | Ladysmith",
-          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-06-07 08:17:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13856,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13855,
           "title": "Openserve degraded service | Benoni and Springs",
           "description": "Openserve has informed us of a network problem affecting Benoni and Springs, affected clients will experience degraded service and slow speeds. Engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -499,6 +443,62 @@
           "suburbs": []
         },
         {
+          "id": 13859,
+          "title": "Octotel| Bredasdorp",
+          "description": "Octotel is conducting maintenance in Bredasdorp on the 16/06/2024 09:00 to 16/06/2024 15:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-06-07 16:47:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13859,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 286,
+              "name": "Bredasdorp",
+              "slug": "bredasdorp",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 13858,
           "title": "Metrofibre| Glen Austin",
           "description": "Metrofibre is conducting maintenance in Glen Austin, Midrand on Friday, 07th June 2024 from 14:30 till 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -725,68 +725,6 @@
               "id": 16,
               "name": "Sandton",
               "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 13840,
-          "title": "Frogfoot| Johannesburg",
-          "description": "Frogfoot has informed us of a network outage affecting Johannesburg, affected clients will experience limited to no connectivity. frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-06-03 10:12:31",
-          "should_notify": 0,
-          "created_at": "2024-05-31 13:03:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 13840,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            },
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
               "province_id": 1
             }
           ],
@@ -1200,6 +1138,62 @@
               "id": 87,
               "name": "Pietermaritzburg",
               "slug": "pietermaritzburg",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 13856,
+          "title": "Evotel outage | Ladysmith",
+          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-06-07 16:41:40",
+          "should_notify": 0,
+          "created_at": "2024-06-07 08:17:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13856,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
               "province_id": 2
             }
           ],
