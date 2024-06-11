@@ -398,6 +398,60 @@
           "suburbs": []
         },
         {
+          "id": 13878,
+          "title": "FrogFoot Maintenance | Gauteng & Free State",
+          "description": "FrogFoot is conducting maintenance in Gauteng & Free State from 2024-06-10 23:00 to 2024-06-11 07:30 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-06-11 02:15:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13878,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            },
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 13874,
           "title": "MetroFibre maintenance | Midrand",
           "description": "MetroFibre is conducting maintenance in Midrand on the 19th of June from 22:00 to the 20th of June at 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -865,16 +919,16 @@
           "suburbs": []
         },
         {
-          "id": 13860,
-          "title": "Metrofibre Outage | Glenferness AH",
-          "description": "Metrofibre has informed us of a network outage affecting Glenferness AH, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 13877,
+          "title": "FrogFoot Outage | Gauteng, Eastern Cape",
+          "description": "We are investigating reports of no connectivity affecting clients on the Frogfoot network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2024-06-10 07:47:21",
+          "resolved_at": "2024-06-11 02:15:59",
           "should_notify": 0,
-          "created_at": "2024-06-07 18:47:00",
+          "created_at": "2024-06-11 01:52:33",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -884,21 +938,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 13860,
-                "category_id": 9
+                "notice_id": 13877,
+                "category_id": 7
               }
             }
           ],
@@ -908,24 +962,15 @@
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1326,
-              "name": "Glenferness",
-              "slug": "glenferness",
-              "city_id": 50
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 13861,
