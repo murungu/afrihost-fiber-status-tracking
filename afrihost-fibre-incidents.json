@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 13957,
+          "title": "Openserve outage | Bronberg",
+          "description": "Openserve has informed us of a network outage affecting Bronberg, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-06-25 07:42:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 13957,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1029,
+              "name": "Bronberg",
+              "slug": "bronberg",
+              "city_id": 33
+            }
+          ]
+        },
+        {
           "id": 13956,
           "title": "MetroFibre Outage | Rooihuiskraal",
           "description": "MetroFibre has informed us of a network outage affecting Rooihuiskraal, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1904,14 +1967,14 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            },
-            {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng"
+            },
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
