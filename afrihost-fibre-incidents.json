@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 14000,
+          "title": "Metrofibre Outage | Sandton Country Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Sandton Country Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-07-05 13:32:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14000,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 770,
+              "name": "Edenburg",
+              "slug": "edenburg",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 13999,
           "title": "Vumatel Reach Outage | Mpumalanga C",
           "description": "Vumatel Reach has informed us of a network outage affecting Mpumalanga C, affected clients will experience {Symptoms/impact}. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
