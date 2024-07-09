@@ -770,55 +770,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 14006,
-          "title": "TT Connect Maintenance | Gauteng",
-          "description": "TT Connect is conducting maintenance in Gauteng on 10/07/2024 from 00:01 to 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-07-07 11:59:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14006,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         }
       ],
       "closed": [
@@ -914,68 +865,6 @@
               "city_id": 295
             }
           ]
-        },
-        {
-          "id": 14002,
-          "title": "Frogfoot| Ravenswood, Polokwane, White River, Tzaneen, Nelspruit",
-          "description": "Frogfoot has informed us of a network outage affecting Ravenswood, Polokwane, White River, Tzaneen, and Nelspruit, affected clients will experience limited to no connectivity (degraded). Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-07-06 05:16:50",
-          "should_notify": 0,
-          "created_at": "2024-07-05 17:49:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14002,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4
-            },
-            {
-              "id": 352,
-              "name": "Tzaneen",
-              "slug": "tzaneen",
-              "province_id": 4
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 14003,
@@ -1469,6 +1358,55 @@
               "pivot": {
                 "notice_id": 14005,
                 "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 14006,
+          "title": "TT Connect Maintenance | Gauteng",
+          "description": "TT Connect is conducting maintenance in Gauteng on 10/07/2024 from 00:01 to 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2024-07-09 19:47:30",
+          "should_notify": 0,
+          "created_at": "2024-07-07 11:59:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14006,
+                "category_id": 17
               }
             }
           ],
