@@ -63,94 +63,6 @@
           "suburbs": []
         },
         {
-          "id": 14030,
-          "title": "Vumatel Outage | Dundee, Glencoe & Ladysmith",
-          "description": "Vumatel has informed us of a network outage affecting Dundee, Glencoe & Ladysmith, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-07-10 17:14:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14030,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14030,
-                "category_id": 15
-              }
-            },
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14030,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 154,
-              "name": "Glencoe",
-              "slug": "glencoe",
-              "province_id": 2
-            },
-            {
-              "id": 149,
-              "name": "Dundee",
-              "slug": "dundee",
-              "province_id": 2
-            },
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14029,
           "title": "Openserve Outage | Faerie Glen",
           "description": "Openserve has informed us of a network outage affecting Faerie Glen, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1768,16 +1680,16 @@
           "suburbs": []
         },
         {
-          "id": 14006,
-          "title": "TT Connect Maintenance | Gauteng",
-          "description": "TT Connect is conducting maintenance in Gauteng on 10/07/2024 from 00:01 to 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 14030,
+          "title": "Vumatel Outage | Dundee, Glencoe & Ladysmith",
+          "description": "Vumatel has informed us of a network outage affecting Dundee, Glencoe & Ladysmith, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 1,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2024-07-09 19:47:30",
+          "resolved_at": "2024-07-10 19:47:13",
           "should_notify": 0,
-          "created_at": "2024-07-07 11:59:22",
+          "created_at": "2024-07-10 17:14:56",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1787,33 +1699,72 @@
             "has_location": 1
           },
           "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14006,
-                "category_id": 17
+                "notice_id": 14030,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 15,
+              "name": "Vuma Villages",
+              "slug": "vuma-villages",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14030,
+                "category_id": 15
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14030,
+                "category_id": 27
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
-          "cities": [],
+          "cities": [
+            {
+              "id": 154,
+              "name": "Glencoe",
+              "slug": "glencoe",
+              "province_id": 2
+            },
+            {
+              "id": 149,
+              "name": "Dundee",
+              "slug": "dundee",
+              "province_id": 2
+            },
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2
+            }
+          ],
           "suburbs": []
         }
       ]
