@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 14081,
+          "title": "Metrofibre Emergency Maintenance | Gauteng",
+          "description": "Metrofibre has informed us of emergency maintenance affecting Gauteng, affected clients will experience intermittent connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-07-22 15:29:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14081,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 866,
+              "notice_id": 14081,
+              "content": "Maintenance windows close at 17:30. Clients may experience intermittent connectivity during this time.",
+              "created_by_id": 30,
+              "created_at": "2024-07-22 15:30:56"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 14080,
           "title": "Vumatel Maintenance | Mayberry Park",
           "description": "Vumatel is conducting maintenance in Mayberry Park from 22/07/2024 07:00 to 25/07/2024 17:00, users affected will experience no connectivity during the maintenance window. We apologise for any inconvenience caused.",
@@ -1364,6 +1421,60 @@
           "suburbs": []
         },
         {
+          "id": 14082,
+          "title": "Afrihost Maintenance | Openserve Western & Eastern Cape",
+          "description": "Afrihost and Openserve are conducting maintenance in Cape Town that will affect all Openserve clients in the Western and Eastern Cape on 23/07/2024 between 04:00 and 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-07-22 15:40:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14082,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 14076,
           "title": "Octotel Maintenance | Ruyterwacht",
           "description": "Octotel is conducting maintenance in Ruyterwacht from 25/07/2024 00:00 to 25/07/2024 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2652,11 +2763,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
