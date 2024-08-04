@@ -7,6 +7,89 @@
     "notices": {
       "open": [
         {
+          "id": 14143,
+          "title": "Vumatel outage | Table View",
+          "description": "Vumatel has informed us of a network outage affecting Table View, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-08-04 11:21:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14143,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14143,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14143,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 258,
+              "name": "Table View",
+              "slug": "table-view",
+              "city_id": 236
+            }
+          ]
+        },
+        {
           "id": 14141,
           "title": "MetroFibre outage | Lombardy East, Johannesburg",
           "description": "MetroFibre has informed us of a network outage affecting Lombardy East, Johannesburg, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
