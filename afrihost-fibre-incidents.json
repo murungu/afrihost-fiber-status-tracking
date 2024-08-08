@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 14168,
+          "title": "Evotel| Northriding",
+          "description": "Evotel has informed us of a network outage affecting Northriding, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-08-08 07:32:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14168,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 80,
+              "name": "North Riding",
+              "slug": "north-riding",
+              "city_id": 53
+            }
+          ]
+        },
+        {
           "id": 14167,
           "title": "Metro Fibre | Pretoria North",
           "description": "Metro Fibre has informed us of a network outage affecting Pretoria North, affected clients will experience degraded service. Metro Fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -242,131 +305,6 @@
               "city_id": 33
             }
           ]
-        },
-        {
-          "id": 14152,
-          "title": "MetroFibre outage | Witbank",
-          "description": "MetroFibre has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-08-05 17:03:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14152,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 290,
-              "name": "Duvha Park",
-              "slug": "duvha-park",
-              "city_id": 679
-            },
-            {
-              "id": 26,
-              "name": "Tasbet Park",
-              "slug": "tasbet-park",
-              "city_id": 679
-            }
-          ]
-        },
-        {
-          "id": 14144,
-          "title": "Evotel Outage | Rustenburg",
-          "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-08-04 18:18:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14144,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 13996,
@@ -786,69 +724,6 @@
           "suburbs": []
         },
         {
-          "id": 14148,
-          "title": "MetroFibre outage | Kwa-Thema, Springs",
-          "description": "MetroFibre has informed us of a network outage affecting Kwa-Thema, Springs, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-08-05 16:08:30",
-          "should_notify": 0,
-          "created_at": "2024-08-05 13:08:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14148,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 37,
-              "name": "Springs",
-              "slug": "springs",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1618,
-              "name": "Kwa Thema",
-              "slug": "kwa-thema",
-              "city_id": 37
-            }
-          ]
-        },
-        {
           "id": 14149,
           "title": "FrogFoot outage | Mosselbay",
           "description": "FrogFoot has informed us of a network outage affecting Mosselbay, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -982,6 +857,75 @@
           ],
           "cities": [],
           "suburbs": []
+        },
+        {
+          "id": 14152,
+          "title": "MetroFibre outage | Witbank",
+          "description": "MetroFibre has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service to Rustenburg has been restored. Thank you for your patience during this downtime",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-08-08 07:33:06",
+          "should_notify": 0,
+          "created_at": "2024-08-05 17:03:04",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14152,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 290,
+              "name": "Duvha Park",
+              "slug": "duvha-park",
+              "city_id": 679
+            },
+            {
+              "id": 26,
+              "name": "Tasbet Park",
+              "slug": "tasbet-park",
+              "city_id": 679
+            }
+          ]
         },
         {
           "id": 14153,
