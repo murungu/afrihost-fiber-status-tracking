@@ -7,62 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 14182,
-          "title": "MetroFibre outage | Witbank",
-          "description": "MetroFibre has informed us of a network outage affecting Witbank, affected clients will experience degraded service. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-08-12 17:10:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14182,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14176,
           "title": "MetroFibre outage | Zwartkop",
           "description": "MetroFibre has informed us of a network outage affecting Zwartkop, affected clients will experience degraded service. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1330,75 +1274,6 @@
       ],
       "closed": [
         {
-          "id": 14152,
-          "title": "MetroFibre outage | Witbank",
-          "description": "MetroFibre has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Service to Rustenburg has been restored. Thank you for your patience during this downtime",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-08-08 07:33:06",
-          "should_notify": 0,
-          "created_at": "2024-08-05 17:03:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14152,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 290,
-              "name": "Duvha Park",
-              "slug": "duvha-park",
-              "city_id": 679
-            },
-            {
-              "id": 26,
-              "name": "Tasbet Park",
-              "slug": "tasbet-park",
-              "city_id": 679
-            }
-          ]
-        },
-        {
           "id": 14153,
           "title": "Openserve| KwaZulu Natal",
           "description": "Openserve has informed us of a network outage affecting the parts of KZN, Durban, Berea, Morningside, queensburgh and surrounding areas affected clients will experience no connectivity.  Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1858,6 +1733,62 @@
               "pivot": {
                 "notice_id": 14170,
                 "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 14182,
+          "title": "MetroFibre outage | Witbank",
+          "description": "MetroFibre has informed us of a network outage affecting Witbank, affected clients will experience degraded service. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-08-13 11:13:01",
+          "should_notify": 0,
+          "created_at": "2024-08-12 17:10:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14182,
+                "category_id": 9
               }
             }
           ],
