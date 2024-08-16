@@ -7,6 +7,85 @@
     "notices": {
       "open": [
         {
+          "id": 14195,
+          "title": "Vumatel| Polokwane Central, Mankweng D",
+          "description": "Vumatel has informed us of a network outage affecting Polokwane, Mankweng and Seshego, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-08-16 08:10:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14195,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14195,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            }
+          ],
+          "cities": [
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 409,
+              "name": "Seshego",
+              "slug": "seshego",
+              "city_id": 350
+            },
+            {
+              "id": 1535,
+              "name": "Mankweng",
+              "slug": "mankweng",
+              "city_id": 350
+            }
+          ]
+        },
+        {
           "id": 14194,
           "title": "Evotel| Newcastle",
           "description": "Evotel has informed us of a network outage affecting Newcastle, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
