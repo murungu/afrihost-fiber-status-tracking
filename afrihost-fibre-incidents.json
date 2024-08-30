@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 14267,
+          "title": "Metrofibre outage | Kwa-Thema, Springs",
+          "description": "Metrofibre has informed us of a network outage affecting Kwa-Thema, Springs, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-08-30 08:45:44",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14267,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1618,
+              "name": "Kwa Thema",
+              "slug": "kwa-thema",
+              "city_id": 37
+            }
+          ]
+        },
+        {
           "id": 14266,
           "title": "Openserve outage | Pretoria",
           "description": "Openserve has informed us of a network outage affecting Pretoria, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1268,75 +1331,6 @@
           "suburbs": []
         },
         {
-          "id": 14256,
-          "title": "Octotel Emergency Maintenance | Saltriver & Woodstock",
-          "description": "Octotel is conducting maintenance in Saltriver & Woodstock on the 28/08/2024 and 29/08/2024 from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-08-28 08:26:01",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14256,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 387,
-              "name": "Woodstock",
-              "slug": "woodstock",
-              "city_id": 240
-            },
-            {
-              "id": 900,
-              "name": "Salt River",
-              "slug": "salt-river",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 14248,
           "title": "Metrofibre Maintenance | Bluff",
           "description": "Metrofibre is conducting maintenance in Bluff on the 03rd September 2024 between 09:00 and 14:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1454,125 +1448,6 @@
               "city_id": 50
             }
           ]
-        },
-        {
-          "id": 14241,
-          "title": "Link Layer Maintenance | Salt Rock",
-          "description": "Link Layer is conducting maintenance in Salt Rock on the 27-08-2024 from 10:00 to 12:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-08-26 12:32:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14241,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 102,
-              "name": "Ballito",
-              "slug": "ballito",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 147,
-              "name": "Salt Rock",
-              "slug": "salt-rock",
-              "city_id": 102
-            }
-          ]
-        },
-        {
-          "id": 14237,
-          "title": "Vuma Reach maintenance |  Polokwane",
-          "description": "Vuma Reach is conducting maintenance in Polokwane on the 27th of August from 23:00 to the 28th of August at 04:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-08-26 08:46:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14237,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 350,
-              "name": "Polokwane",
-              "slug": "polokwane",
-              "province_id": 4
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 14236,
@@ -1712,68 +1587,6 @@
           "suburbs": []
         },
         {
-          "id": 14197,
-          "title": "Octotel| Strand, Cape Gate, CBD",
-          "description": "Octotel is conducting maintenance in Strand, Cape Gate, CBD on the 29/08/2024 00:00 till  29/08/2024 05:00. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-08-16 15:35:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14197,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 320,
-              "name": "Strand",
-              "slug": "strand",
-              "province_id": 3
-            },
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14164,
           "title": "Vumatel| Mulbarton",
           "description": "Vumatel is conducting maintenance in Mulbarton from 2024/08/13, 09:00 till Wednesday, 2024/08/30, 14:00 users affected will experience Intermittent connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1838,125 +1651,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 14239,
-          "title": "Metrofibre Outage | Amanzimtoti",
-          "description": "Metrofibre has informed us of a network outage affecting Amanzimtoti, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-08-26 14:44:28",
-          "should_notify": 0,
-          "created_at": "2024-08-26 10:53:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14239,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 101,
-              "name": "Amanzimtoti",
-              "slug": "amanzimtoti",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 14240,
-          "title": "Metrofibre Outage | Wolmer",
-          "description": "Metrofibre has informed us of a network outage affecting Wolmer, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-08-26 14:30:15",
-          "should_notify": 0,
-          "created_at": "2024-08-26 10:55:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14240,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 371,
-              "name": "Wolmer",
-              "slug": "wolmer",
-              "city_id": 33
-            }
-          ]
-        },
         {
           "id": 14243,
           "title": "Metrofibre Outage | Ebony Park",
@@ -2439,6 +2133,138 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 14241,
+          "title": "Link Layer Maintenance | Salt Rock",
+          "description": "Link Layer is conducting maintenance in Salt Rock on the 27-08-2024 from 10:00 to 12:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2024-08-30 08:44:13",
+          "should_notify": 0,
+          "created_at": "2024-08-26 12:32:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14241,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 147,
+              "name": "Salt Rock",
+              "slug": "salt-rock",
+              "city_id": 102
+            }
+          ]
+        },
+        {
+          "id": 14256,
+          "title": "Octotel Emergency Maintenance | Saltriver & Woodstock",
+          "description": "Octotel is conducting maintenance in Saltriver & Woodstock on the 28/08/2024 and 29/08/2024 from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2024-08-30 08:43:48",
+          "should_notify": 0,
+          "created_at": "2024-08-28 08:26:01",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14256,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 387,
+              "name": "Woodstock",
+              "slug": "woodstock",
+              "city_id": 240
+            },
+            {
+              "id": 900,
+              "name": "Salt River",
+              "slug": "salt-river",
+              "city_id": 240
+            }
+          ]
         }
       ]
     },
