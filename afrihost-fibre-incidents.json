@@ -70,62 +70,6 @@
           ]
         },
         {
-          "id": 14276,
-          "title": "Metrofibre outage | Witbank",
-          "description": "Metrofibre has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-09-01 13:10:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14276,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14273,
           "title": "Vumatel Aerial Outage | Kleinfontein",
           "description": "Vumatel Aerial has informed us of a network outage affecting Kleinfontein, affected clients will experience limited to no connectivity. Vumatel Aerial engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1521,6 +1465,69 @@
           "suburbs": []
         },
         {
+          "id": 14278,
+          "title": "Evotel maintenance | Northriding",
+          "description": "Evotel is conducting maintenance in Northriding on the 2nd of September from 00:00 to 06:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-09-01 16:25:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14278,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 80,
+              "name": "North Riding",
+              "slug": "north-riding",
+              "city_id": 53
+            }
+          ]
+        },
+        {
           "id": 14248,
           "title": "Metrofibre Maintenance | Bluff",
           "description": "Metrofibre is conducting maintenance in Bluff on the 03rd September 2024 between 09:00 and 14:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2218,6 +2225,62 @@
           ]
         },
         {
+          "id": 14276,
+          "title": "Metrofibre outage | Witbank",
+          "description": "Metrofibre has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-09-01 16:26:52",
+          "should_notify": 0,
+          "created_at": "2024-09-01 13:10:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14276,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 14271,
           "title": "Metrofibre |Hyde Park",
           "description": "Metrofibre has informed us of a network outage affecting Hyde Park, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2277,75 +2340,6 @@
               "name": "Hyde Park",
               "slug": "hyde-park",
               "city_id": 16
-            }
-          ]
-        },
-        {
-          "id": 14256,
-          "title": "Octotel Emergency Maintenance | Saltriver & Woodstock",
-          "description": "Octotel is conducting maintenance in Saltriver & Woodstock on the 28/08/2024 and 29/08/2024 from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": "2024-08-30 08:43:48",
-          "should_notify": 0,
-          "created_at": "2024-08-28 08:26:01",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14256,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 387,
-              "name": "Woodstock",
-              "slug": "woodstock",
-              "city_id": 240
-            },
-            {
-              "id": 900,
-              "name": "Salt River",
-              "slug": "salt-river",
-              "city_id": 240
             }
           ]
         }
