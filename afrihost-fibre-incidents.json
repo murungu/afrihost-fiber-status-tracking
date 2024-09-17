@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 14370,
-          "title": "Octotel outage | Ruyterwacht & surrounding areas",
-          "description": "Octotel has informed us of a network outage affecting Ruyterwacht & surrounding areas, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 14371,
+          "title": "Evotel| Ladysmith",
+          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-09-17 17:27:58",
+          "created_at": "2024-09-17 19:59:19",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,30 +34,30 @@
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14370,
-                "category_id": 12
+                "notice_id": 14371,
+                "category_id": 6
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2
             }
           ],
           "suburbs": []
@@ -893,69 +893,6 @@
       ],
       "closed": [
         {
-          "id": 14347,
-          "title": "FrogFoot outage | Voorbaai",
-          "description": "FrogFoot informed us that a network outage affecting Voorbaai, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-09-13 07:21:37",
-          "should_notify": 0,
-          "created_at": "2024-09-12 14:12:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14347,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 213,
-              "name": "Mossel Bay",
-              "slug": "mossel-bay",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1892,
-              "name": "Voorbaai",
-              "slug": "voorbaai",
-              "city_id": 213
-            }
-          ]
-        },
-        {
           "id": 14348,
           "title": "Vumatel Reach Outage | Hospital View",
           "description": "Vumatel Reach has informed us of a network outage affecting Hospital View, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1496,6 +1433,62 @@
               "name": "Hibberdene",
               "slug": "hibberdene",
               "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 14370,
+          "title": "Octotel outage | Ruyterwacht & surrounding areas",
+          "description": "Octotel has informed us of a network outage affecting Ruyterwacht & surrounding areas, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Octotel engineers have completed the fibre repair works. All those affected by the break have been restored. Please have those customers still offline reboot their ONT and routers and retest the connection.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-09-17 19:55:24",
+          "should_notify": 0,
+          "created_at": "2024-09-17 17:27:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14370,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
             }
           ],
           "suburbs": []
