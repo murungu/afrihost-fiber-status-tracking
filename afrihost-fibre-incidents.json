@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 14529,
+          "title": "Metro Fibre | Durban South",
+          "description": "MetroFibre has informed us of a network outage affecting Durban South, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-10-18 08:22:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14529,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 14528,
           "title": "FrogFoot outage | Terenure",
           "description": "FrogFoot has informed us of a network outage affecting Terenure, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1760,62 +1816,6 @@
           "suburbs": []
         },
         {
-          "id": 14517,
-          "title": "MetroFibre maintenance |  Durban South",
-          "description": "MetroFibre is conducting maintenance in Durban South on the 17th of October from 09:30 to 11:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-10-17 08:53:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14517,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14508,
           "title": "Frogfoot Maintenance | Northern Region",
           "description": "Frogfoot is conducting maintenance in the Northern Regions on the 2024-10-21 23:00 to 2024-10-22 07:30, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -2311,69 +2311,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 14499,
-          "title": "Metrofibre Outage |  The Isle",
-          "description": "Metrofibre has informed us of a network outage affecting The Isle, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-10-16 09:34:36",
-          "should_notify": 0,
-          "created_at": "2024-10-16 09:32:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14499,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 49,
-              "name": "Lethabong",
-              "slug": "lethabong",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5918,
-              "name": "Greenstone Hill",
-              "slug": "greenstone-hill",
-              "city_id": 49
-            }
-          ]
-        },
         {
           "id": 14506,
           "title": "Octotel Outage | Gugulethu",
@@ -2948,6 +2885,62 @@
               "name": "Midrand",
               "slug": "midrand",
               "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 14517,
+          "title": "MetroFibre maintenance |  Durban South",
+          "description": "MetroFibre is conducting maintenance in Durban South on the 17th of October from 09:30 to 11:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2024-10-18 08:26:24",
+          "should_notify": 0,
+          "created_at": "2024-10-17 08:53:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14517,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
             }
           ],
           "suburbs": []
