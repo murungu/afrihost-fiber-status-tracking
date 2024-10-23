@@ -7,6 +7,55 @@
     "notices": {
       "open": [
         {
+          "id": 14564,
+          "title": "Link Africa Outage | Western Cape",
+          "description": "Link Africa has informed us of a network outage affecting  Western Cape, affected clients will experience no connectivity. Link Africa engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-10-23 07:15:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 26,
+              "name": "Link Africa",
+              "slug": "link-africa",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14564,
+                "category_id": 26
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 14561,
           "title": "Metrofibre Degraded Serice | Pietermaritzburg",
           "description": "Metrofibre has informed us of a network outage affecting Pietermaritzburg, affected clients will experience degraded service . Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -909,6 +958,62 @@
               "name": "Delft",
               "slug": "delft",
               "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 14566,
+          "title": "TT Connect Maintenance | Edenvale",
+          "description": "TT Connect is conducting maintenance in Edenvale on the 2024/10/23\n09:00AM to 2024/10/23 13:00PM users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-10-23 07:24:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14566,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 25,
+              "name": "Edenvale",
+              "slug": "edenvale",
+              "province_id": 1
             }
           ],
           "suburbs": []
