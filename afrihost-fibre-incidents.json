@@ -7,70 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 14593,
-          "title": "Vumatel outage | Kuils River",
-          "description": "Vumatel has informed us of a network outage affecting Kuils River, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-10-27 07:27:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14593,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 887,
-              "notice_id": 14593,
-              "content": "Vumatel technicians are still working on restoring services. Due to vandalism the Kuilsriver node has been extensively damaged and burned.",
-              "created_by_id": 30,
-              "created_at": "2024-10-27 21:49:31"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 207,
-              "name": "Kuils River",
-              "slug": "kuils-river",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14591,
           "title": "Openserve outage | Davidsonville, Roodepoort",
           "description": "Openserve has informed us of a network outage affecting Davidsonville, Roodepoort, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1620,62 +1556,6 @@
       ],
       "closed": [
         {
-          "id": 14573,
-          "title": "Vumatel Reach Outage | Emalaheni",
-          "description": "Vumatel Reach has informed us of a network outage affecting Emalaheni, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-10-25 10:02:56",
-          "should_notify": 0,
-          "created_at": "2024-10-23 15:28:14",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14573,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14575,
           "title": "Metrofibre Outage | The Plantation Club",
           "description": "Metrofibre has informed us of a network outage affecting The Plantation Club, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2108,6 +1988,70 @@
               "city_id": 282
             }
           ]
+        },
+        {
+          "id": 14593,
+          "title": "Vumatel outage | Kuils River",
+          "description": "Vumatel has informed us of a network outage affecting Kuils River, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-10-27 23:47:15",
+          "should_notify": 0,
+          "created_at": "2024-10-27 07:27:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14593,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 887,
+              "notice_id": 14593,
+              "content": "Vumatel technicians are still working on restoring services. Due to vandalism the Kuilsriver node has been extensively damaged and burned.",
+              "created_by_id": 30,
+              "created_at": "2024-10-27 21:49:31"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 207,
+              "name": "Kuils River",
+              "slug": "kuils-river",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 14594,
