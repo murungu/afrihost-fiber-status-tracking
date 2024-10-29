@@ -569,101 +569,6 @@
           ]
         },
         {
-          "id": 14584,
-          "title": "Vumatel Degraded Service | Mowbray",
-          "description": "We are investigating reports of degraded service affecting clients on the Vumatel network in Mowbray. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-10-24 15:33:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14584,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14584,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 889,
-              "notice_id": 14584,
-              "content": "A solution has been implemented that we believe has resolved the degraded service. We are currently monitoring for stability.",
-              "created_by_id": 12,
-              "created_at": "2024-10-29 08:37:33"
-            },
-            {
-              "id": 888,
-              "notice_id": 14584,
-              "content": "Afrihost and Vumatel are working together to get this problem resolve as soon as possible.",
-              "created_by_id": 11,
-              "created_at": "2024-10-28 12:01:00"
-            },
-            {
-              "id": 886,
-              "notice_id": 14584,
-              "content": "Afrihost and Vumatel are still investigating to determine the root cause of the degraded service and resolve it as soon as possible.",
-              "created_by_id": 12,
-              "created_at": "2024-10-24 17:17:04"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1653,
-              "name": "Mowbray",
-              "slug": "mowbray",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 14580,
           "title": "TT Connect Outage | Edenvale",
           "description": "TT Connect has informed us of a network outage affecting Edenvale, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2208,62 +2113,6 @@
       ],
       "closed": [
         {
-          "id": 14581,
-          "title": "Vumatel Reach Outage | Evaton West",
-          "description": "Vumatel Reach has informed us of a network outage affecting Evaton West, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-10-25 10:05:59",
-          "should_notify": 0,
-          "created_at": "2024-10-24 11:45:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14581,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 59,
-              "name": "Vereeniging",
-              "slug": "vereeniging",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14582,
           "title": "Evotel Outage | Riebeeckstad",
           "description": "Evotel has informed us of a network outage affecting Riebeeckstad, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2323,6 +2172,101 @@
               "name": "Riebeeckstad",
               "slug": "riebeeckstad",
               "city_id": 594
+            }
+          ]
+        },
+        {
+          "id": 14584,
+          "title": "Vumatel Degraded Service | Mowbray",
+          "description": "We are investigating reports of degraded service affecting clients on the Vumatel network in Mowbray. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-10-29 12:31:53",
+          "should_notify": 0,
+          "created_at": "2024-10-24 15:33:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14584,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14584,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 889,
+              "notice_id": 14584,
+              "content": "A solution has been implemented that we believe has resolved the degraded service. We are currently monitoring for stability.",
+              "created_by_id": 12,
+              "created_at": "2024-10-29 08:37:33"
+            },
+            {
+              "id": 888,
+              "notice_id": 14584,
+              "content": "Afrihost and Vumatel are working together to get this problem resolve as soon as possible.",
+              "created_by_id": 11,
+              "created_at": "2024-10-28 12:01:00"
+            },
+            {
+              "id": 886,
+              "notice_id": 14584,
+              "content": "Afrihost and Vumatel are still investigating to determine the root cause of the degraded service and resolve it as soon as possible.",
+              "created_by_id": 12,
+              "created_at": "2024-10-24 17:17:04"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1653,
+              "name": "Mowbray",
+              "slug": "mowbray",
+              "city_id": 240
             }
           ]
         },
