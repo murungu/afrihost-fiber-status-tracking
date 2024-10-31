@@ -7,6 +7,72 @@
     "notices": {
       "open": [
         {
+          "id": 14614,
+          "title": "Vumatel Outage | Sasolburg",
+          "description": "Vumatel has informed us of a network outage affecting Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-10-31 08:02:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14614,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14614,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 614,
+              "name": "Sasolburg",
+              "slug": "sasolburg",
+              "province_id": 7
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 14613,
           "title": "Metrofibre Outage | Florentia",
           "description": "Metrofibre has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -295,7 +361,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 891,
+              "notice_id": 14604,
+              "content": "Technicians are continuing with repairs this morning",
+              "created_by_id": 12,
+              "created_at": "2024-10-31 08:01:20"
+            }
+          ],
           "provinces": [
             {
               "id": 3,
