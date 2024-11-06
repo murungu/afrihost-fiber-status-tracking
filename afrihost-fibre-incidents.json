@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 14643,
-          "title": "Octotel Outage | Grabouw",
-          "description": "Octotel has informed us of a network outage affecting Grabouw, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 14644,
+          "title": "FrogFoot Outage | Stellenbosch Central",
+          "description": "FrogFoot has informed us of a network outage affecting Stellenbosch Central, affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-11-06 09:15:13",
+          "created_at": "2024-11-06 14:21:54",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,13 +34,13 @@
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14643,
-                "category_id": 12
+                "notice_id": 14644,
+                "category_id": 7
               }
             }
           ],
@@ -54,13 +54,20 @@
           ],
           "cities": [
             {
-              "id": 200,
-              "name": "Grabouw",
-              "slug": "grabouw",
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
               "province_id": 3
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 273,
+              "name": "Stellenbosch Central",
+              "slug": "stellenbosch-central",
+              "city_id": 223
+            }
+          ]
         },
         {
           "id": 14642,
@@ -690,62 +697,6 @@
       ],
       "closed": [
         {
-          "id": 14629,
-          "title": "Evotel outage | Virginia",
-          "description": "Evotel has informed us of a network outage affecting Virginia, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-11-03 13:40:08",
-          "should_notify": 0,
-          "created_at": "2024-11-02 20:27:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14629,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 565,
-              "name": "Virginia",
-              "slug": "virginia",
-              "province_id": 7
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14630,
           "title": "Openserve outage | Bay View",
           "description": "Openserve has informed us of a network outage affecting Bay View, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1283,6 +1234,62 @@
               "city_id": 33
             }
           ]
+        },
+        {
+          "id": 14643,
+          "title": "Octotel Outage | Grabouw",
+          "description": "Octotel has informed us of a network outage affecting Grabouw, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-11-06 14:20:41",
+          "should_notify": 0,
+          "created_at": "2024-11-06 09:15:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14643,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 200,
+              "name": "Grabouw",
+              "slug": "grabouw",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
