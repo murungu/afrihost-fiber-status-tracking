@@ -46,6 +46,20 @@
           ],
           "updates": [
             {
+              "id": 898,
+              "notice_id": 14672,
+              "content": "Frogfoot technicians has located the damaged cable and is trying to reroute the fibre on another link to restore services.",
+              "created_by_id": 30,
+              "created_at": "2024-11-11 10:44:37"
+            },
+            {
+              "id": 897,
+              "notice_id": 14672,
+              "content": "Frogfoot technicians are done with repairs however some links remain down. Frogfoot technicians are at the node testing to locate the fibre break.",
+              "created_by_id": 30,
+              "created_at": "2024-11-11 10:43:38"
+            },
+            {
               "id": 896,
               "notice_id": 14672,
               "content": "Frogfoot has dispatched more field technicians to attend to the fault. The repairs are ongoing. No ETA on completion yet.",
@@ -95,6 +109,72 @@
               "city_id": 33
             }
           ]
+        },
+        {
+          "id": 14678,
+          "title": "Vumatel Outage | Kuils River West",
+          "description": "Vumatel has informed us of a network outage affecting Kuils River West, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-11-11 10:45:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14678,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14678,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 207,
+              "name": "Kuils River",
+              "slug": "kuils-river",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 14676,
