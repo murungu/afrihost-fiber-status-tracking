@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 14753,
-          "title": "Octotel Outage | Green Point Node",
-          "description": "Octotel has informed us of a network outage affecting the Green Point Node. Affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience.",
+          "id": 14755,
+          "title": "Frogfoot Outage | Monte Christo Node",
+          "description": "Frogfoot has informed us of a network outage affecting the Monte Christo Node. Affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2024-11-28 09:12:00",
+          "created_at": "2024-11-29 15:05:18",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,13 +34,13 @@
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14753,
-                "category_id": 12
+                "notice_id": 14755,
+                "category_id": 7
               }
             }
           ],
@@ -54,9 +54,9 @@
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
+              "id": 213,
+              "name": "Mossel Bay",
+              "slug": "mossel-bay",
               "province_id": 3
             }
           ],
@@ -800,69 +800,6 @@
       ],
       "closed": [
         {
-          "id": 14734,
-          "title": "Frogfoot outage | Queenswood Gardens",
-          "description": "Frogfoot has informed us of a network outage affecting Queenswood Gardens. Affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": "Outage Resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-11-25 09:44:06",
-          "should_notify": 0,
-          "created_at": "2024-11-20 22:19:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14734,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 369,
-              "name": "Queenswood",
-              "slug": "queenswood",
-              "city_id": 33
-            }
-          ]
-        },
-        {
           "id": 14735,
           "title": "Vuma Reach outage | Chatsworth Zone 05",
           "description": "Vumatel has informed us of a network outage affecting Chatsworth Zone 05, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1279,6 +1216,62 @@
             }
           ],
           "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 14753,
+          "title": "Octotel Outage | Green Point Node",
+          "description": "Octotel has informed us of a network outage affecting the Green Point Node. Affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-11-29 15:05:30",
+          "should_notify": 0,
+          "created_at": "2024-11-28 09:12:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14753,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
           "suburbs": []
         },
         {
