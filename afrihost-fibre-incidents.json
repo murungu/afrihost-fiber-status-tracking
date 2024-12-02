@@ -7,78 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 14765,
-          "title": "Vumatel Outage",
-          "description": "Vumatel has informed us of a network outage in Benoni, Boksburg, and Daveyton and surrounding areas. Affected clients will experience no connectivity. Vumatel engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-12-02 13:21:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14765,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14765,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            },
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14764,
           "title": "MetroFibre| Amandasig",
           "description": "MetroFibre has informed us of a network outage affecting Amandasig. Affected clients will experience no connectivity. MetroFibre engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -526,69 +454,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 14750,
-          "title": "Metrofibre outage | Signal Hill, Pietermaritzburg",
-          "description": "Metrofibre has informed us of a network outage affecting Signal Hill, Pietermaritzburg. Affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Please note that the fibre services in Pineview Mews, Pineview Terrace, Signal Hill, Pietermaritzburg have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-12-01 09:10:47",
-          "should_notify": 0,
-          "created_at": "2024-11-27 21:18:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14750,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5658,
-              "name": "Signal Hill",
-              "slug": "signal-hill-4",
-              "city_id": 87
-            }
-          ]
-        },
         {
           "id": 14751,
           "title": "Metrofibre outage | Clayville, Midrand",
@@ -1041,6 +906,78 @@
               "city_id": 43
             }
           ]
+        },
+        {
+          "id": 14765,
+          "title": "Vumatel Outage",
+          "description": "Vumatel has informed us of a network outage in Benoni, Boksburg, and Daveyton and surrounding areas. Affected clients will experience no connectivity. Vumatel engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-12-02 17:58:02",
+          "should_notify": 0,
+          "created_at": "2024-12-02 13:21:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14765,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14765,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            },
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 14757,
