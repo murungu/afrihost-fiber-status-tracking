@@ -7,69 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 14783,
-          "title": "FrogFoot outage | Sherwood Gardens",
-          "description": "FrogFoot has informed us of a network outage affecting Sherwood Gardens, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-12-04 13:00:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14783,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 42,
-              "name": "Brakpan",
-              "slug": "brakpan",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1131,
-              "name": "Sherwood Gardens",
-              "slug": "sherwood-gardens",
-              "city_id": 42
-            }
-          ]
-        },
-        {
           "id": 14782,
           "title": "Vuma Reach outage | Bram Fischerville",
           "description": "Vuma Reach has informed us of a network outage affecting Bram Fischerville, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -582,6 +519,60 @@
           ]
         },
         {
+          "id": 14785,
+          "title": "FrogFoot maintenance | Western Cape and Northern Cape",
+          "description": "FrogFoot is conducting maintenance in Western Cape and Northern Cape on the 5th of December from 05:00 to 07:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-12-04 15:51:51",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14785,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 14784,
           "title": "Openserve maintenance | Table View",
           "description": "Openserve is conducting maintenance in Table View on the 5th of December from 09:00 to 16:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -913,79 +904,6 @@
           "suburbs": []
         },
         {
-          "id": 14761,
-          "title": "Vuma Core & Reach| Vaalpark, Bophelong Phase 7",
-          "description": "Vuma Core & Reach has informed us of a network outage affecting Vaalpark, Bophelong Phase 7. Affected clients will experience no connectivity. Vuma Core & Reach engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": "Vendor engineers have restored services, awaiting RFO.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-12-03 09:26:58",
-          "should_notify": 0,
-          "created_at": "2024-12-02 06:10:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14761,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14761,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 614,
-              "name": "Sasolburg",
-              "slug": "sasolburg",
-              "province_id": 7
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 30,
-              "name": "Vaalpark",
-              "slug": "vaalpark",
-              "city_id": 614
-            }
-          ]
-        },
-        {
           "id": 14764,
           "title": "MetroFibre| Amandasig",
           "description": "MetroFibre has informed us of a network outage affecting Amandasig. Affected clients will experience no connectivity. MetroFibre engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -1180,6 +1098,69 @@
               "name": "Jacobs",
               "slug": "jacobs",
               "city_id": 68
+            }
+          ]
+        },
+        {
+          "id": 14783,
+          "title": "FrogFoot outage | Sherwood Gardens",
+          "description": "FrogFoot has informed us of a network outage affecting Sherwood Gardens, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-12-04 16:09:26",
+          "should_notify": 0,
+          "created_at": "2024-12-04 13:00:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14783,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 42,
+              "name": "Brakpan",
+              "slug": "brakpan",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1131,
+              "name": "Sherwood Gardens",
+              "slug": "sherwood-gardens",
+              "city_id": 42
             }
           ]
         },
