@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 14789,
+          "title": "Link Layer Outage | Eagle Ayre Estate",
+          "description": "Link Layer has informed us of a network outage affecting Eagle Ayre Estate, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2024-12-05 08:58:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14789,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 104,
+              "name": "Camperdown",
+              "slug": "camperdown",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 14788,
           "title": "LinkLayer outage | Tongaat",
           "description": "LinkLayer has informed us of a network outage affecting Tongaat, affected clients will experience no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -61,69 +117,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 14781,
-          "title": "Metrofibre outage | The Orchards",
-          "description": "Metrofibre has informed us of a network outage affecting The Orchards, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-12-04 11:31:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14781,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 19,
-              "name": "The Orchards",
-              "slug": "the-orchards",
-              "city_id": 1
-            }
-          ]
         },
         {
           "id": 14778,
@@ -902,6 +895,69 @@
           ]
         },
         {
+          "id": 14781,
+          "title": "Metrofibre outage | The Orchards",
+          "description": "Metrofibre has informed us of a network outage affecting The Orchards, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-12-05 08:59:21",
+          "should_notify": 0,
+          "created_at": "2024-12-04 11:31:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14781,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 1,
+              "name": "Akasia",
+              "slug": "akasia",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 19,
+              "name": "The Orchards",
+              "slug": "the-orchards",
+              "city_id": 1
+            }
+          ]
+        },
+        {
           "id": 14782,
           "title": "Vuma Reach outage | Bram Fischerville",
           "description": "Vuma Reach has informed us of a network outage affecting Bram Fischerville, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1024,69 +1080,6 @@
               "name": "Sherwood Gardens",
               "slug": "sherwood-gardens",
               "city_id": 42
-            }
-          ]
-        },
-        {
-          "id": 14770,
-          "title": "MetroFibre| The Orchards",
-          "description": "MetroFibre has informed us of a network outage affecting The Orchards. Affected clients will experience no connectivity. MetroFibre engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": "2024-12-04 11:38:33",
-          "should_notify": 0,
-          "created_at": "2024-12-03 11:37:24",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14770,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 919,
-              "name": "Orchards The & Extension",
-              "slug": "orchards-the-extension",
-              "city_id": 1
             }
           ]
         },
