@@ -266,69 +266,6 @@
           ]
         },
         {
-          "id": 14805,
-          "title": "Octotel outage | Lakeside",
-          "description": "Octotel has informed us of a network outage affecting Lakeside, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2024-12-06 14:03:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14805,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1595,
-              "name": "Lakeside",
-              "slug": "lakeside-1",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 14798,
           "title": "Octotel outage | Atlantis",
           "description": "Octotel has informed us of a network outage affecting Atlantis, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -366,7 +303,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 908,
+              "notice_id": 14798,
+              "content": "Octotel engineers have commenced with the fibre resplicing to restore connectivity to those affected customers. Certain customer connections have been restored.\n\nETR for complete restoration: to be confirmed.",
+              "created_by_id": 12,
+              "created_at": "2024-12-09 08:16:41"
+            }
+          ],
           "provinces": [
             {
               "id": 3,
@@ -969,69 +914,6 @@
       ],
       "closed": [
         {
-          "id": 14803,
-          "title": "FibreSuburb Networks outage | The Lineal",
-          "description": "FibreSuburb Networks has informed us of a network outage affecting The Lineal, affected clients will experience no connectivity. FibreSuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-12-06 15:36:05",
-          "should_notify": 0,
-          "created_at": "2024-12-06 11:18:54",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14803,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 58,
-              "name": "Sandown",
-              "slug": "sandown",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 14804,
           "title": "MetroFibre outage | Broadwalk Crescent, Midrand",
           "description": "MetroFibre has informed us of a network outage affecting Broadwalk Crescent, Midrand. Affected clients will experience no connectivity. MetroFibre engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -1091,6 +973,69 @@
               "name": "Grand Central",
               "slug": "grand-central",
               "city_id": 50
+            }
+          ]
+        },
+        {
+          "id": 14805,
+          "title": "Octotel outage | Lakeside",
+          "description": "Octotel has informed us of a network outage affecting Lakeside, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Octotel engineers have completed the fibre repair works.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2024-12-09 08:15:04",
+          "should_notify": 0,
+          "created_at": "2024-12-06 14:03:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14805,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1595,
+              "name": "Lakeside",
+              "slug": "lakeside-1",
+              "city_id": 240
             }
           ]
         },
