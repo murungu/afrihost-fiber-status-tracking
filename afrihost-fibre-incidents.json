@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 14908,
+          "id": 14909,
           "title": "Frogfoot| Southern Nodes",
-          "description": "Frogfoot has informed us of a network outage affecting George, Mossel Bay &Cape Town. Affected clients will experience no connectivity. Frogfoot engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "description": "Frogfoot has informed us of a network outage affecting Grahamstown, Garden Route District Municipality, Oudtshoorn, George, Mossel Bay, and Cape Town. Affected clients will experience no connectivity. Frogfoot engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-01-03 16:08:35",
+          "created_at": "2025-01-03 16:24:46",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14908,
+                "notice_id": 14909,
                 "category_id": 7
               }
             }
@@ -50,13 +50,30 @@
               "id": 3,
               "name": "Western Cape",
               "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
+              "id": 443,
+              "name": "Grahamstown",
+              "slug": "grahamstown",
+              "province_id": 6
+            },
+            {
+              "id": 215,
+              "name": "Oudtshoorn",
+              "slug": "oudtshoorn",
+              "province_id": 3
+            },
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
               "province_id": 3
             },
             {
@@ -66,9 +83,9 @@
               "province_id": 3
             },
             {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
+              "id": 191,
+              "name": "Cape Agulhas",
+              "slug": "cape-agulhas",
               "province_id": 3
             }
           ],
@@ -1937,69 +1954,6 @@
       ],
       "closed": [
         {
-          "id": 14895,
-          "title": "Vuma Aerial| Radiokop",
-          "description": "Vuma Aerial has informed us of a network outage affecting Radiokop. Affected clients will not receive service. Vuma Aerial engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2024-12-27 05:52:28",
-          "should_notify": 0,
-          "created_at": "2024-12-26 15:39:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14895,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 539,
-              "name": "Radiokop",
-              "slug": "radiokop",
-              "city_id": 35
-            }
-          ]
-        },
-        {
           "id": 14896,
           "title": "Vuma Reach Outage: Cape Town",
           "description": "Vumatel has informed us of a network outage affecting Cape Town. Affected clients will experience no service. Vumatel engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -2425,6 +2379,74 @@
               "name": "Benoni",
               "slug": "benoni",
               "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 14908,
+          "title": "Frogfoot| Southern Nodes",
+          "description": "Frogfoot has informed us of a network outage affecting Grahamstown, Garden Route District Municipality, Oudtshoorn, George, Mossel Bay, and Cape Town. Affected clients will experience no connectivity. Frogfoot engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-01-03 16:24:58",
+          "should_notify": 0,
+          "created_at": "2025-01-03 16:08:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14908,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            },
+            {
+              "id": 213,
+              "name": "Mossel Bay",
+              "slug": "mossel-bay",
+              "province_id": 3
+            },
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
             }
           ],
           "suburbs": []
