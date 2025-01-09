@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 14928,
-          "title": "Frogfoot Outage | Walmer",
-          "description": "Frogfoot has informed us of a network outage affecting Walmer, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 14929,
+          "title": "Vuma Reach Outage | Delft",
+          "description": "Vumatel has informed us of a network outage affecting Delft, affected clients will experience limited to no connectivity. Vumatel & Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-01-09 07:47:46",
+          "created_at": "2025-01-09 08:56:45",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,40 +34,33 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14928,
-                "category_id": 7
+                "notice_id": 14929,
+                "category_id": 27
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
+              "id": 291,
+              "name": "Delft",
+              "slug": "delft",
+              "province_id": 3
             }
           ],
-          "suburbs": [
-            {
-              "id": 172,
-              "name": "Walmer",
-              "slug": "walmer",
-              "city_id": 458
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 14927,
@@ -1444,16 +1437,16 @@
           ]
         },
         {
-          "id": 14912,
-          "title": "Frogfoot |Western Cape",
-          "description": "We are investigating reports of no connectivity affecting clients on the Frogfoot network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "id": 14928,
+          "title": "Frogfoot Outage | Walmer",
+          "description": "Frogfoot has informed us of a network outage affecting Walmer, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2025-01-04 12:31:43",
+          "resolved_at": "2025-01-09 09:06:24",
           "should_notify": 0,
-          "created_at": "2025-01-04 12:12:34",
+          "created_at": "2025-01-09 07:47:46",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1463,11 +1456,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
@@ -1476,7 +1469,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14912,
+                "notice_id": 14928,
                 "category_id": 7
               }
             }
@@ -1484,13 +1477,27 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 172,
+              "name": "Walmer",
+              "slug": "walmer",
+              "city_id": 458
+            }
+          ]
         }
       ]
     },
