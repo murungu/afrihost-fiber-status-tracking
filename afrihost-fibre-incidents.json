@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 14952,
-          "title": "Octotel Outage | Blouberg & Melkbos nodes",
-          "description": "Octotel has informed us of a network outage affecting the Blouberg & Melkbos nodes, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 14953,
+          "title": "Frogfoot Outage | La Clemence",
+          "description": "Frogfoot has informed us of a network outage affecting La Clemence, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-01-14 17:04:58",
+          "created_at": "2025-01-15 03:06:50",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,33 +26,25 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14952,
-                "category_id": 12
+                "notice_id": 14953,
+                "category_id": 7
               }
             }
           ],
-          "updates": [
-            {
-              "id": 927,
-              "notice_id": 14952,
-              "content": "Services have been restored. We are monitoring for stability",
-              "created_by_id": 12,
-              "created_at": "2025-01-14 19:26:14"
-            }
-          ],
+          "updates": [],
           "provinces": [
             {
               "id": 3,
@@ -62,9 +54,9 @@
           ],
           "cities": [
             {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
               "province_id": 3
             }
           ],
@@ -764,6 +756,70 @@
       ],
       "closed": [
         {
+          "id": 14952,
+          "title": "Octotel Outage | Blouberg & Melkbos nodes",
+          "description": "Octotel has informed us of a network outage affecting the Blouberg & Melkbos nodes, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": "2025-01-15 03:05:55",
+          "should_notify": 0,
+          "created_at": "2025-01-14 17:04:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14952,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 927,
+              "notice_id": 14952,
+              "content": "Services have been restored. We are monitoring for stability",
+              "created_by_id": 12,
+              "created_at": "2025-01-14 19:26:14"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 14934,
           "title": "Openserve| Randburg and Bryanston",
           "description": "Openserve has informed us of a network outage affecting Randburg and Bryanston. Affected clients will experience no connectivity. Openserve engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -1283,62 +1339,6 @@
           ]
         },
         {
-          "id": 14932,
-          "title": "Frogfoot Outage | Port Shepstone",
-          "description": "Frogfoot has informed us of a network outage affecting Port Shepstone, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "resolved",
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": "2025-01-09 18:13:27",
-          "should_notify": 0,
-          "created_at": "2025-01-09 13:14:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14932,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 129,
-              "name": "Port Shepstone",
-              "slug": "port-shepstone",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 14937,
           "title": "MetroFibre outage | Doornpoort",
           "description": "MetroFibre has informed us of a network outage affecting Doornpoort. Affected clients will experience no connectivity. MetroFibre engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -1404,11 +1404,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
