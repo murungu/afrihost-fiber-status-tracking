@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 14990,
+          "title": "Evotel outage | Newcastle",
+          "description": "Evotel has informed us of a network outage affecting Newcastle, affected clients will experience no connectivity. Evotel engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-01-23 11:00:13",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14990,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 166,
+              "name": "Newcastle",
+              "slug": "newcastle",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 14989,
           "title": "Metrofibre Outage | Rhodesfield Crescent Heights",
           "description": "Metrofibre has informed us of a network outage affecting Rhodesfield Crescent Heights, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -197,75 +253,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 14985,
-          "title": "Evotel Outage | Lenasia & Ennerdale",
-          "description": "Evotel has informed us of a network outage affecting Lenasia & Ennerdale, affected clients will experience no connectivity. Evotel engineers are working to resolve this issue as soon as possible. We sincerely apologise for any inconvenience.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-01-21 12:53:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14985,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 661,
-              "name": "Lenasia",
-              "slug": "lenasia",
-              "city_id": 8
-            },
-            {
-              "id": 873,
-              "name": "Ennerdale",
-              "slug": "ennerdale",
-              "city_id": 8
-            }
-          ]
         },
         {
           "id": 14983,
@@ -649,69 +636,6 @@
       ],
       "closed": [
         {
-          "id": 14971,
-          "title": "Vumatel Outage| Bothasig",
-          "description": "Vumatel has informed us of a network outage affecting Bothasig. Affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": "Technicians have restored power to the site and services restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-01-21 04:42:14",
-          "should_notify": 0,
-          "created_at": "2025-01-19 03:56:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14971,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 260,
-              "name": "Milnerton",
-              "slug": "milnerton",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1058,
-              "name": "Bothasig",
-              "slug": "bothasig",
-              "city_id": 260
-            }
-          ]
-        },
-        {
           "id": 14973,
           "title": "Octotel Outage | Kraaifontein",
           "description": "Octotel has informed us of a network outage affecting Kraaifontein, affected clients will experience no connectivity. Octotel engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -1072,6 +996,75 @@
               "name": "Summerstrand",
               "slug": "summerstrand",
               "city_id": 458
+            }
+          ]
+        },
+        {
+          "id": 14985,
+          "title": "Evotel Outage | Lenasia & Ennerdale",
+          "description": "Evotel has informed us of a network outage affecting Lenasia & Ennerdale, affected clients will experience no connectivity. Evotel engineers are working to resolve this issue as soon as possible. We sincerely apologise for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-01-23 10:59:23",
+          "should_notify": 0,
+          "created_at": "2025-01-21 12:53:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14985,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 661,
+              "name": "Lenasia",
+              "slug": "lenasia",
+              "city_id": 8
+            },
+            {
+              "id": 873,
+              "name": "Ennerdale",
+              "slug": "ennerdale",
+              "city_id": 8
             }
           ]
         },
