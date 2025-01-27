@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 14997,
-          "title": "Vodacom Outage | Gauteng, North West, Mpumalanga, Northern Cape & Limpopo",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vodacom network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "id": 15000,
+          "title": "MetroFibre outage | Pretoria North",
+          "description": "MetroFibre has informed us of a network outage affecting Pretoria North. Affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-01-26 15:32:58",
+          "created_at": "2025-01-27 07:17:01",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,69 +26,48 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 31,
-              "name": "Vodacom",
-              "slug": "vodacom",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14997,
-                "category_id": 31
+                "notice_id": 15000,
+                "category_id": 9
               }
             }
           ],
-          "updates": [
-            {
-              "id": 930,
-              "notice_id": 14997,
-              "content": "The impact has been mitigated and we are monitoring the network for stability. We apologize for the issues experienced.",
-              "created_by_id": 12,
-              "created_at": "2025-01-26 23:43:31"
-            },
-            {
-              "id": 929,
-              "notice_id": 14997,
-              "content": "Vodacom engineers are still working on resolving the issue. We apologize for the inconvenience and appreciate your patience and understanding during this time.",
-              "created_by_id": 12,
-              "created_at": "2025-01-26 20:43:44"
-            }
-          ],
+          "updates": [],
           "provinces": [
             {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 13,
+              "name": "Pretoria North",
+              "slug": "pretoria-north",
+              "city_id": 33
+            }
+          ]
         },
         {
           "id": 14999,
@@ -266,69 +245,6 @@
           "suburbs": []
         },
         {
-          "id": 14991,
-          "title": "LinkLayer outage | Nagina, Pinetown",
-          "description": "LinkLayer has informed us of a network outage affecting Nagina, Pinetown, affected clients will experience no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-01-23 11:37:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14991,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 128,
-              "name": "Pinetown",
-              "slug": "pinetown",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1538,
-              "name": "Nagina",
-              "slug": "nagina",
-              "city_id": 128
-            }
-          ]
-        },
-        {
           "id": 14990,
           "title": "Evotel outage | Newcastle",
           "description": "Evotel has informed us of a network outage affecting Newcastle, affected clients will experience no connectivity. Evotel engineers are working to resolve this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -459,16 +375,16 @@
       ],
       "closed": [
         {
-          "id": 14982,
-          "title": "Metrofibre| Pierre Van Ryneveld",
-          "description": "Metrofibre has informed us of a network outage affecting Pierre Van Ryneveld. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "id": 14997,
+          "title": "Vodacom Outage | Gauteng, North West, Mpumalanga, Northern Cape & Limpopo",
+          "description": "We are investigating reports of no connectivity affecting clients on the Vodacom network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2025-01-24 13:19:47",
+          "resolved_at": "2025-01-27 07:15:29",
           "should_notify": 0,
-          "created_at": "2025-01-20 18:21:28",
+          "created_at": "2025-01-26 15:32:58",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -478,103 +394,68 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 31,
+              "name": "Vodacom",
+              "slug": "vodacom",
               "product_id": 2,
               "pivot": {
-                "notice_id": 14982,
-                "category_id": 9
+                "notice_id": 14997,
+                "category_id": 31
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 930,
+              "notice_id": 14997,
+              "content": "The impact has been mitigated and we are monitoring the network for stability. We apologize for the issues experienced.",
+              "created_by_id": 12,
+              "created_at": "2025-01-26 23:43:31"
+            },
+            {
+              "id": 929,
+              "notice_id": 14997,
+              "content": "Vodacom engineers are still working on resolving the issue. We apologize for the inconvenience and appreciate your patience and understanding during this time.",
+              "created_by_id": 12,
+              "created_at": "2025-01-26 20:43:44"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng"
-            }
-          ],
-          "cities": [
+            },
             {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            },
             {
-              "id": 742,
-              "name": "Pierre Van Ryneveld",
-              "slug": "pierre-van-ryneveld",
-              "city_id": 43
-            }
-          ]
-        },
-        {
-          "id": 14983,
-          "title": "Metrofibre| Pretoria North",
-          "description": "Metrofibre has informed us of a network outage affecting Pretoria North. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": "Please note that the fibre services in Pretoria North Free Standing Houses, Pretoria North, Akasia have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-01-25 19:15:39",
-          "should_notify": 0,
-          "created_at": "2025-01-20 21:58:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            },
             {
               "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14983,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            },
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
             }
           ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -895,6 +776,69 @@
           ]
         },
         {
+          "id": 14991,
+          "title": "LinkLayer outage | Nagina, Pinetown",
+          "description": "LinkLayer has informed us of a network outage affecting Nagina, Pinetown, affected clients will experience no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-01-27 07:15:46",
+          "should_notify": 0,
+          "created_at": "2025-01-23 11:37:33",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 14991,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 128,
+              "name": "Pinetown",
+              "slug": "pinetown",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1538,
+              "name": "Nagina",
+              "slug": "nagina",
+              "city_id": 128
+            }
+          ]
+        },
+        {
           "id": 14993,
           "title": "Metrofibre Outage | Summerset Village",
           "description": "Metrofibre has informed us of a network outage affecting Summerset Village, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1072,11 +1016,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
