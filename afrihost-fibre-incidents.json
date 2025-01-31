@@ -7,6 +7,65 @@
     "notices": {
       "open": [
         {
+          "id": 15022,
+          "title": "Openserve & Afrihost | No Authentications",
+          "description": "We are observing a number of clients in the Southern and Eastern Regions with no authentications on Openserve Fibre. We are working with Openserve to find the root cause of the issue. We apologise for the inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-01-31 15:46:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15022,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            },
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 15021,
           "title": "Metrofibre Outage | Emalahleni",
           "description": "Metrofibre has informed us of a network outage affecting Emalahleni, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -299,62 +358,6 @@
               "city_id": 458
             }
           ]
-        },
-        {
-          "id": 15013,
-          "title": "Openserve outage | Nelspruit",
-          "description": "Openserve has informed us of a network outage affecting Nelspruit. Affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-01-29 15:35:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15013,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 674,
-              "name": "Nelspruit",
-              "slug": "nelspruit",
-              "province_id": 9
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 15012,
@@ -1018,90 +1021,6 @@
       ],
       "closed": [
         {
-          "id": 14997,
-          "title": "Vodacom Outage | Gauteng, North West, Mpumalanga, Northern Cape & Limpopo",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vodacom network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2025-01-27 07:15:29",
-          "should_notify": 0,
-          "created_at": "2025-01-26 15:32:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 31,
-              "name": "Vodacom",
-              "slug": "vodacom",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 14997,
-                "category_id": 31
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 930,
-              "notice_id": 14997,
-              "content": "The impact has been mitigated and we are monitoring the network for stability. We apologize for the issues experienced.",
-              "created_by_id": 12,
-              "created_at": "2025-01-26 23:43:31"
-            },
-            {
-              "id": 929,
-              "notice_id": 14997,
-              "content": "Vodacom engineers are still working on resolving the issue. We apologize for the inconvenience and appreciate your patience and understanding during this time.",
-              "created_by_id": 12,
-              "created_at": "2025-01-26 20:43:44"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 14998,
           "title": "MetroFibre| Rabie Ridge",
           "description": "MetroFibre has informed us of a network outage affecting  Rabie Ridge. Affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -1464,6 +1383,62 @@
               "city_id": 33
             }
           ]
+        },
+        {
+          "id": 15013,
+          "title": "Openserve outage | Nelspruit",
+          "description": "Openserve has informed us of a network outage affecting Nelspruit. Affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-01-31 15:44:34",
+          "should_notify": 0,
+          "created_at": "2025-01-29 15:35:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15013,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 674,
+              "name": "Nelspruit",
+              "slug": "nelspruit",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 15015,
