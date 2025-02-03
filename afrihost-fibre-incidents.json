@@ -261,6 +261,79 @@
           "suburbs": []
         },
         {
+          "id": 15041,
+          "title": "Linteg| Alveda",
+          "description": "Linteg has informed us of a network outage affecting Alveda. Affected clients will experience limited to no connectivity. Linteg engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 2,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-02-03 14:38:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 2,
+            "name": "Low Impact",
+            "slug": "low-impact",
+            "description": "Minor problems",
+            "order": 1
+          },
+          "categories": [
+            {
+              "id": 16,
+              "name": "Linteg Fibre",
+              "slug": "teralink",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15041,
+                "category_id": 16
+              }
+            },
+            {
+              "id": 35,
+              "name": "GAIA Fibonacci",
+              "slug": "fibonacci",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15041,
+                "category_id": 35
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1580,
+              "name": "Alveda",
+              "slug": "alveda",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 15040,
           "title": "Octotel| Rondebosch",
           "description": "Octotel has informed us of a network outage affecting Rondebosch. Affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
