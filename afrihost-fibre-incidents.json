@@ -269,79 +269,6 @@
           "suburbs": []
         },
         {
-          "id": 15041,
-          "title": "Linteg, GAIA Fibonacci| Alveda",
-          "description": "Linteg & GAIA Fibonacci have informed us of a network outage affecting Alveda. Affected clients will experience limited to no connectivity. Linteg engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-02-03 14:38:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 16,
-              "name": "Linteg Fibre",
-              "slug": "teralink",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15041,
-                "category_id": 16
-              }
-            },
-            {
-              "id": 35,
-              "name": "GAIA Fibonacci",
-              "slug": "fibonacci",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15041,
-                "category_id": 35
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1580,
-              "name": "Alveda",
-              "slug": "alveda",
-              "city_id": 8
-            }
-          ]
-        },
-        {
           "id": 15034,
           "title": "Metrofibre Outage | Worlds View",
           "description": "Metrofibre has informed us of a network outage affecting Worlds View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -779,62 +706,6 @@
       ],
       "closed": [
         {
-          "id": 15029,
-          "title": "Vumatel Reach Outage | Phoenix",
-          "description": "Vumatel Reach has informed us of a network outage affecting Phoenix, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-02-01 19:44:57",
-          "should_notify": 0,
-          "created_at": "2025-02-01 18:23:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15029,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 168,
-              "name": "Phoenix",
-              "slug": "phoenix",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15031,
           "title": "Frogfoot| Olimpark Node",
           "description": "Frogfoot has informed us of a network outage affecting Ravenswood, Rynfield, Montana, and Kempton Park. Affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1132,6 +1003,79 @@
               "name": "North Riding",
               "slug": "north-riding",
               "city_id": 53
+            }
+          ]
+        },
+        {
+          "id": 15041,
+          "title": "Linteg, GAIA Fibonacci| Alveda",
+          "description": "Linteg & GAIA Fibonacci have informed us of a network outage affecting Alveda. Affected clients will experience limited to no connectivity. Linteg engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-02-05 09:38:07",
+          "should_notify": 0,
+          "created_at": "2025-02-03 14:38:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 16,
+              "name": "Linteg Fibre",
+              "slug": "teralink",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15041,
+                "category_id": 16
+              }
+            },
+            {
+              "id": 35,
+              "name": "GAIA Fibonacci",
+              "slug": "fibonacci",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15041,
+                "category_id": 35
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1580,
+              "name": "Alveda",
+              "slug": "alveda",
+              "city_id": 8
             }
           ]
         },
