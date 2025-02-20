@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 15119,
-          "title": "FrogFoot outage | Gauteng, Free State, North West, Eastern Cape & Northern Cape",
-          "description": "FrogFoot has informed us of a network outage affecting Gauteng, Free State, North West, Eastern Cape & Northern Cape, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15120,
+          "title": "Octotel Outage | Grabouw",
+          "description": "Octotel has informed us of a network outage affecting Grabouw. Affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-02-20 18:06:55",
+          "created_at": "2025-02-20 19:42:02",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,58 +26,40 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15119,
-                "category_id": 7
+                "notice_id": 15120,
+                "category_id": 12
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
-          "cities": [],
+          "cities": [
+            {
+              "id": 200,
+              "name": "Grabouw",
+              "slug": "grabouw",
+              "province_id": 3
+            }
+          ],
           "suburbs": []
         },
         {
@@ -729,16 +711,16 @@
       ],
       "closed": [
         {
-          "id": 15097,
-          "title": "Openserve Outage | Disney+, DSTV, Netflix",
-          "description": "We are investigating reports of issues streaming Disney+, DSTV & Netflix, affecting clients on the Openserve network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "id": 15119,
+          "title": "FrogFoot outage | Gauteng, Free State, North West, Eastern Cape & Northern Cape",
+          "description": "FrogFoot has informed us of a network outage affecting Gauteng, Free State, North West, Eastern Cape & Northern Cape, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2025-02-14 14:11:13",
+          "resolved_at": "2025-02-20 19:41:17",
           "should_notify": 0,
-          "created_at": "2025-02-14 13:59:55",
+          "created_at": "2025-02-20 18:06:55",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -748,55 +730,30 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15097,
-                "category_id": 14
+                "notice_id": 15119,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
               "id": 1,
               "name": "Gauteng",
               "slug": "gauteng"
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
             },
             {
               "id": 8,
@@ -804,14 +761,24 @@
               "slug": "north-west"
             },
             {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            },
+            {
               "id": 5,
               "name": "Northern Cape",
               "slug": "northern-cape"
             },
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
           "cities": [],
@@ -1357,11 +1324,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
