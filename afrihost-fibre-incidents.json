@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 15141,
+          "title": "Balwin Fibre Outage | Paardevlei Lifestyle Estate",
+          "description": "Balwin has informed us of a network outage affecting Paardevlei Lifestyle Estate, affected clients will experience limited to no connectivity. Balwin engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-02-23 10:09:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 1,
+              "name": "Balwin Fibre",
+              "slug": "balwin-fibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15141,
+                "category_id": 1
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15140,
           "title": "Openserve Outage | Herolds Bay, Knysna & George",
           "description": "Openserve has informed us of a network outage affecting Herolds Bay, Knysna & George, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -123,69 +179,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 15138,
-          "title": "Vumatel Outage | Bredell",
-          "description": "Vumatel has informed us of a network outage affecting Bredell, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-02-23 08:37:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15138,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 937,
-              "name": "Bredell",
-              "slug": "bredell",
-              "city_id": 48
-            }
-          ]
         },
         {
           "id": 15137,
@@ -1462,62 +1455,6 @@
           "suburbs": []
         },
         {
-          "id": 15112,
-          "title": "Frogfoot| Richards Bay",
-          "description": "Frogfoot has informed us of a network outage affecting Richards Bay, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": "resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-02-21 13:44:32",
-          "should_notify": 0,
-          "created_at": "2025-02-19 14:53:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15112,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15118,
           "title": "FrogFoot outage | Ravenswood, Rynfield, Kempton Park",
           "description": "FrogFoot has informed us of a network outage affecting Ravenswood, Rynfield, Kempton Park, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1810,6 +1747,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 15138,
+          "title": "Vumatel Outage | Bredell",
+          "description": "Vumatel has informed us of a network outage affecting Bredell, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-02-23 10:09:54",
+          "should_notify": 0,
+          "created_at": "2025-02-23 08:37:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15138,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 937,
+              "name": "Bredell",
+              "slug": "bredell",
+              "city_id": 48
+            }
+          ]
         },
         {
           "id": 15114,
