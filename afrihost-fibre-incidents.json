@@ -12,7 +12,7 @@
           "description": "Vumatel has informed us of a network outage affecting KwaZulu-Natal\nAffected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
@@ -26,11 +26,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
@@ -44,7 +44,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 942,
+              "notice_id": 15172,
+              "content": "Services have been restored. If you are experiencing any issues, please contact our support team.",
+              "created_by_id": 12,
+              "created_at": "2025-02-28 10:07:04"
+            }
+          ],
           "provinces": [
             {
               "id": 2,
@@ -119,55 +127,6 @@
           ]
         },
         {
-          "id": 15170,
-          "title": "Metrofibre Outage | Eastern Cape Degraded",
-          "description": "Metrofibre has informed us of a network outage affecting the Eastern Cape, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-02-27 21:43:17",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15170,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 15168,
           "title": "Vumatel| Vaalpark, Sasolburg",
           "description": "Vumatel has informed us of a network outage affecting Vaalpark, Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -229,62 +188,6 @@
               "city_id": 614
             }
           ]
-        },
-        {
-          "id": 15166,
-          "title": "Vumareach| Mitchells Zone 14 & 15",
-          "description": "Vumareach has informed us of a network outage affecting Mitchells Zone 14 & 15, affected clients will experience limited to no connectivity. Vumareach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-02-27 09:52:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15166,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 308,
-              "name": "Mitchells Plain",
-              "slug": "mitchells-plain",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 13572,
@@ -359,6 +262,63 @@
           "suburbs": []
         },
         {
+          "id": 15170,
+          "title": "Metrofibre Outage | Eastern Cape Degraded",
+          "description": "Metrofibre has informed us of a network outage affecting the Eastern Cape, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 2,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-02-27 21:43:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 2,
+            "name": "Low Impact",
+            "slug": "low-impact",
+            "description": "Minor problems",
+            "order": 1
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15170,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 941,
+              "notice_id": 15170,
+              "content": "Services have been restored. If you are experiencing any issues, please contact our support team.",
+              "created_by_id": 12,
+              "created_at": "2025-02-28 10:00:00"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 15161,
           "title": "Fibresuburb Networks Outage | Western Cape",
           "description": "Fibresuburb Networks has informed us of a network outage affecting Western Cape, affected clients will experience limited to no connectivity. Fibresuburb Networks engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -409,62 +369,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 15157,
-          "title": "Metrofibre| Durban South",
-          "description": "Metrofibre has informed us of a network outage affecting Durban South, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Please note that the fibre services in Durban South have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-02-27 09:32:19",
-          "should_notify": 0,
-          "created_at": "2025-02-26 08:15:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15157,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 15159,
           "title": "FrogFoot Outage | Constantia Place",
@@ -800,6 +704,62 @@
           "suburbs": []
         },
         {
+          "id": 15166,
+          "title": "Vumareach| Mitchells Zone 14 & 15",
+          "description": "Vumareach has informed us of a network outage affecting Mitchells Zone 14 & 15, affected clients will experience limited to no connectivity. Vumareach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Technicians have restored services. Associated tickets are being tested to ensure no further work is required",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-02-28 09:58:07",
+          "should_notify": 0,
+          "created_at": "2025-02-27 09:52:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15166,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 308,
+              "name": "Mitchells Plain",
+              "slug": "mitchells-plain",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15158,
           "title": "Metrofibre Outage | Kaalfontein",
           "description": "Metrofibre has informed us of a network outage affecting Kaalfontein, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -984,11 +944,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
