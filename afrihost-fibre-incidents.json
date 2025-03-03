@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 15188,
-          "title": "Vumatel outage | Vaalpark, Sasolburg",
-          "description": "Vumatel has informed us of a network outage affecting Vaalpark, Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15189,
+          "title": "Evotel outage | Vryheid",
+          "description": "Evotel has informed us of a network outage affecting Vryheid, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-03-03 13:52:09",
+          "created_at": "2025-03-03 14:37:13",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,40 +34,33 @@
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15188,
-                "category_id": 18
+                "notice_id": 15189,
+                "category_id": 6
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 614,
-              "name": "Sasolburg",
-              "slug": "sasolburg",
-              "province_id": 7
+              "id": 139,
+              "name": "Vryheid",
+              "slug": "vryheid",
+              "province_id": 2
             }
           ],
-          "suburbs": [
-            {
-              "id": 30,
-              "name": "Vaalpark",
-              "slug": "vaalpark",
-              "city_id": 614
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 15187,
@@ -1130,16 +1123,16 @@
           ]
         },
         {
-          "id": 15170,
-          "title": "Metrofibre Outage | Eastern Cape Degraded",
-          "description": "Metrofibre has informed us of a network outage affecting the Eastern Cape, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 15188,
+          "title": "Vumatel outage | Vaalpark, Sasolburg",
+          "description": "Vumatel has informed us of a network outage affecting Vaalpark, Sasolburg, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2025-03-01 13:27:31",
+          "resolved_at": "2025-03-03 14:27:04",
           "should_notify": 0,
-          "created_at": "2025-02-27 21:43:17",
+          "created_at": "2025-03-03 13:52:09",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1149,42 +1142,48 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15170,
-                "category_id": 9
+                "notice_id": 15188,
+                "category_id": 18
               }
             }
           ],
-          "updates": [
-            {
-              "id": 941,
-              "notice_id": 15170,
-              "content": "Services have been restored. If you are experiencing any issues, please contact our support team.",
-              "created_by_id": 12,
-              "created_at": "2025-02-28 10:00:00"
-            }
-          ],
+          "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 614,
+              "name": "Sasolburg",
+              "slug": "sasolburg",
+              "province_id": 7
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 30,
+              "name": "Vaalpark",
+              "slug": "vaalpark",
+              "city_id": 614
+            }
+          ]
         },
         {
           "id": 15173,
