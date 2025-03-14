@@ -7,55 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 15252,
-          "title": "Openserve Outage | Gauteng",
-          "description": "We are investigating reports of no connectivity affecting clients on the Openserve network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-03-14 08:50:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15252,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 15251,
           "title": "Frogfoot Outage | Gardenia",
           "description": "Frogfoot has informed us of a network outage affecting Gardenia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1084,69 +1035,6 @@
       ],
       "closed": [
         {
-          "id": 15227,
-          "title": "Evotel outage | Riebeeckstad",
-          "description": "Evotel has informed us of a network outage affecting Riebeeckstad, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-03-10 14:54:11",
-          "should_notify": 0,
-          "created_at": "2025-03-10 08:47:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15227,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 594,
-              "name": "Welkom",
-              "slug": "welkom",
-              "province_id": 7
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 376,
-              "name": "Riebeeckstad",
-              "slug": "riebeeckstad",
-              "city_id": 594
-            }
-          ]
-        },
-        {
           "id": 15230,
           "title": "Evotel outage | Welkom",
           "description": "Evotel has informed us of a network outage affecting Welkom, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1690,6 +1578,55 @@
               "province_id": 9
             }
           ],
+          "suburbs": []
+        },
+        {
+          "id": 15252,
+          "title": "Openserve Outage | Gauteng",
+          "description": "We are investigating reports of no connectivity affecting clients on the Openserve network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-03-14 12:31:28",
+          "should_notify": 0,
+          "created_at": "2025-03-14 08:50:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15252,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [],
           "suburbs": []
         }
       ]
