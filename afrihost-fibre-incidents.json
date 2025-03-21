@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 15284,
-          "title": "Vumatel Outage | Castleview",
-          "description": "Vumatel has informed us of a network outage affecting Castleview, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15285,
+          "title": "Evotel outage | Ladysmith",
+          "description": "Evotel has informed us of a network outage affecting Ladysmith , affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-03-21 02:59:39",
+          "created_at": "2025-03-21 08:05:31",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,50 +34,33 @@
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15284,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15284,
-                "category_id": 24
+                "notice_id": 15285,
+                "category_id": 6
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 46,
-              "name": "Germiston",
-              "slug": "germiston",
-              "province_id": 1
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2
             }
           ],
-          "suburbs": [
-            {
-              "id": 568,
-              "name": "Castleview",
-              "slug": "castleview",
-              "city_id": 46
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 15283,
@@ -407,62 +390,6 @@
           ]
         },
         {
-          "id": 15278,
-          "title": "Evotel outage | Krugersdorp",
-          "description": "Evotel has informed us of a network outage affecting Krugersdorp , affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-03-20 08:09:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15278,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 9,
-              "name": "Krugersdorp",
-              "slug": "krugersdorp",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15277,
           "title": "Openserve outage | Richards Bay",
           "description": "Openserve has informed us of a network outage affecting Richards Bay, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -764,69 +691,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 15275,
-          "title": "MetroFibre maintenance | Kyalami Glen, Kyalami",
-          "description": "MetroFibre  is conducting maintenance in Kyalami Glen, Kyalami on the 20th of March from 07:00 to 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-03-19 14:48:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15275,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 243,
-              "name": "Kyalami",
-              "slug": "kyalami",
-              "city_id": 50
-            }
-          ]
         }
       ],
       "closed": [
@@ -886,132 +750,6 @@
           ],
           "cities": [],
           "suburbs": []
-        },
-        {
-          "id": 15263,
-          "title": "Vumatel Outage | Orange Grove",
-          "description": "Vumatel has informed us of a network outage affecting Orange Grove, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-03-21 05:09:54",
-          "should_notify": 0,
-          "created_at": "2025-03-17 10:39:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15263,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 864,
-              "name": "Orange Grove",
-              "slug": "orange-grove",
-              "city_id": 8
-            }
-          ]
-        },
-        {
-          "id": 15264,
-          "title": "Vumatel Outage | Ormonde",
-          "description": "Vumatel has informed us of a network outage affecting Ormonde, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-03-21 05:10:03",
-          "should_notify": 0,
-          "created_at": "2025-03-17 10:54:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15264,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 386,
-              "name": "Ormonde",
-              "slug": "ormonde",
-              "city_id": 8
-            }
-          ]
         },
         {
           "id": 15266,
@@ -1371,16 +1109,145 @@
           ]
         },
         {
-          "id": 15265,
-          "title": "Octotel Maintenance | Cape Town",
-          "description": "Octotel is conducting maintenance in Cape Town on the 18th of March from 00:00 to 02:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 15278,
+          "title": "Evotel outage | Krugersdorp",
+          "description": "Evotel has informed us of a network outage affecting Krugersdorp , affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-03-21 08:00:23",
+          "should_notify": 0,
+          "created_at": "2025-03-20 08:09:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15278,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 9,
+              "name": "Krugersdorp",
+              "slug": "krugersdorp",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 15284,
+          "title": "Vumatel Outage | Castleview",
+          "description": "Vumatel has informed us of a network outage affecting Castleview, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-03-21 08:00:04",
+          "should_notify": 0,
+          "created_at": "2025-03-21 02:59:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15284,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15284,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 568,
+              "name": "Castleview",
+              "slug": "castleview",
+              "city_id": 46
+            }
+          ]
+        },
+        {
+          "id": 15275,
+          "title": "MetroFibre maintenance | Kyalami Glen, Kyalami",
+          "description": "MetroFibre  is conducting maintenance in Kyalami Glen, Kyalami on the 20th of March from 07:00 to 17:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
-          "resolved_at": "2025-03-18 05:10:00",
+          "resolved_at": "2025-03-21 08:00:37",
           "should_notify": 0,
-          "created_at": "2025-03-17 12:55:20",
+          "created_at": "2025-03-19 14:48:22",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1398,33 +1265,40 @@
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15265,
-                "category_id": 12
+                "notice_id": 15275,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 243,
+              "name": "Kyalami",
+              "slug": "kyalami",
+              "city_id": 50
+            }
+          ]
         }
       ]
     },
