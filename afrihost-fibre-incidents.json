@@ -7,69 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 15290,
-          "title": "Vumatel Outage | Soshanguve",
-          "description": "Vumatel has informed us of a network outage affecting Soshanguve, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-03-24 07:06:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15290,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 29,
-              "name": "Soshanguve",
-              "slug": "soshanguve",
-              "city_id": 33
-            }
-          ]
-        },
-        {
           "id": 15286,
           "title": "MetroFibre outage | Pretoria North",
           "description": "MetroFibre has informed us of a network outage affecting Pretoria North, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -203,20 +140,18 @@
             }
           ],
           "suburbs": []
-        }
-      ],
-      "closed": [
+        },
         {
-          "id": 15279,
-          "title": "MetroFibre outage | Sea Cow Lake and Kenville",
-          "description": "MetroFibre  has informed us of a network outage affecting Sea Cow Lake and Kenville, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Please note that the fibre services in Sea Cow Lake - FSH, Sea Cow Lake, Kenville, KwaZulu Natal have been restored.",
+          "id": 15294,
+          "title": "Vumatel Maintenance | Blue Downs",
+          "description": "Vumatel is conducting maintenance in Blue Downs from Mon, Mar 24, 2025, 08:00 to 19:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 1,
           "expires_at": null,
-          "resolved_at": "2025-03-23 20:26:02",
+          "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-03-20 08:21:27",
+          "created_at": "2025-03-24 09:10:12",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -226,55 +161,253 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15279,
-                "category_id": 9
+                "notice_id": 15294,
+                "category_id": 27
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
+              "id": 284,
+              "name": "Blue Downs",
+              "slug": "blue-downs",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 15293,
+          "title": "Vumatel Maintenance | Bryanston",
+          "description": "Vumatel is conducting maintenance in Bryanston from Mon, Mar 24, 2025, 08:00 to Fri, Apr 4, 2025, 14:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-03-24 09:08:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15293,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15293,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
             }
           ],
           "suburbs": [
             {
-              "id": 2079,
-              "name": "Sea Cow Lake",
-              "slug": "sea-cow-lake",
-              "city_id": 68
-            },
-            {
-              "id": 1966,
-              "name": "Kenville",
-              "slug": "kenville",
-              "city_id": 68
+              "id": 4,
+              "name": "Bryanston",
+              "slug": "bryanston",
+              "city_id": 16
             }
           ]
         },
+        {
+          "id": 15292,
+          "title": "Vumatel Maintenance | Glenhazel North",
+          "description": "Vumatel is conducting maintenance in Glenhazel North from Mon, Mar 24, 2025, 08:00 to Fri, Mar 28, 2025, 14:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-03-24 09:05:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15292,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15292,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1004,
+              "name": "Glenhazel",
+              "slug": "glenhazel",
+              "city_id": 8
+            }
+          ]
+        },
+        {
+          "id": 15291,
+          "title": "Vumatel Maintenance | Killarney",
+          "description": "Vumatel is conducting maintenance in Killarney from Mon, Mar 24, 2025, 08:00 to Fri, Mar 28, 2025, 14:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-03-24 09:02:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15291,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 593,
+              "name": "Killarney",
+              "slug": "killarney",
+              "city_id": 8
+            }
+          ]
+        }
+      ],
+      "closed": [
         {
           "id": 15280,
           "title": "MetroFibre outage | Motalabad, New Germany",
@@ -841,6 +974,69 @@
               "name": "Lorraine",
               "slug": "lorraine",
               "city_id": 458
+            }
+          ]
+        },
+        {
+          "id": 15290,
+          "title": "Vumatel Outage | Soshanguve",
+          "description": "Vumatel has informed us of a network outage affecting Soshanguve, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-03-24 08:58:06",
+          "should_notify": 0,
+          "created_at": "2025-03-24 07:06:42",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15290,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 29,
+              "name": "Soshanguve",
+              "slug": "soshanguve",
+              "city_id": 33
             }
           ]
         }
