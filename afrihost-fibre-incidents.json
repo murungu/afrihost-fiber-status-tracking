@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 15325,
-          "title": "MetroFibre outage | Sandton",
-          "description": "MetroFibre has informed us of a network outage affecting Sandton, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15326,
+          "title": "LinkLayer outage | Waterfall",
+          "description": "LinkLayer has informed us of a network outage affecting Waterfall, affected clients will experience limited to no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-03-28 14:32:38",
+          "created_at": "2025-03-29 09:43:54",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,30 +34,30 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15325,
-                "category_id": 9
+                "notice_id": 15326,
+                "category_id": 30
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
+              "id": 180,
+              "name": "Waterfall",
+              "slug": "waterfall",
+              "province_id": 2
             }
           ],
           "suburbs": []
@@ -1436,69 +1436,6 @@
       ],
       "closed": [
         {
-          "id": 15296,
-          "title": "Frogfoot Outage | Parklands",
-          "description": "Frogfoot has informed us of a network outage affecting Parklands, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-03-24 18:03:36",
-          "should_notify": 0,
-          "created_at": "2025-03-24 16:07:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15296,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 66,
-              "name": "Parklands",
-              "slug": "parklands",
-              "city_id": 236
-            }
-          ]
-        },
-        {
           "id": 15297,
           "title": "Frogfoot Outage | Devon Park",
           "description": "Frogfoot has informed us of a network outage affecting Devon Park, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1924,6 +1861,62 @@
               "city_id": 50
             }
           ]
+        },
+        {
+          "id": 15325,
+          "title": "MetroFibre outage | Sandton",
+          "description": "MetroFibre has informed us of a network outage affecting Sandton, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-03-29 09:44:09",
+          "should_notify": 0,
+          "created_at": "2025-03-28 14:32:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15325,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 15300,
