@@ -7,62 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 15445,
-          "title": "Vumatel Reach Outage | Mpumalanga",
-          "description": "Vumatel Reach has informed us of a network outage affecting Mpumalanga, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-04-28 15:01:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15445,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 114,
-              "name": "Hammarsdale",
-              "slug": "hammarsdale",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15444,
           "title": "Metrofibre Outage | Wolmer",
           "description": "Metrofibre has informed us of a network outage affecting {Area}, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -289,7 +233,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 956,
+              "notice_id": 15439,
+              "content": "Majority of services have been restored and the team is actively working to restore the remaining services that are still down",
+              "created_by_id": 12,
+              "created_at": "2025-04-28 15:32:25"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -998,62 +950,6 @@
       ],
       "closed": [
         {
-          "id": 15424,
-          "title": "Metrofibre Outage | Isipingo Hills",
-          "description": "Metrofibre has informed us of a network outage affecting Isipingo Hills, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-04-28 08:03:26",
-          "should_notify": 0,
-          "created_at": "2025-04-21 07:36:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15424,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 158,
-              "name": "Isipingo",
-              "slug": "isipingo",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15425,
           "title": "Octotel Outage | Green Point",
           "description": "Octotel has informed us of a network outage affecting Green Point, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1618,6 +1514,62 @@
               "city_id": 2
             }
           ]
+        },
+        {
+          "id": 15445,
+          "title": "Vumatel Reach Outage | Mpumalanga",
+          "description": "Vumatel Reach has informed us of a network outage affecting Mpumalanga, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Services have been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-04-28 15:29:57",
+          "should_notify": 0,
+          "created_at": "2025-04-28 15:01:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15445,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 114,
+              "name": "Hammarsdale",
+              "slug": "hammarsdale",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
