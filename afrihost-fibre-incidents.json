@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 15447,
+          "title": "Metrofibre Outage | Clayville",
+          "description": "Metrofibre has informed us of a network outage affecting Clayville, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-04-29 07:40:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15447,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15446,
           "title": "Vuma Reach outage | Motherwell",
           "description": "Vuma Reach has informed us of a network outage affecting Motherwell, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -255,69 +311,6 @@
               "name": "Douglasdale",
               "slug": "douglasdale",
               "city_id": 16
-            }
-          ]
-        },
-        {
-          "id": 15435,
-          "title": "Frogfoot outage | Scottsville",
-          "description": "Frogfoot has informed us of a network outage affecting Scottsville, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-04-24 11:18:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15435,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 907,
-              "name": "Scottsville",
-              "slug": "scottsville",
-              "city_id": 87
             }
           ]
         },
@@ -942,69 +935,6 @@
       ],
       "closed": [
         {
-          "id": 15428,
-          "title": "Vumatel Reach Outage | MpumalangaC",
-          "description": "Vumatel Reach has informed us of a network outage affecting MpumalangaC, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-04-22 18:44:11",
-          "should_notify": 0,
-          "created_at": "2025-04-22 14:41:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15428,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 114,
-              "name": "Hammarsdale",
-              "slug": "hammarsdale",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3718,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga",
-              "city_id": 114
-            }
-          ]
-        },
-        {
           "id": 15429,
           "title": "Frogfoot Outage | Kraaifontein",
           "description": "Frogfoot has informed us of a network outage affecting Kraaifontein, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1189,6 +1119,69 @@
               "name": "Lavender Hill",
               "slug": "lavender-hill",
               "city_id": 240
+            }
+          ]
+        },
+        {
+          "id": 15435,
+          "title": "Frogfoot outage | Scottsville",
+          "description": "Frogfoot has informed us of a network outage affecting Scottsville, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-04-29 07:41:10",
+          "should_notify": 0,
+          "created_at": "2025-04-24 11:18:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15435,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 87,
+              "name": "Pietermaritzburg",
+              "slug": "pietermaritzburg",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 907,
+              "name": "Scottsville",
+              "slug": "scottsville",
+              "city_id": 87
             }
           ]
         },
