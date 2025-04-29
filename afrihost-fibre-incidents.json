@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 15450,
-          "title": "Frogfoot Outage | KwaZulu-Natal",
-          "description": "We are investigating reports of no throughput affecting clients on the Frogfoot network in KwaZulu-Natal. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "id": 15451,
+          "title": "Vumatel Reach Outage | Mpumalanga C",
+          "description": "Vumatel Reach has informed us of a network outage affecting Mpumalanga C, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-04-29 12:27:01",
+          "created_at": "2025-04-29 13:09:24",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,21 +26,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15450,
-                "category_id": 7
+                "notice_id": 15451,
+                "category_id": 27
               }
             }
           ],
@@ -52,7 +52,14 @@
               "slug": "kwazulu-natal"
             }
           ],
-          "cities": [],
+          "cities": [
+            {
+              "id": 114,
+              "name": "Hammarsdale",
+              "slug": "hammarsdale",
+              "province_id": 2
+            }
+          ],
           "suburbs": []
         },
         {
@@ -1096,16 +1103,16 @@
       ],
       "closed": [
         {
-          "id": 15429,
-          "title": "Frogfoot Outage | Kraaifontein",
-          "description": "Frogfoot has informed us of a network outage affecting Kraaifontein, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 15450,
+          "title": "Frogfoot Outage | KwaZulu-Natal",
+          "description": "We are investigating reports of no throughput affecting clients on the Frogfoot network in KwaZulu-Natal. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": "Services have restored. We are monitoring for stability",
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2025-04-22 19:02:41",
+          "resolved_at": "2025-04-29 13:09:45",
           "should_notify": 0,
-          "created_at": "2025-04-22 16:03:16",
+          "created_at": "2025-04-29 12:27:01",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1115,11 +1122,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
@@ -1128,7 +1135,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15429,
+                "notice_id": 15450,
                 "category_id": 7
               }
             }
@@ -1136,19 +1143,12 @@
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
-          "cities": [
-            {
-              "id": 303,
-              "name": "Kraaifontein",
-              "slug": "kraaifontein",
-              "province_id": 3
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -1728,11 +1728,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
