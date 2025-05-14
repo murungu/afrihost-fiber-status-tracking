@@ -7,6 +7,143 @@
     "notices": {
       "open": [
         {
+          "id": 15537,
+          "title": "Octotel| Garden Route",
+          "description": "Octotel has informed us of a network outage affecting Garden Route. Affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-05-14 12:43:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15537,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1983,
+              "name": "Ballots Bay",
+              "slug": "ballots-bay",
+              "city_id": 247
+            },
+            {
+              "id": 4914,
+              "name": "Conville",
+              "slug": "conville",
+              "city_id": 247
+            },
+            {
+              "id": 526,
+              "name": "Pacaltsdorp",
+              "slug": "pacaltsdorp",
+              "city_id": 247
+            },
+            {
+              "id": 3504,
+              "name": "Sea View",
+              "slug": "sea-view-1",
+              "city_id": 247
+            }
+          ]
+        },
+        {
+          "id": 15536,
+          "title": "Frogfoot outage | Port Shepstone",
+          "description": "Frogfoot has informed us of a network outage affecting Port Shepstone, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-05-14 12:42:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15536,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 129,
+              "name": "Port Shepstone",
+              "slug": "port-shepstone",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15535,
           "title": "Evotel| Rustenburg - Zinniaville",
           "description": "Evotel has informed us of a network outage affecting Zinniaville. Affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
@@ -107,7 +244,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 961,
+              "notice_id": 15534,
+              "content": "The impact has been mitigated and we are monitoring the network for stability. We apologise for the issues experienced.",
+              "created_by_id": 12,
+              "created_at": "2025-05-14 12:44:44"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
