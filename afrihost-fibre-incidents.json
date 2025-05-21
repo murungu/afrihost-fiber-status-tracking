@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 15594,
+          "title": "Metrofibre outage | Paradise Beach, Jeffreys Bay",
+          "description": "Metrofibre has informed us of a network outage affecting Paradise Beach, Jeffreys Bay, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-05-21 12:30:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15594,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 483,
+              "name": "Jeffreys Bay",
+              "slug": "jeffreys-bay",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 88,
+              "name": "Paradise Beach",
+              "slug": "paradise-beach",
+              "city_id": 483
+            }
+          ]
+        },
+        {
           "id": 15593,
           "title": "Metrofibre outage | The Orchards, Pretoria",
           "description": "Metrofibre has informed us of a network outage affecting The Orchards, Pretoria, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -255,75 +318,6 @@
               "name": "North Riding",
               "slug": "north-riding",
               "city_id": 53
-            }
-          ]
-        },
-        {
-          "id": 15583,
-          "title": "Vuma Reach| Lavender Hill & Seawinds",
-          "description": "Vuma Reach has informed us of a network outage in Lavender Hill & Seawinds. Affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-05-20 11:27:48",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15583,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 4412,
-              "name": "Lavender Hill",
-              "slug": "lavender-hill",
-              "city_id": 240
-            },
-            {
-              "id": 4102,
-              "name": "Seawinds",
-              "slug": "seawinds",
-              "city_id": 240
             }
           ]
         },
@@ -854,6 +848,75 @@
           ]
         },
         {
+          "id": 15583,
+          "title": "Vuma Reach| Lavender Hill & Seawinds",
+          "description": "Vuma Reach has informed us of a network outage in Lavender Hill & Seawinds. Affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-05-21 12:30:33",
+          "should_notify": 0,
+          "created_at": "2025-05-20 11:27:48",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15583,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4412,
+              "name": "Lavender Hill",
+              "slug": "lavender-hill",
+              "city_id": 240
+            },
+            {
+              "id": 4102,
+              "name": "Seawinds",
+              "slug": "seawinds",
+              "city_id": 240
+            }
+          ]
+        },
+        {
           "id": 15584,
           "title": "Metrofibre Outage | Zwartkop",
           "description": "Metrofibre has informed us of a network outage affecting Zwartkop, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1150,62 +1213,6 @@
               "name": "Tongaat",
               "slug": "tongaat",
               "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 15576,
-          "title": "Octotel| George",
-          "description": "Octotel has informed us of a network outage in George. Affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": "Octotel engineers have completed the fibre repairs. Please reboot those customers still offline, their ONTs, and routers, and retest the connection.",
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": "2025-05-20 11:24:18",
-          "should_notify": 0,
-          "created_at": "2025-05-19 12:33:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15576,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
             }
           ],
           "suburbs": []
