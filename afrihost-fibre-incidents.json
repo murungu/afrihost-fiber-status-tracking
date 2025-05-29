@@ -7,69 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 15644,
-          "title": "FrogFoot Outage | Montana",
-          "description": "Frogfoot has informed us of a network outage in Montana. Affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-05-29 03:35:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15644,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 11,
-              "name": "Montana",
-              "slug": "montana",
-              "city_id": 33
-            }
-          ]
-        },
-        {
           "id": 15642,
           "title": "Openserve| Randburg and Sandton",
           "description": "Openserve has informed us of a network outage affecting Randburg and Sandton. Affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience.",
@@ -265,20 +202,18 @@
             }
           ],
           "suburbs": []
-        }
-      ],
-      "closed": [
+        },
         {
-          "id": 15633,
-          "title": "Metrofibre|",
-          "description": "Metro fibre has informed us of a network outage affecting The Hill, affected clients will experience limited to no connectivity. Metro fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15647,
+          "title": "Vuma Reach maintenance | Buhle Park",
+          "description": "Vuma Reach is conducting maintenance in Buhle Park on the 29th of May from 23:00 to the 30th of May at 04:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 1,
           "expires_at": null,
-          "resolved_at": "2025-05-27 07:08:32",
+          "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-05-26 15:37:00",
+          "created_at": "2025-05-29 09:27:07",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -288,21 +223,21 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15633,
-                "category_id": 9
+                "notice_id": 15647,
+                "category_id": 27
               }
             }
           ],
@@ -316,21 +251,149 @@
           ],
           "cities": [
             {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
+              "id": 46,
+              "name": "Germiston",
+              "slug": "germiston",
               "province_id": 1
             }
           ],
           "suburbs": [
             {
-              "id": 852,
-              "name": "The Hill",
-              "slug": "the-hill",
-              "city_id": 8
+              "id": 2883,
+              "name": "Buhle Park",
+              "slug": "buhle-park",
+              "city_id": 46
             }
           ]
         },
+        {
+          "id": 15646,
+          "title": "MetroFibre maintenance | Bonela, Durban",
+          "description": "MetroFibre is conducting maintenance in Bonela, Durban on the 3rd of June from 08:00 to 18:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-05-29 09:24:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15646,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1904,
+              "name": "Bonela",
+              "slug": "bonela",
+              "city_id": 68
+            }
+          ]
+        },
+        {
+          "id": 15645,
+          "title": "Vumatel maintenance | Sherwood Gardens",
+          "description": "Vumatel is conducting maintenance in Sherwood Gardens on the 29th of May from 23:00 to the 30th of May at 13:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-05-29 09:21:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15645,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 42,
+              "name": "Brakpan",
+              "slug": "brakpan",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1131,
+              "name": "Sherwood Gardens",
+              "slug": "sherwood-gardens",
+              "city_id": 42
+            }
+          ]
+        }
+      ],
+      "closed": [
         {
           "id": 15634,
           "title": "Vodacom| Johannesburg",
@@ -880,6 +943,69 @@
               "name": "Broadacres",
               "slug": "broadacres",
               "city_id": 16
+            }
+          ]
+        },
+        {
+          "id": 15644,
+          "title": "FrogFoot Outage | Montana",
+          "description": "Frogfoot has informed us of a network outage in Montana. Affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-05-29 09:17:39",
+          "should_notify": 0,
+          "created_at": "2025-05-29 03:35:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15644,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 11,
+              "name": "Montana",
+              "slug": "montana",
+              "city_id": 33
             }
           ]
         }
