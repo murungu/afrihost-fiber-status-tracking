@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 15704,
-          "title": "Frogfoot| Richards Bay",
-          "description": "Frogfoot has informed us of a network outage affecting the Mzingazi Node. Affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15705,
+          "title": "Vumatel Outage | Western Cape",
+          "description": "Vumatel core network engineers are busy with an Emergency network change ref CHG-000007960. Traffic is being rerouted to the new network environment. Affected clients will experience no connectivity during the change window. We apologise for the inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-06-05 15:39:46",
+          "created_at": "2025-06-05 22:57:55",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,63 +26,34 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15704,
-                "category_id": 7
+                "notice_id": 15705,
+                "category_id": 18
               }
             }
           ],
-          "updates": [
-            {
-              "id": 972,
-              "notice_id": 15704,
-              "content": "The Frogfoot technician has tested from Mzingazi and found that a fibre break at 7.6km.",
-              "created_by_id": 30,
-              "created_at": "2025-06-05 20:35:47"
-            },
-            {
-              "id": 971,
-              "notice_id": 15704,
-              "content": "FrogFoot engineering team has rerouted traffic through a backhaul, is currently awaiting a capacity upgrade, and is not in use. While this has restored connectivity, we will keep the outage open until the original backhaul is fully restored. This ensures traffic can be returned to its intended path, as the current routing poses a risk of congestion.",
-              "created_by_id": 30,
-              "created_at": "2025-06-05 20:34:52"
-            }
-          ],
+          "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 130,
-              "name": "Richards Bay",
-              "slug": "richards-bay",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 79,
-              "name": "Arboretum",
-              "slug": "arboretum",
-              "city_id": 130
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 15700,
@@ -424,103 +395,6 @@
           ]
         },
         {
-          "id": 15702,
-          "title": "Vumatel Outage | National",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 2,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-06-05 07:59:16",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15702,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 970,
-              "notice_id": 15702,
-              "content": "Impact has been mitigated, and we are monitoring for stability. If you are still experiencing issues, you can reach out by logging a callback in ClientZone, sending an email to support@afrihost.com, or reaching out on WhatsApp. We apologise for the inconvenience caused.",
-              "created_by_id": 30,
-              "created_at": "2025-06-05 17:56:35"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            },
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 15649,
           "title": "Octotel maintenance | Blouberg",
           "description": "Octotel is conducting maintenance in Blouberg on the 5th of June from 00:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -737,69 +611,6 @@
           ],
           "cities": [],
           "suburbs": []
-        },
-        {
-          "id": 15691,
-          "title": "Metrofibre| Douglasdale",
-          "description": "Metrofibre has informed us of a network outage affecting Douglasdale. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-06-05 09:52:50",
-          "should_notify": 0,
-          "created_at": "2025-06-03 07:54:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15691,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 166,
-              "name": "Douglasdale",
-              "slug": "douglasdale",
-              "city_id": 16
-            }
-          ]
         },
         {
           "id": 15692,
@@ -1054,16 +865,16 @@
           ]
         },
         {
-          "id": 15690,
-          "title": "Metrofibre| Reservoir Hills",
-          "description": "Metrofibre has informed us of a network outage affecting Reservoir Hills. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Please note that the fibre services in Reservoir Hills, Durban have been restored.",
+          "id": 15704,
+          "title": "Frogfoot| Richards Bay",
+          "description": "Frogfoot has informed us of a network outage affecting the Mzingazi Node. Affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2025-06-03 07:53:31",
+          "resolved_at": "2025-06-05 22:56:18",
           "should_notify": 0,
-          "created_at": "2025-06-02 16:49:08",
+          "created_at": "2025-06-05 15:39:46",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1073,25 +884,40 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15690,
-                "category_id": 9
+                "notice_id": 15704,
+                "category_id": 7
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 972,
+              "notice_id": 15704,
+              "content": "The Frogfoot technician has tested from Mzingazi and found that a fibre break at 7.6km.",
+              "created_by_id": 30,
+              "created_at": "2025-06-05 20:35:47"
+            },
+            {
+              "id": 971,
+              "notice_id": 15704,
+              "content": "FrogFoot engineering team has rerouted traffic through a backhaul, is currently awaiting a capacity upgrade, and is not in use. While this has restored connectivity, we will keep the outage open until the original backhaul is fully restored. This ensures traffic can be returned to its intended path, as the current routing poses a risk of congestion.",
+              "created_by_id": 30,
+              "created_at": "2025-06-05 20:34:52"
+            }
+          ],
           "provinces": [
             {
               "id": 2,
@@ -1101,18 +927,18 @@
           ],
           "cities": [
             {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
+              "id": 130,
+              "name": "Richards Bay",
+              "slug": "richards-bay",
               "province_id": 2
             }
           ],
           "suburbs": [
             {
-              "id": 313,
-              "name": "Reservoir Hills",
-              "slug": "reservoir-hills",
-              "city_id": 68
+              "id": 79,
+              "name": "Arboretum",
+              "slug": "arboretum",
+              "city_id": 130
             }
           ]
         },
@@ -1234,15 +1060,112 @@
               "city_id": 594
             }
           ]
+        },
+        {
+          "id": 15702,
+          "title": "Vumatel Outage | National",
+          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 2,
+          "expires_at": null,
+          "resolved_at": "2025-06-05 22:56:21",
+          "should_notify": 0,
+          "created_at": "2025-06-05 07:59:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 2,
+            "name": "Low Impact",
+            "slug": "low-impact",
+            "description": "Minor problems",
+            "order": 1
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15702,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 970,
+              "notice_id": 15702,
+              "content": "Impact has been mitigated, and we are monitoring for stability. If you are still experiencing issues, you can reach out by logging a callback in ClientZone, sending an email to support@afrihost.com, or reaching out on WhatsApp. We apologise for the inconvenience caused.",
+              "created_by_id": 30,
+              "created_at": "2025-06-05 17:56:35"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            },
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            },
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            },
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            },
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            },
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            },
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            },
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            },
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
         }
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
