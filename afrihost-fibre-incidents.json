@@ -7,69 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 15761,
-          "title": "Metrofibre Outage | Jacobs",
-          "description": "Metrofibre has informed us of a network outage affecting Jacobs, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-06-14 16:49:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15761,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 995,
-              "name": "Jacobs",
-              "slug": "jacobs",
-              "city_id": 68
-            }
-          ]
-        },
-        {
           "id": 15760,
           "title": "Metrofibre Outage | La Montanara",
           "description": "Metrofibre has informed us of a network outage affecting La Montanara, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -688,62 +625,6 @@
       ],
       "closed": [
         {
-          "id": 15743,
-          "title": "Octotel | Wellington",
-          "description": "Octotel has informed us of a network outage affecting Wellington, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Octotel engineers have completed the fibre repairs works. Please have those customers still offline reboot their ONT and routers and retest the connection.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-06-10 13:39:11",
-          "should_notify": 0,
-          "created_at": "2025-06-10 10:28:14",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15743,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 229,
-              "name": "Wellington",
-              "slug": "wellington",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15745,
           "title": "Evotel| Middelburg",
           "description": "Evotel has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1278,6 +1159,69 @@
               "id": 1521,
               "name": "Avoca",
               "slug": "avoca",
+              "city_id": 68
+            }
+          ]
+        },
+        {
+          "id": 15761,
+          "title": "Metrofibre Outage | Jacobs",
+          "description": "Metrofibre has informed us of a network outage affecting Jacobs, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-06-14 17:21:03",
+          "should_notify": 0,
+          "created_at": "2025-06-14 16:49:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15761,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 995,
+              "name": "Jacobs",
+              "slug": "jacobs",
               "city_id": 68
             }
           ]
