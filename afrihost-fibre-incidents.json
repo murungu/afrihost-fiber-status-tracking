@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 15823,
+          "title": "MetroFibre| George",
+          "description": "MetroFibre has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-06-23 13:43:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15823,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15822,
           "title": "Vumatel| Discovery",
           "description": "Vumatel has informed us of a network outage affecting Discovery, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -187,75 +243,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 15817,
-          "title": "Octotel| Athlone & Manenberg",
-          "description": "Octotel has informed us of a network outage affecting Athlone & Manenberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-06-23 09:48:01",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15817,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1439,
-              "name": "Athlone",
-              "slug": "athlone",
-              "city_id": 240
-            },
-            {
-              "id": 3701,
-              "name": "Manenberg",
-              "slug": "manenberg",
-              "city_id": 240
-            }
-          ]
         },
         {
           "id": 15813,
@@ -804,69 +791,6 @@
           "suburbs": []
         },
         {
-          "id": 15802,
-          "title": "Metrofibre `Outage | Hartebeesthoek",
-          "description": "Metrofibre has informed us of a network outage affecting Hartebeesthoek, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-06-22 14:22:34",
-          "should_notify": 0,
-          "created_at": "2025-06-20 16:42:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15802,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2646,
-              "name": "Hartebeeshoek",
-              "slug": "hartebeeshoek",
-              "city_id": 1
-            }
-          ]
-        },
-        {
           "id": 15803,
           "title": "Octotel Outage | Atlantis",
           "description": "Octotel has informed us of a network outage affecting Atlantis, affected clients will experience intermittent connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1311,6 +1235,75 @@
               "name": "Broadacres",
               "slug": "broadacres",
               "city_id": 16
+            }
+          ]
+        },
+        {
+          "id": 15817,
+          "title": "Octotel| Athlone & Manenberg",
+          "description": "Octotel has informed us of a network outage affecting Athlone & Manenberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-06-23 13:36:57",
+          "should_notify": 0,
+          "created_at": "2025-06-23 09:48:01",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15817,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1439,
+              "name": "Athlone",
+              "slug": "athlone",
+              "city_id": 240
+            },
+            {
+              "id": 3701,
+              "name": "Manenberg",
+              "slug": "manenberg",
+              "city_id": 240
             }
           ]
         }
