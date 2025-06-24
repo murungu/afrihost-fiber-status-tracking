@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 15834,
+          "title": "Metrofibre Outage | Northriding",
+          "description": "Metrofibre has informed us of a network outage affecting Northriding, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-06-24 13:50:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15834,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 80,
+              "name": "North Riding",
+              "slug": "north-riding",
+              "city_id": 53
+            }
+          ]
+        },
+        {
           "id": 15833,
           "title": "Metrofibre Outage |  The Reeds",
           "description": "Metrofibre has informed us of a network outage affecting The Reeds, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -665,75 +728,6 @@
           "suburbs": []
         },
         {
-          "id": 15813,
-          "title": "Metrofibre Outage | Anerley & Southport",
-          "description": "Metrofibre has informed us of a network outage affecting Anerley & Southport, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-06-22 14:30:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15813,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 129,
-              "name": "Port Shepstone",
-              "slug": "port-shepstone",
-              "province_id": 2
-            },
-            {
-              "id": 61,
-              "name": "Anerley",
-              "slug": "anerley",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 249,
-              "name": "Southport",
-              "slug": "southport",
-              "city_id": 129
-            }
-          ]
-        },
-        {
           "id": 13572,
           "title": "Vumatel installation and maintenance problems | Khayelitsha & Delft",
           "description": "We would like to inform you about the challenges that we are currently experiencing with installation & maintenance activities in the Khayelitsha and Delft areas, Western Cape. Due to increased violence in this area, our contractor partners are not able to freely access the area to work. All maintenance and installation activities in this area will be on hold until further notice. The safety of our contractor partners remains our priority.",
@@ -946,16 +940,16 @@
       ],
       "closed": [
         {
-          "id": 15811,
-          "title": "Vumatel Reach Outage | MpumalangaC",
-          "description": "Vumatel Reach has informed us of a network outage affecting MpumalangaC, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15813,
+          "title": "Metrofibre Outage | Anerley & Southport",
+          "description": "Metrofibre has informed us of a network outage affecting Anerley & Southport, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2025-06-23 09:33:38",
+          "resolved_at": "2025-06-24 13:49:14",
           "should_notify": 0,
-          "created_at": "2025-06-22 14:18:52",
+          "created_at": "2025-06-22 14:30:00",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -973,13 +967,13 @@
           },
           "categories": [
             {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15811,
-                "category_id": 27
+                "notice_id": 15813,
+                "category_id": 9
               }
             }
           ],
@@ -993,13 +987,26 @@
           ],
           "cities": [
             {
-              "id": 114,
-              "name": "Hammarsdale",
-              "slug": "hammarsdale",
+              "id": 129,
+              "name": "Port Shepstone",
+              "slug": "port-shepstone",
+              "province_id": 2
+            },
+            {
+              "id": 61,
+              "name": "Anerley",
+              "slug": "anerley",
               "province_id": 2
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 249,
+              "name": "Southport",
+              "slug": "southport",
+              "city_id": 129
+            }
+          ]
         },
         {
           "id": 15814,
