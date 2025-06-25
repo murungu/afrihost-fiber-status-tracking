@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 15840,
+          "title": "Metrofibre| Pietermaritzburg",
+          "description": "Metrofibre has informed us of a network outage affecting Pietermaritzburg, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-06-25 10:27:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15840,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 87,
+              "name": "Pietermaritzburg",
+              "slug": "pietermaritzburg",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15838,
           "title": "Vumatel outage | Honeydew Manor",
           "description": "Vumatel has informed us of a network outage affecting Honeydew Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -192,70 +248,6 @@
               "name": "Upington",
               "slug": "upington",
               "province_id": 5
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 15828,
-          "title": "Evotel Outage | Rustenburg",
-          "description": "We are investigating reports of no connectivity affecting clients on the Evotel network in Rustenburg. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-06-24 11:21:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15828,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 987,
-              "notice_id": 15828,
-              "content": "Service has been restored. Please reboot your Fibre router if your connection has not restored automatically.",
-              "created_by_id": 12,
-              "created_at": "2025-06-24 17:00:59"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
             }
           ],
           "suburbs": []
@@ -648,62 +640,6 @@
       ],
       "closed": [
         {
-          "id": 15823,
-          "title": "Frogfoot outage | George",
-          "description": "Frogfoot has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-06-24 02:19:03",
-          "should_notify": 0,
-          "created_at": "2025-06-23 13:43:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15823,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15825,
           "title": "Vumatel Outage | Honeydew Manor",
           "description": "Vumatel has informed us of a network outage affecting Honeydew Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -765,6 +701,70 @@
               "city_id": 35
             }
           ]
+        },
+        {
+          "id": 15828,
+          "title": "Evotel Outage | Rustenburg",
+          "description": "We are investigating reports of no connectivity affecting clients on the Evotel network in Rustenburg. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-06-25 10:30:30",
+          "should_notify": 0,
+          "created_at": "2025-06-24 11:21:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15828,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 987,
+              "notice_id": 15828,
+              "content": "Service has been restored. Please reboot your Fibre router if your connection has not restored automatically.",
+              "created_by_id": 12,
+              "created_at": "2025-06-24 17:00:59"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            }
+          ],
+          "cities": [
+            {
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 15829,
