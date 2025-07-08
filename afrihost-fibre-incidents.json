@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 15910,
+          "title": "LinkLayer outage | Tongaat",
+          "description": "LinkLayer has informed us of a network outage affecting Tongaat, affected clients will experience limited to no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-07-08 12:16:42",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15910,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 175,
+              "name": "Tongaat",
+              "slug": "tongaat",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15908,
           "title": "Evotel outage | Zinniaville",
           "description": "Evotel has informed us of a network outage affecting Zinniaville, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -822,6 +878,55 @@
               "province_id": 3
             }
           ],
+          "suburbs": []
+        },
+        {
+          "id": 15909,
+          "title": "Fibonacci Fibre maintenance | Gauteng",
+          "description": "Fibonacci Fibre is conducting maintenance in Gauteng on the 9th of July from 09:00 to the 11th of July at 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-07-08 12:15:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 35,
+              "name": "GAIA Fibonacci",
+              "slug": "fibonacci",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15909,
+                "category_id": 35
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [],
           "suburbs": []
         },
         {
