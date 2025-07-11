@@ -7,6 +7,55 @@
     "notices": {
       "open": [
         {
+          "id": 15923,
+          "title": "Unifybr fibre| Gauteng",
+          "description": "Unifybr fibre has informed us of a network outage affecting Gauteng, affected clients will experience limited to no connectivity. Unifybr fibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-07-11 21:22:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 40,
+              "name": "Unifybr",
+              "slug": "unifybr",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15923,
+                "category_id": 40
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
           "id": 15921,
           "title": "Openserve outage | Middelburg",
           "description": "Openserve has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -715,75 +764,6 @@
               "name": "Amberfield",
               "slug": "amberfield",
               "city_id": 43
-            }
-          ]
-        },
-        {
-          "id": 15896,
-          "title": "LinkLayer outage | Regency Park",
-          "description": "LinkLayer has informed us of a network outage affecting Regency Park, affected clients will experience no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-07-05 15:37:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15896,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 128,
-              "name": "Pinetown",
-              "slug": "pinetown",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3112,
-              "name": "Regency Park",
-              "slug": "regency-park",
-              "city_id": 128
-            },
-            {
-              "id": 1538,
-              "name": "Nagina",
-              "slug": "nagina",
-              "city_id": 128
             }
           ]
         },
