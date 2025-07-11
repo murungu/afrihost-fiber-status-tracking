@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 15921,
+          "title": "Openserve outage | Middelburg",
+          "description": "Openserve has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-07-11 07:47:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15921,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 690,
+              "name": "Middelburg",
+              "slug": "middelburg-1",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15919,
           "title": "Evotel outage | Ennerdale",
           "description": "Evotel has informed us of a network outage affecting Ennerdale, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -462,62 +518,6 @@
           "suburbs": []
         },
         {
-          "id": 15905,
-          "title": "Frogfoot Service Interruptions | George",
-          "description": "We’d like to inform our clients in George that we are aware some residents have experienced service interruptions recently. These are linked to civil infrastructure upgrades currently taking place across various parts of the area. These projects include road rehabilitation, expansions, and general upgrades. This can lead to temporary loss of internet services for affected households. We are actively monitoring the situation and working with municipality to restore any affected services as quickly as possible.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-07-08 08:57:33",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15905,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15904,
           "title": "GAIA Fibonacci Outage | Clayville",
           "description": "GAIA Fibonacci has informed us of a network outage affecting Clayville, affected clients will experience limited to no connectivity. GAIA Fibonacci engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -858,69 +858,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 15913,
-          "title": "Openserve maintenance | Blancheville",
-          "description": "Openserve is conducting maintenance in Blancheville on the 10th of July from 21:00 to the 11th of July at 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-07-09 10:37:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15913,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            }
-          ],
-          "cities": [
-            {
-              "id": 679,
-              "name": "Witbank",
-              "slug": "witbank",
-              "province_id": 9
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 518,
-              "name": "Blancheville",
-              "slug": "blancheville",
-              "city_id": 679
-            }
-          ]
         },
         {
           "id": 15909,
@@ -1894,125 +1831,6 @@
       ],
       "closed": [
         {
-          "id": 15897,
-          "title": "Frogfoot Outage | Franschhoek",
-          "description": "Frogfoot has informed us of a network outage affecting Franschhoek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-07-07 10:09:32",
-          "should_notify": 0,
-          "created_at": "2025-07-05 22:44:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15897,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 246,
-              "name": "Franschhoek",
-              "slug": "franschhoek",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 15898,
-          "title": "Vuma Reach Outage | Motherwell Zone 1",
-          "description": "Vuma Reach has informed us of a network outage affecting Motherwell Zone 1 , affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-07-09 14:49:13",
-          "should_notify": 0,
-          "created_at": "2025-07-06 21:57:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15898,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1223,
-              "name": "Motherwell",
-              "slug": "motherwell",
-              "city_id": 458
-            }
-          ]
-        },
-        {
           "id": 15899,
           "title": "Evotel outage | Witbank",
           "description": "Evotel has informed us of a network outage affecting Witbank, affected clients will experience no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2183,6 +2001,62 @@
               "name": "Ladysmith",
               "slug": "ladysmith",
               "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 15905,
+          "title": "Frogfoot Service Interruptions | George",
+          "description": "We’d like to inform our clients in George that we are aware some residents have experienced service interruptions recently. These are linked to civil infrastructure upgrades currently taking place across various parts of the area. These projects include road rehabilitation, expansions, and general upgrades. This can lead to temporary loss of internet services for affected households. We are actively monitoring the situation and working with municipality to restore any affected services as quickly as possible.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-07-11 07:48:04",
+          "should_notify": 0,
+          "created_at": "2025-07-08 08:57:33",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15905,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
             }
           ],
           "suburbs": []
@@ -2487,6 +2361,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 15913,
+          "title": "Openserve maintenance | Blancheville",
+          "description": "Openserve is conducting maintenance in Blancheville on the 10th of July from 21:00 to the 11th of July at 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2025-07-11 07:48:32",
+          "should_notify": 0,
+          "created_at": "2025-07-09 10:37:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15913,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 518,
+              "name": "Blancheville",
+              "slug": "blancheville",
+              "city_id": 679
+            }
+          ]
         }
       ]
     },
