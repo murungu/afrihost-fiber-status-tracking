@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 15965,
-          "title": "Frogfoot Outage | Cape Town",
-          "description": "We are investigating reports of no connectivity affecting clients on the Frogfoot network. We are working to identify and resolve this issue as quickly as possible. We apologize for any inconvenience this may cause.",
+          "id": 15966,
+          "title": "Frogfoot Outage | National Subset",
+          "description": "Frogfoot has informed us of a network outage affecting Soweto, Polokwane, King Williams Town, Wynberg, Noordhoek, Blue Downs, Kempton Park, Fish Hoek, Blouberg, Stellenbosch, Uitenhage, Paarl, Amanzimtoti, Rosebank and Port Elizabeth, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-07-21 19:01:10",
+          "created_at": "2025-07-21 19:15:08",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -39,7 +39,7 @@
               "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15965,
+                "notice_id": 15966,
                 "category_id": 7
               }
             }
@@ -47,17 +47,98 @@
           "updates": [],
           "provinces": [
             {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            },
+            {
               "id": 3,
               "name": "Western Cape",
               "slug": "western-cape"
+            },
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            },
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1
+            },
+            {
+              "id": 350,
+              "name": "Polokwane",
+              "slug": "polokwane",
+              "province_id": 4
+            },
+            {
+              "id": 522,
+              "name": "King Williams Town",
+              "slug": "king-williams-town",
+              "province_id": 6
+            },
+            {
+              "id": 263,
+              "name": "Noordhoek",
+              "slug": "noordhoek",
               "province_id": 3
+            },
+            {
+              "id": 284,
+              "name": "Blue Downs",
+              "slug": "blue-downs",
+              "province_id": 3
+            },
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            },
+            {
+              "id": 197,
+              "name": "Fish Hoek",
+              "slug": "fish-hoek",
+              "province_id": 3
+            },
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            },
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3
+            },
+            {
+              "id": 502,
+              "name": "Uitenhage",
+              "slug": "uitenhage",
+              "province_id": 6
+            },
+            {
+              "id": 264,
+              "name": "Paarl",
+              "slug": "paarl",
+              "province_id": 3
+            },
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
             }
           ],
           "suburbs": []
@@ -1241,62 +1322,6 @@
           "suburbs": []
         },
         {
-          "id": 15937,
-          "title": "Frogfoot Outage | Wellington",
-          "description": "Frogfoot has informed us of a network outage affecting Wellington, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-07-15 13:57:01",
-          "should_notify": 0,
-          "created_at": "2025-07-15 09:36:14",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15937,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 229,
-              "name": "Wellington",
-              "slug": "wellington",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15938,
           "title": "Vuma Reach outage | Thembisa and Kempton Park",
           "description": "Vuma Reach has informed us of a network outage affecting Thembisa and Kempton Park, affected clients will experience limited to no experience. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1783,6 +1808,62 @@
               "id": 270,
               "name": "Sedgefield",
               "slug": "sedgefield",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 15965,
+          "title": "Frogfoot Outage | Cape Town",
+          "description": "We are investigating reports of no connectivity affecting clients on the Frogfoot network. We are working to identify and resolve this issue as quickly as possible. We apologize for any inconvenience this may cause.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-07-21 19:15:20",
+          "should_notify": 0,
+          "created_at": "2025-07-21 19:01:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15965,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
               "province_id": 3
             }
           ],
