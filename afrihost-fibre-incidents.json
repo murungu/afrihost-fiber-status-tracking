@@ -7,6 +7,68 @@
     "notices": {
       "open": [
         {
+          "id": 15977,
+          "title": "Evotel Degraded Service | Welkom, Riebeekstad & Odendaalsrus",
+          "description": "Evotel has informed us of a network outage affecting Welkom, Riebeekstad & Odendaalsrus, affected clients will experience increased latency. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-07-23 08:02:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15977,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 594,
+              "name": "Welkom",
+              "slug": "welkom",
+              "province_id": 7
+            },
+            {
+              "id": 583,
+              "name": "Odendaalsrus",
+              "slug": "odendaalsrus",
+              "province_id": 7
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15976,
           "title": "Metrofibre Outage | Fountain Ridge",
           "description": "Metrofibre has informed us of a network outage affecting Fountain Ridge, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -545,62 +607,6 @@
           "suburbs": []
         },
         {
-          "id": 15952,
-          "title": "Link Layer Outage | Verulam",
-          "description": "Link Layer has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-07-20 15:27:53",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15952,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 98,
-              "name": "Verulam",
-              "slug": "verulam",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13572,
           "title": "Vumatel installation and maintenance problems | Khayelitsha & Delft",
           "description": "We would like to inform you about the challenges that we are currently experiencing with installation & maintenance activities in the Khayelitsha and Delft areas, Western Cape. Due to increased violence in this area, our contractor partners are not able to freely access the area to work. All maintenance and installation activities in this area will be on hold until further notice. The safety of our contractor partners remains our priority.",
@@ -968,16 +974,16 @@
           "suburbs": []
         },
         {
-          "id": 15951,
-          "title": "Metrofibre | Chasedene",
-          "description": "Metrofibre has informed us of a network outage affecting Chasedene, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 15952,
+          "title": "Link Layer Outage | Verulam",
+          "description": "Link Layer has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2025-07-22 08:21:05",
+          "resolved_at": "2025-07-23 08:04:22",
           "should_notify": 0,
-          "created_at": "2025-07-20 14:05:45",
+          "created_at": "2025-07-20 15:27:53",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -995,13 +1001,13 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
               "product_id": 2,
               "pivot": {
-                "notice_id": 15951,
-                "category_id": 9
+                "notice_id": 15952,
+                "category_id": 30
               }
             }
           ],
@@ -1015,20 +1021,13 @@
           ],
           "cities": [
             {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
+              "id": 98,
+              "name": "Verulam",
+              "slug": "verulam",
               "province_id": 2
             }
           ],
-          "suburbs": [
-            {
-              "id": 4249,
-              "name": "Chasedene",
-              "slug": "chasedene",
-              "city_id": 87
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 15954,
