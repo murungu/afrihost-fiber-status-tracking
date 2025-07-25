@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 15989,
+          "title": "Evotel outage | Welkom",
+          "description": "Evotel has informed us of a network outage affecting Welkom, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-07-25 10:21:01",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15989,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 594,
+              "name": "Welkom",
+              "slug": "welkom",
+              "province_id": 7
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 15988,
           "title": "FrogFoot outage | Kimberley",
           "description": "FrogFoot has informed us of a network outage affecting Kimberley, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -567,68 +623,6 @@
               "name": "Brakpan",
               "slug": "brakpan",
               "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 15977,
-          "title": "Evotel Degraded Service | Welkom, Riebeekstad & Odendaalsrus",
-          "description": "Evotel has informed us of a network outage affecting Welkom, Riebeekstad & Odendaalsrus, affected clients will experience increased latency. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-07-23 08:02:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15977,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 594,
-              "name": "Welkom",
-              "slug": "welkom",
-              "province_id": 7
-            },
-            {
-              "id": 583,
-              "name": "Odendaalsrus",
-              "slug": "odendaalsrus",
-              "province_id": 7
             }
           ],
           "suburbs": []
@@ -1588,62 +1582,6 @@
           "suburbs": []
         },
         {
-          "id": 15954,
-          "title": "Octotel Outage | Wellington",
-          "description": "Octotel has informed us of a network outage affecting Wellington, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-07-22 08:19:48",
-          "should_notify": 0,
-          "created_at": "2025-07-21 07:28:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 15954,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 229,
-              "name": "Wellington",
-              "slug": "wellington",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 15955,
           "title": "Frogfoot Outage | Bonaero Park & Pomona",
           "description": "Frogfoot has informed us of a network outage affecting Bonaero Park & Pomona, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2085,6 +2023,68 @@
               "name": "Louis Trichardt",
               "slug": "louis-trichardt",
               "province_id": 4
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 15977,
+          "title": "Evotel Degraded Service | Welkom, Riebeekstad & Odendaalsrus",
+          "description": "Evotel has informed us of a network outage affecting Welkom, Riebeekstad & Odendaalsrus, affected clients will experience increased latency. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-07-25 10:19:53",
+          "should_notify": 0,
+          "created_at": "2025-07-23 08:02:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 15977,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 594,
+              "name": "Welkom",
+              "slug": "welkom",
+              "province_id": 7
+            },
+            {
+              "id": 583,
+              "name": "Odendaalsrus",
+              "slug": "odendaalsrus",
+              "province_id": 7
             }
           ],
           "suburbs": []
