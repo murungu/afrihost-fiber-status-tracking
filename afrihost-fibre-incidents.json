@@ -406,16 +406,16 @@
           "suburbs": []
         },
         {
-          "id": 16084,
-          "title": "Afrihost Outage",
-          "description": "We are investigating reports of no connectivity affecting clients on the Afrihost network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "id": 16086,
+          "title": "Metrofibre outage | The Reeds",
+          "description": "Metrofibre has informed us of a network outage affecting The Reeds, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-08-18 08:07:37",
+          "created_at": "2025-08-18 11:45:56",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -433,55 +433,17 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16084,
-                "category_id": 7
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16084,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16084,
-                "category_id": 24
-              }
-            },
-            {
               "id": 9,
               "name": "MetroFibre",
               "slug": "metrofibre",
               "product_id": 2,
               "pivot": {
-                "notice_id": 16084,
+                "notice_id": 16086,
                 "category_id": 9
               }
             }
           ],
-          "updates": [
-            {
-              "id": 995,
-              "notice_id": 16084,
-              "content": "Please be advised that this outage is affecting parts of the Western Cape and KwaZulu-Natal. We sincerely apologize for any inconvenience caused.",
-              "created_by_id": 24,
-              "created_at": "2025-08-18 09:59:49"
-            }
-          ],
+          "updates": [],
           "provinces": [
             {
               "id": 1,
@@ -489,8 +451,22 @@
               "slug": "gauteng"
             }
           ],
-          "cities": [],
-          "suburbs": []
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 192,
+              "name": "The Reeds",
+              "slug": "the-reeds",
+              "city_id": 43
+            }
+          ]
         },
         {
           "id": 16083,
@@ -1649,16 +1625,16 @@
           "suburbs": []
         },
         {
-          "id": 16065,
-          "title": "Evotel Outage | Vryheid",
-          "description": "Evotel has informed us of degraded speed affecting Vryheid, affected clients will experience degraded service. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "All services have been restored. Thank you for your patience.",
+          "id": 16084,
+          "title": "Afrihost Outage",
+          "description": "We are investigating reports of no connectivity affecting clients on the Afrihost network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2025-08-13 13:32:44",
+          "resolved_at": "2025-08-18 11:45:19",
           "should_notify": 0,
-          "created_at": "2025-08-12 17:10:18",
+          "created_at": "2025-08-18 08:07:37",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1668,40 +1644,71 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "pivot": {
-                "notice_id": 16065,
-                "category_id": 6
+                "notice_id": 16084,
+                "category_id": 7
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16084,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16084,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16084,
+                "category_id": 9
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 995,
+              "notice_id": 16084,
+              "content": "Please be advised that this outage is affecting parts of the Western Cape and KwaZulu-Natal. We sincerely apologize for any inconvenience caused.",
+              "created_by_id": 24,
+              "created_at": "2025-08-18 09:59:49"
+            }
+          ],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
-          "cities": [
-            {
-              "id": 139,
-              "name": "Vryheid",
-              "slug": "vryheid",
-              "province_id": 2
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
