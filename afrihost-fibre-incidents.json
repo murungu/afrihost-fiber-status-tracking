@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 16179,
-          "title": "Metrofibre outage | New Redruth",
-          "description": "Metrofibre has informed us of a network outage affecting New Redruth, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 16180,
+          "title": "TT Connect outage | Benoni and Boksburg",
+          "description": "TT Connect has informed us of a network outage affecting Benoni and Boksburg, affected clients will experience limited to no connectivity. TT Connect engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-09-04 14:15:20",
+          "created_at": "2025-09-05 07:24:48",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,13 +34,13 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
               "product_id": 2,
               "pivot": {
-                "notice_id": 16179,
-                "category_id": 9
+                "notice_id": 16180,
+                "category_id": 17
               }
             }
           ],
@@ -54,20 +54,19 @@
           ],
           "cities": [
             {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1
+            },
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
               "province_id": 1
             }
           ],
-          "suburbs": [
-            {
-              "id": 106,
-              "name": "New Redruth",
-              "slug": "new-redruth",
-              "city_id": 21
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 16178,
@@ -1323,69 +1322,6 @@
       ],
       "closed": [
         {
-          "id": 16161,
-          "title": "MetroFibre Outage | Pretoria North",
-          "description": "Metrofibre has informed us of a network outage affecting Pretoria North. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-09-02 08:56:19",
-          "should_notify": 0,
-          "created_at": "2025-09-02 08:54:32",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16161,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 13,
-              "name": "Pretoria North",
-              "slug": "pretoria-north",
-              "city_id": 33
-            }
-          ]
-        },
-        {
           "id": 16162,
           "title": "Evotel outage | Lenasia and Ennerdale",
           "description": "Evotel has informed us of a network outage affecting Lenasia and Ennerdale, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1753,6 +1689,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 16179,
+          "title": "Metrofibre outage | New Redruth",
+          "description": "Metrofibre has informed us of a network outage affecting New Redruth, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-09-05 07:23:52",
+          "should_notify": 0,
+          "created_at": "2025-09-04 14:15:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16179,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 106,
+              "name": "New Redruth",
+              "slug": "new-redruth",
+              "city_id": 21
+            }
+          ]
         },
         {
           "id": 16171,
