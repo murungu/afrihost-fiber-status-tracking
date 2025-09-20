@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 16255,
+          "title": "FibreSuburb outage | South Hills",
+          "description": "FibreSuburb has informed us of a network outage affecting South Hills, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-09-20 08:23:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16255,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1277,
+              "name": "South Hills",
+              "slug": "south-hills",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 16254,
           "title": "Evotel Outage | Odendaalsrus, Riebeekstad & Welkom",
           "description": "Evotel has informed us of a network outage affecting Odendaalsrus, Riebeekstad & Welkom, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -193,68 +256,6 @@
               "city_id": 68
             }
           ]
-        },
-        {
-          "id": 16244,
-          "title": "LinkLayer outage | Mount Edgecombe",
-          "description": "LinkLayer has informed us of a network outage affecting Mount Edgecombe, affected clients will experience limited to no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-09-18 16:05:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16244,
-                "category_id": 30
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 83,
-              "name": "Mount Edgecombe",
-              "slug": "mount-edgecombe",
-              "province_id": 2
-            },
-            {
-              "id": 95,
-              "name": "Umhlanga",
-              "slug": "umhlanga",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 16243,
@@ -965,6 +966,68 @@
           "suburbs": []
         },
         {
+          "id": 16244,
+          "title": "LinkLayer outage | Mount Edgecombe",
+          "description": "LinkLayer has informed us of a network outage affecting Mount Edgecombe, affected clients will experience limited to no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-09-20 08:24:14",
+          "should_notify": 0,
+          "created_at": "2025-09-18 16:05:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16244,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 83,
+              "name": "Mount Edgecombe",
+              "slug": "mount-edgecombe",
+              "province_id": 2
+            },
+            {
+              "id": 95,
+              "name": "Umhlanga",
+              "slug": "umhlanga",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 16245,
           "title": "Frogfoot Outage | Beyers Park",
           "description": "Frogfoot has informed us of a network outage affecting Beyers Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1320,62 +1383,6 @@
               "city_id": 240
             }
           ]
-        },
-        {
-          "id": 16239,
-          "title": "Openserve maintenance | Randburg",
-          "description": "Openserve is conducting maintenance in Randburg, on the 18th of September from 15:00 to 21:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": "2025-09-19 16:59:36",
-          "should_notify": 0,
-          "created_at": "2025-09-18 09:27:04",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16239,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         }
       ]
     },
