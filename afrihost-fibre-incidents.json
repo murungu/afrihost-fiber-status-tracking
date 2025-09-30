@@ -7,6 +7,142 @@
     "notices": {
       "open": [
         {
+          "id": 16297,
+          "title": "Vumatel| Maroeladal SP",
+          "description": "Vumatel has informed us of a network outage affecting Maroeladal SP, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-09-30 12:31:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16297,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16297,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1371,
+              "name": "Maroeladal",
+              "slug": "maroeladal",
+              "city_id": 53
+            }
+          ]
+        },
+        {
+          "id": 16295,
+          "title": "Metrofibre| Broadacres",
+          "description": "Metrofibre has informed us of a network outage affecting Broadacres, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-09-30 12:12:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16295,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 16294,
           "title": "Frogfoot| Mansfield",
           "description": "Frogfoot has informed us of a network outage affecting Mansfield, Gbayeast node, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -107,7 +243,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1009,
+              "notice_id": 16293,
+              "content": "The Vumatel team is done trenching, exposing ducts, and planting manhole, currently sizing slack to prepare cables for splicing",
+              "created_by_id": 12,
+              "created_at": "2025-09-30 12:18:58"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -131,62 +275,6 @@
               "city_id": 2
             }
           ]
-        },
-        {
-          "id": 16291,
-          "title": "Octotel| West Coast",
-          "description": "Octotel has informed us of a network outage affecting Atlantis aggregation node, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-09-30 06:56:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16291,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 233,
-              "name": "Atlantis",
-              "slug": "atlantis",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 16290,
@@ -252,69 +340,6 @@
           ]
         },
         {
-          "id": 16289,
-          "title": "Metrofibre outage | Rustdene",
-          "description": "Metrofibre has informed us of a network outage affecting Rustdene. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-09-29 16:31:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16289,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 282,
-              "name": "Beaufort West",
-              "slug": "beaufort-west",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5606,
-              "name": "Rustdene",
-              "slug": "rustdene",
-              "city_id": 282
-            }
-          ]
-        },
-        {
           "id": 16285,
           "title": "Evotel outage | Krugersdorp",
           "description": "Evotel has informed us of a network outage affecting Krugersdorp. Affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -352,7 +377,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1008,
+              "notice_id": 16285,
+              "content": "Evotel Technicians are still splicing the cables in an effort to restore service to the community.",
+              "created_by_id": 12,
+              "created_at": "2025-09-30 12:13:27"
+            }
+          ],
           "provinces": [
             {
               "id": 1,
@@ -490,62 +523,6 @@
           "suburbs": []
         },
         {
-          "id": 16272,
-          "title": "Openserve outage | Queensburgh",
-          "description": "Openserve has informed us of a network outage affecting Queensburgh. Affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-09-26 08:26:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16272,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 89,
-              "name": "Queensburgh",
-              "slug": "queensburgh",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 13572,
           "title": "Vumatel installation and maintenance problems | Khayelitsha & Delft",
           "description": "We would like to inform you about the challenges that we are currently experiencing with installation & maintenance activities in the Khayelitsha and Delft areas, Western Cape. Due to increased violence in this area, our contractor partners are not able to freely access the area to work. All maintenance and installation activities in this area will be on hold until further notice. The safety of our contractor partners remains our priority.",
@@ -624,6 +601,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 16296,
+          "title": "Metrofibre| The Paddocks, Broadacres.",
+          "description": "Metrofibre is conducting maintenance in The Paddocks, Broadacres from 06th October 2025 at 08:00 to Wednesday, 08th October 2025 at 17:00 GMT +2 daily. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-09-30 12:17:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16296,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5744,
+              "name": "The Paddocks",
+              "slug": "the-paddocks",
+              "city_id": 16
+            }
+          ]
         },
         {
           "id": 16292,
@@ -872,125 +912,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 16275,
-          "title": "Metrofibre outage | Ballito",
-          "description": "Metrofibre has informed us of a network outage affecting Ballito. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-09-26 16:13:12",
-          "should_notify": 0,
-          "created_at": "2025-09-26 13:36:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16275,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 102,
-              "name": "Ballito",
-              "slug": "ballito",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 16276,
-          "title": "Metrofibre outage | Kyalami Estate, Kyalami",
-          "description": "Metrofibre has informed us of a network outage affecting Kyalami Estate, Kyalami. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-09-27 07:26:15",
-          "should_notify": 0,
-          "created_at": "2025-09-26 14:00:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16276,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 748,
-              "name": "Kyalami Estates",
-              "slug": "kyalami-estates",
-              "city_id": 50
-            }
-          ]
-        },
         {
           "id": 16277,
           "title": "Metrofibre outage | Lowndes Gate",
@@ -1480,6 +1401,125 @@
               "name": "Tembisa",
               "slug": "tembisa",
               "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 16289,
+          "title": "Metrofibre outage | Rustdene",
+          "description": "Metrofibre has informed us of a network outage affecting Rustdene. Affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Please note that the fibre services in Rustdene SP - FSH, Rustdene, Beaufort West have been restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-09-30 12:25:50",
+          "should_notify": 0,
+          "created_at": "2025-09-29 16:31:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16289,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 282,
+              "name": "Beaufort West",
+              "slug": "beaufort-west",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5606,
+              "name": "Rustdene",
+              "slug": "rustdene",
+              "city_id": 282
+            }
+          ]
+        },
+        {
+          "id": 16291,
+          "title": "Octotel| West Coast",
+          "description": "Octotel has informed us of a network outage affecting Atlantis aggregation node, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "issue with the backup power system. A temporary fix has been implemented, and services in Atlantis have now been restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-09-30 12:14:41",
+          "should_notify": 0,
+          "created_at": "2025-09-30 06:56:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16291,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 233,
+              "name": "Atlantis",
+              "slug": "atlantis",
+              "province_id": 3
             }
           ],
           "suburbs": []
