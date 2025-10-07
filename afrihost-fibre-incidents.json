@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 16331,
+          "title": "Vumatel Outage | Glen Hills",
+          "description": "Vumatel has informed us of a network outage affecting Glen Hills, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-10-07 09:16:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16331,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 109,
+              "name": "Durban North",
+              "slug": "durban-north",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 950,
+              "name": "Glen Hills",
+              "slug": "glen-hills",
+              "city_id": 109
+            }
+          ]
+        },
+        {
           "id": 16329,
           "title": "Octotel Outage | George",
           "description": "Octotel has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -856,6 +919,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 16332,
+          "title": "Metrofibre Maintenance | Rietvalleirand",
+          "description": "Metrofibre is conducting maintenance in Rietvalleirand on the 13/10/2025 to 22/10/2025 from 07:00 to 16:00 daily, users affected will experience limited to no connectivity for a short period during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-10-07 09:24:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16332,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 412,
+              "name": "Rietvalleirand",
+              "slug": "rietvalleirand",
+              "city_id": 33
+            }
+          ]
         },
         {
           "id": 16330,
