@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 16389,
+          "title": "Octotel| Wellington",
+          "description": "Octotel has informed us of a network outage affecting Wellington, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-10-17 15:23:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16389,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 229,
+              "name": "Wellington",
+              "slug": "wellington",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 16388,
           "title": "LinkLayer| Nagina",
           "description": "LinkLayer has informed us of a network outage affecting Nagina, affected clients will experience limited to no connectivity. LinkLayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -66,69 +122,6 @@
               "name": "Nagina",
               "slug": "nagina",
               "city_id": 128
-            }
-          ]
-        },
-        {
-          "id": 16386,
-          "title": "FibreSuburb| Southdowns Estate",
-          "description": "FibreSuburb has informed us of a network outage affecting Southdowns Estate, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-10-17 10:39:22",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16386,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 700,
-              "name": "Southdowns Estate",
-              "slug": "southdowns-estate",
-              "city_id": 43
             }
           ]
         },
@@ -652,6 +645,69 @@
           ]
         },
         {
+          "id": 16390,
+          "title": "Metrofibre| Eden Sandton, Edenburg",
+          "description": "Metrofibre is conducting maintenance in Eden Sandton, Edenburg on Thursday, 16th October 2025, at 08:00 to Wednesday, 29th October 202,5, at 17:00 GMT +2 daily. Users affected will experience limited to no connectivity for a short period during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-10-17 15:31:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16390,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 770,
+              "name": "Edenburg",
+              "slug": "edenburg",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 16332,
           "title": "Metrofibre Maintenance | Rietvalleirand",
           "description": "Metrofibre is conducting maintenance in Rietvalleirand on the 13/10/2025 to 22/10/2025 from 07:00 to 16:00 daily, users affected will experience limited to no connectivity for a short period during the maintenance window. We apologize for any inconvenience caused.",
@@ -779,69 +835,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 16370,
-          "title": "Metrofibre Outage | Prelude",
-          "description": "Metrofibre has informed us of a network outage affecting Prelude, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Please note that the fibre services in Prelude - Noordwyk, Midrand have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-10-16 09:08:58",
-          "should_notify": 0,
-          "created_at": "2025-10-14 15:38:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16370,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 210,
-              "name": "Noordwyk",
-              "slug": "noordwyk",
-              "city_id": 50
-            }
-          ]
-        },
         {
           "id": 16372,
           "title": "Metrofibre Outage | Rietvalleirand",
@@ -1324,6 +1317,69 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 16386,
+          "title": "FibreSuburb| Southdowns Estate",
+          "description": "FibreSuburb has informed us of a network outage affecting Southdowns Estate, affected clients will experience limited to no connectivity. FibreSuburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-10-17 15:24:00",
+          "should_notify": 0,
+          "created_at": "2025-10-17 10:39:22",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16386,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 700,
+              "name": "Southdowns Estate",
+              "slug": "southdowns-estate",
+              "city_id": 43
+            }
+          ]
         },
         {
           "id": 16383,
