@@ -7,6 +7,62 @@
     "notices": {
       "open": [
         {
+          "id": 16414,
+          "title": "Frogfoot Outage | Kimberley",
+          "description": "Frogfoot has informed us of a network outage affecting Kimberley, affected clients will experience {Symptoms/impact}. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-10-22 12:33:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16414,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 375,
+              "name": "Kimberley",
+              "slug": "kimberley",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 16412,
           "title": "Metrofibre Outage | Modderfontein",
           "description": "Metrofibre has informed us of a network outage affecting Modderfontein, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -872,6 +928,62 @@
               "name": "Delft",
               "slug": "delft",
               "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 16413,
+          "title": "Evotel Maintenance | Odendaalsrus",
+          "description": "Evotel is conducting maintenance in Odendaalsrus on October 24 2025 from 14:00 to 20:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-10-22 12:30:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16413,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 583,
+              "name": "Odendaalsrus",
+              "slug": "odendaalsrus",
+              "province_id": 7
             }
           ],
           "suburbs": []
