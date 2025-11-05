@@ -7,6 +7,69 @@
     "notices": {
       "open": [
         {
+          "id": 16472,
+          "title": "Octotel outage I Athlone",
+          "description": "Octotel has informed us of a network outage affecting Athlone, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-11-05 16:52:32",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16472,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1439,
+              "name": "Athlone",
+              "slug": "athlone",
+              "city_id": 240
+            }
+          ]
+        },
+        {
           "id": 16471,
           "title": "FrogFoot Outage | Lephalale",
           "description": "Frogfoot has informed us of a network outage affecting Lephalale, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -248,69 +311,6 @@
               "name": "Stellenbosch Central",
               "slug": "stellenbosch-central",
               "city_id": 223
-            }
-          ]
-        },
-        {
-          "id": 16467,
-          "title": "Octotel outage I Ruyterwacht",
-          "description": "Octotel has informed us of a network outage affecting Ruyterwacht , affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-11-05 08:09:49",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16467,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 295,
-              "name": "Goodwood",
-              "slug": "goodwood",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2124,
-              "name": "Ruyterwacht",
-              "slug": "ruyterwacht",
-              "city_id": 295
             }
           ]
         },
@@ -595,60 +595,6 @@
           "suburbs": []
         },
         {
-          "id": 16466,
-          "title": "GAIA Fibonacci Fibre | KZN & GAU",
-          "description": "GAIA Fibonacci Fibre is conducting maintenance from 23:59 on Tuesday, 4 November 2025 to 07:00 on Wednesday, 5 November 2025.. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-11-05 05:46:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16466,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 16407,
           "title": "Metrofibre Maintenance | Rietvalleirand",
           "description": "Metrofibre is conducting maintenance in Rietvalleirand on the 3rd November 2025 from 23:00 to 05:00 on 4th November 2025, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -916,139 +862,6 @@
               "city_id": 33
             }
           ]
-        },
-        {
-          "id": 16450,
-          "title": "Vumatel Villages Outage | Westville",
-          "description": "We are investigating reports of limited to no connectivity affecting clients on the Vumatel Villages network in Westville. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-11-01 09:07:46",
-          "should_notify": 0,
-          "created_at": "2025-10-31 07:58:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16450,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 140,
-              "name": "Westville",
-              "slug": "westville",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 16452,
-          "title": "Frogfoot | Intermittency & Packet Loss | Northern Region",
-          "description": "We are investigating reports of packet loss and intermittency affecting clients on the Frogfoot network in the northern provinces.. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-11-01 09:06:02",
-          "should_notify": 0,
-          "created_at": "2025-10-31 11:28:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16452,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1019,
-              "notice_id": 16452,
-              "content": "Frogfoot & Afrihost engineers have implemented a network change to restore full service and resolve issues of packet loss and intermittency. We are currently monitoring for stability.",
-              "created_by_id": 12,
-              "created_at": "2025-10-31 14:11:23"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            },
-            {
-              "id": 9,
-              "name": "Mpumalanga",
-              "slug": "mpumalanga"
-            },
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         },
         {
           "id": 16453,
@@ -1358,6 +1171,69 @@
           "suburbs": []
         },
         {
+          "id": 16467,
+          "title": "Octotel outage I Ruyterwacht",
+          "description": "Octotel has informed us of a network outage affecting Ruyterwacht , affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-11-05 16:53:24",
+          "should_notify": 0,
+          "created_at": "2025-11-05 08:09:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16467,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 295,
+              "name": "Goodwood",
+              "slug": "goodwood",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2124,
+              "name": "Ruyterwacht",
+              "slug": "ruyterwacht",
+              "city_id": 295
+            }
+          ]
+        },
+        {
           "id": 16465,
           "title": "Frogfoot Maintenance",
           "description": "We will be is conducting maintenance in the Northern region on 05 November 04:00 am to 06:00. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1421,6 +1297,60 @@
               "id": 7,
               "name": "Free State",
               "slug": "free-state"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 16466,
+          "title": "GAIA Fibonacci Fibre | KZN & GAU",
+          "description": "GAIA Fibonacci Fibre is conducting maintenance from 23:59 on Tuesday, 4 November 2025 to 07:00 on Wednesday, 5 November 2025.. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2025-11-05 16:53:47",
+          "should_notify": 0,
+          "created_at": "2025-11-05 05:46:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16466,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            },
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [],
