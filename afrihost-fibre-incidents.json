@@ -374,55 +374,6 @@
           "suburbs": []
         },
         {
-          "id": 16590,
-          "title": "TT Connect maintenance | Benoni, Boksburg & Lakefield",
-          "description": "TT Connect is conducting maintenance in Benoni, Boksburg & Lakefield on the 27th of November from 23:00 to the 28th of November at 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-11-25 10:20:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16590,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 16589,
           "title": "Vumatel maintenance | Honeydew Ridge",
           "description": "Vumatel is conducting maintenance in Honeydew Ridge on the 24th of November from 09:00 to the 27th of November at 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1110,55 +1061,6 @@
       ],
       "closed": [
         {
-          "id": 16563,
-          "title": "Octotel outage | Strand & Eden District Degraded",
-          "description": "Octotel has informed us of a network outage affecting Strand & Eden District, affected clients will experience degraded connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-11-23 05:29:11",
-          "should_notify": 0,
-          "created_at": "2025-11-20 15:32:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "pivot": {
-                "notice_id": 16563,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 16564,
           "title": "MetroFibre outage | Beaufort West",
           "description": "MetroFibre has informed us of a network outage affecting Beaufort West, affected clients will experience no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1682,6 +1584,63 @@
               "city_id": 477
             }
           ]
+        },
+        {
+          "id": 16590,
+          "title": "TT Connect maintenance | Benoni, Boksburg & Lakefield",
+          "description": "TT Connect is conducting maintenance in Benoni, Boksburg & Lakefield on the 27th of November from 23:00 to the 28th of November at 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2025-11-25 11:02:04",
+          "should_notify": 0,
+          "created_at": "2025-11-25 10:20:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 17,
+              "name": "TT Connect",
+              "slug": "tt-connect",
+              "product_id": 2,
+              "pivot": {
+                "notice_id": 16590,
+                "category_id": 17
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 1031,
+              "notice_id": 16590,
+              "content": "Maintenance rescheduled.",
+              "created_by_id": 30,
+              "created_at": "2025-11-25 11:02:01"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
         }
       ]
     },
