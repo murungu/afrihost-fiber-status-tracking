@@ -7,7 +7,7 @@
     "notices": {
       "open": [
         {
-          "id": 16635,
+          "id": 16636,
           "title": "Octotel| Kensington, Blouberg, Melkbos, Ruyterwacht",
           "description": "Octotel has informed us of a network outage affecting Kensington, Blouberg, Melkbos, Ruyterwacht, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
@@ -16,7 +16,7 @@
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-12-05 14:44:52",
+          "created_at": "2025-12-05 16:19:35",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -40,25 +40,18 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 16635,
+                "notice_id": 16636,
                 "category_id": 12
               }
             }
           ],
           "updates": [
             {
-              "id": 1034,
-              "notice_id": 16635,
-              "content": "Technicians are onsite and conducting investigations.",
+              "id": 1035,
+              "notice_id": 16636,
+              "content": "Technicians have identified a disconnect ~5.6km from site and are en route to localise.\n\nNo ETR is available as yet",
               "created_by_id": 12,
-              "created_at": "2025-12-05 15:46:41"
-            },
-            {
-              "id": 1033,
-              "notice_id": 16635,
-              "content": "Technicians are en route to site to investigate.",
-              "created_by_id": 12,
-              "created_at": "2025-12-05 15:10:46"
+              "created_at": "2025-12-05 16:19:58"
             }
           ],
           "provinces": [
@@ -70,6 +63,12 @@
           ],
           "cities": [
             {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            },
+            {
               "id": 236,
               "name": "Blouberg",
               "slug": "blouberg",
@@ -79,12 +78,6 @@
               "id": 211,
               "name": "Melkbosstrand",
               "slug": "melkbosstrand",
-              "province_id": 3
-            },
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
               "province_id": 3
             }
           ],
@@ -1933,69 +1926,6 @@
       ],
       "closed": [
         {
-          "id": 16600,
-          "title": "FrogFoot outage | Kempton Park and Benoni",
-          "description": "FrogFoot has informed us of a network outage affecting Kempton Park and Benoni, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-12-01 08:54:24",
-          "should_notify": 0,
-          "created_at": "2025-11-29 07:12:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16600,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            },
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 16601,
           "title": "Evotel outage | Middelburg",
           "description": "Evotel has informed us of a network outage affecting Middelburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2553,6 +2483,90 @@
               "city_id": 53
             }
           ]
+        },
+        {
+          "id": 16635,
+          "title": "Octotel| Kensington, Blouberg, Melkbos, Ruyterwacht",
+          "description": "Octotel has informed us of a network outage affecting Kensington, Blouberg, Melkbos, Ruyterwacht, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Technicians have identified a disconnect ~5.6km from the site and are en route to localise.\n\nNo ETR is available as yet",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-12-05 16:18:08",
+          "should_notify": 0,
+          "created_at": "2025-12-05 14:44:52",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16635,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 1034,
+              "notice_id": 16635,
+              "content": "Technicians are onsite and conducting investigations.",
+              "created_by_id": 12,
+              "created_at": "2025-12-05 15:46:41"
+            },
+            {
+              "id": 1033,
+              "notice_id": 16635,
+              "content": "Technicians are en route to site to investigate.",
+              "created_by_id": 12,
+              "created_at": "2025-12-05 15:10:46"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            },
+            {
+              "id": 211,
+              "name": "Melkbosstrand",
+              "slug": "melkbosstrand",
+              "province_id": 3
+            },
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
