@@ -7,6 +7,97 @@
     "notices": {
       "open": [
         {
+          "id": 16636,
+          "title": "Octotel| Kensington, Blouberg, Melkbos, Ruyterwacht",
+          "description": "Octotel has informed us of a network outage affecting Kensington, Blouberg, Melkbos, Ruyterwacht, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 4,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-12-05 16:19:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16636,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 1037,
+              "notice_id": 16636,
+              "content": "Technicians were unsuccessful in localising the fault. The team is currently en route to float a new cable.",
+              "created_by_id": 30,
+              "created_at": "2025-12-05 18:59:57"
+            },
+            {
+              "id": 1036,
+              "notice_id": 16636,
+              "content": "Technicians continue to work on localising the fault.\n\nNo ETR is available as yet",
+              "created_by_id": 12,
+              "created_at": "2025-12-05 17:11:01"
+            },
+            {
+              "id": 1035,
+              "notice_id": 16636,
+              "content": "Technicians have identified a disconnect ~5.6km from site and are en route to localise.\n\nNo ETR is available as yet",
+              "created_by_id": 12,
+              "created_at": "2025-12-05 16:19:58"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            },
+            {
+              "id": 236,
+              "name": "Blouberg",
+              "slug": "blouberg",
+              "province_id": 3
+            },
+            {
+              "id": 211,
+              "name": "Melkbosstrand",
+              "slug": "melkbosstrand",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 16637,
           "title": "Netstream| Rivonia & Midrand",
           "description": "Netstream has informed us of a network outage affecting Via Positano, Kirstenbosch. Affected clients will experience no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -75,90 +166,6 @@
               "city_id": 16
             }
           ]
-        },
-        {
-          "id": 16636,
-          "title": "Octotel| Kensington, Blouberg, Melkbos, Ruyterwacht",
-          "description": "Octotel has informed us of a network outage affecting Kensington, Blouberg, Melkbos, Ruyterwacht, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-12-05 16:19:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16636,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1036,
-              "notice_id": 16636,
-              "content": "Technicians continue to work on localising the fault.\n\nNo ETR is available as yet",
-              "created_by_id": 12,
-              "created_at": "2025-12-05 17:11:01"
-            },
-            {
-              "id": 1035,
-              "notice_id": 16636,
-              "content": "Technicians have identified a disconnect ~5.6km from site and are en route to localise.\n\nNo ETR is available as yet",
-              "created_by_id": 12,
-              "created_at": "2025-12-05 16:19:58"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            },
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3
-            },
-            {
-              "id": 211,
-              "name": "Melkbosstrand",
-              "slug": "melkbosstrand",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 16634,
@@ -1865,11 +1872,11 @@
       ]
     },
     "impact": {
-      "id": 3,
-      "name": "Medium Impact",
-      "slug": "medium-impact",
-      "description": "A few problems",
-      "order": 2
+      "id": 4,
+      "name": "High Impact",
+      "slug": "high-impact",
+      "description": "Severe problems",
+      "order": 3
     }
   }
 ]
