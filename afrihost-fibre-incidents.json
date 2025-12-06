@@ -105,16 +105,16 @@
           "suburbs": []
         },
         {
-          "id": 16637,
-          "title": "Netstream| Rivonia & Midrand",
-          "description": "Netstream has informed us of a network outage affecting Via Positano, Kirstenbosch. Affected clients will experience no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 16638,
+          "title": "Metrofibre| Sandfields",
+          "description": "Metrofibre has informed us of a network outage affecting Sandfields. Affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2025-12-05 17:08:03",
+          "created_at": "2025-12-06 07:39:05",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -132,45 +132,39 @@
           },
           "categories": [
             {
-              "id": 11,
-              "name": "Netstream",
-              "slug": "netstream",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 16637,
-                "category_id": 11
+                "notice_id": 16638,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            },
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
+              "id": 175,
+              "name": "Tongaat",
+              "slug": "tongaat",
+              "province_id": 2
             }
           ],
           "suburbs": [
             {
-              "id": 63,
-              "name": "Rivonia",
-              "slug": "rivonia",
-              "city_id": 16
+              "id": 2586,
+              "name": "Sandfield",
+              "slug": "sandfield",
+              "city_id": 175
             }
           ]
         },
@@ -1820,16 +1814,16 @@
           "suburbs": []
         },
         {
-          "id": 16611,
-          "title": "Vuma Reach maintenance | Katlehong",
-          "description": "Vuma Reach is conducting maintenance in Katlehong on the 3rd of December from 03:00 to 05:00 users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 16637,
+          "title": "Netstream| Rivonia & Midrand",
+          "description": "Netstream has informed us of a network outage affecting Via Positano, Kirstenbosch. Affected clients will experience no connectivity. Netstream engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 1,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2025-12-05 17:09:55",
+          "resolved_at": "2025-12-06 07:37:29",
           "should_notify": 0,
-          "created_at": "2025-12-02 17:08:49",
+          "created_at": "2025-12-05 17:08:03",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1839,22 +1833,22 @@
             "has_location": 1
           },
           "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
+              "id": 11,
+              "name": "Netstream",
+              "slug": "netstream",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 16611,
-                "category_id": 27
+                "notice_id": 16637,
+                "category_id": 11
               }
             }
           ],
@@ -1868,13 +1862,26 @@
           ],
           "cities": [
             {
-              "id": 28,
-              "name": "Katlehong",
-              "slug": "katlehong",
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            },
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
               "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 63,
+              "name": "Rivonia",
+              "slug": "rivonia",
+              "city_id": 16
+            }
+          ]
         }
       ]
     },
