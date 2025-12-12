@@ -980,70 +980,6 @@
           "suburbs": []
         },
         {
-          "id": 16656,
-          "title": "FrogFoot outage | Broadacres",
-          "description": "FrogFoot has informed us of a network outage affecting Broadacres, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-12-08 20:16:31",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16656,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 81,
-              "name": "Broadacres",
-              "slug": "broadacres",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 16650,
           "title": "Vumatel Reach Outage | Eersterust Zone 1",
           "description": "Vumatel Reach has informed us of a network outage affecting Eersterust Zone 1, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1388,84 +1324,6 @@
       ],
       "closed": [
         {
-          "id": 16646,
-          "title": "Evotel Outage | Dagbreek & Reitzpark",
-          "description": "Evotel has informed us of a network outage affecting Dagbreek & Reitzpark, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-12-09 10:50:53",
-          "should_notify": 0,
-          "created_at": "2025-12-07 16:57:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16646,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1039,
-              "notice_id": 16646,
-              "content": "Evotel technicians are is still on-site and focused on restoring service to the remaining affected clients.",
-              "created_by_id": 12,
-              "created_at": "2025-12-08 10:12:34"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 594,
-              "name": "Welkom",
-              "slug": "welkom",
-              "province_id": 7
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 890,
-              "name": "Dagbreek",
-              "slug": "dagbreek",
-              "city_id": 594
-            },
-            {
-              "id": 3113,
-              "name": "Reitzpark",
-              "slug": "reitzpark",
-              "city_id": 594
-            }
-          ]
-        },
-        {
           "id": 16647,
           "title": "Metrofibre outage | Farmall",
           "description": "Metrofibre has informed us of a network outage affecting Farmall , affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1806,6 +1664,70 @@
               "deleted_at": null,
               "pivot": {
                 "notice_id": 16655,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16
+            }
+          ]
+        },
+        {
+          "id": 16656,
+          "title": "FrogFoot outage | Broadacres",
+          "description": "FrogFoot has informed us of a network outage affecting Broadacres, affected clients will experience limited to no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-12-12 06:53:19",
+          "should_notify": 0,
+          "created_at": "2025-12-08 20:16:31",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16656,
                 "category_id": 7
               }
             }
