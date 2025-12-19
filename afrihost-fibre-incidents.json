@@ -1149,6 +1149,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 16700,
+          "title": "LinkLayer| Planned Maintenance in Salt Rock",
+          "description": "LinkLayer is conducting maintenance in Salt Rock on the 22nd December 222:00 to 23rd December 04:00. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2025-12-19 08:40:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16700,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 147,
+              "name": "Salt Rock",
+              "slug": "salt-rock",
+              "city_id": 102
+            }
+          ]
         }
       ],
       "closed": [
