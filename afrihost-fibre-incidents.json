@@ -198,70 +198,6 @@
           ]
         },
         {
-          "id": 16705,
-          "title": "Octotel| Helderberg",
-          "description": "Octotel has informed us of a network outage affecting Helderberg. Affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2025-12-21 10:30:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16705,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 320,
-              "name": "Strand",
-              "slug": "strand",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 4366,
-              "name": "Helderberg Park",
-              "slug": "helderberg-park",
-              "city_id": 320
-            }
-          ]
-        },
-        {
           "id": 16702,
           "title": "Openserve Outage | Chatsworth",
           "description": "Openserve has informed us of a network outage affecting Chatsworth. Affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -602,76 +538,6 @@
       ],
       "closed": [
         {
-          "id": 16695,
-          "title": "Evotel outage | Ennerdale and Lenasia",
-          "description": "Evotel has informed us of a network outage affecting Ennerdale and Lenasia. Affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2025-12-21 09:21:36",
-          "should_notify": 0,
-          "created_at": "2025-12-16 22:03:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16695,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 661,
-              "name": "Lenasia",
-              "slug": "lenasia",
-              "city_id": 8
-            },
-            {
-              "id": 873,
-              "name": "Ennerdale",
-              "slug": "ennerdale",
-              "city_id": 8
-            }
-          ]
-        },
-        {
           "id": 16697,
           "title": "Metrofibre Outage | Centurion",
           "description": "Metrofibre has informed us of a network outage affecting Centurion, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -910,6 +776,70 @@
               "name": "Waterford Estates",
               "slug": "waterford-estates-1",
               "city_id": 53
+            }
+          ]
+        },
+        {
+          "id": 16705,
+          "title": "Octotel| Helderberg",
+          "description": "Octotel has informed us of a network outage affecting Helderberg. Affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Octotel engineers have completed the fibre repairs works. Please have those customers still offline reboot their ONT and routers and retest the connection.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2025-12-22 15:31:17",
+          "should_notify": 0,
+          "created_at": "2025-12-21 10:30:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16705,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 320,
+              "name": "Strand",
+              "slug": "strand",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4366,
+              "name": "Helderberg Park",
+              "slug": "helderberg-park",
+              "city_id": 320
             }
           ]
         },
