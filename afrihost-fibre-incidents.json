@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 16795,
+          "title": "Evotel outage | Witbank",
+          "description": "Evotel has informed us of a network outage affecting Witbank, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-01-16 17:20:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16795,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1774,
+              "name": "Klipfontein",
+              "slug": "klipfontein",
+              "city_id": 679
+            }
+          ]
+        },
+        {
           "id": 16793,
           "title": "Metrofibre outage | Kwa-Thema",
           "description": "Metrofibre has informed us of a network outage affecting Kwa-Thema, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -352,6 +416,13 @@
             }
           ],
           "updates": [
+            {
+              "id": 1050,
+              "notice_id": 16776,
+              "content": "January 16, 2026 5:14 PM\n\nNew infrastructure is being installed. Once new infrastructure has been installed, splicing will continue.",
+              "created_by_id": 11,
+              "created_at": "2026-01-16 17:16:31"
+            },
             {
               "id": 1049,
               "notice_id": 16776,
