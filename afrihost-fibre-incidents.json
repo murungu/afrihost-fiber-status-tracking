@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 16815,
+          "title": "GAIA Fibonacci Outage | Springs",
+          "description": "GAIA Fibonacci has informed us of a network outage affecting Wright Park, Fairway View, Pollak Park and Tobruk, affected clients will experience no connectivity. GAIA Fibonacci engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-01-21 07:30:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 35,
+              "name": "GAIA Fibonacci",
+              "slug": "fibonacci",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16815,
+                "category_id": 35
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 16814,
           "title": "Frogfoot Outage | Oaklane Estate",
           "description": "Frogfoot has informed us of a network outage affecting Oaklane Estate, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -166,7 +223,22 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1052,
+              "notice_id": 16810,
+              "content": "Optic fiber cable technicians are on site investigating with the assistance of the Network field technician. Update to follow at 08:30.",
+              "created_by_id": 24,
+              "created_at": "2026-01-21 07:30:52"
+            },
+            {
+              "id": 1051,
+              "notice_id": 16810,
+              "content": "Network field technician arrived at Nzhelele and confirmed that the optic fiber cable is partially damaged 20.4km towards Sibasa. Cable technicians are being re-dispatched to investigate, as it is suspected that the service provider damaged the optic fiber.",
+              "created_by_id": 24,
+              "created_at": "2026-01-21 07:20:39"
+            }
+          ],
           "provinces": [
             {
               "id": 4,
