@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 16871,
-          "title": "Evotel Outage | Ladysmith",
-          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 16872,
+          "title": "Metrofibre Outage | Thembisa",
+          "description": "Metrofibre has informed us of a network outage affecting Thembisa, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-02-06 17:08:45",
+          "created_at": "2026-02-07 08:37:17",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,31 +34,31 @@
           },
           "categories": [
             {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 16871,
-                "category_id": 6
+                "notice_id": 16872,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
+              "id": 38,
+              "name": "Tembisa",
+              "slug": "tembisa",
+              "province_id": 1
             }
           ],
           "suburbs": []
@@ -703,63 +703,6 @@
       ],
       "closed": [
         {
-          "id": 16852,
-          "title": "Vuma Reach outage | Katlehong",
-          "description": "Vuma Reach has informed us of a network outage affecting Katlehong, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Services have been restored",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-02-05 05:45:24",
-          "should_notify": 0,
-          "created_at": "2026-02-01 20:43:39",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16852,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 28,
-              "name": "Katlehong",
-              "slug": "katlehong",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 16853,
           "title": "Metrofibre outage | Hesteapark",
           "description": "Metrofibre has informed us of a network outage affecting Hesteapark, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1381,6 +1324,63 @@
               "name": "Milnerton",
               "slug": "milnerton",
               "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 16871,
+          "title": "Evotel Outage | Ladysmith",
+          "description": "Evotel has informed us of a network outage affecting Ladysmith, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-02-07 08:36:09",
+          "should_notify": 0,
+          "created_at": "2026-02-06 17:08:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16871,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 161,
+              "name": "Ladysmith",
+              "slug": "ladysmith",
+              "province_id": 2
             }
           ],
           "suburbs": []
