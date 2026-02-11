@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 16897,
-          "title": "Metrofibre outage |  Houghton Estate",
-          "description": "Metrofibre has informed us of a network outage affecting  Houghton Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 16898,
+          "title": "Frogfoot outage | Protea Glen, Soweto",
+          "description": "Frogfoot has informed us of a network outage affecting Protea Glen, Soweto, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-02-11 20:26:50",
+          "created_at": "2026-02-11 21:29:38",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,14 +34,14 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 16897,
-                "category_id": 9
+                "notice_id": 16898,
+                "category_id": 7
               }
             }
           ],
@@ -55,18 +55,18 @@
           ],
           "cities": [
             {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
               "province_id": 1
             }
           ],
           "suburbs": [
             {
-              "id": 5303,
-              "name": "Lower Houghton",
-              "slug": "lower-houghton",
-              "city_id": 8
+              "id": 463,
+              "name": "Protea Glen",
+              "slug": "protea-glen",
+              "city_id": 17
             }
           ]
         },
@@ -1564,63 +1564,6 @@
       ],
       "closed": [
         {
-          "id": 16862,
-          "title": "Octotel outage | Grabouw",
-          "description": "Octotel has informed us of a network outage affecting Grabouw, affected clients will experience degraded connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-02-04 22:17:06",
-          "should_notify": 0,
-          "created_at": "2026-02-04 19:20:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16862,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 200,
-              "name": "Grabouw",
-              "slug": "grabouw",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 16863,
           "title": "Frogfoot outage | Cape Town",
           "description": "Frogfoot has informed us of a network outage affecting Cape Town, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2182,6 +2125,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 16897,
+          "title": "Metrofibre outage |  Houghton Estate",
+          "description": "Metrofibre has informed us of a network outage affecting  Houghton Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-02-11 21:29:59",
+          "should_notify": 0,
+          "created_at": "2026-02-11 20:26:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16897,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5303,
+              "name": "Lower Houghton",
+              "slug": "lower-houghton",
+              "city_id": 8
+            }
+          ]
         }
       ]
     },
