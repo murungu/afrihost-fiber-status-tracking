@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 16966,
+          "title": "Openserve Outage | Aerorand",
+          "description": "Openserve has informed us of a network outage affecting Aerorand, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-02-25 14:58:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16966,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 690,
+              "name": "Middelburg",
+              "slug": "middelburg-1",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 16965,
           "title": "GAIA Fibonacci Outage | Cosmo Creek",
           "description": "GAIA Fibonacci has informed us of a network outage affecting Cosmo Creek, affected clients will experience limited to no connectivity. GAIA Fibonacci engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -126,70 +183,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 16963,
-          "title": "Frogfoot| | CPT | rn Beachclub",
-          "description": "Frogfoot has informed us of a network outage affecting Hermanus. Affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-02-25 05:13:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16963,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 202,
-              "name": "Hermanus",
-              "slug": "hermanus",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2224,
-              "name": "Hermanus Beach Club",
-              "slug": "hermanus-beach-club",
-              "city_id": 202
-            }
-          ]
         },
         {
           "id": 16962,
@@ -996,70 +989,6 @@
       ],
       "closed": [
         {
-          "id": 16945,
-          "title": "Vumatel Reach Outage | Eldorado Park",
-          "description": "Vumatel Reach has informed us of a network outage affecting Eldorado Park, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-02-21 07:27:57",
-          "should_notify": 0,
-          "created_at": "2026-02-21 07:25:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16945,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1307,
-              "name": "Eldorado Park",
-              "slug": "eldorado-park",
-              "city_id": 17
-            }
-          ]
-        },
-        {
           "id": 16946,
           "title": "Vumatel Reach Outage | Eldorado Park & Devland",
           "description": "Vumatel Reach has informed us of a network outage affecting Eldorado Park & Devland, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1652,6 +1581,70 @@
               "name": "Pinelands",
               "slug": "pinelands",
               "city_id": 240
+            }
+          ]
+        },
+        {
+          "id": 16963,
+          "title": "Frogfoot| | CPT | rn Beachclub",
+          "description": "Frogfoot has informed us of a network outage affecting Hermanus. Affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-02-25 14:55:49",
+          "should_notify": 0,
+          "created_at": "2026-02-25 05:13:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16963,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 202,
+              "name": "Hermanus",
+              "slug": "hermanus",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2224,
+              "name": "Hermanus Beach Club",
+              "slug": "hermanus-beach-club",
+              "city_id": 202
             }
           ]
         }
