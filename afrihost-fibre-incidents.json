@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 16998,
-          "title": "Metrofibre outage | Mosel, Port Elizabeth",
-          "description": "Metrofibre has informed us of a network outage affecting Mosel, Port Elizabeth, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 16999,
+          "title": "Metrofibre outage | Crystal Cove, Highveld",
+          "description": "Metrofibre has informed us of a network outage affecting Crystal Cove, Highveld, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-03-06 08:07:41",
+          "created_at": "2026-03-06 10:56:37",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -40,7 +40,7 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 16998,
+                "notice_id": 16999,
                 "category_id": 9
               }
             }
@@ -48,20 +48,27 @@
           "updates": [],
           "provinces": [
             {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 236,
+              "name": "Highveld",
+              "slug": "highveld",
+              "city_id": 43
+            }
+          ]
         },
         {
           "id": 16997,
@@ -568,70 +575,6 @@
       ],
       "closed": [
         {
-          "id": 16981,
-          "title": "VumaReach| Mapetla",
-          "description": "VumaReach has informed us of a network outage affecting Mapetla. Affected clients will experience limited to no connectivity. VumaReach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-03-04 10:20:28",
-          "should_notify": 0,
-          "created_at": "2026-03-02 07:48:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16981,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5336,
-              "name": "Marafe",
-              "slug": "marafe",
-              "city_id": 17
-            }
-          ]
-        },
-        {
           "id": 16982,
           "title": "VumaReach| Mdantsane",
           "description": "VumaReach has informed us of a network outage affecting Mdantsane. Affected clients will experience limited to no connectivity. VumaReach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1108,6 +1051,63 @@
               "name": "Durban",
               "slug": "durban",
               "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 16998,
+          "title": "Metrofibre outage | Mosel, Port Elizabeth",
+          "description": "Metrofibre has informed us of a network outage affecting Mosel, Port Elizabeth, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-03-06 10:38:39",
+          "should_notify": 0,
+          "created_at": "2026-03-06 08:07:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16998,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
             }
           ],
           "suburbs": []
