@@ -7,6 +7,76 @@
     "notices": {
       "open": [
         {
+          "id": 17008,
+          "title": "Metrofibre outage | Claremont and Booysens",
+          "description": "Metrofibre has informed us of a network outage affecting Claremont and Booysens, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-03-07 15:55:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17008,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 302,
+              "name": "Claremont",
+              "slug": "claremont-1",
+              "city_id": 33
+            },
+            {
+              "id": 146,
+              "name": "Booysens",
+              "slug": "booysens",
+              "city_id": 33
+            }
+          ]
+        },
+        {
           "id": 17007,
           "title": "Metrofibre outage | La Mercy",
           "description": "Metrofibre has informed us of a network outage affecting La Mercy, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -510,70 +580,6 @@
           "suburbs": []
         },
         {
-          "id": 16996,
-          "title": "Metrofibre outage | Clayville",
-          "description": "Metrofibre has informed us of a network outage affecting Clayville, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-03-05 16:49:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16996,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 13,
-              "name": "Olifantsfontein",
-              "slug": "olifantsfontein",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 612,
-              "name": "Clayville",
-              "slug": "clayville",
-              "city_id": 13
-            }
-          ]
-        },
-        {
           "id": 16993,
           "title": "Metrofibre outage |  Zwartkop, Centurion",
           "description": "Metrofibre has informed us of a network outage affecting  Zwartkop, Centurion, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1021,74 +1027,6 @@
       ],
       "closed": [
         {
-          "id": 16983,
-          "title": "Evotel| Postmasburg and Virginia",
-          "description": "Evotel has informed us of a network outage affecting Postmasburg and Virginia.  Affected clients will experience limited to no connectivity. VumaReach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-03-05 04:43:27",
-          "should_notify": 0,
-          "created_at": "2026-03-02 10:02:08",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 16983,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            }
-          ],
-          "cities": [
-            {
-              "id": 565,
-              "name": "Virginia",
-              "slug": "virginia",
-              "province_id": 7
-            },
-            {
-              "id": 381,
-              "name": "Postmasburg",
-              "slug": "postmasburg",
-              "province_id": 5
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 16984,
           "title": "Clearaccess| Gauteng",
           "description": "Clearaccess has informed us of a network outage affecting Gauteng. Affected clients will experience no service. Clearaccess engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1436,6 +1374,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 16996,
+          "title": "Metrofibre outage | Clayville",
+          "description": "Metrofibre has informed us of a network outage affecting Clayville, affected clients will experience limited to no connectivity Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-03-07 16:01:43",
+          "should_notify": 0,
+          "created_at": "2026-03-05 16:49:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 16996,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 13,
+              "name": "Olifantsfontein",
+              "slug": "olifantsfontein",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 612,
+              "name": "Clayville",
+              "slug": "clayville",
+              "city_id": 13
+            }
+          ]
         },
         {
           "id": 16998,
