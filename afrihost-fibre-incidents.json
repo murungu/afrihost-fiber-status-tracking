@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 17049,
-          "title": "Frogfoot outage | Eastern Cape",
-          "description": "We are aware of connectivity problems in Eastern Cape affecting Frogfoot clients. Afrihost and Frogfoot engineers are working on resolving the problem as soon as possible. We apologize for any inconvenience caused.",
+          "id": 17054,
+          "title": "Evotel outage | Rustenburg",
+          "description": "Evotel has informed us of a network outage affecting Rustenburg. Affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 4,
+          "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-03-14 17:55:07",
+          "created_at": "2026-03-15 09:04:43",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -26,134 +26,41 @@
             "has_location": 1
           },
           "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17049,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
             {
               "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 17047,
-          "title": "Frogfoot outage | KwaZulu-Natal",
-          "description": "We are aware of connectivity problems in KwaZulu-Natal affecting Frogfoot clients. Afrihost and Frogfoot engineers are working on resolving the problem as soon as possible. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-03-14 16:07:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17047,
-                "category_id": 7
+                "notice_id": 17054,
+                "category_id": 6
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
             }
           ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 17046,
-          "title": "Frogfoot outage | Western Cape",
-          "description": "We are aware of connectivity problems in Western Cape affecting Frogfoot clients. Afrihost and Frogfoot engineers are working on resolving the problem as soon as possible. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-03-14 16:06:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
+          "cities": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17046,
-                "category_id": 7
-              }
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8
             }
           ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [],
           "suburbs": []
         },
         {
@@ -347,63 +254,6 @@
               "city_id": 17
             }
           ]
-        },
-        {
-          "id": 17050,
-          "title": "Purple Forest Outage | Midrand",
-          "description": "We are investigating reports of no connectivity affecting clients on the Purple Forest network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-03-14 19:22:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 25,
-              "name": "Purple Forest",
-              "slug": "purple-forest",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17050,
-                "category_id": 25
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 17048,
@@ -1421,16 +1271,16 @@
           "suburbs": []
         },
         {
-          "id": 17029,
-          "title": "Vumatel| Table View",
-          "description": "Vumatel has informed us of a network outage affecting Table View. Affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17046,
+          "title": "Frogfoot outage | Western Cape",
+          "description": "We are aware of connectivity problems in Western Cape affecting Frogfoot clients. Afrihost and Frogfoot engineers are working on resolving the problem as soon as possible. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2026-03-13 05:42:55",
+          "resolved_at": "2026-03-15 09:05:11",
           "should_notify": 0,
-          "created_at": "2026-03-11 14:01:59",
+          "created_at": "2026-03-14 16:06:06",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1440,22 +1290,22 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17029,
-                "category_id": 18
+                "notice_id": 17046,
+                "category_id": 7
               }
             }
           ],
@@ -1467,91 +1317,20 @@
               "slug": "western-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 236,
-              "name": "Blouberg",
-              "slug": "blouberg",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 258,
-              "name": "Table View",
-              "slug": "table-view",
-              "city_id": 236
-            }
-          ]
-        },
-        {
-          "id": 17030,
-          "title": "Evotel| Krugersdorp",
-          "description": "Evotel has informed us of a network outage affecting Krugersdorp. Affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-03-13 06:30:01",
-          "should_notify": 0,
-          "created_at": "2026-03-11 14:52:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17030,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 9,
-              "name": "Krugersdorp",
-              "slug": "krugersdorp",
-              "province_id": 1
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
-          "id": 17031,
-          "title": "Vumatel| Tygerdal & Goodwood Estate",
-          "description": "Vumatel has informed us of a network outage affecting Tygerdal & Goodwood Estate. Affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17047,
+          "title": "Frogfoot outage | KwaZulu-Natal",
+          "description": "We are aware of connectivity problems in KwaZulu-Natal affecting Frogfoot clients. Afrihost and Frogfoot engineers are working on resolving the problem as soon as possible. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2026-03-13 05:42:34",
+          "resolved_at": "2026-03-15 09:05:03",
           "should_notify": 0,
-          "created_at": "2026-03-11 14:57:01",
+          "created_at": "2026-03-14 16:07:11",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1561,67 +1340,47 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17031,
-                "category_id": 18
+                "notice_id": 17047,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
-          "cities": [
-            {
-              "id": 295,
-              "name": "Goodwood",
-              "slug": "goodwood",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1996,
-              "name": "Goodwood Estate",
-              "slug": "goodwood-estate",
-              "city_id": 295
-            },
-            {
-              "id": 3525,
-              "name": "Tygerdal",
-              "slug": "tygerdal",
-              "city_id": 295
-            }
-          ]
+          "cities": [],
+          "suburbs": []
         },
         {
-          "id": 17033,
-          "title": "Vumatel| Rustic Park",
-          "description": "Vumatel has informed us of a network outage affecting Rustic Park. Affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Services have been restored",
+          "id": 17049,
+          "title": "Frogfoot outage | Eastern Cape",
+          "description": "We are aware of connectivity problems in Eastern Cape affecting Frogfoot clients. Afrihost and Frogfoot engineers are working on resolving the problem as soon as possible. We apologize for any inconvenience caused.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2026-03-12 18:35:05",
+          "resolved_at": "2026-03-15 09:04:56",
           "should_notify": 0,
-          "created_at": "2026-03-12 09:52:20",
+          "created_at": "2026-03-14 17:55:07",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1631,52 +1390,34 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17033,
-                "category_id": 27
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17033,
-                "category_id": 18
+                "notice_id": 17049,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 352,
-              "name": "Tzaneen",
-              "slug": "tzaneen",
-              "province_id": 4
-            }
-          ],
+          "cities": [],
           "suburbs": []
         },
         {
@@ -1991,15 +1732,72 @@
               "city_id": 16
             }
           ]
+        },
+        {
+          "id": 17050,
+          "title": "Purple Forest Outage | Midrand",
+          "description": "We are investigating reports of no connectivity affecting clients on the Purple Forest network. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-03-15 09:04:49",
+          "should_notify": 0,
+          "created_at": "2026-03-14 19:22:12",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 25,
+              "name": "Purple Forest",
+              "slug": "purple-forest",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17050,
+                "category_id": 25
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
