@@ -7,6 +7,127 @@
     "notices": {
       "open": [
         {
+          "id": 17230,
+          "title": "Frogfoot outage | White River",
+          "description": "Frogfoot has informed us of a network outage affecting White River, affected clients will experience limited to no connectivity, Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-04-13 15:43:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17230,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 711,
+              "name": "White River",
+              "slug": "white-river",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17228,
+          "title": "MetroFibre outage | Beaulieu Country Estate, Kyalami",
+          "description": "MetroFibre has informed us of a network outage affecting Beaulieu Country Estate, Kyalami, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-04-13 15:10:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17228,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 243,
+              "name": "Kyalami",
+              "slug": "kyalami",
+              "city_id": 50
+            }
+          ]
+        },
+        {
           "id": 17227,
           "title": "Octotel outage | Rondebosch",
           "description": "Octotel has informed us of a network outage affecting Rondebosch, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -126,70 +247,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 17222,
-          "title": "Vumatel Reach Outage | Khutsong",
-          "description": "Vumatel Reach has informed us of a network outage affecting Khutsong, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-13 08:16:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17222,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 23,
-              "name": "Carletonville",
-              "slug": "carletonville",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5231,
-              "name": "Khutsong",
-              "slug": "khutsong",
-              "city_id": 23
-            }
-          ]
         },
         {
           "id": 17221,
@@ -363,16 +420,16 @@
           "suburbs": []
         },
         {
-          "id": 17223,
-          "title": "MetroFibre maintenance | Clare Hills, Durban",
-          "description": "MetroFibre is conducting maintenance in Clare Hills, Durban on the 13th of April from 09:30 to 12:00 users affected will experience no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 17229,
+          "title": "Frogfoot maintenance | Kempton Park",
+          "description": "Frogfoot is conducting maintenance in Kempton Park on the 15th of April from 08:00 to 20:00 users affected will experience no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-04-13 09:36:03",
+          "created_at": "2026-04-13 15:38:14",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -390,41 +447,34 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17223,
-                "category_id": 9
+                "notice_id": 17229,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
             }
           ],
-          "suburbs": [
-            {
-              "id": 2746,
-              "name": "Clare Hills",
-              "slug": "clare-hills",
-              "city_id": 68
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 17208,
@@ -1517,106 +1567,6 @@
       ],
       "closed": [
         {
-          "id": 17212,
-          "title": "Octotel Outage | George, Kleinbrak, Knysna, Sedgefield",
-          "description": "Octotel has informed us of a network outage affecting George, Kleinbrak, Knysna, Sedgefield. Affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2026-04-09 20:54:52",
-          "should_notify": 0,
-          "created_at": "2026-04-09 19:49:51",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17212,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 17211,
-          "title": "MetroFibre Outage | Kouga",
-          "description": "MetroFibre has informed us of a network outage affecting Kouga , affected clients will experience limited to no connectivity.  MetroFibre are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Kouga have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-04-09 15:37:06",
-          "should_notify": 0,
-          "created_at": "2026-04-09 14:18:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17211,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 17213,
           "title": "FrogFoot Outage | Despatch Retief & Botharus",
           "description": "FrogFoot has informed us of a network outage affecting Despatch Retief & Botharus. Affected clients will experience no connectivity. FrogFoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1987,6 +1937,70 @@
           ]
         },
         {
+          "id": 17222,
+          "title": "Vumatel Reach Outage | Khutsong",
+          "description": "Vumatel Reach has informed us of a network outage affecting Khutsong, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-04-13 15:14:54",
+          "should_notify": 0,
+          "created_at": "2026-04-13 08:16:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17222,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 23,
+              "name": "Carletonville",
+              "slug": "carletonville",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5231,
+              "name": "Khutsong",
+              "slug": "khutsong",
+              "city_id": 23
+            }
+          ]
+        },
+        {
           "id": 17226,
           "title": "MetroFibre outage | Cordova",
           "description": "MetroFibre has informed us of a network outage affecting Cordova, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2106,6 +2120,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17223,
+          "title": "MetroFibre maintenance | Clare Hills, Durban",
+          "description": "MetroFibre is conducting maintenance in Clare Hills, Durban on the 13th of April from 09:30 to 12:00 users affected will experience no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2026-04-13 15:36:29",
+          "should_notify": 0,
+          "created_at": "2026-04-13 09:36:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17223,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2746,
+              "name": "Clare Hills",
+              "slug": "clare-hills",
+              "city_id": 68
+            }
+          ]
         }
       ]
     },
