@@ -427,6 +427,93 @@
           "suburbs": []
         },
         {
+          "id": 17234,
+          "title": "Vuma Reach maintenance | Eastern Cape",
+          "description": "Vumatel is conducting maintenance in Eastern Cape on the 15th of April from 21:00 to the 16th of April at 04:00 users affected will experience no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-04-14 13:53:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17234,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17234,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 75,
+              "name": "Gonubie",
+              "slug": "gonubie",
+              "city_id": 477
+            },
+            {
+              "id": 705,
+              "name": "Mdantsane",
+              "slug": "mdantsane",
+              "city_id": 477
+            },
+            {
+              "id": 2213,
+              "name": "East London Central",
+              "slug": "east-london-central",
+              "city_id": 477
+            }
+          ]
+        },
+        {
           "id": 17229,
           "title": "Frogfoot maintenance | Kempton Park",
           "description": "Frogfoot is conducting maintenance in Kempton Park on the 15th of April from 08:00 to 20:00 users affected will experience no connectivity during the maintenance window. We apologize for any inconvenience caused.",
