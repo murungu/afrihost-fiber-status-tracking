@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 17280,
+          "title": "Metrofibre Outage | Alberton North",
+          "description": "Metrofibre has informed us of a network outage affecting Alberton North, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-04-22 15:32:05",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17280,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 5937,
+              "name": "Alberton North",
+              "slug": "alberton-north",
+              "city_id": 21
+            }
+          ]
+        },
+        {
           "id": 17279,
           "title": "Metrofibre Outage | Rhodesfield",
           "description": "Metrofibre has informed us of a network outage affecting Rhodesfield, affected clients will experience degraded service. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -67,76 +131,6 @@
               "name": "Rhodesfield",
               "slug": "rhodesfield",
               "city_id": 48
-            }
-          ]
-        },
-        {
-          "id": 17278,
-          "title": "Frogfoot Outage | Lynnwood and Faerie Glen",
-          "description": "Frogfoot has informed us of a network outage affecting Faerie Glen and Lynnwood, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-22 13:55:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17278,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 25,
-              "name": "Faerie Glen",
-              "slug": "faerie-glen",
-              "city_id": 33
-            },
-            {
-              "id": 225,
-              "name": "Lynnwood",
-              "slug": "lynnwood",
-              "city_id": 33
             }
           ]
         },
@@ -1010,63 +1004,6 @@
           ]
         },
         {
-          "id": 17257,
-          "title": "Vodacom Outage | Phoenix",
-          "description": "Vodacom has informed us of a network outage affecting Phoenix, affected clients will experience limited to no connectivity. Vodacom engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-04-21 23:12:58",
-          "should_notify": 0,
-          "created_at": "2026-04-18 11:00:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 31,
-              "name": "Vodacom",
-              "slug": "vodacom",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17257,
-                "category_id": 31
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 168,
-              "name": "Phoenix",
-              "slug": "phoenix",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17259,
           "title": "Vumatel Outage | Kuils River",
           "description": "Vumatel has informed us of a network outage affecting Kuils River, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1568,6 +1505,76 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17278,
+          "title": "Frogfoot Outage | Lynnwood and Faerie Glen",
+          "description": "Frogfoot has informed us of a network outage affecting Faerie Glen and Lynnwood, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear Frogfoot Customer,\n\nThe following network outage has been resolved:\n\n\n\nOutage Reference\tFRG12763598\nOutage Title\tOutage | JHB | Lynnwood Glen | OLT1 | Down - Historic\nRegion\tJohannesburg\nArea\tFaerie Glen, Lynnwood",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-04-22 15:33:07",
+          "should_notify": 0,
+          "created_at": "2026-04-22 13:55:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17278,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 25,
+              "name": "Faerie Glen",
+              "slug": "faerie-glen",
+              "city_id": 33
+            },
+            {
+              "id": 225,
+              "name": "Lynnwood",
+              "slug": "lynnwood",
+              "city_id": 33
+            }
+          ]
         }
       ]
     },
