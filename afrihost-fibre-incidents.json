@@ -62,63 +62,6 @@
           "suburbs": []
         },
         {
-          "id": 17294,
-          "title": "Vumatel Outage | Savoy",
-          "description": "Vumatel has informed us of a network outage affecting Savoy, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-25 09:14:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17294,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17291,
           "title": "Evotel Outage | North West",
           "description": "Evotel has informed us of a network outage affecting Protea Park, External Services, Bergsig and Kroondal, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1380,76 +1323,6 @@
       ],
       "closed": [
         {
-          "id": 17268,
-          "title": "Frogfoot Outage | Silverglade & Fish Hoek",
-          "description": "Frogfoot has informed us of a network outage affecting Silverglade & Fish Hoek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Frogfoot Customer,\n\nThe following network outage has been resolved:\n\n\n\nOutage Reference\tFRG12750712\nOutage Title\tOutage | CPT | Fishhoek | Node | Down\nRegion\tCape Town\nArea\tSunnydale, Fish Hoek, Kommetjie, Franschhoek",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-04-22 06:51:43",
-          "should_notify": 0,
-          "created_at": "2026-04-21 12:15:12",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17268,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            },
-            {
-              "id": 197,
-              "name": "Fish Hoek",
-              "slug": "fish-hoek",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 4596,
-              "name": "Silverglade",
-              "slug": "silverglade",
-              "city_id": 197
-            }
-          ]
-        },
-        {
           "id": 17270,
           "title": "Metrofibre Outage | The Highline",
           "description": "Metrofibre has informed us of a network outage affecting The Highline, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2056,6 +1929,63 @@
             }
           ],
           "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 17294,
+          "title": "Vumatel Outage | Savoy",
+          "description": "Vumatel has informed us of a network outage affecting Savoy, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-04-25 13:38:30",
+          "should_notify": 0,
+          "created_at": "2026-04-25 09:14:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17294,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
           "suburbs": []
         }
       ]
