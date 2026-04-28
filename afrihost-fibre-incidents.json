@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 17302,
+          "title": "Evotel Outage | Virginia",
+          "description": "Evotel has informed us of a network outage affecting Virginia, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-04-28 08:25:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17302,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 565,
+              "name": "Virginia",
+              "slug": "virginia",
+              "province_id": 7
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17300,
           "title": "Metrofibre Outage | Chasedene",
           "description": "Metrofibre has informed us of a network outage affecting Chasedene, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -418,70 +475,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 17274,
-          "title": "Openserve Outage | Garsfontein",
-          "description": "Openserve has informed us of a network outage affecting Garsfontein, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-22 12:38:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17274,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 152,
-              "name": "Garsfontein",
-              "slug": "garsfontein",
-              "city_id": 33
-            }
-          ]
         }
       ],
       "closed": [
@@ -962,16 +955,16 @@
           "suburbs": []
         },
         {
-          "id": 17286,
-          "title": "Evotel Outage | Newcastle",
-          "description": "Evotel has informed us of a network outage affecting Newcastle, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 17303,
+          "title": "Evotel Outage",
+          "description": "Evotel has informed us of a network outage affecting Virginia, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Resolved",
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2026-04-27 17:51:57",
+          "resolved_at": "2026-04-28 08:27:20",
           "should_notify": 0,
-          "created_at": "2026-04-23 17:30:46",
+          "created_at": "2026-04-28 08:26:51",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -981,11 +974,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
@@ -995,7 +988,7 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17286,
+                "notice_id": 17303,
                 "category_id": 6
               }
             }
@@ -1003,17 +996,17 @@
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
             }
           ],
           "cities": [
             {
-              "id": 166,
-              "name": "Newcastle",
-              "slug": "newcastle",
-              "province_id": 2
+              "id": 565,
+              "name": "Virginia",
+              "slug": "virginia",
+              "province_id": 7
             }
           ],
           "suburbs": []
