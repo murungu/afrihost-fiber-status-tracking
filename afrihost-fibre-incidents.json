@@ -64,63 +64,6 @@
           "suburbs": []
         },
         {
-          "id": 17306,
-          "title": "Fibre Suburb Outage | Gateway Manor",
-          "description": "Fibre Suburb has informed us of a network outage affecting Gateway Manor, affected clients will experience limited to no connectivity. Fibre Suburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-28 11:14:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 36,
-              "name": "FibreSuburb Networks",
-              "slug": "fibresuburb",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17306,
-                "category_id": 36
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 626,
-              "name": "Hartbeespoort",
-              "slug": "hartbeespoort",
-              "province_id": 8
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17304,
           "title": "Metrofibre Outage | Durban North",
           "description": "Metrofibre has informed us of a network outage affecting Durban North , affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -842,81 +785,6 @@
           "suburbs": []
         },
         {
-          "id": 17288,
-          "title": "Vuma Reach outage | Glencoe, Edendale, Dundee and Ladysmith",
-          "description": "Vuma Reach has informed us of a network outage affecting Glencoe, Edendale, Dundee and Ladysmith, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-04-24 02:29:03",
-          "should_notify": 0,
-          "created_at": "2026-04-23 22:05:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17288,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 154,
-              "name": "Glencoe",
-              "slug": "glencoe",
-              "province_id": 2
-            },
-            {
-              "id": 149,
-              "name": "Dundee",
-              "slug": "dundee",
-              "province_id": 2
-            },
-            {
-              "id": 150,
-              "name": "Edendale",
-              "slug": "edendale",
-              "province_id": 2
-            },
-            {
-              "id": 161,
-              "name": "Ladysmith",
-              "slug": "ladysmith",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17289,
           "title": "Vumatel outage | Crystal Park",
           "description": "Vumatel has informed us of a network outage affecting Crystal Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1242,6 +1110,63 @@
               "name": "Virginia",
               "slug": "virginia",
               "province_id": 7
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17306,
+          "title": "Fibre Suburb Outage | Gateway Manor",
+          "description": "Fibre Suburb has informed us of a network outage affecting Gateway Manor, affected clients will experience limited to no connectivity. Fibre Suburb engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Services have been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-04-28 11:45:53",
+          "should_notify": 0,
+          "created_at": "2026-04-28 11:14:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17306,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            }
+          ],
+          "cities": [
+            {
+              "id": 626,
+              "name": "Hartbeespoort",
+              "slug": "hartbeespoort",
+              "province_id": 8
             }
           ],
           "suburbs": []
