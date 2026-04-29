@@ -7,71 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 17311,
-          "title": "Vumatel| Gqeberha",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-28 22:20:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17311,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1090,
-              "notice_id": 17311,
-              "content": "Vumatel is conducting maintenance in Impacted Sites:\nMotherwell\nKwaNobuhle\nPort Elizabeth\nArcadia\nAlgoa Park on the 4/28/2026, 9:00 PM to 4/29/2026, 4:00 AM users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-              "created_by_id": 12,
-              "created_at": "2026-04-28 22:51:53"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17307,
           "title": "Evotel Outage | Thlabane West, Protea Park, External Services, Bergsig and Kroondal",
           "description": "Evotel has informed us of a network outage affecting Thlabane West, Protea Park, External Services, Bergsig, and Kroondal. Clients affected by this outage will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -488,16 +423,16 @@
           "suburbs": []
         },
         {
-          "id": 17297,
-          "title": "Vumatel| KwaNobuhle",
-          "description": "Vumatel has informed us of a network outage affecting KwaNobuhle, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17311,
+          "title": "Vumatel| Gqeberha",
+          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 4,
           "expires_at": null,
-          "resolved_at": "2026-04-29 00:37:48",
+          "resolved_at": "2026-04-29 05:34:36",
           "should_notify": 0,
-          "created_at": "2026-04-27 05:22:41",
+          "created_at": "2026-04-28 22:20:09",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -507,26 +442,34 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 4,
+            "name": "High Impact",
+            "slug": "high-impact",
+            "description": "Severe problems",
+            "order": 3
           },
           "categories": [
             {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17297,
-                "category_id": 27
+                "notice_id": 17311,
+                "category_id": 18
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1090,
+              "notice_id": 17311,
+              "content": "Vumatel is conducting maintenance in Impacted Sites:\nMotherwell\nKwaNobuhle\nPort Elizabeth\nArcadia\nAlgoa Park on the 4/28/2026, 9:00 PM to 4/29/2026, 4:00 AM users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+              "created_by_id": 12,
+              "created_at": "2026-04-28 22:51:53"
+            }
+          ],
           "provinces": [
             {
               "id": 6,
@@ -536,9 +479,9 @@
           ],
           "cities": [
             {
-              "id": 451,
-              "name": "Kwa Nobuhle",
-              "slug": "kwa-nobuhle",
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
               "province_id": 6
             }
           ],
@@ -910,11 +853,11 @@
       ]
     },
     "impact": {
-      "id": 4,
-      "name": "High Impact",
-      "slug": "high-impact",
-      "description": "Severe problems",
-      "order": 3
+      "id": 3,
+      "name": "Medium Impact",
+      "slug": "medium-impact",
+      "description": "A few problems",
+      "order": 2
     }
   }
 ]
