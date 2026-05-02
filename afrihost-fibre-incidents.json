@@ -70,70 +70,6 @@
           "suburbs": []
         },
         {
-          "id": 17331,
-          "title": "Vumatel Outage | Ferndale",
-          "description": "Vumatel has informed us of a network outage affecting Ferndale, affected clients will experience no connectivity . Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-05-01 14:35:02",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17331,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 53,
-              "name": "Randburg",
-              "slug": "randburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 102,
-              "name": "Ferndale",
-              "slug": "ferndale",
-              "city_id": 53
-            }
-          ]
-        },
-        {
           "id": 17329,
           "title": "Openserve Outage | Lotus River",
           "description": "Openserve has informed us of a network outage affecting Lorus River, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -980,64 +916,6 @@
       ],
       "closed": [
         {
-          "id": 17310,
-          "title": "TTConnect Outage | Gauteng",
-          "description": "We are investigating reports of no connectivity affecting clients on the TTConnect network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2026-04-29 00:03:29",
-          "should_notify": 0,
-          "created_at": "2026-04-28 16:00:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 17,
-              "name": "TT Connect",
-              "slug": "tt-connect",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17310,
-                "category_id": 17
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1089,
-              "notice_id": 17310,
-              "content": "Services have been restored. We are currently monitoring for stability.",
-              "created_by_id": 12,
-              "created_at": "2026-04-28 17:48:05"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
           "id": 17311,
           "title": "Vumatel| Gqeberha",
           "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
@@ -1602,6 +1480,70 @@
               "name": "Pretoria North",
               "slug": "pretoria-north",
               "city_id": 33
+            }
+          ]
+        },
+        {
+          "id": 17331,
+          "title": "Vumatel Outage | Ferndale",
+          "description": "Vumatel has informed us of a network outage affecting Ferndale, affected clients will experience no connectivity . Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-02 09:16:34",
+          "should_notify": 0,
+          "created_at": "2026-05-01 14:35:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17331,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 53,
+              "name": "Randburg",
+              "slug": "randburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 102,
+              "name": "Ferndale",
+              "slug": "ferndale",
+              "city_id": 53
             }
           ]
         }
