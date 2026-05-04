@@ -419,70 +419,6 @@
           ]
         },
         {
-          "id": 17324,
-          "title": "Metrofibre Outage | South Crest",
-          "description": "Metrofibre has informed us of a network outage affecting South Crest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-30 11:16:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17324,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 346,
-              "name": "South Crest",
-              "slug": "south-crest",
-              "city_id": 21
-            }
-          ]
-        },
-        {
           "id": 17319,
           "title": "Octotel Outage | Lwandle",
           "description": "Octotel has informed us of a network outage affecting the Strand, Lwandle, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1080,71 +1016,6 @@
       ],
       "closed": [
         {
-          "id": 17311,
-          "title": "Vumatel| Gqeberha",
-          "description": "We are investigating reports of no connectivity affecting clients on the Vumatel network. We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2026-04-29 05:34:36",
-          "should_notify": 0,
-          "created_at": "2026-04-28 22:20:09",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17311,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1090,
-              "notice_id": 17311,
-              "content": "Vumatel is conducting maintenance in Impacted Sites:\nMotherwell\nKwaNobuhle\nPort Elizabeth\nArcadia\nAlgoa Park on the 4/28/2026, 9:00 PM to 4/29/2026, 4:00 AM users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-              "created_by_id": 12,
-              "created_at": "2026-04-28 22:51:53"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17317,
           "title": "Metrofibre Outage | Glen Austin",
           "description": "Metrofibre has informed us of a network outage affecting Glen Austin, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1449,6 +1320,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17324,
+          "title": "Metrofibre Outage | South Crest",
+          "description": "Metrofibre has informed us of a network outage affecting South Crest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Outage resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-04 07:32:44",
+          "should_notify": 0,
+          "created_at": "2026-04-30 11:16:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17324,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 346,
+              "name": "South Crest",
+              "slug": "south-crest",
+              "city_id": 21
+            }
+          ]
         },
         {
           "id": 17326,
