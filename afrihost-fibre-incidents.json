@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 17337,
+          "title": "Frogfoot Outage | Hillensberg",
+          "description": "Frogfoot has informed us of a network outage affecting Hillensberg, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-05-04 08:59:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17337,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 225,
+              "name": "Lynnwood",
+              "slug": "lynnwood",
+              "city_id": 33
+            }
+          ]
+        },
+        {
           "id": 17336,
           "title": "Metrofibre Outage | Isipingo",
           "description": "Metrofibre has informed us of a network outage affecting Isipingo, affected clients will experience no connectivity . Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -483,70 +547,6 @@
           ]
         },
         {
-          "id": 17313,
-          "title": "Comtel Outage | Bergenhof Village",
-          "description": "Comtel has informed us of a network outage affecting Bergenhof Village, affected clients will experience limited to no connectivity. Comtel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-29 11:02:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 37,
-              "name": "Comtel",
-              "slug": "comtel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17313,
-                "category_id": 37
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 264,
-              "name": "Paarl",
-              "slug": "paarl",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2654,
-              "name": "Klein Parys",
-              "slug": "klein-parys",
-              "city_id": 264
-            }
-          ]
-        },
-        {
           "id": 17327,
           "title": "Metrofibre Maintenance | Clare Hills",
           "description": "Metrofibre is conducting maintenance in Clare Hills on the 7th May 2026, at 08:00 to 7th May 2026 at 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1015,70 +1015,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 17317,
-          "title": "Metrofibre Outage | Glen Austin",
-          "description": "Metrofibre has informed us of a network outage affecting Glen Austin, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Glen Austin Phase 2, Glen Austin, Midrand have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-04-30 07:11:09",
-          "should_notify": 0,
-          "created_at": "2026-04-29 13:41:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17317,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 487,
-              "name": "Glen Austin",
-              "slug": "glen-austin",
-              "city_id": 50
-            }
-          ]
-        },
         {
           "id": 17318,
           "title": "Metrofibre| The Orchards",
@@ -1643,6 +1579,70 @@
               "name": "Ferndale",
               "slug": "ferndale",
               "city_id": 53
+            }
+          ]
+        },
+        {
+          "id": 17338,
+          "title": "Frogfoot outage | Lynnwood",
+          "description": "Frogfoot has informed us of a network outage affecting Lynnwood, affected clients will experience no connectivity . Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Outage resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-04 09:01:35",
+          "should_notify": 0,
+          "created_at": "2026-05-04 08:59:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17338,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 225,
+              "name": "Lynnwood",
+              "slug": "lynnwood",
+              "city_id": 33
             }
           ]
         }
