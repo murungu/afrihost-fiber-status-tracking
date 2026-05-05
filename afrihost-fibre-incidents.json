@@ -256,63 +256,6 @@
           "suburbs": []
         },
         {
-          "id": 17336,
-          "title": "Metrofibre Outage | Isipingo",
-          "description": "Metrofibre has informed us of a network outage affecting Isipingo, affected clients will experience no connectivity . Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-05-03 12:25:02",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17336,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 158,
-              "name": "Isipingo",
-              "slug": "isipingo",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17335,
           "title": "Vuma Reach outage | Phoenix Zone 5",
           "description": "Vumatel has informed us of a network outage affecting Phoenix Zone 5, affected clients will experience no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -477,16 +420,16 @@
           "suburbs": []
         },
         {
-          "id": 17332,
-          "title": "Frogfoot outage | Kariega and Despatch",
-          "description": "Frogfoot has informed us of a network outage affecting Kariega and Despatch, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17345,
+          "title": "Frogfoot|  Western Cape & Eastern Cape",
+          "description": "Frogfoot is conducting maintenance in the Western Cape & Eastern Cape on 2026/05/06 23:00 to 2026/05/07 05:00; users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 3,
+          "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-05-01 22:20:49",
+          "created_at": "2026-05-05 08:28:21",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -496,11 +439,11 @@
             "has_location": 1
           },
           "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
           },
           "categories": [
             {
@@ -510,226 +453,26 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17332,
+                "notice_id": 17345,
                 "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            },
             {
               "id": 6,
               "name": "Eastern Cape",
               "slug": "eastern-cape"
             }
           ],
-          "cities": [
-            {
-              "id": 502,
-              "name": "Uitenhage",
-              "slug": "uitenhage",
-              "province_id": 6
-            },
-            {
-              "id": 513,
-              "name": "Despatch",
-              "slug": "despatch",
-              "province_id": 6
-            }
-          ],
+          "cities": [],
           "suburbs": []
-        },
-        {
-          "id": 17329,
-          "title": "Openserve Outage | Lotus River",
-          "description": "Openserve has informed us of a network outage affecting Lotus River, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-30 13:38:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17329,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3440,
-              "name": "Lotus River",
-              "slug": "lotus-river",
-              "city_id": 240
-            }
-          ]
-        },
-        {
-          "id": 17325,
-          "title": "Frogfoot Outage | Admirals Park",
-          "description": "Frogfoot has informed us of a network outage affecting Admirals Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-30 11:32:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17325,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 199,
-              "name": "Gordons Bay",
-              "slug": "gordons-bay",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1686,
-              "name": "Admirals Park",
-              "slug": "admirals-park",
-              "city_id": 199
-            }
-          ]
-        },
-        {
-          "id": 17319,
-          "title": "Octotel Outage | Lwandle",
-          "description": "Octotel has informed us of a network outage affecting the Strand, Lwandle, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-30 08:29:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17319,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 320,
-              "name": "Strand",
-              "slug": "strand",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 5309,
-              "name": "Lwandle",
-              "slug": "lwandle",
-              "city_id": 320
-            }
-          ]
         },
         {
           "id": 17327,
@@ -1087,7 +830,7 @@
         {
           "id": 17309,
           "title": "MTN Fibre Maintenance | Gauteng",
-          "description": "MTN Fibre is conducting maintenance in Gauteng on the 5/6/2026 11:00:00 PM to 5/7/2026 6:00:00 AM, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "description": "MTN Fibre is conducting maintenance in Gauteng on 06/05/2026 11:00:00 PM to 07/05/2026 6:00:00 AM; users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
@@ -1201,191 +944,6 @@
       ],
       "closed": [
         {
-          "id": 17323,
-          "title": "Metrofibre Outage | The Orchards",
-          "description": "Metrofibre has informed us of a network outage affecting The Orchards, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in The Orchards/Akasia Free Standing Houses, The Orchards, Pretoria North have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-01 09:59:57",
-          "should_notify": 0,
-          "created_at": "2026-04-30 11:12:01",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17323,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 17324,
-          "title": "Metrofibre Outage | South Crest",
-          "description": "Metrofibre has informed us of a network outage affecting South Crest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Outage resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-04 07:32:44",
-          "should_notify": 0,
-          "created_at": "2026-04-30 11:16:23",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17324,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 346,
-              "name": "South Crest",
-              "slug": "south-crest",
-              "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 17326,
-          "title": "Octotel Outage | Ruyterwacht",
-          "description": "Octotel has informed us of a network outage affecting Ruyterwacht, Andriaanse and Clarkes, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Octotel engineers have completed the fibre repair works. Please have those customers still offline reboot their ont and routers and retest the connection.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-01 10:31:14",
-          "should_notify": 0,
-          "created_at": "2026-04-30 11:47:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17326,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 295,
-              "name": "Goodwood",
-              "slug": "goodwood",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2124,
-              "name": "Ruyterwacht",
-              "slug": "ruyterwacht",
-              "city_id": 295
-            }
-          ]
-        },
-        {
           "id": 17328,
           "title": "Frofgoot Outage | Kempton Park",
           "description": "Frogfoot has informed us of a network outage affecting Kempton Park, Tembisa and Rynfield, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1453,6 +1011,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17329,
+          "title": "Openserve Outage | Lotus River",
+          "description": "Openserve has informed us of a network outage affecting Lotus River, affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Outage resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-05 08:43:27",
+          "should_notify": 0,
+          "created_at": "2026-04-30 13:38:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17329,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3440,
+              "name": "Lotus River",
+              "slug": "lotus-river",
+              "city_id": 240
+            }
+          ]
         },
         {
           "id": 17330,
@@ -1581,6 +1203,126 @@
               "city_id": 53
             }
           ]
+        },
+        {
+          "id": 17332,
+          "title": "Frogfoot outage | Kariega and Despatch",
+          "description": "Frogfoot has informed us of a network outage affecting Kariega and Despatch, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear Frogfoot Customer,\n\nThe following network outage has been resolved:\n\n\n\nOutage Reference\tFRG12896180\nOutage Title\tOutage | PLZ | Uitenage | Subset | Down\nRegion\tPort Elizabeth\nArea\tUitenhage",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-05 08:37:48",
+          "should_notify": 0,
+          "created_at": "2026-05-01 22:20:49",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17332,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 502,
+              "name": "Uitenhage",
+              "slug": "uitenhage",
+              "province_id": 6
+            },
+            {
+              "id": 513,
+              "name": "Despatch",
+              "slug": "despatch",
+              "province_id": 6
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17336,
+          "title": "Metrofibre Outage | Isipingo",
+          "description": "Metrofibre has informed us of a network outage affecting Isipingo, affected clients will experience no connectivity . Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Isipingo have been restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-05 08:33:50",
+          "should_notify": 0,
+          "created_at": "2026-05-03 12:25:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17336,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 158,
+              "name": "Isipingo",
+              "slug": "isipingo",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 17337,
