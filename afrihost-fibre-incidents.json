@@ -193,7 +193,7 @@
         },
         {
           "id": 17353,
-          "title": "Evotel| Virginia",
+          "title": "Evotel Outage | Virginia",
           "description": "Evotel has informed us of a network outage affecting Virginia. Clients affected by this outage will experience intermittent to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
@@ -230,7 +230,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1094,
+              "notice_id": 17353,
+              "content": "Adverse weather conditions in the area are causing delays to Evotel repair work on site. Evotel's team will return on site and will be closely monitoring the situation. Work will continue as soon as it is safe to proceed. We sincerely apologise for the inconvenience caused.",
+              "created_by_id": 12,
+              "created_at": "2026-05-07 10:49:30"
+            }
+          ],
           "provinces": [
             {
               "id": 7,
@@ -764,7 +772,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1093,
+              "notice_id": 17333,
+              "content": "Evotel technical team has made significant progress in restoring service to the community. Service has been restored to clients in Tlhabane West and the team is actively working to restore service to clients in Oos Einder.",
+              "created_by_id": 12,
+              "created_at": "2026-05-07 10:40:01"
+            }
+          ],
           "provinces": [
             {
               "id": 8,
@@ -838,6 +854,266 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17363,
+          "title": "Vumatel & Reach Maintenance | Pomona & Atteridgeville",
+          "description": "Vumatel & Reach is conducting maintenance in Pomona & Atteridgeville on the 2026/05/13, 22:00 to 2026/05/14, 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-05-07 10:38:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17363,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17363,
+                "category_id": 24
+              }
+            },
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17363,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            },
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 972,
+              "name": "Atteridgeville",
+              "slug": "atteridgeville",
+              "city_id": 33
+            },
+            {
+              "id": 193,
+              "name": "Pomona",
+              "slug": "pomona",
+              "city_id": 48
+            }
+          ]
+        },
+        {
+          "id": 17362,
+          "title": "Vumatel Maintenance | Glenhazel",
+          "description": "Vumatel is conducting maintenance in Glenhazel on the 2026/05/13, 21:00 to 2026/05/14, 08:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-05-07 10:21:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17362,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17362,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1004,
+              "name": "Glenhazel",
+              "slug": "glenhazel",
+              "city_id": 8
+            }
+          ]
+        },
+        {
+          "id": 17361,
+          "title": "Vumatel & Reach Maintenance | Lamtonville, Naidooville, Newcastle & Newlands East",
+          "description": "Vumatel & Reach is conducting maintenance in Lamtonville, Naidooville, Newcastle & Newlands East on the 2026/05/20, 02:00 to 2026/05/20, 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-05-07 10:20:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17361,
+                "category_id": 27
+              }
+            },
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17361,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 147,
+              "name": "Craigieburn",
+              "slug": "craigieburn",
+              "province_id": 2
+            },
+            {
+              "id": 166,
+              "name": "Newcastle",
+              "slug": "newcastle",
+              "province_id": 2
+            },
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 754,
+              "name": "Newlands",
+              "slug": "newlands-2",
+              "city_id": 68
+            }
+          ]
         },
         {
           "id": 17360,
@@ -1439,56 +1715,6 @@
               "city_id": 8
             }
           ]
-        },
-        {
-          "id": 17309,
-          "title": "MTN Fibre Maintenance | Gauteng",
-          "description": "MTN Fibre is conducting maintenance in Gauteng on 06/05/2026 11:00:00 PM to 07/05/2026 6:00:00 AM; users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-04-28 15:25:05",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 44,
-              "name": "MTN",
-              "slug": "mtn-fibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17309,
-                "category_id": 44
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
         },
         {
           "id": 17305,
