@@ -64,76 +64,6 @@
           "suburbs": []
         },
         {
-          "id": 17370,
-          "title": "Frogfoot Outage | Rynfield",
-          "description": "Frogfoot has informed us of a network outage affecting Rynfield and Morehill, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-05-08 07:31:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17370,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2
-            },
-            {
-              "id": 634,
-              "name": "Morehill",
-              "slug": "morehill",
-              "city_id": 2
-            }
-          ]
-        },
-        {
           "id": 17369,
           "title": "Metrofibre Outage | Pretoria North",
           "description": "Metrofibre has informed us of a network outage affecting Pretoria North, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -515,6 +445,63 @@
               "name": "Rustenburg",
               "slug": "rustenburg",
               "province_id": 8
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17372,
+          "title": "MetroFibre Maintenance | Jeffreys Bay",
+          "description": "MetroFibre is conducting maintenance in Jeffreys Bay from 11th of May 2026 at 8am to 8pm users affected will experience no connectivity during the maintenance window. We apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-05-08 14:32:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17372,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 483,
+              "name": "Jeffreys Bay",
+              "slug": "jeffreys-bay",
+              "province_id": 6
             }
           ],
           "suburbs": []
@@ -1336,63 +1323,6 @@
       ],
       "closed": [
         {
-          "id": 17350,
-          "title": "Balwin Fibre Outage | Greenbay",
-          "description": "Balwin Fibre has informed us of a network outage affecting Greenbay, affected clients will experience limited to no connectivity. Balwin engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-08 10:45:19",
-          "should_notify": 0,
-          "created_at": "2026-05-06 09:34:52",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 1,
-              "name": "Balwin Fibre",
-              "slug": "balwin-fibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17350,
-                "category_id": 1
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17351,
           "title": "Metrofibre| New Brighton and surrounding areas.",
           "description": "Metrofibre has informed us of a network outage affecting New Brighton and the surrounding areas. Affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1868,6 +1798,76 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17370,
+          "title": "Frogfoot Outage | Rynfield",
+          "description": "Frogfoot has informed us of a network outage affecting Rynfield and Morehill, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "The following network outage has been resolved:\n\n\n\nOutage Reference\tFRG13003607\nOutage Title\tOutage | JHB | Forest Glen | Down\nRegion\tJohannesburg\nArea\tRynfield",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-08 14:31:01",
+          "should_notify": 0,
+          "created_at": "2026-05-08 07:31:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17370,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 2,
+              "name": "Benoni",
+              "slug": "benoni",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 111,
+              "name": "Rynfield",
+              "slug": "rynfield",
+              "city_id": 2
+            },
+            {
+              "id": 634,
+              "name": "Morehill",
+              "slug": "morehill",
+              "city_id": 2
+            }
+          ]
         },
         {
           "id": 17352,
