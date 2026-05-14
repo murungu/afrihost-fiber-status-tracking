@@ -262,63 +262,6 @@
           "suburbs": []
         },
         {
-          "id": 17415,
-          "title": "Metrofibre Outage |  Kempton Park",
-          "description": "Metrofibre has informed us of a network outage affecting  Kempton Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-05-14 08:28:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17415,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17414,
           "title": "Frogfoot Outage | Pinetown, Umhlanga",
           "description": "Frogfoot has informed us of a network outage affecting Pinetown, Umhlanga, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2186,81 +2129,6 @@
           "suburbs": []
         },
         {
-          "id": 17397,
-          "title": "Octotel Outage | Plett, Knysna, Sedgefield, Kleinbrak, George",
-          "description": "Octotel has informed us of a network outage affecting Plett, Knysna, Sedgefield, Kleinbrak and George, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Service has been restored",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-12 17:30:30",
-          "should_notify": 0,
-          "created_at": "2026-05-12 12:14:14",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17397,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            },
-            {
-              "id": 270,
-              "name": "Sedgefield",
-              "slug": "sedgefield",
-              "province_id": 3
-            },
-            {
-              "id": 301,
-              "name": "Klein Brak Rivier",
-              "slug": "klein-brak-rivier",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17401,
           "title": "Openserve Outage | Parts of Eastern and Western Cape",
           "description": "Openserve has informed us of a network outage affecting Parts of the Eastern and Western Cape affected clients will experience no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2681,6 +2549,63 @@
               "name": "Lephalale",
               "slug": "lephalale",
               "province_id": 4
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17415,
+          "title": "Metrofibre Outage |  Kempton Park",
+          "description": "Metrofibre has informed us of a network outage affecting  Kempton Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
+          "resolution": "Service has been restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-14 17:26:36",
+          "should_notify": 0,
+          "created_at": "2026-05-14 08:28:18",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17415,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
             }
           ],
           "suburbs": []
