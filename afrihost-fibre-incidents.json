@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 17443,
-          "title": "Metrofibre Outage | Warrenton",
-          "description": "Metrofibre has informed us of a network outage affecting Warrenton, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17444,
+          "title": "Metrofibre Outage | Broadacres",
+          "description": "Metrofibre has informed us of a network outage affecting Broadacres, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-05-19 10:32:08",
+          "created_at": "2026-05-19 12:15:03",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -40,7 +40,7 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17443,
+                "notice_id": 17444,
                 "category_id": 9
               }
             }
@@ -48,77 +48,27 @@
           "updates": [],
           "provinces": [
             {
-              "id": 5,
-              "name": "Northern Cape",
-              "slug": "northern-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 408,
-              "name": "Warrenton",
-              "slug": "warrenton",
-              "province_id": 5
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
             }
           ],
-          "suburbs": []
-        },
-        {
-          "id": 17441,
-          "title": "Frogfoot Outage | George",
-          "description": "Frogfoot has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-05-19 07:49:26",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
+          "suburbs": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17441,
-                "category_id": 7
-              }
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16
             }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
+          ]
         },
         {
           "id": 17439,
@@ -1187,134 +1137,6 @@
       ],
       "closed": [
         {
-          "id": 17420,
-          "title": "Octotel Outage | Greenpoint",
-          "description": "Octotel has informed us of a network outage affecting Greenpoint, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Service has been restored",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-18 05:46:26",
-          "should_notify": 0,
-          "created_at": "2026-05-14 13:28:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17420,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 168,
-              "name": "Green Point",
-              "slug": "green-point",
-              "city_id": 240
-            }
-          ]
-        },
-        {
-          "id": 17422,
-          "title": "Vumatel Outage | Weltevreden park",
-          "description": "Vumatel has informed us of a network outage affecting Weltevreden Park. Affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Service has been restored",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-18 05:48:07",
-          "should_notify": 0,
-          "created_at": "2026-05-15 08:02:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17422,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 216,
-              "name": "Weltevredenpark",
-              "slug": "weltevredenpark",
-              "city_id": 35
-            }
-          ]
-        },
-        {
           "id": 17423,
           "title": "Metrofibre Outage | Pretoria North",
           "description": "Metrofibre has informed us of a network outage affecting Pretoria North , affected clients will experience limited to connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1823,6 +1645,120 @@
               "city_id": 679
             }
           ]
+        },
+        {
+          "id": 17441,
+          "title": "Frogfoot Outage | George",
+          "description": "Frogfoot has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "The following network outage has been resolved:\n\n\n\nOutage Reference\tFRG13202763\nOutage Title\tOutage | CPT | Mooikloof Node | Down | Change Overrun FRG12934919\nRegion\tCape Town\nArea\tGeorge",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-19 11:45:18",
+          "should_notify": 0,
+          "created_at": "2026-05-19 07:49:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17441,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17443,
+          "title": "Metrofibre Outage | Warrenton",
+          "description": "Metrofibre has informed us of a network outage affecting Warrenton, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Warrenton - FSH, Warrenton, Northern Cape have been restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-19 11:46:19",
+          "should_notify": 0,
+          "created_at": "2026-05-19 10:32:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17443,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 408,
+              "name": "Warrenton",
+              "slug": "warrenton",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
         }
       ]
     },
