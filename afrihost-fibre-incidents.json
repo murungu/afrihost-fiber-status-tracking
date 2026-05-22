@@ -64,70 +64,6 @@
           "suburbs": []
         },
         {
-          "id": 17463,
-          "title": "Metrofibre Outage | New Brighton",
-          "description": "Metrofibre has informed us of a network outage affecting New Brighton, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-05-21 15:43:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17463,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2068,
-              "name": "New Brighton",
-              "slug": "new-brighton",
-              "city_id": 458
-            }
-          ]
-        },
-        {
           "id": 17461,
           "title": "Purple Forest | Kikuyi, waterfall",
           "description": "Purple Forest has informed us of a network outage affecting  Kikuyi, Waterfall. Affected clients will experience limited to no connectivity. Purple Forest engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -542,6 +478,70 @@
           ]
         },
         {
+          "id": 17466,
+          "title": "Metrofibre Maintenance | Sparks",
+          "description": "Metrofibre is conducting maintenance in Sparks on the 2nd June 2026, from 08:00 to 2nd June 2026  at 17:00  users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-05-22 09:45:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17466,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3294,
+              "name": "Sparks",
+              "slug": "sparks",
+              "city_id": 68
+            }
+          ]
+        },
+        {
           "id": 17445,
           "title": "Metrofibre Maintenance | Essenwood, Carlswald",
           "description": "Metrofibre is conducting maintenance in Essenwood, Carlswald. on the 25th May 2026 at 08:00 to 12th June 2026 at 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -735,85 +735,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 17450,
-          "title": "Vumatel Reach Outage | Motherwell",
-          "description": "Vumatel Reach has informed us of a network outage affecting Motherwell, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Services have been restored",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-05-21 10:33:46",
-          "should_notify": 0,
-          "created_at": "2026-05-20 07:39:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17450,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1109,
-              "notice_id": 17450,
-              "content": "Technicians  are busy floating one side, while the other team is opening the other side. The teams couldn't get the slack as the manholes on both directions are not traceable.",
-              "created_by_id": 33,
-              "created_at": "2026-05-20 12:08:52"
-            },
-            {
-              "id": 1108,
-              "notice_id": 17450,
-              "content": "Technicians have tested a disconnect at 10km, technicians are enroute to localize the fault.",
-              "created_by_id": 33,
-              "created_at": "2026-05-20 09:23:19"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1223,
-              "name": "Motherwell",
-              "slug": "motherwell",
-              "city_id": 458
-            }
-          ]
-        },
         {
           "id": 17452,
           "title": "Metrofibre Outage | Wavecrest",
@@ -1309,6 +1230,70 @@
               "name": "Kaalfontein",
               "slug": "kaalfontein",
               "city_id": 50
+            }
+          ]
+        },
+        {
+          "id": 17463,
+          "title": "Metrofibre Outage | New Brighton",
+          "description": "Metrofibre has informed us of a network outage affecting New Brighton, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-05-22 08:41:45",
+          "should_notify": 0,
+          "created_at": "2026-05-21 15:43:56",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17463,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 2068,
+              "name": "New Brighton",
+              "slug": "new-brighton",
+              "city_id": 458
             }
           ]
         },
