@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 17545,
-          "title": "Metrofibre Outage | Birchwood Village",
-          "description": "Metrofibre has informed us of a network outage affecting  Birchwood Village, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17547,
+          "title": "Vumatel Outage | Gonubie",
+          "description": "Vumatel has informed us of a network outage affecting Gonubie, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-06-08 14:40:03",
+          "created_at": "2026-06-08 16:33:01",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,39 +34,50 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17545,
-                "category_id": 9
+                "notice_id": 17547,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17547,
+                "category_id": 24
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
             }
           ],
           "cities": [
             {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
+              "id": 477,
+              "name": "East London",
+              "slug": "east-london",
+              "province_id": 6
             }
           ],
           "suburbs": [
             {
-              "id": 81,
-              "name": "Broadacres",
-              "slug": "broadacres",
-              "city_id": 16
+              "id": 75,
+              "name": "Gonubie",
+              "slug": "gonubie",
+              "city_id": 477
             }
           ]
         },
@@ -1787,6 +1798,70 @@
           ]
         },
         {
+          "id": 17545,
+          "title": "Metrofibre Outage | Birchwood Village",
+          "description": "Metrofibre has informed us of a network outage affecting  Birchwood Village, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-06-08 16:05:34",
+          "should_notify": 0,
+          "created_at": "2026-06-08 14:40:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17545,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 17535,
           "title": "Frogfoot outage | Ramsgate Partial",
           "description": "Frogfoot has informed us of a network outage affecting parts of Ramsgate affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -1834,63 +1909,6 @@
             }
           ],
           "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 17520,
-          "title": "Gaia fibonacci/FMAS Maintenance | Cosmo City",
-          "description": "Gaia fibonacci/FMAS is conducting maintenance in Cosmo City on the 2nd June 2026 at 11:00  to 2nd June 2026 at 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": "Maintenance completed",
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": "2026-06-03 08:42:12",
-          "should_notify": 0,
-          "created_at": "2026-06-02 09:24:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 35,
-              "name": "GAIA Fibonacci",
-              "slug": "fibonacci",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17520,
-                "category_id": 35
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
           "suburbs": []
         }
       ]
