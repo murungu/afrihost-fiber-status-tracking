@@ -7,74 +7,6 @@
     "notices": {
       "open": [
         {
-          "id": 17558,
-          "title": "Evotel Outage | Tongaat",
-          "description": "Evotel has informed us of a network outage affecting Tongaat, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-06-10 11:23:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17558,
-                "category_id": 30
-              }
-            },
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17558,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 175,
-              "name": "Tongaat",
-              "slug": "tongaat",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17556,
           "title": "Vumatel outage | Roodepoort",
           "description": "Vumatel has informed us of a network outage affecting Roodepoort, affected clients will experience limited to no connection. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1789,16 +1721,16 @@
           "suburbs": []
         },
         {
-          "id": 17542,
-          "title": "Evotel Maintenance | Virginia",
-          "description": "Evotel is conducting maintenance in Virginia. on the 8th June 2026 at 00:00 to 8th June 2026 at 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "id": 17558,
+          "title": "Evotel Outage | Tongaat",
+          "description": "Evotel has informed us of a network outage affecting Tongaat, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
-          "impact_id": 1,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2026-06-09 10:56:30",
+          "resolved_at": "2026-06-10 17:05:29",
           "should_notify": 0,
-          "created_at": "2026-06-08 00:28:21",
+          "created_at": "2026-06-10 11:23:27",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1808,13 +1740,24 @@
             "has_location": 1
           },
           "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17558,
+                "category_id": 30
+              }
+            },
             {
               "id": 6,
               "name": "Evotel",
@@ -1822,7 +1765,7 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17542,
+                "notice_id": 17558,
                 "category_id": 6
               }
             }
@@ -1830,17 +1773,17 @@
           "updates": [],
           "provinces": [
             {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 565,
-              "name": "Virginia",
-              "slug": "virginia",
-              "province_id": 7
+              "id": 175,
+              "name": "Tongaat",
+              "slug": "tongaat",
+              "province_id": 2
             }
           ],
           "suburbs": []
