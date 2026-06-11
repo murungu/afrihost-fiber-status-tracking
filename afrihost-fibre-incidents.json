@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 17562,
+          "title": "Vumatel Reach Outage | Mahwelereng",
+          "description": "Vumatel has informed us of a network outage affecting Mahwelereng, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-06-11 06:11:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17562,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
+            }
+          ],
+          "cities": [
+            {
+              "id": 360,
+              "name": "Mokopane",
+              "slug": "mokopane",
+              "province_id": 4
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 4008,
+              "name": "Mahwelereng",
+              "slug": "mahwelereng",
+              "city_id": 360
+            }
+          ]
+        },
+        {
           "id": 17561,
           "title": "Evotel outage | Randfontein",
           "description": "Evotel has informed us of a network outage affecting Randfontein, affected clients will experience limited to no connection. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -539,105 +603,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 17549,
-          "title": "Vumatel Maintenance | Hondeydew Ridge, Honeydew Manor, Amarosa, Roodekrans & Witpoortjie",
-          "description": "Vumatel is conducting maintenance in Hondeydew Ridge, Honeydew Manor, Amarosa, Roodekrans & Witpoortjie on the 2026/06/08, 21:30 to 2026/06/09, 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-06-08 17:15:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17549,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17549,
-                "category_id": 24
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 814,
-              "name": "Honeydew Manor",
-              "slug": "honeydew-manor",
-              "city_id": 35
-            },
-            {
-              "id": 1140,
-              "name": "Honeydew Ridge",
-              "slug": "honeydew-ridge",
-              "city_id": 35
-            },
-            {
-              "id": 1209,
-              "name": "Amorosa",
-              "slug": "amorosa",
-              "city_id": 35
-            },
-            {
-              "id": 508,
-              "name": "Roodekrans",
-              "slug": "roodekrans",
-              "city_id": 35
-            },
-            {
-              "id": 413,
-              "name": "Witpoortjie",
-              "slug": "witpoortjie",
-              "city_id": 35
-            }
-          ]
         },
         {
           "id": 17529,
@@ -1308,70 +1273,6 @@
           "suburbs": []
         },
         {
-          "id": 17543,
-          "title": "Octotel Outage | Roundebosch",
-          "description": "Octotel has informed us of a network outage affecting Roundebosch, affected clients will experience degraded service. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "June 08, 2026 at 9:06 PM\nDear ISP Partner,\n\nOctotel engineers have completed the fibre repair works. Please have those customers still offline reboot their ont and routers and retest the connection.\n\nOctotel sincerely apologises for any inconvenience caused and appreciate your patience during the repair process.\n\nRegards.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-06-08 22:25:54",
-          "should_notify": 0,
-          "created_at": "2026-06-08 07:53:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17543,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 516,
-              "name": "Rondebosch",
-              "slug": "rondebosch",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 17544,
           "title": "Metrofibre Outage | Montana Park",
           "description": "Metrofibre has informed us of a network outage affecting Montana Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1906,6 +1807,105 @@
               "name": "North Riding",
               "slug": "north-riding",
               "city_id": 53
+            }
+          ]
+        },
+        {
+          "id": 17549,
+          "title": "Vumatel Maintenance | Hondeydew Ridge, Honeydew Manor, Amarosa, Roodekrans & Witpoortjie",
+          "description": "Vumatel is conducting maintenance in Hondeydew Ridge, Honeydew Manor, Amarosa, Roodekrans & Witpoortjie on the 2026/06/08, 21:30 to 2026/06/09, 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2026-06-11 07:44:31",
+          "should_notify": 0,
+          "created_at": "2026-06-08 17:15:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17549,
+                "category_id": 18
+              }
+            },
+            {
+              "id": 24,
+              "name": "Vumatel Aerial",
+              "slug": "vuma-aerial",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17549,
+                "category_id": 24
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 35,
+              "name": "Roodepoort",
+              "slug": "roodepoort",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 814,
+              "name": "Honeydew Manor",
+              "slug": "honeydew-manor",
+              "city_id": 35
+            },
+            {
+              "id": 1140,
+              "name": "Honeydew Ridge",
+              "slug": "honeydew-ridge",
+              "city_id": 35
+            },
+            {
+              "id": 1209,
+              "name": "Amorosa",
+              "slug": "amorosa",
+              "city_id": 35
+            },
+            {
+              "id": 508,
+              "name": "Roodekrans",
+              "slug": "roodekrans",
+              "city_id": 35
+            },
+            {
+              "id": 413,
+              "name": "Witpoortjie",
+              "slug": "witpoortjie",
+              "city_id": 35
             }
           ]
         }
