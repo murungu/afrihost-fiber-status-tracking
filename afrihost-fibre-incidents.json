@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 17634,
+          "title": "Octotel outage | Wellington",
+          "description": "Octotel has informed us of a network outage affecting Wellington, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-06-21 06:46:53",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17634,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 229,
+              "name": "Wellington",
+              "slug": "wellington",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17633,
           "title": "Metrofibre outage | Isipingo Hill",
           "description": "Metrofibre has informed us of a network outage affecting Isipingo Hill, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -124,70 +181,6 @@
               "name": "Woodlands",
               "slug": "woodlands-4",
               "city_id": 87
-            }
-          ]
-        },
-        {
-          "id": 17631,
-          "title": "Evotel outage | Kroondal",
-          "description": "Evotel has informed us of a network outage affecting Kroondal, affected clients will experience degraded service. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-06-20 13:49:55",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17631,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1510,
-              "name": "Kroondal",
-              "slug": "kroondal",
-              "city_id": 632
             }
           ]
         },
@@ -382,63 +375,6 @@
               "city_id": 33
             }
           ]
-        },
-        {
-          "id": 17617,
-          "title": "Octotel outage | George",
-          "description": "Ocotel has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-06-19 10:16:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17617,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 17614,
@@ -2157,16 +2093,16 @@
       ],
       "closed": [
         {
-          "id": 17615,
-          "title": "Frogfoot outage | Amanzimtoti",
-          "description": "Frogfoot has informed us of a network outage affecting Amanzimtoti, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 17617,
+          "title": "Octotel outage | George",
+          "description": "Ocotel has informed us of a network outage affecting George, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear ISP Partner.\n\nOctotel engineers have completed the fibre repairs works. Please have those customers still offline reboot their ONT and routers and retest the connection. \n\nOctotel sincerely apologises for any inconvenience caused and appreciates your patience during the repair process.",
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2026-06-20 08:42:35",
+          "resolved_at": "2026-06-21 06:56:01",
           "should_notify": 0,
-          "created_at": "2026-06-18 15:43:55",
+          "created_at": "2026-06-19 10:16:06",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -2184,88 +2120,31 @@
           },
           "categories": [
             {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17615,
-                "category_id": 7
+                "notice_id": 17617,
+                "category_id": 12
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 101,
-              "name": "Amanzimtoti",
-              "slug": "amanzimtoti",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
-        {
-          "id": 17616,
-          "title": "Metrofibre outage | Ballito",
-          "description": "Metrofibre has informed us of a network outage affecting Ballito, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-06-18 19:21:31",
-          "should_notify": 0,
-          "created_at": "2026-06-18 16:22:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17616,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 102,
-              "name": "Ballito",
-              "slug": "ballito",
-              "province_id": 2
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
             }
           ],
           "suburbs": []
@@ -2770,6 +2649,70 @@
               "name": "Kamma Park",
               "slug": "kamma-park",
               "city_id": 458
+            }
+          ]
+        },
+        {
+          "id": 17631,
+          "title": "Evotel outage | Kroondal",
+          "description": "Evotel has informed us of a network outage affecting Kroondal, affected clients will experience degraded service. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service to the area has been restored. Thank you for your patience.\n \nIf you are still offline, please log a ticket using this link and our Support Team will assist you: https://support.evotel.co.za/open.php",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-06-21 06:49:36",
+          "should_notify": 0,
+          "created_at": "2026-06-20 13:49:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17631,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            }
+          ],
+          "cities": [
+            {
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1510,
+              "name": "Kroondal",
+              "slug": "kroondal",
+              "city_id": 632
             }
           ]
         }
