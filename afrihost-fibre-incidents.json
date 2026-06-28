@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 17676,
+          "title": "Evotel outage | Postmasburg",
+          "description": "Evotel has informed us of a network outage affecting Postmasburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-06-28 08:42:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17676,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 381,
+              "name": "Postmasburg",
+              "slug": "postmasburg",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17675,
           "title": "MetroFibre outage | Kempton Park",
           "description": "MetroFibre has informed us of a network outage affecting Kempton Park, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -244,82 +301,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 17663,
-          "title": "Evotel outage | Rustenburg",
-          "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-06-25 14:07:35",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17663,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1510,
-              "name": "Kroondal",
-              "slug": "kroondal",
-              "city_id": 632
-            },
-            {
-              "id": 4791,
-              "name": "Bergsig",
-              "slug": "bergsig-8",
-              "city_id": 632
-            },
-            {
-              "id": 140,
-              "name": "Protea Park",
-              "slug": "protea-park",
-              "city_id": 632
-            }
-          ]
         },
         {
           "id": 17662,
@@ -1669,70 +1650,6 @@
       ],
       "closed": [
         {
-          "id": 17643,
-          "title": "Vumatel| Madadeni",
-          "description": "Vumatel has informed us of a network outage affecting Madadeni. Affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-06-22 23:00:24",
-          "should_notify": 0,
-          "created_at": "2026-06-22 22:13:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17643,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 166,
-              "name": "Newcastle",
-              "slug": "newcastle",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2456,
-              "name": "Madadeni",
-              "slug": "madadeni",
-              "city_id": 166
-            }
-          ]
-        },
-        {
           "id": 17645,
           "title": "Metrofibre Outage | New Brighton 2",
           "description": "Metrofibre has informed us of a network outage affecting New Brighton 2, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1973,6 +1890,82 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17663,
+          "title": "Evotel outage | Rustenburg",
+          "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-06-28 08:39:07",
+          "should_notify": 0,
+          "created_at": "2026-06-25 14:07:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17663,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
+            }
+          ],
+          "cities": [
+            {
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1510,
+              "name": "Kroondal",
+              "slug": "kroondal",
+              "city_id": 632
+            },
+            {
+              "id": 4791,
+              "name": "Bergsig",
+              "slug": "bergsig-8",
+              "city_id": 632
+            },
+            {
+              "id": 140,
+              "name": "Protea Park",
+              "slug": "protea-park",
+              "city_id": 632
+            }
+          ]
         },
         {
           "id": 17664,
