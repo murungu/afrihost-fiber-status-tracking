@@ -7,6 +7,127 @@
     "notices": {
       "open": [
         {
+          "id": 17699,
+          "title": "Metrofibre outage | Tasbet Park",
+          "description": "Metrofibre has informed us of a network outage affecting Tasbet Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-01 16:47:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17699,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 679,
+              "name": "Witbank",
+              "slug": "witbank",
+              "province_id": 9
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 26,
+              "name": "Tasbet Park",
+              "slug": "tasbet-park",
+              "city_id": 679
+            }
+          ]
+        },
+        {
+          "id": 17698,
+          "title": "Link Layer Outage | Tongaat",
+          "description": "Link Layer has informed us of a network outage affecting Tongaat, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-01 16:44:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17698,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 175,
+              "name": "Tongaat",
+              "slug": "tongaat",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17696,
           "title": "Evotel| Dawn Park",
           "description": "Evotel has informed us of a network outage affecting Dawn Park, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -67,70 +188,6 @@
               "name": "Dawn Park",
               "slug": "dawn-park",
               "city_id": 22
-            }
-          ]
-        },
-        {
-          "id": 17694,
-          "title": "Metrofibre| Parktown Estate",
-          "description": "Metrofibre has informed us of a network outage affecting Parktown Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-07-01 07:18:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17694,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1142,
-              "name": "Parktown Estate",
-              "slug": "parktown-estate",
-              "city_id": 33
             }
           ]
         },
@@ -792,7 +849,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1127,
+              "notice_id": 17676,
+              "content": "The Evotel team is currently completing repairs on the remaining fibre cables as part of the restoration process. Once this work has been finalised, the network will need to be tested to confirm that all services have been successfully restored. Testing will commence once power has been restored at 18:00 PM",
+              "created_by_id": 12,
+              "created_at": "2026-07-01 16:46:06"
+            }
+          ],
           "provinces": [
             {
               "id": 5,
@@ -1308,70 +1373,6 @@
           "suburbs": []
         },
         {
-          "id": 17673,
-          "title": "MetroFibre outage | Kyalami Estate",
-          "description": "MetroFibre has informed us of a network outage affecting Kyalami Estate, affected clients will experience limited to no connectivity. MetroFibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-06-27 07:57:42",
-          "should_notify": 0,
-          "created_at": "2026-06-26 16:57:00",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17673,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 748,
-              "name": "Kyalami Estates",
-              "slug": "kyalami-estates",
-              "city_id": 50
-            }
-          ]
-        },
-        {
           "id": 17674,
           "title": "Openserve outage | Waterfall",
           "description": "Openserve has informed us of a network outage affecting Waterfall, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1724,6 +1725,70 @@
               "name": "Bellairspark",
               "slug": "bellairspark",
               "city_id": 53
+            }
+          ]
+        },
+        {
+          "id": 17694,
+          "title": "Metrofibre| Parktown Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Parktown Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Parktown Estate Free Standing Houses, Park Town Estate, The Moot, Pretoria have been restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-07-01 16:40:37",
+          "should_notify": 0,
+          "created_at": "2026-07-01 07:18:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17694,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1142,
+              "name": "Parktown Estate",
+              "slug": "parktown-estate",
+              "city_id": 33
             }
           ]
         },
