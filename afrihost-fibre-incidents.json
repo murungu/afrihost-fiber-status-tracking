@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 17739,
+          "title": "Frogfoot outage | White River",
+          "description": "Frogfoot has informed us of a network outage affecting White River, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-10 14:30:00",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17739,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 9,
+              "name": "Mpumalanga",
+              "slug": "mpumalanga"
+            }
+          ],
+          "cities": [
+            {
+              "id": 711,
+              "name": "White River",
+              "slug": "white-river",
+              "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17738,
           "title": "Vumatel Outage | Kensington",
           "description": "Vumatel has informed us of a network outage affecting Kensington, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -757,6 +814,118 @@
               "name": "New Brighton",
               "slug": "new-brighton",
               "city_id": 458
+            }
+          ]
+        },
+        {
+          "id": 17741,
+          "title": "Ocotel maintenance |  Claremont, Constantia, Harfield Village, Kenilworth, Newlands, Ottery, Plumstead, Rondebosch, Wynberg",
+          "description": "Octotel is conducting maintenance in  Claremont, Constantia, Harfield Village, Kenilworth, Newlands, Ottery, Plumstead, Rondebosch, Wynberg on 16/07/2026 at 00:00 to 16/07/2026 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-10 14:54:54",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17741,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 246,
+              "name": "Claremont",
+              "slug": "claremont",
+              "city_id": 240
+            },
+            {
+              "id": 165,
+              "name": "Constantia",
+              "slug": "constantia",
+              "city_id": 240
+            },
+            {
+              "id": 3210,
+              "name": "Harfield Village",
+              "slug": "harfield-village",
+              "city_id": 240
+            },
+            {
+              "id": 1311,
+              "name": "Ottery",
+              "slug": "ottery",
+              "city_id": 240
+            },
+            {
+              "id": 611,
+              "name": "Wynberg",
+              "slug": "wynberg",
+              "city_id": 240
+            },
+            {
+              "id": 553,
+              "name": "Newlands",
+              "slug": "newlands-1",
+              "city_id": 240
+            },
+            {
+              "id": 676,
+              "name": "Kenilworth",
+              "slug": "kenilworth",
+              "city_id": 240
+            },
+            {
+              "id": 516,
+              "name": "Rondebosch",
+              "slug": "rondebosch",
+              "city_id": 240
+            },
+            {
+              "id": 817,
+              "name": "Plumstead",
+              "slug": "plumstead",
+              "city_id": 240
             }
           ]
         },
@@ -1895,70 +2064,6 @@
           "suburbs": []
         },
         {
-          "id": 17705,
-          "title": "Metrofibre outage |  Mountain View",
-          "description": "Metrofibre has informed us of a network outage affecting  Mountain View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-07-06 04:27:26",
-          "should_notify": 0,
-          "created_at": "2026-07-02 13:54:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17705,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 142,
-              "name": "Mountain View",
-              "slug": "mountain-view",
-              "city_id": 33
-            }
-          ]
-        },
-        {
           "id": 17706,
           "title": "Metrofibre outage | Thembisa",
           "description": "Metrofibre has informed us of a network outage affecting Thembisa, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2331,6 +2436,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17740,
+          "title": "Octotel maintenance | Rondebosch",
+          "description": "Octotel is conducting maintenance in Rondebosch on 16/07/2026 at 00:00 to 16/07/2026 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2026-07-10 14:55:27",
+          "should_notify": 0,
+          "created_at": "2026-07-10 14:43:17",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17740,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 516,
+              "name": "Rondebosch",
+              "slug": "rondebosch",
+              "city_id": 240
+            }
+          ]
         }
       ]
     },
