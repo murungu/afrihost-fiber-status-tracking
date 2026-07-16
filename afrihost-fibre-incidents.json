@@ -311,6 +311,13 @@
           ],
           "updates": [
             {
+              "id": 1135,
+              "notice_id": 17757,
+              "content": "Evotel's team remains actively engaged in the repair process. Work is ongoing to resolve the remaining faults with every effort being made to restore services as safely and efficiently as possible.",
+              "created_by_id": 12,
+              "created_at": "2026-07-16 16:43:46"
+            },
+            {
               "id": 1134,
               "notice_id": 17757,
               "content": "Evotel team is back on site this morning and has resumed repair work to restore services in the affected area.\n\nWe appreciate your continued patience and understanding while these efforts are underway. Further updates will be shared as progress is made.\n\nThank you for your patience and understanding",
@@ -1042,6 +1049,70 @@
               "name": "Lonehill",
               "slug": "lonehill",
               "city_id": 16
+            }
+          ]
+        },
+        {
+          "id": 17781,
+          "title": "Vumatel Reach Maintenance | Meadowlands",
+          "description": "Vumatel Reach is conducting maintenance in Meadowlands on the 2026/07/15, 08:00 to 2026/07/17, 14:00. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-16 16:46:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17781,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 17,
+              "name": "Soweto",
+              "slug": "soweto",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1747,
+              "name": "Meadowlands",
+              "slug": "meadowlands",
+              "city_id": 17
             }
           ]
         },
