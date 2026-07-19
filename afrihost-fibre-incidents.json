@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 17796,
-          "title": "Vumatel outage | Bonaero Park",
-          "description": "Vumatel has informed us of a network outage affecting Bonaero Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17797,
+          "title": "Octotel outage | Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna",
+          "description": "Octotel has informed us of a network outage affecting Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-07-19 19:07:41",
+          "created_at": "2026-07-19 21:57:47",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,41 +34,58 @@
           },
           "categories": [
             {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17796,
-                "category_id": 18
+                "notice_id": 17797,
+                "category_id": 12
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
+              "id": 217,
+              "name": "Plettenberg Bay",
+              "slug": "plettenberg-bay",
+              "province_id": 3
+            },
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            },
+            {
+              "id": 270,
+              "name": "Sedgefield",
+              "slug": "sedgefield",
+              "province_id": 3
+            },
+            {
+              "id": 302,
+              "name": "Knysna",
+              "slug": "knysna",
+              "province_id": 3
+            },
+            {
+              "id": 301,
+              "name": "Klein Brak Rivier",
+              "slug": "klein-brak-rivier",
+              "province_id": 3
             }
           ],
-          "suburbs": [
-            {
-              "id": 428,
-              "name": "Bonaero Park",
-              "slug": "bonaero-park",
-              "city_id": 48
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 17757,
@@ -1478,70 +1495,6 @@
       ],
       "closed": [
         {
-          "id": 17776,
-          "title": "Vuma reach outage | Belhar",
-          "description": "Vuma reach has informed us of a network outage affecting Belhar, affected clients will experience limited to no connectivity. Vuma reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-07-19 17:50:43",
-          "should_notify": 0,
-          "created_at": "2026-07-16 08:55:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17776,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1381,
-              "name": "Belhar",
-              "slug": "belhar",
-              "city_id": 240
-            }
-          ]
-        },
-        {
           "id": 17782,
           "title": "Thinkspeed Outage | Western Cape",
           "description": "We are investigating reports of no connectivity affecting clients on the Thinkspeed network in the Western Cape. We are working on identifying and resolving this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
@@ -1917,6 +1870,70 @@
               "name": "New Brighton",
               "slug": "new-brighton",
               "city_id": 458
+            }
+          ]
+        },
+        {
+          "id": 17796,
+          "title": "Vumatel outage | Bonaero Park",
+          "description": "Vumatel has informed us of a network outage affecting Bonaero Park, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-07-19 21:51:14",
+          "should_notify": 0,
+          "created_at": "2026-07-19 19:07:41",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17796,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 428,
+              "name": "Bonaero Park",
+              "slug": "bonaero-park",
+              "city_id": 48
             }
           ]
         },
