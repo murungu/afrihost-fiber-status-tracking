@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 17798,
-          "title": "Metrofibre Outage | Carlswald",
-          "description": "Metrofibre has informed us of a network outage affecting Carlswald, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17799,
+          "title": "Metrofibre Outage | Ebony Park",
+          "description": "Metrofibre has informed us of a network outage affecting Ebony Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-07-20 08:26:08",
+          "created_at": "2026-07-20 09:12:58",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -40,7 +40,7 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17798,
+                "notice_id": 17799,
                 "category_id": 9
               }
             }
@@ -63,9 +63,9 @@
           ],
           "suburbs": [
             {
-              "id": 708,
-              "name": "Carlswald",
-              "slug": "carlswald",
+              "id": 1802,
+              "name": "Ebony Park",
+              "slug": "ebony-park",
               "city_id": 50
             }
           ]
@@ -191,6 +191,13 @@
             }
           ],
           "updates": [
+            {
+              "id": 1137,
+              "notice_id": 17757,
+              "content": "The Evotel team is currently completing the fibre splicing process. As splicing progresses, services will begin restoring in phases. Final testing will then be conducted to ensure the stability of the network.\n\nWe sincerely apologise for the inconvenience and thank you for your continued patience and understanding as Evotel technicians work to restore all services as quickly and safely as possible.",
+              "created_by_id": 12,
+              "created_at": "2026-07-20 08:57:37"
+            },
             {
               "id": 1135,
               "notice_id": 17757,
@@ -1798,6 +1805,70 @@
           ]
         },
         {
+          "id": 17798,
+          "title": "Metrofibre Outage | Carlswald",
+          "description": "Metrofibre has informed us of a network outage affecting Carlswald, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-07-20 10:12:11",
+          "should_notify": 0,
+          "created_at": "2026-07-20 08:26:08",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17798,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 708,
+              "name": "Carlswald",
+              "slug": "carlswald",
+              "city_id": 50
+            }
+          ]
+        },
+        {
           "id": 17785,
           "title": "Octotel outage | Ruyterwacht",
           "description": "Octotel has informed us of a network outage affecting Ruyterwacht, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1910,70 +1981,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 17781,
-          "title": "Vumatel Reach Maintenance | Meadowlands",
-          "description": "Vumatel Reach is conducting maintenance in Meadowlands on the 2026/07/15, 08:00 to 2026/07/17, 14:00. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": "2026-07-19 17:52:20",
-          "should_notify": 0,
-          "created_at": "2026-07-16 16:46:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17781,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1747,
-              "name": "Meadowlands",
-              "slug": "meadowlands",
-              "city_id": 17
-            }
-          ]
         }
       ]
     },
