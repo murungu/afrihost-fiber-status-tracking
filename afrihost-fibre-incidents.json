@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 17807,
-          "title": "Metrofibre Outage | Pierre Van Ryneveld",
-          "description": "Metrofibre has informed us of a network outage affecting Pierre Van Ryneveld, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "id": 17810,
+          "title": "Evotel outage | Kroondal",
+          "description": "Evotel has informed us of a network outage affecting Kroondal, affected clients will experience degraded service. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-07-21 14:49:26",
+          "created_at": "2026-07-21 17:03:02",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,47 +34,98 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17807,
-                "category_id": 9
+                "notice_id": 17810,
+                "category_id": 6
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 8,
+              "name": "North West",
+              "slug": "north-west"
             }
           ],
           "cities": [
             {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
+              "id": 632,
+              "name": "Rustenburg",
+              "slug": "rustenburg",
+              "province_id": 8
             }
           ],
           "suburbs": [
             {
-              "id": 742,
-              "name": "Pierre Van Ryneveld",
-              "slug": "pierre-van-ryneveld",
-              "city_id": 43
-            },
-            {
-              "id": 5523,
-              "name": "Pierre Van Ryneveld Ext 4",
-              "slug": "pierre-van-ryneveld-ext-4",
-              "city_id": 43
+              "id": 1510,
+              "name": "Kroondal",
+              "slug": "kroondal",
+              "city_id": 632
             }
           ]
+        },
+        {
+          "id": 17809,
+          "title": "Frogfoot Outage | George Central",
+          "description": "Frogfoot has informed us of a network outage affecting George Central , affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-21 15:07:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17809,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 17806,
@@ -203,63 +254,6 @@
               "city_id": 240
             }
           ]
-        },
-        {
-          "id": 17804,
-          "title": "Vumatel Reach Outage | Mpumalanga C",
-          "description": "Vumatel Reach has informed us of a network outage affecting Mpumalanga C, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-07-21 09:05:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17804,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 114,
-              "name": "Hammarsdale",
-              "slug": "hammarsdale",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 17802,
@@ -1858,63 +1852,6 @@
           "suburbs": []
         },
         {
-          "id": 17784,
-          "title": "Frogfoot|  Oaklane | Node",
-          "description": "Frogfoot has informed us of a network outage affecting Brakpan, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-07-17 10:56:11",
-          "should_notify": 0,
-          "created_at": "2026-07-17 05:08:56",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17784,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 42,
-              "name": "Brakpan",
-              "slug": "brakpan",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17787,
           "title": "Frogfoot Outage | Scottsville",
           "description": "Frogfoot has informed us of a network outage affecting Scottsville, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2297,16 +2234,16 @@
           "suburbs": []
         },
         {
-          "id": 17785,
-          "title": "Octotel outage | Ruyterwacht",
-          "description": "Octotel has informed us of a network outage affecting Ruyterwacht, affected clients will experience no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
+          "id": 17804,
+          "title": "Vumatel Reach Outage | Mpumalanga C",
+          "description": "Vumatel Reach has informed us of a network outage affecting Mpumalanga C, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "All services have restored",
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2026-07-19 17:56:07",
+          "resolved_at": "2026-07-21 16:53:15",
           "should_notify": 0,
-          "created_at": "2026-07-17 08:27:02",
+          "created_at": "2026-07-21 09:05:50",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -2316,42 +2253,112 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17785,
-                "category_id": 12
+                "notice_id": 17804,
+                "category_id": 27
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
+              "id": 114,
+              "name": "Hammarsdale",
+              "slug": "hammarsdale",
+              "province_id": 2
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17807,
+          "title": "Metrofibre Outage | Pierre Van Ryneveld",
+          "description": "Metrofibre has informed us of a network outage affecting Pierre Van Ryneveld, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Pierre Van Ryneveld Free Standing Houses, Kirkness Avenue have been restored. \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-07-21 16:54:35",
+          "should_notify": 0,
+          "created_at": "2026-07-21 14:49:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17807,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 742,
+              "name": "Pierre Van Ryneveld",
+              "slug": "pierre-van-ryneveld",
+              "city_id": 43
+            },
+            {
+              "id": 5523,
+              "name": "Pierre Van Ryneveld Ext 4",
+              "slug": "pierre-van-ryneveld-ext-4",
+              "city_id": 43
+            }
+          ]
         },
         {
           "id": 17786,
