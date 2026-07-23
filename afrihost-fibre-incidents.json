@@ -7,6 +7,148 @@
     "notices": {
       "open": [
         {
+          "id": 17818,
+          "title": "Metrofibre outage | Morningside and Winderemere",
+          "description": "Metrofibre has informed us of a network outage affecting Morningside and Winderemere, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-23 09:59:21",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17818,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 83,
+              "name": "Morningside",
+              "slug": "morningside-1",
+              "city_id": 68
+            },
+            {
+              "id": 644,
+              "name": "Windermere",
+              "slug": "windermere",
+              "city_id": 68
+            }
+          ]
+        },
+        {
+          "id": 17817,
+          "title": "Linklayer outage | South Beach",
+          "description": "Linklayer has informed us of a network outage affecting South Beach, affected clients will experience limited to no connectivity. Linklayer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-23 09:46:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17817,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 1143,
+              "notice_id": 17817,
+              "content": "The technical team is currently onsite working to restore services to the affected area. Technicians are in the process of localising the fault to determine the exact location of the issue affecting the network.\n\nOnce the fault has been identified, repairs will commence immediately to restore services as quickly as possible",
+              "created_by_id": 33,
+              "created_at": "2026-07-23 11:24:51"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 68,
+              "name": "Durban",
+              "slug": "durban",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 363,
+              "name": "South Beach",
+              "slug": "south-beach",
+              "city_id": 68
+            }
+          ]
+        },
+        {
           "id": 17815,
           "title": "Frogfoot Outage | Scottsville",
           "description": "Frogfoot has informed us of a network outage affecting Scottsville, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -280,7 +422,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1142,
+              "notice_id": 17810,
+              "content": "Evotel technical team has confirmed that the network disruption was caused by a fibre cable that was accidentally damaged during maintenance work.\n\nThe civil works team is onsite carrying out the necessary repairs. Once completed, technicians will restore and test the affected section of the network to ensure stable connectivity",
+              "created_by_id": 33,
+              "created_at": "2026-07-23 11:23:58"
+            }
+          ],
           "provinces": [
             {
               "id": 8,
@@ -683,87 +833,6 @@
           ]
         },
         {
-          "id": 17797,
-          "title": "Octotel outage | Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna",
-          "description": "Octotel has informed us of a network outage affecting Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-07-19 21:57:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17797,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 217,
-              "name": "Plettenberg Bay",
-              "slug": "plettenberg-bay",
-              "province_id": 3
-            },
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 270,
-              "name": "Sedgefield",
-              "slug": "sedgefield",
-              "province_id": 3
-            },
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            },
-            {
-              "id": 301,
-              "name": "Klein Brak Rivier",
-              "slug": "klein-brak-rivier",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17757,
           "title": "Evotel outage | Upington",
           "description": "Evotel has informed us of a network outage affecting Upington, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -803,6 +872,13 @@
             }
           ],
           "updates": [
+            {
+              "id": 1141,
+              "notice_id": 17757,
+              "content": "Technicians are still conducting street-by-street checks to identify and resolve any remaining faults, ensuring that each affected client is restored as quickly as possible.",
+              "created_by_id": 33,
+              "created_at": "2026-07-23 11:20:00"
+            },
             {
               "id": 1140,
               "notice_id": 17757,
@@ -1042,6 +1118,63 @@
           ]
         },
         {
+          "id": 17819,
+          "title": "Vuma reach maintenance | Katlehong",
+          "description": "Vuma reach is conducting maintenance in Katlehong. on 2026/07/28 at 22:00 to 2026/07/29 at 04:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-23 11:31:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17819,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 28,
+              "name": "Katlehong",
+              "slug": "katlehong",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17793,
           "title": "Ocotel maintenance | Cape GateBrackenfell  Cape Gate, Kraaifontein, Pinehurst, Viking Village, Vredekloof, Welgelee",
           "description": "Ocotel is conducting maintenance in Brackenfell, Cape Gate, Kraaifontein, Pinehurst, Viking Village, Vredekloof, Welgelee on 23/07/2026 at 04:00  to 23/07/2026 at 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -1114,112 +1247,6 @@
               "name": "Vredekloof",
               "slug": "vredekloof",
               "city_id": 189
-            }
-          ]
-        },
-        {
-          "id": 17792,
-          "title": "Octotel maintenance | Rondebosch",
-          "description": "Octotel is conducting maintenance in Claremont, Harfield Village, Kenilworth, Newlands, Plumstead, Rondebosch, Rosebank, Wynberg on  21/07/2026 at 04:00  to  21/07/2026 at 06:00 , users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-07-17 16:35:11",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17792,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 516,
-              "name": "Rondebosch",
-              "slug": "rondebosch",
-              "city_id": 240
-            },
-            {
-              "id": 246,
-              "name": "Claremont",
-              "slug": "claremont",
-              "city_id": 240
-            },
-            {
-              "id": 676,
-              "name": "Kenilworth",
-              "slug": "kenilworth",
-              "city_id": 240
-            },
-            {
-              "id": 553,
-              "name": "Newlands",
-              "slug": "newlands-1",
-              "city_id": 240
-            },
-            {
-              "id": 817,
-              "name": "Plumstead",
-              "slug": "plumstead",
-              "city_id": 240
-            },
-            {
-              "id": 2020,
-              "name": "Rosebank",
-              "slug": "rosebank-1",
-              "city_id": 240
-            },
-            {
-              "id": 611,
-              "name": "Wynberg",
-              "slug": "wynberg",
-              "city_id": 240
-            },
-            {
-              "id": 3210,
-              "name": "Harfield Village",
-              "slug": "harfield-village",
-              "city_id": 240
             }
           ]
         },
@@ -1331,94 +1358,6 @@
               "id": 5279,
               "name": "Lawaaikamp",
               "slug": "lawaaikamp",
-              "city_id": 247
-            }
-          ]
-        },
-        {
-          "id": 17790,
-          "title": "Ocotel maintenance | George, Ballotsview, Conville, Pacaltsdorp, Parkdene, Sea View",
-          "description": "Ocotel is conducting maintenance in George, Ballotsview, Conville, Pacaltsdorp, Parkdene, Sea View on 21/07/2026 at 00:00 to 21/07/2026 at 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-07-17 16:09:25",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17790,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3831,
-              "name": "Ballots View",
-              "slug": "ballots-view",
-              "city_id": 247
-            },
-            {
-              "id": 3504,
-              "name": "Sea View",
-              "slug": "sea-view-1",
-              "city_id": 247
-            },
-            {
-              "id": 3741,
-              "name": "Parkdene",
-              "slug": "parkdene-1",
-              "city_id": 247
-            },
-            {
-              "id": 4914,
-              "name": "Conville",
-              "slug": "conville",
-              "city_id": 247
-            },
-            {
-              "id": 526,
-              "name": "Pacaltsdorp",
-              "slug": "pacaltsdorp",
               "city_id": 247
             }
           ]
@@ -2158,127 +2097,6 @@
           "suburbs": []
         },
         {
-          "id": 17787,
-          "title": "Frogfoot Outage | Scottsville",
-          "description": "Frogfoot has informed us of a network outage affecting Scottsville, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-07-17 10:56:05",
-          "should_notify": 0,
-          "created_at": "2026-07-17 09:10:42",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17787,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 907,
-              "name": "Scottsville",
-              "slug": "scottsville",
-              "city_id": 87
-            }
-          ]
-        },
-        {
-          "id": 17788,
-          "title": "Evotel outage | Randfontein",
-          "description": "Evotel has informed us of a network outage affecting Randfontein, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-07-19 17:57:18",
-          "should_notify": 0,
-          "created_at": "2026-07-17 14:42:54",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17788,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 14,
-              "name": "Randfontein",
-              "slug": "randfontein",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17795,
           "title": "Metrofibre Degraded Service | New Brighton, Cape St Francis, and Jeffrey's Bay",
           "description": "Metrofibre has informed us of a network outage affecting New Brighton, Cape St Francis, and Jeffrey's Bay; affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2417,6 +2235,87 @@
               "city_id": 48
             }
           ]
+        },
+        {
+          "id": 17797,
+          "title": "Octotel outage | Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna",
+          "description": "Octotel has informed us of a network outage affecting Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "July 21, 2026 at 8:40 AM\nDear ISP Partner,\n\nWe are observing services for Eden Diverse have restored and are testing stable.\n\nWe anticipate no further service disruptions.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-07-23 11:35:12",
+          "should_notify": 0,
+          "created_at": "2026-07-19 21:57:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17797,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 217,
+              "name": "Plettenberg Bay",
+              "slug": "plettenberg-bay",
+              "province_id": 3
+            },
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            },
+            {
+              "id": 270,
+              "name": "Sedgefield",
+              "slug": "sedgefield",
+              "province_id": 3
+            },
+            {
+              "id": 302,
+              "name": "Knysna",
+              "slug": "knysna",
+              "province_id": 3
+            },
+            {
+              "id": 301,
+              "name": "Klein Brak Rivier",
+              "slug": "klein-brak-rivier",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 17798,
@@ -2722,6 +2621,112 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 17792,
+          "title": "Octotel maintenance | Rondebosch",
+          "description": "Octotel is conducting maintenance in Claremont, Harfield Village, Kenilworth, Newlands, Plumstead, Rondebosch, Rosebank, Wynberg on  21/07/2026 at 04:00  to  21/07/2026 at 06:00 , users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": "Maintenance completed.",
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": "2026-07-23 11:35:39",
+          "should_notify": 0,
+          "created_at": "2026-07-17 16:35:11",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17792,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 516,
+              "name": "Rondebosch",
+              "slug": "rondebosch",
+              "city_id": 240
+            },
+            {
+              "id": 246,
+              "name": "Claremont",
+              "slug": "claremont",
+              "city_id": 240
+            },
+            {
+              "id": 676,
+              "name": "Kenilworth",
+              "slug": "kenilworth",
+              "city_id": 240
+            },
+            {
+              "id": 553,
+              "name": "Newlands",
+              "slug": "newlands-1",
+              "city_id": 240
+            },
+            {
+              "id": 817,
+              "name": "Plumstead",
+              "slug": "plumstead",
+              "city_id": 240
+            },
+            {
+              "id": 2020,
+              "name": "Rosebank",
+              "slug": "rosebank-1",
+              "city_id": 240
+            },
+            {
+              "id": 611,
+              "name": "Wynberg",
+              "slug": "wynberg",
+              "city_id": 240
+            },
+            {
+              "id": 3210,
+              "name": "Harfield Village",
+              "slug": "harfield-village",
+              "city_id": 240
+            }
+          ]
         }
       ]
     },
