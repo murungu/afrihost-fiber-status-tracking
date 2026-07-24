@@ -7,9 +7,123 @@
     "notices": {
       "open": [
         {
+          "id": 17834,
+          "title": "Openserve outage | Randfontein",
+          "description": "Openserve has informed us of a network outage affecting Randfontein, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-24 15:45:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17834,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 14,
+              "name": "Randfontein",
+              "slug": "randfontein",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17832,
+          "title": "Openserve outage | Radloff Park",
+          "description": "Openserve has informed us of a network outage affecting Radloff Park, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-07-24 14:40:23",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17832,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17828,
           "title": "Openserve outage | Azaadville",
-          "description": "Openserve has informed us of a network outage affecting Azaadville, affected clients will experience limited to no experience. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "description": "Openserve has informed us of a network outage affecting Azaadville, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
@@ -1594,16 +1708,16 @@
           ]
         },
         {
-          "id": 17832,
-          "title": "Openserve outage | Radloff Park",
-          "description": "Openserve has informed us of a network outage affecting Radloff Park, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 17833,
+          "title": "Mterofibre maintenance | The Paddocks, Broadacres",
+          "description": "Metrofibre is conducting maintenance in The Paddocks on 27/07/2026 at 08:00 to 31/07/2026 at 17:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 1,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-07-24 14:40:23",
+          "created_at": "2026-07-24 15:40:30",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1621,34 +1735,41 @@
           },
           "categories": [
             {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 17832,
-                "category_id": 14
+                "notice_id": 17833,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 81,
+              "name": "Broadacres",
+              "slug": "broadacres",
+              "city_id": 16
+            }
+          ]
         },
         {
           "id": 17831,
