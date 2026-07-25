@@ -925,63 +925,6 @@
           ]
         },
         {
-          "id": 17809,
-          "title": "Frogfoot Outage | George Central",
-          "description": "Frogfoot has informed us of a network outage affecting George Central , affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-07-21 15:07:03",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17809,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17806,
           "title": "Frogfoot Outage | Westbrook",
           "description": "Frogfoot has informed us of a network outage affecting Westbrook, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2440,87 +2383,6 @@
           "suburbs": []
         },
         {
-          "id": 17797,
-          "title": "Octotel outage | Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna",
-          "description": "Octotel has informed us of a network outage affecting Plettenberg Bay, George, Sedgefield, Kleinbrak and Knysna, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "July 21, 2026 at 8:40 AM\nDear ISP Partner,\n\nWe are observing services for Eden Diverse have restored and are testing stable.\n\nWe anticipate no further service disruptions.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-07-23 11:35:12",
-          "should_notify": 0,
-          "created_at": "2026-07-19 21:57:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17797,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 217,
-              "name": "Plettenberg Bay",
-              "slug": "plettenberg-bay",
-              "province_id": 3
-            },
-            {
-              "id": 247,
-              "name": "George",
-              "slug": "george",
-              "province_id": 3
-            },
-            {
-              "id": 270,
-              "name": "Sedgefield",
-              "slug": "sedgefield",
-              "province_id": 3
-            },
-            {
-              "id": 302,
-              "name": "Knysna",
-              "slug": "knysna",
-              "province_id": 3
-            },
-            {
-              "id": 301,
-              "name": "Klein Brak Rivier",
-              "slug": "klein-brak-rivier",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
-        {
           "id": 17798,
           "title": "Metrofibre Outage | Carlswald",
           "description": "Metrofibre has informed us of a network outage affecting Carlswald, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2767,6 +2629,63 @@
               "city_id": 43
             }
           ]
+        },
+        {
+          "id": 17809,
+          "title": "Frogfoot Outage | George Central",
+          "description": "Frogfoot has informed us of a network outage affecting George Central , affected clients will experience no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-07-25 14:21:49",
+          "should_notify": 0,
+          "created_at": "2026-07-21 15:07:03",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17809,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 247,
+              "name": "George",
+              "slug": "george",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 17810,
