@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 17928,
+          "title": "Vuma Reach outage | Phoenix",
+          "description": "Vuma Reach has informed us of a network outage affecting Phoenix, affected clients will experience no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-08-13 14:13:16",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17928,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 168,
+              "name": "Phoenix",
+              "slug": "phoenix",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 17926,
           "title": "Metrofibre outage | Kaalfontein",
           "description": "Metrofibre has informed us of a network outage affecting Kaalfontein, affected clients will experience no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
@@ -565,6 +622,81 @@
               "city_id": 50
             }
           ]
+        },
+        {
+          "id": 17927,
+          "title": "Vumatel maintenance | Hillcrest, Kloof, Umdloti and Ballito",
+          "description": "Vumatel is conducting maintenance in Hillcrest, Kloof, Umdloti and Ballito. on the 13th of August from 21:30 to the 14th of August at 06:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-08-13 14:08:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17927,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 156,
+              "name": "Hillcrest",
+              "slug": "hillcrest",
+              "province_id": 2
+            },
+            {
+              "id": 78,
+              "name": "Kloof",
+              "slug": "kloof",
+              "province_id": 2
+            },
+            {
+              "id": 176,
+              "name": "Umdloti",
+              "slug": "umdloti",
+              "province_id": 2
+            },
+            {
+              "id": 102,
+              "name": "Ballito",
+              "slug": "ballito",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
         }
       ],
       "closed": [
@@ -633,70 +765,6 @@
           ],
           "cities": [],
           "suburbs": []
-        },
-        {
-          "id": 17910,
-          "title": "Clear Access Outage | Eton Park",
-          "description": "Clear Access has informed us of a network outage affecting Eton Park, affected clients will experience limited to no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear residents of Eton Park\n\n \n\nWe're delighted to inform you that the issue has been resolved. All services are back online.\n\n \n\nClear Access Support\n\nKatlego Dichabe        \n\nTechnical Support",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-08-13 00:22:48",
-          "should_notify": 0,
-          "created_at": "2026-08-10 07:00:06",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 4,
-              "name": "Clear Access",
-              "slug": "clear-access",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 17910,
-                "category_id": 4
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 282,
-              "name": "Sandhurst",
-              "slug": "sandhurst",
-              "city_id": 16
-            }
-          ]
         },
         {
           "id": 17911,
@@ -1197,6 +1265,63 @@
               "name": "Nelspruit",
               "slug": "nelspruit",
               "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 17929,
+          "title": "Vumatel Reach Outage | Phoenix",
+          "description": "Vumatel Reach has informed us of a network outage affecting Phoenix, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-08-13 14:24:27",
+          "should_notify": 0,
+          "created_at": "2026-08-13 14:24:20",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17929,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 168,
+              "name": "Phoenix",
+              "slug": "phoenix",
+              "province_id": 2
             }
           ],
           "suburbs": []
