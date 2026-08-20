@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 17977,
+          "title": "Clear Access Outage | Braamfontein",
+          "description": "Clear Access has informed us of a network outage affecting Braamfontein, affected clients will experience limited to no connectivity. Clear Access engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-08-20 13:01:35",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 4,
+              "name": "Clear Access",
+              "slug": "clear-access",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 17977,
+                "category_id": 4
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 401,
+              "name": "Braamfontein",
+              "slug": "braamfontein",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 17976,
           "title": "Metrofibre Outage | Henlo Park",
           "description": "Metrofibre has informed us of a network outage affecting Henlo Park, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
