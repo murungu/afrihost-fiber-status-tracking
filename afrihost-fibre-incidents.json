@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 18051,
+          "title": "Metrofibre outage | Somerset Gardens",
+          "description": "Metrofibre has informed us of a network outage affecting Somerset Gardens, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-06 08:05:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18051,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 310,
+              "name": "Beverley",
+              "slug": "beverley",
+              "city_id": 16
+            }
+          ]
+        },
+        {
           "id": 18050,
           "title": "Vuma Reach outage | Braamfischerville",
           "description": "Vuma Reach has informed us of a network outage affecting Braamfischerville, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -67,76 +131,6 @@
               "name": "Bram Fischerville",
               "slug": "bram-fischerville",
               "city_id": 17
-            }
-          ]
-        },
-        {
-          "id": 18049,
-          "title": "Vumatel outage | Westdene and Melville",
-          "description": "Vumatel has informed us of a network outage affecting Westdene and Melville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-09-05 12:39:36",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18049,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 868,
-              "name": "Westdene",
-              "slug": "westdene-1",
-              "city_id": 8
-            },
-            {
-              "id": 918,
-              "name": "Melville",
-              "slug": "melville-1",
-              "city_id": 8
             }
           ]
         },
@@ -348,70 +342,6 @@
           "suburbs": []
         },
         {
-          "id": 18025,
-          "title": "Metrofibre maintenance | Edenburg",
-          "description": "Metrofibre is conducting maintenance in Edenburg on the 03/09/2026 to 04/09/2026 from 23:00 to 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-08-29 16:40:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18025,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 770,
-              "name": "Edenburg",
-              "slug": "edenburg",
-              "city_id": 16
-            }
-          ]
-        },
-        {
           "id": 18013,
           "title": "Metrofibre Maintenance | Montana",
           "description": "Metrofibre is conducting maintenance in Montana on the 31/08/2026 to 03/09/2026 from 22:00 to 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
@@ -477,63 +407,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 18037,
-          "title": "Frogfoot Outage | Acorn Creek",
-          "description": "Frogfoot has informed us of a network outage affecting Acorn Creek, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-09-04 10:27:24",
-          "should_notify": 0,
-          "created_at": "2026-09-02 19:18:34",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18037,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 306,
-              "name": "Macassar",
-              "slug": "macassar",
-              "province_id": 3
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 18038,
           "title": "Evotel| Middelburg",
@@ -1092,6 +965,76 @@
               "id": 868,
               "name": "Westdene",
               "slug": "westdene-1",
+              "city_id": 8
+            }
+          ]
+        },
+        {
+          "id": 18049,
+          "title": "Vumatel outage | Westdene and Melville",
+          "description": "Vumatel has informed us of a network outage affecting Westdene and Melville, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Outage resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-09-06 07:36:13",
+          "should_notify": 0,
+          "created_at": "2026-09-05 12:39:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18049,
+                "category_id": 18
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 868,
+              "name": "Westdene",
+              "slug": "westdene-1",
+              "city_id": 8
+            },
+            {
+              "id": 918,
+              "name": "Melville",
+              "slug": "melville-1",
               "city_id": 8
             }
           ]
