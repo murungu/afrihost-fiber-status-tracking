@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 18073,
+          "title": "Openserve Outage | Springfield Park & Durban North",
+          "description": "Openserve has informed us of a network outage affecting Springfield Park & Durban North, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-08 14:59:34",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18073,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 109,
+              "name": "Durban North",
+              "slug": "durban-north",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 18070,
           "title": "Metrofibre Outage | Amanzimtoti",
           "description": "Metrofibre has informed us of a network outage affecting Amanzimtoti, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -766,6 +823,13 @@
           ],
           "updates": [
             {
+              "id": 1158,
+              "notice_id": 18001,
+              "content": "Evotel technical team remains onsite continuing with restoration efforts. Further progress has been made, with additional clients successfully reconnected.\nThe team is currently working on the affected network infrastructure to address the remaining connectivity issues and restore service to more clients.",
+              "created_by_id": 12,
+              "created_at": "2026-09-08 14:20:27"
+            },
+            {
               "id": 1157,
               "notice_id": 18001,
               "content": "New feeder cables have been installed, and splicing will begin tonight. We have multiple teams on site, but this remains a labour intensive repair. We apologise for the extended down time, and we aim to have service restored as soon as possible.\n\nTeams are also travelling house-to-house assisting clients where possible. Technicians will call you directly if access to your property is necessary to complete repairs.",
@@ -816,6 +880,106 @@
               "province_id": 5
             }
           ],
+          "suburbs": []
+        },
+        {
+          "id": 18072,
+          "title": "FMAS Networks Maintenance | Western Cape",
+          "description": "FMAS Networks is conducting maintenance in the Western Cape on the 09/09/2026 from 22:00 to 23:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-08 14:43:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 35,
+              "name": "GAIA Fibonacci",
+              "slug": "fibonacci",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18072,
+                "category_id": 35
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
+        },
+        {
+          "id": 18071,
+          "title": "FibreSuburb Maintenance | Western Cape",
+          "description": "FibreSuburb is conducting maintenance in Western Cape on the 09/09/2026 from 22:00 to 23:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-08 14:41:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 36,
+              "name": "FibreSuburb Networks",
+              "slug": "fibresuburb",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18071,
+                "category_id": 36
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [],
           "suburbs": []
         },
         {
