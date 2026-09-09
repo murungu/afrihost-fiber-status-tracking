@@ -7,6 +7,127 @@
     "notices": {
       "open": [
         {
+          "id": 18080,
+          "title": "Metrofibre Outage | Clayville",
+          "description": "Metrofibre has informed us of a network outage affecting Clayville, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-09 13:36:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18080,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 13,
+              "name": "Olifantsfontein",
+              "slug": "olifantsfontein",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 612,
+              "name": "Clayville",
+              "slug": "clayville",
+              "city_id": 13
+            }
+          ]
+        },
+        {
+          "id": 18078,
+          "title": "Frogfoot Outage | Stellenbosch",
+          "description": "Frogfoot has informed us of a network outage affecting Stellenbosch, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-09 12:29:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18078,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 18076,
           "title": "Link Layer Outage | Ilalaridge",
           "description": "Link Layer has informed us of a network outage affecting Ilalaridge, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1072,6 +1193,136 @@
               "name": "The Links",
               "slug": "the-links",
               "city_id": 222
+            }
+          ]
+        },
+        {
+          "id": 18079,
+          "title": "Metrofibre Maintenance | Alberton, South Crest, Linmeyer, Elandspark, Birchleigh, Boksburg, Verwoerdpark, Modderfontein, and Kwa-Thema",
+          "description": "Metrofibre is conducting maintenance in Alberton, South Crest, Linmeyer, Elandspark, Birchleigh, Boksburg, Verwoerdpark, Modderfontein, and Kwa-Thema on the 09/09/2026 at 22:00 to 10/09/2026 at 05:00. Users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-09 13:33:58",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18079,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1
+            },
+            {
+              "id": 48,
+              "name": "Kempton Park",
+              "slug": "kempton-park",
+              "province_id": 1
+            },
+            {
+              "id": 37,
+              "name": "Springs",
+              "slug": "springs",
+              "province_id": 1
+            },
+            {
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
+            },
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            },
+            {
+              "id": 49,
+              "name": "Lethabong",
+              "slug": "lethabong",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 394,
+              "name": "Linmeyer",
+              "slug": "linmeyer",
+              "city_id": 8
+            },
+            {
+              "id": 860,
+              "name": "Elandspark",
+              "slug": "elandspark",
+              "city_id": 8
+            },
+            {
+              "id": 346,
+              "name": "South Crest",
+              "slug": "south-crest",
+              "city_id": 21
+            },
+            {
+              "id": 57,
+              "name": "Birchleigh",
+              "slug": "birchleigh",
+              "city_id": 48
+            },
+            {
+              "id": 190,
+              "name": "Verwoerdpark",
+              "slug": "verwoerdpark",
+              "city_id": 21
+            },
+            {
+              "id": 5917,
+              "name": "Modderfontein",
+              "slug": "modderfontein",
+              "city_id": 49
+            },
+            {
+              "id": 1618,
+              "name": "Kwa Thema",
+              "slug": "kwa-thema",
+              "city_id": 37
             }
           ]
         },
