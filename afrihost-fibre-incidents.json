@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 18081,
+          "title": "Openserve Outage | Hillbrow",
+          "description": "Openserve has informed us of a network outage affecting Hillbrow, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-10 05:57:29",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18081,
+                "category_id": 14
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1329,
+              "name": "Hillbrow",
+              "slug": "hillbrow",
+              "city_id": 8
+            }
+          ]
+        },
+        {
           "id": 18080,
           "title": "Metrofibre Outage | Clayville",
           "description": "Metrofibre has informed us of a network outage affecting Clayville, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -198,63 +262,6 @@
               "city_id": 95
             }
           ]
-        },
-        {
-          "id": 18075,
-          "title": "Metrofibre Outage | Nkwe Country Estate",
-          "description": "Metrofibre has informed us of a network outage affecting Nkwe Country Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-09-08 19:31:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18075,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 1,
-              "name": "Akasia",
-              "slug": "akasia",
-              "province_id": 1
-            }
-          ],
-          "suburbs": []
         },
         {
           "id": 18073,
@@ -1701,70 +1708,6 @@
       ],
       "closed": [
         {
-          "id": 18047,
-          "title": "FMAS outage | Naturena",
-          "description": "FMAS Networks has informed us of a network outage affecting Naturena, affected clients will experience limited to no connectivity. FMAS engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Update:Services have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-09-05 15:03:11",
-          "should_notify": 0,
-          "created_at": "2026-09-05 10:25:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 35,
-              "name": "GAIA Fibonacci",
-              "slug": "fibonacci",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18047,
-                "category_id": 35
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 600,
-              "name": "Naturena",
-              "slug": "naturena",
-              "city_id": 8
-            }
-          ]
-        },
-        {
           "id": 18048,
           "title": "Vumatel outage | Westdene",
           "description": "Vumatel has informed us of a network outage affecting Westdene, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2321,6 +2264,63 @@
               "name": "Witbank",
               "slug": "witbank",
               "province_id": 9
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 18075,
+          "title": "Metrofibre Outage | Nkwe Country Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Nkwe Country Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-09-10 06:13:03",
+          "should_notify": 0,
+          "created_at": "2026-09-08 19:31:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18075,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 1,
+              "name": "Akasia",
+              "slug": "akasia",
+              "province_id": 1
             }
           ],
           "suburbs": []
