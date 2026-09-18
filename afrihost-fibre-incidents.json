@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 18158,
+          "title": "Frogfoot| Athlone",
+          "description": "Frogfoot has informed us of a network outage affecting Athlone, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-09-18 12:09:09",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18158,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 101,
+              "name": "Amanzimtoti",
+              "slug": "amanzimtoti",
+              "province_id": 2
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 528,
+              "name": "Athlone Park",
+              "slug": "athlone-park",
+              "city_id": 101
+            }
+          ]
+        },
+        {
           "id": 18156,
           "title": "Openserve Outage | Fourways",
           "description": "Openserve has informed us of a network outage affecting Fourways, affected clients will experience no connectivity Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologise for any inconvenience caused.",
@@ -2945,16 +3009,16 @@
           "suburbs": []
         },
         {
-          "id": 18130,
-          "title": "Metrofibre maintenance | Umbilo",
-          "description": "Metrofibre is conducting maintenance in Umbilo on 2026/09/15 at 08:00 to 2026/09/15 at 15:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused",
-          "resolution": "Maintenance completed",
+          "id": 18157,
+          "title": "Frogfoot outage | Tenor",
+          "description": "Frogfoot has informed us of a network outage affecting Tenor, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
           "product_id": 2,
-          "impact_id": 1,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2026-09-15 17:07:13",
+          "resolved_at": "2026-09-18 11:46:09",
           "should_notify": 0,
-          "created_at": "2026-09-14 16:48:34",
+          "created_at": "2026-09-18 11:30:39",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -2964,49 +3028,42 @@
             "has_location": 1
           },
           "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 18130,
-                "category_id": 9
+                "notice_id": 18157,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 68,
-              "name": "Durban",
-              "slug": "durban",
-              "province_id": 2
+              "id": 22,
+              "name": "Boksburg",
+              "slug": "boksburg",
+              "province_id": 1
             }
           ],
-          "suburbs": [
-            {
-              "id": 566,
-              "name": "Umbilo",
-              "slug": "umbilo",
-              "city_id": 68
-            }
-          ]
+          "suburbs": []
         }
       ]
     },
