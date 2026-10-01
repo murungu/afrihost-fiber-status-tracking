@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 18209,
-          "title": "Metrofibre Outage | Riverside View",
-          "description": "Metrofibre has informed us of a network outage affecting Riverside View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 18210,
+          "title": "Openserve outage | Vanrhynsdorp and Vredendal",
+          "description": "Openserve has informed us of a network outage affecting Vanrhynsdorp and Vredendal, affected clients will experience limited to no connectivity.Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-09-30 12:12:19",
+          "created_at": "2026-10-01 01:28:15",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,41 +34,40 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 14,
+              "name": "Openserve",
+              "slug": "openserve",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 18209,
-                "category_id": 9
+                "notice_id": 18210,
+                "category_id": 14
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
             }
           ],
           "cities": [
             {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
+              "id": 323,
+              "name": "Vanrhynsdorp",
+              "slug": "vanrhynsdorp",
+              "province_id": 3
+            },
+            {
+              "id": 325,
+              "name": "Vredendal",
+              "slug": "vredendal",
+              "province_id": 3
             }
           ],
-          "suburbs": [
-            {
-              "id": 3882,
-              "name": "Diepsloot",
-              "slug": "diepsloot",
-              "city_id": 8
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 18206,
@@ -201,70 +200,6 @@
               "name": "Hatfield",
               "slug": "hatfield",
               "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 18190,
-          "title": "Frogfoot Outage | Beyers Park",
-          "description": "Frogfoot has informed us of a network outage affecting Beyers Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-09-28 11:24:59",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18190,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 22,
-              "name": "Boksburg",
-              "slug": "boksburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 449,
-              "name": "Beyerspark",
-              "slug": "beyerspark",
-              "city_id": 22
             }
           ]
         },
@@ -880,70 +815,6 @@
       ],
       "closed": [
         {
-          "id": 18195,
-          "title": "Frogfoot| New Germany",
-          "description": "Frogfoot has informed us of a network outage affecting New Germany, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Frogfoot Customer,\n\nThe following network outage has been resolved:\n\n\n\nOutage Reference\tFRG15736690\nOutage Title\tOutage | DBN | New Germany | Node | Degraded\nRegion\tDurban\nArea\tPinetown, Umhlanga\nPrecincts Affected\t\nIncident Start Date\t2026-09-28 11:35:00.0\nOutage Status\tOutage Resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-09-30 00:13:48",
-          "should_notify": 0,
-          "created_at": "2026-09-28 20:49:28",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18195,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 128,
-              "name": "Pinetown",
-              "slug": "pinetown",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 284,
-              "name": "New Germany",
-              "slug": "new-germany",
-              "city_id": 128
-            }
-          ]
-        },
-        {
           "id": 18196,
           "title": "Octotel Outage | Strand",
           "description": "Octotel has informed us of a network outage affecting Strand, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1488,6 +1359,70 @@
               "name": "Umbilo",
               "slug": "umbilo",
               "city_id": 68
+            }
+          ]
+        },
+        {
+          "id": 18209,
+          "title": "Metrofibre Outage | Riverside View",
+          "description": "Metrofibre has informed us of a network outage affecting Riverside View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear Valued Business Partner,\n\n \n\nPlease note that the fibre services in Riverside View Phase 1, Riversands have been restored.\n\n \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-01 03:10:17",
+          "should_notify": 0,
+          "created_at": "2026-09-30 12:12:19",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18209,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3882,
+              "name": "Diepsloot",
+              "slug": "diepsloot",
+              "city_id": 8
             }
           ]
         }
