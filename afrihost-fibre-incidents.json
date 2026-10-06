@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 18227,
-          "title": "Metrofibre Outage | Beaulieu Country Estate",
-          "description": "Metrofibre has informed us of a network outage affecting Beaulieu Country Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 18229,
+          "title": "Vumatel Reach Outage | Tshamahansi",
+          "description": "Vumatel Reach has informed us of a network outage affecting Tshamahansi, affected clients will experience limited . Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-10-06 14:04:37",
+          "created_at": "2026-10-06 20:49:28",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,41 +34,34 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 18227,
-                "category_id": 9
+                "notice_id": 18229,
+                "category_id": 27
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
+              "id": 4,
+              "name": "Limpopo",
+              "slug": "limpopo"
             }
           ],
           "cities": [
             {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
+              "id": 360,
+              "name": "Mokopane",
+              "slug": "mokopane",
+              "province_id": 4
             }
           ],
-          "suburbs": [
-            {
-              "id": 1729,
-              "name": "Beaulieu",
-              "slug": "beaulieu",
-              "city_id": 50
-            }
-          ]
+          "suburbs": []
         },
         {
           "id": 18226,
@@ -195,70 +188,6 @@
               "name": "South Crest",
               "slug": "south-crest",
               "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 18223,
-          "title": "Metrofibre Outage | Van Riebeeck Hoogte",
-          "description": "Metrofibre has informed us of a network outage affecting Van Riebeeck Hoogte, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-10-05 15:45:47",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18223,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 502,
-              "name": "Uitenhage",
-              "slug": "uitenhage",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1379,
-              "name": "Van Riebeeck Heights",
-              "slug": "van-riebeeck-heights",
-              "city_id": 502
             }
           ]
         },
@@ -481,6 +410,63 @@
               "city_id": 68
             }
           ]
+        },
+        {
+          "id": 18228,
+          "title": "Octotel Maintenance | Plettenberg Bay",
+          "description": "Octotel is conducting maintenance in Plettenberg Bay on the 08/10/2026 from 01:00 to 07:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-10-06 17:51:59",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18228,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 217,
+              "name": "Plettenberg Bay",
+              "slug": "plettenberg-bay",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
         },
         {
           "id": 18225,
@@ -723,133 +709,6 @@
             }
           ],
           "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 18209,
-          "title": "Metrofibre Outage | Riverside View",
-          "description": "Metrofibre has informed us of a network outage affecting Riverside View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Valued Business Partner,\n\n \n\nPlease note that the fibre services in Riverside View Phase 1, Riversands have been restored.\n\n \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-10-01 03:10:17",
-          "should_notify": 0,
-          "created_at": "2026-09-30 12:12:19",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18209,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3882,
-              "name": "Diepsloot",
-              "slug": "diepsloot",
-              "city_id": 8
-            }
-          ]
-        },
-        {
-          "id": 18210,
-          "title": "Openserve outage | Vanrhynsdorp and Vredendal",
-          "description": "Openserve has informed us of a network outage affecting Vanrhynsdorp and Vredendal, affected clients will experience limited to no connectivity.Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-10-03 04:08:35",
-          "should_notify": 0,
-          "created_at": "2026-10-01 01:28:15",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 14,
-              "name": "Openserve",
-              "slug": "openserve",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18210,
-                "category_id": 14
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 323,
-              "name": "Vanrhynsdorp",
-              "slug": "vanrhynsdorp",
-              "province_id": 3
-            },
-            {
-              "id": 325,
-              "name": "Vredendal",
-              "slug": "vredendal",
-              "province_id": 3
-            }
-          ],
           "suburbs": []
         },
         {
@@ -1215,6 +1074,134 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 18223,
+          "title": "Metrofibre Outage | Van Riebeeck Hoogte",
+          "description": "Metrofibre has informed us of a network outage affecting Van Riebeeck Hoogte, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-06 17:50:19",
+          "should_notify": 0,
+          "created_at": "2026-10-05 15:45:47",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18223,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 502,
+              "name": "Uitenhage",
+              "slug": "uitenhage",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1379,
+              "name": "Van Riebeeck Heights",
+              "slug": "van-riebeeck-heights",
+              "city_id": 502
+            }
+          ]
+        },
+        {
+          "id": 18227,
+          "title": "Metrofibre Outage | Beaulieu Country Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Beaulieu Country Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-06 17:50:08",
+          "should_notify": 0,
+          "created_at": "2026-10-06 14:04:37",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18227,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1729,
+              "name": "Beaulieu",
+              "slug": "beaulieu",
+              "city_id": 50
+            }
+          ]
         },
         {
           "id": 18216,
