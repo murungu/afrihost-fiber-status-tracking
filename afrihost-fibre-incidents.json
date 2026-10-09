@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 18239,
+          "title": "Evotel Outage | Kathu",
+          "description": "Evotel has informed us of a network outage affecting Kathu, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-10-09 08:34:39",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18239,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 5,
+              "name": "Northern Cape",
+              "slug": "northern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 374,
+              "name": "Kathu",
+              "slug": "kathu",
+              "province_id": 5
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 18238,
           "title": "Metrofibre Outage | Beaulieu Country Estate",
           "description": "Metrofibre has informed us of a network outage affecting Beaulieu Country Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -67,78 +124,6 @@
               "name": "Beaulieu",
               "slug": "beaulieu",
               "city_id": 50
-            }
-          ]
-        },
-        {
-          "id": 18236,
-          "title": "Octotel Outage | Ruyterwacht",
-          "description": "Octotel has informed us of a network outage affecting Ruyterwacht, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-10-08 17:40:10",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18236,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1168,
-              "notice_id": 18236,
-              "content": "Octotel engineers are in progress with the fibre resplicing to restore connectivity to those affected Clients. Certain Clients connections have been restored.",
-              "created_by_id": 12,
-              "created_at": "2026-10-08 19:50:34"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 240,
-              "name": "Cape Town",
-              "slug": "cape-town",
-              "province_id": 3
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 315,
-              "name": "Epping Industrial",
-              "slug": "epping-industrial",
-              "city_id": 240
             }
           ]
         },
@@ -400,70 +385,6 @@
           ]
         },
         {
-          "id": 18230,
-          "title": "Vuma Reach Outage | Algoa Park",
-          "description": "Vuma Reach has informed us of a network outage affecting Algoa Park, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-10-07 08:13:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18230,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 6,
-              "name": "Eastern Cape",
-              "slug": "eastern-cape"
-            }
-          ],
-          "cities": [
-            {
-              "id": 458,
-              "name": "Port Elizabeth",
-              "slug": "port-elizabeth",
-              "province_id": 6
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1520,
-              "name": "Algoa Park",
-              "slug": "algoa-park",
-              "city_id": 458
-            }
-          ]
-        },
-        {
           "id": 18222,
           "title": "Frogfoot Outage | Beyers Park",
           "description": "Frogfoot has informed us of a network outage affecting Beyers Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -524,92 +445,6 @@
               "name": "Beyerspark",
               "slug": "beyerspark",
               "city_id": 22
-            }
-          ]
-        },
-        {
-          "id": 18220,
-          "title": "Vumatel Outage | Honeydew Manor",
-          "description": "Vumatel has informed us of a network outage affecting Honeydew Manor, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-10-05 11:22:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18220,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18220,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18220,
-                "category_id": 15
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 35,
-              "name": "Roodepoort",
-              "slug": "roodepoort",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 814,
-              "name": "Honeydew Manor",
-              "slug": "honeydew-manor",
-              "city_id": 35
             }
           ]
         },
@@ -800,135 +635,6 @@
         }
       ],
       "closed": [
-        {
-          "id": 18219,
-          "title": "Ocotel outage | Western cape",
-          "description": "We are investigating reports of no connectivity affecting clients on the Octotel network . We are working on identifying and resolve this issue as quickly as possible. We apologize for any inconvenience that this may be causing.",
-          "resolution": "resolved",
-          "product_id": 2,
-          "impact_id": 4,
-          "expires_at": null,
-          "resolved_at": "2026-10-03 11:40:00",
-          "should_notify": 0,
-          "created_at": "2026-10-02 18:41:38",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 4,
-            "name": "High Impact",
-            "slug": "high-impact",
-            "description": "Severe problems",
-            "order": 3
-          },
-          "categories": [
-            {
-              "id": 12,
-              "name": "Octotel",
-              "slug": "octotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18219,
-                "category_id": 12
-              }
-            }
-          ],
-          "updates": [
-            {
-              "id": 1165,
-              "notice_id": 18219,
-              "content": "Outage resolved",
-              "created_by_id": 30,
-              "created_at": "2026-10-03 11:39:54"
-            },
-            {
-              "id": 1164,
-              "notice_id": 18219,
-              "content": "Afrihost network and system engineers are still working on the ongoing outage affecting some Octotel clients in the Western Cape. We apologise for the inconvenience caused.",
-              "created_by_id": 30,
-              "created_at": "2026-10-03 08:57:13"
-            }
-          ],
-          "provinces": [
-            {
-              "id": 3,
-              "name": "Western Cape",
-              "slug": "western-cape"
-            }
-          ],
-          "cities": [],
-          "suburbs": []
-        },
-        {
-          "id": 18218,
-          "title": "Metrofibre outage | Clarendon",
-          "description": "Metrofibre has informed us of a network outage affecting Clarendon, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
-          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Clarendon Free Standing Houses, Clarendon, Pietermaritzburg have been restored. \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-10-03 04:01:43",
-          "should_notify": 0,
-          "created_at": "2026-10-01 21:11:57",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18218,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 87,
-              "name": "Pietermaritzburg",
-              "slug": "pietermaritzburg",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2151,
-              "name": "Clarendon",
-              "slug": "clarendon",
-              "city_id": 87
-            }
-          ]
-        },
         {
           "id": 18221,
           "title": "Metrofibre Outage | Edenvale",
@@ -1298,6 +1004,142 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 18230,
+          "title": "Vuma Reach Outage | Algoa Park",
+          "description": "Vuma Reach has informed us of a network outage affecting Algoa Park, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "All services have restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-09 02:32:12",
+          "should_notify": 0,
+          "created_at": "2026-10-07 08:13:46",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18230,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1520,
+              "name": "Algoa Park",
+              "slug": "algoa-park",
+              "city_id": 458
+            }
+          ]
+        },
+        {
+          "id": 18236,
+          "title": "Octotel Outage | Ruyterwacht",
+          "description": "Octotel has informed us of a network outage affecting Ruyterwacht, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear ISP Partner.\n\nOctotel engineers have completed the fibre repairs works. Please have those customers still offline reboot their ONT and routers and retest the connection.\n\nOctotel sincerely apologises for any inconvenience caused and appreciates your patience during the repair process.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-09 02:29:05",
+          "should_notify": 0,
+          "created_at": "2026-10-08 17:40:10",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18236,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [
+            {
+              "id": 1168,
+              "notice_id": 18236,
+              "content": "Octotel engineers are in progress with the fibre resplicing to restore connectivity to those affected Clients. Certain Clients connections have been restored.",
+              "created_by_id": 12,
+              "created_at": "2026-10-08 19:50:34"
+            }
+          ],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 315,
+              "name": "Epping Industrial",
+              "slug": "epping-industrial",
+              "city_id": 240
+            }
+          ]
         },
         {
           "id": 18231,
