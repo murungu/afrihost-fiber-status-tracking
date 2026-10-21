@@ -7,6 +7,191 @@
     "notices": {
       "open": [
         {
+          "id": 18313,
+          "title": "Frogfoot Outage | Menlo Park",
+          "description": "Frogfoot has informed us of a network outage affecting Menlo Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-10-21 11:36:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18313,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 351,
+              "name": "Menlo Park",
+              "slug": "menlo-park",
+              "city_id": 33
+            }
+          ]
+        },
+        {
+          "id": 18312,
+          "title": "Octotel Outage | Cape Gate",
+          "description": "Octotel has informed us of a network outage affecting Cape Gate, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-10-21 09:24:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18312,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 18310,
+          "title": "Octotel outage | Kraaifontein",
+          "description": "Octotel has informed us of a network outage affecting Kraaifontein, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-10-21 07:45:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18310,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 303,
+              "name": "Kraaifontein",
+              "slug": "kraaifontein",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3038,
+              "name": "Eikendal",
+              "slug": "eikendal",
+              "city_id": 303
+            }
+          ]
+        },
+        {
           "id": 18309,
           "title": "Openserve outage | Newlands",
           "description": "Openserve has informed us of a network outage affecting Newlands, affected clients will experience limited to no connectivity. Openserve engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -237,7 +422,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1175,
+              "notice_id": 18306,
+              "content": "Evotel's technical team is back on site, continuing with restoration efforts to address the remaining network faults. While most clients have been restored, work remains ongoing to reconnect the outstanding affected connections. We sincerely apologise for any inconvenience caused.",
+              "created_by_id": 12,
+              "created_at": "2026-10-21 11:37:55"
+            }
+          ],
           "provinces": [
             {
               "id": 9,
@@ -1509,70 +1702,6 @@
       ],
       "closed": [
         {
-          "id": 18281,
-          "title": "Evotel outage | Protea Park",
-          "description": "Evotel has informed us of a network outage affecting Protea Park , affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Protea Park\n\nReason for Outage: Cable damage due to municipal pipe repairs.\n\nService to your area has been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-10-18 21:55:40",
-          "should_notify": 0,
-          "created_at": "2026-10-16 14:33:13",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18281,
-                "category_id": 6
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 8,
-              "name": "North West",
-              "slug": "north-west"
-            }
-          ],
-          "cities": [
-            {
-              "id": 632,
-              "name": "Rustenburg",
-              "slug": "rustenburg",
-              "province_id": 8
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 140,
-              "name": "Protea Park",
-              "slug": "protea-park",
-              "city_id": 632
-            }
-          ]
-        },
-        {
           "id": 18282,
           "title": "Vuma Reach outage | Reeston",
           "description": "Vuma Reach has informed us of a network outage affecting Reeston , affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -2126,6 +2255,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 18311,
+          "title": "Vuma Reach outage | Motherwell",
+          "description": "Vuma Reach has informed us of a network outage affecting Motherwell, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Services have been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-21 11:36:43",
+          "should_notify": 0,
+          "created_at": "2026-10-21 08:57:24",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18311,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 6,
+              "name": "Eastern Cape",
+              "slug": "eastern-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 458,
+              "name": "Port Elizabeth",
+              "slug": "port-elizabeth",
+              "province_id": 6
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1223,
+              "name": "Motherwell",
+              "slug": "motherwell",
+              "city_id": 458
+            }
+          ]
         }
       ]
     },
