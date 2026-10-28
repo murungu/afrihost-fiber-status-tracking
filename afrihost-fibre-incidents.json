@@ -7,6 +7,63 @@
     "notices": {
       "open": [
         {
+          "id": 18357,
+          "title": "Metrofibre outage | La Mercy & Buffelsdale",
+          "description": "Metrofibre has informed us of a network outage affecting La Mercy & Buffelsdale, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-10-28 08:33:57",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18357,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 120,
+              "name": "La Mercy",
+              "slug": "la-mercy",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
           "id": 18356,
           "title": "Metrofibre Outage | Wierdapark",
           "description": "Metrofibre has informed us of a network outage affecting Wierdapark, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -126,70 +183,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 18353,
-          "title": "Metrofibre Outage | Carlswald North Lifestyle Estate",
-          "description": "Metrofibre has informed us of a network outage affecting Carlswald North Lifestyle Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-10-27 12:45:45",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18353,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1767,
-              "name": "Carlswald North Estate",
-              "slug": "carlswald-north-estate",
-              "city_id": 50
-            }
-          ]
         },
         {
           "id": 18352,
@@ -1255,70 +1248,6 @@
       ],
       "closed": [
         {
-          "id": 18339,
-          "title": "Frogfoot outage | Sherwood Gardens",
-          "description": "Frogfoot has informed us of a network outage affecting Sherwood Gardens, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Frogfoot Customer,\n\nThe following network outage has been resolved:\n\n\n\nOutage Reference\tFRG16446527\nOutage Title\tOutage | JHB | Oaklandestate | Node | Down\nRegion\tJohannesburg\nArea\tRynfield, Kempton Park\nPrecincts Affected\t\nIncident Start Date\t2026-10-24 21:00:00.0\nOutage Status\tOutage Resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-10-26 01:28:43",
-          "should_notify": 0,
-          "created_at": "2026-10-24 22:33:30",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18339,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 42,
-              "name": "Brakpan",
-              "slug": "brakpan",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1131,
-              "name": "Sherwood Gardens",
-              "slug": "sherwood-gardens",
-              "city_id": 42
-            }
-          ]
-        },
-        {
           "id": 18340,
           "title": "Frogfoot outage | Amanzimtoti",
           "description": "Frogfoot has informed us of a network outage affecting Amanzimtoti, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1866,6 +1795,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 18353,
+          "title": "Metrofibre Outage | Carlswald North Lifestyle Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Carlswald North Lifestyle Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Service has been restored",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-28 08:27:38",
+          "should_notify": 0,
+          "created_at": "2026-10-27 12:45:45",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18353,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1767,
+              "name": "Carlswald North Estate",
+              "slug": "carlswald-north-estate",
+              "city_id": 50
+            }
+          ]
         }
       ]
     },
