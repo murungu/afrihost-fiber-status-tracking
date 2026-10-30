@@ -7,6 +7,70 @@
     "notices": {
       "open": [
         {
+          "id": 18375,
+          "title": "Evotel outage | Riebeeckstad",
+          "description": "Evotel has informed us of a network outage affecting Riebeeckstad, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-10-30 08:14:30",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18375,
+                "category_id": 6
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 7,
+              "name": "Free State",
+              "slug": "free-state"
+            }
+          ],
+          "cities": [
+            {
+              "id": 594,
+              "name": "Welkom",
+              "slug": "welkom",
+              "province_id": 7
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 376,
+              "name": "Riebeeckstad",
+              "slug": "riebeeckstad",
+              "city_id": 594
+            }
+          ]
+        },
+        {
           "id": 18373,
           "title": "Metrofibre outage | Hillside, Beaufort West",
           "description": "Metrofibre has informed us of a network outage affecting Hillside, Beaufort West, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
@@ -1041,371 +1105,9 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 18323,
-          "title": "Vumatel & Reach Maintenance | Vorna Valley, Louistrichardt, Atteridgeville, Tzaneen, Protea Glen & Alexandra",
-          "description": "Vumatel & Reach is conducting maintenance in Vorna Valley, Louistrichardt, Atteridgeville, Tzaneen, Protea Glen & Alexandra on 2026/10/29 from 02:00 to 05:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-10-22 11:17:40",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18323,
-                "category_id": 18
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18323,
-                "category_id": 15
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18323,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18323,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            },
-            {
-              "id": 17,
-              "name": "Soweto",
-              "slug": "soweto",
-              "province_id": 1
-            },
-            {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
-              "province_id": 1
-            },
-            {
-              "id": 352,
-              "name": "Tzaneen",
-              "slug": "tzaneen",
-              "province_id": 4
-            },
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            },
-            {
-              "id": 43,
-              "name": "Centurion",
-              "slug": "centurion",
-              "province_id": 1
-            },
-            {
-              "id": 358,
-              "name": "Louis Trichardt",
-              "slug": "louis-trichardt",
-              "province_id": 4
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 391,
-              "name": "Vorna Valley",
-              "slug": "vorna-valley",
-              "city_id": 50
-            },
-            {
-              "id": 463,
-              "name": "Protea Glen",
-              "slug": "protea-glen",
-              "city_id": 17
-            },
-            {
-              "id": 3326,
-              "name": "Alexandra",
-              "slug": "alexandra",
-              "city_id": 8
-            },
-            {
-              "id": 3557,
-              "name": "Atteridgeville & Ext",
-              "slug": "atteridgeville-ext",
-              "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 18322,
-          "title": "Vumatel & Reach Maintenance | Parys, Riverside, Kroonstad, Mookgopong, Norkem Park, Fourways & Casseldale",
-          "description": "Vumatel & Reach is conducting maintenance in Parys, Riverside, Kroonstad, Mookgopong, Norkem Park, Fourways & Casseldale on 2026/10/28 at 23:00 to 2026/10/29 at 02:00, users affected will experience limited to no connectivity during the maintenance window. We apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 1,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-10-22 10:51:29",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 1,
-            "name": "Maintenance",
-            "slug": "maintenance",
-            "description": "Maintenance",
-            "order": 0
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18322,
-                "category_id": 27
-              }
-            },
-            {
-              "id": 24,
-              "name": "Vumatel Aerial",
-              "slug": "vuma-aerial",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18322,
-                "category_id": 24
-              }
-            },
-            {
-              "id": 15,
-              "name": "Vuma Villages",
-              "slug": "vuma-villages",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18322,
-                "category_id": 15
-              }
-            },
-            {
-              "id": 18,
-              "name": "Vumatel",
-              "slug": "vumatel",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18322,
-                "category_id": 18
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            },
-            {
-              "id": 7,
-              "name": "Free State",
-              "slug": "free-state"
-            },
-            {
-              "id": 4,
-              "name": "Limpopo",
-              "slug": "limpopo"
-            }
-          ],
-          "cities": [
-            {
-              "id": 335,
-              "name": "Mookgopong",
-              "slug": "mookgopong",
-              "province_id": 4
-            },
-            {
-              "id": 580,
-              "name": "Kroonstad",
-              "slug": "kroonstad",
-              "province_id": 7
-            },
-            {
-              "id": 16,
-              "name": "Sandton",
-              "slug": "sandton",
-              "province_id": 1
-            },
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            },
-            {
-              "id": 37,
-              "name": "Springs",
-              "slug": "springs",
-              "province_id": 1
-            },
-            {
-              "id": 556,
-              "name": "Parys",
-              "slug": "parys",
-              "province_id": 7
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 40,
-              "name": "Fourways",
-              "slug": "fourways",
-              "city_id": 16
-            },
-            {
-              "id": 149,
-              "name": "Norkem Park",
-              "slug": "norkem-park",
-              "city_id": 48
-            },
-            {
-              "id": 432,
-              "name": "Casseldale",
-              "slug": "casseldale",
-              "city_id": 37
-            }
-          ]
         }
       ],
       "closed": [
-        {
-          "id": 18349,
-          "title": "Metrofibre Outage | Isipingo Beach",
-          "description": "Metrofibre has informed us of a network outage affecting Isipingo Beach, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Service has been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-10-26 20:54:00",
-          "should_notify": 0,
-          "created_at": "2026-10-26 17:55:46",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18349,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 158,
-              "name": "Isipingo",
-              "slug": "isipingo",
-              "province_id": 2
-            }
-          ],
-          "suburbs": []
-        },
         {
           "id": 18350,
           "title": "Metrofibre outage |  Umhlanga Rocks",
@@ -1960,6 +1662,70 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 18374,
+          "title": "Metrofibre outage | Wonderpark Lifestyle Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Wonderpark Lifestyle Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-10-30 07:46:47",
+          "should_notify": 0,
+          "created_at": "2026-10-30 06:10:43",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18374,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 13,
+              "name": "Pretoria North",
+              "slug": "pretoria-north",
+              "city_id": 33
+            }
+          ]
         }
       ]
     },
