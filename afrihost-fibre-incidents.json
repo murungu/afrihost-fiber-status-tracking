@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 18422,
-          "title": "Link Layer Outage | Inanda",
-          "description": "Link Layer has informed us of a network outage affecting Inanda, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 18425,
+          "title": "Frogfoot outage | Florentia",
+          "description": "Frogfoot has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-11-11 08:08:06",
+          "created_at": "2026-11-11 16:12:33",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -34,34 +34,111 @@
           },
           "categories": [
             {
-              "id": 30,
-              "name": "Link Layer",
-              "slug": "link-layer",
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 18422,
-                "category_id": 30
+                "notice_id": 18425,
+                "category_id": 7
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 156,
-              "name": "Hillcrest",
-              "slug": "hillcrest",
-              "province_id": 2
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 584,
+              "name": "Florentia",
+              "slug": "florentia",
+              "city_id": 21
+            }
+          ]
+        },
+        {
+          "id": 18424,
+          "title": "Metrofibre outage | Beaulieu Country Estate",
+          "description": "Metrofibre has informed us of a network outage affecting Beaulieu Country Estate and Blue Hills Country Estate, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-11-11 16:07:38",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18424,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1729,
+              "name": "Beaulieu",
+              "slug": "beaulieu",
+              "city_id": 50
+            },
+            {
+              "id": 645,
+              "name": "Blue Hills",
+              "slug": "blue-hills",
+              "city_id": 50
+            }
+          ]
         },
         {
           "id": 18421,
@@ -685,140 +762,6 @@
       ],
       "closed": [
         {
-          "id": 18403,
-          "title": "Frogfoot outage | Rynfield",
-          "description": "Frogfoot has informed us of a network outage affecting Rynfield, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Dear Frogfoot Customer,\n\nThe following network outage has been resolved:\n\nOutage Reference\tFRG16953970\nOutage Title\tOutage | JHB | Villasantika | OLT 1 | Partial\nRegion\tJohannesburg\nArea\tRynfield\nPrecincts Affected\t\nIncident Start Date\t2026-11-08 04:42:00.0\nOutage Status\tOutage Resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-11-09 09:35:47",
-          "should_notify": 0,
-          "created_at": "2026-11-08 05:55:41",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18403,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 111,
-              "name": "Rynfield",
-              "slug": "rynfield",
-              "city_id": 2
-            }
-          ]
-        },
-        {
-          "id": 18404,
-          "title": "Frogfoot outage | Shelly and Uvongo beach",
-          "description": "Frogfoot has informed us of a network outage affecting Shelly and Uvongo beach, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Outage Reference\tFRG16955890\nOutage Title\tOutage | DBN | Shelly Beach | OLT 1 | LC 3 | Down\nRegion\tDurban\nArea\t\nPrecincts Affected\t\nIncident Start Date\t2026-11-08 00:17:00.0\nOutage Status\tOutage Resolved",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-11-10 14:14:59",
-          "should_notify": 0,
-          "created_at": "2026-11-08 11:27:58",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18404,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
-            }
-          ],
-          "cities": [
-            {
-              "id": 81,
-              "name": "Margate",
-              "slug": "margate",
-              "province_id": 2
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 10,
-              "name": "Shelly Beach",
-              "slug": "shelly-beach",
-              "city_id": 81
-            },
-            {
-              "id": 3,
-              "name": "Uvongo",
-              "slug": "uvongo",
-              "city_id": 81
-            }
-          ]
-        },
-        {
           "id": 18405,
           "title": "Metrofibre outage | Merewent",
           "description": "Metrofibre has informed us of a network outage affecting Merewent, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
@@ -1325,6 +1268,127 @@
               "name": "Umtentweni",
               "slug": "umtentweni",
               "city_id": 129
+            }
+          ]
+        },
+        {
+          "id": 18422,
+          "title": "Link Layer Outage | Inanda",
+          "description": "Link Layer has informed us of a network outage affecting Inanda, affected clients will experience limited to no connectivity. Link Layer engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "🚨LinkLayer Notice 🚨\n\nInanda\n\nReason for Outage: Under investigation\n\nService to your area has been restored. Thank you for your patience.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-11-11 17:44:48",
+          "should_notify": 0,
+          "created_at": "2026-11-11 08:08:06",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 30,
+              "name": "Link Layer",
+              "slug": "link-layer",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18422,
+                "category_id": 30
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 156,
+              "name": "Hillcrest",
+              "slug": "hillcrest",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 18423,
+          "title": "Vuma Reach outage | Soshanguve",
+          "description": "Vuma Reach has informed us of a network outage affecting Soshanguve, affected clients will experience limited to no connectivity. Vuma Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Services have restored.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-11-11 17:44:00",
+          "should_notify": 0,
+          "created_at": "2026-11-11 15:59:07",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 27,
+              "name": "Vuma Reach",
+              "slug": "vuma-reach",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18423,
+                "category_id": 27
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 33,
+              "name": "Pretoria",
+              "slug": "pretoria",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 29,
+              "name": "Soshanguve",
+              "slug": "soshanguve",
+              "city_id": 33
             }
           ]
         }
