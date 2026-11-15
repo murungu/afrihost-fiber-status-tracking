@@ -7,8 +7,136 @@
     "notices": {
       "open": [
         {
+          "id": 18441,
+          "title": "Unifybr| Halfway Parks and Apex Estate",
+          "description": "Unifybr has informed us of a network outage affecting Halfway Parks and Apex Estate, affected clients will experience limited to no connectivity. Unifybr engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-11-15 15:10:14",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 40,
+              "name": "Unifybr",
+              "slug": "unifybr",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18441,
+                "category_id": 40
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 355,
+              "name": "Halfway Gardens",
+              "slug": "halfway-gardens",
+              "city_id": 50
+            }
+          ]
+        },
+        {
+          "id": 18440,
+          "title": "Octotel| Gugulethu node",
+          "description": "Octotel has informed us of a network outage affecting Gugulethu, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-11-15 08:47:36",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 12,
+              "name": "Octotel",
+              "slug": "octotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18440,
+                "category_id": 12
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 240,
+              "name": "Cape Town",
+              "slug": "cape-town",
+              "province_id": 3
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 3925,
+              "name": "Guguletu",
+              "slug": "guguletu",
+              "city_id": 240
+            }
+          ]
+        },
+        {
           "id": 18439,
-          "title": "Octotel| Ruyterwacht",
+          "title": "Octotel| Ruyterwacht Node",
           "description": "Octotel has informed us of a network outage affecting Ruyterwacht, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
           "resolution": null,
           "product_id": 2,
@@ -45,7 +173,15 @@
               }
             }
           ],
-          "updates": [],
+          "updates": [
+            {
+              "id": 1179,
+              "notice_id": 18439,
+              "content": "Areas affected: Parow, Ravensmead, Uitsig, Elsies River, Cravenby, Matroosfontein and Bellville. Octotel Engineers are investigating. Kindly await further updates",
+              "created_by_id": 12,
+              "created_at": "2026-11-15 08:07:56"
+            }
+          ],
           "provinces": [
             {
               "id": 3,
