@@ -7,16 +7,16 @@
     "notices": {
       "open": [
         {
-          "id": 18523,
-          "title": "Evotel outage | Verulam",
-          "description": "Evotel has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 18530,
+          "title": "Metrofibre outage | Lonehill and Kyalami",
+          "description": "Metrofibre has informed us of a network outage affecting Lonehill and Kyalami, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-11-25 14:56:50",
+          "created_at": "2026-11-25 20:51:43",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -40,8 +40,84 @@
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 18523,
+                "notice_id": 18530,
                 "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            },
+            {
+              "id": 50,
+              "name": "Midrand",
+              "slug": "midrand",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 60,
+              "name": "Lonehill",
+              "slug": "lonehill",
+              "city_id": 16
+            },
+            {
+              "id": 243,
+              "name": "Kyalami",
+              "slug": "kyalami",
+              "city_id": 50
+            }
+          ]
+        },
+        {
+          "id": 18527,
+          "title": "Evotel outage | Verulam",
+          "description": "Evotel has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-11-25 18:25:26",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 6,
+              "name": "Evotel",
+              "slug": "evotel",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18527,
+                "category_id": 6
               }
             }
           ],
@@ -64,16 +140,16 @@
           "suburbs": []
         },
         {
-          "id": 18521,
-          "title": "Metrofibre outage | Booysens",
-          "description": "Metrofibre has informed us of a network outage affecting Booysens, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "id": 18526,
+          "title": "Vumatel outage | Brakpan",
+          "description": "Vumatel has informed us of a network outage affecting Brakpan, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
           "resolution": null,
           "product_id": 2,
           "impact_id": 3,
           "expires_at": null,
           "resolved_at": null,
           "should_notify": 0,
-          "created_at": "2026-11-25 12:30:55",
+          "created_at": "2026-11-25 18:01:47",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -91,14 +167,14 @@
           },
           "categories": [
             {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
+              "id": 18,
+              "name": "Vumatel",
+              "slug": "vumatel",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 18521,
-                "category_id": 9
+                "notice_id": 18526,
+                "category_id": 18
               }
             }
           ],
@@ -112,18 +188,132 @@
           ],
           "cities": [
             {
-              "id": 8,
-              "name": "Johannesburg",
-              "slug": "johannesburg",
+              "id": 42,
+              "name": "Brakpan",
+              "slug": "brakpan",
               "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 18525,
+          "title": "Frogfoot outage | Tweespruit",
+          "description": "Frogfoot has informed us of a network outage affecting Tweespruit, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-11-25 17:41:02",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18525,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 18524,
+          "title": "Frogfoot outage |  Nuutgevonden",
+          "description": "Frogfoot has informed us of a network outage affecting Nuutgevonden, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-11-25 17:14:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 7,
+              "name": "Frogfoot",
+              "slug": "frogfoot",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18524,
+                "category_id": 7
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 3,
+              "name": "Western Cape",
+              "slug": "western-cape"
+            }
+          ],
+          "cities": [
+            {
+              "id": 223,
+              "name": "Stellenbosch",
+              "slug": "stellenbosch",
+              "province_id": 3
             }
           ],
           "suburbs": [
             {
-              "id": 1553,
-              "name": "Booysens",
-              "slug": "booysens-1",
-              "city_id": 8
+              "id": 1454,
+              "name": "Nuutgevonden",
+              "slug": "nuutgevonden",
+              "city_id": 223
             }
           ]
         },
@@ -456,146 +646,6 @@
             }
           ],
           "suburbs": []
-        },
-        {
-          "id": 18509,
-          "title": "Frogfoot outage | Kempton Park",
-          "description": "Frogfoot has informed us of a network outage affecting Kempton Park, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-11-23 22:21:20",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 7,
-              "name": "Frogfoot",
-              "slug": "frogfoot",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18509,
-                "category_id": 7
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 48,
-              "name": "Kempton Park",
-              "slug": "kempton-park",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 28,
-              "name": "Glen Marais",
-              "slug": "glen-marais",
-              "city_id": 48
-            },
-            {
-              "id": 149,
-              "name": "Norkem Park",
-              "slug": "norkem-park",
-              "city_id": 48
-            },
-            {
-              "id": 112,
-              "name": "Terenure",
-              "slug": "terenure",
-              "city_id": 48
-            }
-          ]
-        },
-        {
-          "id": 18508,
-          "title": "Metrofibre Outage | Kaalfontein",
-          "description": "Metrofibre has informed us of a network outage affecting Kaalfontein, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-11-23 16:45:27",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18508,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 50,
-              "name": "Midrand",
-              "slug": "midrand",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 2448,
-              "name": "Kaalfontein",
-              "slug": "kaalfontein",
-              "city_id": 50
-            }
-          ]
         },
         {
           "id": 18501,
@@ -1061,262 +1111,6 @@
       ],
       "closed": [
         {
-          "id": 18502,
-          "title": "Metrofibre| Hermanstad",
-          "description": "`Metrofibre has informed us of a network outage affecting Hermanstad, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
-          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Hermanstad have been restored. \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-11-25 15:01:09",
-          "should_notify": 0,
-          "created_at": "2026-11-23 07:24:03",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18502,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 33,
-              "name": "Pretoria",
-              "slug": "pretoria",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 760,
-              "name": "Hermanstad",
-              "slug": "hermanstad",
-              "city_id": 33
-            }
-          ]
-        },
-        {
-          "id": 18503,
-          "title": "FMAS Network | Ascot, Crystal Park",
-          "description": "`FMAS Network has informed us of a network outage affecting Ascot, Crystal Park, affected clients will experience limited to no connectivity. FMAS Network engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
-          "resolution": "Dear Valued ISP,\n\nPlease be advised of the following:\n\nLocation: Ascot\n               Crystal Park\n                         \nIssue Desc: Link Down\n\nUpdate: Services have been restored.",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-11-25 15:02:04",
-          "should_notify": 0,
-          "created_at": "2026-11-23 07:31:18",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 35,
-              "name": "GAIA Fibonacci",
-              "slug": "fibonacci",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18503,
-                "category_id": 35
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 2,
-              "name": "Benoni",
-              "slug": "benoni",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 421,
-              "name": "Crystal Park",
-              "slug": "crystal-park",
-              "city_id": 2
-            }
-          ]
-        },
-        {
-          "id": 18504,
-          "title": "`FMAS Network| Eden Park",
-          "description": "`FMAS Network has informed us of a network outage affecting Eden Park, affected clients will experience limited to no connectivity. FMAS Network engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-11-23 10:16:10",
-          "should_notify": 0,
-          "created_at": "2026-11-23 10:02:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 35,
-              "name": "GAIA Fibonacci",
-              "slug": "fibonacci",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18504,
-                "category_id": 35
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 3897,
-              "name": "Eden Park",
-              "slug": "eden-park",
-              "city_id": 21
-            }
-          ]
-        },
-        {
-          "id": 18507,
-          "title": "Vumatel Reach Outage | Geluksdal",
-          "description": "Vumatel Reach has informed us of a network outage affecting Geluksdal, affected clients will experience limited to no connectivity. Vumatel Reach engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Generator installed. OLT is back up",
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": "2026-11-25 15:03:56",
-          "should_notify": 0,
-          "created_at": "2026-11-23 13:28:21",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 27,
-              "name": "Vuma Reach",
-              "slug": "vuma-reach",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18507,
-                "category_id": 27
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 42,
-              "name": "Brakpan",
-              "slug": "brakpan",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 1736,
-              "name": "Geluksdal",
-              "slug": "geluksdal",
-              "city_id": 42
-            }
-          ]
-        },
-        {
           "id": 18510,
           "title": "Vumatel outage | Glenvista",
           "description": "Vumatel has informed us of a network outage affecting Glenvista, affected clients will experience limited to no connectivity. Vumatel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
@@ -1614,6 +1408,248 @@
             }
           ],
           "suburbs": []
+        },
+        {
+          "id": 18521,
+          "title": "Metrofibre outage | Booysens",
+          "description": "Metrofibre has informed us of a network outage affecting Booysens, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Booysens, Booysens, Johannesburg South have been restored. \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-11-25 19:29:10",
+          "should_notify": 0,
+          "created_at": "2026-11-25 12:30:55",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18521,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 8,
+              "name": "Johannesburg",
+              "slug": "johannesburg",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 1553,
+              "name": "Booysens",
+              "slug": "booysens-1",
+              "city_id": 8
+            }
+          ]
+        },
+        {
+          "id": 18523,
+          "title": "Evotel outage | Verulam",
+          "description": "Evotel has informed us of a network outage affecting Verulam, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Outage resolved",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-11-25 18:24:17",
+          "should_notify": 0,
+          "created_at": "2026-11-25 14:56:50",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18523,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            }
+          ],
+          "cities": [
+            {
+              "id": 98,
+              "name": "Verulam",
+              "slug": "verulam",
+              "province_id": 2
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 18528,
+          "title": "Metrofibre outage | Centurion",
+          "description": "Metrofibre has informed us of a network outage affecting Centurion, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
+          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in Centurion have been restored. \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-11-25 19:28:16",
+          "should_notify": 0,
+          "created_at": "2026-11-25 18:35:40",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18528,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 43,
+              "name": "Centurion",
+              "slug": "centurion",
+              "province_id": 1
+            }
+          ],
+          "suburbs": []
+        },
+        {
+          "id": 18529,
+          "title": "Metrofibre | Lonehill",
+          "description": "Metrofibre has informed us of a network outage affecting Lonehill, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 3,
+          "expires_at": null,
+          "resolved_at": "2026-11-25 20:56:54",
+          "should_notify": 0,
+          "created_at": "2026-11-25 20:48:27",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
+          },
+          "categories": [
+            {
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18529,
+                "category_id": 9
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [
+            {
+              "id": 16,
+              "name": "Sandton",
+              "slug": "sandton",
+              "province_id": 1
+            }
+          ],
+          "suburbs": [
+            {
+              "id": 60,
+              "name": "Lonehill",
+              "slug": "lonehill",
+              "city_id": 16
+            }
+          ]
         },
         {
           "id": 18518,
