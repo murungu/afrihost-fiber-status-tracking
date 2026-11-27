@@ -71,70 +71,6 @@
           ]
         },
         {
-          "id": 18538,
-          "title": "Metrofibre outage | South Crest",
-          "description": "Metrofibre has informed us of a network outage affecting South Crest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
-          "resolution": null,
-          "product_id": 2,
-          "impact_id": 3,
-          "expires_at": null,
-          "resolved_at": null,
-          "should_notify": 0,
-          "created_at": "2026-11-26 12:44:50",
-          "product": {
-            "id": 2,
-            "name": "Fibre",
-            "slug": "fibre-broadband",
-            "sort_order": 2,
-            "description": null,
-            "has_location": 1
-          },
-          "impact": {
-            "id": 3,
-            "name": "Medium Impact",
-            "slug": "medium-impact",
-            "description": "A few problems",
-            "order": 2
-          },
-          "categories": [
-            {
-              "id": 9,
-              "name": "MetroFibre",
-              "slug": "metrofibre",
-              "product_id": 2,
-              "deleted_at": null,
-              "pivot": {
-                "notice_id": 18538,
-                "category_id": 9
-              }
-            }
-          ],
-          "updates": [],
-          "provinces": [
-            {
-              "id": 1,
-              "name": "Gauteng",
-              "slug": "gauteng"
-            }
-          ],
-          "cities": [
-            {
-              "id": 21,
-              "name": "Alberton",
-              "slug": "alberton",
-              "province_id": 1
-            }
-          ],
-          "suburbs": [
-            {
-              "id": 346,
-              "name": "South Crest",
-              "slug": "south-crest",
-              "city_id": 21
-            }
-          ]
-        },
-        {
           "id": 18537,
           "title": "Evotel outage | Rustenburg",
           "description": "Evotel has informed us of a network outage affecting Rustenburg, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
@@ -590,6 +526,61 @@
               "city_id": 33
             }
           ]
+        },
+        {
+          "id": 18540,
+          "title": "Zoomfibre Maintenance | KwaZulu-Natal and Gauteng",
+          "description": "Zoomfibre is conducting an emergency maintenance in KwaZulu-Natal and Gauteng, users affected will experience interrupted  connectivity during the maintenance window. We apologize for any inconvenience caused",
+          "resolution": null,
+          "product_id": 2,
+          "impact_id": 1,
+          "expires_at": null,
+          "resolved_at": null,
+          "should_notify": 0,
+          "created_at": "2026-11-27 09:51:25",
+          "product": {
+            "id": 2,
+            "name": "Fibre",
+            "slug": "fibre-broadband",
+            "sort_order": 2,
+            "description": null,
+            "has_location": 1
+          },
+          "impact": {
+            "id": 1,
+            "name": "Maintenance",
+            "slug": "maintenance",
+            "description": "Maintenance",
+            "order": 0
+          },
+          "categories": [
+            {
+              "id": 32,
+              "name": "Zoom Fibre",
+              "slug": "zoom-fibre",
+              "product_id": 2,
+              "deleted_at": null,
+              "pivot": {
+                "notice_id": 18540,
+                "category_id": 32
+              }
+            }
+          ],
+          "updates": [],
+          "provinces": [
+            {
+              "id": 2,
+              "name": "KwaZulu-Natal",
+              "slug": "kwazulu-natal"
+            },
+            {
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
+            }
+          ],
+          "cities": [],
+          "suburbs": []
         },
         {
           "id": 18536,
@@ -1734,16 +1725,16 @@
           ]
         },
         {
-          "id": 18518,
-          "title": "Evotel Outage | Tongaat",
-          "description": "Evotel has informed us of a network outage affecting Tongaat, affected clients will experience packet loss or intermittent connectivity. Evotel engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused.",
-          "resolution": "Service has been restored",
+          "id": 18538,
+          "title": "Metrofibre outage | South Crest",
+          "description": "Metrofibre has informed us of a network outage affecting South Crest, affected clients will experience limited to no connectivity. Metrofibre engineers are working on resolving this issue as soon as possible. We sincerely apologize for any inconvenience caused",
+          "resolution": "Dear Valued Business Partner,\n\nPlease note that the fibre services in South Crest Free Standing Houses, South Crest, Alberton, Johannesburg have been restored. \n\nPlease contact your Dedicated Key Account Agent if you have any further queries or your client/s are still experiencing connectivity issues in the restored area.",
           "product_id": 2,
-          "impact_id": 2,
+          "impact_id": 3,
           "expires_at": null,
-          "resolved_at": "2026-11-25 08:19:28",
+          "resolved_at": "2026-11-27 08:57:40",
           "should_notify": 0,
-          "created_at": "2026-11-24 17:03:45",
+          "created_at": "2026-11-26 12:44:50",
           "product": {
             "id": 2,
             "name": "Fibre",
@@ -1753,42 +1744,49 @@
             "has_location": 1
           },
           "impact": {
-            "id": 2,
-            "name": "Low Impact",
-            "slug": "low-impact",
-            "description": "Minor problems",
-            "order": 1
+            "id": 3,
+            "name": "Medium Impact",
+            "slug": "medium-impact",
+            "description": "A few problems",
+            "order": 2
           },
           "categories": [
             {
-              "id": 6,
-              "name": "Evotel",
-              "slug": "evotel",
+              "id": 9,
+              "name": "MetroFibre",
+              "slug": "metrofibre",
               "product_id": 2,
               "deleted_at": null,
               "pivot": {
-                "notice_id": 18518,
-                "category_id": 6
+                "notice_id": 18538,
+                "category_id": 9
               }
             }
           ],
           "updates": [],
           "provinces": [
             {
-              "id": 2,
-              "name": "KwaZulu-Natal",
-              "slug": "kwazulu-natal"
+              "id": 1,
+              "name": "Gauteng",
+              "slug": "gauteng"
             }
           ],
           "cities": [
             {
-              "id": 175,
-              "name": "Tongaat",
-              "slug": "tongaat",
-              "province_id": 2
+              "id": 21,
+              "name": "Alberton",
+              "slug": "alberton",
+              "province_id": 1
             }
           ],
-          "suburbs": []
+          "suburbs": [
+            {
+              "id": 346,
+              "name": "South Crest",
+              "slug": "south-crest",
+              "city_id": 21
+            }
+          ]
         }
       ]
     },
